@@ -4,7 +4,8 @@
 
 Checks every tracked file (or, outside a git checkout such as an exported snapshot, every file under ROOT) for:
 - absolute home paths and machine temp paths (/Users/<name>, /home/<name>, C:\\Users, ~/ paths, /private/var, ...);
-- user names: the project's known personal names, plus this machine's git user name, git e-mail and login name;
+- user names: the project's known personal names, plus this machine's git user name, git e-mail and login name
+  (words of 4+ letters that are not ordinary account or code words: a build machine's login `root` is not a name);
 - session ids: bare UUIDs (ledger ids such as tsk_<uuid> are allowed: the reports list delegations on purpose);
 - personal e-mail addresses (example.com / example.internal / noreply addresses are allowed);
 - vendor and model names (the external models and agent tools used while building kb-core).
@@ -68,6 +69,11 @@ PATTERNS = [
 # e-mail-shaped text allowed: placeholder domains (also user@host in example DSNs) and no-reply senders
 ALLOWED_DOMAINS = re.compile(r"(?:^|\.)example\.(?:com|org|net|internal|invalid)$")
 WORD = re.compile(r"[a-z]+")                     # letters only: "qwen3" and "gpt4o" give "qwen", "gpt"
+# ordinary account names and words that machine logins and git user names often are; never treated as personal names
+COMMON_ACCOUNT_WORDS = {"root", "admin", "administrator", "user", "users", "builder", "build", "ubuntu", "debian",
+                        "centos", "runner", "jenkins", "vagrant", "guest", "test", "tester", "deploy", "service",
+                        "docker", "github", "gitlab", "your", "name", "noreply", "mail", "email", "local", "home",
+                        "node", "data", "postgres", "nobody", "worker", "vscode", "codespace"}
 
 
 def _h(word: str) -> str:
@@ -75,7 +81,8 @@ def _h(word: str) -> str:
 
 
 def local_words() -> set[str]:
-    """This machine's git user name, git e-mail (local part) and login name, as hashed words of 3+ letters."""
+    """This machine's git user name, git e-mail (local part) and login name, as hashed words of 4+ letters that are
+    not ordinary account or code words."""
     words = set()
     for key in ("user.name", "user.email"):
         out = subprocess.run(["git", "config", key], capture_output=True, text=True).stdout.strip().lower()
@@ -84,7 +91,7 @@ def local_words() -> set[str]:
         words |= set(WORD.findall(getpass.getuser().lower()))
     except Exception:
         pass
-    return {_h(w) for w in words if len(w) >= 3}
+    return {_h(w) for w in words if len(w) >= 4 and w not in COMMON_ACCOUNT_WORDS}
 
 
 def files(root: Path) -> list[Path]:

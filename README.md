@@ -1,3 +1,5 @@
+> Generated from kb-core 7a42359f1169cab4089a56e1d17b9bc5df2d1ae8; do not open PRs here; install: docs/deploy.md
+
 # kb-core
 
 Interpretation, retrieval and agent layer downstream of kb-intake.
@@ -26,5 +28,5 @@ uv run kb-core doctor
 ```
 
 Tests: `uv run pytest`. The integration tests run when `KB_CORE_TEST_PG_DSN`, `KB_CORE_TEST_ES_URL` (and optionally
-`KB_CORE_TEST_ES7_URL`) point at a throwaway database and clusters (docs/deploy.md section 7). The web UI is built
+`KB_CORE_TEST_ES7_URL`) point at a throwaway database and clusters (docs/deploy.md section 8). The web UI is built
 with `cd web && npm ci && npm run build` (development only; the built UI is committed and served by the package).

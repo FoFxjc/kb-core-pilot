@@ -4,7 +4,8 @@
 #
 #   1. read .env (KB_CORE_* only; variables already set in the environment win)
 #   2. a Python 3.12 virtual environment in ./.venv (uv when available, else python3.12 -m venv)
-#   3. pip install -c constraints.txt .   (from your pip index, e.g. the internal mirror)
+#   3. pip install -c constraints.txt -e .   (from your pip index, e.g. the internal mirror; editable, so config/,
+#      domains/ and eval/ in this folder are the ones kb-core reads)
 #   4. kb-core migrate, then kb-core doctor
 #
 # Exit code 0 when kb-core is ready, 1 otherwise; every failure says why and what to do.
@@ -52,11 +53,11 @@ fi
 .venv/bin/python -c 'import sys; assert sys.version_info[:2] == (3, 12)' || fail ".venv is not Python 3.12" "remove .venv and run again"
 ok "$(.venv/bin/python --version)"
 
-step "3/4 install (pip install -c constraints.txt .)"
+step "3/4 install (pip install -c constraints.txt -e .)"
 if command -v uv >/dev/null; then
-  uv pip install --python .venv/bin/python -q -c constraints.txt . || fail "install failed" "check PIP_INDEX_URL / network"
+  uv pip install --python .venv/bin/python -q -c constraints.txt -e . || fail "install failed" "check PIP_INDEX_URL / network"
 else
-  .venv/bin/python -m pip install -q -c constraints.txt . || fail "install failed" "check PIP_INDEX_URL / network"
+  .venv/bin/python -m pip install -q -c constraints.txt -e . || fail "install failed" "check PIP_INDEX_URL / network"
 fi
 ok "kb-core installed"
 

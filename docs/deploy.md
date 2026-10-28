@@ -46,7 +46,7 @@ No Docker, no Node.js and no compiler on the server: it installs wheels only.
 ```bash
 cd /srv/kb-core                     # the source folder, or any folder holding .env
 cp .env.example .env                # fill it in; keep it readable by the service user only (chmod 600)
-./setup.sh                          # .venv, install (pip -c constraints.txt), kb-core migrate, kb-core doctor
+./setup.sh                          # .venv, editable install (pip -c constraints.txt -e .), migrate, doctor
 .venv/bin/kb-core import            # every package in KB_CORE_DELIVERY_DIR (idempotent)
 .venv/bin/kb-core build --all       # tree, sections, chunks, tables, concepts, observations
 .venv/bin/kb-core facts             # the fact layer
@@ -55,8 +55,11 @@ cp .env.example .env                # fill it in; keep it readable by the servic
 .venv/bin/kb-core serve             # refuses to start when doctor fails or the indexes are missing
 ```
 
-With a wheel install (section 2) there is no `setup.sh`: run `kb-core migrate`, then the same commands, from the folder
-that holds `.env` (or with the settings in the service environment).
+`setup.sh` installs kb-core editable, so kb-core reads `config/`, `domains/` and `eval/` from this folder: edit
+`config/access_role_map.yaml` here and restart. With a wheel install (section 2) there is no `setup.sh`: run
+`kb-core migrate`, then the same commands, from the folder that holds `.env` (or with the settings in the service
+environment). A wheel carries its own copy of `config/` and `domains/` and no `eval/`: point `KB_CORE_ACCESS_ROLE_MAP`
+(and the other `KB_CORE_ACCESS_*` settings) at files outside the package, and run evaluations from a source folder.
 
 `KB_CORE_ENV=production` refuses to start with auth mode `none`, with the test clock (`KB_CORE_NOW`,
 `KB_CORE_ALLOW_CLOCK_OVERRIDE`) set, or with a model key variable outside `KB_CORE_*`. Development without identity
@@ -201,7 +204,31 @@ session, model, duration, finish reason, error and token counts; never the key o
 environment file and restart the service; settings are read once at start. To switch without editing the old
 variable, add the new key under a new `KB_CORE_*` name, point `*_API_KEY_VAR` at it, restart, then remove the old one.
 
-## 7. Integration tests against your own stores
+## 7. Releasing a pilot
+
+Development happens in kb-core. The pilot repository (`kb-core-pilot`, next to kb-core on the same host) only
+receives snapshots: one commit per release, never kb-core's history. Company machines download its `main` zip
+(`https://github.com/<owner>/kb-core-pilot/archive/refs/heads/main.zip`) and install it as in sections 2 and 3.
+
+```bash
+# bump `version` in pyproject.toml and merge to main first
+scripts/release_pilot.sh 0.2.1                 # releases origin/main; a second argument picks another commit
+```
+
+The script exports the commit with `git archive` (files marked `export-ignore` in `.gitattributes` stay out). It
+stops if the version is already in the pilot repository (and exits 0 if that commit is already the latest release),
+if the export holds a file that looks like a secret (`.env`, `*.pem`, `*.key`, ...) or if `scripts/check_clean.py`
+finds anything in it. It builds the wheel set from it and imports `kb_core` from a
+fresh virtual environment, puts a "Generated from kb-core <sha>" note at the top of the export's `README.md`, and
+commits the export to a fresh clone of the pilot repository as `kb-core pilot <version> (snapshot of kb-core <sha>)`,
+replacing every file. It pushes, downloads the zip and prints the pilot commit, the zip URL and the zip's SHA-256:
+give that hash to the people who install it. It needs Python 3.12 (`PYTHON=/path/to/python3.12` to pick one), a pip
+index and push access to the pilot repository; `PILOT_REMOTE=/path/to/bare.git` runs it against a local copy instead
+(no zip and no hash then: they exist only for a GitHub remote). If GitHub has not served the new zip within a minute,
+the script says so after the push: download the zip later and hash it yourself.
+Never commit `.env` or any key: the export holds tracked files only.
+
+## 8. Integration tests against your own stores
 
 The test suite runs without stores; the integration tests run when these point at a throwaway Postgres database and
 Elasticsearch clusters (they create and delete their own `kbtest_` indexes and tables):

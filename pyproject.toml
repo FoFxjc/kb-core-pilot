@@ -1,6 +1,6 @@
 [project]
 name = "kb-core"
-version = "0.1.0"
+version = "0.2.1"
 description = "Interpretation, retrieval and agent layer over kb-intake delivery packages (Postgres + Elasticsearch)"
 readme = "README.md"
 requires-python = "==3.12.*"

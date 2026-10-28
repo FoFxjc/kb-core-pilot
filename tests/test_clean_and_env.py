@@ -73,3 +73,36 @@ def test_check_clean_catches_glued_model_names_and_escaped_windows_paths(tmp_pat
     lines = ["q" + "wen3-32b", "gp" + "t4o", "Deep" + "SeekV3", "son" + "net", "co" + "dex", "C:" + "\\\\Users" + "\\\\bob"]
     (tmp_path / "b.md").write_text("\n".join(lines) + "\n")
     assert len(check_clean.findings(tmp_path)) == len(lines)
+
+
+def _check_clean():
+    sys.path.insert(0, str(ROOT / "scripts"))
+    try:
+        import check_clean
+    finally:
+        sys.path.pop(0)
+    return check_clean
+
+
+def test_common_login_names_are_not_denied(monkeypatch):
+    """A machine whose login is an ordinary word (root on a build server) must not flag `#root` or root nodes."""
+    check_clean = _check_clean()
+    monkeypatch.setattr(check_clean.getpass, "getuser", lambda: "root")
+    assert check_clean.findings(ROOT) == []
+
+
+def test_distinctive_login_names_are_still_denied(monkeypatch, tmp_path):
+    check_clean = _check_clean()
+    login = "zq" + "vwxlogin"                      # built so this file stays clean itself
+    monkeypatch.setattr(check_clean.getpass, "getuser", lambda: login)
+    (tmp_path / "a.md").write_text(f"owner: {login}\nthe root node\n")
+    assert [f.split(": ", 1)[1] for f in check_clean.findings(tmp_path)] == ["personal or vendor name"]
+
+
+def test_setup_installs_the_folder_editable():
+    """setup.sh must install kb-core editable: a copy in .venv would read config/, domains/ and eval/ from
+    site-packages, so edits to config/access_role_map.yaml in the install folder would do nothing and
+    `kb-core eval` would find no question sets."""
+    lines = [l for l in (ROOT / "setup.sh").read_text().splitlines()
+             if l.strip().startswith(("uv pip install", ".venv/bin/python -m pip install"))]
+    assert len(lines) == 2 and all("-e ." in l for l in lines), lines

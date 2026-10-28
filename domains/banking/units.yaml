@@ -1,0 +1,27 @@
+# Unit and currency rules (banking domain; reporting currency is SGD; D44). Previously in pipeline/facts.py, pipeline/build.py, service/facts.py, service/checks.py.
+amount_unit: SGD
+# Unit spellings in table section rows and headers -> (unit, multiplier); first match in order wins
+patterns:
+  - {pattern: "cents|\\(分\\)|股息\\s*\\(分\\)", ignore_case: true, unit: SGD, scale: "0.01"}
+  - {pattern: "\\$\\s*billion|十亿", ignore_case: true, unit: SGD, scale: "1000000000"}
+  - {pattern: "\\$\\s*million|百万新元|百万元", ignore_case: true, unit: SGD, scale: "1000000"}
+  - {pattern: "\\(\\s*%\\s*\\)|\\(\\s*％\\s*\\)|比率\\s*\\(%\\)", ignore_case: true, unit: pct, scale: "1"}
+  - {pattern: "\\btimes\\b|倍数", ignore_case: true, unit: times, scale: "1"}
+  - {pattern: "\\(\\s*\\$\\s*\\)|\\(\\s*元\\s*\\)|\\(\\s*新元\\s*\\)", unit: SGD, scale: "1"}
+row_unit: "cents|分|times|倍数"                                  # when the row label carries its own unit (Dividend(cents)), the row wins
+row_unit_strip: "\\(\\s*(?:cents|times|分|倍数)\\s*\\)"          # unit parenthetical stripped before concept matching
+skip_units: [times]                                              # multiples (times) are not extracted
+table_unit_hint: "(\\$\\s*(?:million|billion|’000|'000)|百万(?:新)?元|千元|十亿元|%)"
+display: {currency_prefix: "S$", minor_unit: cents}             # display for get_metric_series: S$7,587m, 99.0 cents
+currency_check:                                                  # answer check C5
+  reporting: "S\\$|SGD|新元|新加坡元|\\$|(?<![美港欧日澳加])元"     # the Chinese edition writes "亿元 / 万元", meaning SGD
+  foreign: "美元|美金|US\\$|USD|U\\.S\\.\\s*dollars?|US\\s+dollars?"
+  reporting_name: 新元
+  reporting_writings: "$ / S$ / 新元 / 元"
+  foreign_name: 美元
+# --- added by kb-core (table interpretation, design §3.2) ---
+cells:
+  nil: ["-", "–", "—", "n.m.", "nm", "n.a.", "na", "n/a", "*", "--"]   # no value (compared case-insensitively)
+  currency: "S\\$|US\\$|\\$|SGD"                                        # a currency sign before the number
+  suffix: {m: 6, mn: 6, million: 6, bn: 9, b: 9, billion: 9, k: 3, "'000": 3, "’000": 3}
+  indent_step_pt: 4                                                    # label indents closer than this are one level

@@ -1,0 +1,176 @@
+doc_id: ocbc-group_ar_2025_zh
+purpose: re-judge nodes that changed after the W1 round-4 fixes
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2025_zh:regions:0263
+  title: 信贷减损客户贷款的准备金
+  origin: heading
+  pages:
+  - 74
+  - 74
+  printed_pages:
+  - '72'
+  - '72'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0262
+    title: 2.21.1 金融资产的减损
+    pages:
+    - 74
+    - 74
+  start_page_text: '2. 重大会计政策资讯摘要 (续) 2.19 每股盈利 集团对其普通股呈现其每股基本与稀释盈利数据。每股基本盈利 的计算法，是将可归属银行普通股股东的盈利或亏损除以本年度 流通普通股的加权平均数目，并按本身持有的股票作出调整。每
+    股稀释盈利的确定，是根据所有稀释性潜在普通股 (包括授予员 工的认股权) 效应，将可归属普通股股东的盈利或亏损及流通普 通股的加权平均数目，并按本身持有的股票作出调整。 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0219
+  title: 2.13.3 综合水平
+  origin: heading
+  pages:
+  - 67
+  - 67
+  printed_pages:
+  - '65'
+  - '65'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0215
+    title: 2.13 保险和再保险合约
+    pages:
+    - 66
+    - 72
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.1 定义和分类 (续) 所有其他保险合约及所有再保险合约均被归类为不具备直接参 与性质的合约。这些合约中一部分是根据保费分摊法
+    (PAA)模 型计量 (参阅附注2.13.7)。PAA是SFRS(I) 17的一项选择性简化 计量模型，适用于符合条件的保险及再保险合约。这个方法用 于保险覆盖期为一年或更短的保险合约，或者
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0176
+  title: 2.2.1 附属公司
+  origin: heading
+  pages:
+  - 61
+  - 61
+  printed_pages:
+  - '59'
+  - '59'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0173
+    title: 2.2 合并之基础
+    pages:
+    - 61
+    - 62
+  start_page_text: '附注是本财务报告的整体组成部份。 华侨银行有限公司董事部在2026年2月24日授权发出此财务报告。 1. 概论 华侨银行有限公司 (银行) 是在新加坡注册和设立，并在新加坡证 券交易所有限公司上市。银行注册办事处是珠烈街63号#10-00，
+    华厦东楼，新加坡邮区049514。 本合并财务报告是关于银行与其附属公司 (总称集团) 以及集团 在联号企业的权益。集团主要业务是银行、寿险、普通保险、资产 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0216
+  title: 2.13.1 定义和分类
+  origin: heading
+  pages:
+  - 66
+  - 67
+  printed_pages:
+  - '64'
+  - '65'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0215
+    title: 2.13 保险和再保险合约
+    pages:
+    - 66
+    - 72
+  start_page_text: '2. 重大会计政策资讯摘要 (续) 2.11 资产减损 (续) (I) 金融资产 (续) 2.11.4 各阶段之间的变动 (续) 集团在评估信贷风险自初始确认后是否出现显著增加的情况时 考虑了定性和定量两种参数。这包括:
+    (a) 集团同时根据整个存续期间PD相对于初始确认的相对值和 绝对值变化，为信贷风险的显著增加情况订立阈值。 (b) 集团进行定性评估，以确定信贷风险是否显著增加。 (c) 集团'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0235
+  title: 所持再保合约的净收入/(费用)
+  origin: heading
+  pages:
+  - 71
+  - 72
+  printed_pages:
+  - '69'
+  - '70'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0233
+    title: 2.13.9 来自已发出保险合约的保险服务业绩
+    pages:
+    - 71
+    - 72
+  start_page_text: '2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.8 终止确认与合约修改 (续) 若按PAA入账的保险合约终止确认，为终止确认而移除有关权利 和义务的效应所作出的相关调整，会导致以下金额立即纳入收入
+    报表中: a) 若该合约结束，原合约的LRC的终止确认部分与因结束而产 生的任何其他现金流量之间的任何净差额； b) 若合约转让给第三方，原合约的LRC的终止确认部分与'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0244
+  title: 短期租赁和低价值资产
+  origin: heading
+  pages:
+  - 72
+  - 72
+  printed_pages:
+  - '70'
+  - '70'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0241
+    title: 2.15.1 身为承租人
+    pages:
+    - 72
+    - 72
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.9 来自已发出保险合约的保险服务业绩 (续) c) 对期内所收到的服务所确认之CSM金额；及 d) 经验调整 – 来自期内收取的保费，但与未来服务有关的保费
+    除外。 对于根据PAA计量的再保合约组别，GEH集团按时间推移对一组 合约的保险覆盖期确认再保险费用。 并非或有的已发出内含合约索赔的分出佣金会降低分出保费，并
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0245
+  title: 2.15.2 身为出租人
+  origin: heading
+  pages:
+  - 73
+  - 73
+  printed_pages:
+  - '71'
+  - '71'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0240
+    title: 2.15 租赁
+    pages:
+    - 72
+    - 73
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.15 租赁 (续) 2.15.2 身为出租人 集团所拥有建筑物的出租区的租金收入是按租赁期以直线法在 收入报表中确认。所授予的租赁优惠是作为整体租金收入的一部 分按整个租赁期确认。
+    2.16 收入与支出的确认 2.16.1 利息收入与支出 利息收入或支出是采用有效利率法确认。 有效利率是对金融工具预期期限的未来现金付款或收款作出折 现至总账面价值或金融负债的
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0265
+  title: 2.21.4 商誉与其他无形资产的减损
+  origin: heading
+  pages:
+  - 76
+  - 76
+  printed_pages:
+  - '74'
+  - '74'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0255
+    title: 2.21 关键会计估计与判断
+    pages:
+    - 74
+    - 76
+  start_page_text: '2. 重大会计政策资讯摘要 (续) 2.21 关键会计估计与判断 (续) 2.21.3 保险业务 (续) GEH集团在可信情况下根据近期经验中得出死亡率和发病率的假设。若历史经验不可信，则参照业界列表、再保率或定价基准。死亡
+    率和发病率一般根据性别和吸烟状况区分保单持有人组别。 失效和退保是根据GEH集团本身可信的经验而作出的。若历史经验不可信或不可得，则参照类似产品类型的历史经验以推算出假设。 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0357
+  title: 营运风险
+  origin: heading
+  pages:
+  - 139
+  - 140
+  printed_pages:
+  - '137'
+  - '138'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0350
+    title: 38.3 市场风险与流动性风险管理
+    pages:
+    - 135
+    - 140
+  start_page_text: 38. 风险管理 (续) 38.3 市场风险与流动性风险管理 (续) 金融负债合约期限 下表按剩余合约期限分析集团的金融负债的未折现现金外流，除了交易投资组合负债是根据集团的交易策略分析。贷款承诺总额的现
+    金外流的资料列于附注43。这些负债的行为现金流量可能与表中所显示的情况有显著差异。举个例子，非银行客户的活期存款如往来 与储蓄存款 (附注17)，可能呈现比合约型态更长的行为到期特性。同样的，贷
+  verdict: wrong
+  note: 'pages: ''营运风险'' (p139 bottom) ends on p139; p140 opens with the same-level heading ''套期'' right under the running
+    header, so end should be 139, not 140.'

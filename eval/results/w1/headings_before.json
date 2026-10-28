@@ -1,0 +1,1346 @@
+{
+ "code": "main (pre-W1 tree code), built in memory from the stored packages",
+ "totals": {
+  "judged": 585,
+  "found": 362,
+  "missed": 223,
+  "missed_rate": 0.3812,
+  "extra": 72
+ },
+ "docs": [
+  {
+   "doc_id": "ocbc-group_ar_2023_en",
+   "seed": 301,
+   "pages": 40,
+   "judged": 81,
+   "found": 57,
+   "missed": [
+    {
+     "page": 18,
+     "title": "For now, and beyond"
+    },
+    {
+     "page": 84,
+     "title": "Value-At-Risk"
+    },
+    {
+     "page": 85,
+     "title": "Limits"
+    },
+    {
+     "page": 131,
+     "title": "Changes to Presentation and Disclosure"
+    },
+    {
+     "page": 131,
+     "title": "B. GEH Group – Transition"
+    },
+    {
+     "page": 146,
+     "title": "2.13.6.6 Insurance Acquisition Cash Flows"
+    },
+    {
+     "page": 146,
+     "title": "2.13.7 Measurement – Contracts Measured Under the PAA"
+    },
+    {
+     "page": 147,
+     "title": "2.13.8 Derecognition and Contract Modification"
+    },
+    {
+     "page": 148,
+     "title": "2.13.9 Insurance Service Result From Insurance Contracts Issued"
+    },
+    {
+     "page": 148,
+     "title": "Insurance Revenue"
+    },
+    {
+     "page": 148,
+     "title": "Insurance Service Expenses"
+    },
+    {
+     "page": 148,
+     "title": "Net Income/(Expenses) from Reinsurance Contracts Held"
+    },
+    {
+     "page": 163,
+     "title": "OECD Pillar Two Model Rules"
+    },
+    {
+     "page": 205,
+     "title": "Impairment Tests for Goodwill"
+    },
+    {
+     "page": 229,
+     "title": "(c) Equity Price Risk"
+    },
+    {
+     "page": 229,
+     "title": "(d) Credit Spread Risk"
+    },
+    {
+     "page": 229,
+     "title": "(e) Alternative Investment Risk"
+    },
+    {
+     "page": 229,
+     "title": "(f) Commodity Risk"
+    },
+    {
+     "page": 229,
+     "title": "(g) Liquidity Risk"
+    },
+    {
+     "page": 236,
+     "title": "Amounts Arising from ECL"
+    },
+    {
+     "page": 236,
+     "title": "Measurement of ECL – Explanation of Inputs, Assumptions and Estimation Techniques"
+    },
+    {
+     "page": 236,
+     "title": "Significant Increase in Credit Risk"
+    },
+    {
+     "page": 242,
+     "title": "Operational and Compliance Risk"
+    },
+    {
+     "page": 285,
+     "title": "Notes"
+    }
+   ],
+   "misplaced": [
+    {
+     "page": 148,
+     "title": "Insurance Revenue",
+     "node_pages": [
+      7,
+      15,
+      107
+     ]
+    },
+    {
+     "page": 148,
+     "title": "Insurance Service Expenses",
+     "node_pages": [
+      7,
+      15,
+      107
+     ]
+    }
+   ],
+   "extra": [
+    {
+     "page": 20,
+     "title": "To enable people and communities to realise their aspirations."
+    },
+    {
+     "page": 20,
+     "title": "Lasting Value"
+    },
+    {
+     "page": 20,
+     "title": "Integrity"
+    },
+    {
+     "page": 20,
+     "title": "Forward-Looking"
+    },
+    {
+     "page": 20,
+     "title": "Respect"
+    },
+    {
+     "page": 20,
+     "title": "Responsibility"
+    },
+    {
+     "page": 61,
+     "title": "Subsidiaries"
+    },
+    {
+     "page": 84,
+     "title": "Stages of Credit Risk and Expected Credit Losses"
+    },
+    {
+     "page": 84,
+     "title": "Non-Credit-Impaired"
+    },
+    {
+     "page": 84,
+     "title": "Stage 1"
+    },
+    {
+     "page": 84,
+     "title": "Stage 2"
+    },
+    {
+     "page": 84,
+     "title": "12-month ECL"
+    },
+    {
+     "page": 84,
+     "title": "Credit-Impaired"
+    },
+    {
+     "page": 85,
+     "title": "Frequency Distribution of Group Trading Book’s Daily Total VaR (One Day Holding Period) for FY 2023"
+    },
+    {
+     "page": 85,
+     "title": "Frequency Distribution of Group Trading Book's Daily Hypothetical P&L for FY 2023"
+    }
+   ],
+   "missed_rate": 0.2963
+  },
+  {
+   "doc_id": "ocbc-group_ar_2023_zh",
+   "seed": 302,
+   "pages": 40,
+   "judged": 102,
+   "found": 63,
+   "missed": [
+    {
+     "page": 20,
+     "title": "宗旨"
+    },
+    {
+     "page": 20,
+     "title": "使命"
+    },
+    {
+     "page": 29,
+     "title": "澳门"
+    },
+    {
+     "page": 29,
+     "title": "香港"
+    },
+    {
+     "page": 49,
+     "title": "风险价值"
+    },
+    {
+     "page": 57,
+     "title": "董事"
+    },
+    {
+     "page": 87,
+     "title": "2.13.5 合约界限"
+    },
+    {
+     "page": 87,
+     "title": "2.13.6 计量"
+    },
+    {
+     "page": 87,
+     "title": "2.13.6.1 计量 - 并非根据PAA计量的合约"
+    },
+    {
+     "page": 87,
+     "title": "2.13.6.2 履行合约现金流量(FCF)"
+    },
+    {
+     "page": 87,
+     "title": "2.13.6.3 合同服务边际"
+    },
+    {
+     "page": 94,
+     "title": "非金融风险的风险调整"
+    },
+    {
+     "page": 94,
+     "title": "未来现金流量的估计"
+    },
+    {
+     "page": 97,
+     "title": "来自寿险的保险服务业绩"
+    },
+    {
+     "page": 129,
+     "title": "按行业分析"
+    },
+    {
+     "page": 150,
+     "title": "最大信贷风险敞口"
+    },
+    {
+     "page": 150,
+     "title": "抵押品"
+    },
+    {
+     "page": 164,
+     "title": "非寿险合约的保险风险"
+    },
+    {
+     "page": 164,
+     "title": "关键假设"
+    },
+    {
+     "page": 165,
+     "title": "累积索赔估计与至今累积给付"
+    },
+    {
+     "page": 169,
+     "title": "(c) 股本价格风险"
+    },
+    {
+     "page": 169,
+     "title": "(d) 信贷息差风险"
+    },
+    {
+     "page": 169,
+     "title": "(e) 替代投资风险"
+    },
+    {
+     "page": 169,
+     "title": "(f) 商品期货风险"
+    },
+    {
+     "page": 169,
+     "title": "(g) 流动性风险"
+    },
+    {
+     "page": 181,
+     "title": "(j) 金融风险敏感度分析"
+    },
+    {
+     "page": 181,
+     "title": "市场风险敏感度分析"
+    },
+    {
+     "page": 198,
+     "title": "43.1 按行业分析"
+    },
+    {
+     "page": 198,
+     "title": "43.2 按地区分析"
+    },
+    {
+     "page": 199,
+     "title": "44.1 信贷承诺"
+    },
+    {
+     "page": 199,
+     "title": "44.2 其他承诺"
+    },
+    {
+     "page": 199,
+     "title": "44.3 总承诺"
+    },
+    {
+     "page": 199,
+     "title": "44.4 信贷承诺按行业分析"
+    },
+    {
+     "page": 199,
+     "title": "44.5 信贷承诺按地区分析"
+    },
+    {
+     "page": 216,
+     "title": "汶莱"
+    },
+    {
+     "page": 216,
+     "title": "印尼"
+    },
+    {
+     "page": 216,
+     "title": "缅甸"
+    },
+    {
+     "page": 216,
+     "title": "泰国"
+    },
+    {
+     "page": 216,
+     "title": "越南"
+    }
+   ],
+   "misplaced": [],
+   "extra": [
+    {
+     "page": 8,
+     "title": "主席对华侨银行未来定位的的观点"
+    },
+    {
+     "page": 10,
+     "title": "集团首席执行官的观点"
+    },
+    {
+     "page": 14,
+     "title": "展现优势"
+    },
+    {
+     "page": 20,
+     "title": "我们的宗旨、价值观和使命"
+    },
+    {
+     "page": 20,
+     "title": "助力人们和社区， 共赴心之所向。"
+    },
+    {
+     "page": 20,
+     "title": "永恒价值"
+    },
+    {
+     "page": 49,
+     "title": "信贷风险的阶段与预期信贷损失(ECL)"
+    },
+    {
+     "page": 49,
+     "title": "第一阶段"
+    },
+    {
+     "page": 49,
+     "title": "12个月ECL"
+    },
+    {
+     "page": 49,
+     "title": "非信贷减损"
+    },
+    {
+     "page": 49,
+     "title": "第三阶段"
+    },
+    {
+     "page": 49,
+     "title": "第二阶段"
+    },
+    {
+     "page": 49,
+     "title": "信贷减损"
+    }
+   ],
+   "missed_rate": 0.3824
+  },
+  {
+   "doc_id": "ocbc-group_ar_2024_en",
+   "seed": 303,
+   "pages": 40,
+   "judged": 98,
+   "found": 66,
+   "missed": [
+    {
+     "page": 11,
+     "title": "Reiterating the Value of Operating as \"One OCBC Group\""
+    },
+    {
+     "page": 56,
+     "title": "Directors’ Attendance at Board and Board Committee Meetings in 2024"
+    },
+    {
+     "page": 63,
+     "title": "Directors’ and CEO’s Remuneration in 2024"
+    },
+    {
+     "page": 111,
+     "title": "Directors"
+    },
+    {
+     "page": 132,
+     "title": "2.2.1 Subsidiaries"
+    },
+    {
+     "page": 133,
+     "title": "2.2.2 Structured Entities"
+    },
+    {
+     "page": 133,
+     "title": "2.2.3 Associates and Joint Ventures"
+    },
+    {
+     "page": 140,
+     "title": "2.11.4 Movement Between Stages"
+    },
+    {
+     "page": 140,
+     "title": "2.11.5 Regulatory Requirement"
+    },
+    {
+     "page": 140,
+     "title": "(II) Other Assets"
+    },
+    {
+     "page": 140,
+     "title": "2.11.6 Goodwill"
+    },
+    {
+     "page": 141,
+     "title": "2.11.7 Investments in Subsidiaries and Associates Property, Plant and Equipment Investment Property Intangible Assets"
+    },
+    {
+     "page": 141,
+     "title": "2.13.1 Definition and Classification"
+    },
+    {
+     "page": 144,
+     "title": "2.13.6 Measurement"
+    },
+    {
+     "page": 144,
+     "title": "2.13.6.1 Measurement – Contracts Not Measured Under the PAA"
+    },
+    {
+     "page": 144,
+     "title": "2.13.6.2 Fulfilment Cash Flows (FCF)"
+    },
+    {
+     "page": 144,
+     "title": "2.13.6.3 Contractual Service Margin"
+    },
+    {
+     "page": 149,
+     "title": "Net Income/(Expenses) from Reinsurance Contracts Held"
+    },
+    {
+     "page": 149,
+     "title": "Insurance Finance Income or Expenses"
+    },
+    {
+     "page": 151,
+     "title": "Lease Liabilities"
+    },
+    {
+     "page": 151,
+     "title": "Short-Term Leases and Low-Value Assets"
+    },
+    {
+     "page": 151,
+     "title": "2.15.2 As Lessor"
+    },
+    {
+     "page": 151,
+     "title": "2.16.1 Interest Income and Expense"
+    },
+    {
+     "page": 151,
+     "title": "2.16.2 Fees and Commissions"
+    },
+    {
+     "page": 151,
+     "title": "2.16.3 Dividends"
+    },
+    {
+     "page": 151,
+     "title": "2.16.4 Employee Benefits"
+    },
+    {
+     "page": 204,
+     "title": "Impairment Tests for Goodwill"
+    },
+    {
+     "page": 210,
+     "title": "Analysed by Geography"
+    },
+    {
+     "page": 212,
+     "title": "Loans Past Due But Not Impaired"
+    },
+    {
+     "page": 212,
+     "title": "Collateral and Other Credit Enhancements Obtained"
+    },
+    {
+     "page": 212,
+     "title": "Country Risk"
+    },
+    {
+     "page": 212,
+     "title": "Interest Rate Risk"
+    }
+   ],
+   "misplaced": [
+    {
+     "page": 111,
+     "title": "Directors",
+     "node_pages": [
+      111,
+      112
+     ]
+    },
+    {
+     "page": 149,
+     "title": "Insurance Finance Income or Expenses",
+     "node_pages": [
+      5,
+      9,
+      109
+     ]
+    },
+    {
+     "page": 212,
+     "title": "Interest Rate Risk",
+     "node_pages": [
+      88
+     ]
+    }
+   ],
+   "extra": [
+    {
+     "page": 11,
+     "title": "Record Total Income"
+    },
+    {
+     "page": 11,
+     "title": "Reiterating the Value of Operating as “One OCBC Group”"
+    },
+    {
+     "page": 63,
+     "title": "Subsidiaries"
+    },
+    {
+     "page": 81,
+     "title": "Board Governance"
+    },
+    {
+     "page": 81,
+     "title": "Senior Management"
+    },
+    {
+     "page": 81,
+     "title": "Senior Management Committees"
+    },
+    {
+     "page": 81,
+     "title": "Risk and Control Oversight"
+    },
+    {
+     "page": 81,
+     "title": "Independent Assurance"
+    },
+    {
+     "page": 111,
+     "title": "Financial Statements"
+    },
+    {
+     "page": 269,
+     "title": "OCBC Board Committee Served On"
+    }
+   ],
+   "missed_rate": 0.3265
+  },
+  {
+   "doc_id": "ocbc-group_ar_2024_zh",
+   "seed": 304,
+   "pages": 40,
+   "judged": 78,
+   "found": 42,
+   "missed": [
+    {
+     "page": 15,
+     "title": "集团一体，合力共赢"
+    },
+    {
+     "page": 59,
+     "title": "2.2.1 附属公司"
+    },
+    {
+     "page": 59,
+     "title": "2.2.2 结构化实体"
+    },
+    {
+     "page": 59,
+     "title": "2.2.3 联营企业与合资企业"
+    },
+    {
+     "page": 60,
+     "title": "2.2.4 银行在附属公司、联号企业与合资企业的投资"
+    },
+    {
+     "page": 60,
+     "title": "2.3.1 外币交易"
+    },
+    {
+     "page": 60,
+     "title": "2.3.2 海外业务"
+    },
+    {
+     "page": 60,
+     "title": "2.5.1 确认"
+    },
+    {
+     "page": 60,
+     "title": "2.5.2 终止确认"
+    },
+    {
+     "page": 60,
+     "title": "2.5.3 修订"
+    },
+    {
+     "page": 60,
+     "title": "利率基准改革 (IBOR改革)"
+    },
+    {
+     "page": 63,
+     "title": "2.10.1 商誉"
+    },
+    {
+     "page": 63,
+     "title": "2.10.2 无形资产"
+    },
+    {
+     "page": 63,
+     "title": "(I) 金融资产"
+    },
+    {
+     "page": 63,
+     "title": "2.11.1 范围"
+    },
+    {
+     "page": 63,
+     "title": "2.11.2 预期信贷损失减损模型"
+    },
+    {
+     "page": 63,
+     "title": "2.11.3 计量"
+    },
+    {
+     "page": 68,
+     "title": "2.13.6.5 再保险合约"
+    },
+    {
+     "page": 68,
+     "title": "2.13.6.6 保险获取现金流量"
+    },
+    {
+     "page": 68,
+     "title": "2.13.7 计量 – 根据PAA计量的合约"
+    },
+    {
+     "page": 69,
+     "title": "2.13.8 终止确认与合约修改"
+    },
+    {
+     "page": 75,
+     "title": "保险覆盖单位"
+    },
+    {
+     "page": 75,
+     "title": "2.21.4 商誉与其他无形资产的减损"
+    },
+    {
+     "page": 75,
+     "title": "2.21.5 所得税"
+    },
+    {
+     "page": 77,
+     "title": "来自寿险的净投资与金融收入/(支出)"
+    },
+    {
+     "page": 82,
+     "title": "支柱2模型规则"
+    },
+    {
+     "page": 129,
+     "title": "最大信贷风险敞口"
+    },
+    {
+     "page": 129,
+     "title": "抵押品"
+    },
+    {
+     "page": 133,
+     "title": "货币风险"
+    },
+    {
+     "page": 133,
+     "title": "结构性外汇风险"
+    },
+    {
+     "page": 145,
+     "title": "市场、信贷与流动性风险"
+    },
+    {
+     "page": 150,
+     "title": "获要求时即需支付数额"
+    },
+    {
+     "page": 155,
+     "title": "由ECL所产生的数额"
+    },
+    {
+     "page": 155,
+     "title": "ECL的测量 – 输入值、假设与估计技术的解释"
+    },
+    {
+     "page": 155,
+     "title": "信贷风险的显著增加"
+    },
+    {
+     "page": 174,
+     "title": "等级3非金融资产的变动"
+    }
+   ],
+   "misplaced": [
+    {
+     "page": 15,
+     "title": "集团一体，合力共赢",
+     "node_pages": [
+      4
+     ]
+    }
+   ],
+   "extra": [
+    {
+     "page": 13,
+     "title": "新加坡最强大银行，亚太区最强大银行名列第5及全球最强大银行名列第10"
+    },
+    {
+     "page": 13,
+     "title": "年度最佳银行 – 亚太区、 印尼和马来西亚"
+    },
+    {
+     "page": 13,
+     "title": "数码财富规划最佳私人银行– 新加坡银行"
+    },
+    {
+     "page": 13,
+     "title": "最佳零售银行– 东南亚和新加坡"
+    },
+    {
+     "page": 13,
+     "title": "年度最佳中国国际贸易金融银行"
+    },
+    {
+     "page": 13,
+     "title": "最佳风险管理(大型公司 – 金奖)"
+    },
+    {
+     "page": 13,
+     "title": "年度最佳教育保险计划"
+    },
+    {
+     "page": 13,
+     "title": "最佳保险资产管理公司"
+    },
+    {
+     "page": 23,
+     "title": "可持续增长"
+    },
+    {
+     "page": 23,
+     "title": "推动增长"
+    },
+    {
+     "page": 23,
+     "title": "着重四大增长重点以争取区域贸易、投资和财富流动"
+    },
+    {
+     "page": 23,
+     "title": "增强实力"
+    },
+    {
+     "page": 23,
+     "title": "加速变革、数码化及员工资产的投资"
+    },
+    {
+     "page": 36,
+     "title": "财务报告 (intro)"
+    },
+    {
+     "page": 48,
+     "title": "商誉减损"
+    },
+    {
+     "page": 199,
+     "title": "注册办事处"
+    },
+    {
+     "page": 199,
+     "title": "股票注册办事处"
+    },
+    {
+     "page": 199,
+     "title": "审计师"
+    },
+    {
+     "page": 199,
+     "title": "负责审核工作的合伙人"
+    },
+    {
+     "page": 199,
+     "title": "投资者关系"
+    }
+   ],
+   "missed_rate": 0.4615
+  },
+  {
+   "doc_id": "ocbc-group_ar_2025_en",
+   "seed": 305,
+   "pages": 40,
+   "judged": 129,
+   "found": 88,
+   "missed": [
+    {
+     "page": 31,
+     "title": "Macau"
+    },
+    {
+     "page": 67,
+     "title": "Valuation of financial instruments measured at fair value – Levels 2 and 3"
+    },
+    {
+     "page": 76,
+     "title": "1. Interested Person Transactions"
+    },
+    {
+     "page": 76,
+     "title": "2. Material Contracts"
+    },
+    {
+     "page": 76,
+     "title": "3. Appointment of Auditor"
+    },
+    {
+     "page": 91,
+     "title": "Measures"
+    },
+    {
+     "page": 91,
+     "title": "Stress Testing and Scenario Analysis"
+    },
+    {
+     "page": 91,
+     "title": "Limits"
+    },
+    {
+     "page": 94,
+     "title": "Incident Response and Crisis Management"
+    },
+    {
+     "page": 95,
+     "title": "Preventive, Detective and Response Capabilities"
+    },
+    {
+     "page": 95,
+     "title": "Incident Response and Crisis Management"
+    },
+    {
+     "page": 134,
+     "title": "2.3.1 Foreign Currency Transactions"
+    },
+    {
+     "page": 134,
+     "title": "2.3.2 Foreign Operations"
+    },
+    {
+     "page": 134,
+     "title": "2.5.1 Recognition"
+    },
+    {
+     "page": 134,
+     "title": "2.5.2 Derecognition"
+    },
+    {
+     "page": 134,
+     "title": "2.5.3 Modifications"
+    },
+    {
+     "page": 134,
+     "title": "2.5.4 Offsetting"
+    },
+    {
+     "page": 134,
+     "title": "2.5.5 Sale and Repurchase Agreements (Including Securities Lending and Borrowing)"
+    },
+    {
+     "page": 138,
+     "title": "2.10.1 Goodwill"
+    },
+    {
+     "page": 138,
+     "title": "2.10.2 Intangible Assets"
+    },
+    {
+     "page": 138,
+     "title": "(I) Financial Assets"
+    },
+    {
+     "page": 138,
+     "title": "2.11.1 Scope"
+    },
+    {
+     "page": 138,
+     "title": "2.11.2 Expected Credit Loss Impairment Model"
+    },
+    {
+     "page": 138,
+     "title": "2.11.3 Measurement"
+    },
+    {
+     "page": 144,
+     "title": "2.13.6.2 Fulfilment Cash Flows (FCF)"
+    },
+    {
+     "page": 144,
+     "title": "2.13.6.3 Contractual Service Margin"
+    },
+    {
+     "page": 144,
+     "title": "2.13.6.4 Subsequent Measurement – Contracts Not Measured Under the PAA"
+    },
+    {
+     "page": 145,
+     "title": "2.13.6.5 Reinsurance Contracts"
+    },
+    {
+     "page": 146,
+     "title": "2.13.6.6 Insurance Acquisition Cash Flows"
+    },
+    {
+     "page": 146,
+     "title": "2.13.7 Measurement – Contracts Measured Under the PAA"
+    },
+    {
+     "page": 156,
+     "title": "Insurance Service Results from Life Insurance"
+    },
+    {
+     "page": 221,
+     "title": "Capital Management"
+    },
+    {
+     "page": 221,
+     "title": "Regulatory Capital"
+    },
+    {
+     "page": 227,
+     "title": "(c) Equity Price Risk"
+    },
+    {
+     "page": 227,
+     "title": "(d) Credit Spread Risk"
+    },
+    {
+     "page": 227,
+     "title": "(e) Alternative Investment Risk"
+    },
+    {
+     "page": 227,
+     "title": "(f) Commodity Risk"
+    },
+    {
+     "page": 227,
+     "title": "(g) Liquidity Risk"
+    },
+    {
+     "page": 233,
+     "title": "(j) Sensitivity Analysis on Financial Risks"
+    },
+    {
+     "page": 233,
+     "title": "Market Risk Sensitivity Analysis"
+    },
+    {
+     "page": 245,
+     "title": "Movements in Level 3 Financial Liabilities"
+    }
+   ],
+   "misplaced": [
+    {
+     "page": 31,
+     "title": "Macau",
+     "node_pages": [
+      29,
+      33
+     ]
+    },
+    {
+     "page": 156,
+     "title": "Insurance Service Results from Life Insurance",
+     "node_pages": [
+      7,
+      109
+     ]
+    },
+    {
+     "page": 221,
+     "title": "Capital Management",
+     "node_pages": [
+      77
+     ]
+    }
+   ],
+   "extra": [
+    {
+     "page": 9,
+     "title": "Record Total Income $14.6 billion 1%"
+    },
+    {
+     "page": 9,
+     "title": "Record Profit Before Tax $9.12 billion 2%"
+    },
+    {
+     "page": 9,
+     "title": "Resilient Net Profit $7.42 billion 2%"
+    },
+    {
+     "page": 99,
+     "title": "Overview"
+    },
+    {
+     "page": 113,
+     "title": "(a) OCBC Share Option Scheme 2001"
+    },
+    {
+     "page": 113,
+     "title": "(b) OCBC Employee Share Purchase Plan"
+    }
+   ],
+   "missed_rate": 0.3178
+  },
+  {
+   "doc_id": "ocbc-group_ar_2025_zh",
+   "seed": 306,
+   "pages": 40,
+   "judged": 97,
+   "found": 46,
+   "missed": [
+    {
+     "page": 15,
+     "title": "致谢"
+    },
+    {
+     "page": 65,
+     "title": "2.10.2 无形资产"
+    },
+    {
+     "page": 65,
+     "title": "(I) 金融资产"
+    },
+    {
+     "page": 65,
+     "title": "2.11.1 范围"
+    },
+    {
+     "page": 65,
+     "title": "2.11.2 预期信贷损失减损模型"
+    },
+    {
+     "page": 65,
+     "title": "2.11.3 计量"
+    },
+    {
+     "page": 65,
+     "title": "2.11.4 各阶段之间的变动"
+    },
+    {
+     "page": 68,
+     "title": "2.13.5 合约界限"
+    },
+    {
+     "page": 68,
+     "title": "2.13.6 计量"
+    },
+    {
+     "page": 72,
+     "title": "保险金融收入或费用"
+    },
+    {
+     "page": 72,
+     "title": "2.13.10 寿险基金资产及负债"
+    },
+    {
+     "page": 72,
+     "title": "2.15.1 身为承租人"
+    },
+    {
+     "page": 72,
+     "title": "使用权资产"
+    },
+    {
+     "page": 72,
+     "title": "租赁负债"
+    },
+    {
+     "page": 72,
+     "title": "短期租赁和低价值资产"
+    },
+    {
+     "page": 73,
+     "title": "2.15.2 身为出租人"
+    },
+    {
+     "page": 73,
+     "title": "2.16.1 利息收入与支出"
+    },
+    {
+     "page": 73,
+     "title": "2.16.2 收费和佣金"
+    },
+    {
+     "page": 73,
+     "title": "2.16.3 股息"
+    },
+    {
+     "page": 73,
+     "title": "2.16.4 员工利益"
+    },
+    {
+     "page": 111,
+     "title": "27.1 按逾期期限分析"
+    },
+    {
+     "page": 111,
+     "title": "27.2 按抵押类型分析"
+    },
+    {
+     "page": 111,
+     "title": "27.3 按行业分析"
+    },
+    {
+     "page": 111,
+     "title": "27.4 重组/重议贷款"
+    },
+    {
+     "page": 135,
+     "title": "过期但未减损的贷款"
+    },
+    {
+     "page": 135,
+     "title": "获得的抵押品与其他信用增级项目"
+    },
+    {
+     "page": 135,
+     "title": "国家风险"
+    },
+    {
+     "page": 143,
+     "title": "保险风险"
+    },
+    {
+     "page": 143,
+     "title": "寿险合约的保险风险"
+    },
+    {
+     "page": 148,
+     "title": "(c)股本价格风险"
+    },
+    {
+     "page": 148,
+     "title": "(d)信贷息差风险"
+    },
+    {
+     "page": 148,
+     "title": "(e)替代投资风险"
+    },
+    {
+     "page": 148,
+     "title": "(f)商品期货风险"
+    },
+    {
+     "page": 148,
+     "title": "(g)流动性风险"
+    },
+    {
+     "page": 153,
+     "title": "(i)集中风险"
+    },
+    {
+     "page": 154,
+     "title": "(j)金融风险敏感度分析"
+    },
+    {
+     "page": 154,
+     "title": "市场风险敏感度分析"
+    },
+    {
+     "page": 160,
+     "title": "买卖价调整"
+    },
+    {
+     "page": 160,
+     "title": "模型风险调整"
+    },
+    {
+     "page": 160,
+     "title": "第一天损益调整"
+    },
+    {
+     "page": 160,
+     "title": "信贷估价调整"
+    },
+    {
+     "page": 160,
+     "title": "抵押估价调整"
+    },
+    {
+     "page": 160,
+     "title": "参数不确定性调整"
+    },
+    {
+     "page": 170,
+     "title": "42.1 按行业分析"
+    },
+    {
+     "page": 170,
+     "title": "42.2 按地区分析"
+    },
+    {
+     "page": 171,
+     "title": "43.1 信贷承诺"
+    },
+    {
+     "page": 171,
+     "title": "43.2 其他承诺"
+    },
+    {
+     "page": 171,
+     "title": "43.3 总承诺"
+    },
+    {
+     "page": 171,
+     "title": "43.4 信贷承诺按行业分析"
+    },
+    {
+     "page": 171,
+     "title": "43.5 信贷承诺按地区分析"
+    },
+    {
+     "page": 176,
+     "title": "SFRS(I) 18财务报表的呈现与披露"
+    }
+   ],
+   "misplaced": [],
+   "extra": [
+    {
+     "page": 15,
+     "title": "陈德隆先生"
+    },
+    {
+     "page": 49,
+     "title": "以公允价值计量的金融工具的估值 – 等级2和3"
+    },
+    {
+     "page": 51,
+     "title": "寿险基金的保险合约负债的估值"
+    },
+    {
+     "page": 195,
+     "title": "注册办事处"
+    },
+    {
+     "page": 195,
+     "title": "股票注册办事处"
+    },
+    {
+     "page": 195,
+     "title": "审计师"
+    },
+    {
+     "page": 195,
+     "title": "负责审核工作的合伙人"
+    },
+    {
+     "page": 195,
+     "title": "投资者关系"
+    }
+   ],
+   "missed_rate": 0.5258
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+# p1 cross-year questions (cross_year), independent gold set -- draft
+#
+# Independence: this file was produced only from the 6 original PDFs under data/raw/ (PyMuPDF text) + regexes + manual checks;
+#   service/, pipeline/, scripts/, data/jsonl/, data/t3/ were not read and 127.0.0.1:8100 was not called.
+# Pages: physical page = PDF page index (1-based), not the printed page number.
+# Method: whitespace on each page collapsed to single spaces, then case-insensitive regexes scanned every page of all 6 PDFs;
+#   each hit was checked in its context snippet and passing mentions were removed.
+#
+# Recall regexes (candidate scan):
+#   x01 NPL:   (?i)non[- ]?performing loans? (\(NPL\) )?ratio|NPL ratio|不良贷款[^率]{0,4}(比|率)|不良.{0,6}比率
+#              + table rows: Group <year> ... <ratio> (MD&A "NPL Ratio %" regional table)
+#   x02 credit costs: (?i)credit costs?|信贷成本|信用成本 ; extra scan (?i)\bbps?\b|basis point|个基点|基本点
+#   x03 CET1:  (?i)CET ?1|Common Equity Tier 1|普通股权?一级|普通股权Tier ?1 ; extra scan for values 15\.9 ?%|17\.1 ?%|16\.9 ?%
+# Criterion per (question, year): the page must contain "metric name + that year's value":
+#   x01-2024: 0.9% (2024 report); in the 2025 report it must be "unchanged/维持不变 at 0.9%", "stable at 0.9% since mid-2024" or the 2024 column of a comparison table
+#   x01-2025: 0.9% (2025 report only)
+#   x02-2023: 20 (basis points|个基点); x02-2024: 19; x02-2025: 17
+#   x03-2023: 15.9; x03-2024: 17.1 (transitional basis); x03-2025: 16.9 (transitional basis)
+#
+# Removed, with reasons:
+#   - 2023_en p39 / 2024_en p39 (CRO interview) "NPL ratio ... around 1% / hovering at around 1%": approximate, not an explicit statement of that year's 0.9% (not included for x01).
+#     But 2023_en p39 / 2023_zh p38 "credit costs ... around 20 basis points" gives an explicit value; included for x02-2023.
+#   - 2025_en p25 / p38 / p99, 2025_zh p25 "stable/steady at 0.9%": included for 2025 only, not as 2024 evidence (no explicit comparison with the prior year).
+#   - 2023_en p104 / 2024_en p106 / 2025_en p106 "Total NPLs ... % of gross loans 0.9": the value is the NPL ratio but not labelled "ratio";
+#     implicit, not included (can be added under a looser standard).
+#   - 2024_en p39 "Credit costs for 2024 were well contained": no value.
+#   - 2025_en p9 (chairman's statement) gives only fully-loaded CET1 15.1%, a different basis from this question's transitional 16.9%; not included;
+#     2024_en p36 "14% target for CET1": a target, not an actual value.
+#   - regulatory minimums in each report's capital management section (6.5% / 9.0%), ordinary-share eligibility notes ("qualify as CET1 capital"),
+#     and the incidental 17.1% in impairment-test discount-rate tables (2023_en p205, 2024_en p204, 2023_zh p145, 2024_zh p124) are unrelated numbers.
+#   - country/region ratios in the MD&A regional NPL table and "basis point" in rate sensitivity / PV01 are unrelated mentions.
+# Not found: the five-year summary (Financial Highlights / 财务重点) has no NPL ratio or credit costs; the 2024 Chinese edition has no CFO review,
+#   and 2024 credit costs of 19 bps do not appear in it; no Chinese edition has the MD&A regional NPL table. Every value for every question and year was found.
+# Note: x03 2024/2025 are transitional-basis values under MAS's final Basel III reforms; fully-loaded values are 15.3% / 15.1% (not used as answers).
+questions:
+  - id: x01
+    lang: zh
+    category: cross_year
+    query: "2025 年与 2024 年的不良贷款率相比有何变化？"
+    years: [2024, 2025]
+    answer: {2024: "0.9%", 2025: "0.9%"}
+    gold:
+      2024: {ocbc-group_ar_2024_en: [10, 14, 98, 99, 100, 105], ocbc-group_ar_2024_zh: [10, 14], ocbc-group_ar_2025_en: [9, 13, 98, 100, 105], ocbc-group_ar_2025_zh: [9, 13]}
+      2025: {ocbc-group_ar_2025_en: [9, 13, 25, 38, 98, 99, 100, 105], ocbc-group_ar_2025_zh: [9, 13, 25]}
+    evidence:
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 10, snippet: "by our sound asset quality, with the Non-Performing Loan ratio at 0.9%. Our capital and liquidity positions"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 14, snippet: "ined resilient. Our 2024 Non-Performing Loan ratio improved to 0.9%, from 1.0% a year ago. Total allowances w"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "39.7 38.7 Loans-to-deposits 80.7 80.5 Non-performing loan ratio 0.9 1.0 Total capital adequacy ratio (CAR) (5"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 99, snippet: "Asset quality remained sound with non-performing loan (NPL) ratio at 0.9%. With OCBC’s sustained earnings gr"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 100, snippet: "n as at 31 December 2024. NPL ratio was 0.9%, below the NPL ratio of 1.0% a year ago. Total NPA coverage stood"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 105, snippet: "271 0.6 2023 487 103 383 1 476 1.3 Group 2024 2,869 656 1,685 528 2,827 0.9 2023 2,901 955 1,401 545 2,805 1.0"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 10, snippet: "们的开支 收入比例达到39.7%。我们谨慎的风险管理方针体现在我们拥有 良好的资产组合质量，所取得的不良贷款率为0.9%。我们的资本 和流动性状况维持强健。新加坡金融管理局的最终巴塞尔资本协 议III改革条例在2024年"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 14, snippet: "0亿元。 我们在风险管理方面继续保持审慎，资产质量保持优良及有韧 性。2024年，我们的不良贷款比率由前一年的1.0%下降至0.9%。 拨备金总额减少了6%，不良资产覆盖率则增至159%。 我们2024年底的资产负债表保"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 9, snippet: "olio remained robust with the Non-Performing Loan (NPL) ratio unchanged at 0.9%, total credit costs lower at"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 13, snippet: "ting. Asset quality was sound with NPL ratio stable at 0.9% since mid-2024, and non-performing loan coverage"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "40.2 39.7 Loans-to-deposits 78.6 80.7 Non-performing loan ratio 0.9 0.9 Total capital adequacy ratio (CAR) (5"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 100, snippet: ".24 billion, up 13% from a year ago. NPL ratio remained unchanged at 0.9%, and total NPA coverage stood at 151"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 105, snippet: "up 2025 3,243 573 2,191 479 3,229 0.9 2024 2,869 656 1,685 528 2,827 0.9 (1) Refer to Non-performing assets. C"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_zh, page: 9, snippet: "持谨慎。我们主动管理现有的大 中华区商业地产风险敞口。我们的贷款组 合的整体资产质量维持稳健，不良贷款率 维持不变于0.9%，而总信贷成本降至17个 基本点，不良资产覆盖率处于151%的强劲 水平。在持续对实力作出投资"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_zh, page: 13, snippet: "及基础 设施相关产业，同时在风险管理与贷款 审批上继续保持审慎。资产质量保持优 良，不良贷款率自2024年中期以来稳定 维持在0.9%，而不良资产覆盖率则处于 151%。 履行当前战略，并为下一阶段做好 充分准备 自2"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 9, snippet: "olio remained robust with the Non-Performing Loan (NPL) ratio unchanged at 0.9%, total credit costs lower at"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 13, snippet: "ting. Asset quality was sound with NPL ratio stable at 0.9% since mid-2024, and non-performing loan coverage"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 25, snippet: "prudent in our risk management. Non-performing loan ratio was stable at 0.9%. Total allowances were 4% lower,"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 38, snippet: "of our credit portfolio. The non performing loan ratio remained steady at 0.9%, while credit costs stayed at"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "40.2 39.7 Loans-to-deposits 78.6 80.7 Non-performing loan ratio 0.9 0.9 Total capital adequacy ratio (CAR) (5"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 99, snippet: "uality continued to be stable with non- performing loan (NPL) ratio at 0.9%. Total credit costs were lower at"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 100, snippet: ".24 billion, up 13% from a year ago. NPL ratio remained unchanged at 0.9%, and total NPA coverage stood at 151"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 105, snippet: "556 1.1 2024 278 100 177 1 271 0.6 Group 2025 3,243 573 2,191 479 3,229 0.9 2024 2,869 656 1,685 528 2,827 0.9"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 9, snippet: "持谨慎。我们主动管理现有的大 中华区商业地产风险敞口。我们的贷款组 合的整体资产质量维持稳健，不良贷款率 维持不变于0.9%，而总信贷成本降至17个 基本点，不良资产覆盖率处于151%的强劲 水平。在持续对实力作出投资"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 13, snippet: "及基础 设施相关产业，同时在风险管理与贷款 审批上继续保持审慎。资产质量保持优 良，不良贷款率自2024年中期以来稳定 维持在0.9%，而不良资产覆盖率则处于 151%。 履行当前战略，并为下一阶段做好 充分准备 自2"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 25, snippet: "CASA比率也 因此提升至将近51%。 由于我们持续谨慎地进行风险管理，资产 质量保持韧性。不良贷款率处于0.9%的稳 定水平。准备金总额下降4%，而信贷成本 从1年前的19个基本点下降至17个基本 点。不良资产覆盖率"}
+  - id: x02
+    lang: zh
+    category: cross_year
+    query: "过去三年（2023–2025）华侨银行的信贷成本是多少？"
+    years: [2023, 2024, 2025]
+    answer: {2023: "20 bps", 2024: "19 bps", 2025: "17 bps"}
+    gold:
+      2023: {ocbc-group_ar_2023_en: [10, 39, 97], ocbc-group_ar_2023_zh: [10, 38], ocbc-group_ar_2024_en: [99]}
+      2024: {ocbc-group_ar_2024_en: [99, 100], ocbc-group_ar_2025_en: [25, 99, 100], ocbc-group_ar_2025_zh: [25]}
+      2025: {ocbc-group_ar_2025_en: [9, 25, 38, 99, 100], ocbc-group_ar_2025_zh: [9, 25]}
+    evidence:
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 10, snippet: "ing to 1.0% from 1.2% a year ago. Total credit costs were at 20 basis points, mainly comprising allowances for"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 39, snippet: "s. This is evidenced in our credit costs being kept low at around 20 basis points and our Non-Performing Loan"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 97, snippet: "s resilient with NPL ratio of 1.0% and credit costs at 20 basis points. The Group’s strong capital, funding a"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 10, snippet: "营商环境造成的贸易贷款需求下 滑。我们的资产品质维持良好，不良贷款 率从上财年的1.2%降至1%。总信贷成本 为20个基点，主要包括为未减损贷款， 预先增加准备金拨款。 华侨银行的资金来源、流动性和资本充 足率继续保持强"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 38, snippet: "是关 键所在。 我们很幸运，能够在政府提供的资助下 顺利渡过疫情时期以及利率的大幅度飙 升。我们的信贷成本维持在20个基点的 较低水准，不良贷款比率保持在1%，证 明了这一点。 36"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 99, snippet: "of 19 basis points of loans were below the previous year’s 20 basis points. Share of results of associates r"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 99, snippet: "e 6% lower at $690 million, and total credit costs of 19 basis points of loans were below the previous year’s"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 100, snippet: "wer year-on-year at $690 million, with credit costs at 19 basis points. Funding, Liquidity and Capital Positi"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 25, snippet: "were 4% lower, and credit costs declined to 17 basis points from 19 basis points a year ago. Non-performing as"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 99, snippet: "it costs were lower at 17 basis points of loans, compared to 19 basis points a year ago. Share of results of a"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 100, snippet: "$665 million, and credit costs declined to 17 basis points from 19 basis points a year ago. Funding, Liquidit"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_zh, page: 25, snippet: "管理，资产 质量保持韧性。不良贷款率处于0.9%的稳 定水平。准备金总额下降4%，而信贷成本 从1年前的19个基本点下降至17个基本 点。不良资产覆盖率则是处于151%。 我们持续投资策略性措施以驱动业务扩 张，并投入人"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 9, snippet: "n (NPL) ratio unchanged at 0.9%, total credit costs lower at 17 basis points and allowance coverage at a stro"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 25, snippet: "otal allowances were 4% lower, and credit costs declined to 17 basis points from 19 basis points a year ago. N"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 38, snippet: "atio remained steady at 0.9%, while credit costs stayed at 17 basis points — clear indicators of the effective"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 99, snippet: "ming loan (NPL) ratio at 0.9%. Total credit costs were lower at 17 basis points, while allowance coverage for"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 100, snippet: "were 4% lower at $665 million, and credit costs declined to 17 basis points from 19 basis points a year ago. F"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 9, snippet: "华区商业地产风险敞口。我们的贷款组 合的整体资产质量维持稳健，不良贷款率 维持不变于0.9%，而总信贷成本降至17个 基本点，不良资产覆盖率处于151%的强劲 水平。在持续对实力作出投资以维持现有 业务和新增长的同时，我"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 25, snippet: "管理，资产 质量保持韧性。不良贷款率处于0.9%的稳 定水平。准备金总额下降4%，而信贷成本 从1年前的19个基本点下降至17个基本 点。不良资产覆盖率则是处于151%。 我们持续投资策略性措施以驱动业务扩 张，并投入人"}
+  - id: x03
+    lang: en
+    category: cross_year
+    query: "How did the Group CET1 capital adequacy ratio change from 2023 to 2025?"
+    years: [2023, 2024, 2025]
+    answer: {2023: "15.9%", 2024: "17.1%", 2025: "16.9%"}
+    gold:
+      2023: {ocbc-group_ar_2023_en: [4, 8, 10, 76, 96, 98, 108], ocbc-group_ar_2023_zh: [4, 8, 10, 41], ocbc-group_ar_2024_en: [6, 14, 78, 98], ocbc-group_ar_2024_zh: [6, 14, 35], ocbc-group_ar_2025_en: [4], ocbc-group_ar_2025_zh: [4]}
+      2024: {ocbc-group_ar_2024_en: [6, 10, 14, 78, 98, 100, 110], ocbc-group_ar_2024_zh: [6, 10, 14, 35], ocbc-group_ar_2025_en: [4, 78, 98], ocbc-group_ar_2025_zh: [4, 37]}
+      2025: {ocbc-group_ar_2025_en: [4, 25, 78, 98, 100, 110], ocbc-group_ar_2025_zh: [4, 25, 37]}
+    evidence:
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 4, snippet: ".0 43.8 42.7 Capital adequacy ratios(4) Common Equity Tier 1 15.9 15.2 15.5 15.2 14.9 Tier 1 16.5 15.9 16.0 15"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 8, snippet: "itions remained strong, with Common Equity Tier 1 Capital Adequacy Ratio at 15.9%. We maintained our credit ra"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 10, snippet: "os remained strong. Our Common Equity Tier 1 Capital Adequacy Ratio increased to 15.9% mainly attributable to"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 76, snippet: "ted Assets 236,694 231,648 Capital Adequacy Ratios Common Equity Tier 1 15.9% 15.2% Tier 1 16.5% 15.9% Total 1"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 96, snippet: "18.1 17.7 Tier 1 CAR (5) 16.5 15.9 Common Equity Tier 1 CAR (5) 15.9 15.2 Leverage ratio (5)(6) 7.2 7.2 Singa"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 98, snippet: "s-to-deposits ratio was 80.5%. Group Common Equity Tier 1 (CET1) CAR was 15.9%, while the leverage ratio was"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 108, snippet: "s The Group remained strongly capitalised, with a CET1 CAR of 15.9%, and Tier 1 and Total CAR of 16.5% and 18."}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 4, snippet: "2.08 支出收入比例 38.7 42.9 45.0 43.8 42.7 资本充足率(4) 普通股权一级资本 15.9 15.2 15.5 15.2 14.9 一级资本 16.5 15.9 16.0 15.8 15.6"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 8, snippet: "本控制，而优质 的信贷组合也反映了我们审慎的风险 管理。我们的资本及流动性状况也保持 强劲，普通股权一级资本充足率为 15.9%。我们维持评级机构穆迪的 Aa1信用评级，以及惠誉和标准普尔 的AA-信用评级，使我们成为全"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 10, snippet: "贷款， 预先增加准备金拨款。 华侨银行的资金来源、流动性和资本充 足率继续保持强劲。我们的普通股权一 级资本充足率增至15.9%，这主要归功于 盈利增加、风险加权资产优化以及公允 价值储备金的正向变动。公允价值储备 金"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 41, snippet: "营运 18,624 20,348 风险加权资产 236,694 231,648 资本充足率 普通股权Tier 1资本 15.9% 15.2% Tier 1资本 16.5% 15.9% 总资本 18.1% 17.7% 本银"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "39.7 Capital adequacy ratios(4) Common Equity Tier 1 15.2 15.5 15.2 15.9 17.1 Tier 1 15.8 16.0 15.9 16.5 17.8"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 14, snippet: "Capital Adequacy Ratio (CET1 CAR) increased from 15.9% a year ago to 17.1%, led by a reduction in risk-weight"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 78, snippet: "36,288 236,694 Capital Adequacy Ratios Common Equity Tier 1 17.1% 15.9% Tier 1 17.8% 16.5% Total 19.7% 18.1% T"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "18.1 Tier 1 CAR (5)(6) 17.8 16.5 Common Equity Tier 1 CAR (5)(6) 17.1 15.9 Leverage ratio (5)(6)(7) 7.4 7.2"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: "入比例 43.8 45.0 42.9 38.7 39.7 资本充足率(4) 普通股权一级资本 15.2 15.5 15.2 15.9 17.1 一级资本 15.8 16.0 15.9 16.5 17.8 总资本 17."}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_zh, page: 14, snippet: "。我们的资金来源、资本和 流动性状况都表现良好。普通股权一级资本充足率(CET1 CAR)从 前一年的15.9%上升至17.1%，主要得益于在采用新加坡金融管理 局的最终巴塞尔资本协议III改革条例（于2024年7月1"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_zh, page: 35, snippet: "14,357 18,624 风险加权资产 236,288 236,694 资本充足率 普通股权Tier 1资本 17.1% 15.9% Tier 1资本 17.8% 16.5% 总资本 19.7% 18.1% 本银行的银"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "40.2 Capital adequacy ratios(4) Common Equity Tier 1 15.5 15.2 15.9 17.1 16.9 Tier 1 16.0 15.9 16.5 17.8 17.6"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: "入比例 45.0 42.9 38.7 39.7 40.2 资本充足率(4) 普通股权一级资本 15.5 15.2 15.9 17.1 16.9 一级资本 16.0 15.9 16.5 17.8 17.6 总资本 17."}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "39.7 Capital adequacy ratios(4) Common Equity Tier 1 15.2 15.5 15.2 15.9 17.1 Tier 1 15.8 16.0 15.9 16.5 17.8"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 10, snippet: "transitional Common Equity Tier 1 Capital Adequacy Ratio was 17.1%, or 15.3% on a fully phased-in basis"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 14, snippet: "Capital Adequacy Ratio (CET1 CAR) increased from 15.9% a year ago to 17.1%, led by a reduction in risk-weight"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 78, snippet: "36,288 236,694 Capital Adequacy Ratios Common Equity Tier 1 17.1% 15.9% Tier 1 17.8% 16.5% Total 19.7% 18.1% T"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "18.1 Tier 1 CAR (5)(6) 17.8 16.5 Common Equity Tier 1 CAR (5)(6) 17.1 15.9 Leverage ratio (5)(6)(7) 7.4 7.2"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 100, snippet: "July 2024 and 1 January 2029. Group CET1 CAR as at 31 December 2024 was 17.1%, and was 15.3% on a fully phas"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 110, snippet: "s The Group remained strongly capitalised, with a CET1 CAR of 17.1%, and Tier 1 and Total CAR of 17.8% and 19."}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: "入比例 43.8 45.0 42.9 38.7 39.7 资本充足率(4) 普通股权一级资本 15.2 15.5 15.2 15.9 17.1 一级资本 15.8 16.0 15.9 16.5 17.8 总资本 17."}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 10, snippet: "融管理局的最终巴塞尔资本协 议III改革条例在2024年7月1日生效，我们在2024年的过渡性普通 股权一级资本充足率为17.1%，或在全面实施情况下等于15.3% 。 我们继续维持全球信贷评级最高银行之一的地位，穆迪"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 14, snippet: "。我们的资金来源、资本和 流动性状况都表现良好。普通股权一级资本充足率(CET1 CAR)从 前一年的15.9%上升至17.1%，主要得益于在采用新加坡金融管理 局的最终巴塞尔资本协议III改革条例（于2024年7月1"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 35, snippet: "14,357 18,624 风险加权资产 236,288 236,694 资本充足率 普通股权Tier 1资本 17.1% 15.9% Tier 1资本 17.8% 16.5% 总资本 19.7% 18.1% 本银行的银"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "40.2 Capital adequacy ratios(4) Common Equity Tier 1 15.5 15.2 15.9 17.1 16.9 Tier 1 16.0 15.9 16.5 17.8 17.6"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 78, snippet: "48,845 236,288 Capital Adequacy Ratios Common Equity Tier 1 16.9% 17.1% Tier 1 17.6% 17.8% Total 19.4% 19.7% T"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "19.7 Tier 1 CAR (5)(6) 17.6 17.8 Common Equity Tier 1 CAR (5)(6) 16.9 17.1 Leverage ratio (5)(6)(7) 7.1 7.4"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: "入比例 45.0 42.9 38.7 39.7 40.2 资本充足率(4) 普通股权一级资本 15.5 15.2 15.9 17.1 16.9 一级资本 16.0 15.9 16.5 17.8 17.6 总资本 17."}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_zh, page: 37, snippet: "4,357 其他 44 – 风险加权资产 248,845 236,288 资本充足率 普通股权Tier 1资本 16.9% 17.1% Tier 1资本 17.6% 17.8% 总资本 19.4% 19.7% 本银行的银"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "40.2 Capital adequacy ratios(4) Common Equity Tier 1 15.5 15.2 15.9 17.1 16.9 Tier 1 16.0 15.9 16.5 17.8 17.6"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 25, snippet: "apital Adequacy Ratio (CET1 CAR) stood at 16.9% as at 31 December 2025 on a transitional basis upon adoption o"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 78, snippet: "48,845 236,288 Capital Adequacy Ratios Common Equity Tier 1 16.9% 17.1% Tier 1 17.6% 17.8% Total 19.4% 19.7% T"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "19.7 Tier 1 CAR (5)(6) 17.6 17.8 Common Equity Tier 1 CAR (5)(6) 16.9 17.1 Leverage ratio (5)(6)(7) 7.1 7.4"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 100, snippet: "July 2024 and 1 January 2029. Group CET1 CAR as at 31 December 2025 was 16.9%, and on a fully phased-in basi"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 110, snippet: "s The Group remained strongly capitalised, with a CET1 CAR of 16.9%, and Tier 1 and Total CAR of 17.6% and 19."}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: "入比例 45.0 42.9 38.7 39.7 40.2 资本充足率(4) 普通股权一级资本 15.5 15.2 15.9 17.1 16.9 一级资本 16.0 15.9 16.5 17.8 17.6 总资本 17."}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 25, snippet: "巴塞尔资本协议III改革条例后，在2025年 12月31日，普通股权一级资本充足率 (CET1 CAR) 按过渡基础达到16.9%。按全 面实施基础的CET1 CAR则为15.1%。 尽管出现全球不确定性、市场波动以"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 37, snippet: "4,357 其他 44 – 风险加权资产 248,845 236,288 资本充足率 普通股权Tier 1资本 16.9% 17.1% Tier 1资本 17.6% 17.8% 总资本 19.4% 19.7% 本银行的银"}

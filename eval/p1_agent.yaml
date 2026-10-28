@@ -1,0 +1,55 @@
+# P1 agent-layer manual acceptance (2026-10-16; the user asked in an MCP client (a coding agent) using only the kb tools; all 4 correct).
+# Source: one coding-agent session on the development machine (its session id and local path are withheld).
+# traces: the trace_event for each kb tool call in that session (source = mcp), kept as demo data for chat-page (V0) replay; do not delete.
+# Gold pages are physical pages (printed pages in parentheses); judgement is the user's manual grade.
+session:
+  agent_session_id: withheld
+  started_at: "2026-10-16T07:16:48Z"
+  ended_at: "2026-10-16T07:18:41Z"
+  source: mcp
+
+questions:
+  - id: a01
+    lang: zh
+    question: 只用 kb 工具，回答时给出文档和页码，OCBC 2025 年末的不良贷款率是多少？
+    answer: 0.9%（与 2024 年末持平）；NPLs 32.29 亿新元，NPAs 32.43 亿新元
+    gold: {ocbc-group_ar_2025_en: [105, 13, 100], ocbc-group_ar_2025_zh: [9, 13, 25]}
+    cited_by_agent: "ocbc-group_ar_2025_en 物理页 105（印刷页 103）；ocbc-group_ar_2025_zh 物理页 25（印刷页 23）"
+    judgement: correct
+    traces: [tr_ada7bb40b1f94c739ed87e58cedd688d, tr_b16fc874da38470b9d6da2a22cee4a18,
+             tr_52f094cc9cfc4d04b237d8c8a9fc779a, tr_55bb7ee5a6364b9d99e26c8424610dd2,
+             tr_9cae274b9c044545ae0afdad7c89680c]
+  - id: a02
+    lang: zh
+    question: 只用 kb 工具，回答时给出文档和页码，2025 年每股股息和派息率是多少？
+    answer: 每股股息合计 99 分（中期 41 + 末期 42 + 特别股息 16）；总派息率 60%（普通股息 50% + 特别股息 10%）
+    gold: {ocbc-group_ar_2025_en: [100, 4, 5, 9, 10, 77, 99]}
+    cited_by_agent: "ocbc-group_ar_2025_en 物理页 100（印刷页 98）"
+    judgement: correct
+    traces: [tr_d9ed55ff770441f98b7b48f7de68e775, tr_26ed5a0b43bc4ddfb3902d5e38b6393b]
+  - id: a03
+    lang: en
+    question: 只用 kb 工具，回答时给出文档和页码，Why did net interest income decline in 2025?
+    answer: >-
+      NII fell 6% to S$9.15b (2024: S$9.755b) as benchmark rates fell sharply and asset yields declined faster than
+      funding costs, compressing the net interest margin; loan and balance-sheet growth only partly offset this.
+    gold: {ocbc-group_ar_2025_en: [99, 101, 102, 9, 24]}
+    cited_by_agent: "ocbc-group_ar_2025_en 物理页 99（印刷页 97）、101–102"
+    judgement: correct
+    traces: [tr_65e8c24dd93444359fd64222daecbad4, tr_8ccc6131f5b44d309ffd0c33cf0058c1]
+  - id: a04
+    lang: zh
+    category: trap   # trap question: the Chinese edition has no MD&A
+    question: 只用 kb 工具，回答时给出文档和页码，2025 年中文版年报的管理层讨论与分析是怎么解释净利息收入变化的？
+    answer: >-
+      2025 中文版为节选，不含管理层讨论与分析（MD&A），无法从中文版 MD&A 回答；中文版最接近的解释在集团首席财务官综述
+      （物理页 24，印刷页 22）；英文版 MD&A 见物理页 99、101–102。
+    gold: {ocbc-group_ar_2025_zh: [24], ocbc-group_ar_2025_en: [99, 101, 102]}
+    expected_gaps: [section_missing_in_lang]
+    cited_by_agent: "ocbc-group_ar_2025_zh 物理页 24（印刷页 22）、77（印刷页 75）"
+    judgement: correct
+    note: >-
+      验收时 search（tr_c1bb…）只返回了 parallel_doc_available，section_missing_in_lang 未触发，agent 是从 browse 的
+      completeness 说明得出结论的。已修复：查询中出现 doc_type_vocab 中 md_a 的写法（“管理层讨论与分析”）时，
+      对不含该章节的节选文档给出 section_missing_in_lang（见 docs/p1b-report.md）。
+    traces: [tr_c1bb2afca671417597d86e2323522641, tr_fbf07e766f2a467a9e2714a09ec9b02b]

@@ -1,0 +1,7 @@
+# Explicit search path (D46) acceptance questions: three questions whose answer is not stored directly in the library, compared with tool-call counts of earlier sessions on the same questions.
+# Before: e1 = chat_5f7ef398cf5a46adbfc884955202e89a (8 tool calls), e2 = d4 chat page chat_36e0e4ed234d402ea33a6bcb3cbfb662 (5),
+#       e3 = d6 chat page chat_3aa9ec0a89c6435183922ed77210175c (7).
+questions:
+  - {id: e1, lang: zh, question: 2023-2025 三年的净利率}
+  - {id: e2, lang: zh, question: 华侨银行 2025 年的流动性覆盖率（LCR）是多少？}
+  - {id: e3, lang: zh, question: 华侨银行过去三年（2023–2025）的信贷成本是多少？}

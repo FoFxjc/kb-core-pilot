@@ -1,0 +1,753 @@
+doc_id: ocbc-group_ar_2025_zh
+seed: 206
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2025_zh:regions:0004
+  title: 为投资者创造可持续价值
+  origin: toc
+  pages:
+  - 5
+  - 5
+  printed_pages:
+  - '3'
+  - '3'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0002
+    title: 本年度焦点
+    pages:
+    - 4
+    - 15
+  start_page_text: 为投资者创造可持续价值 华侨银行股价表现(元) 2021 2022 2023 2024 2025 20 18 16 14 12 10 8 0 致力与投资社群互动 华侨银行旨在为投资者创造可持续的长期价值。我们了解与投资社群保持高
+    度透明的沟通及有意义的互动以促进信心和信任的重要性。 在本年度，我们与机构投资者、分析师和评级机构举行了大约700场交流活动， 让他们了解我们的企业策略，财务业绩表现和公
+  verdict: correct
+  note: '[carried from the pre-fix sheet: same title, pages and parent]'
+  carried: true
+- node_id: ocbc-group_ar_2025_zh:regions:0033
+  title: 致谢
+  origin: heading
+  pages:
+  - 15
+  - 15
+  printed_pages:
+  - '13'
+  - '13'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0025
+    title: 集团首席执行官的观点
+    pages:
+    - 12
+    - 15
+  start_page_text: 致谢 2026 年在地缘政治不确定性升高的局势 中拉开序幕。在应对一个日益不确定的全 球环境之际，我们相信未来几年的发展将 继续受到数字化和贸易模式转变的影响， 同时也会因金融、科技与可持续发展的日 渐融合而持续变化。华侨银行将以稳健实
+    力迈入这一未来前沿，继续致力于打造一 家值得信赖、富有创新精神且具备强大韧 性的银行，为我们的客户、社区及股东创造 长期价值。 陈德隆先生 集团首席执行官 202
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0040
+  title: 使命
+  origin: heading
+  pages:
+  - 17
+  - 17
+  printed_pages:
+  - '15'
+  - '15'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0037
+    title: 以我们的宗旨、价值观和使命为基石
+    pages:
+    - 17
+    - 17
+  start_page_text: 永恒价值 诚信 前瞻 尊重 责任 我们致力于缔造持 久而永恒的价值， 在审慎管理风险 与勇敢采取行动 之间保持平衡。 我们建立长久的 合作关系，从而 获得长期回报。 只有这样，我们才 能在“集团一体”下，
+    实现可持续增长。 我们严以律己，秉 持最高道德标准， 即使在无人监督的 情况下也始终坚持 做正确的事情。 我们始终以正直和 诚实的原则行事， 充分领会我们行为 守则的精神和文字 表述，并表里如一
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0061
+  title: 以客户为中心的理念
+  origin: toc_group
+  pages:
+  - 22
+  - 25
+  printed_pages:
+  - '20'
+  - '23'
+  parent: null
+  start_page_text: 保险业 大东方控股的盈利贡献 百万元 2023 年度 2024 年度 2025 年度 636 882 1,125 财富管理 集团财富管理收入 十亿元 集团财富管理的 管理资产规模 十亿元 4.3 4.9 5.6
+    2023 年度 2024 年度 2025 年度 263 299 343 2023年 12月 2024年 12月 2025年 12月 银行业 税前盈利 十亿元 总收入 十亿元 12.4 13
+  verdict: wrong
+  note: 'Title: "以客户为中心的理念" is the wrapped second line of the contents entry "通过人工智能、数字化与数据驱动以客户为中心的理念 18", not a contents
+    group title; the real groups are 本年度焦点/在转型中迈向未来/培养员工并践行宗旨 etc. Pages [22,25] (集团一体的优势 + CFO review) do not belong to any
+    such group. [carried from the pre-fix sheet: same title, pages and parent]'
+  carried: true
+- node_id: ocbc-group_ar_2025_zh:regions:0065
+  title: 与大东方联合，共同为客户创造更高价值
+  origin: heading
+  pages:
+  - 23
+  - 23
+  printed_pages:
+  - '21'
+  - '21'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0062
+    title: 集团一体的优势
+    pages:
+    - 22
+    - 23
+  start_page_text: 与大东方联合，共同为客户创造更高 价值 华侨银行在过去两年为关键客户群推出 了两项成功的计划，利用大东方的优势 向他们提供更高价值。第一项是 OCBC PartnerCare，这是一项专为房地产经 纪定制的综合财务与个人健康计划，由
+    大东方为华侨银行网络广大的经纪提 供独家保险折扣。第二项是银行全面性 的华侨银行乐龄关怀计划，特别设计以 帮助年长者及广大社区民众实现健康乐 龄的目标。作为这项计划的
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0068
+  title: 保险
+  origin: heading
+  pages:
+  - 23
+  - 23
+  printed_pages:
+  - '21'
+  - '21'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0062
+    title: 集团一体的优势
+    pages:
+    - 22
+    - 23
+  start_page_text: 与大东方联合，共同为客户创造更高 价值 华侨银行在过去两年为关键客户群推出 了两项成功的计划，利用大东方的优势 向他们提供更高价值。第一项是 OCBC PartnerCare，这是一项专为房地产经 纪定制的综合财务与个人健康计划，由
+    大东方为华侨银行网络广大的经纪提 供独家保险折扣。第二项是银行全面性 的华侨银行乐龄关怀计划，特别设计以 帮助年长者及广大社区民众实现健康乐 龄的目标。作为这项计划的
+  verdict: correct
+  note: 'Doubtful: red label heading one of the business-description paragraphs in the right column of p23; accepted as a
+    minor heading.'
+- node_id: ocbc-group_ar_2025_zh:regions:0069
+  title: 为企业及其员工提供全面银行解决方案
+  origin: heading
+  pages:
+  - 23
+  - 23
+  printed_pages:
+  - '21'
+  - '21'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0062
+    title: 集团一体的优势
+    pages:
+    - 22
+    - 23
+  start_page_text: 与大东方联合，共同为客户创造更高 价值 华侨银行在过去两年为关键客户群推出 了两项成功的计划，利用大东方的优势 向他们提供更高价值。第一项是 OCBC PartnerCare，这是一项专为房地产经 纪定制的综合财务与个人健康计划，由
+    大东方为华侨银行网络广大的经纪提 供独家保险折扣。第二项是银行全面性 的华侨银行乐龄关怀计划，特别设计以 帮助年长者及广大社区民众实现健康乐 龄的目标。作为这项计划的
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0094
+  title: 为未来播下希望的种子
+  origin: toc
+  pages:
+  - 28
+  - 29
+  printed_pages:
+  - '26'
+  - '27'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0079
+    title: 培养员工并践行宗旨
+    pages:
+    - 26
+    - 31
+  start_page_text: 为未来播下希望的种子 我们致力于采取以自然为本的气候解决方案，积极对海洋与海岸生态系统进行 修复，同时支持生物多样性保育以及社区可持续发展计划。 华侨银行海草复原计划 这是新加坡首个由企业主导、与国家公园局合作的海草研究与
+    复原计划。这项计划为期三年，现已进入研究的第二年。其目的 是在探讨海草的繁殖生态、开发创新的移植技术，并对复原后 的海草草甸在生态及碳固存方面的效益进行量化。海草是重要 的蓝碳
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0098
+  title: 马来西亚
+  origin: heading
+  pages:
+  - 29
+  - 29
+  printed_pages:
+  - '27'
+  - '27'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0097
+    title: 华侨银行红树林公园与种植计划
+    pages:
+    - 28
+    - 29
+  start_page_text: '马来西亚 珊瑚礁 作为2025年华侨银行马来西亚可持续性发展周的活动之一，亚庇分行前往沙巴州乌 苏干岛协助海洋保育工作。该团队培育了143个珊瑚碎块，让当地原住民社区的4,000 名成员受益。这些珊瑚碎块随后被移植到华侨银行认养的珊瑚苗圃（由华侨银行及
+    员工捐赠5万3900令吉资助）。健康的珊瑚礁在气候适应、保护海岸线免受风暴和侵 蚀，以及在维持渔业、保育和旅游相关活动的生计方面发挥着重要作用。 '
+  verdict: wrong
+  note: 'Parent: "马来西亚" is a country label on p29, sibling of "新加坡" (p28) under 为未来播下希望的种子, not a child of the project heading
+    华侨银行红树林公园与种植计划.'
+- node_id: ocbc-group_ar_2025_zh:regions:0112
+  title: 吉隆坡
+  origin: heading
+  pages:
+  - 31
+  - 31
+  printed_pages:
+  - '29'
+  - '29'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0109
+    title: 积极生活
+    pages:
+    - 30
+    - 31
+  start_page_text: 新加坡 第十七届新加坡华侨银行骑车乐适逢全国大选的周末，因此 改为让已注册的参与者参加免费虚拟赛事。骑手们可以前往 新加坡最大的脚车博览会领取活动福袋，并在指定时间内自行完 成所选距离。骑手完成各自距离后，奖牌将直接由快递送给他们，
+    让他们能拥有一个完整体验。新加坡华侨银行骑车乐透过结合 多种不同距离的虚拟骑行形式实现其目标，即是促进健康生活 和社区联系，并让各年龄层与不同的骑手都能参与活动。 吉
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0114
+  title: 认识我们
+  origin: toc_group
+  pages:
+  - 32
+  - 35
+  printed_pages:
+  - '30'
+  - '33'
+  parent: null
+  start_page_text: 董事委员会 执行委员会 李迪士教授，主席 李国庆先生 邱清和博士 华侨银行董事会致力于维护最高标准的公司治理。这确保华侨银行在管理时符 合银行整体的最佳利益，同时亦兼顾股东、客户及其他利益相关者的利益。 董事会设有多个董事委员会，具备明确界定的职责范围，协助董事会更有效地履
+    行其职务。 左起：石懐光先生、Pramukti Surjaudaja先生、曾庆怡女士、李迪士教授、李国庆先生 董事会 30
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0124
+  title: 管理委员会
+  origin: toc
+  pages:
+  - 34
+  - 35
+  printed_pages:
+  - '32'
+  - '33'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0114
+    title: 认识我们
+    pages:
+    - 32
+    - 35
+  start_page_text: 管理委员会 陈德隆先生 集团首席执行官 吳靜儀女士 集团首席财务官 吕佩君女士 集团首席风险控制官 郭斯强先生 环球个人银行业务总裁 巫毅盛先生 新加坡银行首席执行官 赖进贵先生 环球金融市场部总裁 王克先生
+    大中华区总裁，香港首席执行官 陈初生先生 马来西亚首席执行官 Parwati Surjaudaja女士 印尼首席执行官 洪湧翔先生 中国首席执行官 王尹萱女士 环球商业银行业务总裁 蓝淑燕女
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0126
+  title: 资本管理
+  origin: toc
+  pages:
+  - 36
+  - 37
+  printed_pages:
+  - '34'
+  - '35'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0125
+    title: 治理
+    pages:
+    - 36
+    - 37
+  start_page_text: 资本管理 资本政策 集团资本管理政策的关键目标是，保持良好的资本状况， 为业务发展和策略投资提供支持，并维持投资者、存款者、 客户及市场信心。据此，集团的目标是维持其信贷评级至 少为”A”级，并确保其资本比率高于监管最低要求，同时也
+    兼顾到股东要求持续回报的期望及高标准的谨慎态度。 集团积极管理其资本结构，力求以最佳资本工具组合保持 低资本成本。 资本监控与计划 集团的资本受到严密监控及积极管理以
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0133
+  title: 财务
+  origin: toc_group
+  pages:
+  - 38
+  - 176
+  printed_pages:
+  - '36'
+  - '174'
+  parent: null
+  start_page_text: 财务 报告
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0140
+  title: (a) 2001年华侨银行股票认股权计划
+  origin: heading
+  pages:
+  - 42
+  - 42
+  printed_pages:
+  - '40'
+  - '40'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0139
+    title: 股票形式补贴计划
+    pages:
+    - 41
+    - 44
+  start_page_text: '股票形式补贴计划 (续) 在股票形式补贴计划中，并无认股权、购得权或奖励授予银行控股股东或其相关人士，也无任何参与者在本财政年度获得各自计划所 提供的认股权、购得权或奖励总数的5%或以上。在本财政年度并无认股权或购得权是以折扣价授予。获得认股权、购得权或奖励之人
+    士，基于此认股权、购得权或奖励，无权参与任何其他公司发行的任何股票。SGX上市手册条文 852 (1) (c) 有关授予认股权给母公司 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0155
+  title: 商誉减损
+  origin: heading
+  pages:
+  - 50
+  - 50
+  printed_pages:
+  - '48'
+  - '48'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0146
+    title: 财务报表审计报告
+    pages:
+    - 46
+    - 53
+  start_page_text: 关键审计事项 我们的审计如何处理此关键审计事项 商誉减损 (参阅财务报告附注2.21和36) 集团的业务并购产生显著的商誉数额。截至2025年 12月31日，集团资产负债表中商誉的帐面数额达到 43亿4400万新元。
+    在对商誉的帐面数额进行减损评估时，管理层必须作 出重大判断以估计创现单位 (“CGUs”) 的可收回数额。 对于银行业务CGUs，需涉及对折扣现金流量的估计， 在评估时使用的重大假设
+  verdict: wrong
+  note: 'Parent: key audit matter item; skips the intermediate heading "关键审计事项" (p46) under 财务报表审计报告.'
+- node_id: ocbc-group_ar_2025_zh:regions:0156
+  title: 寿险基金的保险合约负债的估值
+  origin: heading
+  pages:
+  - 51
+  - 51
+  printed_pages:
+  - '49'
+  - '49'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0146
+    title: 财务报表审计报告
+    pages:
+    - 46
+    - 53
+  start_page_text: 关键审计事项 我们的审计如何处理此关键审计事项 寿险基金的保险合约负债的估值 (参阅财务报告附注2.21、22和38.4) 集团的保险业务由大东方控股有限公司其附属公 司 (“GEH集团”) 经营。 SFRS(I)
+    17下的保险合约负债是按履行现金流量及合 同服务边际 (“CSM”) 的总额进行计量，其确定需要作 出判断及解释。这包括会计政策选择和使用在精算模 型中应用的复杂方法。选择和应用适当的
+  verdict: wrong
+  note: 'Parent: key audit matter item; skips the intermediate heading "关键审计事项" (p46) under 财务报表审计报告.'
+- node_id: ocbc-group_ar_2025_zh:regions:0162
+  title: 收入报表
+  origin: subtoc
+  pages:
+  - 54
+  - 54
+  printed_pages:
+  - '52'
+  - '52'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0134
+    title: 财务报告
+    pages:
+    - 38
+    - 176
+  start_page_text: 集团 银行 百万元 附注 2025 2024 2025 2024 利息收入 20,076 22,444 14,558 16,532 利息支出 (10,926) (12,689) (9,038) (10,402)
+    净利息收入 3 9,150 9,755 5,520 6,130 寿险的保险服务业绩 (1) 4 927 592 – – 寿险的净投资收入 4 7,365 6,124 – – 寿险的净保险金
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0171
+  title: 信贷减损客户贷款的准备金
+  origin: heading
+  pages:
+  - 74
+  - 61
+  printed_pages:
+  - '72'
+  - '59'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0170
+    title: 2. 重大会计政策资讯摘要
+    pages:
+    - 61
+    - 76
+  start_page_text: '2. 重大会计政策资讯摘要 (续) 2.19 每股盈利 集团对其普通股呈现其每股基本与稀释盈利数据。每股基本盈利 的计算法，是将可归属银行普通股股东的盈利或亏损除以本年度 流通普通股的加权平均数目，并按本身持有的股票作出调整。每
+    股稀释盈利的确定，是根据所有稀释性潜在普通股 (包括授予员 工的认股权) 效应，将可归属普通股股东的盈利或亏损及流通普 通股的加权平均数目，并按本身持有的股票作出调整。 '
+  verdict: wrong
+  note: 'Pages: given as [74, 61] (end before start); the heading is on p74 right column. Parent also skips 2.21 / 2.21.1
+    金融资产的减损.'
+- node_id: ocbc-group_ar_2025_zh:regions:0176
+  title: 2.2 合并之基础
+  origin: subnote
+  pages:
+  - 61
+  - 62
+  printed_pages:
+  - '59'
+  - '60'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0170
+    title: 2. 重大会计政策资讯摘要
+    pages:
+    - 61
+    - 76
+  start_page_text: '附注是本财务报告的整体组成部份。 华侨银行有限公司董事部在2026年2月24日授权发出此财务报告。 1. 概论 华侨银行有限公司 (银行) 是在新加坡注册和设立，并在新加坡证 券交易所有限公司上市。银行注册办事处是珠烈街63号#10-00，
+    华厦东楼，新加坡邮区049514。 本合并财务报告是关于银行与其附属公司 (总称集团) 以及集团 在联号企业的权益。集团主要业务是银行、寿险、普通保险、资产 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0187
+  title: 2.5.3 修订
+  origin: heading
+  pages:
+  - 62
+  - 62
+  printed_pages:
+  - '60'
+  - '60'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0184
+    title: 2.5 金融工具
+    pages:
+    - 62
+    - 62
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.2 合并之基础 (续) 2.2.3 联号企业与合资企业 (续) 在权益会计法中，投资在最初以成本确认，其后则会以收购后集 团所占联号企业资产净值的变动予以调整，直到其显著影响或联
+    合控制结束为止。集团对联号企业与合资企业的投资包括在收购 时识别的商誉。若集团的损失分担部分相等于或超过其在联号企 业与合资企业的权益，包括任何其他未担保的应收帐款，集团将 不确认
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0217
+  title: 2.11.6 商誉
+  origin: heading
+  pages:
+  - 66
+  - 66
+  printed_pages:
+  - '64'
+  - '64'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0215
+    title: (II) 其他资产
+    pages:
+    - 66
+    - 71
+  start_page_text: '2. 重大会计政策资讯摘要 (续) 2.11 资产减损 (续) (I) 金融资产 (续) 2.11.4 各阶段之间的变动 (续) 集团在评估信贷风险自初始确认后是否出现显著增加的情况时 考虑了定性和定量两种参数。这包括:
+    (a) 集团同时根据整个存续期间PD相对于初始确认的相对值和 绝对值变化，为信贷风险的显著增加情况订立阈值。 (b) 集团进行定性评估，以确定信贷风险是否显著增加。 (c) 集团'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0221
+  title: 2.13.3 综合水平
+  origin: heading
+  pages:
+  - 67
+  - 67
+  printed_pages:
+  - '65'
+  - '65'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0215
+    title: (II) 其他资产
+    pages:
+    - 66
+    - 71
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.1 定义和分类 (续) 所有其他保险合约及所有再保险合约均被归类为不具备直接参 与性质的合约。这些合约中一部分是根据保费分摊法
+    (PAA)模 型计量 (参阅附注2.13.7)。PAA是SFRS(I) 17的一项选择性简化 计量模型，适用于符合条件的保险及再保险合约。这个方法用 于保险覆盖期为一年或更短的保险合约，或者
+  verdict: wrong
+  note: 'Parent: "2.13.3 综合水平" belongs to 2.13 保险和再保险合约, not to "(II) 其他资产" (a sub-heading of 2.11).'
+- node_id: ocbc-group_ar_2025_zh:regions:0248
+  title: 2.16 收入与支出的确认
+  origin: subnote
+  pages:
+  - 73
+  - 73
+  printed_pages:
+  - '71'
+  - '71'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0170
+    title: 2. 重大会计政策资讯摘要
+    pages:
+    - 61
+    - 76
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.15 租赁 (续) 2.15.2 身为出租人 集团所拥有建筑物的出租区的租金收入是按租赁期以直线法在 收入报表中确认。所授予的租赁优惠是作为整体租金收入的一部 分按整个租赁期确认。
+    2.16 收入与支出的确认 2.16.1 利息收入与支出 利息收入或支出是采用有效利率法确认。 有效利率是对金融工具预期期限的未来现金付款或收款作出折 现至总账面价值或金融负债的
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0259
+  title: 2.21 关键会计估计与判断
+  origin: subnote
+  pages:
+  - 74
+  - 76
+  printed_pages:
+  - '72'
+  - '74'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0170
+    title: 2. 重大会计政策资讯摘要
+    pages:
+    - 61
+    - 76
+  start_page_text: '2. 重大会计政策资讯摘要 (续) 2.19 每股盈利 集团对其普通股呈现其每股基本与稀释盈利数据。每股基本盈利 的计算法，是将可归属银行普通股股东的盈利或亏损除以本年度 流通普通股的加权平均数目，并按本身持有的股票作出调整。每
+    股稀释盈利的确定，是根据所有稀释性潜在普通股 (包括授予员 工的认股权) 效应，将可归属普通股股东的盈利或亏损及流通普 通股的加权平均数目，并按本身持有的股票作出调整。 '
+  verdict: correct
+  note: '[carried from the pre-fix sheet: same title, pages and parent]'
+  carried: true
+- node_id: ocbc-group_ar_2025_zh:regions:0269
+  title: 3. 净利息收入
+  origin: note
+  pages:
+  - 77
+  - 77
+  printed_pages:
+  - '75'
+  - '75'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0168
+    title: 财务报告附注
+    pages:
+    - 61
+    - 176
+  start_page_text: 3. 净利息收入 集团 银行 百万元 2025 2024 2025 2024 利息收入 非银行客户贷款 13,745 15,628 9,804 11,183 银行同业的存放和贷款 2,606 3,552 2,604
+    3,472 其他生息资产 3,725 3,264 2,150 1,877 20,076 22,444 14,558 16,532 利息支出 非银行客户存款 (9,226) (10,55
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0283
+  title: 13. 股本
+  origin: note
+  pages:
+  - 84
+  - 86
+  printed_pages:
+  - '82'
+  - '84'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0168
+    title: 财务报告附注
+    pages:
+    - 61
+    - 176
+  start_page_text: '13. 股本 13.1 股本 股票(百万) 2025 2024 集团和银行 普通股 于1月1日 4,515 4,515 注销股票 (14) – 发行给非执行董事的股票 # # 于12月31日 4,501
+    4,515 库存股 于1月1日 (15) (21) 股票回购 (27) (13) 注销股票 14 – 股票认股权计划 4 6 股票购买计划 7 7 转往DSP信托的库存股 6 6 于12月31日 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0329
+  title: 33.3 合并结构实体
+  origin: subnote
+  pages:
+  - 122
+  - 122
+  printed_pages:
+  - '120'
+  - '120'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0326
+    title: 33. 附属公司
+    pages:
+    - 120
+    - 122
+  start_page_text: 33. 附属公司 (续) 33.2 在附属公司的非控股股东权益 拥有实质非控股股东的主要附属公司在集团属下公司之间的交易进行帐目冲销之前的财务资料总结如下。 PT Bank OCBC NISP Tbk 大东方控股有限公司
+    百万元 2025 2024 2025 2024 应归属非控股股东的净资产 481 487 610 597 应归属非控股股东的总综合收益 22 56 94 104 本年度支付非控股
+  verdict: correct
+  note: '[carried from the pre-fix sheet: same title, pages and parent]'
+  carried: true
+- node_id: ocbc-group_ar_2025_zh:regions:0332
+  title: 36. 商誉与其他无形资产
+  origin: note
+  pages:
+  - 126
+  - 127
+  printed_pages:
+  - '124'
+  - '125'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0168
+    title: 财务报告附注
+    pages:
+    - 61
+    - 176
+  start_page_text: '36. 商誉与其他无形资产 集团 银行 百万元 2025 2024 2025 2024 商誉 于1月1日 4,465 4,403 1,867 1,867 货币折算 (121) 62 – – 于12月31日
+    4,344 4,465 1,867 1,867 无形资产 于1月1日 39 98 支销收入报表的摊销: – 核心存款关系 (1) – (21) – 客户关系 (2) (14) (15) – 分销'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0336
+  title: 环球个人银行／私人银行业务
+  origin: heading
+  pages:
+  - 129
+  - 129
+  printed_pages:
+  - '127'
+  - '127'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0335
+    title: 37.1 商业分部
+    pages:
+    - 128
+    - 130
+  start_page_text: 37. 分部资料 (续) 37.1 商业分部 (续) 百万元 环球个人银行/ 私人银行业务 环球批发 银行业务 环球 市场业务 保险 其他 集团 截至2024年12月31日之年度 净利息收入 3,242 5,085
+    560 173 695 9,755 非利息收入 1,963 990 436 1,253 76 4,718 总收入 5,205 6,075 996 1,426 771 14,473 扣除
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0339
+  title: 保险
+  origin: heading
+  pages:
+  - 130
+  - 130
+  printed_pages:
+  - '128'
+  - '128'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0335
+    title: 37.1 商业分部
+    pages:
+    - 128
+    - 130
+  start_page_text: 37. 分部资料 (续) 37.1 商业分部 (续) 环球市场业务 环球市场业务负责管理集团资产与负债利率敞口，从事外汇业务、货币市场营运、固定收入与衍生工具交易，此外也提供结构式资金产 品、数码资产、经纪服务及金融解决方案，以满足客户在投资与套期方面的需要。为环球个人银行／私人银行业务以及环球批发银行业
+    务的客户提供各种资金产品与服务所获得的收入，是在各业务分部中反映。 保险 集团的保险业务包括
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0345
+  title: 最大信贷风险敞口
+  origin: heading
+  pages:
+  - 132
+  - 132
+  printed_pages:
+  - '130'
+  - '130'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0344
+    title: 38.2 信贷风险
+    pages:
+    - 132
+    - 135
+  start_page_text: 38. 风险管理 (续) 38.2 信贷风险 信贷风险是指由于借贷者或债务人无法履行其金融或合约义务，而导致金融损失的风险。信贷风险来自集团对个人、企业和机构客户 的借贷活动，此外也包括来自承销，交易和投资银行业务所产生的交易对手和发行人的信贷风险。
+    最大信贷风险敞口 下表呈现集团在资产负债表内和表外金融工具，在不考虑任何所持抵押或其他信用增级项目的情况下，所面对的最大信贷风险敞口。 对于表内项目
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0347
+  title: 总贷款和垫款 – 信贷品质
+  origin: heading
+  pages:
+  - 134
+  - 134
+  printed_pages:
+  - '132'
+  - '132'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0344
+    title: 38.2 信贷风险
+    pages:
+    - 132
+    - 135
+  start_page_text: 38. 风险管理 (续) 38.2 信贷风险 (续) 总贷款和垫款 – 信贷品质 除了根据新加坡金融管理局发出之第612通告进行的信贷分级之外，贷款和垫款也分类为“未过期也未减损”，“过期但未减损”及“减损”。
+    银行贷款 非银行贷款 百万元 2025 2024 2025 2024 未过期也未减损 36,506 41,096 336,944 315,411 非减损 – – 1,423 1,483 减
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0350
+  title: 获得的抵押品与其他信用增级项目
+  origin: heading
+  pages:
+  - 135
+  - 135
+  printed_pages:
+  - '133'
+  - '133'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0344
+    title: 38.2 信贷风险
+    pages:
+    - 132
+    - 135
+  start_page_text: '38. 风险管理 (续) 38.2 信贷风险 (续) 过期但未减损的贷款 某些贷款与垫款已过期但并未减损，因为这些贷款的抵押品价值超过拖欠的本金及利息。这些贷款的准备金可能已拨出。集团过期但 未减损的非银行贷款如下:
+    百万元 2025 2024 过期 少于30天 731 811 30至90天 349 455 超过90天 343 217 过期但未减损 1,423 1,483 获得的抵押品与其他信用增'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0376
+  title: (g) 流动性风险
+  origin: heading
+  pages:
+  - 148
+  - 150
+  printed_pages:
+  - '146'
+  - '148'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0369
+    title: 市场、信贷与流动性风险
+    pages:
+    - 146
+    - 150
+  start_page_text: 38. 风险管理 (续) 38.4 保险相关风险管理 (续) 市场、信贷与流动性风险 (续) (c) 股本价格风险 投资资产存有股本价格风险。这来自直接股本投资、权益衍生工具与基金投资。GEH集团通过投资承担所有或大部分股本波动性及投
+    资风险。股本价格风险也存在于投资联结产品，其保险营运的收入与相关股本基金的表现挂钩，因为这对所赚取的收费会造成影响。 限额的设定是以单一证券持股占总持股权的百分比计
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0379
+  title: (i) 集中风险
+  origin: heading
+  pages:
+  - 153
+  - 153
+  printed_pages:
+  - '151'
+  - '151'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0377
+    title: 获要求时即需支付数额
+    pages:
+    - 150
+    - 155
+  start_page_text: 38. 风险管理 (续) 38.4 保险相关风险管理 (续) 市场、信贷与流动性风险 (续) (h) 信贷风险 (续) 下表列出不涉及ECL的金融资产与再保合约资产的信贷分析。 百万元 投资级 (BBB至AAA)
+    非投资级 (C至BB) 无评级 无信贷风险 总帐面数额 2025 金融资产，按FVOCI 股本证券 – – – 1,272 1,272 金融资产，按FVTPL 股本证券 34 – – 1
+  verdict: wrong
+  note: 'Parent: "(i) 集中风险" belongs under 市场、信贷与流动性风险 (running header p151-155); 获要求时即需支付数额 is a heading inside (g) on p150.'
+- node_id: ocbc-group_ar_2025_zh:regions:0408
+  title: SFRS(I) 18财务报表的呈现与披露
+  origin: heading
+  pages:
+  - 176
+  - 176
+  printed_pages:
+  - '174'
+  - '174'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0407
+    title: 48. 新会计准则与解释
+    pages:
+    - 176
+    - 176
+  start_page_text: '48. 新会计准则与解释 截至报告日期，针对现有会计准则而作出的某些新准则、修订及解释已经公布。集团尚未采用以下已经发布但尚未开始生效的新/经修 订准则与解释。 SFRS(I) 标题 在以下财政年度期初或
+    之后开始生效 SFRS(I) 10 (经修订), SFRS(I) 1-28 (经修订) 投资者与其关联企业或合资公司之间的资产出售或投入 待定 SFRS(I) 9 (经修订), SFRS(I) '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0431
+  title: Parwati Surjaudaja女士
+  origin: heading
+  pages:
+  - 185
+  - 185
+  printed_pages:
+  - '183'
+  - '183'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0422
+    title: 管理委员会 – 履历
+    pages:
+    - 183
+    - 187
+  start_page_text: Parwati Surjaudaja女士 印尼首席执行官 Parwati Surjaudaja女士在2008年12月 受委为华侨银行印尼(前称Bank OCBC NISP)董事会总裁兼行政总裁，并在 2023年重新获选为董事会总裁。在这
+    之前，她于1990年加入Bank NISP担任 董事，并在1997年出任董事会副总裁。 Surjaudaja女士在银行界拥有超过35年 的经验，并领导该银行成为信
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0458
+  title: 澳门特别行政区
+  origin: heading
+  pages:
+  - 189
+  - 189
+  printed_pages:
+  - '187'
+  - '187'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0455
+    title: 大中华区
+    pages:
+    - 189
+    - 189
+  start_page_text: '东亚 日本 华侨银行有限公司 东京分行 Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku Tokyo 100-6105 Japan
+    电话: (81) 3 5510 7660 韩国 华侨银行有限公司 首尔分行 25th Floor Seoul Finance Center (Taepyung-ro 1-ka) 136 Sejo'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0469
+  title: 未来事项
+  origin: toc_group
+  pages:
+  - 190
+  - 196
+  printed_pages:
+  - '188'
+  - '194'
+  parent: null
+  start_page_text: 财务日期 2月 2026年2月25日 宣布2025年全年业绩 4月 2026年4月16日 常年股东大会 5月 2026年5月 宣布2026年第一季业绩 约在2026年 5月8日* 支付2025年普通股年终股息
+    (须获常年股东大会批准) 8月 2026年8月 宣布2026年上半年业绩 2026年8月* 支付2026年普通股中期股息 (须获董事部批准) 11月 2026年11月 宣布2026年第三季业
+  verdict: correct
+  note: ''

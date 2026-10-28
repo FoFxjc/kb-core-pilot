@@ -1,0 +1,121 @@
+doc_id: ocbc-group_ar_2024_zh
+purpose: re-judge nodes that changed after the W1 round-4 fixes
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2024_zh:regions:0167
+  title: 2.6.2 按FVOCI计量的债务工具
+  origin: heading
+  pages:
+  - 61
+  - 61
+  printed_pages:
+  - '59'
+  - '59'
+  parent:
+    node_id: ocbc-group_ar_2024_zh:regions:0165
+    title: 金融资产的分类与计量
+    pages:
+    - 61
+    - 62
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.5 金融工具 (续) 2.5.4 抵销 当拥有抵销有关数额的法定行使权，并且有意愿以净值结算或同 时变现资产及结算负债的情况下，金融资产与负债则予以抵销，并 按净值列入资产负债表。只有在会计准则允许的情况下，收入与
+    支出才以净值列报。 2.5.5 出售和回购协议 (包括证券借贷) 回购协议是被视为抵押借款。在回购协议下出售之证券被视为抵 押资产，并在资产负债
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_zh:regions:0209
+  title: 2.13.8 终止确认与合约修改
+  origin: heading
+  pages:
+  - 69
+  - 71
+  printed_pages:
+  - '67'
+  - '69'
+  parent:
+    node_id: ocbc-group_ar_2024_zh:regions:0192
+    title: 2.13 保险和再保险合约
+    pages:
+    - 65
+    - 71
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.7 计量 – 根据PAA计量的合约 (续) GEH集团估计LIC时，是作为与已产生索赔相关的履行现金流 量。FCF以无偏向方式纳入所有
+    (在不付出不必要成本和努力 的情况下可取得的) 有关未来现金流量之金额、时间及不确定 性的合理及有支援性的资料，这些资料从GEH集团的观点反 映当前估计，并且包括非金融风险的明确调整
+  verdict: wrong
+  note: 'pages: 2.13.8 starts p69 bottom and ends p69; p70 opens directly with ''2.13.9 来自已发出保险合约的保险服务业绩'' at the top, so
+    end should be 69, not 71 (the range swallows 2.13.9, which is missing as a node).'
+- node_id: ocbc-group_ar_2024_zh:regions:0234
+  title: 折现率
+  origin: heading
+  pages:
+  - 73
+  - 74
+  printed_pages:
+  - '71'
+  - '72'
+  parent:
+    node_id: ocbc-group_ar_2024_zh:regions:0233
+    title: 2.21.3 保险业务
+    pages:
+    - 73
+    - 75
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.20 分部报告 集团的业务分部代表主要的客户与产品组别，包括：环球个人 银行／私人银行业务、环球批发银行业务、环球市场业务及保 险。高级管理层定期检核所有营运分布的业绩，决定资源的分
+    配及评估其表现，这些分部均具备独立的财务资讯。为了计算 分部业绩，资产负债表项目都采用内部转移价格，收入与开支 是根据内部管理报告政策归属各分部。业务分部之间的交易 皆记录于分
+  verdict: correct
+  note: 'Correct: ''折现率'' starts p73 right column and its table continues on p74 until ''非金融风险的风险调整'' (p74).'
+- node_id: ocbc-group_ar_2024_zh:regions:0205
+  title: 2.13.6.5 再保险合约
+  origin: heading
+  pages:
+  - 68
+  - 68
+  printed_pages:
+  - '66'
+  - '66'
+  parent:
+    node_id: ocbc-group_ar_2024_zh:regions:0202
+    title: 2.13.6.4 后续计量 – 并非根据PAA计量的合约
+    pages:
+    - 67
+    - 68
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.6 计量 (续) 2.13.6.4 后续计量 – 并非根据PAA计量的合约 (续) GEH集团按季度报告其财务业绩。GEH集团选择将每个季度
+    视为一个独立的中期报告期处理，GEH集团在之前的中期财 务业绩作出的估计在之后的中期报告期或年度财务报表中应 用SFRS(I) 17时不会改变。 亏损合约 – 损失部分 当对C
+  verdict: wrong
+  note: 'parent: 2.13.6.5 is a sibling of 2.13.6.4 (both children of ''2.13.6 计量''), not a child of 2.13.6.4.'
+- node_id: ocbc-group_ar_2024_zh:regions:0210
+  title: 保险收入
+  origin: heading
+  pages:
+  - 70
+  - 70
+  printed_pages:
+  - '68'
+  - '68'
+  parent:
+    node_id: ocbc-group_ar_2024_zh:regions:0209
+    title: 2.13.8 终止确认与合约修改
+    pages:
+    - 69
+    - 71
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.9 来自已发出保险合约的保险服务业绩 保险收入 随着GEH集团根据保险合约组别提供保险合约服务，其LRC 将降低并确认为保险收入。在报告期间确认的保险收入金额
+    代表按某个金额转移所承诺服务，此金额反映GEH集团预期 在交换此类服务时有权获得的对价部分。 对于并非根据PAA计量的合约，保险收入包括以下项目。 • 有关L
+  verdict: wrong
+  note: 'parent: ''保险收入'' is the first sub-heading of ''2.13.9 来自已发出保险合约的保险服务业绩'' (printed directly above it on p70); placing
+    it under 2.13.8 skips the real 2.13.9 heading.'
+- node_id: ocbc-group_ar_2024_zh:regions:0333
+  title: 营运风险
+  origin: heading
+  pages:
+  - 136
+  - 137
+  printed_pages:
+  - '134'
+  - '135'
+  parent:
+    node_id: ocbc-group_ar_2024_zh:regions:0326
+    title: 38.3 市场风险与资产负债管理
+    pages:
+    - 132
+    - 137
+  start_page_text: 38. 风险管理 (续) 38.3 市场风险与资产负债管理 (续) 金融负债合约期限 下表按剩余合约期限分析集团的金融负债的未折现现金外流，除了交易投资组合负债是根据集团的交易策略分析。贷款承诺总额的现 金外流的资料列于附注43。这些负债的行为现金流量可能与表中所显示的情况有显著差异。举个例子，非银行客户的活期存款如往来
+    与储蓄存款 (附注17)，可能呈现比合约型态更长的行为到期特性。同样的，贷款
+  verdict: wrong
+  note: 'pages: ''营运风险'' (p136 bottom) ends on p136; p137 opens with the same-level heading ''套期'' (10pt bold) right under
+    the running header, so end should be 136, not 137.'

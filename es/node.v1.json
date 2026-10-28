@@ -1,0 +1,29 @@
+{
+  "settings": {
+    "number_of_shards": 1,
+    "number_of_replicas": 0,
+    "analysis": {"analyzer": {"kb_ws": {"type": "custom", "tokenizer": "whitespace", "filter": ["lowercase"]}}}
+  },
+  "mappings": {
+    "dynamic": "strict",
+    "properties": {
+      "node_id": {"type": "keyword"},
+      "doc_id": {"type": "keyword"},
+      "parent_id": {"type": "keyword"},
+      "fiscal_year": {"type": "integer"},
+      "lang": {"type": "keyword"},
+      "issuer": {"type": "keyword"},
+      "section_type": {"type": "keyword"},
+      "tree_source": {"type": "keyword"},
+      "is_primary": {"type": "boolean"},
+      "depth": {"type": "integer"},
+      "ord": {"type": "integer"},
+      "start_page": {"type": "integer"},
+      "end_page": {"type": "integer"},
+      "title": {"type": "text", "index": false},
+      "title_tok": {"type": "text", "analyzer": "kb_ws"},
+      "summary_tok": {"type": "text", "analyzer": "kb_ws"},
+      "concept_tok": {"type": "text", "analyzer": "kb_ws"}
+    }
+  }
+}

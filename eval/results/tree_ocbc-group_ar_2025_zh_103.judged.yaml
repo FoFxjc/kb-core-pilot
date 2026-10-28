@@ -1,0 +1,774 @@
+doc_id: ocbc-group_ar_2025_zh
+seed: 103
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2025_zh:regions:0012
+  title: 第一家
+  origin: heading
+  pages:
+  - 6
+  - 6
+  printed_pages:
+  - '4'
+  - '4'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0011
+    title: 硕果累累的一年
+    pages:
+    - 6
+    - 7
+  start_page_text: '硕果累累的一年 74亿2000万元 集团净利 34% 以可持续融资支持的所有市场的中小型企 业客户增长34%(同比) 150亿令吉 在2024年至2025年，对柔佛企业承诺 提供150亿令吉融资以支持柔佛-新加坡
+    经济特区 10 新加坡华侨银行手机应用程序整合10个 数码钱包，成为东南亚连接最多数码钱包 的银行业手机应用程序 第一家 新加坡第一家向企业投资者推出定制代币 化债券销售的银行 50% '
+  verdict: wrong
+  note: 'title: "第一家" is a 24pt stat-callout figure on the A Year of Achievements infographic (p6), not a heading.'
+- node_id: ocbc-group_ar_2025_zh:regions:0022
+  title: '尊敬的股东:'
+  origin: heading
+  pages:
+  - 8
+  - 9
+  printed_pages:
+  - '6'
+  - '7'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0021
+    title: 主席的思考
+    pages:
+    - 8
+    - 11
+  start_page_text: '主席的 思考 尊敬的股东: 2025年是影响重大的一年，地缘政治与宏观经济急剧发展， 是第二次世界大战结束以来前所未见。这些发展挑战了我们 世界数十年来赖以运行的核心参数。 6'
+  verdict: wrong
+  note: 'title (doubtful): "尊敬的股东:" is the letter salutation (first bold words of the 16pt intro paragraph on p8), not a section
+    heading; its range [8,9] is also arbitrary.'
+- node_id: ocbc-group_ar_2025_zh:regions:0039
+  title: 新加坡最佳管理银行
+  origin: heading
+  pages:
+  - 11
+  - 11
+  printed_pages:
+  - '9'
+  - '9'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0030
+    title: 总派息率60%
+    pages:
+    - 9
+    - 11
+  start_page_text: 去年下半年，我们进行了大量的思考与 努力，在我们的未来战略中反映地缘政 治与宏观经济阻力、科技进展以及在核 心营运国家中人口结构变化所带来的影 响。我们对企业战略进行了调整，并开始 推行。陈德隆先生将在第10至13页对此
+    进行详细说明。 未来展望 年初中东冲突加剧，深刻提醒我们当今 世界正面临持续的不确定性。在我们应 对此不安定的环境之际，董事会与管理 层再度向所有利益相关者承诺，我们将 共同致力
+  verdict: wrong
+  note: 'title/parent: "新加坡最佳管理银行" is an award-list entry in the p11 sidebar, and the parent "总派息率60%" is a stat callout on
+    p9, not a heading; real enclosing section is 主席的思考.'
+- node_id: ocbc-group_ar_2025_zh:regions:0042
+  title: 履行当前战略，并为下一阶段做好充分准备
+  origin: heading
+  pages:
+  - 13
+  - 13
+  printed_pages:
+  - '11'
+  - '11'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0041
+    title: 尊敬的股东：
+    pages:
+    - 12
+    - 15
+  start_page_text: 与此同时，在经历了多年的货币紧缩政 策后，多个市场的利率开始回落。在香港 特别行政区，HIBOR（香港银行同业拆 息）经历了剧烈波动，凸显出金融市场对 流动性与信心变化依然高度敏感。除此 之外，人工智能（AI）迅速从实验阶段升
+    至日常应用，改变了人们的工作方式、企 业营运模式以及客户对服务的预期。 在这样的环境下，我们依旧以我们的宗 旨与价值观为基础，维护客户的利益， 协助企业在不断变化的宏观经济
+  verdict: wrong
+  note: 'parent (doubtful): parent "尊敬的股东：" is the CEO letter salutation, not a heading; nearest real heading is 集团首席执行官的观点
+    (p12). Title and pages fine.'
+- node_id: ocbc-group_ar_2025_zh:regions:0044
+  title: 新企业战略简述
+  origin: heading
+  pages:
+  - 13
+  - 13
+  printed_pages:
+  - '11'
+  - '11'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0041
+    title: 尊敬的股东：
+    pages:
+    - 12
+    - 15
+  start_page_text: 与此同时，在经历了多年的货币紧缩政 策后，多个市场的利率开始回落。在香港 特别行政区，HIBOR（香港银行同业拆 息）经历了剧烈波动，凸显出金融市场对 流动性与信心变化依然高度敏感。除此 之外，人工智能（AI）迅速从实验阶段升
+    至日常应用，改变了人们的工作方式、企 业营运模式以及客户对服务的预期。 在这样的环境下，我们依旧以我们的宗 旨与价值观为基础，维护客户的利益， 协助企业在不断变化的宏观经济
+  verdict: wrong
+  note: 'parent (doubtful): parent "尊敬的股东：" is the CEO letter salutation, not a heading; nearest real heading is 集团首席执行官的观点
+    (p12). Title and pages fine.'
+- node_id: ocbc-group_ar_2025_zh:regions:0054
+  title: 净零转型
+  origin: heading
+  pages:
+  - 16
+  - 17
+  printed_pages:
+  - '14'
+  - '15'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0051
+    title: 华侨银行未来前沿战略
+    pages:
+    - 16
+    - 17
+  start_page_text: 我们充分发挥自身综合金融服务集团的优势，致力推动强劲增长。 推动四大战略转型，实现加速增长 亚洲转型 把握亚洲区日益 增长的贸易、投资 与财富流动 科技转型 通过人工智能、 数字化和数据， 推动以客户为 中心的策略；
+    积极拓展科技 领域的业务 净零转型 持续支持绿色转型 业务转型 深化核心市场业务， 实现长期增长 人工智能 (Artificial Intelligence) 以ADD 为核心 数据
+  verdict: wrong
+  note: 'pages/parent: "净零转型" is a quadrant label in the four-shifts diagram on p16 under "推动四大战略转型，实现加速增长" (skipped); end
+    page 17 is wrong, p17 is the separate "以我们的宗旨、价值观和使命为基石" block.'
+- node_id: ocbc-group_ar_2025_zh:regions:0060
+  title: 业务转型
+  origin: heading
+  pages:
+  - 18
+  - 18
+  printed_pages:
+  - '16'
+  - '16'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0059
+    title: 亚洲转型
+    pages:
+    - 18
+    - 19
+  start_page_text: 推动转型，加速增长 亚洲转型 业务转型 科技转型 净零转型 通过华侨银行区域网络的优势，以强有力的“一个 东盟”综合方案，把握东盟与大中华区之间的贸易、 投资和财富流动。 透过新加坡与香港特别行政区的双枢纽运作方
+    式，捕捉日益增长的亚洲财富流动。 新加坡-香港双枢纽 提供涵盖银行、财富管理与保险的全方位财富 综合方案。 在超高龄社会领先推动银发族方案。 扩大香港特别行政区的富裕客户群。 提升香港特
+  verdict: wrong
+  note: 'parent: "亚洲转型" is a sibling box on p18 (亚洲/业务/科技/净零转型 are four parallel panels), not the enclosing heading; parent
+    should be 推动转型，加速增长.'
+- node_id: ocbc-group_ar_2025_zh:regions:0062
+  title: 净零转型
+  origin: heading
+  pages:
+  - 18
+  - 19
+  printed_pages:
+  - '16'
+  - '17'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0059
+    title: 亚洲转型
+    pages:
+    - 18
+    - 19
+  start_page_text: 推动转型，加速增长 亚洲转型 业务转型 科技转型 净零转型 通过华侨银行区域网络的优势，以强有力的“一个 东盟”综合方案，把握东盟与大中华区之间的贸易、 投资和财富流动。 透过新加坡与香港特别行政区的双枢纽运作方
+    式，捕捉日益增长的亚洲财富流动。 新加坡-香港双枢纽 提供涵盖银行、财富管理与保险的全方位财富 综合方案。 在超高龄社会领先推动银发族方案。 扩大香港特别行政区的富裕客户群。 提升香港特
+  verdict: wrong
+  note: 'parent+pages: parent "亚洲转型" is a sibling panel; and end page 19 is wrong, p19 starts the new heading "提供全方位财富综合方案"
+    (净零转型 panel ends on p18).'
+- node_id: ocbc-group_ar_2025_zh:regions:0065
+  title: 提供全方位财富综合方案
+  origin: heading
+  pages:
+  - 19
+  - 19
+  printed_pages:
+  - '17'
+  - '17'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0062
+    title: 净零转型
+    pages:
+    - 18
+    - 19
+  start_page_text: 凭藉我们作为一家综合金融服务集团的优势，我们能透过银行、财富管理与 保险解决方案，为客户提供全面支持。 在整个财富光谱的各阶段满足各种 银发族的多元需求 新加坡将在2026年迈入超高龄社会，我们已做好 准备为年长客户提供支持。
+    我们的个人银行业务推出了华侨银行乐龄关怀 计划，这是一项全面性计划，从四个主要层面 （健康、财富、数码素养及生活方式），让超过 18万名年长者从中受惠。 新加坡银行的私人银
+  verdict: wrong
+  note: 'parent: "提供全方位财富综合方案" (16pt heading p19) is placed under the "净零转型" panel of p18; its enclosing heading is 推动转型，加速增长.'
+- node_id: ocbc-group_ar_2025_zh:regions:0067
+  title: 在集团整体推行黄金投资计划
+  origin: heading
+  pages:
+  - 19
+  - 19
+  printed_pages:
+  - '17'
+  - '17'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0065
+    title: 提供全方位财富综合方案
+    pages:
+    - 19
+    - 19
+  start_page_text: 凭藉我们作为一家综合金融服务集团的优势，我们能透过银行、财富管理与 保险解决方案，为客户提供全面支持。 在整个财富光谱的各阶段满足各种 银发族的多元需求 新加坡将在2026年迈入超高龄社会，我们已做好 准备为年长客户提供支持。
+    我们的个人银行业务推出了华侨银行乐龄关怀 计划，这是一项全面性计划，从四个主要层面 （健康、财富、数码素养及生活方式），让超过 18万名年长者从中受惠。 新加坡银行的私人银
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0093
+  title: 五年股东总回报
+  origin: heading
+  pages:
+  - 25
+  - 25
+  printed_pages:
+  - '23'
+  - '23'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0090
+    title: 集团首席财务官综述
+    pages:
+    - 24
+    - 25
+  start_page_text: 按恒定汇率计算，贷款稳健增长9%，达到 3410亿元，主要是获益于企业与个人业务 的贡献，以及集团主要区域与国际市场的 推动。我们尤其增加了对关键增长领域客 户的借贷，包括可再生能源、科技 、媒体与 通信
+    (TMT)、包括数位基础设施，运输以及 新加坡房屋抵押贷款。可持续融资贷款增 长13%，达到565亿元，占集团贷款总额的 17%，而总授信承诺额则达到800亿元。 客户存款比去年增长10%，主要
+  verdict: wrong
+  note: 'title: "五年股东总回报" is a chart label (Five-Year Total Shareholder Returns chart, p25 col2), not a heading.'
+- node_id: ocbc-group_ar_2025_zh:regions:0103
+  title: 小小绿色夏令营
+  origin: heading
+  pages:
+  - 27
+  - 27
+  printed_pages:
+  - '25'
+  - '25'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0100
+    title: 马来西亚
+    pages:
+    - 27
+    - 27
+  start_page_text: '企业社会责任计划综述 新加坡 华侨银行-新加坡残疾体育理事会 SwimTogether计划 我们推出了“华侨银行-新加坡残疾体育 理事会SwimTogether计划”，这是新加坡 首个为残疾人士设计的结构性水上安全
+    计划。这项计划由华侨银行全额资助， 协助100名参与者参加由受训教练及华 侨银行义工带领的800堂课程。课堂使 用适应性游泳辅助器材，并在设有恒温 泳池、触觉地板及无障碍设施的场地举 '
+  verdict: wrong
+  note: 'parent: "小小绿色夏令营" sits under the red country heading "中国" (p27 x51 y558), not "马来西亚".'
+- node_id: ocbc-group_ar_2025_zh:regions:0110
+  title: 马来西亚
+  origin: heading
+  pages:
+  - 29
+  - 29
+  printed_pages:
+  - '27'
+  - '27'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0109
+    title: 华侨银行红树林公园与种植计划
+    pages:
+    - 28
+    - 29
+  start_page_text: '马来西亚 珊瑚礁 作为2025年华侨银行马来西亚可持续性发展周的活动之一，亚庇分行前往沙巴州乌 苏干岛协助海洋保育工作。该团队培育了143个珊瑚碎块，让当地原住民社区的4,000 名成员受益。这些珊瑚碎块随后被移植到华侨银行认养的珊瑚苗圃（由华侨银行及
+    员工捐赠5万3900令吉资助）。健康的珊瑚礁在气候适应、保护海岸线免受风暴和侵 蚀，以及在维持渔业、保育和旅游相关活动的生计方面发挥着重要作用。 '
+  verdict: wrong
+  note: 'parent: country heading "马来西亚" (p29) belongs directly under 为未来播下希望的种子, not under the Singapore project "华侨银行红树林公园与种植计划"
+    (p28).'
+- node_id: ocbc-group_ar_2025_zh:regions:0111
+  title: 珊瑚礁
+  origin: heading
+  pages:
+  - 29
+  - 29
+  printed_pages:
+  - '27'
+  - '27'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0110
+    title: 马来西亚
+    pages:
+    - 29
+    - 29
+  start_page_text: '马来西亚 珊瑚礁 作为2025年华侨银行马来西亚可持续性发展周的活动之一，亚庇分行前往沙巴州乌 苏干岛协助海洋保育工作。该团队培育了143个珊瑚碎块，让当地原住民社区的4,000 名成员受益。这些珊瑚碎块随后被移植到华侨银行认养的珊瑚苗圃（由华侨银行及
+    员工捐赠5万3900令吉资助）。健康的珊瑚礁在气候适应、保护海岸线免受风暴和侵 蚀，以及在维持渔业、保育和旅游相关活动的生计方面发挥着重要作用。 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0113
+  title: 东滩湿地植树计划
+  origin: heading
+  pages:
+  - 29
+  - 29
+  printed_pages:
+  - '27'
+  - '27'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0110
+    title: 马来西亚
+    pages:
+    - 29
+    - 29
+  start_page_text: '马来西亚 珊瑚礁 作为2025年华侨银行马来西亚可持续性发展周的活动之一，亚庇分行前往沙巴州乌 苏干岛协助海洋保育工作。该团队培育了143个珊瑚碎块，让当地原住民社区的4,000 名成员受益。这些珊瑚碎块随后被移植到华侨银行认养的珊瑚苗圃（由华侨银行及
+    员工捐赠5万3900令吉资助）。健康的珊瑚礁在气候适应、保护海岸线免受风暴和侵 蚀，以及在维持渔业、保育和旅游相关活动的生计方面发挥着重要作用。 '
+  verdict: wrong
+  note: 'parent: "东滩湿地植树计划" sits under the red heading "中国" (p29 y400), not "马来西亚".'
+- node_id: ocbc-group_ar_2025_zh:regions:0115
+  title: 澳门都市农场
+  origin: heading
+  pages:
+  - 29
+  - 29
+  printed_pages:
+  - '27'
+  - '27'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0110
+    title: 马来西亚
+    pages:
+    - 29
+    - 29
+  start_page_text: '马来西亚 珊瑚礁 作为2025年华侨银行马来西亚可持续性发展周的活动之一，亚庇分行前往沙巴州乌 苏干岛协助海洋保育工作。该团队培育了143个珊瑚碎块，让当地原住民社区的4,000 名成员受益。这些珊瑚碎块随后被移植到华侨银行认养的珊瑚苗圃（由华侨银行及
+    员工捐赠5万3900令吉资助）。健康的珊瑚礁在气候适应、保护海岸线免受风暴和侵 蚀，以及在维持渔业、保育和旅游相关活动的生计方面发挥着重要作用。 '
+  verdict: wrong
+  note: 'parent: "澳门都市农场" sits under the red heading "澳门" (p29 y638), not "马来西亚".'
+- node_id: ocbc-group_ar_2025_zh:regions:0116
+  title: 游隼研究
+  origin: heading
+  pages:
+  - 28
+  - 28
+  printed_pages:
+  - '26'
+  - '26'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0106
+    title: 为未来播下希望的种子
+    pages:
+    - 28
+    - 29
+  start_page_text: 为未来播下希望的种子 我们致力于采取以自然为本的气候解决方案，积极对海洋与海岸生态系统进行 修复，同时支持生物多样性保育以及社区可持续发展计划。 华侨银行海草复原计划 这是新加坡首个由企业主导、与国家公园局合作的海草研究与
+    复原计划。这项计划为期三年，现已进入研究的第二年。其目的 是在探讨海草的繁殖生态、开发创新的移植技术，并对复原后 的海草草甸在生态及碳固存方面的效益进行量化。海草是重要 的蓝碳
+  verdict: wrong
+  note: 'parent (doubtful): skips the red country heading "新加坡" (p28 y162) that groups the three Singapore projects (same
+    pattern as 马来西亚 > 珊瑚礁 on p29).'
+- node_id: ocbc-group_ar_2025_zh:regions:0127
+  title: 董事可持续性委员会
+  origin: heading
+  pages:
+  - 33
+  - 33
+  printed_pages:
+  - '31'
+  - '31'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0122
+    title: 董事委员会
+    pages:
+    - 32
+    - 33
+  start_page_text: 提名委员会 邱清和博士，主席 李国庆先生 连伟超先生 Pramukti Surjaudaja先生 陈燕燕女士 薪酬委员会 李国庆先生，主席 邱清和博士 Pramukti Surjaudaja先生 审计委员会
+    蔡锦洲先生，主席 莊泉娘女士 连伟超先生 石懐光先生 陈燕燕女士 风险管理委员会 李国庆先生，主席 蔡锦洲先生 连伟超先生 曾庆怡女士 陈燕燕女士 道德与行为委员会 石懐光先生，主席 李国庆先
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0128
+  title: 薪酬委员会
+  origin: heading
+  pages:
+  - 33
+  - 33
+  printed_pages:
+  - '31'
+  - '31'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0122
+    title: 董事委员会
+    pages:
+    - 32
+    - 33
+  start_page_text: 提名委员会 邱清和博士，主席 李国庆先生 连伟超先生 Pramukti Surjaudaja先生 陈燕燕女士 薪酬委员会 李国庆先生，主席 邱清和博士 Pramukti Surjaudaja先生 审计委员会
+    蔡锦洲先生，主席 莊泉娘女士 连伟超先生 石懐光先生 陈燕燕女士 风险管理委员会 李国庆先生，主席 蔡锦洲先生 连伟超先生 曾庆怡女士 陈燕燕女士 道德与行为委员会 石懐光先生，主席 李国庆先
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0144
+  title: 股票形式补贴计划
+  origin: heading
+  pages:
+  - 41
+  - 44
+  printed_pages:
+  - '39'
+  - '42'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0141
+    title: 董事声明
+    pages:
+    - 40
+    - 45
+  start_page_text: '董事的股份或债券权益 据董事股权登记簿记录，于本财政年度结束时在职的董事所拥有的银行与其关联公司的股份权益如下所列: 直接权益 被视为有权益 于2025年 12月31日 于2025年 1月1日/ 受委任日期
+    于2025年 12月31日 于2025年 1月1日/ 受委任日期 银行 普通股 李国庆 562,380 535,953 – – 莊泉娘 17,210 11,210 – – 蔡锦洲 44,663'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0150
+  title: 独立审计师报告
+  origin: subtoc
+  pages:
+  - 46
+  - 53
+  printed_pages:
+  - '44'
+  - '51'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0139
+    title: 财务报告
+    pages:
+    - 38
+    - 176
+  start_page_text: 财务报表审计报告 我们的意见 我们认为，所附的华侨银行有限公司 (“银行”) 与其附属公司 (“集团”) 的合并财务报告以及银行的资产负债表、收入报表、综合收益报表 与权益变动表，已根据1967年公司法令
+    (“法令”) 及新加坡财务报告准则 (国际) (“SFRS(I)s”) 而编制，公允反映了于2025年12月31日集 团的合并财务状况与银行的财务状况以及截至该日期财政年度的集团的合并财务业绩、
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0173
+  title: 财务报告附注
+  origin: subtoc
+  pages:
+  - 61
+  - 176
+  printed_pages:
+  - '59'
+  - '174'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0139
+    title: 财务报告
+    pages:
+    - 38
+    - 176
+  start_page_text: '附注是本财务报告的整体组成部份。 华侨银行有限公司董事部在2026年2月24日授权发出此财务报告。 1. 概论 华侨银行有限公司 (银行) 是在新加坡注册和设立，并在新加坡证 券交易所有限公司上市。银行注册办事处是珠烈街63号#10-00，
+    华厦东楼，新加坡邮区049514。 本合并财务报告是关于银行与其附属公司 (总称集团) 以及集团 在联号企业的权益。集团主要业务是银行、寿险、普通保险、资产 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0188
+  title: 2.13 保险和再保险合约
+  origin: subnote
+  pages:
+  - 66
+  - 72
+  printed_pages:
+  - '64'
+  - '70'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0175
+    title: 2. 重大会计政策资讯摘要
+    pages:
+    - 61
+    - 76
+  start_page_text: '2. 重大会计政策资讯摘要 (续) 2.11 资产减损 (续) (I) 金融资产 (续) 2.11.4 各阶段之间的变动 (续) 集团在评估信贷风险自初始确认后是否出现显著增加的情况时 考虑了定性和定量两种参数。这包括:
+    (a) 集团同时根据整个存续期间PD相对于初始确认的相对值和 绝对值变化，为信贷风险的显著增加情况订立阈值。 (b) 集团进行定性评估，以确定信贷风险是否显著增加。 (c) 集团'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0195
+  title: 2.20 分部报告
+  origin: subnote
+  pages:
+  - 74
+  - 74
+  printed_pages:
+  - '72'
+  - '72'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0175
+    title: 2. 重大会计政策资讯摘要
+    pages:
+    - 61
+    - 76
+  start_page_text: '2. 重大会计政策资讯摘要 (续) 2.19 每股盈利 集团对其普通股呈现其每股基本与稀释盈利数据。每股基本盈利 的计算法，是将可归属银行普通股股东的盈利或亏损除以本年度 流通普通股的加权平均数目，并按本身持有的股票作出调整。每
+    股稀释盈利的确定，是根据所有稀释性潜在普通股 (包括授予员 工的认股权) 效应，将可归属普通股股东的盈利或亏损及流通普 通股的加权平均数目，并按本身持有的股票作出调整。 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0209
+  title: 13.2 股票认股权计划
+  origin: subnote
+  pages:
+  - 84
+  - 85
+  printed_pages:
+  - '82'
+  - '83'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0207
+    title: 13. 股本
+    pages:
+    - 84
+    - 86
+  start_page_text: '13. 股本 13.1 股本 股票(百万) 2025 2024 集团和银行 普通股 于1月1日 4,515 4,515 注销股票 (14) – 发行给非执行董事的股票 # # 于12月31日 4,501
+    4,515 库存股 于1月1日 (15) (21) 股票回购 (27) (13) 注销股票 14 – 股票认股权计划 4 6 股票购买计划 7 7 转往DSP信托的库存股 6 6 于12月31日 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0212
+  title: 14. 其他权益工具
+  origin: note
+  pages:
+  - 87
+  - 89
+  printed_pages:
+  - '85'
+  - '87'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0173
+    title: 财务报告附注
+    pages:
+    - 61
+    - 176
+  start_page_text: '14. 其他权益工具 集团 百万元 附注 2025 2024 由银行发行: 2亿新元3.00%非累计与非兑换永久资本证券(3.00%资本证券) (a) 200 200 5亿新元3.90%非累计与非兑换永久资本证券(3.90%资本证券)
+    (b) 498 498 5.5亿新元4.50%非累计与非兑换永久资本证券(4.50%资本证券) (c) 550 550 4.5亿新元4.05%非累计与非兑换永久资本'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0233
+  title: 22.3 本年度确认寿险合约的影响
+  origin: subnote
+  pages:
+  - 106
+  - 106
+  printed_pages:
+  - '104'
+  - '104'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0230
+    title: 22. 寿险基金负债和资产
+    pages:
+    - 102
+    - 107
+  start_page_text: 22. 寿险基金负债和资产 (续) 22.3 本年度确认寿险合约的影响 已发出合约 2025 2024 百万元 非亏损 亏损 总额 非亏损 亏损 总额 索赔与其他直接归属开支 8,892 2,246 11,138
+    7,295 6,757 14,052 保险获取现金流量 1,549 238 1,787 1,377 271 1,648 未来现金流出的现值估计 10,441 2,484 12,925 8
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0236
+  title: 23. 现金及存放中央银行款项
+  origin: note
+  pages:
+  - 107
+  - 107
+  printed_pages:
+  - '105'
+  - '105'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0173
+    title: 财务报告附注
+    pages:
+    - 61
+    - 176
+  start_page_text: 22. 寿险基金负债和资产 (续) 22.5 已发出寿险合约的合同服务边际的预期确认 百万元 少于1年 1至2年 2至3年 3至4年 4至5年 超过5年 总额 2025 已发出寿险合约 541 485 441
+    403 362 4,449 6,681 2024 已发出寿险合约 580 510 469 430 388 4,370 6,747 23. 现金及存放中央银行款项 集团 银行 百万元 2025
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0243
+  title: 30. 金融资产准备金
+  origin: note
+  pages:
+  - 114
+  - 117
+  printed_pages:
+  - '112'
+  - '115'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0173
+    title: 财务报告附注
+    pages:
+    - 61
+    - 176
+  start_page_text: '30. 金融资产准备金 下表显示预期信用损失(ECL)的期初与期末结存的对账。 百万元 第一阶段 第二阶段 第三阶段 总额 集团 于2024年1月1日 1,280 1,317 1,330 3,927 转移至第一阶段
+    723 (663) (60) – 转移至第二阶段 (492) 532 (40) – 转移至第三阶段 (3) (97) 100 – 重新计量 (1) (837) 662 393 218 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0250
+  title: 33.1 主要附属公司列表
+  origin: subnote
+  pages:
+  - 121
+  - 121
+  printed_pages:
+  - '119'
+  - '119'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0249
+    title: 33. 附属公司
+    pages:
+    - 120
+    - 122
+  start_page_text: '33. 附属公司 (续) 33.1 主要附属公司列表 集团主要附属公司详情如下: 附属公司名称 注册国家/ 主要营业地点 集团所持的 拥有权的比例(%) 非控股股东所持的 拥有权的比例(%) 2025 (1)
+    2024 (1) 2025 (1) 2024 (1) 银行业 华侨银行(澳门)有限公司 澳门行政特区 100 100 – – 新加坡银行有限公司 新加坡 100 100 – – OCBC A'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0261
+  title: 38.2 信贷风险
+  origin: subnote
+  pages:
+  - 132
+  - 135
+  printed_pages:
+  - '130'
+  - '133'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0259
+    title: 38. 风险管理
+    pages:
+    - 131
+    - 155
+  start_page_text: 38. 风险管理 (续) 38.2 信贷风险 信贷风险是指由于借贷者或债务人无法履行其金融或合约义务，而导致金融损失的风险。信贷风险来自集团对个人、企业和机构客户 的借贷活动，此外也包括来自承销，交易和投资银行业务所产生的交易对手和发行人的信贷风险。
+    最大信贷风险敞口 下表呈现集团在资产负债表内和表外金融工具，在不考虑任何所持抵押或其他信用增级项目的情况下，所面对的最大信贷风险敞口。 对于表内项目
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0267
+  title: 40.2 公允价值
+  origin: subnote
+  pages:
+  - 161
+  - 161
+  printed_pages:
+  - '159'
+  - '159'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0265
+    title: 40. 金融工具的公允价值
+    pages:
+    - 160
+    - 167
+  start_page_text: 40. 金融工具的公允价值 (续) 40.2 公允价值 金融工具包含金融资产、金融负债和资产负债表外的金融工具。金融工具的公允价值是指在市场参与者之间进行有条理的交易时，出 售某项资产可获得的价格或转移某项负债所须支付的价格。财务报表上未按公允价值列账的金融资产与负债，集团已确认其公允价值
+    与报告日的账面金额并无显著不同。集团金融工具的帐面数额与公允价值说明如下。 金融资产 现金及存放中央银行款项
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0293
+  title: 陈燕燕女士 (60)
+  origin: heading
+  pages:
+  - 182
+  - 182
+  printed_pages:
+  - '180'
+  - '180'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0282
+    title: 董事会 – 履历
+    pages:
+    - 177
+    - 182
+  start_page_text: 陈女士是资讯科技界的著名资深从业人士。她曾先后任职于 SAS Institute, Oracle Corporation, Hewlett-Packard Singapore 和Vodafone Enterprise
+    Singapore等公司。她现在专注于在董事 会的非执行职务及企业咨询任务。 其他董事职位及主要职务/职衔 · ams OSRAM AG*，董事 · EdgeConnex Inc，董
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0297
+  title: 郭斯强先生
+  origin: heading
+  pages:
+  - 183
+  - 183
+  printed_pages:
+  - '181'
+  - '181'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0294
+    title: 管理委员会 – 履历
+    pages:
+    - 183
+    - 187
+  start_page_text: 陈德隆先生 集团首席执行官 陈德隆先生于2026年1月1日被任命为华侨 银行集团首席执行官。陈先生同时担任华 侨银行印尼董事总监，以及华侨银行马来 西亚、华侨银行香港、新加坡银行以及大 东方控股的董事。陈先生也现任新加坡银
+    行公会主席、东盟银行家协会主席以及新 加坡银行与金融学院副主席。 陈先生于2022年加入华侨银行，担任环球 企业及投资银行业务总裁，负责全球大中 小型企业、金融机构、环球交易银
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0298
+  title: 吕佩君女士
+  origin: heading
+  pages:
+  - 183
+  - 183
+  printed_pages:
+  - '181'
+  - '181'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0294
+    title: 管理委员会 – 履历
+    pages:
+    - 183
+    - 187
+  start_page_text: 陈德隆先生 集团首席执行官 陈德隆先生于2026年1月1日被任命为华侨 银行集团首席执行官。陈先生同时担任华 侨银行印尼董事总监，以及华侨银行马来 西亚、华侨银行香港、新加坡银行以及大 东方控股的董事。陈先生也现任新加坡银
+    行公会主席、东盟银行家协会主席以及新 加坡银行与金融学院副主席。 陈先生于2022年加入华侨银行，担任环球 企业及投资银行业务总裁，负责全球大中 小型企业、金融机构、环球交易银
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0308
+  title: 刘之华先生
+  origin: heading
+  pages:
+  - 186
+  - 186
+  printed_pages:
+  - '184'
+  - '184'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0294
+    title: 管理委员会 – 履历
+    pages:
+    - 183
+    - 187
+  start_page_text: 蓝淑燕女士 环球企业银行业务总裁 蓝淑燕女士在2016年4月受委为华侨银行 的集团董事总经理及环球企业银行业务 总裁，负责华侨银行的环球企业银行业务 – 跨越多个行业领域，包括房地产业、基 础设施、能源、公用事业、运输、科技、企
+    业集团、工业、公共部门、领导区域覆盖团 队和大中华区商业办事处，以及华侨银行 海外分行与附属公司的企业银行业务。她 也在环球企业银行内负责结构性、项目融 资以及伙伴与创新
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0310
+  title: 颜国锦先生
+  origin: heading
+  pages:
+  - 186
+  - 186
+  printed_pages:
+  - '184'
+  - '184'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0294
+    title: 管理委员会 – 履历
+    pages:
+    - 183
+    - 187
+  start_page_text: 蓝淑燕女士 环球企业银行业务总裁 蓝淑燕女士在2016年4月受委为华侨银行 的集团董事总经理及环球企业银行业务 总裁，负责华侨银行的环球企业银行业务 – 跨越多个行业领域，包括房地产业、基 础设施、能源、公用事业、运输、科技、企
+    业集团、工业、公共部门、领导区域覆盖团 队和大中华区商业办事处，以及华侨银行 海外分行与附属公司的企业银行业务。她 也在环球企业银行内负责结构性、项目融 资以及伙伴与创新
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0316
+  title: 东南亚
+  origin: heading
+  pages:
+  - 188
+  - 189
+  printed_pages:
+  - '186'
+  - '187'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0315
+    title: 华侨银行在东盟、大中华区及其他各地的业务
+    pages:
+    - 188
+    - 189
+  start_page_text: '华侨银行在东盟、大中华区及其他各地的业务 东南亚 新加坡 华侨银行有限公司 总部 63 Chulia Street #10-00 OCBC Centre East Singapore 049514 电话:
+    (65) 6363 3333 传真: (65) 6534 3986 www.ocbc.com 在新加坡设有32家分行。 新加坡银行有限公司 总部 63 Market Street #22-00 '
+  verdict: wrong
+  note: 'pages: 东南亚 ends on p188; p189 starts with 东亚 at the top, so [188,189] is off by one.'
+- node_id: ocbc-group_ar_2025_zh:regions:0335
+  title: 负责审核工作的合伙人
+  origin: heading
+  pages:
+  - 195
+  - 195
+  printed_pages:
+  - '193'
+  - '193'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0331
+    title: 企业资料
+    pages:
+    - 195
+    - 196
+  start_page_text: '企业资料 董事会 李国庆先生 主席 莊泉娘女士 蔡锦洲先生 邱清和博士 李迪士教授 连伟超先生 石懐光先生 Pramukti Surjaudaja先生 曾庆怡女士 陈燕燕女士 秘书 杨万益先生 廖凤珠女士
+    注册办事处 63 Chulia Street #10-00 OCBC Centre East Singapore 049514 电话: (65) 6363 3333 (个人银行) (65) 65'
+  verdict: correct
+  note: small red field heading in Corporate Information column; accepted as a real heading.
+- node_id: ocbc-group_ar_2025_zh:regions:0336
+  title: 投资者关系
+  origin: heading
+  pages:
+  - 195
+  - 196
+  printed_pages:
+  - '193'
+  - '194'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0331
+    title: 企业资料
+    pages:
+    - 195
+    - 196
+  start_page_text: '企业资料 董事会 李国庆先生 主席 莊泉娘女士 蔡锦洲先生 邱清和博士 李迪士教授 连伟超先生 石懐光先生 Pramukti Surjaudaja先生 曾庆怡女士 陈燕燕女士 秘书 杨万益先生 廖凤珠女士
+    注册办事处 63 Chulia Street #10-00 OCBC Centre East Singapore 049514 电话: (65) 6363 3333 (个人银行) (65) 65'
+  verdict: wrong
+  note: 'pages: 投资者关系 content (one email line) ends on p195; p196 is the back cover (company name and registration no.), so
+    [195,196] is off by one.'

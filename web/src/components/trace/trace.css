@@ -1,0 +1,34 @@
+.tr-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 12px; }
+.tr-head h1 { font-size: 18px; margin: 0; }
+.tr-filters { display: flex; gap: 16px; margin-bottom: 12px; }
+.tr-filters select { font: inherit; padding: 2px 6px; }
+.tr-table { background: var(--panel); }
+.tr-table th { font-weight: 600; color: var(--muted); font-size: 12.5px; white-space: nowrap; }
+.tr-table .num { text-align: right; }
+.nowrap { white-space: nowrap; }
+.tr-session { max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.tr-query { max-width: 520px; }
+.tr-more { margin: 10px 0; font: inherit; padding: 4px 14px; border: 1px solid var(--line); border-radius: 6px;
+  background: var(--panel); cursor: pointer; }
+.tr-more:hover { border-color: var(--accent); color: var(--accent); }
+.tr-empty { padding: 12px; }
+.tr-ok { color: var(--fact); font-weight: 600; }
+.tr-err { color: var(--danger); font-weight: 600; }
+.tr-detail { display: flex; flex-direction: column; gap: 12px; padding-bottom: 24px; }
+.tr-section h2 { font-size: 15px; margin: 0 0 8px; }
+.tr-section h3 { font-size: 13px; margin: 12px 0 6px; }
+.tr-note { font-size: 12.5px; margin-bottom: 8px; }
+.tr-dl { display: grid; grid-template-columns: max-content 1fr; gap: 2px 16px; margin: 0; }
+.tr-dl dt { color: var(--muted); }
+.tr-dl dd { margin: 0; }
+.tr-pre { margin: 6px 0; max-height: 420px; white-space: pre-wrap; word-break: break-word; }
+.tr-scroll { overflow: auto; max-height: 560px; }
+.tr-ranks td.num { min-width: 64px; }
+.tr-kept td { background: #eef6f1; }
+.tr-kept td:first-child { box-shadow: inset 3px 0 0 var(--fact); }
+.tr-blocked { color: var(--danger); text-decoration: line-through; }
+.tr-pass { color: var(--fact); font-weight: 600; }
+.tr-fail { color: var(--danger); font-weight: 600; }
+.tr-chip { display: inline-block; border: 1px solid var(--line); border-radius: 10px; padding: 0 8px; margin: 0 4px 2px 0; }
+.tr-query-block { border-top: 1px solid var(--line); padding: 6px 0; }
+.tr-query-block summary { cursor: pointer; }

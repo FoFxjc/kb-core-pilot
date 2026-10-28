@@ -1,0 +1,501 @@
+# P1 v3 gold-set draft (independent author "goldA"), generated 2026-10-16.
+#
+# METHOD
+# - Sources: ONLY data/raw/ocbc-group_ar_{2023,2024,2025}_{en,zh}.pdf, text via PyMuPDF page.get_text().
+#   Pages are PHYSICAL page numbers (PDF index + 1), not printed labels.
+# - For every question-year the regexes below were run (case-insensitive) over EVERY page of ALL SIX PDFs:
+#   en pages with whitespace collapsed to single spaces; zh pages both collapsed and with all whitespace removed.
+#   Every hit was reviewed by hand; the pages kept are those that state the answer for THAT year.
+# - Pages kept INCLUDE: the year's own report (highlights, Chairman/CEO/CFO letters, MD&A, five-year summary,
+#   charts whose series clearly maps to the year, consolidated income statement / capital table), AND the later
+#   reports' prior-year comparatives (MD&A comparative column, five-year summaries, charts, "x% from y a year ago").
+#   Graders that want own-year-only can filter gold by doc_id year.
+# - Evidence snippets are verbatim substrings of the whitespace-collapsed page text (for zh hits found in the
+#   whitespace-removed text, the snippet is mapped back to the collapsed text). One snippet per gold (year, doc, page).
+#
+# EXCLUSIONS (and why)
+# - v01 2025: 2024_zh p14 ("支出收入比例依然低于40%") is a 2024 statement.  Rounded "40%" statements for 2025 (2025_en p9/p25,
+#   2025_zh p9/p25) were KEPT because they explicitly state the 2025 CIR.
+# - v02 (net profit): statements of changes in equity, EPS note and unappropriated-profit note (number reused as an input,
+#   not reported as the result): 2023_en p126/163/169, 2023_zh p74/103/109, 2024_en p128/129/162/168, 2024_zh p55/56/82/88,
+#   2025_en p128/129/162/169, 2025_zh p57/58/83/90.  Kept the consolidated income statement pages.
+# - v03 2025: 2023_en p96/p99 contain "1.91" but it is the 2022 NIM.
+# - v04 (ROE 13.7% in both 2023 and 2024): pages where 13.7 refers only to the other year were dropped
+#   (2023: 2024_en p10/p99, 2024_zh p10, 2025_en p98; 2024: 2023_en p4/8/96/97, 2023_zh p4/8/10).
+# - v07 (total income): segment / geographic breakdown tables whose total row equals Group total income
+#   (2023_en p108/206/208, 2023_zh p146/148, 2024_en p110/205/206/207, 2024_zh p125/126/127, 2025_en p110/207/208/209,
+#   2025_zh p128/129/130) — excluded as regional/segment breakdowns.
+# - v10 (2024 NPL ratio 0.9%): 2025-report statements of the 2025 NPL ratio (also 0.9%) and the passing mention
+#   "stable at 0.9% since mid-2024" (2025_en p13/25/100, 2025_zh p9/13/25). Kept 2025_en p98/p105 comparative columns
+#   and the Group row of the NPA-by-geography tables (2024_en p105, 2025_en p105).
+# - v11: 2023_en p98 "151%" is the 2023 coverage.
+# - v16: notes to the financial statements (2025_en p152 accounting policy; p161/p162 tax note incl. $41m Pillar Two tax)
+#   were not added — they quantify tax but are not the analysis explaining the profit decline.
+# - v15: 2025_en p13 (generic "wealth, trading and insurance delivered stellar income") and p15 (chart, no explanation) not added.
+# - v18: 2024_zh p14 ("支出收入比例依然低于40%") only mentions CIR, not the opex drivers.
+#
+# NOT FOUND / NOTES
+# - The zh reports contain no 2025 NIM, no leverage ratio / LCR text, and no MD&A tables; those golds are en-only.
+# - 2025_en p25 dividend chart and 2023_en p13 dividend chart have no extractable numbers (not in gold).
+# - Leverage ratio (v12) and all-currency LCR (v13) appear only in the 2025_en MD&A key ratios table (p98).
+# - v06 2023: 2023 interim 40c + final 42c = 82c; 2024 = interim 44c + final 41c + special 16c = $1.01.
+#
+# REGEXES USED (per question / year)
+#   v01 2023: Cost-to-income(?: ?\(\d\))*(?: [\d.]+){0,4} 38\.7  ||  (cost-to-income|CIR)[^%]{0,60}38\.7%  ||  支出收入比例(?: ?\(\d\))*(?: [\d.]+){0,4} 38\.7  ||  (开支|支出|成本)收入比例[^。]{0,20}38\.7%
+#   v01 2024: Cost-to-income(?: ?\(\d\))*(?: [\d.]+){0,4} 39\.7  ||  (cost-to-income|CIR)[^%]{0,60}39\.7%  ||  支出收入比例(?: ?\(\d\))*(?: [\d.]+){0,4} 39\.7  ||  (开支|支出|成本)收入比例[^。]{0,20}39\.7%
+#   v01 2025: Cost-to-income(?: ?\(\d\))*(?: [\d.]+){0,4} 40\.2  ||  (cost-to-income|CIR)[^%]{0,60}40\.2%  ||  支出收入比例(?: ?\(\d\))*(?: [\d.]+){0,4} 40\.2  ||  (开支|支出|成本)收入比例[^。]{0,20}40(\.2)?%  ||  (cost-to-\s?income ratio|CIR)[^.]{0,30}(at|remaining at) 40%
+#   v02 2023: \b7,021\b  ||  \$7\.02 billion  ||  70亿2000万
+#   v02 2024: \b7,587\b  ||  \$7\.59 billion  ||  75亿9000万
+#   v02 2025: \b7,422\b  ||  \$7\.42 billion  ||  74亿2000万
+#   v03 2023: (net interest margin|NIM)[^%]{0,60}?2\.28  ||  Net interest income/margin \(1\)(?: [\d,.]+){1,3} 2\.28  ||  (净息差|净利息收益率)[^。]{0,30}?2\.28
+#   v03 2024: (net interest margin|NIM)[^%]{0,60}?2\.20  ||  Net interest income/margin \(1\)(?: [\d,.]+){1,3} 2\.20  ||  (净息差|净利息收益率)[^。]{0,30}?2\.20
+#   v03 2025: (net interest margin|NIM)[^%]{0,60}?1\.91  ||  Net interest income/margin \(1\)(?: [\d,.]+){1,3} 1\.91  ||  (净息差|净利息收益率)[^。]{0,30}?1\.91
+#   v04 2023: Return on equity(?: ?\(\d\))*(?: [\d.]+){0,4} 13\.7  ||  return on equity[^%]{0,60}13\.7%  ||  权益回报率[^。]{0,30}13\.7  ||  ROE[^%]{0,40}13\.7
+#   v04 2024: Return on equity(?: ?\(\d\))*(?: [\d.]+){0,4} 13\.7  ||  return on equity[^%]{0,60}13\.7%  ||  权益回报率[^。]{0,30}13\.7  ||  ROE[^%]{0,40}13\.7
+#   v05 2023: (AUM|assets under management)[^.]{0,60}\$263 billion  ||  258 263 299|263 299 343
+#   v05 2024: (AUM|assets under management)[^.]{0,60}\$299 billion  ||  258 263 299|263 299 343
+#   v05 2025: (AUM|assets under management)[^.]{0,60}\$343 billion  ||  263 299 343
+#   v06 2023: \b82 cents  ||  Dividend \(cents\)(?: ?\(\d\))*(?: [\d.]+){0,4} 82\.0  ||  (股息|派息)[^。]{0,20}82分  ||  股息 \(分\)(?: ?\(\d\))*(?: [\d.]+){0,4} 82\.0  ||  31\.8 53 68 82
+#   v06 2024: \b101 cents  ||  \$1\.01  ||  Dividend \(cents\)(?: ?\(\d\))*(?: [\d.]+){0,4} 101\.0  ||  1\.01元  ||  101分  ||  股息 \(分\)(?: ?\(\d\))*(?: [\d.]+){0,4} 101\.0  ||  82 42 40 101
+#   v07 2023: \b13,507\b  ||  [Tt]otal income[^.]{0,60}\$13\.5 billion  ||  135亿
+#   v07 2024: \b14,473\b  ||  [Tt]otal [Ii]ncome[^.]{0,60}\$14\.5 billion  ||  145亿
+#   v07 2025: \b14,614\b  ||  [Tt]otal [Ii]ncome[^.]{0,60}\$14\.6 billion  ||  income of \$14\.6 billion  ||  146亿
+#   v08 2024: Common Equity Tier 1(?: CAR)?(?: \(\d\))*(?: ?\(\d\))*(?: [\d.]+){0,4} 17\.1  ||  CET1[^%]{0,80}17\.1%  ||  普通股权一级资本[^。]{0,30}17\.1  ||  Common Equity Tier 1 [\d.]+% 17\.1%
+#   v09 2023: (net interest margin|NIM)[^%]{0,60}?2\.28  ||  Net interest income/margin \(1\)(?: [\d,.]+){1,3} 2\.28  ||  (净息差|净利息收益率)[^。]{0,30}?2\.28
+#   v10 2024: (non-performing loans? ratio|NPL ratio)[^%]{0,40}?0\.9  ||  不良贷款[^。]{0,20}0\.9  ||  2024 2,869 656 1,685 528 2,827 0\.9
+#   v11 2025: 151 ?%  ||  coverage[^.]{0,60}151\b  ||  151%
+#   v12 2025: [Ll]everage ratio[^%]{0,40}?7\.1\b  ||  杠杆比率[^。]{0,30}7\.1
+#   v13 2025: [Aa]ll-currency (liquidity coverage ratio|LCR)[^%]{0,40}?138  ||  所有货币[^。]{0,30}138
+#   v14 2024: [Nn]et asset value(?: ?\(\d\))*(?: [\d.]+){0,4} 12\.80  ||  资产净值(?: ?\(\d\))*(?: [\d.]+){0,4} 12\.80  ||  12\.80
+#   v15 2025: [Nn]on-interest income (rose|grew|increased|surged)[^.]{0,30}16%  ||  16% non-interest income growth  ||  Total non-interest income 5,464  ||  非利息收入[^。]{0,30}16%  ||  非利息收入[^。]{0,40}5\d亿  ||  non-interest income growth across wealth management fees  ||  非利息收入增长 ?\(包括财富管理
+#   v16 2025: [Tt]ax expense was 27% higher  ||  higher income tax expenses  ||  所得税支出上升
+#   v17 2024: [Nn]et interest income rose to a new high of \$9\.76 billion  ||  [Nn]et interest income[^.]{0,80}\$9\.76 billion  ||  净利息收入[^。]{0,60}(97亿|1%)  ||  Net interest income/margin \(1\) 9,755 2\.20 9,645
+#   v18 2024: [Oo]perating expenses (grew|rose|increased)[^.]{0,30}10%  ||  Total operating expenses 5,742  ||  营业支出[^。]{0,40}10%  ||  (营运|营业|经营)(支出|开支)[^。]{0,40}(增长|增加)10%
+
+questions:
+  - id: v01
+    lang: en
+    category: cross_year
+    variant_of: "cost-to-income ratio"
+    query: "How has OCBC's cost-income ratio moved from 2023 to 2025?"
+    years: [2023, 2024, 2025]
+    answer: {2023: "38.7%", 2024: "39.7%", 2025: "40.2%"}
+    gold:
+      2023: {ocbc-group_ar_2023_en: [4, 10, 96, 97], ocbc-group_ar_2023_zh: [4], ocbc-group_ar_2024_en: [6, 98], ocbc-group_ar_2024_zh: [6], ocbc-group_ar_2025_en: [4], ocbc-group_ar_2025_zh: [4]}
+      2024: {ocbc-group_ar_2024_en: [6, 10, 98, 99], ocbc-group_ar_2024_zh: [6, 10], ocbc-group_ar_2025_en: [4, 98], ocbc-group_ar_2025_zh: [4]}
+      2025: {ocbc-group_ar_2025_en: [4, 9, 25, 98, 99], ocbc-group_ar_2025_zh: [4, 9, 25]}
+    evidence:
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 4, snippet: "idend cover (times) 1.89 1.79 2.02 2.50 2.08 Cost-to-income 38.7 42.9 45.0 43.8 42.7 Capital adequacy ratios("}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 10, snippet: "xpenses, which led to an improvement in cost-to-income ratio to 38.7%. Strict cost discipline will remain a p"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 96, snippet: "on-interest income to total income 28.6 31.9 Cost-to-income 38.7 42.9 Loans-to-deposits 80.5 83.3 Non-perform"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 97, snippet: "mbined with income growth, drove the cost-to-income ratio lower to 38.7%. Asset quality was resilient with NP"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 4, snippet: "倍数) 1.89 1.79 2.02 2.50 2.08 支出收入比例 38.7 42.9 45.0 43.8 42.7 资本充足率(4)"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "over (times) 2.50 2.02 1.79 1.89 1.66 Cost-to-income 43.8 45.0 42.9 38.7 39.7 Capital adequacy ratios(4) Commo"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "-interest income to total income 32.6 28.6 Cost-to-income 39.7 38.7 Loans-to-deposits 80.7 80.5 Non-performing"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: "0 2.02 1.79 1.89 1.66 支出收入比例 43.8 45.0 42.9 38.7 39.7 资本充足率(4) 普通股权一级资"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "cover (times) 2.02 1.79 1.89 1.66 1.65 Cost-to-income 45.0 42.9 38.7 39.7 40.2 Capital adequacy ratios(4) Co"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: ".02 1.79 1.89 1.66 1.65 支出收入比例 45.0 42.9 38.7 39.7 40.2 资本充足率(4) 普通股权"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "r (times) 2.50 2.02 1.79 1.89 1.66 Cost-to-income 43.8 45.0 42.9 38.7 39.7 Capital adequacy ratios(4) Common"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 10, snippet: "ined expense management as reflected in Cost-to-Income Ratio of 39.7%, without compromising our continuing ca"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "on-interest income to total income 32.6 28.6 Cost-to-income 39.7 38.7 Loans-to-deposits 80.7 80.5 Non-perform"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 99, snippet: "OCBC Indonesia in September 2024. Cost-to-income ratio for 2024 was 39.7%. Total allowances were 6% lower at"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: ".02 1.79 1.89 1.66 支出收入比例 43.8 45.0 42.9 38.7 39.7 资本充足率(4) 普通股权一级资本"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 10, snippet: "方 面的精准投资的情况下，进行有纪律的开支管理，使我们的开支 收入比例达到39.7%。我们谨慎的风险管理方针体现在我们拥有 良好的资产组合质"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "over (times) 2.02 1.79 1.89 1.66 1.65 Cost-to-income 45.0 42.9 38.7 39.7 40.2 Capital adequacy ratios(4) Commo"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "-interest income to total income 37.4 32.6 Cost-to-income 40.2 39.7 Loans-to-deposits 78.6 80.7 Non-performing"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: "2 1.79 1.89 1.66 1.65 支出收入比例 45.0 42.9 38.7 39.7 40.2 资本充足率(4) 普通股权一级资"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "r (times) 2.02 1.79 1.89 1.66 1.65 Cost-to-income 45.0 42.9 38.7 39.7 40.2 Capital adequacy ratios(4) Common"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 9, snippet: "iscipline in managing our expenses, with Cost-to- Income Ratio at 40%. The strength of our financials is evide"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 25, snippet: "th, costs were well controlled with cost-to-income ratio remaining at 40%. Our balance sheet stayed robust. F"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "on-interest income to total income 37.4 32.6 Cost-to-income 40.2 39.7 Loans-to-deposits 78.6 80.7 Non-perform"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 99, snippet: "ng strong discipline in discretionary expenses. CIR was 40.2% for 2025, compared to 39.7% in the previous yea"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: ".79 1.89 1.66 1.65 支出收入比例 45.0 42.9 38.7 39.7 40.2 资本充足率(4) 普通股权一级资本"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 9, snippet: "现有 业务和新增长的同时，我们在管理支出方 面保持纪律，将成本收入比例维持在40%。 我们的财务实力也体现在维持不变的信誉 评级中，穆迪评级"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 25, snippet: "人才培训与科技以支持增长， 同时在成本控制方面依然良好，开支收入 比例维持在 40%。 我们的资产负债表保持稳健。资金、资本 及流动性状态均"}
+  - id: v02
+    lang: zh
+    category: cross_year
+    query: "华侨银行2023年到2025年归属股东的净利润分别是多少？"
+    years: [2023, 2024, 2025]
+    answer: {2023: "70亿2000万元（$7,021 million）", 2024: "75亿9000万元（$7,587 million）", 2025: "74亿2000万元（$7,422 million）"}
+    gold:
+      2023: {ocbc-group_ar_2023_en: [4, 6, 8, 10, 13, 96, 97, 123], ocbc-group_ar_2023_zh: [4, 8, 10, 13, 71], ocbc-group_ar_2024_en: [6, 17, 98, 99, 125], ocbc-group_ar_2024_zh: [6, 17, 52], ocbc-group_ar_2025_en: [4], ocbc-group_ar_2025_zh: [4]}
+      2024: {ocbc-group_ar_2024_en: [6, 8, 10, 11, 14, 17, 36, 98, 99, 125], ocbc-group_ar_2024_zh: [6, 10, 11, 14, 17, 52], ocbc-group_ar_2025_en: [4, 98, 99, 125], ocbc-group_ar_2025_zh: [4, 54]}
+      2025: {ocbc-group_ar_2025_en: [4, 6, 9, 13, 98, 99, 125], ocbc-group_ar_2025_zh: [4, 6, 9, 13, 54]}
+    evidence:
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 4, snippet: "t profit attributable to equity holders of the Bank 7,021 5,526 4,858 3,586 4,869 Cash basis net profit attri"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 6, snippet: "A Year of Achievements Banking $7.02 billion Record net profit $56 billion in sustainable fi"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 8, snippet: "net profit rose robustly to an all-time high of $7.02 billion, with return on equity at 13.7%. Income growth"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 10, snippet: "ile operating environment. OCBC’s net profit of $7.02 billion in 2023 was up 27% from the previous year, reac"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 13, snippet: "m) 2019 2020 2021 2022 2023 4,869 3,586 4,858 5,526 7,021 Note: 2022 was restated with the adoption of SFRS(I"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 96, snippet: "6,670 26 Net profit attributable to equity holders 7,021 5,526 27 Cash basis net profit attributable to equi"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 97, snippet: "Overview (continued) Group net profit was $7.02 billion for the financial year 2023, up 27% from $5.53"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 123, snippet: "9 4,145 Attributable to: Equity holders of the Bank 7,021 5,526 Non-controlling interests 144 113 7,165 5,639"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 4, snippet: "5,680 4,165 5,800 应归属银行权益持有人净盈利 7,021 5,526 4,858 3,586 4,869 应归属银行权益"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 8, snippet: "命。 财务业绩创新高 我们2023年的净利取得强劲增长，达 到70亿2000万元的历史新高，权益 回报率达到13.7%。收入增长来自各领 域"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 10, snippet: "亮 眼业绩，致力为股东创造价值。华侨银 行在2023年的净利为70亿2000万元， 与上财年相比，增长27%，再创历史新 高。我们的权益回报"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 13, snippet: "22 2023 4,869 3,586 4,858 5,526 7,021 2019 2020 2021 2022 2023 47% 39"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 71, snippet: "5,639 5,259 4,145 应归属： 银行权益持有人 7,021 5,526 非控股股东权益 144 113 7,165 5,6"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "ble to equity holders of the Bank 3,586 4,858 5,526 7,021 7,587 Cash basis net profit attributable to equity"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 17, snippet: "fit ($m) 2020 2021 2022 2023 2024 3,586 4,858 5,526 7,021 7,587 Dividend Per Share (cents) 2020 (1) 2021(1) 2"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "1 7 Net profit attributable to equity holders 7,587 7,021 8 Cash basis net profit attributable to equity hold"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 99, snippet: "ion for the financial year 2024, 8% higher than $7.02 billion in 2023. OCBC’s resilient performance demonstra"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 125, snippet: "9 Attributable to: Equity holders of the Bank 7,587 7,021 Non-controlling interests 161 144 7,748 7,165 Earni"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: "应归属银行权益持有人净盈利 3,586 4,858 5,526 7,021 7,587 应归属银行权益持有人现金净盈利(2) 3,690"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_zh, page: 17, snippet: "022 2023 2024 3,586 4,858 5,526 7,021 7,587 2020 (1) 2021(1) 2022 202"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_zh, page: 52, snippet: "6,861 5,259 应归属: 银行权益持有人 7,587 7,021 非控股股东权益 161 144 7,748 7,165 每股收"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "ributable to equity holders of the Bank 4,858 5,526 7,021 7,587 7,422 Cash basis net profit attributable to e"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: "9,123 应归属银行权益持有人净盈利 4,858 5,526 7,021 7,587 7,422 应归属银行权益持有人现金净盈利(2)"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "equity holders of the Bank 3,586 4,858 5,526 7,021 7,587 Cash basis net profit attributable to equity holder"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 8, snippet: "A Year of Achievements Banking $7.59 billion Record net profit 1st Singapore bank to launch"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 10, snippet: "ord net profit, which increased 8% over 2023 to $7.59 billion, with return on equity at 13.7%. This was drive"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 11, snippet: "Total Income $14.5 billion 7% Record Net Profit $7.59 billion 8% 60% Total Dividend Payout Ratio $1.01 Divide"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 14, snippet: "th 2024 net profit rising 8% from a year ago to $7.59 billion. This marks our third record year in a row, whi"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 17, snippet: "m) 2020 2021 2022 2023 2024 3,586 4,858 5,526 7,021 7,587 Dividend Per Share (cents) 2020 (1) 2021(1) 2022 20"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 36, snippet: "r the third consecutive year. Our net profit of $7.59 billion was driven by robust growth across our well-div"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "6 8,401 7 Net profit attributable to equity holders 7,587 7,021 8 Cash basis net profit attributable to equit"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 99, snippet: "ew (continued) Group net profit was at a record $7.59 billion for the financial year 2024, 8% higher than $7."}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 125, snippet: "1 5,259 Attributable to: Equity holders of the Bank 7,587 7,021 Non-controlling interests 161 144 7,748 7,165"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: "益持有人净盈利 3,586 4,858 5,526 7,021 7,587 应归属银行权益持有人现金净盈利(2) 3,690 4,961"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 10, snippet: "团的净利润连续第三年创新高，比2023年净利润增长 8%，达到75亿9000万元，权益回报率达到13.7%。这主要是由于 我们的银行、财富管"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 11, snippet: "子公司大东方控 总收入创新高 145亿元 7% 净利润创新高 75亿9000万元 8% 60%总派息率 每股派息1.01元 23% 回报股东"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 14, snippet: "银行持续实现盈利增长，2024年净利润较前一年增长8%， 达到75亿9000万元。这标志着我们连续第三年创下盈利新高， 印证了我们战略的成功"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 17, snippet: "23 2024 3,586 4,858 5,526 7,021 7,587 2020 (1) 2021(1) 2022 2023 2024"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 52, snippet: "7,165 6,861 5,259 应归属: 银行权益持有人 7,587 7,021 非控股股东权益 161 144 7,748 7,1"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "ble to equity holders of the Bank 4,858 5,526 7,021 7,587 7,422 Cash basis net profit attributable to equity"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "6 2 Net profit attributable to equity holders 7,422 7,587 (2) Cash basis net profit attributable to equity ho"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 99, snippet: "$7.42 billion for 2025 was 2% below the record $7.59 billion in the previous year. Profit before tax rose 2%"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 125, snippet: "1 Attributable to: Equity holders of the Bank 7,422 7,587 5,099 6,861 Non-controlling interests 138 161 – – 7"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: "应归属银行权益持有人净盈利 4,858 5,526 7,021 7,587 7,422 应归属银行权益持有人现金净盈利(2) 4,961"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_zh, page: 54, snippet: "5,099 6,861 应归属: 银行权益持有人 7,422 7,587 5,099 6,861 非控股股东权益 138 161 – –"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "equity holders of the Bank 4,858 5,526 7,021 7,587 7,422 Cash basis net profit attributable to equity holder"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 6, snippet: "A Year of Achievements $7.42 billion Group net profit 34% growth (y-o-y) in the numb"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 9, snippet: "rate environment, OCBC reported a net profit of $7.42 billion for 2025, down slightly by 2% year-on-year. Our"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 13, snippet: "l Performance Our Group net profit for 2025 was $7.42 billion, moderately down by 2% from a year ago, while p"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "3 8,976 2 Net profit attributable to equity holders 7,422 7,587 (2) Cash basis net profit attributable to equ"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 99, snippet: "Overview (continued) Group net profit of $7.42 billion for 2025 was 2% below the record $7.59 billion"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 125, snippet: "9 6,861 Attributable to: Equity holders of the Bank 7,422 7,587 5,099 6,861 Non-controlling interests 138 161"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: "益持有人净盈利 4,858 5,526 7,021 7,587 7,422 应归属银行权益持有人现金净盈利(2) 4,961 5,630"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 6, snippet: "硕果累累的一年 74亿2000万元 集团净利 34% 以可持续融资支持的所有市场的中小型企 业"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 9, snippet: "财务表现 在利率持续下滑的环境中，华侨银行在 2025年取得了74亿2000万元的净利润， 同比略微下降2%。我们的权益回报率保 持韧性，达"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 13, snippet: "性持 续使经营环境面临挑战，集团在2025年 的净利润仍达到了74亿2000万元，比前 一年略微下降2%；税前盈利则增长2%， 创下91亿2"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 54, snippet: "7,748 5,099 6,861 应归属: 银行权益持有人 7,422 7,587 5,099 6,861 非控股股东权益 138 1"}
+  - id: v03
+    lang: en
+    category: cross_year
+    query: "What was OCBC's net interest margin in 2023, 2024 and 2025?"
+    years: [2023, 2024, 2025]
+    answer: {2023: "2.28%", 2024: "2.20%", 2025: "1.91%"}
+    gold:
+      2023: {ocbc-group_ar_2023_en: [10, 96, 97, 99], ocbc-group_ar_2023_zh: [10], ocbc-group_ar_2024_en: [98, 101]}
+      2024: {ocbc-group_ar_2024_en: [14, 98, 99, 101], ocbc-group_ar_2024_zh: [14], ocbc-group_ar_2025_en: [98, 101]}
+      2025: {ocbc-group_ar_2025_en: [98, 101]}
+    evidence:
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 10, snippet: "growth and a 37-basis point expansion in net interest margin to 2.28%. We have been proactively managing our"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 96, snippet: ") 13.7 11.1 Return on assets (4) 1.46 1.21 Net interest margin 2.28 1.91 Non-interest income to total income 2"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 97, snippet: "ets and a 37-basis point expansion in net interest margin (NIM) to 2.28%. NIM was higher across all key marke"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 99, snippet: "76 11,222 2.83 379,691 3,902 1.03 Net interest income/margin (1) 9,645 2.28 7,688 1.91 Volume and Rate Analys"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 10, snippet: "6亿5000 万元，主要动力来自5%的资产增长，以 及净息差扩大37个基点，达2.28%。我们 也一直选择性地扩大贷款组合，以及管 理资金来"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "3.7 13.7 Return on assets (4) 1.53 1.46 Net interest margin 2.20 2.28 Non-interest income to total income 32."}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 101, snippet: "689 3.06 395,876 11,222 2.83 Net interest income/margin (1) 9,755 2.20 9,645 2.28 Volume and Rate Analysis Inc"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 14, snippet: "d down in 2024 as reflected by our lower net interest margin of 2.20%, our asset growth, proactive balance sh"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 98, snippet: ") 13.7 13.7 Return on assets (4) 1.53 1.46 Net interest margin 2.20 2.28 Non-interest income to total income 3"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 99, snippet: "etive but lower yielding. Net interest margin (NIM) was 8 basis points lower at 2.20%, as the rise in funding"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 101, snippet: "7 12,689 3.06 395,876 11,222 2.83 Net interest income/margin (1) 9,755 2.20 9,645 2.28 Volume and Rate Analys"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 14, snippet: "健的非利息收入增长。尽管2024年市场利率呈下降趋势，导致净 息差降至2.20%，但我们的资产增长、积极的资产负债管理和充 分并多元化的客"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "2.6 13.7 Return on assets (4) 1.37 1.53 Net interest margin 1.91 2.20 Non-interest income to total income 37."}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 101, snippet: "926 2.43 414,257 12,689 3.06 Net interest income/margin (1) 9,150 1.91 9,755 2.20 Volume and Rate Analysis Inc"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 98, snippet: ") 12.6 13.7 Return on assets (4) 1.37 1.53 Net interest margin 1.91 2.20 Non-interest income to total income 3"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 101, snippet: "3 10,926 2.43 414,257 12,689 3.06 Net interest income/margin (1) 9,150 1.91 9,755 2.20 Volume and Rate Analys"}
+  - id: v04
+    lang: zh
+    category: cross_year
+    variant_of: "权益回报率"
+    query: "华侨银行2023年和2024年的股东权益回报率是多少？"
+    years: [2023, 2024]
+    answer: {2023: "13.7%", 2024: "13.7%"}
+    gold:
+      2023: {ocbc-group_ar_2023_en: [4, 8, 96, 97], ocbc-group_ar_2023_zh: [4, 8, 10], ocbc-group_ar_2024_en: [6, 98], ocbc-group_ar_2024_zh: [6], ocbc-group_ar_2025_en: [4], ocbc-group_ar_2025_zh: [4]}
+      2024: {ocbc-group_ar_2024_en: [6, 10, 98, 99], ocbc-group_ar_2024_zh: [6, 10], ocbc-group_ar_2025_en: [4, 98], ocbc-group_ar_2025_zh: [4]}
+    evidence:
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 4, snippet: "ue 11.77 10.99 11.46 10.82 10.38 Ratios (%) Return on equity 13.7 11.1 9.6 7.6 11.2 Return on assets(3) 1.46"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 8, snippet: "o an all-time high of $7.02 billion, with return on equity at 13.7%. Income growth was diversified across our"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 96, snippet: "lue 11.77 10.99 Key Financial Ratios (%) Return on equity (2)(3) 13.7 11.1 Return on assets (4) 1.46 1.21 Net"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 97, snippet: "million a year ago. The Group’s return on equity for 2023 improved to 13.7%, from 11.1% a year ago. Earnings"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 4, snippet: "0.99 11.46 10.82 10.38 比例 (%) 权益回报率 13.7 11.1 9.6 7.6 11.2 资产回报率(3) 1."}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 8, snippet: "年的净利取得强劲增长，达 到70亿2000万元的历史新高，权益 回报率达到13.7%。收入增长来自各领 域的业务及良好的成本控制，而优质 的"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 10, snippet: "与上财年相比，增长27%，再创历史新 高。我们的权益回报率从11.1%提升至 13.7%。各主要业务的营运表现均具韧 性，展现了多元化业"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "11.46 10.99 11.77 12.80 Ratios (%) Return on equity 7.6 9.6 11.1 13.7 13.7 Return on assets(3) 0.85 1.13 1.21"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "12.80 11.77 Key Financial Ratios (%) Return on equity (2)(3) 13.7 13.7 Return on assets (4) 1.53 1.46 Net in"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: "9 11.77 12.80 比例 (%) 权益回报率 7.6 9.6 11.1 13.7 13.7 资产回报率(3) 0.85 1.13 1"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "6 10.99 11.77 12.80 13.38 Ratios (%) Return on equity 9.6 11.1 13.7 13.7 12.6 Return on assets(3) 1.13 1.21 1"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: ".77 12.80 13.38 比例 (%) 权益回报率 9.6 11.1 13.7 13.7 12.6 资产回报率(3) 1.13 1.2"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "11.46 10.99 11.77 12.80 Ratios (%) Return on equity 7.6 9.6 11.1 13.7 13.7 Return on assets(3) 0.85 1.13 1.21"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 10, snippet: "eased 8% over 2023 to $7.59 billion, with return on equity at 13.7%. This was driven by robust income growth"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "12.80 11.77 Key Financial Ratios (%) Return on equity (2)(3) 13.7 13.7 Return on assets (4) 1.53 1.46 Net in"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 99, snippet: "from $953 million a year ago. The Group’s return on equity of 13.7% was comparable to 2023, and earnings per"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: "9 11.77 12.80 比例 (%) 权益回报率 7.6 9.6 11.1 13.7 13.7 资产回报率(3) 0.85 1.13 1"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 10, snippet: "高，比2023年净利润增长 8%，达到75亿9000万元，权益回报率达到13.7%。这主要是由于 我们的银行、财富管理和保险业务都全面取得"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "6 10.99 11.77 12.80 13.38 Ratios (%) Return on equity 9.6 11.1 13.7 13.7 12.6 Return on assets(3) 1.13 1.21 1"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "13.38 12.80 Key Financial Ratios (%) Return on equity (2)(3) 12.6 13.7 Return on assets (4) 1.37 1.53 Net in"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: ".77 12.80 13.38 比例 (%) 权益回报率 9.6 11.1 13.7 13.7 12.6 资产回报率(3) 1.13 1.2"}
+  - id: v05
+    lang: en
+    category: cross_year
+    query: "How did OCBC's wealth management AUM grow between 2023 and 2025?"
+    years: [2023, 2024, 2025]
+    answer: {2023: "$263 billion", 2024: "$299 billion", 2025: "$343 billion"}
+    gold:
+      2023: {ocbc-group_ar_2023_en: [10, 97], ocbc-group_ar_2024_en: [5], ocbc-group_ar_2024_zh: [5], ocbc-group_ar_2025_en: [22], ocbc-group_ar_2025_zh: [22]}
+      2024: {ocbc-group_ar_2024_en: [5, 36, 99], ocbc-group_ar_2024_zh: [5], ocbc-group_ar_2025_en: [22], ocbc-group_ar_2025_zh: [22]}
+      2025: {ocbc-group_ar_2025_en: [22, 99], ocbc-group_ar_2025_zh: [22]}
+    evidence:
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 10, snippet: "hise was resilient, with our assets under management expanding 2% to $263 billion. Our income growth far outpa"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 97, snippet: "on a year ago. Group wealth management AUM expanded 2% to $263 billion, from $258 billion in the previous yea"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 5, snippet: "FY22 FY23 FY24 3.4 4.3 4.9 Dec 22 Dec 23 Dec 24 258 263 299 Banking Net Profit S$b Customer loans S$b 15% CA"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_zh, page: 5, snippet: "022年 12月 2023年 12月 2024年 12月 258 263 299 银行 净利润 十亿新元 客户贷款 十亿新元 15%年均复"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_en, page: 22, snippet: "FY23 FY24 FY25 4.3 4.9 5.6 Dec 23 Dec 24 Dec 25 263 299 343 Banking Profit Before Tax $b Total Income $b FY2"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_zh, page: 22, snippet: "5.6 2023 年度 2024 年度 2025 年度 263 299 343 2023年 12月 2024年 12月 2025年 12"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 5, snippet: "FY22 FY23 FY24 3.4 4.3 4.9 Dec 22 Dec 23 Dec 24 258 263 299 Banking Net Profit S$b Customer loans S$b 15% CA"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 36, snippet: "h. Wealth management’s assets under management saw double-digit growth to $299 billion, driven by continued n"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 99, snippet: "nking wealth management assets under management rose 14% to a new high of $299 billion, driven by net new mone"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 5, snippet: "022年 12月 2023年 12月 2024年 12月 258 263 299 银行 净利润 十亿新元 客户贷款 十亿新元 15%年均复"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 22, snippet: "FY23 FY24 FY25 4.3 4.9 5.6 Dec 23 Dec 24 Dec 25 263 299 343 Banking Profit Before Tax $b Total Income $b FY2"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_zh, page: 22, snippet: "5.6 2023 年度 2024 年度 2025 年度 263 299 343 2023年 12月 2024年 12月 2025年 12"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 22, snippet: "FY23 FY24 FY25 4.3 4.9 5.6 Dec 23 Dec 24 Dec 25 263 299 343 Banking Profit Before Tax $b Total Income $b FY2"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 99, snippet: "than prior year’s 34%. Banking WM AUM rose 15% to a new high of $343 billion, driven by net new money inflows"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 22, snippet: "5.6 2023 年度 2024 年度 2025 年度 263 299 343 2023年 12月 2024年 12月 2025年 12"}
+  - id: v06
+    lang: zh
+    category: cross_year
+    variant_of: "每股股息"
+    query: "华侨银行2023年和2024年的每股分红各是多少？"
+    years: [2023, 2024]
+    answer: {2023: "每股82分（中期40分+年终42分）", 2024: "每股1.01元（101分，含16分特别股息）"}
+    gold:
+      2023: {ocbc-group_ar_2023_en: [4, 8, 11, 75, 97, 98], ocbc-group_ar_2023_zh: [4, 8, 11, 40], ocbc-group_ar_2024_en: [6, 17, 100], ocbc-group_ar_2024_zh: [6, 17], ocbc-group_ar_2025_en: [4], ocbc-group_ar_2025_zh: [4]}
+      2024: {ocbc-group_ar_2024_en: [6, 7, 11, 12, 15, 17, 77, 100], ocbc-group_ar_2024_zh: [6, 7, 11, 12, 15, 17, 34], ocbc-group_ar_2025_en: [4], ocbc-group_ar_2025_zh: [4]}
+    evidence:
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 4, snippet: "($) Basic earnings 1.55 1.22 1.07 0.80 1.12 Dividend (cents) 82.0 68.0 53.0 31.8 53.0 Net asset value 11.77 1"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 8, snippet: "re, bringing the full year 2023 dividend higher to 82 cents, up 21% from 68 cents in 2022. This represents a p"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 11, snippet: "vidend of 42 cents, and our total 2023 dividend is 82 cents, 21% above 2022. This is very important to us as t"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 75, snippet: "share. This brings the full year 2023 dividend to 82 cents per share, or a total dividend payout of $3.7 bill"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 97, snippet: "cents a year ago. This brings the 2023 dividend to 82 cents per share, up 21% from 68 cents a year ago and rep"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 98, snippet: "a year ago. This brings total dividend for 2023 to 82 cents per share, up 14 cents or 21% from 2022. The total"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 4, snippet: "本盈利 1.55 1.22 1.07 0.80 1.12 股息 (分) 82.0 68.0 53.0 31.8 53.0 资产净值 11."}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 8, snippet: "更高的可持续股息 董事会建议派发每股42分的年终股息， 使2023年的全年股息增加至82分，相对 比2022年的68分增长21%。派息率达"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 11, snippet: "券组合所做出的 积极部署。董事会建议派发42分的 年终股息，全年每股派息因此达82分， 对比2022年的派息增加21％。股息增 加代表我们"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 40, snippet: "日的财政年度，董事部建议发 出每股42分的年终股息，使2023年的 全年股息总额达到每股82分，相当于 37亿万元。 股票回购与库存股 依据"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "ic earnings 0.80 1.07 1.22 1.55 1.67 Dividend (cents) 31.8 53.0 68.0 82.0 101.0 Net asset value 10.82 11.46 10"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 17, snippet: "2023 2024 49% 42% 44% 50% 15.9 28 40 15.9 25 28 31.8 53 68 82 42 40 101 41 16 44 50% 39% 49% 53% 53% 50% 60%"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 100, snippet: "r 2024 will be 85 cents per share, higher than the 82 cents for 2023. The total payout will amount to $3.82 bi"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: "0 1.07 1.22 1.55 1.67 股息 (分) 31.8 53.0 68.0 82.0 101.0 资产净值 10.82 11.4"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_zh, page: 17, snippet: "% 50% 15.9 28 40 15.9 25 28 31.8 53 68 82 42 40 101 41 16 44 50% 39%"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "asic earnings 1.07 1.22 1.55 1.67 1.63 Dividend (cents) 53.0 68.0 82.0 101.0 99.0 Net asset value 11.46 10.99"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: ".07 1.22 1.55 1.67 1.63 股息 (分) 53.0 68.0 82.0 101.0 99.0 资产净值 11.46 1"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "earnings 0.80 1.07 1.22 1.55 1.67 Dividend (cents) 31.8 53.0 68.0 82.0 101.0 Net asset value 10.82 11.46 10.99"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 7, snippet: "areholders $2.5 billion Capital return over 2 years $1.01 23% from 2023 Dividend Per Share 60% Total Dividend"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 11, snippet: "it $7.59 billion 8% 60% Total Dividend Payout Ratio $1.01 Dividend Per Share 23% Rewarding Shareholders $2.5"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 12, snippet: "m dividend, total dividends for 2024 will add up to $1.01 per share. This represents a payout ratio of 60% ag"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 15, snippet: "terim dividend, total 2024 dividends will amount to $1.01 per share, 23% above 2023. Our total shareholder re"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 17, snippet: "49% 42% 44% 50% 15.9 28 40 15.9 25 28 31.8 53 68 82 42 40 101 41 16 44 50% 39% 49% 53% 53% 50% 60% (1) In July"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 77, snippet: "share. This brings the full year 2024 dividend to 101 cents per share, or a total dividend payout of $4.5 bil"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 100, snippet: "s per share is proposed, bringing total dividend to $1.01 per share, which represents a total payout ratio of"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: ".07 1.22 1.55 1.67 股息 (分) 31.8 53.0 68.0 82.0 101.0 资产净值 10.82 11.46 1"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 7, snippet: "值 96% 五年股东总回报 回报股东 25亿元 两年内返还资本 1.01元 比2023年增长23% 每股派息 60%总派息率 致力与投资社"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 11, snippet: "净利润创新高 75亿9000万元 8% 60%总派息率 每股派息1.01元 23% 回报股东 25亿元 两年内返还资本 9 华侨银行202"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 12, snippet: "动我们的资本返还计划。加上中 期股息，2024年总股息将达到每股1.01元。此派息率相等于 2024年净利润的60%，而按华侨银行2024"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 15, snippet: "1分的末期普通股股息。 加上中期股息，2024年总股息将达到每股1.01元，比2023年高出 23%。截至2024年底，我们的股东总回报在"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 17, snippet: "28 40 15.9 25 28 31.8 53 68 82 42 40 101 41 16 44 50% 39% 49% 53% 53%"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 34, snippet: "的年终股息和每股 16分的特别股息，使2024年的全年股息达到每股101分，股息 总额相当于45亿元。 股票回购与库存股 依据股票回购计划所"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "c earnings 1.07 1.22 1.55 1.67 1.63 Dividend (cents) 53.0 68.0 82.0 101.0 99.0 Net asset value 11.46 10.99 11"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: "1.22 1.55 1.67 1.63 股息 (分) 53.0 68.0 82.0 101.0 99.0 资产净值 11.46 10.9"}
+  - id: v07
+    lang: en
+    category: cross_year
+    query: "What was OCBC Group's total income for 2023, 2024 and 2025?"
+    years: [2023, 2024, 2025]
+    answer: {2023: "$13,507 million ($13.5 billion)", 2024: "$14,473 million ($14.5 billion)", 2025: "$14,614 million ($14.6 billion)"}
+    gold:
+      2023: {ocbc-group_ar_2023_en: [4, 10, 96, 97, 123], ocbc-group_ar_2023_zh: [4, 10, 71], ocbc-group_ar_2024_en: [6, 98, 125], ocbc-group_ar_2024_zh: [6, 52], ocbc-group_ar_2025_en: [4], ocbc-group_ar_2025_zh: [4]}
+      2024: {ocbc-group_ar_2024_en: [6, 11, 14, 98, 125], ocbc-group_ar_2024_zh: [6, 11, 14, 52], ocbc-group_ar_2025_en: [4, 98, 125], ocbc-group_ar_2025_zh: [4, 54]}
+      2025: {ocbc-group_ar_2025_en: [4, 9, 13, 98, 99, 125], ocbc-group_ar_2025_zh: [4, 9, 13, 54]}
+    evidence:
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 4, snippet: "ted Income Statement Items ($ million) Total income 13,507 11,286 10,596 10,139 10,871 Operating expenses 5,22"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 10, snippet: "e key drivers of our 2023 earnings. Our total income was $13.5 billion, up 20% on the back of broad-based grow"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 96, snippet: "8 25 Non-interest income 3,862 3,598 7 Total income 13,507 11,286 20 Operating expenses (5,223) (4,838) 8 Oper"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 97, snippet: "$5.53 billion a year ago. Total income for 2023 rose to a new high of $13.5 billion, lifted by growth across"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_en, page: 123, snippet: "nterest income 3,862 3,598 3,014 2,698 Total income 13,507 11,286 9,038 7,250 Staff costs (3,501) (3,233) (1,2"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 4, snippet: "2020 2019 选定的收入报表项目 (百万新元) 总收入 13,507 11,286 10,596 10,139 10,871 营运支"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 10, snippet: "年盈利表现的主 要驱动因素。在业务全面增长带动下，我 们的总收入达135亿元，上升20%。净利 息收入创新高，增加25%达到96亿5000"}
+      - {year: 2023, doc_id: ocbc-group_ar_2023_zh, page: 71, snippet: "息收入 3,862 3,598 3,014 2,698 总收入 13,507 11,286 9,038 7,250 员工成本 (3,501)"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "Items ($ million) Total income 10,139 10,596 11,286 13,507 14,473 Operating expenses 4,439 4,764 4,838 5,223 5"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "-interest income 4,718 3,862 22 Total income 14,473 13,507 7 Operating expenses (5,742) (5,223) 10 Operating p"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_en, page: 125, snippet: "income 4,718 3,862 4,521 3,014 Total income 14,473 13,507 10,651 9,038 Staff costs (3,837) (3,501) (1,448) (1"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: "(百万新元) 总收入 10,139 10,596 11,286 13,507 14,473 营运支出 4,439 4,764 4,838 5"}
+      - {year: 2023, doc_id: ocbc-group_ar_2024_zh, page: 52, snippet: "18 3,862 4,521 3,014 总收入 14,473 13,507 10,651 9,038 员工成本 (3,837) (3,50"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "tement Items ($ million) Total income 10,596 11,286 13,507 14,473 14,614 Operating expenses 4,764 4,838 5,223"}
+      - {year: 2023, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: "的收入报表项目 (百万元) 总收入 10,596 11,286 13,507 14,473 14,614 营运支出 4,764 4,838"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "$ million) Total income 10,139 10,596 11,286 13,507 14,473 Operating expenses 4,439 4,764 4,838 5,223 5,742 Op"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 11, snippet: "cial banks and ranked 19th largest Record Total Income $14.5 billion 7% Record Net Profit $7.59 billion 8% 60%"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 14, snippet: "key earnings drivers for 2024. Total income rose 7% to a record $14.5 billion, fuelled by net interest income"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "5 1 Non-interest income 4,718 3,862 22 Total income 14,473 13,507 7 Operating expenses (5,742) (5,223) 10 Oper"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_en, page: 125, snippet: "nterest income 4,718 3,862 4,521 3,014 Total income 14,473 13,507 10,651 9,038 Staff costs (3,837) (3,501) (1,"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: "总收入 10,139 10,596 11,286 13,507 14,473 营运支出 4,439 4,764 4,838 5,223 5,"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 11, snippet: "有广泛业务的独特性。华侨银行集团及其子公司大东方控 总收入创新高 145亿元 7% 净利润创新高 75亿9000万元 8% 60%总派息率"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 14, snippet: "让我在此分享2024年盈利驱动的主要因素。总收入增长7%，达 到145亿元的历史新高，这得益于净利息收入创记录新高以及稳 健的非利息收入增"}
+      - {year: 2024, doc_id: ocbc-group_ar_2024_zh, page: 52, snippet: "息收入 4,718 3,862 4,521 3,014 总收入 14,473 13,507 10,651 9,038 员工成本 (3,837"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "Items ($ million) Total income 10,596 11,286 13,507 14,473 14,614 Operating expenses 4,764 4,838 5,223 5,742 5"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "-interest income 5,464 4,718 16 Total income 14,614 14,473 1 Operating expenses (5,882) (5,742) 2 Operating pr"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_en, page: 125, snippet: "income 5,464 4,718 3,767 4,521 Total income 14,614 14,473 9,287 10,651 Staff costs (3,907) (3,837) (1,433) (1"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: "(百万元) 总收入 10,596 11,286 13,507 14,473 14,614 营运支出 4,764 4,838 5,223 5"}
+      - {year: 2024, doc_id: ocbc-group_ar_2025_zh, page: 54, snippet: "64 4,718 3,767 4,521 总收入 14,614 14,473 9,287 10,651 员工成本 (3,907) (3,83"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "$ million) Total income 10,596 11,286 13,507 14,473 14,614 Operating expenses 4,764 4,838 5,223 5,742 5,882 Op"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 9, snippet: "e world’s most highly-rated banks. Record Total Income $14.6 billion 1% Record Profit Before Tax $9.12 billion"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 13, snippet: "lity to navigate through cycles. Total income rose to a record $14.6 billion despite headwinds from declining"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "(6) Non-interest income 5,464 4,718 16 Total income 14,614 14,473 1 Operating expenses (5,882) (5,742) 2 Opera"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 99, snippet: "r each jurisdiction. OCBC delivered record income of $14.6 billion, driven by 16% non-interest income growth,"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_en, page: 125, snippet: "nterest income 5,464 4,718 3,767 4,521 Total income 14,614 14,473 9,287 10,651 Staff costs (3,907) (3,837) (1,"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: "总收入 10,596 11,286 13,507 14,473 14,614 营运支出 4,764 4,838 5,223 5,742 5,"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 9, snippet: "A-。这些评级使我们成为全球评级最 高的银行之一。 总收入创新高 146亿元 1% 税前盈利创新高 91亿2000万元 2% 强韧净利润 7"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 13, snippet: "以及应对经济周期的能力。 在面对利率下调的压力下，总收入依然 创下146亿元的历史新高。我们通过积极 的资产负债管理使我们能有效地维持净 利"}
+      - {year: 2025, doc_id: ocbc-group_ar_2025_zh, page: 54, snippet: "息收入 5,464 4,718 3,767 4,521 总收入 14,614 14,473 9,287 10,651 员工成本 (3,907"}
+  - id: v08
+    lang: zh
+    category: single_value
+    variant_of: "普通股权一级资本充足率"
+    query: "华侨银行2024年底的核心一级资本充足率是多少？"
+    answer: "17.1%（过渡基础；全面实施基础为15.3%）"
+    gold: {ocbc-group_ar_2024_en: [6, 78, 98, 100, 110], ocbc-group_ar_2024_zh: [6, 10, 14], ocbc-group_ar_2025_en: [4, 78, 98], ocbc-group_ar_2025_zh: [4]}
+    evidence:
+      - {doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "39.7 Capital adequacy ratios(4) Common Equity Tier 1 15.2 15.5 15.2 15.9 17.1 Tier 1 15.8 16.0 15.9 16.5 17.8"}
+      - {doc_id: ocbc-group_ar_2024_en, page: 78, snippet: "s 236,288 236,694 Capital Adequacy Ratios Common Equity Tier 1 17.1% 15.9% Tier 1 17.8% 16.5% Total 19.7% 18."}
+      - {doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "9.7 18.1 Tier 1 CAR (5)(6) 17.8 16.5 Common Equity Tier 1 CAR (5)(6) 17.1 15.9 Leverage ratio (5)(6)(7) 7.4 7."}
+      - {doc_id: ocbc-group_ar_2024_en, page: 100, snippet: "ly 2024 and 1 January 2029. Group CET1 CAR as at 31 December 2024 was 17.1%, and was 15.3% on a fully phased-"}
+      - {doc_id: ocbc-group_ar_2024_en, page: 110, snippet: "e Group remained strongly capitalised, with a CET1 CAR of 17.1%, and Tier 1 and Total CAR of 17.8% and 19.7%"}
+      - {doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: "8.7 39.7 资本充足率(4) 普通股权一级资本 15.2 15.5 15.2 15.9 17.1 一级资本 15.8 16.0 15"}
+      - {doc_id: ocbc-group_ar_2024_zh, page: 10, snippet: "例在2024年7月1日生效，我们在2024年的过渡性普通 股权一级资本充足率为17.1%，或在全面实施情况下等于15.3% 。 我们继续维"}
+      - {doc_id: ocbc-group_ar_2024_zh, page: 14, snippet: "资本和 流动性状况都表现良好。普通股权一级资本充足率(CET1 CAR)从 前一年的15.9%上升至17.1%，主要得益于在采用新加坡金融"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 4, snippet: ".7 40.2 Capital adequacy ratios(4) Common Equity Tier 1 15.5 15.2 15.9 17.1 16.9 Tier 1 16.0 15.9 16.5 17.8 17"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 78, snippet: "48,845 236,288 Capital Adequacy Ratios Common Equity Tier 1 16.9% 17.1% Tier 1 17.6% 17.8% Total 19.4% 19.7% T"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "19.7 Tier 1 CAR (5)(6) 17.6 17.8 Common Equity Tier 1 CAR (5)(6) 16.9 17.1 Leverage ratio (5)(6)(7) 7.1 7.4"}
+      - {doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: "7 39.7 40.2 资本充足率(4) 普通股权一级资本 15.5 15.2 15.9 17.1 16.9 一级资本 16.0 15.9"}
+  - id: v09
+    lang: zh
+    category: single_value
+    variant_of: "净息差"
+    query: "华侨银行2023年的净利息收益率是多少？"
+    answer: "2.28%（较2022年扩大37个基点）"
+    gold: {ocbc-group_ar_2023_en: [10, 96, 97, 99], ocbc-group_ar_2023_zh: [10], ocbc-group_ar_2024_en: [98, 101]}
+    evidence:
+      - {doc_id: ocbc-group_ar_2023_en, page: 10, snippet: "growth and a 37-basis point expansion in net interest margin to 2.28%. We have been proactively managing our"}
+      - {doc_id: ocbc-group_ar_2023_en, page: 96, snippet: ") 13.7 11.1 Return on assets (4) 1.46 1.21 Net interest margin 2.28 1.91 Non-interest income to total income 2"}
+      - {doc_id: ocbc-group_ar_2023_en, page: 97, snippet: "ets and a 37-basis point expansion in net interest margin (NIM) to 2.28%. NIM was higher across all key marke"}
+      - {doc_id: ocbc-group_ar_2023_en, page: 99, snippet: "76 11,222 2.83 379,691 3,902 1.03 Net interest income/margin (1) 9,645 2.28 7,688 1.91 Volume and Rate Analys"}
+      - {doc_id: ocbc-group_ar_2023_zh, page: 10, snippet: "6亿5000 万元，主要动力来自5%的资产增长，以 及净息差扩大37个基点，达2.28%。我们 也一直选择性地扩大贷款组合，以及管 理资金来"}
+      - {doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "3.7 13.7 Return on assets (4) 1.53 1.46 Net interest margin 2.20 2.28 Non-interest income to total income 32."}
+      - {doc_id: ocbc-group_ar_2024_en, page: 101, snippet: "689 3.06 395,876 11,222 2.83 Net interest income/margin (1) 9,755 2.20 9,645 2.28 Volume and Rate Analysis Inc"}
+  - id: v10
+    lang: en
+    category: single_value
+    variant_of: "non-performing loan (NPL) ratio"
+    query: "What was OCBC's bad loans ratio at the end of 2024?"
+    answer: "0.9%"
+    gold: {ocbc-group_ar_2024_en: [10, 14, 98, 100, 105], ocbc-group_ar_2024_zh: [10, 14], ocbc-group_ar_2025_en: [98, 105]}
+    evidence:
+      - {doc_id: ocbc-group_ar_2024_en, page: 10, snippet: "d by our sound asset quality, with the Non-Performing Loan ratio at 0.9%. Our capital and liquidity positions"}
+      - {doc_id: ocbc-group_ar_2024_en, page: 14, snippet: "lity remained resilient. Our 2024 Non-Performing Loan ratio improved to 0.9%, from 1.0% a year ago. Total all"}
+      - {doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "e 39.7 38.7 Loans-to-deposits 80.7 80.5 Non-performing loan ratio 0.9 1.0 Total capital adequacy ratio (CAR)"}
+      - {doc_id: ocbc-group_ar_2024_en, page: 100, snippet: "ago to $2.87 billion as at 31 December 2024. NPL ratio was 0.9%, below the NPL ratio of 1.0% a year ago. Tot"}
+      - {doc_id: ocbc-group_ar_2024_en, page: 105, snippet: "0.6 2023 487 103 383 1 476 1.3 Group 2024 2,869 656 1,685 528 2,827 0.9 2023 2,901 955 1,401 545 2,805 1.0 (1"}
+      - {doc_id: ocbc-group_ar_2024_zh, page: 10, snippet: "慎的风险管理方针体现在我们拥有 良好的资产组合质量，所取得的不良贷款率为0.9%。我们的资本 和流动性状况维持强健。新加坡金融管理局的最终"}
+      - {doc_id: ocbc-group_ar_2024_zh, page: 14, snippet: "，资产质量保持优良及有韧 性。2024年，我们的不良贷款比率由前一年的1.0%下降至0.9%。 拨备金总额减少了6%，不良资产覆盖率则增至"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "e 40.2 39.7 Loans-to-deposits 78.6 80.7 Non-performing loan ratio 0.9 0.9 Total capital adequacy ratio (CAR)"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 105, snippet: "up 2025 3,243 573 2,191 479 3,229 0.9 2024 2,869 656 1,685 528 2,827 0.9 (1) Refer to Non-performing assets. C"}
+  - id: v11
+    lang: en
+    category: single_value
+    query: "What was OCBC's allowance coverage of non-performing assets at end-2025?"
+    answer: "151% of total NPAs"
+    gold: {ocbc-group_ar_2025_en: [9, 13, 25, 99, 100], ocbc-group_ar_2025_zh: [9, 13, 25]}
+    evidence:
+      - {doc_id: ocbc-group_ar_2025_en, page: 9, snippet: "t 17 basis points and allowance coverage at a strong 151%. Whilst continually investing in our capabilities to"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 13, snippet: "mid-2024, and non-performing loan coverage stood at 151%. Completing Our Current Strategy and Preparing for t"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 25, snippet: "a year ago. Non-performing assets coverage ratio was 151%. While we continued investing in strategic initiativ"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 99, snippet: "e coverage for non-performing assets (NPAs) stood at 151%. Supported by the Group’s robust financial performan"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 100, snippet: "d unchanged at 0.9%, and total NPA coverage stood at 151%. For 2025, total allowances were 4% lower at $665 mi"}
+      - {doc_id: ocbc-group_ar_2025_zh, page: 9, snippet: "不变于0.9%，而总信贷成本降至17个 基本点，不良资产覆盖率处于151%的强劲 水平。在持续对实力作出投资以维持现有 业务和新增长的同时，"}
+      - {doc_id: ocbc-group_ar_2025_zh, page: 13, snippet: "自2024年中期以来稳定 维持在0.9%，而不良资产覆盖率则处于 151%。 履行当前战略，并为下一阶段做好 充分准备 自2022年以来，我"}
+      - {doc_id: ocbc-group_ar_2025_zh, page: 25, snippet: "从1年前的19个基本点下降至17个基本 点。不良资产覆盖率则是处于151%。 我们持续投资策略性措施以驱动业务扩 张，并投入人才培训与科技以"}
+  - id: v12
+    lang: en
+    category: table_lookup
+    query: "What was OCBC Group's leverage ratio as at 31 December 2025?"
+    answer: "7.1%"
+    gold: {ocbc-group_ar_2025_en: [98]}
+    evidence:
+      - {doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "ommon Equity Tier 1 CAR (5)(6) 16.9 17.1 Leverage ratio (5)(6)(7) 7.1 7.4 Singapore dollar liquidity coverage"}
+  - id: v13
+    lang: en
+    category: table_lookup
+    query: "What was OCBC's all-currency liquidity coverage ratio for 2025?"
+    answer: "138% (average all-currency LCR)"
+    gold: {ocbc-group_ar_2025_en: [98]}
+    evidence:
+      - {doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "coverage ratio (5)(8) 294 299 All-currency liquidity coverage ratio (5)(8) 138 141 Net stable funding ratio ("}
+  - id: v14
+    lang: zh
+    category: table_lookup
+    query: "华侨银行2024年每股资产净值是多少？"
+    answer: "12.80新元"
+    gold: {ocbc-group_ar_2024_en: [6, 98], ocbc-group_ar_2024_zh: [6], ocbc-group_ar_2025_en: [4, 98], ocbc-group_ar_2025_zh: [4]}
+    evidence:
+      - {doc_id: ocbc-group_ar_2024_en, page: 6, snippet: "ents) 31.8 53.0 68.0 82.0 101.0 Net asset value 10.82 11.46 10.99 11.77 12.80 Ratios (%) Return on equity 7.6"}
+      - {doc_id: ocbc-group_ar_2024_en, page: 98, snippet: "2) 1.67 1.55 Diluted earnings (2) 1.67 1.55 Net asset value 12.80 11.77 Key Financial Ratios (%) Return on eq"}
+      - {doc_id: ocbc-group_ar_2024_zh, page: 6, snippet: "0 68.0 82.0 101.0 资产净值 10.82 11.46 10.99 11.77 12.80 比例 (%) 权益回报率 7.6"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 4, snippet: "(cents) 53.0 68.0 82.0 101.0 99.0 Net asset value 11.46 10.99 11.77 12.80 13.38 Ratios (%) Return on equity"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 98, snippet: "1.63 1.67 Diluted earnings (2) 1.63 1.67 Net asset value 13.38 12.80 Key Financial Ratios (%) Return on equit"}
+      - {doc_id: ocbc-group_ar_2025_zh, page: 4, snippet: "68.0 82.0 101.0 99.0 资产净值 11.46 10.99 11.77 12.80 13.38 比例 (%) 权益回报率 9"}
+  - id: v15
+    lang: en
+    category: explanation
+    query: "Why did OCBC’s non-interest income increase in 2025?"
+    answer: "Non-interest income rose 16% to $5.46b on double-digit growth in fees (net fees +22% to $2.41b, wealth management fees +33%), trading income (+10% to $1.68b, record customer flows) and insurance income (GEH +17% to $1.07b)."
+    gold: {ocbc-group_ar_2025_en: [9, 24, 99, 102], ocbc-group_ar_2025_zh: [9, 24]}
+    evidence:
+      - {doc_id: ocbc-group_ar_2025_en, page: 9, snippet: "mes and strong broad-based non-interest income growth across wealth management fees, trading and insurance. In"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 24, snippet: "o income-accretive high-quality assets. Non-interest income surged 16% to $5.46 billion, boosted by robust 33%"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 99, snippet: "income-accretive non-commercial assets. Non-interest income rose 16% to $5.46 billion, driven by double-digit"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 102, snippet: "Others 32 108 (70) Sub-total 300 294 2 Total non-interest income 5,464 4,718 16 (1) “nm” denotes not meaningf"}
+      - {doc_id: ocbc-group_ar_2025_zh, page: 9, snippet: "调导致的净利息收入下降，被贷款 规模增长，强劲而广泛的非利息收入增长 (包括财富管理、交易与保险业务等方面的 收入）有所缓解。尤其是我们在"}
+      - {doc_id: ocbc-group_ar_2025_zh, page: 24, snippet: "配置于收益增厚的优质资产），净 利息收入的下降得以缓解。非利息收入大 幅增长16%，达到54亿6000万元，这主要 是由于财富管理收入取得"}
+  - id: v16
+    lang: zh
+    category: explanation
+    query: "为什么华侨银行2025年税前利润创新高，净利润却下降了2%？"
+    answer: "所得税支出增加（税项支出上升27%）：较高税率司法管辖区的盈利贡献增加，以及BEPS第二支柱要求补足15%全球最低税率。"
+    gold: {ocbc-group_ar_2025_en: [24, 99], ocbc-group_ar_2025_zh: [24]}
+    evidence:
+      - {doc_id: ocbc-group_ar_2025_en, page: 24, snippet: "rofit was 2% lower than a year ago due to higher income tax expenses from increased profit contribution from h"}
+      - {doc_id: ocbc-group_ar_2025_en, page: 99, snippet: "ome streams, as well as lower allowances. Tax expense was 27% higher mainly due to increased profit contributi"}
+      - {doc_id: ocbc-group_ar_2025_zh, page: 24, snippet: "对“税基侵蚀和利润转移” (BEPS) 第二 支柱的实施，导致所得税支出上升，净盈 利较去年同期下降2%。 集团创新高的收入主要是得益于非"}
+  - id: v17
+    lang: zh
+    category: explanation
+    query: "华侨银行2024年净利息收入为什么还能增长？"
+    answer: "净利息收入增长1%至97亿6000万元（$9.76b）创新高，得益于平均资产（客户贷款与高质量资产）增长5%、积极的资产负债管理和多元化存款，抵消了净息差下降8个基点至2.20%的影响。"
+    gold: {ocbc-group_ar_2024_en: [14, 99, 101], ocbc-group_ar_2024_zh: [14]}
+    evidence:
+      - {doc_id: ocbc-group_ar_2024_en, page: 14, snippet: "enabled us to defend net interest income effectively, which increased 1% to $9.76 billion. Non-interest income"}
+      - {doc_id: ocbc-group_ar_2024_en, page: 99, snippet: "yout to 60% of net profit. Net interest income rose to a new high of $9.76 billion, underpinned by a 5% incre"}
+      - {doc_id: ocbc-group_ar_2024_en, page: 101, snippet: "2,689 3.06 395,876 11,222 2.83 Net interest income/margin (1) 9,755 2.20 9,645 2.28 Volume and Rate Analysis"}
+      - {doc_id: ocbc-group_ar_2024_zh, page: 14, snippet: "和充 分并多元化的客户存款业务使我们能有效地维持净利息收入，并 取得1%的增长，达到97亿6000万元。非利息收入显著上升22%， 达到4"}
+  - id: v18
+    lang: en
+    category: explanation
+    query: "What drove the increase in OCBC’s operating expenses in 2024?"
+    answer: "Opex grew 10% to $5.74b: continued investment in strategic initiatives and business growth; higher staff costs (headcount, variable compensation, salary increments); and consolidation of PT Bank Commonwealth from May 2024."
+    gold: {ocbc-group_ar_2024_en: [99, 103]}
+    evidence:
+      - {doc_id: ocbc-group_ar_2024_en, page: 99, snippet: "y inflows and positive market valuation. Operating expenses grew 10% to $5.74 billion as the Group continued"}
+      - {doc_id: ocbc-group_ar_2024_en, page: 103, snippet: "10 Other operating expenses 843 756 11 Total operating expenses 5,742 5,223 10 Group staff strength Period en"}

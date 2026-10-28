@@ -1,0 +1,3 @@
+{"size": "{{size}}", "_source": ["node_id", "doc_id"],
+ "query": {"bool": {"filter": "{{filters}}", "must": [{"match": {"concept_tok": "{{match}}"}}]}},
+ "sort": [{"doc_id": "asc"}, {"ord": "asc"}]}

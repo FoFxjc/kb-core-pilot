@@ -1,0 +1,2 @@
+# Left out of exported snapshots (git archive): the coding-agent entry file only imports AGENTS.md.
+CLAUDE.md export-ignore

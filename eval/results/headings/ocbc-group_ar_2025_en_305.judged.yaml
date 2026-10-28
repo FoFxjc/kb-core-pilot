@@ -1,0 +1,399 @@
+doc_id: ocbc-group_ar_2025_en
+seed: 305
+page_count: 276
+protocol: 'Round 2 T1.2 heading list on a seeded page sample. For each sampled physical page, list every heading that STARTS
+  a section on that page, as printed (eval/tree_rubric.md criterion 1: no body text, table row labels or column headers, chart
+  labels, captions, stat callouts, field labels, signatory names, running headers or ''(continued)'' repeats). Contents-page
+  entries are not headings of the contents page.'
+pages:
+- page: 8
+  headings:
+  - title: Chairman’s Reflections
+    level: 1
+  note: Salutation 'Dear Fellow Shareholders,' is not a heading.
+- page: 9
+  headings:
+  - title: A Momentous Year
+    level: 2
+  - title: Robust Financial Performance Amidst Uncertainty
+    level: 2
+  note: Right-column 'Record Total Income', 'Record Profit Before Tax', 'Resilient Net Profit', '60% Total Dividend Payout
+    Ratio' are stat-callout labels, excluded.
+- page: 31
+  headings:
+  - title: Malaysia
+    level: 2
+  - title: Coral Reefs
+    level: 3
+  - title: Indonesia
+    level: 2
+  - title: Mangrove Tree Planting in Semarang
+    level: 3
+  - title: China
+    level: 2
+  - title: Dongtan Wetland Planting
+    level: 3
+  - title: Hong Kong
+    level: 2
+  - title: Tree Planting at Tai Lam Country Park
+    level: 3
+  - title: Macau
+    level: 2
+  - title: Urban Farm Macau
+    level: 3
+  note: 'Continuation of ''Seeding Hope for the Future''; red market names head blocks, bold black project names head each
+    paragraph (doubtful: project names could be read as lead-ins).'
+- page: 40
+  headings:
+  - title: Wholesale Banking
+    level: 1
+  - title: Strengthening Our Regional Franchise
+    level: 2
+  note: '''Year in Review'' under the title is the contents-group kicker, not counted separately (doubtful). Large-type intro
+    paragraph is a pull statement.'
+- page: 64
+  headings:
+  - title: Remuneration Disclosure for Senior Management and Material Risk Takers
+    level: 3
+  - title: Remuneration Awarded during the Financial Year
+    level: 4
+  - title: Special Payments
+    level: 4
+  - title: Deferred Remuneration
+    level: 4
+  note: 'Top ''Corporate Governance'' is the running header. The three black bold titles each head their own table-only sub-section
+    under the red underlined heading (doubtful: could be read as table titles).'
+- page: 67
+  headings:
+  - title: Impairment of loans to customers
+    level: 4
+  - title: Valuation of financial instruments measured at fair value – Levels 2 and 3
+    level: 4
+  - title: Impairment of goodwill
+    level: 4
+  - title: Valuation of insurance contract liabilities for life insurance funds
+    level: 4
+  - title: Internal Audit
+    level: 3
+  note: 'Red bold bullets head Audit Committee review paragraphs (doubtful: bullet lead-ins). ''Internal Audit'' is red underlined,
+    same style as ''External Audit'' on p66.'
+- page: 72
+  headings:
+  - title: Additional Information on Directors Seeking Re-Election
+    level: 1
+  note: Bold left-column items are table field labels.
+- page: 76
+  headings:
+  - title: Additional Information Required under the SGX-ST Listing Manual
+    level: 1
+  - title: 1. Interested Person Transactions
+    level: 2
+  - title: 2. Material Contracts
+    level: 2
+  - title: 3. Appointment of Auditor
+    level: 2
+  note: ''
+- page: 87
+  headings:
+  - title: Credit Risk Management
+    level: 2
+  - title: Credit Risk Management Approach
+    level: 3
+  - title: Counterparty Credit Risk Management
+    level: 3
+  note: '''Table 3: Credit Risk Management Approach for Major Customer Segments'' is a table caption inside the section, excluded;
+    red segment names are table row labels.'
+- page: 89
+  headings:
+  - title: IRB Models and Portfolios
+    level: 5
+  - title: Other Credit Risk Models
+    level: 5
+  - title: Portfolio Reporting
+    level: 4
+  - title: Portfolio Management
+    level: 4
+  note: '''Table 4: ...'' caption and its header/row labels excluded. Underlined red items are under bullet ''Portfolio Modelling''
+    (p88). Reading order: top-right, then below-table left then right.'
+- page: 91
+  headings:
+  - title: Traded Market Risk
+    level: 3
+  - title: Measures
+    level: 4
+  - title: Stress Testing and Scenario Analysis
+    level: 4
+  - title: Risk Monitoring, Reporting and Control
+    level: 4
+  - title: Limits
+    level: 5
+  - title: Model Validation
+    level: 5
+  - title: Back Testing
+    level: 5
+  note: '''Table 5: Trading Portfolio VaR by Asset Class Risk'' is a caption continuing the previous section, excluded. Column
+    reading order (left column, then right).'
+- page: 94
+  headings:
+  - title: Incident Response and Crisis Management
+    level: 5
+  - title: Physical Security Risk Management
+    level: 5
+  - title: New Product Review and Approval
+    level: 5
+  - title: Conduct Risk
+    level: 5
+  - title: Fraud Risk
+    level: 5
+  - title: Anti-Money Laundering (AML) / Countering the Financing of Terrorism (CFT)
+    level: 5
+  - title: Regulatory Risk
+    level: 5
+  - title: Insurance Management
+    level: 5
+  - title: Information Security And Digital Risk Management
+    level: 2
+  - title: Information Security and Digital Risk Management Approach
+    level: 3
+  note: Red underlined items continue the bullet 'Key Aspects of Operational Risk Management' from p93.
+- page: 95
+  headings:
+  - title: Key Components of Technology and Cyber Resilience
+    level: 4
+  - title: Preventive, Detective and Response Capabilities
+    level: 5
+  - title: Incident Response and Crisis Management
+    level: 5
+  - title: Other Key Aspects of Information Security & Digital Risk Management
+    level: 4
+  - title: Information Security Capabilities
+    level: 5
+  - title: Awareness and Vigilance Uplift and Testing Programmes
+    level: 5
+  - title: Cyber and Network Security Insurance
+    level: 5
+  - title: Collaboration with Regulators and Industry Partners
+    level: 5
+  note: Red bullets (level 4) and red underlined sub-headings (level 5) under 'Information Security And Digital Risk Management
+    Approach'. Column reading order.
+- page: 99
+  headings: []
+  note: Only 'Overview (continued)'.
+- page: 113
+  headings: []
+  note: Only 'Share-Based Compensation Plans (continued)'.
+- page: 118
+  headings: []
+  note: Independent Auditor's Report continues (running header). 'Impairment of loans to customers' is the key-audit-matter
+    name inside the KAM table cell; treated as table content (doubtful). 'Key Audit Matter' / 'How Our Audit Addressed...'
+    are column headers.
+- page: 122
+  headings: []
+  note: 'Same KAM table layout as p118: ''Valuation of insurance contract liabilities for life insurance funds'' is inside
+    the KAM table, excluded (doubtful).'
+- page: 126
+  headings:
+  - title: Statements of Comprehensive Income
+    level: 2
+  note: Bold lines are statement row labels.
+- page: 128
+  headings:
+  - title: Statement of Changes in Equity – Group
+    level: 2
+  note: Continues on p129; bold lines are row labels.
+- page: 134
+  headings:
+  - title: 2.3 Currency Translation
+    level: 4
+  - title: 2.3.1 Foreign Currency Transactions
+    level: 5
+  - title: 2.3.2 Foreign Operations
+    level: 5
+  - title: 2.4 Cash and Cash Equivalents
+    level: 4
+  - title: 2.5 Financial Instruments
+    level: 4
+  - title: 2.5.1 Recognition
+    level: 5
+  - title: 2.5.2 Derecognition
+    level: 5
+  - title: 2.5.3 Modifications
+    level: 5
+  - title: 2.5.4 Offsetting
+    level: 5
+  - title: 2.5.5 Sale and Repurchase Agreements (Including Securities Lending and Borrowing)
+    level: 5
+  note: Note 2 title is '(continued)'.
+- page: 137
+  headings:
+  - title: 2.8 Property, Plant and Equipment
+    level: 4
+  - title: 2.9 Investment Property
+    level: 4
+  note: 2.7 is '(continued)'.
+- page: 138
+  headings:
+  - title: 2.10 Goodwill and Other Intangible Assets
+    level: 4
+  - title: 2.10.1 Goodwill
+    level: 5
+  - title: 2.10.2 Intangible Assets
+    level: 5
+  - title: 2.11 Impairment of Assets
+    level: 4
+  - title: (I) Financial Assets
+    level: 5
+  - title: 2.11.1 Scope
+    level: 6
+  - title: 2.11.2 Expected Credit Loss Impairment Model
+    level: 6
+  - title: 2.11.3 Measurement
+    level: 6
+  note: 2.9 is '(continued)'. Levels of 2.11.x placed under '(I) Financial Assets' (doubtful; could equally be level 5 siblings).
+- page: 144
+  headings:
+  - title: 2.13.6.2 Fulfilment Cash Flows (FCF)
+    level: 6
+  - title: 2.13.6.3 Contractual Service Margin
+    level: 6
+  - title: 2.13.6.4 Subsequent Measurement – Contracts Not Measured Under the PAA
+    level: 6
+  note: 2.13, 2.13.6 and 2.13.6.1 are '(continued)'.
+- page: 145
+  headings:
+  - title: 2.13.6.5 Reinsurance Contracts
+    level: 6
+  note: Bold 'Changes relating to ...' are table row labels.
+- page: 146
+  headings:
+  - title: 2.13.6.6 Insurance Acquisition Cash Flows
+    level: 6
+  - title: 2.13.7 Measurement – Contracts Measured Under the PAA
+    level: 5
+  note: ''
+- page: 152
+  headings:
+  - title: 2.18 Fiduciary Activities
+    level: 4
+  - title: 2.19 Earnings Per Share
+    level: 4
+  - title: 2.20 Segment Reporting
+    level: 4
+  - title: 2.21 Critical Accounting Estimates and Judgements
+    level: 4
+  note: ''
+- page: 156
+  headings:
+  - title: 3. Net Interest Income
+    level: 3
+  - title: 4. Insurance Service Results and Net Investment and Finance Income/(Expenses) from Life Insurance
+    level: 3
+  - title: Insurance Service Results from Life Insurance
+    level: 4
+  note: Underlined 'Insurance Service Results from Life Insurance' heads a table sub-section of note 4 (doubtful). Bold table
+    rows excluded.
+- page: 166
+  headings:
+  - title: 14. Other Equity Instruments
+    level: 3
+  note: '''Issued by the Bank:'' etc. are table group labels.'
+- page: 168
+  headings:
+  - title: 15. Capital Reserves
+    level: 3
+  - title: 16. Revenue Reserves
+    level: 3
+  note: ''
+- page: 176
+  headings:
+  - title: 21. Debt Issued
+    level: 3
+  - title: 21.1 Subordinated Debt
+    level: 4
+  note: '''Issued by ...:'' lines are table group labels.'
+- page: 201
+  headings:
+  - title: 33.2 Non-Controlling Interests in Subsidiaries
+    level: 4
+  - title: 33.3 Consolidated Structured Entities
+    level: 4
+  note: '''Summarised financial information'' is a table row label.'
+- page: 221
+  headings:
+  - title: Capital Management
+    level: 5
+  - title: Regulatory Capital
+    level: 6
+  note: 38 and 38.4 are '(continued)'.
+- page: 227
+  headings:
+  - title: (c) Equity Price Risk
+    level: 6
+  - title: (d) Credit Spread Risk
+    level: 6
+  - title: (e) Alternative Investment Risk
+    level: 6
+  - title: (f) Commodity Risk
+    level: 6
+  - title: (g) Liquidity Risk
+    level: 6
+  note: Parent 'Market, Credit and Liquidity Risk' is '(continued)'.
+- page: 233
+  headings:
+  - title: (j) Sensitivity Analysis on Financial Risks
+    level: 6
+  - title: Market Risk Sensitivity Analysis
+    level: 7
+  note: '''Market Risk Sensitivity Analysis'' is a bold title over a table plus closing text (doubtful: table title).'
+- page: 235
+  headings:
+  - title: 39. Financial Assets and Financial Liabilities Classification
+    level: 3
+  note: ''
+- page: 241
+  headings: []
+  note: Only '(continued)' headings; GROUP/BANK and bold rows are table labels.
+- page: 245
+  headings:
+  - title: Movements in Level 3 Financial Liabilities
+    level: 5
+  note: Underlined sub-heading under 40.3 (continued); heads a table sub-section (doubtful).
+- page: 253
+  headings:
+  - title: 46. Related Party Transactions
+    level: 3
+  - title: 46.1 Material Related Party Transactions
+    level: 4
+  note: (a)-(d) are table row group labels.
+- page: 267
+  headings:
+  - title: Mr Ang Eng Siong
+    level: 2
+  - title: Ms Elaine Heng
+    level: 2
+  - title: Ms Elaine Lam
+    level: 2
+  note: Profile headings; job-title lines under names are field labels.
+- page: 270
+  headings:
+  - title: OCBC’s Presence in ASEAN, Greater China and Beyond
+    level: 1
+  - title: Southeast Asia
+    level: 2
+  - title: Singapore
+    level: 3
+  - title: Brunei
+    level: 3
+  - title: Indonesia
+    level: 3
+  - title: Malaysia
+    level: 3
+  - title: Myanmar
+    level: 3
+  - title: Philippines
+    level: 3
+  - title: Thailand
+    level: 3
+  - title: Vietnam
+    level: 3
+  note: 7pt bold entity names (OCBC Bank Limited, Head Office, ...) are directory entry labels, excluded (doubtful).

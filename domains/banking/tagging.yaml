@@ -1,0 +1,21 @@
+# Node concept tagging rules (kb-core; constants copied from kb pipeline/concepts.py @ 2f6042e, D39 r4 rules).
+# other_entity: sections about other entities or non-headline notes: no tagging by row label or body text.
+# no_dict: auditor's report and accounting policies: no tagging by body text. movement: movement statements:
+# stock-concept rows are movements, not balances. dict_min / near_number: rule_dict needs this many hits in the
+# node's own text, one of them within near_number characters of a digit.
+version: 1
+confidence:
+  manual: 1.0
+  rule_title: 0.9
+  rule_row_label: 0.9
+  rule_dict: 0.6
+dict_min: 2
+near_number: 20
+other_entity: subsidiar|associate|structured entit|non-controlling|joint venture|附属公司|联号企业|结构性?实体|非控股|联营|pledged|fair value hierarchy|offsetting|related part|allowances for financial assets|抵押资产|公允价值层级|对销|关联人士|金融资产准备金
+no_dict: auditor|audit approach|key audit|accounting polic|accounting estimates|审计|会计政策|会计估计
+movement: cash flow|changes in equity|现金流量|权益变动
+# kb-core (step-2 tag eval): a rule_dict hit does not count when the text within context_chars of it marks one of the
+# judged passing-mention classes: regulatory minimums and buffers, sensitivity estimates, insurance-fund figures, and a
+# metric named only as a dividend base.
+context_chars: 80
+dict_context_exclude: 'minimum|minima|regulatory requirement|buffer|sensitivit|simulat|scenario|parallel (?:up|down)|insurance fund|life fund|of core net profit|of (?:the )?(?:group.s )?(?:annual )?net profit|最低|监管要求|缓冲|敏感|模拟|情景|保险基金|寿险基金|核心净利的|净利润的'

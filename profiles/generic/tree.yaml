@@ -1,0 +1,27 @@
+# Tree rules of the generic type: regions and fonts only (kb-core design §3.1).
+version: 1
+tree_source: regions
+nav_page_max_chars: 30
+notes:
+  continued: '[(（]\s*(续|continued)\s*[)）]'
+bold_font_names: [Bold, Medium, Semibold, SemiBold, Heavy, Black]
+headings:
+  types: [title, heading]
+  split_y: 130
+  generic: [total, 集团, 总额]
+  placeholder: '^p\.\d+$'
+  refer_to: '^[(（]\s*(Refer to|参阅|请参阅)'
+  trailing_words: [than, of, and, or, the, to, for, in, on, at, by, with, an, from, as]   # not "a": "Part A"
+  caption: '^(Table|Chart|Figure|Exhibit|Graph)\s+\d+[A-Za-z]?\s*[:.]|^(表|图)\s*\d+'
+  min_size_vs_body: 1.0
+  bullet: '^[•·▪‣◦]\s*'
+  # rule round 2: not headings either — figure-dominant callouts (numbers, %, currency and these unit words leave
+  # fewer than min_letters letters), anything inside these container boxes, salutations and field lines, and a smaller
+  # line set directly under a heading and apart from the text below it (a job title under a name)
+  stat_units: [万, 亿, 元, 百万, 千, 新元, million, billion, bn, mn, m, k, cents, cagr, yoy, x, times, pp, bps, pct]
+  min_letters: 2
+  container_types: [table, chart, diagram, picture]
+  field_line: '[,，:：]\s*$|[:：]\s*\d'
+  subtitle_gap_pt: 6
+  subtitle_apart_factor: 2   # ... and the text below starts at least 2 x that gap further down
+  group_dy_factor: 3      # a group head's first member sits directly below it: same column, within 3 x its font size

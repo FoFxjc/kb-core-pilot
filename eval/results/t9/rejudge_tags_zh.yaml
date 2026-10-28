@@ -1,0 +1,99 @@
+lang: zh
+purpose: 'T9 re-judge: tag sets changed since the seed-208 judging'
+protocol: 'D39: a tag is correct when the node actually reports or discusses the concept (it is the title, a table has its
+  row, or the text gives its value or change); a node is correct only if all its tags are'
+items:
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0393
+  title: 38.3 市场风险与资产负债管理
+  pages:
+  - 153
+  - 158
+  printed_pages:
+  - '151'
+  - '156'
+  tags: []
+  verdict: null
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0403
+  title: 38.4 保险相关风险管理
+  pages:
+  - 159
+  - 183
+  printed_pages:
+  - '157'
+  - '181'
+  tags: []
+  verdict: null
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0336
+  title: 38.4 保险相关风险管理
+  pages:
+  - 138
+  - 162
+  printed_pages:
+  - '136'
+  - '160'
+  tags: []
+  verdict: null
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0007
+  title: 华侨银行股价表现(元)
+  pages:
+  - 5
+  - 5
+  printed_pages:
+  - '3'
+  - '3'
+  tags:
+  - concept_id: dividend_yield
+    name_en: Dividend yield
+    method: rule_row_label
+    variant: 净股息收益率(%)
+  - concept_id: pe_ratio
+    name_en: Price-to-earnings ratio
+    method: rule_row_label
+    variant: 本益比(倍数)
+  - concept_id: price_to_nav
+    name_en: Price-to-NAV ratio
+    method: rule_row_label
+    variant: 股价净值比(倍数)
+  - concept_id: special_dividend
+    name_en: Special dividend
+    method: rule_dict
+    variant: 特别股息
+  verdict: null
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0132
+  title: 25亿元的资本归还
+  pages:
+  - 36
+  - 36
+  printed_pages:
+  - '34'
+  - '34'
+  tags: []
+  verdict: null
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0342
+  title: 38.2 信贷风险
+  pages:
+  - 132
+  - 135
+  printed_pages:
+  - '130'
+  - '133'
+  tags: []
+  verdict: null
+  wrong_tags: []
+  note: ''

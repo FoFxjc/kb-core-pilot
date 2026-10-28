@@ -1,0 +1,36 @@
+# Manual spot check of node concept tags (p2-design §3.3; scripts/p2_tag_sample.py; judged by the main session, 2026-10-19).
+# Criterion (D39): a tag is correct = the node actually reports or discusses the concept (it is the title, a table has its row, or the text gives its value or change);
+#   a node is correct only if all its tags are correct (same standard as the D22 tree spot check, "all three correct"); per-tag accuracy recorded too. Threshold 85% (node level).
+# Sampling: 40 tagged primary-tree nodes per language. Below threshold: fix the rules, then resample with a new seed (never accept on a sample the rules were tuned on); every round is recorded.
+# Rule versions: r1 = rule_dict >= 2; r2 = + F1-F5; r3 = + F6; r4 = F1 changed to F1' (shared pages split by title position; final version). See pipeline/concepts.py and p2b-report §3.
+evaluations:
+  - {round: r1, rules: "dict>=2", seed: 41, lang: en, sampled: 40, correct_nodes: 22, labels: 87, correct_labels: 59}
+  - {round: r1, rules: "dict>=2", seed: 41, lang: zh, sampled: 40, correct_nodes: 15, labels: 95, correct_labels: 63}
+  - {round: r2, rules: "dict>=2 + F1-F5", seed: 42, lang: en, sampled: 40, correct_nodes: 35, labels: 129, correct_labels: 121}
+  - {round: r2, rules: "dict>=2 + F1-F5", seed: 42, lang: zh, sampled: 40, correct_nodes: 29, labels: 106, correct_labels: 92}
+  - {round: r3, rules: "dict>=2 + F1-F6", seed: 43, lang: en, sampled: 40, correct_nodes: 37, labels: 169, correct_labels: 163}
+  - {round: r3, rules: "dict>=2 + F1-F6", seed: 43, lang: zh, sampled: 40, correct_nodes: 36, labels: 135, correct_labels: 131}
+  - {round: r4, rules: "dict>=2 + F1'-F6 (final)", seed: 44, lang: en, sampled: 40, correct_nodes: 35, labels: 119, correct_labels: 111}
+  - {round: r4, rules: "dict>=2 + F1'-F6 (final)", seed: 44, lang: zh, sampled: 40, correct_nodes: 37, labels: 90, correct_labels: 87}
+# r1 error types (43 wrong nodes): F1 sibling subsections sharing a page cross-tagged 12; F2 other entities (subsidiaries, associates, structured entities) 5;
+#   F3 stock rows in movement / cash-flow tables 4; F4 passing mentions in the auditor's report or accounting policies 6; F5 missing exclusions in the concept table 7; the rest are passing mentions in narrative.
+# r2 error types (16): pledged assets, fair-value hierarchy, offsetting, related parties, financial-asset allowance notes 10 (-> F6); "unconsolidated structured entities" missed 1; passing mentions 5.
+# Nodes still wrong under r3 (7):
+r3_wrong:
+  - {node: "ocbc-group_ar_2023_en:toc_flash:0076", title: "Pillar 3 Disclosures", why: "disclosure index page: the LCR / leverage ratio / NSFR rows and RWA are only index entries"}
+  - {node: "ocbc-group_ar_2024_en:toc_flash:0001", title: "Winning as One Group", concept: net_profit, why: "Great Eastern contributes about 15% of group net profit; passing mention"}
+  - {node: "ocbc-group_ar_2024_en:toc_flash:0114", title: "Disclosure Requirement Counterparty Credit Risk", concept: rwa, why: "disclosure index entry"}
+  - {node: "ocbc-group_ar_2023_zh:toc_flash:0133", title: "22.1 寿险的剩余保险覆盖负债与已产生索赔负债之对账", concept: total_liabilities, why: "the total of insurance liabilities is not the group's total liabilities"}
+  - {node: "ocbc-group_ar_2024_zh:toc_flash:0036", title: "资本管理", concept: core_net_profit, why: "'special dividend equal to 10% of core net profit'; passing mention"}
+  - {node: "ocbc-group_ar_2024_zh:toc_flash:0157", title: "38.4 保险相关风险管理", concept: total_liabilities, why: "total non-life insurance liabilities"}
+  - {node: "ocbc-group_ar_2025_zh:toc_flash:0032", title: "资本管理", concept: core_net_profit, why: "same as above; passing mention"}
+# Nodes still wrong under r4 (final rules) (8):
+r4_wrong:
+  - {node: "ocbc-group_ar_2023_en:toc_flash:0081", title: "Net Interest Income（MD&A）", concepts: [customer_loans, customer_deposits], why: "average balances in the average balance sheet, not year-end loans or deposits"}
+  - {node: "ocbc-group_ar_2024_en:toc_flash:0001", title: "Winning as One Group", concept: net_profit, why: "passing mention"}
+  - {node: "ocbc-group_ar_2024_en:toc_flash:0011", title: "Reiterating the Value of Operating as One OCBC Group", concept: total_assets, why: "'ranking of Chinese banks by total assets'; passing mention"}
+  - {node: "ocbc-group_ar_2024_en:toc_flash:0111", title: "Overview of Disclosures", why: "Pillar 3 disclosure index page"}
+  - {node: "ocbc-group_ar_2024_en:toc_flash:0114", title: "Disclosure Requirement Counterparty Credit Risk", concept: rwa, why: "disclosure index entry"}
+  - {node: "ocbc-group_ar_2023_zh:toc_flash:0049", title: "信贷风险的缓释", concept: npa, why: "'non-performing asset grades'; passing mention"}
+  - {node: "ocbc-group_ar_2023_zh:toc_flash:0133", title: "22.1 寿险的剩余保险覆盖负债与已产生索赔负债之对账", concept: total_liabilities, why: "total insurance liabilities"}
+  - {node: "ocbc-group_ar_2024_zh:toc_flash:0013", title: "提高股息和拟议股票回购", concept: net_profit, why: "'10% of the group's annual net profit'; passing mention"}

@@ -1,0 +1,13 @@
+# Low-information tokens (search ranking rule (b), confirmed by the user 2026-10-16): a title that hits only these tokens does not count as the structure layer; it goes to the text layer.
+# Tokens are in the tokenizer's output form (pipeline.tokenize.tokens, lowercased). Years are handled separately by year_pattern.
+# Affects layer assignment and the coverage gate (a low-information word is not an information unit); not RRF scores.
+version: 2   # kb-core round 2 W2: Chinese question and measure words added
+year_pattern: "^(19|20)\\d{2}(年|年度)?$"
+terms:
+  en: [a, an, the, of, for, and, or, to, in, on, at, by, with, from, as, is, are, was, were, be, been, what, which,
+       how, why, when, where, who, did, does, do, much, many, this, that, these, those, its, it, our, ocbc, group,
+       bank, year, years, per, share, shares, total, end, during, fy, s]
+  zh: [的, 是, 了, 在, 和, 与, 及, 或, 为, 对, 年, 年度, 多少, 什么, 怎么, 如何, 为什么, 哪些, 是否, 吗, 呢, 中, 年末,
+       期间, 华侨银行, 集团, 银行, 本行, 每股,
+       # kb-core round 2 W2 (class F3, old-16 analysis): question scaffolding and measure words
+       有, 多, 大, 到, 分别, 年底, 规模]

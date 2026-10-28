@@ -1,0 +1,296 @@
+doc_id: ocbc-group_ar_2023_en
+seed: 301
+page_count: 296
+protocol: 'Round 2 T1.2 heading list on a seeded page sample. For each sampled physical page, list every heading that STARTS
+  a section on that page, as printed (eval/tree_rubric.md criterion 1: no body text, table row labels or column headers, chart
+  labels, captions, stat callouts, field labels, signatory names, running headers or ''(continued)'' repeats). Contents-page
+  entries are not headings of the contents page.'
+pages:
+- page: 9
+  headings:
+  - title: Powering Our Ambitions Forward
+    level: 3
+  - title: Guiding Best Outcomes for a Sustainable Future
+    level: 3
+  - title: Looking Ahead
+    level: 3
+  - title: Appreciation
+    level: 3
+  note: Chairman's statement continued; 10pt bold sub-headings.
+- page: 13
+  headings:
+  - title: Appreciation
+    level: 3
+  note: Excluded chart titles 'Group Net Profit ($m)', 'Dividend Payout Ratio', 'Dividend Per Share (cents)' (chart labels
+    within Group CEO letter) and signatory 'Helen Wong'.
+- page: 18
+  headings:
+  - title: For now, and beyond
+    level: 3
+  note: 'Doubtful: ''For now, and beyond'' is the red tagline drawn as a graphic (no text layer) set as a heading above the
+    brand-unveiling paragraphs. Photo captions excluded.'
+- page: 20
+  headings:
+  - title: Our Purpose
+    level: 3
+  - title: Our Values
+    level: 3
+  - title: Our Ambition
+    level: 3
+  - title: Our Brand Promise
+    level: 3
+  note: 'Section ''Our Purpose, Values and Ambition'' has no printed title on this page. Excluded value-card labels (Lasting
+    Value, Integrity, Forward-Looking, Respect, Responsibility) and brand-promise boxes (doubtful: card labels, not section
+    headings) and the large purpose/ambition statements.'
+- page: 37
+  headings:
+  - title: Investing in people and the environment
+    level: 3
+  note: Leader's view (Group COO) sub-heading.
+- page: 45
+  headings:
+  - title: Never losing sight of our Purpose and Values
+    level: 3
+  note: ''
+- page: 49
+  headings:
+  - title: Building workplace diversity
+    level: 3
+  note: ''
+- page: 61
+  headings:
+  - title: 'Principle 8: Disclosure on Remuneration'
+    level: 4
+  - title: Remuneration of Top Five Key Management Personnel in 2023
+    level: 5
+  - title: Remuneration of Directors’ and CEO’s Immediate Family
+    level: 5
+  - title: Remuneration of Substantial Shareholder’s Immediate Family
+    level: 5
+  note: 'Doubtful: excluded ''Directors’ and CEO’s Remuneration in 2023'' (bold non-underlined table title over the remuneration
+    tables) and table labels ''Bank''/''Subsidiaries''.'
+- page: 68
+  headings:
+  - title: Summary of Disclosures
+    level: 3
+  note: Provision rows are table row labels, excluded.
+- page: 84
+  headings:
+  - title: Credit Loss Allowances
+    level: 4
+  - title: Market Risk Management
+    level: 3
+  - title: Market Risk Management Approach
+    level: 4
+  - title: Market Risk Identification
+    level: 4
+  - title: Market Risk Measurements
+    level: 4
+  - title: Value-At-Risk
+    level: 5
+  note: 'Excluded figure title ''Stages of Credit Risk and Expected Credit Losses'', its stage boxes, and ''Table 5: VaR by
+    Risk Type – Trading Portfolio'' (table title).'
+- page: 85
+  headings:
+  - title: Other Risk Measures
+    level: 5
+  - title: Stress Testing and Scenario Analysis
+    level: 4
+  - title: Risk Monitoring, Reporting and Control
+    level: 4
+  - title: Limits
+    level: 5
+  - title: Model Validation
+    level: 5
+  - title: Back Testing
+    level: 5
+  note: Excluded the two 'Frequency Distribution ...' chart titles.
+- page: 90
+  headings:
+  - title: Pillar 3 Disclosures
+    level: 2
+  - title: Introduction
+    level: 3
+  - title: Scope of Consolidation
+    level: 3
+  - title: Overview of Disclosures
+    level: 3
+  note: Rows of the disclosure-location table excluded.
+- page: 100
+  headings:
+  - title: Non-Interest Income
+    level: 3
+  note: Bold rows are table row labels.
+- page: 113
+  headings: []
+  note: Only 'Share-Based Compensation Plans (continued)'.
+- page: 121
+  headings:
+  - title: Other Information
+    level: 3
+  - title: Responsibilities of Management and Directors for the Financial Statements
+    level: 3
+  - title: Auditor’s Responsibilities for the Audit of the Financial Statements
+    level: 3
+  note: Independent Auditor's Report continued.
+- page: 125
+  headings:
+  - title: Balance Sheets
+    level: 2
+  note: EQUITY/LIABILITIES/ASSETS are statement row labels.
+- page: 131
+  headings:
+  - title: Changes to Presentation and Disclosure
+    level: 6
+  - title: B. GEH Group – Transition
+    level: 5
+  note: Note 2 / 2.1 / A. / 'Changes to Classification and Measurement' are (continued) repeats.
+- page: 146
+  headings:
+  - title: 2.13.6.6 Insurance Acquisition Cash Flows
+    level: 6
+  - title: 2.13.7 Measurement – Contracts Measured Under the PAA
+    level: 5
+  note: ''
+- page: 147
+  headings:
+  - title: 2.13.8 Derecognition and Contract Modification
+    level: 5
+  note: 2.13.7 at top is a continued repeat.
+- page: 148
+  headings:
+  - title: 2.13.9 Insurance Service Result From Insurance Contracts Issued
+    level: 5
+  - title: Insurance Revenue
+    level: 6
+  - title: Insurance Service Expenses
+    level: 6
+  - title: Net Income/(Expenses) from Reinsurance Contracts Held
+    level: 6
+  note: ''
+- page: 159
+  headings:
+  - title: 5. Fees and Commissions (Net)
+    level: 3
+  - title: 6. Dividends from Subsidiaries and Associates
+    level: 3
+  note: ''
+- page: 163
+  headings:
+  - title: OECD Pillar Two Model Rules
+    level: 4
+  - title: 12. Earnings Per Share
+    level: 3
+  note: Note 11 heading is a continued repeat; 'OECD Pillar Two Model Rules' is an unnumbered sub-heading of note 11.
+- page: 164
+  headings:
+  - title: 13. Share Capital
+    level: 3
+  - title: 13.1 Share Capital
+    level: 4
+  - title: 13.2 Share Option Scheme
+    level: 4
+  note: ''
+- page: 176
+  headings:
+  - title: 21. Debt Issued
+    level: 3
+  - title: 21.1 Subordinated Debt
+    level: 4
+  note: ''
+- page: 180
+  headings:
+  - title: 22. Assets and Liabilities for Life Insurance Funds
+    level: 3
+  note: ''
+- page: 197
+  headings:
+  - title: 32.2 Financial Information of Material Associate
+    level: 4
+  note: 32.2 starts here (32.1 on p196; p198 repeats 32.2 as continued). Bold table labels excluded.
+- page: 199
+  headings:
+  - title: 33.1 List of Principal Subsidiaries
+    level: 4
+  note: Banking/Insurance/... are table group labels.
+- page: 205
+  headings:
+  - title: Impairment Tests for Goodwill
+    level: 4
+  note: '''Cash Generating Units'' is a table column header.'
+- page: 229
+  headings:
+  - title: (c) Equity Price Risk
+    level: 6
+  - title: (d) Credit Spread Risk
+    level: 6
+  - title: (e) Alternative Investment Risk
+    level: 6
+  - title: (f) Commodity Risk
+    level: 6
+  - title: (g) Liquidity Risk
+    level: 6
+  note: Under 38 > 38.4 > Market, Credit and Liquidity Risk (all continued).
+- page: 230
+  headings: []
+  note: Only continued repeats and table labels.
+- page: 232
+  headings: []
+  note: Only continued repeats and table labels.
+- page: 235
+  headings: []
+  note: Only continued repeats and table labels.
+- page: 236
+  headings:
+  - title: Amounts Arising from ECL
+    level: 7
+  - title: Measurement of ECL – Explanation of Inputs, Assumptions and Estimation Techniques
+    level: 7
+  - title: Significant Increase in Credit Risk
+    level: 7
+  note: Underlined sub-headings under (h) Credit Risk (continued).
+- page: 242
+  headings:
+  - title: Operational and Compliance Risk
+    level: 5
+  note: Sibling of 'Market, Credit and Liquidity Risk' under 38.4.
+- page: 253
+  headings: []
+  note: Only continued repeats; 'Financial assets measured at fair value' is a table label.
+- page: 267
+  headings:
+  - title: Five-Year Ordinary Share Capital History
+    level: 2
+  note: ''
+- page: 278
+  headings:
+  - title: Ms Lee Hwee Boon
+    level: 3
+  - title: Mr Praveen Raina
+    level: 3
+  - title: Ms Loretta Yuen
+    level: 3
+  - title: Mr Harry Lim
+    level: 3
+  - title: Ms Koh Ching Ching
+    level: 3
+  note: Management biography profile headings (column order); job-title lines excluded as field labels.
+- page: 284
+  headings: []
+  note: AGM notice resolutions body text.
+- page: 285
+  headings:
+  - title: Notes
+    level: 3
+  - title: Format of Meeting
+    level: 4
+  - title: Presentation by Management
+    level: 4
+  note: 'Doubtful: bold ''Notes:'' and the italic note sub-titles in the AGM notice; signatory ''Peter Yeoh, Secretary'' excluded.'
+- page: 289
+  headings:
+  - title: Ordinary Resolution 7
+    level: 4
+  - title: Ordinary Resolution 8
+    level: 4
+  note: Under 'Explanatory Notes on Routine and Special Business' (p288).

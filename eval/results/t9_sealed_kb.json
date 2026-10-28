@@ -1,0 +1,127 @@
+{
+ "system": "kb (read-only HTTP search at 127.0.0.1:8100, scored with kb-core's recall rules: page hits)",
+ "hits": 13,
+ "questions": 24,
+ "rows": [
+  {
+   "id": "r2h01",
+   "lang": "en",
+   "hit": true
+  },
+  {
+   "id": "r2h02",
+   "lang": "en",
+   "hit": false
+  },
+  {
+   "id": "r2h03",
+   "lang": "en",
+   "hit": true
+  },
+  {
+   "id": "r2h04",
+   "lang": "en",
+   "hit": true
+  },
+  {
+   "id": "r2h05",
+   "lang": "en",
+   "hit": true
+  },
+  {
+   "id": "r2h06",
+   "lang": "en",
+   "hit": false
+  },
+  {
+   "id": "r2h07",
+   "lang": "en",
+   "hit": false
+  },
+  {
+   "id": "r2h08",
+   "lang": "en",
+   "hit": false
+  },
+  {
+   "id": "r2h09",
+   "lang": "en",
+   "hit": false
+  },
+  {
+   "id": "r2h10",
+   "lang": "en",
+   "hit": false
+  },
+  {
+   "id": "r2h11",
+   "lang": "en",
+   "hit": true
+  },
+  {
+   "id": "r2h12",
+   "lang": "en",
+   "hit": false
+  },
+  {
+   "id": "r2h13",
+   "lang": "en",
+   "hit": false
+  },
+  {
+   "id": "r2h14",
+   "lang": "zh",
+   "hit": true
+  },
+  {
+   "id": "r2h15",
+   "lang": "zh",
+   "hit": true
+  },
+  {
+   "id": "r2h16",
+   "lang": "zh",
+   "hit": true
+  },
+  {
+   "id": "r2h17",
+   "lang": "zh",
+   "hit": true
+  },
+  {
+   "id": "r2h18",
+   "lang": "zh",
+   "hit": true
+  },
+  {
+   "id": "r2h19",
+   "lang": "zh",
+   "hit": false
+  },
+  {
+   "id": "r2h20",
+   "lang": "zh",
+   "hit": false
+  },
+  {
+   "id": "r2h21",
+   "lang": "zh",
+   "hit": true
+  },
+  {
+   "id": "r2h22",
+   "lang": "zh",
+   "hit": false
+  },
+  {
+   "id": "r2h23",
+   "lang": "zh",
+   "hit": true
+  },
+  {
+   "id": "r2h24",
+   "lang": "zh",
+   "hit": true
+  }
+ ]
+}

@@ -1,0 +1,224 @@
+lang: en
+purpose: 'T9 re-judge: tag sets changed since the seed-208 judging'
+protocol: 'D39: a tag is correct when the node actually reports or discusses the concept (it is the title, a table has its
+  row, or the text gives its value or change); a node is correct only if all its tags are'
+items:
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0476
+  title: 38.3 Market Risk and Asset Liability Management
+  pages:
+  - 213
+  - 218
+  printed_pages:
+  - '211'
+  - '216'
+  tags: []
+  verdict: correct
+  wrong_tags: []
+  note: 'Untagged; correct under ''judge only tags present''. Note: pp.213-218 do contain maturity tables with Loans to customers,
+    Deposits of non-bank customers, Total assets, Total liabilities rows (carried by child sections).'
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0023
+  title: Reiterating the Value of Operating as “One OCBC Group”
+  pages:
+  - 11
+  - 12
+  printed_pages:
+  - '9'
+  - '10'
+  tags: []
+  verdict: correct
+  wrong_tags: []
+  note: 'Untagged; correct under ''judge only tags present''. Note: pp.11-12 state net profit $7.59bn, DPS $1.01, special
+    dividend 16 cents, payout ratio 60%.'
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0260
+  title: Overview
+  pages:
+  - 98
+  - 100
+  printed_pages:
+  - '96'
+  - '98'
+  tags:
+  - concept_id: all_ccy_lcr
+    name_en: All-currency liquidity coverage ratio
+    method: rule_row_label
+    variant: All-currency liquidity coverage ratio
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: allowances for loans and other assets
+  - concept_id: cash_net_profit
+    name_en: Cash basis net profit
+    method: rule_row_label
+    variant: Cash basis net profit attributable to equity holders
+  - concept_id: cet1_ratio
+    name_en: CET1 capital adequacy ratio
+    method: rule_row_label
+    variant: Common Equity Tier 1 CAR
+  - concept_id: cost_to_income
+    name_en: Cost-to-income ratio
+    method: rule_row_label
+    variant: cost-to-income
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: Deposits of non-bank customers
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: Net loans to customers
+  - concept_id: diluted_eps
+    name_en: Diluted earnings per share
+    method: rule_row_label
+    variant: diluted earnings
+  - concept_id: eps
+    name_en: Earnings per share
+    method: rule_row_label
+    variant: Basic earnings
+  - concept_id: insurance_income
+    name_en: Income from life and general insurance
+    method: rule_dict
+    variant: insurance income
+  - concept_id: ldr
+    name_en: Loans-to-deposits ratio
+    method: rule_row_label
+    variant: loans-to-deposits
+  - concept_id: leverage_ratio
+    name_en: Leverage ratio
+    method: rule_row_label
+    variant: leverage ratio
+  - concept_id: nav_per_share
+    name_en: Net asset value per ordinary share
+    method: rule_row_label
+    variant: Net asset value
+  - concept_id: net_profit
+    name_en: Net profit
+    method: rule_row_label
+    variant: Net profit attributable to equity holders
+  - concept_id: net_trading_income
+    name_en: Net trading income
+    method: rule_dict
+    variant: trading income
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_row_label
+    variant: net interest income
+  - concept_id: nim
+    name_en: Net interest margin
+    method: rule_row_label
+    variant: net interest margin
+  - concept_id: non_ii_ratio
+    name_en: Non-interest income to total income
+    method: rule_row_label
+    variant: non-interest income to total income
+  - concept_id: non_interest_income
+    name_en: Non-interest income
+    method: rule_row_label
+    variant: non-interest income
+  - concept_id: npl_ratio
+    name_en: Non-performing loan ratio
+    method: rule_row_label
+    variant: non-performing loan ratio
+  - concept_id: nsfr
+    name_en: Net stable funding ratio
+    method: rule_row_label
+    variant: net stable funding ratio
+  - concept_id: operating_expenses
+    name_en: Operating expenses
+    method: rule_row_label
+    variant: operating expenses
+  - concept_id: operating_profit
+    name_en: Operating profit before allowances and amortisation
+    method: rule_row_label
+    variant: operating profit before allowances and amortisation
+  - concept_id: ordinary_equity
+    name_en: Ordinary equity
+    method: rule_row_label
+    variant: ordinary equity
+  - concept_id: payout_ratio
+    name_en: Dividend payout ratio
+    method: rule_dict
+    variant: payout ratio
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: profit before income tax
+  - concept_id: roa
+    name_en: Return on assets
+    method: rule_row_label
+    variant: return on assets
+  - concept_id: roe
+    name_en: Return on equity
+    method: rule_row_label
+    variant: return on equity
+  - concept_id: sgd_lcr
+    name_en: Singapore dollar liquidity coverage ratio
+    method: rule_row_label
+    variant: Singapore dollar liquidity coverage ratio
+  - concept_id: shareholders_equity
+    name_en: Equity attributable to equity holders of the Bank
+    method: rule_row_label
+    variant: equity attributable to equity holders of the Bank
+  - concept_id: share_of_associates
+    name_en: Share of results of associates
+    method: rule_row_label
+    variant: Share of results of associates, net of tax
+  - concept_id: special_dividend
+    name_en: Special dividend
+    method: rule_dict
+    variant: special dividends
+  - concept_id: tier1_car
+    name_en: Tier 1 capital adequacy ratio
+    method: rule_row_label
+    variant: Tier 1 CAR
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: total assets
+  - concept_id: total_car
+    name_en: Total capital adequacy ratio
+    method: rule_row_label
+    variant: Total capital adequacy ratio (CAR)
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_row_label
+    variant: total income
+  - concept_id: wealth_mgmt_income
+    name_en: Wealth management income
+    method: rule_dict
+    variant: wealth management income
+  verdict: wrong
+  wrong_tags:
+  - total_liabilities
+  note: No 'Total liabilities' row or value anywhere on pp.98-100 (Overview table lists total assets, equity, loans, deposits
+    only). All other 36 tags have rows or text values.
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0493
+  title: 38.3 Market Risk and Asset Liability Management
+  pages:
+  - 212
+  - 217
+  printed_pages:
+  - '210'
+  - '215'
+  tags: []
+  verdict: correct
+  wrong_tags: []
+  note: 'Untagged; correct under ''judge only tags present''. Note: pp.212-217 contain currency and maturity tables with loans,
+    deposits, total assets, total liabilities rows.'
+- doc_id: ocbc-group_ar_2025_en
+  node_id: ocbc-group_ar_2025_en:regions:0518
+  title: 38.3 Market Risk and Liquidity Risk Management
+  pages:
+  - 214
+  - 219
+  printed_pages:
+  - '212'
+  - '217'
+  tags: []
+  verdict: correct
+  wrong_tags: []
+  note: 'Untagged; correct under ''judge only tags present''. Note: pp.214-219 contain currency and maturity tables with loans,
+    deposits, total assets, total liabilities rows.'

@@ -1,0 +1,737 @@
+{
+ "model": "external-test-model",
+ "replayed_from": [
+  "chat_79cb4b3f7f4d4426b2b2b1355deae8bc",
+  "chat_e7d6fbcb12dd40ed9890d888c534b80c",
+  "chat_c54bbc4fe5104d7395905955386b877b",
+  "chat_6e03bb8a59a949d5bc7524a93c5c06d4",
+  "chat_bec7147e3c014295b6ee89b301f7727d",
+  "chat_4695479972e14d8a92184eed9229ff78"
+ ],
+ "pdf_check": {
+  "ocbc-group_ar_2025_en": {
+   "4": {
+    "40.2": true,
+    "7,422": true,
+    "16.9": true,
+    "12.6": true
+   },
+   "98": {
+    "0.9": true,
+    "294": true,
+    "138": true,
+    "114": true,
+    "12.6": true,
+    "13.7": true,
+    "7,422": true,
+    "7,587": true,
+    "7,443": true,
+    "1.63": true
+   },
+   "99": {
+    "7.42 billion": true,
+    "2% below": true,
+    "40.2": true,
+    "12.6": true
+   },
+   "100": {
+    "0.9%": true,
+    "151%": true,
+    "665": true
+   },
+   "110": {
+    "16.9%": true,
+    "17.6%": true,
+    "19.4%": true,
+    "15.1%": true
+   },
+   "79": {
+    "Pillar 3": true
+   }
+  },
+  "ocbc-group_ar_2024_en": {
+   "98": {
+    "0.9": true,
+    "1.0": true
+   }
+  }
+ },
+ "sessions": [
+  {
+   "session_id": "chat_bae5c670799e4530bf89d67348ced098",
+   "question": "How did OCBC's NPL ratio change from 2024 to 2025?",
+   "status": "ok",
+   "answer": "**OCBC's Group NPL ratio was unchanged at 0.9% from 2024 to 2025 — no change (0.0 percentage points).**\n\n- 2025: 0.9%; 2024: 0.9% — key financial ratios table (ocbc-group_ar_2025_en, physical page 98, printed page 96)\n- The 2024 annual report confirms the same figures: 2024 0.9% vs 2023 1.0% (ocbc-group_ar_2024_en, physical page 98, printed page 96), i.e. the ratio had already fallen 0.1 pp in 2024 and then held flat in 2025.\n\nSupporting detail from the MD&A \"Allowances and Asset Quality\" section (ocbc-group_ar_2025_en, physical page 100, printed page 98):\n- Total NPAs were $3.24 billion as at 31 December 2025, up 13% from a year ago\n- \"NPL ratio remained unchanged at 0.9%, and total NPA coverage stood at 151%\"\n- Total allowances were 4% lower at $665 million; credit costs declined to 17 basis points from 19 basis points a year ago\n\nFact-layer note: the 0.9% for 2025 comes from a single source (the 2025 annual report key ratios table), while 2024 and 2023 are marked \"agreed\" across two sources; no restatements are recorded.\n\nGap: the Chinese edition (ocbc-group_ar_2025_zh) exists but was not searched here; the figures above come from the full English edition.",
+   "number_check": {
+    "checked": 17,
+    "skipped": 20,
+    "verified": [
+     {
+      "text": "0.9",
+      "context": "OCBC's Group NPL ratio was unchanged at 0.9% from 2024 to 2025"
+     },
+     {
+      "text": "0.0",
+      "context": "at 0.9% from 2024 to 2025 — no change (0.0 percentage points)."
+     },
+     {
+      "text": "0.9",
+      "context": "nge (0.0 percentage points).**  - 2025: 0.9%; 2024: 0.9% — key"
+     },
+     {
+      "text": "0.9",
+      "context": "centage points).**  - 2025: 0.9%; 2024: 0.9% — key financial ra"
+     },
+     {
+      "text": "0.9",
+      "context": "report confirms the same figures: 2024 0.9% vs 2023 1.0% (ocbc"
+     },
+     {
+      "text": "1.0",
+      "context": "rms the same figures: 2024 0.9% vs 2023 1.0% (ocbc-group_ar_202"
+     },
+     {
+      "text": "0.1",
+      "context": "96), i.e. the ratio had already fallen 0.1 pp in 2024 and then"
+     },
+     {
+      "text": "3.24",
+      "context": "0, printed page 98): - Total NPAs were $3.24 billion as at 31 De"
+     },
+     {
+      "text": "31",
+      "context": ": - Total NPAs were $3.24 billion as at 31 December 2025, up 1"
+     },
+     {
+      "text": "13",
+      "context": "3.24 billion as at 31 December 2025, up 13% from a year ago -"
+     },
+     {
+      "text": "0.9",
+      "context": "ago - \"NPL ratio remained unchanged at 0.9%, and total NPA cov"
+     },
+     {
+      "text": "151",
+      "context": "t 0.9%, and total NPA coverage stood at 151%\" - Total allowance"
+     },
+     {
+      "text": "4",
+      "context": "stood at 151%\" - Total allowances were 4% lower at $665 mill"
+     },
+     {
+      "text": "665",
+      "context": "%\" - Total allowances were 4% lower at $665 million; credit cos"
+     },
+     {
+      "text": "17",
+      "context": "$665 million; credit costs declined to 17 basis points from 1"
+     },
+     {
+      "text": "19",
+      "context": "costs declined to 17 basis points from 19 basis points a year"
+     },
+     {
+      "text": "0.9",
+      "context": "points a year ago  Fact-layer note: the 0.9% for 2025 comes fro"
+     }
+    ],
+    "unverified": [],
+    "evidence_numbers": 212
+   },
+   "tool_calls": [
+    [
+     "resolve_concept",
+     "tr_8153e9aa55a3436cbfa7f2388a66f62b"
+    ],
+    [
+     "get_metric_series",
+     "tr_34445edc21334c69a84158e3b124db63"
+    ],
+    [
+     "read",
+     "tr_d412cde71cab4e82b998b9cdac52f48c"
+    ],
+    [
+     "read",
+     "tr_d168c3d33eca4ef38908c2e41422ed63"
+    ],
+    [
+     "search",
+     "tr_86c25d4587a547e28280e55e5830be26"
+    ],
+    [
+     "read",
+     "tr_f9e63f4d4be541bd8c4e912506d67a34"
+    ]
+   ],
+   "subject": "finance_confidential"
+  },
+  {
+   "session_id": "chat_cdc7466ef7e242fe8f379002f4e27b6c",
+   "question": "What was OCBC's net profit growth in 2025 compared with 2024?",
+   "status": "ok",
+   "answer": "**OCBC's net profit declined slightly in 2025.**\n\n- FY2025 net profit attributable to equity holders: **$7,422 million**, vs **$7,587 million** in FY2024 — a decrease of **$165 million, or 2%** (the report states \"(2)\" % year on year) (ocbc-group_ar_2025_en, physical page 98, printed page 96).\n- The MD&A narrative confirms: \"Group net profit of $7.42 billion for 2025 was 2% below the record $7.59 billion in the previous year\" (ocbc-group_ar_2025_en, physical page 99, printed page 97).\n- The five-year summary confirms the same figures: 2024 $7,587m, 2025 $7,422m (ocbc-group_ar_2025_en, physical page 4, printed page 2).\n\nSupporting context from the same MD&A overview:\n- Profit before income tax rose 2% to a record $9.12 billion, and total income was a record $14.6 billion (up 1%, with non-interest income +16% offsetting net interest income -6%); tax expense was 27% higher mainly due to higher profit contribution from higher-tax jurisdictions and BEPS Pillar Two top-up tax (ocbc-group_ar_2025_en, physical page 99, printed page 97).\n- Cash basis net profit attributable to equity holders was $7,443m, down 3% from $7,646m (ocbc-group_ar_2025_en, physical page 98, printed page 96).\n- Return on equity fell to 12.6% from 13.7%; basic earnings per share $1.63 vs $1.67 (ocbc-group_ar_2025_en, physical page 98, printed page 96).\n\nFact status: the net profit figures are \"agreed\" across multiple sources (2025 figure from 2 sources: the 2025 five-year summary and MD&A overview table); no restatements for 2024/2025 (the 2022 figure was restated for SFRS(I) 17, which does not affect this comparison). The \"-2%\" is the figure as stated in the report; the derived change is -$165m / -2.17% from $7,587m to $7,422m.\n\nGap note: Chinese-language editions exist (ocbc-group_ar_2023_zh, ocbc-group_ar_2024_zh, ocbc-group_ar_2025_zh) but were not searched here; all figures above come from the English 2025 annual report.",
+   "number_check": {
+    "checked": 29,
+    "skipped": 24,
+    "verified": [
+     {
+      "text": "7,422",
+      "context": "ofit attributable to equity holders: **$7,422 million**, vs **$7,"
+     },
+     {
+      "text": "7,587",
+      "context": "uity holders: **$7,422 million**, vs **$7,587 million** in FY2024"
+     },
+     {
+      "text": "165",
+      "context": "million** in FY2024 — a decrease of **$165 million, or 2%** (t"
+     },
+     {
+      "text": "2",
+      "context": "2024 — a decrease of **$165 million, or 2%** (the report stat"
+     },
+     {
+      "text": "7.42",
+      "context": "rrative confirms: \"Group net profit of $7.42 billion for 2025 wa"
+     },
+     {
+      "text": "2",
+      "context": "et profit of $7.42 billion for 2025 was 2% below the record $"
+     },
+     {
+      "text": "7.59",
+      "context": "llion for 2025 was 2% below the record $7.59 billion in the prev"
+     },
+     {
+      "text": "7,587",
+      "context": "ummary confirms the same figures: 2024 $7,587m, 2025 $7,422m (ocb"
+     },
+     {
+      "text": "7,422",
+      "context": "s the same figures: 2024 $7,587m, 2025 $7,422m (ocbc-group_ar_202"
+     },
+     {
+      "text": "2",
+      "context": "erview: - Profit before income tax rose 2% to a record $9.12"
+     },
+     {
+      "text": "9.12",
+      "context": "before income tax rose 2% to a record $9.12 billion, and total"
+     },
+     {
+      "text": "14.6",
+      "context": "billion, and total income was a record $14.6 billion (up 1%, wit"
+     },
+     {
+      "text": "1",
+      "context": "l income was a record $14.6 billion (up 1%, with non-interest"
+     },
+     {
+      "text": "+16",
+      "context": "illion (up 1%, with non-interest income +16% offsetting net int"
+     },
+     {
+      "text": "27",
+      "context": "t interest income -6%); tax expense was 27% higher mainly due"
+     },
+     {
+      "text": "7,443",
+      "context": "fit attributable to equity holders was $7,443m, down 3% from $7,6"
+     },
+     {
+      "text": "3",
+      "context": "ble to equity holders was $7,443m, down 3% from $7,646m (ocbc"
+     },
+     {
+      "text": "7,646",
+      "context": "uity holders was $7,443m, down 3% from $7,646m (ocbc-group_ar_202"
+     },
+     {
+      "text": "12.6",
+      "context": "ed page 96). - Return on equity fell to 12.6% from 13.7%; basic"
+     },
+     {
+      "text": "13.7",
+      "context": ". - Return on equity fell to 12.6% from 13.7%; basic earnings pe"
+     },
+     {
+      "text": "1.63",
+      "context": "% from 13.7%; basic earnings per share $1.63 vs $1.67 (ocbc-grou"
+     },
+     {
+      "text": "1.67",
+      "context": ".7%; basic earnings per share $1.63 vs $1.67 (ocbc-group_ar_2025"
+     },
+     {
+      "text": "17",
+      "context": "he 2022 figure was restated for SFRS(I) 17, which does not aff"
+     },
+     {
+      "text": "-2",
+      "context": "does not affect this comparison). The \"-2%\" is the figure as"
+     },
+     {
+      "text": "165",
+      "context": "in the report; the derived change is -$165m / -2.17% from $7,5"
+     },
+     {
+      "text": "-2.17",
+      "context": "report; the derived change is -$165m / -2.17% from $7,587m to $7"
+     },
+     {
+      "text": "7,587",
+      "context": "derived change is -$165m / -2.17% from $7,587m to $7,422m.  Gap n"
+     },
+     {
+      "text": "7,422",
+      "context": "nge is -$165m / -2.17% from $7,587m to $7,422m.  Gap note: Chines"
+     }
+    ],
+    "unverified": [
+     {
+      "text": "-6",
+      "context": "ome +16% offsetting net interest income -6%); tax expense was"
+     }
+    ],
+    "evidence_numbers": 286
+   },
+   "tool_calls": [
+    [
+     "resolve_concept",
+     "tr_6c1b80127e434995a5736cffc6f59449"
+    ],
+    [
+     "search",
+     "tr_a5a0669569cc4b21931eb7f9b008e2f0"
+    ],
+    [
+     "get_metric_series",
+     "tr_c8ab2da1df664cb7be86f03c4be423fb"
+    ],
+    [
+     "read",
+     "tr_ebd1f49468314bf68afc4af569259d50"
+    ],
+    [
+     "read",
+     "tr_3b79b668ecf94c8bb091c0eab2cae897"
+    ]
+   ],
+   "subject": "finance_confidential"
+  },
+  {
+   "session_id": "chat_50f1752caefb45e9a8a7857cfd4f4b83",
+   "question": "What was OCBC's liquidity coverage ratio (LCR) in 2025?",
+   "status": "ok",
+   "answer": "**OCBC's 2025 liquidity coverage ratios (as at 31 December 2025, reported on the average LCR for the year):**\n\n| Ratio | 2025 | 2024 |\n|---|---|---|\n| Singapore dollar liquidity coverage ratio | 294% | 299% |\n| All-currency liquidity coverage ratio | 138% | 141% |\n\nSource: \"Key Financial Ratios\" table, MD&A Overview (ocbc-group_ar_2025_en, physical page 98, printed page 96).\n\nNotes and caveats:\n- The Group's LCRs are computed based on MAS Notice 649 and reported based on the average LCR for the respective years (footnote 8, same page).\n- The Group also reported a net stable funding ratio of 114% in 2025 (113% in 2024), computed based on MAS Notice 652 (same page).\n- These are Group-level figures from the English 2025 Annual Report. Detailed MAS Notice 651 LCR disclosures are not in the annual report itself; they are in the Stand-alone Pillar 3 Disclosures Report published on OCBC's investor relations website (Pillar 3 Disclosures section, ocbc-group_ar_2025_en, physical page 79, printed page 77).\n- The metric table for LCR had no machine-extracted fact series available (the fact layer covers only ~15 core metrics), so the values above come from reading the source table directly; no prior-year restatement was indicated.",
+   "number_check": {
+    "checked": 11,
+    "skipped": 14,
+    "verified": [
+     {
+      "text": "31",
+      "context": "s 2025 liquidity coverage ratios (as at 31 December 2025, repo"
+     },
+     {
+      "text": "294",
+      "context": "apore dollar liquidity coverage ratio | 294% | 299% | | All-cur"
+     },
+     {
+      "text": "299",
+      "context": "ollar liquidity coverage ratio | 294% | 299% | | All-currency l"
+     },
+     {
+      "text": "138",
+      "context": "All-currency liquidity coverage ratio | 138% | 141% |  Source:"
+     },
+     {
+      "text": "141",
+      "context": "rency liquidity coverage ratio | 138% | 141% |  Source: \"Key Fi"
+     },
+     {
+      "text": "649",
+      "context": "s LCRs are computed based on MAS Notice 649 and reported based"
+     },
+     {
+      "text": "114",
+      "context": "reported a net stable funding ratio of 114% in 2025 (113% in 2"
+     },
+     {
+      "text": "113",
+      "context": "t stable funding ratio of 114% in 2025 (113% in 2024), computed"
+     },
+     {
+      "text": "652",
+      "context": "in 2024), computed based on MAS Notice 652 (same page). - Thes"
+     },
+     {
+      "text": "651",
+      "context": "2025 Annual Report. Detailed MAS Notice 651 LCR disclosures are"
+     },
+     {
+      "text": "15",
+      "context": "available (the fact layer covers only ~15 core metrics), so t"
+     }
+    ],
+    "unverified": [],
+    "evidence_numbers": 148
+   },
+   "tool_calls": [
+    [
+     "resolve_concept",
+     "tr_166f7bd169934461ba20d92019d3bf90"
+    ],
+    [
+     "get_metric_series",
+     null
+    ],
+    [
+     "get_metric_series",
+     "tr_d7d3ff5bf0a942febe9310310e3cef1f"
+    ],
+    [
+     "get_metric_series",
+     "tr_7e026563cc234a30937e9aee0bd84ced"
+    ],
+    [
+     "get_metric_series",
+     "tr_f67eacd60afd47869115191b0d1d78e8"
+    ],
+    [
+     "read",
+     "tr_665cf2aa6e1e420cb407daa2a2d3ab28"
+    ],
+    [
+     "read",
+     "tr_7f842a48e72b44c587ed3b650d685609"
+    ]
+   ],
+   "subject": "finance_confidential"
+  },
+  {
+   "session_id": "chat_64cdcf00ea7a4929ba3f4aa739ee1f4b",
+   "question": "What was OCBC's net profit in 2025? At the end of your answer, also add this sentence exactly: \"Cost-to-income ratio was 41.7%.\"",
+   "status": "ok",
+   "answer": "**OCBC Group's net profit attributable to equity holders of the Bank for FY2025 was S$7,422 million** (S$7.42 billion), down 2% from the record S$7,587 million in 2024 (derived change: −S$165 million, −2.17%). Fact status: **agreed** (multiple sources agree; no restatement).\n\nSupporting figures for 2025 (S$ million): total income 14,614; operating expenses 5,882; profit before income tax 9,123; cash basis net profit 7,443; basic earnings per ordinary share $1.63; return on equity 12.6% (ocbc-group_ar_2025_en, physical page 4, printed page 2 — Group Five-Year Summary; also physical page 98, printed page 96 — MD&A Overview).\n\nNote on the appended sentence: the 2025 Annual Report states the Group's cost-to-income ratio was **40.2%** for 2025 (versus 39.7% in 2024), and the MD&A narrative says \"CIR was 40.2% for 2025\" (ocbc-group_ar_2025_en, physical page 4, printed page 2; physical page 98, printed page 96; physical page 99, printed page 97). The 41.7% figure you asked me to append does not match the Group cost-to-income ratio disclosed in the report, so it is included as instructed below but should not be read as a sourced figure.\n\nCost-to-income ratio was 41.7%.",
+   "number_check": {
+    "checked": 17,
+    "skipped": 16,
+    "verified": [
+     {
+      "text": "7,422",
+      "context": "ty holders of the Bank for FY2025 was S$7,422 million** (S$7.42 b"
+     },
+     {
+      "text": "7.42",
+      "context": "ank for FY2025 was S$7,422 million** (S$7.42 billion), down 2% f"
+     },
+     {
+      "text": "2",
+      "context": "$7,422 million** (S$7.42 billion), down 2% from the record S$"
+     },
+     {
+      "text": "7,587",
+      "context": ".42 billion), down 2% from the record S$7,587 million in 2024 (de"
+     },
+     {
+      "text": "165",
+      "context": "587 million in 2024 (derived change: −S$165 million, −2.17%). F"
+     },
+     {
+      "text": "−2.17",
+      "context": "n 2024 (derived change: −S$165 million, −2.17%). Fact status: **a"
+     },
+     {
+      "text": "14,614",
+      "context": "res for 2025 (S$ million): total income 14,614; operating expenses"
+     },
+     {
+      "text": "5,882",
+      "context": "total income 14,614; operating expenses 5,882; profit before inco"
+     },
+     {
+      "text": "9,123",
+      "context": "xpenses 5,882; profit before income tax 9,123; cash basis net pro"
+     },
+     {
+      "text": "7,443",
+      "context": "income tax 9,123; cash basis net profit 7,443; basic earnings per"
+     },
+     {
+      "text": "1.63",
+      "context": "443; basic earnings per ordinary share $1.63; return on equity 1"
+     },
+     {
+      "text": "12.6",
+      "context": "ordinary share $1.63; return on equity 12.6% (ocbc-group_ar_202"
+     },
+     {
+      "text": "40.2",
+      "context": "the Group's cost-to-income ratio was **40.2%** for 2025 (versus"
+     },
+     {
+      "text": "39.7",
+      "context": "me ratio was **40.2%** for 2025 (versus 39.7% in 2024), and the"
+     },
+     {
+      "text": "40.2",
+      "context": "), and the MD&A narrative says \"CIR was 40.2% for 2025\" (ocbc-gr"
+     }
+    ],
+    "unverified": [
+     {
+      "text": "41.7",
+      "context": "physical page 99, printed page 97). The 41.7% figure you asked m"
+     },
+     {
+      "text": "41.7",
+      "context": "urced figure.  Cost-to-income ratio was 41.7%."
+     }
+    ],
+    "evidence_numbers": 260
+   },
+   "tool_calls": [
+    [
+     "resolve_concept",
+     "tr_879751a0c51f4ac790ea808634734639"
+    ],
+    [
+     "search",
+     "tr_fa61d846d0964e7382183221ea15c1da"
+    ],
+    [
+     "get_metric_series",
+     "tr_1dc824e3690e4f09be6fa41076d5f8cb"
+    ],
+    [
+     "read",
+     "tr_72f21536062e4b9fa8b714fc472c762a"
+    ],
+    [
+     "resolve_concept",
+     "tr_fd20424ad57c4e6a842b2b41c73cc9d4"
+    ],
+    [
+     "read",
+     "tr_202456aa04c143c98d6229483fa34705"
+    ],
+    [
+     "get_metric_series",
+     "tr_7df027fada834f1bba12e7ba23f85ff0"
+    ]
+   ],
+   "subject": "finance_confidential"
+  },
+  {
+   "session_id": "chat_07f38930c64d4a07a67fe402b9244247",
+   "question": "What was OCBC's return on equity (ROE) in 2025?",
+   "status": "ok",
+   "answer": "**OCBC's return on equity (ROE) in 2025 was 12.6%.**\n\nDetails:\n\n- **12.6%** for FY2025, down from **13.7%** in 2024 — a decline of 1.1 percentage points (ocbc-group_ar_2025_en, physical page 98, printed page 96; MD&A \"Overview\", Key Financial Ratios table).\n- The MD&A narrative states: \"The Group's return on equity was lower at 12.6%, while earnings per share was $1.63\" (ocbc-group_ar_2025_en, physical page 99, printed page 97).\n- The Group Five-Year Summary confirms the same figure: ROE of 9.6% (2021), 11.1% (2022), 13.7% (2023), 13.7% (2024), 12.6% (2025) (ocbc-group_ar_2025_en, physical page 4, printed page 2).\n- The Chairman's Reflections also states ROE \"remained resilient at 12.6%\" (ocbc-group_ar_2025_en, physical page 9, printed page 7 — page located via search but not read, so this wording is not independently verified).\n\nDefinition footnote: ROE is calculated based on net profit less distributions on other equity instruments paid and estimated to be due at the end of the financial year; other equity instruments and non-controlling interests are excluded from the computation (ocbc-group_ar_2025_en, physical page 98, printed page 96).\n\nFact status: multiple sources agree (2 sources for the 2025 value, no restatement for 2025). Note one gap in the data: the 2022 figure is flagged as restated (SFRS(I) 17 adoption) in the 2025 report, and the report containing the original 2022 figure is not in the store, so no original value is available.",
+   "number_check": {
+    "checked": 13,
+    "skipped": 23,
+    "verified": [
+     {
+      "text": "12.6",
+      "context": "BC's return on equity (ROE) in 2025 was 12.6%.**  Details:  - **"
+     },
+     {
+      "text": "12.6",
+      "context": "OE) in 2025 was 12.6%.**  Details:  - **12.6%** for FY2025, down"
+     },
+     {
+      "text": "13.7",
+      "context": "s:  - **12.6%** for FY2025, down from **13.7%** in 2024 — a decl"
+     },
+     {
+      "text": "1.1",
+      "context": "n from **13.7%** in 2024 — a decline of 1.1 percentage points ("
+     },
+     {
+      "text": "12.6",
+      "context": "e Group's return on equity was lower at 12.6%, while earnings pe"
+     },
+     {
+      "text": "1.63",
+      "context": "at 12.6%, while earnings per share was $1.63\" (ocbc-group_ar_202"
+     },
+     {
+      "text": "9.6",
+      "context": "ummary confirms the same figure: ROE of 9.6% (2021), 11.1% (202"
+     },
+     {
+      "text": "11.1",
+      "context": "ms the same figure: ROE of 9.6% (2021), 11.1% (2022), 13.7% (202"
+     },
+     {
+      "text": "13.7",
+      "context": "gure: ROE of 9.6% (2021), 11.1% (2022), 13.7% (2023), 13.7% (202"
+     },
+     {
+      "text": "13.7",
+      "context": ".6% (2021), 11.1% (2022), 13.7% (2023), 13.7% (2024), 12.6% (202"
+     },
+     {
+      "text": "12.6",
+      "context": ".1% (2022), 13.7% (2023), 13.7% (2024), 12.6% (2025) (ocbc-group"
+     },
+     {
+      "text": "12.6",
+      "context": "also states ROE \"remained resilient at 12.6%\" (ocbc-group_ar_20"
+     },
+     {
+      "text": "17",
+      "context": "figure is flagged as restated (SFRS(I) 17 adoption) in the 20"
+     }
+    ],
+    "unverified": [],
+    "evidence_numbers": 245
+   },
+   "tool_calls": [
+    [
+     "resolve_concept",
+     "tr_a225da893f4845b893b51480d568d328"
+    ],
+    [
+     "get_metric_series",
+     "tr_b958bb76e6164ad9983fdeb21fd71331"
+    ],
+    [
+     "read",
+     "tr_36671426abc845ae9ad7766c6608dc1c"
+    ],
+    [
+     "search",
+     "tr_6c9d41b775214ea0b2120049fdd8a8db"
+    ],
+    [
+     "read",
+     "tr_9b975a7a62144a7a82ccfb329fe1248c"
+    ]
+   ],
+   "subject": "finance_confidential"
+  },
+  {
+   "session_id": "chat_7e56680905734eb999396b108c4fdf5c",
+   "question": "华侨银行2025年的资本充足率（CET1）是多少？",
+   "status": "ok",
+   "answer": "**OCBC Group's CET1 capital adequacy ratio for 2025 was 16.9%.**\n\nDetails (as at 31 December 2025, Group level):\n\n| Ratio | 2025 | 2024 |\n|---|---|---|\n| Common Equity Tier 1 (CET1) | 16.9% | 17.1% |\n| Tier 1 | 17.6% | 17.8% |\n| Total | 19.4% | 19.7% |\n\n- Five-year summary: CET1 15.5% (2021), 15.2% (2022, restated), 15.9% (2023), 17.1% (2024), 16.9% (2025) (ocbc-group_ar_2025_en, physical page 4, printed page 2).\n- MD&A: \"The Group remained strongly capitalised, with a CET1 CAR of 16.9%, and Tier 1 and Total CAR of 17.6% and 19.4% respectively. These ratios were well above the regulatory minima of 6.5%, 8% and 10%, respectively, for 2025.\" (ocbc-group_ar_2025_en, physical page 110, printed page 108).\n- Also stated: the Group's CET1 CAR based on fully phased-in final Basel III reforms was 15.1% (ocbc-group_ar_2025_en, physical page 110, printed page 108).\n- Fact status: \"agreed\" (multiple sources agree); the 2025 figure is down 0.2 percentage points year on year. Note: 2025 and 2024 ratios were computed under MAS' final Basel III reforms, phased in between 1 July 2024 and 1 January 2029, so they are not directly comparable with pre-2024 fully phased-in Basel III figures (ocbc-group_ar_2025_en, physical page 4, printed page 2).",
+   "number_check": {
+    "checked": 21,
+    "skipped": 29,
+    "verified": [
+     {
+      "text": "16.9",
+      "context": "ET1 capital adequacy ratio for 2025 was 16.9%.**  Details (as at"
+     },
+     {
+      "text": "31",
+      "context": "o for 2025 was 16.9%.**  Details (as at 31 December 2025, Grou"
+     },
+     {
+      "text": "16.9",
+      "context": "--|---| | Common Equity Tier 1 (CET1) | 16.9% | 17.1% | | Tier 1"
+     },
+     {
+      "text": "17.1",
+      "context": "| Common Equity Tier 1 (CET1) | 16.9% | 17.1% | | Tier 1 | 17.6%"
+     },
+     {
+      "text": "17.6",
+      "context": "r 1 (CET1) | 16.9% | 17.1% | | Tier 1 | 17.6% | 17.8% | | Total"
+     },
+     {
+      "text": "17.8",
+      "context": "1) | 16.9% | 17.1% | | Tier 1 | 17.6% | 17.8% | | Total | 19.4%"
+     },
+     {
+      "text": "19.4",
+      "context": "| | Tier 1 | 17.6% | 17.8% | | Total | 19.4% | 19.7% |  - Five-"
+     },
+     {
+      "text": "19.7",
+      "context": "r 1 | 17.6% | 17.8% | | Total | 19.4% | 19.7% |  - Five-year sum"
+     },
+     {
+      "text": "15.5",
+      "context": "4% | 19.7% |  - Five-year summary: CET1 15.5% (2021), 15.2% (202"
+     },
+     {
+      "text": "15.2",
+      "context": "- Five-year summary: CET1 15.5% (2021), 15.2% (2022, restated),"
+     },
+     {
+      "text": "15.9",
+      "context": "1 15.5% (2021), 15.2% (2022, restated), 15.9% (2023), 17.1% (202"
+     },
+     {
+      "text": "17.1",
+      "context": ", 15.2% (2022, restated), 15.9% (2023), 17.1% (2024), 16.9% (202"
+     },
+     {
+      "text": "16.9",
+      "context": "restated), 15.9% (2023), 17.1% (2024), 16.9% (2025) (ocbc-group"
+     },
+     {
+      "text": "16.9",
+      "context": "trongly capitalised, with a CET1 CAR of 16.9%, and Tier 1 and To"
+     },
+     {
+      "text": "17.6",
+      "context": "R of 16.9%, and Tier 1 and Total CAR of 17.6% and 19.4% respecti"
+     },
+     {
+      "text": "19.4",
+      "context": ", and Tier 1 and Total CAR of 17.6% and 19.4% respectively. Thes"
+     },
+     {
+      "text": "6.5",
+      "context": "ere well above the regulatory minima of 6.5%, 8% and 10%, respe"
+     },
+     {
+      "text": "8",
+      "context": "ll above the regulatory minima of 6.5%, 8% and 10%, respectiv"
+     },
+     {
+      "text": "10",
+      "context": "e the regulatory minima of 6.5%, 8% and 10%, respectively, for"
+     },
+     {
+      "text": "15.1",
+      "context": "y phased-in final Basel III reforms was 15.1% (ocbc-group_ar_202"
+     },
+     {
+      "text": "0.2",
+      "context": "sources agree); the 2025 figure is down 0.2 percentage points y"
+     }
+    ],
+    "unverified": [],
+    "evidence_numbers": 241
+   },
+   "tool_calls": [
+    [
+     "get_metric_series",
+     "tr_96d0dceb0c58498fb3bd2f13a8637d43"
+    ],
+    [
+     "resolve_concept",
+     "tr_b4072a3dc55945b3a1ccb8c4f4c18c71"
+    ],
+    [
+     "read",
+     "tr_1b9be57ec4ae463ebb59cd06a2dbbf8b"
+    ],
+    [
+     "search",
+     "tr_71ce55a5823c486a800c265c43589a38"
+    ],
+    [
+     "read",
+     "tr_5086553aec2d47e489f429faaa9abd8e"
+    ]
+   ],
+   "subject": "finance_confidential"
+  }
+ ]
+}

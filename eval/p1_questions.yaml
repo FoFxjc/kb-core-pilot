@@ -1,0 +1,66 @@
+# P1 recall-layer eval set (10 questions, 3 asked in Chinese; plan.md §3 P1).
+# Gold pages are physical pages; all answers come from the 2025 annual report text. Method (v2, 2026-10-16): for each question, one answer regex searched every page for pages stating the answer,
+# then each page was checked manually for relevance (excluding passing mentions, e.g. segment commentary, sensitivity tables); "why" questions also include the matching analysis subsection pages.
+# v1 listed only hand-picked pages and missed pages stating the same answer (e.g. the chairman's statement and MD&A for q07); all 10 questions revised under the same rule.
+# Hit criteria: node level = the deepest primary-tree node covering a gold page appears in top-5; page range = a top-5 node's page range overlaps a gold page (same document).
+questions:
+  - id: q01
+    lang: en
+    category: single_value
+    query: What was OCBC's non-performing loan (NPL) ratio at the end of 2025?
+    answer: 0.9%
+    gold: {ocbc-group_ar_2025_en: [13, 100, 105]}
+  - id: q02
+    lang: en
+    category: explanation
+    query: Why did net interest income decline in 2025?
+    answer: 关键基准利率大幅下降，部分被贷款增长和资金成本管理抵消
+    gold: {ocbc-group_ar_2025_en: [9, 24, 99, 101, 102]}
+  - id: q03
+    lang: en
+    category: single_value
+    query: What was the Group CET1 capital adequacy ratio as at 31 December 2025?
+    answer: 16.9%（过渡基础；全面实施基础 15.1%）
+    gold: {ocbc-group_ar_2025_en: [4, 25, 78, 98, 100, 110]}
+  - id: q04
+    lang: en
+    category: single_value
+    query: How much wealth management fee income did OCBC earn in 2025?
+    answer: S$1,443m（2024：1,079m）
+    gold: {ocbc-group_ar_2025_en: [102, 158]}
+  - id: q05
+    lang: en
+    category: single_value
+    query: Movement in allowances for impaired loans to customers during 2025
+    answer: 年初 1,278m → 年末 1,577m（集团）
+    gold: {ocbc-group_ar_2025_en: [191, 192]}
+  - id: q06
+    lang: en
+    category: single_value
+    query: Great Eastern Holdings profit contribution to the Group in FY2025
+    answer: S$1,125m
+    gold: {ocbc-group_ar_2025_en: [22]}
+  - id: q07
+    lang: en
+    category: single_value
+    query: Total dividend per share for 2025 and dividend payout ratio
+    answer: 99 分；总派息率 60%
+    gold: {ocbc-group_ar_2025_en: [4, 5, 9, 10, 77, 99, 100]}
+  - id: q08
+    lang: zh
+    category: single_value
+    query: 2025年华侨银行的不良贷款率是多少？
+    answer: 0.9%
+    gold: {ocbc-group_ar_2025_zh: [9, 13, 25], ocbc-group_ar_2025_en: [13, 100, 105]}
+  - id: q09
+    lang: zh
+    category: explanation
+    query: 2025年净利息收入为什么下降？
+    answer: 利率下调；被贷款增长与非利息收入增长部分缓解
+    gold: {ocbc-group_ar_2025_zh: [9, 24], ocbc-group_ar_2025_en: [9, 24, 99, 101, 102]}
+  - id: q10
+    lang: zh
+    category: single_value
+    query: 2025年大东方控股对集团的盈利贡献是多少？
+    answer: 11亿2500万元（1,125 百万元）
+    gold: {ocbc-group_ar_2025_zh: [22], ocbc-group_ar_2025_en: [22]}

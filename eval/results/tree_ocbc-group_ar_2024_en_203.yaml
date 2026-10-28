@@ -1,0 +1,760 @@
+doc_id: ocbc-group_ar_2024_en
+seed: 203
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2024_en:regions:0017
+  title: Committed to Engaging Our Investment Community
+  origin: heading
+  pages:
+  - 7
+  - 7
+  printed_pages:
+  - '5'
+  - '5'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0014
+    title: Driving Investor Value Creation
+    pages:
+    - 7
+    - 7
+  start_page_text: Driving Investor Value Creation OCBC Share Price Performance ($) 2020 2021 2022 2023 2024 Share Price ($)
+    Highest 11.20 12.57 13.41 13.32 17.00 Lowest 7.81 10.06 11.22 12.05 12.72 Average 9.38 11.62 1
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0022
+  title: Wealth Management
+  origin: heading
+  pages:
+  - 9
+  - 9
+  printed_pages:
+  - '7'
+  - '7'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0021
+    title: Highest
+    pages:
+    - 8
+    - 9
+  start_page_text: 'Wealth Management 15% growth (y-o-y) in affluent segment across our core markets under OCBC Premier Banking
+    and OCBC Premier Private Client >70% increase (y-o-y) in revenue from online sale of wealth '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0029
+  title: Reiterating the Value of Operating as “One OCBC Group”
+  origin: heading
+  pages:
+  - 11
+  - 12
+  printed_pages:
+  - '9'
+  - '10'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0028
+    title: Record Total Income
+    pages:
+    - 11
+    - 13
+  start_page_text: bank by total assets in China. All these make the OCBC Group unique in its franchise breadth in this region.
+    Together with our subsidiary, Great Eastern Holdings, the OCBC Group has combined assets of
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0043
+  title: Appreciation
+  origin: heading
+  pages:
+  - 17
+  - 17
+  printed_pages:
+  - '15'
+  - '15'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0041
+    title: Review by Our Group CEO
+    pages:
+    - 14
+    - 17
+  start_page_text: loan commitments reaching $71 billion at the end of 2024. The conversations with our customers are becoming
+    deeper. We are discussing transition efforts, which is important especially for those in har
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0053
+  title: Helen
+  origin: heading
+  pages:
+  - 21
+  - 21
+  printed_pages:
+  - '19'
+  - '19'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0044
+    title: Creating Value Through AI, Transforming for the Future
+    pages:
+    - 18
+    - 21
+  start_page_text: Supercharging AI with Quantum Computing Once regarded to be a relatively narrow niche, quantum computing
+    is now recognised as a paradigm-shifting technology. We are confident that quantum computing wi
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0068
+  title: Reinforce Strengths
+  origin: heading
+  pages:
+  - 23
+  - 23
+  printed_pages:
+  - '21'
+  - '21'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0065
+    title: Excel for Sustainable Growth
+    pages:
+    - 23
+    - 23
+  start_page_text: 3-year strategy refresh to drive growth and reinforce core strengths Excel for Sustainable Growth Capture
+    rising Asian wealth with our Singapore – Hong Kong hubs and digital propositions Support incre
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0074
+  title: Our Net-Zero Progress Update
+  origin: heading
+  pages:
+  - 25
+  - 25
+  printed_pages:
+  - '23'
+  - '23'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0072
+    title: 2024 Sustainability Highlights
+    pages:
+    - 24
+    - 25
+  start_page_text: Please refer to our Sustainability Report for more information by scanning the QR code. Our Net-Zero Progress
+    Update In 2024, we saw good progress in our net-zero journey as we continued to work close
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0092
+  title: Our Board
+  origin: toc
+  pages:
+  - 32
+  - 33
+  printed_pages:
+  - '30'
+  - '31'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0091
+    title: Getting to Know Us
+    pages:
+    - 32
+    - 35
+  start_page_text: Board Committees The OCBC Board is fully committed to upholding the highest standards of corporate governance.
+    It ensures that OCBC is managed in the best interests of the Bank as a whole while taking
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0098
+  title: Risk Management Committee
+  origin: heading
+  pages:
+  - 33
+  - 33
+  printed_pages:
+  - '31'
+  - '31'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0093
+    title: Board Committees
+    pages:
+    - 32
+    - 33
+  start_page_text: Nominating Committee Dr Andrew Khoo, Chairman Mr Andrew Lee Mr Lian Wee Cheow Mr Pramukti Surjaudaja Ms
+    Tan Yen Yen Remuneration Committee Mr Andrew Lee, Chairman Dr Andrew Khoo Mr Pramukti Surjaudaja
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0104
+  title: Leveraging on technology to transform our capabilities
+  origin: heading
+  pages:
+  - 37
+  - 37
+  printed_pages:
+  - '35'
+  - '35'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0102
+    title: Chin Yee, Group Chief Financial Officer
+    pages:
+    - 36
+    - 37
+  start_page_text: Proactive balance sheet management is vital amid softening interest rates to support our net interest income
+    growth. Maintaining strict cost discipline will be imperative as well. Our total shareholde
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0107
+  title: Reinforcing our strong and diversified funding position
+  origin: heading
+  pages:
+  - 37
+  - 37
+  printed_pages:
+  - '35'
+  - '35'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0102
+    title: Chin Yee, Group Chief Financial Officer
+    pages:
+    - 36
+    - 37
+  start_page_text: Proactive balance sheet management is vital amid softening interest rates to support our net interest income
+    growth. Maintaining strict cost discipline will be imperative as well. Our total shareholde
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0120
+  title: Jason, CEO, Bank of Singapore
+  origin: toc
+  pages:
+  - 44
+  - 45
+  printed_pages:
+  - '42'
+  - '43'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0101
+    title: Gleaning Our Leaders’ Insights
+    pages:
+    - 36
+    - 51
+  start_page_text: At Bank of Singapore, our mission is to be Asia’s top private bank. To do so, our commitment is to be a
+    trusted advisor to our clients as their primary private bank for all their investments and wealt
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0121
+  title: Adding alternatives to portfolios
+  origin: heading
+  pages:
+  - 45
+  - 45
+  printed_pages:
+  - '43'
+  - '43'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0120
+    title: Jason, CEO, Bank of Singapore
+    pages:
+    - 44
+    - 45
+  start_page_text: augment the strength of their client portfolios with alternative investment opportunities and achieve their
+    wealth objectives. Funds from leading global asset managers such as KKR and The Carlye Group
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0134
+  title: Embracing a skills-first approach
+  origin: heading
+  pages:
+  - 50
+  - 51
+  printed_pages:
+  - '48'
+  - '49'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0133
+    title: Hwee Boon, Group Human Resources
+    pages:
+    - 50
+    - 51
+  start_page_text: At OCBC, our purpose has not changed since our doors opened more than nine decades ago, and we remain as
+    committed as ever to enabling the aspirations of individuals and communities. This same commitm
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0142
+  title: Board Committees
+  origin: heading
+  pages:
+  - 53
+  - 56
+  printed_pages:
+  - '51'
+  - '54'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0141
+    title: 'Principle 1: The Board’s Conduct of Affairs'
+    pages:
+    - 52
+    - 57
+  start_page_text: • identifying the key stakeholder groups, recognising that perceptions affect the Bank’s reputation; and
+    • considering, through the Board Sustainability Committee, sustainability matters, e.g. environ
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0183
+  title: 'Principle 11: Shareholder Rights and Conduct of General Meetings'
+  origin: heading
+  pages:
+  - 67
+  - 68
+  printed_pages:
+  - '65'
+  - '66'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0182
+    title: Shareholder Rights and Engagement
+    pages:
+    - 67
+    - 68
+  start_page_text: • Impairment of loans to customers The Audit Committee reviewed management’s assessment and justification
+    of allowances for impaired loans and non-impaired loans, including the forward-looking assumpt
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0207
+  title: Risk and Control Oversight
+  origin: heading
+  pages:
+  - 81
+  - 81
+  printed_pages:
+  - '79'
+  - '79'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0203
+    title: Risk Governance and Organisation
+    pages:
+    - 80
+    - 82
+  start_page_text: Board Governance Board of Directors Board Risk Management Committee (BRMC) Other Board Committees Senior
+    Management Group Chief Executive Officer (CEO) Group Chief Risk Officer (CRO) reports to the BR
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0217
+  title: • Portfolio modelling
+  origin: heading
+  pages:
+  - 84
+  - 85
+  printed_pages:
+  - '82'
+  - '83'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0215
+    title: Credit portfolio management
+    pages:
+    - 84
+    - 85
+  start_page_text: Credit risk mitigation Credit risk mitigation is managed via various measures such as holding collateral,
+    buying credit protection and setting netting arrangements to reduce credit risk exposures. Ris
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0234
+  title: • Model validation
+  origin: heading
+  pages:
+  - 87
+  - 87
+  printed_pages:
+  - '85'
+  - '85'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0233
+    title: Frequency Distribution of Group Trading Book’s Daily Total VaR (One Day Holding Period) for FY 2024
+    pages:
+    - 87
+    - 87
+  start_page_text: 'Table 5: VaR by Risk Type – Trading Portfolio 2024 2023 SGD Million End of the period Average Minimum
+    Maximum End of the period Average Minimum Maximum Interest Rate VaR 6.3 6.9 4.4 10.8 4.2 7.6 4.2 1'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0242
+  title: Structural Foreign Exchange (SFX) risk
+  origin: heading
+  pages:
+  - 89
+  - 89
+  printed_pages:
+  - '87'
+  - '87'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0237
+    title: Asset Liability Management
+    pages:
+    - 88
+    - 89
+  start_page_text: • Risk monitoring, reporting and control Interest rate risk positions and metrices are computed at least
+    monthly and closely monitored against approved risk limits and triggers. Interest rate derivati
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0254
+  title: Third-party risk management
+  origin: heading
+  pages:
+  - 90
+  - 90
+  printed_pages:
+  - '88'
+  - '88'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0248
+    title: • Key components of Operational Resilience
+    pages:
+    - 89
+    - 90
+  start_page_text: 'prudent allocation of resources and capital, compliance with regulatory requirements, and effective risk
+    management to support sustainable business growth initiatives. Conduct risk To promote prudent '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0265
+  title: • Key components of technology and cyber resilience
+  origin: heading
+  pages:
+  - 91
+  - 91
+  printed_pages:
+  - '89'
+  - '89'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0259
+    title: Information security and digital risk management approach
+    pages:
+    - 91
+    - 91
+  start_page_text: Information Security and Digital Risk Management Information security and digital risk is a business risk
+    that comprises the risk domains of information, cyber and technology risks. Effective manageme
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0267
+  title: Introduction
+  origin: heading
+  pages:
+  - 92
+  - 92
+  printed_pages:
+  - '90'
+  - '90'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0266
+    title: Pillar 3 Disclosures
+    pages:
+    - 92
+    - 95
+  start_page_text: Pillar 3 Disclosures (OCBC Group – As at 31 December 2024) Introduction In accordance with Pillar 3 disclosure
+    requirements under Monetary Authority of Singapore (MAS) Notice 637 on Risk Based Capital
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0288
+  title: Global Consumer/Private Banking
+  origin: heading
+  pages:
+  - 108
+  - 108
+  printed_pages:
+  - '106'
+  - '106'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0286
+    title: Performance by Business Segment
+    pages:
+    - 108
+    - 109
+  start_page_text: 'Performance by Business Segment OCBC Group’s businesses are presented in the following customer segments
+    and business activities: Global Consumer/Private Banking, Global Wholesale Banking, Global Mark'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0305
+  title: Auditor
+  origin: heading
+  pages:
+  - 116
+  - 116
+  printed_pages:
+  - '114'
+  - '114'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0296
+    title: Directors’ Statement
+    pages:
+    - 111
+    - 116
+  start_page_text: 'Audit Committee The members of the Audit Committee as at the date of this statement are: Chua Kim Chiu,
+    Chairman Chong Chuan Neo Seck Wai Kwong Tan Yen Yen The Audit Committee performed the functions '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0331
+  title: 2.1 Basis of Preparation
+  origin: subnote
+  pages:
+  - 132
+  - 132
+  printed_pages:
+  - '130'
+  - '130'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0330
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: These notes form an integral part of the financial statements. The Board of Directors of Oversea-Chinese
+    Banking Corporation Limited authorised these financial statements for issue on 25 February 2025
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0344
+  title: 2.14 Share Capital and Dividend
+  origin: subnote
+  pages:
+  - 150
+  - 150
+  printed_pages:
+  - '148'
+  - '148'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0330
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued)
+    2.13.9 Insurance Service Result from Insurance Contracts Issued (continued) Insurance Finance
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0352
+  title: 2.22 Comparative Figures
+  origin: subnote
+  pages:
+  - 155
+  - 155
+  printed_pages:
+  - '153'
+  - '153'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0330
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: '2. Material Accounting Policy Information (continued) 2.21 Critical Accounting Estimates and Judgements
+    (continued) 2.21.3 Insurance Business (continued) Lapses and surrender are derived based on GEH '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0358
+  title: 8. Other Income
+  origin: note
+  pages:
+  - 159
+  - 159
+  printed_pages:
+  - '157'
+  - '157'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0328
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 263
+  start_page_text: 7. Net Trading Income GROUP BANK 2024 2023 2024 2023 $ million $ million $ million $ million Foreign exchange
+    (1) 547 611 117 207 Hedging activities (2) Hedging instruments 179 133 178 169 Hedged item
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0380
+  title: 21.1 Subordinated Debt
+  origin: subnote
+  pages:
+  - 175
+  - 175
+  printed_pages:
+  - '173'
+  - '173'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0379
+    title: 21. Debt Issued
+    pages:
+    - 174
+    - 178
+  start_page_text: '21. Debt Issued (continued) 21.1 Subordinated Debt GROUP 2024 2023 Note Issue date Maturity date $ million
+    $ million Issued by the Bank: USD1 billion 4.250% notes (a) 19 Jun 2014 19 Jun 2024 – 1,301 U'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0386
+  title: 22. Assets and Liabilities for Life Insurance Funds
+  origin: note
+  pages:
+  - 179
+  - 184
+  printed_pages:
+  - '177'
+  - '182'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0328
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 263
+  start_page_text: 22. Assets and Liabilities for Life Insurance Funds GROUP 2024 2023 $ million $ million Insurance contract
+    liabilities and other liabilities for life insurance funds Insurance contract liabilities 100
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0391
+  title: 22.5 Expected Recognition of the Contractual Service Margin for Life Insurance Contracts Issued
+  origin: subnote
+  pages:
+  - 184
+  - 184
+  printed_pages:
+  - '182'
+  - '182'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0386
+    title: 22. Assets and Liabilities for Life Insurance Funds
+    pages:
+    - 179
+    - 184
+  start_page_text: '22. Assets and Liabilities for Life Insurance Funds (continued) 22.5 Expected Recognition of the Contractual
+    Service Margin for Life Insurance Contracts Issued $ million Less than 1 year 1 to 2 years '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0444
+  title: Know More About OCBC
+  origin: toc_group
+  pages:
+  - 267
+  - 279
+  printed_pages:
+  - '265'
+  - '277'
+  parent: null
+  start_page_text: 'Appointed as Director: 18 February 2022 Last Re-elected as a Director: 22 April 2022 Ms Chong spent over
+    29 years at Accenture where she held senior leadership roles covering various industries and co'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0454
+  title: Mr Pramukti Surjaudaja (62)
+  origin: heading
+  pages:
+  - 271
+  - 271
+  printed_pages:
+  - '269'
+  - '269'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0445
+    title: Our Board – Biographies
+    pages:
+    - 267
+    - 272
+  start_page_text: 'Appointed as Director: 1 June 2005 Last Re-elected as a Director: 30 April 2024 Ms Tan is a highly regarded
+    IT practitioner for many years with vast experiences from SAS Institute, Oracle Corporation,'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0464
+  title: Mr Wang Ke
+  origin: heading
+  pages:
+  - 274
+  - 275
+  printed_pages:
+  - '272'
+  - '273'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0458
+    title: Our Management – Biographies
+    pages:
+    - 273
+    - 277
+  start_page_text: 'Our Management – Biographies Mr Tan is a Chartered Financial Analyst charter holder and a Fellow Chartered
+    Accountant of Singapore. He holds a Master of Business Administration from the University of '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0465
+  title: Mr Kenneth Lai
+  origin: heading
+  pages:
+  - 274
+  - 274
+  printed_pages:
+  - '272'
+  - '272'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0458
+    title: Our Management – Biographies
+    pages:
+    - 273
+    - 277
+  start_page_text: 'Our Management – Biographies Mr Tan is a Chartered Financial Analyst charter holder and a Fellow Chartered
+    Accountant of Singapore. He holds a Master of Business Administration from the University of '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0492
+  title: South Korea
+  origin: heading
+  pages:
+  - 279
+  - 279
+  printed_pages:
+  - '277'
+  - '277'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0490
+    title: East Asia
+    pages:
+    - 279
+    - 279
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0494
+  title: Hong Kong SAR
+  origin: heading
+  pages:
+  - 279
+  - 279
+  printed_pages:
+  - '277'
+  - '277'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0493
+    title: Greater China
+    pages:
+    - 279
+    - 279
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0503
+  title: Oceania
+  origin: heading
+  pages:
+  - 279
+  - 279
+  printed_pages:
+  - '277'
+  - '277'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0480
+    title: OCBC’s Presence in ASEAN, Greater China and Beyond
+    pages:
+    - 278
+    - 279
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0504
+  title: Australia
+  origin: heading
+  pages:
+  - 279
+  - 279
+  printed_pages:
+  - '277'
+  - '277'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0503
+    title: Oceania
+    pages:
+    - 279
+    - 279
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: null
+  note: ''

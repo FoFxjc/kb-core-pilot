@@ -1,0 +1,3 @@
+{"size": "{{size}}", "_source": ["node_id", "doc_id"], "track_scores": true,
+ "query": {"bool": {"filter": "{{filters}}", "must": [{"match": {"summary_tok": "{{match}}"}}]}},
+ "sort": [{"_score": "desc"}, {"node_id": "asc"}]}

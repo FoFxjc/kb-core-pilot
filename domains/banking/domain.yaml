@@ -1,0 +1,16 @@
+# Domain pack: banking (solution.md §4.1; D44). OCBC demo = core + annual-report type profile + this domain pack.
+name: banking
+version: 1
+
+# Word-level query synonyms (kb-core round 2 W2, class F1, from the old-16 held-out analysis): a query word adds the
+# reports' words for it; the word and its synonyms form one coverage unit. No entry may be a held-out wording
+# (checked on load). Words are in the tokenizer's output form.
+query_synonyms:
+  employee: [staff]
+  employees: [staff]
+  provision: [allowance, allowances]
+  provisions: [allowances, allowance]
+  earnings: [results, profit]
+  利润: [盈利]
+  拨备: [准备金]
+  分红: [股息, 派息]

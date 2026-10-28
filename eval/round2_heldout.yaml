@@ -1,0 +1,1946 @@
+questions:
+- id: r2h01
+  lang: en
+  category: single_value
+  heldout_term: profit left for shareholders
+  variant_of: Net profit attributable to equity holders of the Bank / Group net profit
+  query: How much profit was left for shareholders at OCBC Group for financial year 2024, after tax and minority interests?
+  answer: $7,587 million (about $7.59 billion), up 8% from 2023
+  gold:
+    ocbc-group_ar_2024_en:
+    - 6
+    - 8
+    - 10
+    - 11
+    - 14
+    - 17
+    - 36
+    - 98
+    - 99
+    - 125
+    - 128
+    - 162
+    - 168
+    ocbc-group_ar_2024_zh:
+    - 6
+    - 10
+    - 11
+    - 14
+    - 17
+    - 52
+    - 55
+    - 82
+    - 88
+    ocbc-group_ar_2025_en:
+    - 4
+    - 98
+    - 99
+    - 125
+    - 129
+    - 162
+    - 169
+    ocbc-group_ar_2025_zh:
+    - 4
+    - 54
+    - 58
+    - 83
+    - 90
+  evidence:
+  - doc_id: ocbc-group_ar_2024_en
+    page: 6
+    year: 2024
+    snippet: to equity holders of the Bank 3,586 4,858 5,526 7,021 7,587 Cash basis net profit attributable to equity hold
+  - doc_id: ocbc-group_ar_2024_en
+    page: 8
+    year: 2024
+    snippet: A Year of Achievements Banking $7.59 billion Record net profit 1st Singapore bank to launch an individual savi
+  - doc_id: ocbc-group_ar_2024_en
+    page: 10
+    year: 2024
+    snippet: ord net profit, which increased 8% over 2023 to $7.59 billion, with return on equity at 13.7%. This was driven
+  - doc_id: ocbc-group_ar_2024_en
+    page: 11
+    year: 2024
+    snippet: Total Income $14.5 billion 7% Record Net Profit $7.59 billion 8% 60% Total Dividend Payout Ratio $1.01 Dividen
+  - doc_id: ocbc-group_ar_2024_en
+    page: 14
+    year: 2024
+    snippet: th 2024 net profit rising 8% from a year ago to $7.59 billion. This marks our third record year in a row, whic
+  - doc_id: ocbc-group_ar_2024_en
+    page: 17
+    year: 2024
+    snippet: ($m) 2020 2021 2022 2023 2024 3,586 4,858 5,526 7,021 7,587 Dividend Per Share (cents) 2020 (1) 2021(1) 2022
+  - doc_id: ocbc-group_ar_2024_en
+    page: 36
+    year: 2024
+    snippet: r the third consecutive year. Our net profit of $7.59 billion was driven by robust growth across our well-dive
+  - doc_id: ocbc-group_ar_2024_en
+    page: 98
+    year: 2024
+    snippet: ',401 7 Net profit attributable to equity holders 7,587 7,021 8 Cash basis net profit attributable to equity ho'
+  - doc_id: ocbc-group_ar_2024_en
+    page: 99
+    year: 2024
+    snippet: ew (continued) Group net profit was at a record $7.59 billion for the financial year 2024, 8% higher than $7.0
+  - doc_id: ocbc-group_ar_2024_en
+    page: 125
+    year: 2024
+    snippet: ',259 Attributable to: Equity holders of the Bank 7,587 7,021 Non-controlling interests 161 144 7,748 7,165 Ear'
+  - doc_id: ocbc-group_ar_2024_en
+    page: 128
+    year: 2024
+    snippet: ve income for the year Profit for the year – – – 7,587 7,587 161 7,748 Other comprehensive income Items that m
+  - doc_id: ocbc-group_ar_2024_en
+    page: 162
+    year: 2024
+    snippet: rofit attributable to equity holders of the Bank 7,587 7,021 Perpetual capital securities distributions declar
+  - doc_id: ocbc-group_ar_2024_en
+    page: 168
+    year: 2024
+    snippet: 'rofit attributable to equity holders of the Bank 7,587 7,021 6,861 5,259 Add: Unappropriated profit at 1 Janua'
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 6
+    year: 2024
+    snippet: ',670 8,401 8,976 应归属银行权益持有人净盈利 3,586 4,858 5,526 7,021 7,587 应归属银行权益持有人现金净盈利(2) 3,690 4,961 5,630 7,124 7,646'
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 10
+    year: 2024
+    snippet: 银行之一。 财务业绩创新高 华侨银行集团的净利润连续第三年创新高，比2023年净利润增长 8%，达到75亿9000万元，权益回报率达到13.7%。这主要是由于 我们的银行、财富管理和保险业务都全面取得强劲的收入增长。 除
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 11
+    year: 2024
+    snippet: 拥有广泛业务的独特性。华侨银行集团及其子公司大东方控 总收入创新高 145亿元 7% 净利润创新高 75亿9000万元 8% 60%总派息率 每股派息1.01元 23% 回报股东 25亿元 两年内返还资本 9 华侨银行2
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 14
+    year: 2024
+    snippet: 行了战略增长是基于您的长期支持。 华侨银行持续实现盈利增长，2024年净利润较前一年增长8%， 达到75亿9000万元。这标志着我们连续第三年创下盈利新高， 印证了我们战略的成功，并体现我们在实现长期股东价值方面 所取得
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 17
+    year: 2024
+    snippet: (百万元) 2020 2021 2022 2023 2024 3,586 4,858 5,526 7,021 7,587 2020 (1) 2021(1) 2022 2023 2024 49% 42% 44% 50% 1
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 52
+    year: 2024
+    snippet: '(664) 本年度盈利 7,748 7,165 6,861 5,259 应归属: 银行权益持有人 7,587 7,021 非控股股东权益 161 144 7,748 7,165 每股收益(元) 12 基本 1.67 1.'
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 55
+    year: 2024
+    snippet: ',501 54,170 1,384 55,554 本财政年度综合收益总额 本年度盈利 – – – 7,587 7,587 161 7,748 其他综合收益 可能在随后重新分类以纳入收入报表的项目: 金融资产，按FVOCI'
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 82
+    year: 2024
+    snippet: 百分点。 12. 每股收益 集团 2024 2023 百万元 百万元 应归属银行权益持有人之盈利 7,587 7,021 本期宣布的永久资本证券派发 (64) (66) 扣除其他产权派发后应归属银行普通权益持有人之盈利
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 88
+    year: 2024
+    snippet: '024 2023 2024 2023 百万元 百万元 百万元 百万元 应归属银行权益持有人之盈利 7,587 7,021 6,861 5,259 加: 于1月1日的未分配盈利 35,549 32,185 17,735 1'
+  - doc_id: ocbc-group_ar_2025_en
+    page: 4
+    year: 2024
+    snippet: utable to equity holders of the Bank 4,858 5,526 7,021 7,587 7,422 Cash basis net profit attributable to equit
+  - doc_id: ocbc-group_ar_2025_en
+    page: 98
+    year: 2024
+    snippet: ',976 2 Net profit attributable to equity holders 7,422 7,587 (2) Cash basis net profit attributable to equity'
+  - doc_id: ocbc-group_ar_2025_en
+    page: 99
+    year: 2024
+    snippet: $7.42 billion for 2025 was 2% below the record $7.59 billion in the previous year. Profit before tax rose 2%
+  - doc_id: ocbc-group_ar_2025_en
+    page: 125
+    year: 2024
+    snippet: ',861 Attributable to: Equity holders of the Bank 7,422 7,587 5,099 6,861 Non-controlling interests 138 161 – –'
+  - doc_id: ocbc-group_ar_2025_en
+    page: 129
+    year: 2024
+    snippet: ve income for the year Profit for the year – – – 7,587 7,587 – 161 7,748 Other comprehensive income Items that
+  - doc_id: ocbc-group_ar_2025_en
+    page: 162
+    year: 2024
+    snippet: rofit attributable to equity holders of the Bank 7,422 7,587 Perpetual capital securities distributions declar
+  - doc_id: ocbc-group_ar_2025_en
+    page: 169
+    year: 2024
+    snippet: 'rofit attributable to equity holders of the Bank 7,422 7,587 5,099 6,861 Add: Unappropriated profit at 1 Janua'
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 4
+    year: 2024
+    snippet: ',670 8,401 8,976 9,123 应归属银行权益持有人净盈利 4,858 5,526 7,021 7,587 7,422 应归属银行权益持有人现金净盈利(2) 4,961 5,630 7,124 7,646'
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 54
+    year: 2024
+    snippet: '(619) 本年度盈利 7,560 7,748 5,099 6,861 应归属: 银行权益持有人 7,422 7,587 5,099 6,861 非控股股东权益 138 161 – – 7,560 7,748 5,099'
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 58
+    year: 2024
+    snippet: '01 54,170 – 1,384 55,554 本财政年度综合收益总额 本年度盈利 – – – 7,587 7,587 – 161 7,748 其他综合收益 可能在随后重新分类以纳入收入报表的项目: 金融资产，按FVO'
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 83
+    year: 2024
+    snippet: 中的所得税支出。 12. 每股收益 集团 百万元 2025 2024 应归属银行权益持有人之盈利 7,422 7,587 本期宣布的永久资本证券派发 (85) (64) 扣除其他产权派发后应归属银行普通权益持有人之盈利
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 90
+    year: 2024
+    snippet: '分配盈利 集团 银行 百万元 2025 2024 2025 2024 应归属银行权益持有人之盈利 7,422 7,587 5,099 6,861 加: 于1月1日的未分配盈利 39,072 35,549 20,684 1'
+- id: r2h02
+  lang: en
+  category: cross_year
+  heldout_term: efficiency ratio
+  variant_of: Cost-to-income ratio
+  query: How did OCBC's efficiency ratio change from 2023 to 2025?
+  years:
+  - 2023
+  - 2024
+  - 2025
+  answer:
+    2023: 38.7%
+    2024: 39.7%
+    2025: 40.2% (described in the narrative as remaining at about 40%)
+  gold:
+    2023:
+      ocbc-group_ar_2023_en:
+      - 4
+      - 10
+      - 96
+      - 97
+      ocbc-group_ar_2023_zh:
+      - 4
+      ocbc-group_ar_2024_en:
+      - 6
+      - 98
+      ocbc-group_ar_2024_zh:
+      - 6
+      ocbc-group_ar_2025_en:
+      - 4
+      ocbc-group_ar_2025_zh:
+      - 4
+    2024:
+      ocbc-group_ar_2024_en:
+      - 6
+      - 98
+      - 99
+      ocbc-group_ar_2024_zh:
+      - 6
+      - 10
+      ocbc-group_ar_2025_en:
+      - 4
+      - 98
+      ocbc-group_ar_2025_zh:
+      - 4
+    2025:
+      ocbc-group_ar_2025_en:
+      - 4
+      - 25
+      - 98
+      - 99
+      ocbc-group_ar_2025_zh:
+      - 4
+      - 9
+  evidence:
+  - doc_id: ocbc-group_ar_2023_en
+    page: 4
+    year: 2023
+    snippet: cover (times) 1.89 1.79 2.02 2.50 2.08 Cost-to-income 38.7 42.9 45.0 43.8 42.7 Capital adequacy ratios(4) Com
+  - doc_id: ocbc-group_ar_2023_en
+    page: 10
+    year: 2023
+    snippet: xpenses, which led to an improvement in cost-to-income ratio to 38.7%. Strict cost discipline will remain a pr
+  - doc_id: ocbc-group_ar_2023_en
+    page: 96
+    year: 2023
+    snippet: -interest income to total income 28.6 31.9 Cost-to-income 38.7 42.9 Loans-to-deposits 80.5 83.3 Non-performing
+  - doc_id: ocbc-group_ar_2023_en
+    page: 97
+    year: 2023
+    snippet: mbined with income growth, drove the cost-to-income ratio lower to 38.7%. Asset quality was resilient with NPL
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 4
+    year: 2023
+    snippet: 3 0.85 1.23 盈利股息比例 (倍数) 1.89 1.79 2.02 2.50 2.08 支出收入比例 38.7 42.9 45.0 43.8 42.7 资本充足率(4) 普通股权一级资本 15.9 15.2 1
+  - doc_id: ocbc-group_ar_2024_en
+    page: 6
+    year: 2023
+    snippet: over (times) 2.50 2.02 1.79 1.89 1.66 Cost-to-income 43.8 45.0 42.9 38.7 39.7 Capital adequacy ratios(4) Commo
+  - doc_id: ocbc-group_ar_2024_en
+    page: 98
+    year: 2023
+    snippet: -interest income to total income 32.6 28.6 Cost-to-income 39.7 38.7 Loans-to-deposits 80.7 80.5 Non-performing
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 6
+    year: 2023
+    snippet: 1.53 盈利股息比例 (倍数) 2.50 2.02 1.79 1.89 1.66 支出收入比例 43.8 45.0 42.9 38.7 39.7 资本充足率(4) 普通股权一级资本 15.2 15.5 15.2 15.
+  - doc_id: ocbc-group_ar_2025_en
+    page: 4
+    year: 2023
+    snippet: cover (times) 2.02 1.79 1.89 1.66 1.65 Cost-to-income 45.0 42.9 38.7 39.7 40.2 Capital adequacy ratios(4) Com
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 4
+    year: 2023
+    snippet: 3 1.37 盈利股息比例 (倍数) 2.02 1.79 1.89 1.66 1.65 支出收入比例 45.0 42.9 38.7 39.7 40.2 资本充足率(4) 普通股权一级资本 15.5 15.2 15.9 1
+  - doc_id: ocbc-group_ar_2024_en
+    page: 6
+    year: 2024
+    snippet: r (times) 2.50 2.02 1.79 1.89 1.66 Cost-to-income 43.8 45.0 42.9 38.7 39.7 Capital adequacy ratios(4) Common E
+  - doc_id: ocbc-group_ar_2024_en
+    page: 98
+    year: 2024
+    snippet: -interest income to total income 32.6 28.6 Cost-to-income 39.7 38.7 Loans-to-deposits 80.7 80.5 Non-performing
+  - doc_id: ocbc-group_ar_2024_en
+    page: 99
+    year: 2024
+    snippet: OCBC Indonesia in September 2024. Cost-to-income ratio for 2024 was 39.7%. Total allowances were 6% lower at
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 6
+    year: 2024
+    snippet: 3 盈利股息比例 (倍数) 2.50 2.02 1.79 1.89 1.66 支出收入比例 43.8 45.0 42.9 38.7 39.7 资本充足率(4) 普通股权一级资本 15.2 15.5 15.2 15.9 1
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 10
+    year: 2024
+    snippet: ，我们在不影响持续对于策略计划和实力方 面的精准投资的情况下，进行有纪律的开支管理，使我们的开支 收入比例达到39.7%。我们谨慎的风险管理方针体现在我们拥有 良好的资产组合质量，所取得的不良贷款率为0.9%。我们的资本
+  - doc_id: ocbc-group_ar_2025_en
+    page: 4
+    year: 2024
+    snippet: over (times) 2.02 1.79 1.89 1.66 1.65 Cost-to-income 45.0 42.9 38.7 39.7 40.2 Capital adequacy ratios(4) Commo
+  - doc_id: ocbc-group_ar_2025_en
+    page: 98
+    year: 2024
+    snippet: -interest income to total income 37.4 32.6 Cost-to-income 40.2 39.7 Loans-to-deposits 78.6 80.7 Non-performing
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 4
+    year: 2024
+    snippet: 1.37 盈利股息比例 (倍数) 2.02 1.79 1.89 1.66 1.65 支出收入比例 45.0 42.9 38.7 39.7 40.2 资本充足率(4) 普通股权一级资本 15.5 15.2 15.9 17.
+  - doc_id: ocbc-group_ar_2025_en
+    page: 4
+    year: 2025
+    snippet: r (times) 2.02 1.79 1.89 1.66 1.65 Cost-to-income 45.0 42.9 38.7 39.7 40.2 Capital adequacy ratios(4) Common E
+  - doc_id: ocbc-group_ar_2025_en
+    page: 25
+    year: 2025
+    snippet: th, costs were well controlled with cost-to-income ratio remaining at 40%. Our balance sheet stayed robust. Fu
+  - doc_id: ocbc-group_ar_2025_en
+    page: 98
+    year: 2025
+    snippet: -interest income to total income 37.4 32.6 Cost-to-income 40.2 39.7 Loans-to-deposits 78.6 80.7 Non-performing
+  - doc_id: ocbc-group_ar_2025_en
+    page: 99
+    year: 2025
+    snippet: expenses were well managed with cost-to-income ratio (CIR) remaining at 40%, as the Group continued to invest
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 4
+    year: 2025
+    snippet: 7 盈利股息比例 (倍数) 2.02 1.79 1.89 1.66 1.65 支出收入比例 45.0 42.9 38.7 39.7 40.2 资本充足率(4) 普通股权一级资本 15.5 15.2 15.9 17.1 1
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 9
+    year: 2025
+    snippet: 的强劲 水平。在持续对实力作出投资以维持现有 业务和新增长的同时，我们在管理支出方 面保持纪律，将成本收入比例维持在40%。 我们的财务实力也体现在维持不变的信誉 评级中，穆迪评级为Aa1，惠誉与标普则均 为AA-。这些
+- id: r2h03
+  lang: en
+  category: single_value
+  heldout_term: bad loan ratio
+  variant_of: Non-performing loan (NPL) ratio
+  query: What was OCBC's bad loan ratio at the end of 2023?
+  answer: 1.0% (down from 1.2% in 2022)
+  gold:
+    ocbc-group_ar_2023_en:
+    - 10
+    - 39
+    - 96
+    - 97
+    - 98
+    - 103
+    ocbc-group_ar_2023_zh:
+    - 10
+    - 38
+    ocbc-group_ar_2024_en:
+    - 14
+    - 98
+    - 100
+    - 105
+    ocbc-group_ar_2024_zh:
+    - 14
+  evidence:
+  - doc_id: ocbc-group_ar_2023_en
+    page: 10
+    year: 2023
+    snippet: quality remained healthy with the non-performing loan ratio dropping to 1.0% from 1.2% a year ago. Total credi
+  - doc_id: ocbc-group_ar_2023_en
+    page: 39
+    year: 2023
+    snippet: w at around 20 basis points and our Non-Performing Loan ratio at around 1%. Nevertheless, there are leads and
+  - doc_id: ocbc-group_ar_2023_en
+    page: 96
+    year: 2023
+    snippet: 38.7 42.9 Loans-to-deposits 80.5 83.3 Non-performing loan ratio 1.0 1.2 Total capital adequacy ratio (CAR) (5)
+  - doc_id: ocbc-group_ar_2023_en
+    page: 97
+    year: 2023
+    snippet: er to 38.7%. Asset quality was resilient with NPL ratio of 1.0% and credit costs at 20 basis points. The Group
+  - doc_id: ocbc-group_ar_2023_en
+    page: 98
+    year: 2023
+    snippet: 31 December 2023, 17% lower than a year ago. NPL ratio of 1.0% improved from 1.2% in the previous year. Allow
+  - doc_id: ocbc-group_ar_2023_en
+    page: 103
+    year: 2023
+    snippet: '476 1.3 2022 293 30 263 # 284 0.8 Group 2023 2,901 955 1,401 545 2,805 1.0 2022 3,486 1,582 1,342 562 3,383 1'
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 10
+    year: 2023
+    snippet: 屋贷款规模。这些都足以抵消 当前营商环境造成的贸易贷款需求下 滑。我们的资产品质维持良好，不良贷款 率从上财年的1.2%降至1%。总信贷成本 为20个基点，主要包括为未减损贷款， 预先增加准备金拨款。 华侨银行的资金来源
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 38
+    year: 2023
+    snippet: 提供的资助下 顺利渡过疫情时期以及利率的大幅度飙 升。我们的信贷成本维持在20个基点的 较低水准，不良贷款比率保持在1%，证 明了这一点。 36
+  - doc_id: ocbc-group_ar_2024_en
+    page: 14
+    year: 2023
+    snippet: Non-Performing Loan ratio improved to 0.9%, from 1.0% a year ago. Total allowances were 6% lower while Non-Pe
+  - doc_id: ocbc-group_ar_2024_en
+    page: 98
+    year: 2023
+    snippet: 39.7 38.7 Loans-to-deposits 80.7 80.5 Non-performing loan ratio 0.9 1.0 Total capital adequacy ratio (CAR) (5)
+  - doc_id: ocbc-group_ar_2024_en
+    page: 100
+    year: 2023
+    snippet: December 2024. NPL ratio was 0.9%, below the NPL ratio of 1.0% a year ago. Total NPA coverage stood at 159%.
+  - doc_id: ocbc-group_ar_2024_en
+    page: 105
+    year: 2023
+    snippet: up 2024 2,869 656 1,685 528 2,827 0.9 2023 2,901 955 1,401 545 2,805 1.0 (1) Refer to Non-performing assets. C
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 14
+    year: 2023
+    snippet: 为710亿元。 我们在风险管理方面继续保持审慎，资产质量保持优良及有韧 性。2024年，我们的不良贷款比率由前一年的1.0%下降至0.9%。 拨备金总额减少了6%，不良资产覆盖率则增至159%。 我们2024年底的资产负
+- id: r2h04
+  lang: en
+  category: cross_year
+  heldout_term: payout per share
+  variant_of: Dividend per share / total dividend per ordinary share (cents)
+  query: What was OCBC's total payout per share for 2023, 2024 and 2025?
+  years:
+  - 2023
+  - 2024
+  - 2025
+  answer:
+    2023: 82 cents
+    2024: 101 cents ($1.01, including a 16-cent special dividend)
+    2025: 99 cents (including a 16-cent special dividend)
+  gold:
+    2023:
+      ocbc-group_ar_2023_en:
+      - 4
+      - 8
+      - 11
+      - 13
+      - 75
+      - 97
+      - 98
+      ocbc-group_ar_2023_zh:
+      - 4
+      - 8
+      - 11
+      - 13
+      - 40
+      ocbc-group_ar_2024_en:
+      - 6
+      - 17
+      - 100
+      ocbc-group_ar_2024_zh:
+      - 6
+      - 17
+      ocbc-group_ar_2025_en:
+      - 4
+      - 25
+      ocbc-group_ar_2025_zh:
+      - 4
+      - 25
+    2024:
+      ocbc-group_ar_2024_en:
+      - 6
+      - 11
+      - 12
+      - 15
+      - 17
+      - 77
+      - 100
+      ocbc-group_ar_2024_zh:
+      - 6
+      - 11
+      - 12
+      - 15
+      - 17
+      - 34
+      ocbc-group_ar_2025_en:
+      - 4
+      - 25
+      ocbc-group_ar_2025_zh:
+      - 4
+      - 25
+    2025:
+      ocbc-group_ar_2025_en:
+      - 4
+      - 9
+      - 10
+      - 25
+      - 77
+      - 99
+      - 100
+      ocbc-group_ar_2025_zh:
+      - 4
+      - 9
+      - 10
+      - 25
+      - 36
+  evidence:
+  - doc_id: ocbc-group_ar_2023_en
+    page: 4
+    year: 2023
+    snippet: ($) Basic earnings 1.55 1.22 1.07 0.80 1.12 Dividend (cents) 82.0 68.0 53.0 31.8 53.0 Net asset value 11.77 10
+  - doc_id: ocbc-group_ar_2023_en
+    page: 8
+    year: 2023
+    snippet: ents per share, bringing the full year 2023 dividend higher to 82 cents, up 21% from 68 cents in 2022. This re
+  - doc_id: ocbc-group_ar_2023_en
+    page: 11
+    year: 2023
+    snippet: final dividend of 42 cents, and our total 2023 dividend is 82 cents, 21% above 2022. This is very important to
+  - doc_id: ocbc-group_ar_2023_en
+    page: 13
+    year: 2023
+    snippet: 28.0 15.9 28.0 40.0 25.0 15.9 25.0 28.0 53.0 31.8 53.0 68.0 82.0 42.0 40.0 Dividend Payout Ratio Dividend Per
+  - doc_id: ocbc-group_ar_2023_en
+    page: 75
+    year: 2023
+    snippet: ents per share. This brings the full year 2023 dividend to 82 cents per share, or a total dividend payout of $
+  - doc_id: ocbc-group_ar_2023_en
+    page: 97
+    year: 2023
+    snippet: from 40 cents a year ago. This brings the 2023 dividend to 82 cents per share, up 21% from 68 cents a year ago
+  - doc_id: ocbc-group_ar_2023_en
+    page: 98
+    year: 2023
+    snippet: 40 cents a year ago. This brings total dividend for 2023 to 82 cents per share, up 14 cents or 21% from 2022.
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 4
+    year: 2023
+    snippet: 2 47,162 每普通股 (新元) 基本盈利 1.55 1.22 1.07 0.80 1.12 股息 (分) 82.0 68.0 53.0 31.8 53.0 资产净值 11.77 10.99 11.46 10.82
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 8
+    year: 2023
+    snippet: 进一 步说明集团的财务业绩。 更高的可持续股息 董事会建议派发每股42分的年终股息， 使2023年的全年股息增加至82分，相对 比2022年的68分增长21%。派息率达到 53%，与前一年不相上下。这也符合我们 在202
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 11
+    year: 2023
+    snippet: 在市场环境动荡的 背景下，我们对债务证券组合所做出的 积极部署。董事会建议派发42分的 年终股息，全年每股派息因此达82分， 对比2022年的派息增加21％。股息增 加代表我们非常重视为各位股东创造 价值。 有关过去年度
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 13
+    year: 2023
+    snippet: 28.0 15.9 28.0 40.0 25.0 15.9 25.0 28.0 53.0 31.8 53.0 68.0 82.0 42.0 40.0 11
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 40
+    year: 2023
+    snippet: 023 年12月31日的财政年度，董事部建议发 出每股42分的年终股息，使2023年的 全年股息总额达到每股82分，相当于 37亿万元。 股票回购与库存股 依据股票回购计划所购入的股票作为 库存股。这些库存股是记录为股本
+  - doc_id: ocbc-group_ar_2024_en
+    page: 6
+    year: 2023
+    snippet: ic earnings 0.80 1.07 1.22 1.55 1.67 Dividend (cents) 31.8 53.0 68.0 82.0 101.0 Net asset value 10.82 11.46 10
+  - doc_id: ocbc-group_ar_2024_en
+    page: 17
+    year: 2023
+    snippet: 2023 2024 49% 42% 44% 50% 15.9 28 40 15.9 25 28 31.8 53 68 82 42 40 101 41 16 44 50% 39% 49% 53% 53% 50% 60% (
+  - doc_id: ocbc-group_ar_2024_en
+    page: 100
+    year: 2023
+    snippet: r 2024 will be 85 cents per share, higher than the 82 cents for 2023. The total payout will amount to $3.82 bi
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 6
+    year: 2023
+    snippet: 6 每普通股 (新元) 基本盈利 0.80 1.07 1.22 1.55 1.67 股息 (分) 31.8 53.0 68.0 82.0 101.0 资产净值 10.82 11.46 10.99 11.77 12.80
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 17
+    year: 2023
+    snippet: 2023 2024 49% 42% 44% 50% 15.9 28 40 15.9 25 28 31.8 53 68 82 42 40 101 41 16 44 50% 39% 49% 53% 53% 50% 60% (
+  - doc_id: ocbc-group_ar_2025_en
+    page: 4
+    year: 2023
+    snippet: asic earnings 1.07 1.22 1.55 1.67 1.63 Dividend (cents) 53.0 68.0 82.0 101.0 99.0 Net asset value 11.46 10.99
+  - doc_id: ocbc-group_ar_2025_en
+    page: 25
+    year: 2023
+    snippet: during value. 2021 2022 2023 2024 2025 28 40 25 28 53 68 82 42 40 99 42 16 41 101 41 16 44 53% 53% 50% 50% 50%
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 4
+    year: 2023
+    snippet: ',768 每普通股 (元) 基本盈利 1.07 1.22 1.55 1.67 1.63 股息 (分) 53.0 68.0 82.0 101.0 99.0 资产净值 11.46 10.99 11.77 12.80 13.3'
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 25
+    year: 2023
+    snippet: 争力，并实现持久的 价值。 2021 2022 2023 2024 2025 28 40 25 28 53 68 82 42 40 99 42 16 41 101 41 16 44 53% 53% 50% 50% 50%
+  - doc_id: ocbc-group_ar_2024_en
+    page: 6
+    year: 2024
+    snippet: earnings 0.80 1.07 1.22 1.55 1.67 Dividend (cents) 31.8 53.0 68.0 82.0 101.0 Net asset value 10.82 11.46 10.99
+  - doc_id: ocbc-group_ar_2024_en
+    page: 11
+    year: 2024
+    snippet: billion 8% 60% Total Dividend Payout Ratio $1.01 Dividend Per Share 23% Rewarding Shareholders $2.5 billion Ca
+  - doc_id: ocbc-group_ar_2024_en
+    page: 12
+    year: 2024
+    snippet: m dividend, total dividends for 2024 will add up to $1.01 per share. This represents a payout ratio of 60% aga
+  - doc_id: ocbc-group_ar_2024_en
+    page: 15
+    year: 2024
+    snippet: terim dividend, total 2024 dividends will amount to $1.01 per share, 23% above 2023. Our total shareholder ret
+  - doc_id: ocbc-group_ar_2024_en
+    page: 17
+    year: 2024
+    snippet: 42% 44% 50% 15.9 28 40 15.9 25 28 31.8 53 68 82 42 40 101 41 16 44 50% 39% 49% 53% 53% 50% 60% (1) In July 20
+  - doc_id: ocbc-group_ar_2024_en
+    page: 77
+    year: 2024
+    snippet: ents per share. This brings the full year 2024 dividend to 101 cents per share, or a total dividend payout of
+  - doc_id: ocbc-group_ar_2024_en
+    page: 100
+    year: 2024
+    snippet: cents per share is proposed, bringing total dividend to $1.01 per share, which represents a total payout ratio
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 6
+    year: 2024
+    snippet: 普通股 (新元) 基本盈利 0.80 1.07 1.22 1.55 1.67 股息 (分) 31.8 53.0 68.0 82.0 101.0 资产净值 10.82 11.46 10.99 11.77 12.80 比例
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 11
+    year: 2024
+    snippet: 司大东方控 总收入创新高 145亿元 7% 净利润创新高 75亿9000万元 8% 60%总派息率 每股派息1.01元 23% 回报股东 25亿元 两年内返还资本 9 华侨银行2024年度报告
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 12
+    year: 2024
+    snippet: 普通股息，以及 每股16分的特别股息以此启动我们的资本返还计划。加上中 期股息，2024年总股息将达到每股1.01元。此派息率相等于 2024年净利润的60%，而按华侨银行2024年平均股价计算， 净股息收益率则达到7.
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 15
+    year: 2024
+    snippet: 事会 建议派发每股16分的特别股息和每股41分的末期普通股股息。 加上中期股息，2024年总股息将达到每股1.01元，比2023年高出 23%。截至2024年底，我们的股东总回报在五年内增长了一倍，这 项25亿元的资本返
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 17
+    year: 2024
+    snippet: 42% 44% 50% 15.9 28 40 15.9 25 28 31.8 53 68 82 42 40 101 41 16 44 50% 39% 49% 53% 53% 50% 60% (1) 在2020年7月，新
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 34
+    year: 2024
+    snippet: 1 日的财政年度，董事会建议发出每股41分的年终股息和每股 16分的特别股息，使2024年的全年股息达到每股101分，股息 总额相当于45亿元。 股票回购与库存股 依据股票回购计划所购入的股票作为库存股。这些库存股是 记
+  - doc_id: ocbc-group_ar_2025_en
+    page: 4
+    year: 2024
+    snippet: c earnings 1.07 1.22 1.55 1.67 1.63 Dividend (cents) 53.0 68.0 82.0 101.0 99.0 Net asset value 11.46 10.99 11.
+  - doc_id: ocbc-group_ar_2025_en
+    page: 25
+    year: 2024
+    snippet: 2024 2025 28 40 25 28 53 68 82 42 40 99 42 16 41 101 41 16 44 53% 53% 50% 50% 50% 44% 49% 42% 50% 50% 60% 60%
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 4
+    year: 2024
+    snippet: 8 每普通股 (元) 基本盈利 1.07 1.22 1.55 1.67 1.63 股息 (分) 53.0 68.0 82.0 101.0 99.0 资产净值 11.46 10.99 11.77 12.80 13.38 比
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 25
+    year: 2024
+    snippet: 2024 2025 28 40 25 28 53 68 82 42 40 99 42 16 41 101 41 16 44 53% 53% 50% 50% 50% 44% 49% 42% 50% 50% 60% 60%
+  - doc_id: ocbc-group_ar_2025_en
+    page: 4
+    year: 2025
+    snippet: earnings 1.07 1.22 1.55 1.67 1.63 Dividend (cents) 53.0 68.0 82.0 101.0 99.0 Net asset value 11.46 10.99 11.77
+  - doc_id: ocbc-group_ar_2025_en
+    page: 9
+    year: 2025
+    snippet: llion 2% 60% Total Dividend Payout Ratio 99 Cents Dividend Per Share 7 Annual Report 2025
+  - doc_id: ocbc-group_ar_2025_en
+    page: 10
+    year: 2025
+    snippet: s the total payout ratio to 60%. Total 2025 dividends will be 99 cents per share, representing a 5.8% yield ag
+  - doc_id: ocbc-group_ar_2025_en
+    page: 25
+    year: 2025
+    snippet: e. 2021 2022 2023 2024 2025 28 40 25 28 53 68 82 42 40 99 42 16 41 101 41 16 44 53% 53% 50% 50% 50% 44% 49% 42
+  - doc_id: ocbc-group_ar_2025_en
+    page: 77
+    year: 2025
+    snippet: ents per share. This brings the full year 2025 dividend to 99 cents per share, or a total dividend payout of $
+  - doc_id: ocbc-group_ar_2025_en
+    page: 99
+    year: 2025
+    snippet: first half of 2025, total dividends for 2025 will amount to 99 cents per share, representing 60% of Group net
+  - doc_id: ocbc-group_ar_2025_en
+    page: 100
+    year: 2025
+    snippet: e announced capital return plan, bringing total dividend to 99 cents per share. Total payout will amount to $4
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 4
+    year: 2025
+    snippet: 每普通股 (元) 基本盈利 1.07 1.22 1.55 1.67 1.63 股息 (分) 53.0 68.0 82.0 101.0 99.0 资产净值 11.46 10.99 11.77 12.80 13.38 比例
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 9
+    year: 2025
+    snippet: 1% 税前盈利创新高 91亿2000万元 2% 强韧净利润 74亿2000万元 2% 总派息率60% 每股派息 99分 7 2025年度报告
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 10
+    year: 2025
+    snippet: 的特别股 息，总额等于2025年集团净利润的10%。 这使总派息率达到60%。2025年的总股息 将达到每股99分，以华侨银行2025年的 平均股价计算，净股息收益率达到5.8%。 我们在2024年与2025年的特别股息
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 25
+    year: 2025
+    snippet: 值。 2021 2022 2023 2024 2025 28 40 25 28 53 68 82 42 40 99 42 16 41 101 41 16 44 53% 53% 50% 50% 50% 44% 49% 42
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 36
+    year: 2025
+    snippet: 1日 的财政年度，董事会建议发出每股42分的年终股息和每股16分 的特别股息，使2025年的全年股息达到每股99分，股息总额 相当于44亿元。 加上在截至2024年和2025年12月31日的财政年度分别已支付 的7亿元与
+- id: r2h05
+  lang: en
+  category: cross_year
+  heldout_term: five-year investor return
+  variant_of: Five-year total shareholder returns
+  query: What five-year investor return (share price gains plus dividends) did OCBC report in its 2023, 2024 and 2025 annual reports?
+  years:
+  - 2023
+  - 2024
+  - 2025
+  answer:
+    2023: 46% (2019-2023)
+    2024: 96% (2020-2024)
+    2025: 156% (2021-2025)
+  gold:
+    2023:
+      ocbc-group_ar_2023_en:
+      - 5
+      ocbc-group_ar_2023_zh:
+      - 5
+      ocbc-group_ar_2025_en:
+      - 25
+      ocbc-group_ar_2025_zh:
+      - 25
+    2024:
+      ocbc-group_ar_2024_en:
+      - 7
+      - 37
+      ocbc-group_ar_2024_zh:
+      - 7
+      ocbc-group_ar_2025_en:
+      - 25
+      ocbc-group_ar_2025_zh:
+      - 25
+    2025:
+      ocbc-group_ar_2025_en:
+      - 5
+      - 10
+      - 25
+      ocbc-group_ar_2025_zh:
+      - 5
+      - 10
+      - 25
+  evidence:
+  - doc_id: ocbc-group_ar_2023_en
+    page: 5
+    year: 2023
+    snippet: 10 8 0 Delivering Shareholder Value 5-Year Total Shareholder Returns 46% Strong Credit Ratings Moody's Aa1 S&
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 5
+    year: 2023
+    snippet: 决策。 2019 2020 2021 2022 2023 14 12 10 8 0 提供股东价值 五年股东总回报 46% 强大信贷评级 穆迪 Aa1 标准普尔 AA- 惠誉 AA- 与卖方分析师保持密切接触 获得大约20
+  - doc_id: ocbc-group_ar_2025_en
+    page: 25
+    year: 2023
+    snippet: o Five-Year Total Shareholder Returns 2019–2023 2020–2024 2021–2025 46% 96% 156% 23 Annual Report 2025
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 25
+    year: 2023
+    snippet: 每股派息(分) 全年(包括特别股息) 全年 中期 派息率 五年股东总回报 2019–2023 2020–2024 2021–2025 46% 96% 156% 23 2025年度报告
+  - doc_id: ocbc-group_ar_2024_en
+    page: 7
+    year: 2024
+    snippet: ilding Sustainable Shareholder Value 96% 5-Year Total Shareholder Returns Committed to Engaging Our Investment
+  - doc_id: ocbc-group_ar_2024_en
+    page: 37
+    year: 2024
+    snippet: der returns have been solid, with five-year total shareholder returns at 96%. We are confident that we can con
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 7
+    year: 2024
+    snippet: 10 8 0 强健信贷评级 标准普尔 AA- 穆迪 Aa1 惠誉 AA- 建立可持续的 股东价值 96% 五年股东总回报 回报股东 25亿元 两年内返还资本 1.01元 比2023年增长23% 每股派息 60%总派息率
+  - doc_id: ocbc-group_ar_2025_en
+    page: 25
+    year: 2024
+    snippet: total shareholder returns rose to 156%, from 96% in the previous year. This has reinforced conviction in our a
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 25
+    year: 2024
+    snippet: 还计划。 我们具有强劲的资产负债表和资本状况， 使我们能够提供更高的股东回报。我们的 五年股东总回报率从上一年的96%上升至 156%。这使我们对持续为股东提供长期 价值的能力更具信心。 稳健的资金基础 华侨银行继续维持
+  - doc_id: ocbc-group_ar_2025_en
+    page: 5
+    year: 2025
+    snippet: uilding Long Term Shareholder Value 156% 5-Year Total Shareholder Returns Strong Credit Ratings AA- Aa1 AA- S&
+  - doc_id: ocbc-group_ar_2025_en
+    page: 10
+    year: 2025
+    snippet: er the past five years, we delivered a total shareholder return of 156%. Last year, we announced a comprehensi
+  - doc_id: ocbc-group_ar_2025_en
+    page: 25
+    year: 2025
+    snippet: returns. Our five-year total shareholder returns rose to 156%, from 96% in the previous year. This has reinfor
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 5
+    year: 2025
+    snippet: 计划 其中17亿已通过2024及2025财政年 的特别股息及股份回购返还予股东 建立长期股东价值 156% 五年股东总回报 强劲信贷评级 AA- Aa1 AA- 标准普尔 穆迪 惠誉 2021 2022 2023 202
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 10
+    year: 2025
+    snippet: 3年的经营历程中，我们始终以长 远眼光看待增长，确保能够为股东创造可 持续回报。在过去五年，我们的股东总回 报达到156%。去年，我们宣布了一项全面 的25亿元资本返还计划。该计划是在评估 了实现预期战略增长目标所需的资
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 25
+    year: 2025
+    snippet: 有强劲的资产负债表和资本状况， 使我们能够提供更高的股东回报。我们的 五年股东总回报率从上一年的96%上升至 156%。这使我们对持续为股东提供长期 价值的能力更具信心。 稳健的资金基础 华侨银行继续维持良好的资金状态，
+- id: r2h06
+  lang: en
+  category: single_value
+  heldout_term: long-term funding stability ratio
+  variant_of: Net stable funding ratio
+  query: What was OCBC Group's long-term funding stability ratio in 2025?
+  answer: '114% (2024: 113%)'
+  gold:
+    ocbc-group_ar_2025_en:
+    - 98
+  evidence:
+  - doc_id: ocbc-group_ar_2025_en
+    page: 98
+    year: 2025
+    snippet: dity coverage ratio (5)(8) 138 141 Net stable funding ratio (5)(9) 114 113 (1) Excludes amortisation of intang
+- id: r2h07
+  lang: en
+  category: single_value
+  heldout_term: stock market value
+  variant_of: Market capitalisation (based on last done price)
+  query: What was OCBC's stock market value at the end of 2025?
+  answer: $88.7 billion (market capitalisation based on last done share price of $19.76)
+  gold:
+    ocbc-group_ar_2025_en:
+    - 5
+    ocbc-group_ar_2025_zh:
+    - 5
+  evidence:
+  - doc_id: ocbc-group_ar_2025_en
+    page: 5
+    year: 2025
+    snippet: ion ($ billion) (based on last done price) 51.2 54.7 58.4 75.1 88.7 Ratios(1) Price-to-earnings (number of tim
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 5
+    year: 2025
+    snippet: .40 12.18 13.00 16.69 19.76 市值(十亿元) (按闭市价) 51.2 54.7 58.4 75.1 88.7 比率(1) 本益比(倍数)(2) 10.86 9.87 8.15 8.69 10.4
+- id: r2h08
+  lang: en
+  category: single_value
+  heldout_term: multiple of book value
+  variant_of: Price-to-NAV (number of times)
+  query: At what multiple of book value did OCBC shares trade in 2025?
+  answer: 1.27 times (computed on average share price)
+  gold:
+    ocbc-group_ar_2025_en:
+    - 5
+    ocbc-group_ar_2025_zh:
+    - 5
+  evidence:
+  - doc_id: ocbc-group_ar_2025_en
+    page: 5
+    year: 2025
+    snippet: 0.86 9.87 8.15 8.69 10.45 Price-to-NAV (number of times)(2) 1.01 1.10 1.07 1.13 1.27 Dividend yield (%)(3) 4.5
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 5
+    year: 2025
+    snippet: 比(倍数)(2) 10.86 9.87 8.15 8.69 10.45 股价净值比(倍数)(2) 1.01 1.10 1.07 1.13 1.27 净股息收益率(%)(3) 4.56 5.65 6.49 6.96 5.8
+- id: r2h09
+  lang: en
+  category: narrative
+  heldout_term: annual shareholders' meeting
+  variant_of: Annual General Meeting (AGM)
+  query: When and where will OCBC hold its 2026 annual shareholders' meeting, according to the 2025 annual report?
+  answer: On 16 April 2026, at Sands Expo & Convention Centre in Singapore
+  gold:
+    ocbc-group_ar_2025_en:
+    - 5
+    - 272
+    ocbc-group_ar_2025_zh:
+    - 5
+    - 190
+  evidence:
+  - doc_id: ocbc-group_ar_2025_en
+    page: 5
+    year: 2025
+    snippet: g (AGM) is scheduled to be held on 16 April 2026, at Sands Expo & Convention Centre in Singapore. Please refer
+  - doc_id: ocbc-group_ar_2025_en
+    page: 272
+    year: 2025
+    snippet: of full year results for 2025 April 16 April 2026 Annual General Meeting May May 2026 Announcement of first q
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 5
+    year: 2025
+    snippet: 们了解我们的企业策略，财务业绩表现和公司近期发展的情况。 2026年的常年股东大会预定在2026年4月16日在滨海湾金沙会议展览中心 举行。有关详情请参阅常年股东大会通告。 业绩发布会 为媒体、分析师和机构投资者 主办混
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 190
+    year: 2025
+    snippet: 财务日期 2月 2026年2月25日 宣布2025年全年业绩 4月 2026年4月16日 常年股东大会 5月 2026年5月 宣布2026年第一季业绩 约在2026年 5月8日* 支付2025年普通股年终股息 (须获常年
+- id: r2h10
+  lang: en
+  category: narrative
+  heldout_term: female directors
+  variant_of: women Directors / women representation on the Board
+  query: According to the 2024 annual report, how many female directors were on OCBC's board?
+  answer: Three women Directors, i.e. more than 25% women representation on the Board
+  gold:
+    ocbc-group_ar_2024_en:
+    - 57
+  evidence:
+  - doc_id: ocbc-group_ar_2024_en
+    page: 57
+    year: 2024
+    snippet: . The Bank currently has three women Directors or more than 25% women representation on its Board of Directors
+- id: r2h11
+  lang: en
+  category: single_value
+  heldout_term: loan-loss provisioning rate
+  variant_of: Credit costs (basis points of loans)
+  query: What was OCBC's loan-loss provisioning rate in 2025, in basis points of loans?
+  answer: 17 basis points (down from 19 basis points in 2024)
+  gold:
+    ocbc-group_ar_2025_en:
+    - 9
+    - 25
+    - 38
+    - 99
+    - 100
+    ocbc-group_ar_2025_zh:
+    - 9
+    - 25
+  evidence:
+  - doc_id: ocbc-group_ar_2025_en
+    page: 9
+    year: 2025
+    snippet: NPL) ratio unchanged at 0.9%, total credit costs lower at 17 basis points and allowance coverage at a strong 1
+  - doc_id: ocbc-group_ar_2025_en
+    page: 25
+    year: 2025
+    snippet: otal allowances were 4% lower, and credit costs declined to 17 basis points from 19 basis points a year ago. N
+  - doc_id: ocbc-group_ar_2025_en
+    page: 38
+    year: 2025
+    snippet: atio remained steady at 0.9%, while credit costs stayed at 17 basis points — clear indicators of the effective
+  - doc_id: ocbc-group_ar_2025_en
+    page: 99
+    year: 2025
+    snippet: g loan (NPL) ratio at 0.9%. Total credit costs were lower at 17 basis points, while allowance coverage for non
+  - doc_id: ocbc-group_ar_2025_en
+    page: 100
+    year: 2025
+    snippet: were 4% lower at $665 million, and credit costs declined to 17 basis points from 19 basis points a year ago. F
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 9
+    year: 2025
+    snippet: 华区商业地产风险敞口。我们的贷款组 合的整体资产质量维持稳健，不良贷款率 维持不变于0.9%，而总信贷成本降至17个 基本点，不良资产覆盖率处于151%的强劲 水平。在持续对实力作出投资以维持现有 业务和新增长的同时，我
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 25
+    year: 2025
+    snippet: 保持韧性。不良贷款率处于0.9%的稳 定水平。准备金总额下降4%，而信贷成本 从1年前的19个基本点下降至17个基本 点。不良资产覆盖率则是处于151%。 我们持续投资策略性措施以驱动业务扩 张，并投入人才培训与科技以支
+- id: r2h12
+  lang: en
+  category: cross_year
+  heldout_term: green financing
+  variant_of: Sustainable finance (loan) commitments
+  query: How much green financing had OCBC committed by the end of 2023, 2024 and 2025?
+  years:
+  - 2023
+  - 2024
+  - 2025
+  answer:
+    2023: $56 billion
+    2024: $71 billion
+    2025: $80 billion
+  gold:
+    2023:
+      ocbc-group_ar_2023_en:
+      - 6
+      - 23
+      - 98
+      ocbc-group_ar_2023_zh:
+      - 6
+      - 23
+    2024:
+      ocbc-group_ar_2024_en:
+      - 8
+      - 14
+      - 17
+      - 24
+      - 41
+      - 100
+      ocbc-group_ar_2024_zh:
+      - 8
+      - 14
+    2025:
+      ocbc-group_ar_2025_en:
+      - 25
+      - 26
+      - 41
+      ocbc-group_ar_2025_zh:
+      - 25
+  evidence:
+  - doc_id: ocbc-group_ar_2023_en
+    page: 6
+    year: 2023
+    snippet: $7.02 billion Record net profit $56 billion in sustainable finance commitments, ahead of 2025 target of $50 bi
+  - doc_id: ocbc-group_ar_2023_en
+    page: 23
+    year: 2023
+    snippet: for six key sectors • Recorded $56 billion in sustainable finance commitments, ahead of 2025 target of $50 bi
+  - doc_id: ocbc-group_ar_2023_en
+    page: 98
+    year: 2023
+    snippet: ous year to $38.4 billion, against a total loan commitment of $56 billion. Customer deposits rose 4% year-on-y
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 6
+    year: 2023
+    snippet: 硕果累累 的一年 银行业 70亿2000元 净利创历史新高 560亿元 560亿元的可持续融资承诺， 提前完成2025年达到500亿元 的目标 7倍 自2023年9月启动Alipay+支付以来， 扫码支付交易数增加7倍
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 23
+    year: 2023
+    snippet: 计划，提升1,300多名女性 企业家的能力 • 为六个关键行业设定科学性的 净零排放目标 • 创下560亿元可持续发展承诺的 新高，超出2025年的500亿元目标 • 推出华侨银行1.5°C贷款 • 今年取得超过100
+  - doc_id: ocbc-group_ar_2024_en
+    page: 8
+    year: 2024
+    snippet: to OCBC Hong Kong’s data centre $71 billion in sustainable finance commitments, ahead of 2025 target of $50 bi
+  - doc_id: ocbc-group_ar_2024_en
+    page: 14
+    year: 2024
+    snippet: d for 16% of our Group loans, while total commitments stood at $71 billion. We continued to be prudent in our
+  - doc_id: ocbc-group_ar_2024_en
+    page: 17
+    year: 2024
+    snippet: loan commitments reaching $71 billion at the end of 2024. The conversations with our customers are becoming de
+  - doc_id: ocbc-group_ar_2024_en
+    page: 24
+    year: 2024
+    snippet: rease in our committed sustainable finance portfolio to $71 billion • Partnered with ecosystem stakeholders to
+  - doc_id: ocbc-group_ar_2024_en
+    page: 41
+    year: 2024
+    snippet: of 2024, our sustainable finance loan commitments totalled $71 billion, reflecting our commitment to supporti
+  - doc_id: ocbc-group_ar_2024_en
+    page: 100
+    year: 2024
+    snippet: d for 16% of Group loans, while total commitments increased 27% to $71 billion. As at 31 December 2024, custom
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 8
+    year: 2024
+    snippet: 业界平均 最高级别 华侨银行香港数据中心获得香港特别 行政区授予最高级别的基础设施可靠 性认证 710亿元 的可持续融资承诺，提前完成 2025年达到500亿元的目标 第三位 在彭博的香港牵头银行贷款排行 榜名列前三位
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 14
+    year: 2024
+    snippet: 输业等的新经济领域提供更多贷款支持。可持续融资贷款增 长31%，达500亿元，占集团贷款的16%，总承诺金额为710亿元。 我们在风险管理方面继续保持审慎，资产质量保持优良及有韧 性。2024年，我们的不良贷款比率由前一
+  - doc_id: ocbc-group_ar_2025_en
+    page: 25
+    year: 2025
+    snippet: unted for 17% of Group loans, while total commitments stood at $80 billion. Customer deposits rose 10% from a
+  - doc_id: ocbc-group_ar_2025_en
+    page: 26
+    year: 2025
+    snippet: rease in our committed sustainable finance portfolio to $80 billion • Partnered with Enterprise Singapore to l
+  - doc_id: ocbc-group_ar_2025_en
+    page: 41
+    year: 2025
+    snippet: at end-2025, our sustainable financing commitments stood at $80 billion, 13% more than the year before. We top
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 25
+    year: 2025
+    snippet: 及 新加坡房屋抵押贷款。可持续融资贷款增 长13%，达到565亿元，占集团贷款总额的 17%，而总授信承诺额则达到800亿元。 客户存款比去年增长10%，主要是得到个 人、中小企业和大企业业务的往来于储蓄 存款 (CAS
+- id: r2h13
+  lang: en
+  category: single_value
+  heldout_term: employee pay bill
+  variant_of: Staff costs
+  query: How big was OCBC Group's employee pay bill in 2024?
+  answer: $3,837 million (up 10% from $3,501 million in 2023)
+  gold:
+    ocbc-group_ar_2024_en:
+    - 103
+    - 125
+    - 160
+    ocbc-group_ar_2024_zh:
+    - 52
+    - 80
+    ocbc-group_ar_2025_en:
+    - 103
+    - 125
+    - 160
+    ocbc-group_ar_2025_zh:
+    - 54
+    - 81
+  evidence:
+  - doc_id: ocbc-group_ar_2024_en
+    page: 103
+    year: 2024
+    snippet: nses 2024 $ million 2023 $ million +/(-) % Staff costs 3,837 3,501 10 Property and equipment Depreciation 456
+  - doc_id: ocbc-group_ar_2024_en
+    page: 125
+    year: 2024
+    snippet: Total income 14,473 13,507 10,651 9,038 Staff costs (3,837) (3,501) (1,448) (1,221) Other operating expenses
+  - doc_id: ocbc-group_ar_2024_en
+    page: 160
+    year: 2024
+    snippet: f Bank’s directors (1) 5 6 5 5 16 15 16 14 Total staff costs 3,837 3,501 1,448 1,221 9.2 Other operating expen
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 52
+    year: 2024
+    snippet: 3,862 4,521 3,014 总收入 14,473 13,507 10,651 9,038 员工成本 (3,837) (3,501) (1,448) (1,221) 其他营运支出 (1,905) (1,722) (
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 80
+    year: 2024
+    snippet: '： 银行董事薪酬 11 9 11 9 银行董事费 (1) 5 6 5 5 16 15 16 14 员工成本总额 3,837 3,501 1,448 1,221 9.2 其他营运支出 房地产与设备: (2) 折旧 456'
+  - doc_id: ocbc-group_ar_2025_en
+    page: 103
+    year: 2024
+    snippet: nses 2025 $ million 2024 $ million +/(-) % Staff costs 3,907 3,837 2 Property, plant and equipment Depreciatio
+  - doc_id: ocbc-group_ar_2025_en
+    page: 125
+    year: 2024
+    snippet: Total income 14,614 14,473 9,287 10,651 Staff costs (3,907) (3,837) (1,433) (1,448) Other operating expenses
+  - doc_id: ocbc-group_ar_2025_en
+    page: 160
+    year: 2024
+    snippet: ank’s directors (1) 6 5 5 5 19 16 17 16 Total staff costs 3,907 3,837 1,433 1,448 9.2 Other operating expenses
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 54
+    year: 2024
+    snippet: 8 3,767 4,521 总收入 14,614 14,473 9,287 10,651 员工成本 (3,907) (3,837) (1,433) (1,448) 其他营运支出 (1,975) (1,905) (1,51
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 81
+    year: 2024
+    snippet: '事薪酬 13 11 12 11 银行董事费 (1) 6 5 5 5 19 16 17 16 员工成本总额 3,907 3,837 1,433 1,448 9.2 其他营运支出 房地产、设施与设备: (2) 折旧 544'
+- id: r2h14
+  lang: zh
+  category: cross_year
+  heldout_term: 核心股本占风险资产
+  variant_of: 普通股权一级资本充足率 / Common Equity Tier 1 (CET1) CAR
+  query: 华侨银行2023年到2025年，核心股本占风险资产的比例分别是多少？
+  years:
+  - 2023
+  - 2024
+  - 2025
+  answer:
+    2023: 15.9%
+    2024: 17.1%（按最终巴塞尔III改革过渡基础计算）
+    2025: 16.9%（按过渡基础计算）
+  gold:
+    2023:
+      ocbc-group_ar_2023_en:
+      - 4
+      - 8
+      - 10
+      - 76
+      - 96
+      - 98
+      - 108
+      ocbc-group_ar_2023_zh:
+      - 4
+      - 8
+      - 41
+      ocbc-group_ar_2024_en:
+      - 6
+      - 14
+      - 78
+      - 98
+      ocbc-group_ar_2024_zh:
+      - 6
+      - 14
+      - 35
+      ocbc-group_ar_2025_en:
+      - 4
+      ocbc-group_ar_2025_zh:
+      - 4
+    2024:
+      ocbc-group_ar_2024_en:
+      - 6
+      - 10
+      - 14
+      - 78
+      - 98
+      - 100
+      - 110
+      ocbc-group_ar_2024_zh:
+      - 6
+      - 14
+      - 35
+      ocbc-group_ar_2025_en:
+      - 4
+      - 78
+      - 98
+      ocbc-group_ar_2025_zh:
+      - 4
+      - 37
+    2025:
+      ocbc-group_ar_2025_en:
+      - 4
+      - 25
+      - 78
+      - 98
+      - 100
+      - 110
+      ocbc-group_ar_2025_zh:
+      - 4
+      - 25
+      - 37
+  evidence:
+  - doc_id: ocbc-group_ar_2023_en
+    page: 4
+    year: 2023
+    snippet: .0 43.8 42.7 Capital adequacy ratios(4) Common Equity Tier 1 15.9 15.2 15.5 15.2 14.9 Tier 1 16.5 15.9 16.0 15
+  - doc_id: ocbc-group_ar_2023_en
+    page: 8
+    year: 2023
+    snippet: itions remained strong, with Common Equity Tier 1 Capital Adequacy Ratio at 15.9%. We maintained our credit ra
+  - doc_id: ocbc-group_ar_2023_en
+    page: 10
+    year: 2023
+    snippet: os remained strong. Our Common Equity Tier 1 Capital Adequacy Ratio increased to 15.9% mainly attributable to
+  - doc_id: ocbc-group_ar_2023_en
+    page: 76
+    year: 2023
+    snippet: s 236,694 231,648 Capital Adequacy Ratios Common Equity Tier 1 15.9% 15.2% Tier 1 16.5% 15.9% Total 18.1% 17.7
+  - doc_id: ocbc-group_ar_2023_en
+    page: 96
+    year: 2023
+    snippet: 5) 18.1 17.7 Tier 1 CAR (5) 16.5 15.9 Common Equity Tier 1 CAR (5) 15.9 15.2 Leverage ratio (5)(6) 7.2 7.2 Sin
+  - doc_id: ocbc-group_ar_2023_en
+    page: 98
+    year: 2023
+    snippet: o-deposits ratio was 80.5%. Group Common Equity Tier 1 (CET1) CAR was 15.9%, while the leverage ratio was 7.2%
+  - doc_id: ocbc-group_ar_2023_en
+    page: 108
+    year: 2023
+    snippet: e Group remained strongly capitalised, with a CET1 CAR of 15.9%, and Tier 1 and Total CAR of 16.5% and 18.1% r
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 4
+    year: 2023
+    snippet: 0 2.08 支出收入比例 38.7 42.9 45.0 43.8 42.7 资本充足率(4) 普通股权一级资本 15.9 15.2 15.5 15.2 14.9 一级资本 16.5 15.9 16.0 15.8 15.
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 8
+    year: 2023
+    snippet: 本控制，而优质 的信贷组合也反映了我们审慎的风险 管理。我们的资本及流动性状况也保持 强劲，普通股权一级资本充足率为 15.9%。我们维持评级机构穆迪的 Aa1信用评级，以及惠誉和标准普尔 的AA-信用评级，使我们成为全
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 41
+    year: 2023
+    snippet: 营运 18,624 20,348 风险加权资产 236,694 231,648 资本充足率 普通股权Tier 1资本 15.9% 15.2% Tier 1资本 16.5% 15.9% 总资本 18.1% 17.7% 本银
+  - doc_id: ocbc-group_ar_2024_en
+    page: 6
+    year: 2023
+    snippet: .7 39.7 Capital adequacy ratios(4) Common Equity Tier 1 15.2 15.5 15.2 15.9 17.1 Tier 1 15.8 16.0 15.9 16.5 17
+  - doc_id: ocbc-group_ar_2024_en
+    page: 14
+    year: 2023
+    snippet: er 1 Capital Adequacy Ratio (CET1 CAR) increased from 15.9% a year ago to 17.1%, led by a reduction in risk-we
+  - doc_id: ocbc-group_ar_2024_en
+    page: 78
+    year: 2023
+    snippet: 36,288 236,694 Capital Adequacy Ratios Common Equity Tier 1 17.1% 15.9% Tier 1 17.8% 16.5% Total 19.7% 18.1% T
+  - doc_id: ocbc-group_ar_2024_en
+    page: 98
+    year: 2023
+    snippet: 18.1 Tier 1 CAR (5)(6) 17.8 16.5 Common Equity Tier 1 CAR (5)(6) 17.1 15.9 Leverage ratio (5)(6)(7) 7.4 7.2 S
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 6
+    year: 2023
+    snippet: 支出收入比例 43.8 45.0 42.9 38.7 39.7 资本充足率(4) 普通股权一级资本 15.2 15.5 15.2 15.9 17.1 一级资本 15.8 16.0 15.9 16.5 17.8 总资本 1
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 14
+    year: 2023
+    snippet: 持强健。我们的资金来源、资本和 流动性状况都表现良好。普通股权一级资本充足率(CET1 CAR)从 前一年的15.9%上升至17.1%，主要得益于在采用新加坡金融管理 局的最终巴塞尔资本协议III改革条例（于2024年7
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 35
+    year: 2023
+    snippet: 14,357 18,624 风险加权资产 236,288 236,694 资本充足率 普通股权Tier 1资本 17.1% 15.9% Tier 1资本 17.8% 16.5% 总资本 19.7% 18.1% 本银行的银
+  - doc_id: ocbc-group_ar_2025_en
+    page: 4
+    year: 2023
+    snippet: 39.7 40.2 Capital adequacy ratios(4) Common Equity Tier 1 15.5 15.2 15.9 17.1 16.9 Tier 1 16.0 15.9 16.5 17.8
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 4
+    year: 2023
+    snippet: 5 支出收入比例 45.0 42.9 38.7 39.7 40.2 资本充足率(4) 普通股权一级资本 15.5 15.2 15.9 17.1 16.9 一级资本 16.0 15.9 16.5 17.8 17.6 总资本
+  - doc_id: ocbc-group_ar_2024_en
+    page: 6
+    year: 2024
+    snippet: 39.7 Capital adequacy ratios(4) Common Equity Tier 1 15.2 15.5 15.2 15.9 17.1 Tier 1 15.8 16.0 15.9 16.5 17.8
+  - doc_id: ocbc-group_ar_2024_en
+    page: 10
+    year: 2024
+    snippet: ', and our 2024 transitional Common Equity Tier 1 Capital Adequacy Ratio was 17.1%, or 15.3% on a fully phased-'
+  - doc_id: ocbc-group_ar_2024_en
+    page: 14
+    year: 2024
+    snippet: y Ratio (CET1 CAR) increased from 15.9% a year ago to 17.1%, led by a reduction in risk-weighted assets largel
+  - doc_id: ocbc-group_ar_2024_en
+    page: 78
+    year: 2024
+    snippet: s 236,288 236,694 Capital Adequacy Ratios Common Equity Tier 1 17.1% 15.9% Tier 1 17.8% 16.5% Total 19.7% 18.1
+  - doc_id: ocbc-group_ar_2024_en
+    page: 98
+    year: 2024
+    snippet: 18.1 Tier 1 CAR (5)(6) 17.8 16.5 Common Equity Tier 1 CAR (5)(6) 17.1 15.9 Leverage ratio (5)(6)(7) 7.4 7.2 S
+  - doc_id: ocbc-group_ar_2024_en
+    page: 100
+    year: 2024
+    snippet: ly 2024 and 1 January 2029. Group CET1 CAR as at 31 December 2024 was 17.1%, and was 15.3% on a fully phased-i
+  - doc_id: ocbc-group_ar_2024_en
+    page: 110
+    year: 2024
+    snippet: e Group remained strongly capitalised, with a CET1 CAR of 17.1%, and Tier 1 and Total CAR of 17.8% and 19.7% r
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 6
+    year: 2024
+    snippet: 入比例 43.8 45.0 42.9 38.7 39.7 资本充足率(4) 普通股权一级资本 15.2 15.5 15.2 15.9 17.1 一级资本 15.8 16.0 15.9 16.5 17.8 总资本 17.9
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 14
+    year: 2024
+    snippet: 金来源、资本和 流动性状况都表现良好。普通股权一级资本充足率(CET1 CAR)从 前一年的15.9%上升至17.1%，主要得益于在采用新加坡金融管理 局的最终巴塞尔资本协议III改革条例（于2024年7月1日生效）后，
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 35
+    year: 2024
+    snippet: 营运 14,357 18,624 风险加权资产 236,288 236,694 资本充足率 普通股权Tier 1资本 17.1% 15.9% Tier 1资本 17.8% 16.5% 总资本 19.7% 18.1% 本银
+  - doc_id: ocbc-group_ar_2025_en
+    page: 4
+    year: 2024
+    snippet: .7 40.2 Capital adequacy ratios(4) Common Equity Tier 1 15.5 15.2 15.9 17.1 16.9 Tier 1 16.0 15.9 16.5 17.8 17
+  - doc_id: ocbc-group_ar_2025_en
+    page: 78
+    year: 2024
+    snippet: 48,845 236,288 Capital Adequacy Ratios Common Equity Tier 1 16.9% 17.1% Tier 1 17.6% 17.8% Total 19.4% 19.7% T
+  - doc_id: ocbc-group_ar_2025_en
+    page: 98
+    year: 2024
+    snippet: 19.7 Tier 1 CAR (5)(6) 17.6 17.8 Common Equity Tier 1 CAR (5)(6) 16.9 17.1 Leverage ratio (5)(6)(7) 7.1 7.4 S
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 4
+    year: 2024
+    snippet: 支出收入比例 45.0 42.9 38.7 39.7 40.2 资本充足率(4) 普通股权一级资本 15.5 15.2 15.9 17.1 16.9 一级资本 16.0 15.9 16.5 17.8 17.6 总资本 1
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 37
+    year: 2024
+    snippet: 4,357 其他 44 – 风险加权资产 248,845 236,288 资本充足率 普通股权Tier 1资本 16.9% 17.1% Tier 1资本 17.6% 17.8% 总资本 19.4% 19.7% 本银行的银
+  - doc_id: ocbc-group_ar_2025_en
+    page: 4
+    year: 2025
+    snippet: 40.2 Capital adequacy ratios(4) Common Equity Tier 1 15.5 15.2 15.9 17.1 16.9 Tier 1 16.0 15.9 16.5 17.8 17.6
+  - doc_id: ocbc-group_ar_2025_en
+    page: 25
+    year: 2025
+    snippet: mmon Equity Tier 1 Capital Adequacy Ratio (CET1 CAR) stood at 16.9% as at 31 December 2025 on a transitional b
+  - doc_id: ocbc-group_ar_2025_en
+    page: 78
+    year: 2025
+    snippet: s 248,845 236,288 Capital Adequacy Ratios Common Equity Tier 1 16.9% 17.1% Tier 1 17.6% 17.8% Total 19.4% 19.7
+  - doc_id: ocbc-group_ar_2025_en
+    page: 98
+    year: 2025
+    snippet: 19.7 Tier 1 CAR (5)(6) 17.6 17.8 Common Equity Tier 1 CAR (5)(6) 16.9 17.1 Leverage ratio (5)(6)(7) 7.1 7.4 S
+  - doc_id: ocbc-group_ar_2025_en
+    page: 100
+    year: 2025
+    snippet: ly 2024 and 1 January 2029. Group CET1 CAR as at 31 December 2025 was 16.9%, and on a fully phased-in basis, i
+  - doc_id: ocbc-group_ar_2025_en
+    page: 110
+    year: 2025
+    snippet: e Group remained strongly capitalised, with a CET1 CAR of 16.9%, and Tier 1 and Total CAR of 17.6% and 19.4% r
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 4
+    year: 2025
+    snippet: 入比例 45.0 42.9 38.7 39.7 40.2 资本充足率(4) 普通股权一级资本 15.5 15.2 15.9 17.1 16.9 一级资本 16.0 15.9 16.5 17.8 17.6 总资本 17.6
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 25
+    year: 2025
+    snippet: 本协议III改革条例后，在2025年 12月31日，普通股权一级资本充足率 (CET1 CAR) 按过渡基础达到16.9%。按全 面实施基础的CET1 CAR则为15.1%。 尽管出现全球不确定性、市场波动以及利 率下降
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 37
+    year: 2025
+    snippet: 0 14,357 其他 44 – 风险加权资产 248,845 236,288 资本充足率 普通股权Tier 1资本 16.9% 17.1% Tier 1资本 17.6% 17.8% 总资本 19.4% 19.7% 本银
+- id: r2h15
+  lang: zh
+  category: single_value
+  heldout_term: 每股家底
+  variant_of: 每普通股资产净值 / Net asset value per ordinary share
+  query: 华侨银行2024年底每一股背后的“每股家底”（股东权益摊到每股）有多少？
+  answer: 12.80元（新元）
+  gold:
+    ocbc-group_ar_2024_en:
+    - 6
+    - 98
+    ocbc-group_ar_2024_zh:
+    - 6
+    ocbc-group_ar_2025_en:
+    - 4
+    - 98
+    ocbc-group_ar_2025_zh:
+    - 4
+  evidence:
+  - doc_id: ocbc-group_ar_2024_en
+    page: 6
+    year: 2024
+    snippet: ents) 31.8 53.0 68.0 82.0 101.0 Net asset value 10.82 11.46 10.99 11.77 12.80 Ratios (%) Return on equity 7.6
+  - doc_id: ocbc-group_ar_2024_en
+    page: 98
+    year: 2024
+    snippet: 1.67 1.55 Diluted earnings (2) 1.67 1.55 Net asset value 12.80 11.77 Key Financial Ratios (%) Return on equity
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 6
+    year: 2024
+    snippet: 1.67 股息 (分) 31.8 53.0 68.0 82.0 101.0 资产净值 10.82 11.46 10.99 11.77 12.80 比例 (%) 权益回报率 7.6 9.6 11.1 13.7 13.7 资
+  - doc_id: ocbc-group_ar_2025_en
+    page: 4
+    year: 2024
+    snippet: (cents) 53.0 68.0 82.0 101.0 99.0 Net asset value 11.46 10.99 11.77 12.80 13.38 Ratios (%) Return on equity 9
+  - doc_id: ocbc-group_ar_2025_en
+    page: 98
+    year: 2024
+    snippet: 1.63 1.67 Diluted earnings (2) 1.63 1.67 Net asset value 13.38 12.80 Key Financial Ratios (%) Return on equity
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 4
+    year: 2024
+    snippet: 67 1.63 股息 (分) 53.0 68.0 82.0 101.0 99.0 资产净值 11.46 10.99 11.77 12.80 13.38 比例 (%) 权益回报率 9.6 11.1 13.7 13.7 12
+- id: r2h16
+  lang: zh
+  category: single_value
+  heldout_term: 一年总共进账
+  variant_of: 总收入 / Total income
+  query: 华侨银行集团2025年一年总共进账多少钱（总收入）？
+  answer: 14,614百万元（约146亿新元），比2024年增长1%
+  gold:
+    ocbc-group_ar_2025_en:
+    - 4
+    - 9
+    - 13
+    - 98
+    - 99
+    - 110
+    - 125
+    - 207
+    - 209
+    ocbc-group_ar_2025_zh:
+    - 4
+    - 9
+    - 13
+    - 54
+    - 128
+    - 130
+  evidence:
+  - doc_id: ocbc-group_ar_2025_en
+    page: 4
+    year: 2025
+    snippet: me Statement Items ($ million) Total income 10,596 11,286 13,507 14,473 14,614 Operating expenses 4,764 4,838
+  - doc_id: ocbc-group_ar_2025_en
+    page: 9
+    year: 2025
+    snippet: the world’s most highly-rated banks. Record Total Income $14.6 billion 1% Record Profit Before Tax $9.12 bill
+  - doc_id: ocbc-group_ar_2025_en
+    page: 13
+    year: 2025
+    snippet: lity to navigate through cycles. Total income rose to a record $14.6 billion despite headwinds from declining
+  - doc_id: ocbc-group_ar_2025_en
+    page: 98
+    year: 2025
+    snippet: 55 (6) Non-interest income 5,464 4,718 16 Total income 14,614 14,473 1 Operating expenses (5,882) (5,742) 2 Op
+  - doc_id: ocbc-group_ar_2025_en
+    page: 99
+    year: 2025
+    snippet: x for each jurisdiction. OCBC delivered record income of $14.6 billion, driven by 16% non-interest income grow
+  - doc_id: ocbc-group_ar_2025_en
+    page: 110
+    year: 2025
+    snippet: c 323 2 309 2 Rest of the World 725 5 648 4 14,614 100 14,473 100 Operating profit before allowances and amort
+  - doc_id: ocbc-group_ar_2025_en
+    page: 125
+    year: 2025
+    snippet: n-interest income 5,464 4,718 3,767 4,521 Total income 14,614 14,473 9,287 10,651 Staff costs (3,907) (3,837)
+  - doc_id: ocbc-group_ar_2025_en
+    page: 207
+    year: 2025
+    snippet: 468 1,118 381 1,517 (20) 5,464 Total income 5,413 5,925 1,410 1,722 144 14,614 Operating profit before allowan
+  - doc_id: ocbc-group_ar_2025_en
+    page: 209
+    year: 2025
+    snippet: ',456 14,334 Rest of the World 725 346 201 34 48,734 44,132 14,614 9,123 1,563 1,092 675,688 612,118 2024 Singa'
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 4
+    year: 2025
+    snippet: 2(1) 2023 2024 2025 选定的收入报表项目 (百万元) 总收入 10,596 11,286 13,507 14,473 14,614 营运支出 4,764 4,838 5,223 5,742 5,882
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 9
+    year: 2025
+    snippet: 评级中，穆迪评级为Aa1，惠誉与标普则均 为AA-。这些评级使我们成为全球评级最 高的银行之一。 总收入创新高 146亿元 1% 税前盈利创新高 91亿2000万元 2% 强韧净利润 74亿2000万元 2% 总派息率6
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 13
+    year: 2025
+    snippet: 华侨银行集团扎实的基础、稳健的业务 以及应对经济周期的能力。 在面对利率下调的压力下，总收入依然 创下146亿元的历史新高。我们通过积极 的资产负债管理使我们能有效地维持净 利息收入；另一方面财富管理、交易与保 险业务在
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 54
+    year: 2025
+    snippet: 0 294 134 1,171 非利息收入 5,464 4,718 3,767 4,521 总收入 14,614 14,473 9,287 10,651 员工成本 (3,907) (3,837) (1,433) (1,4
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 128
+    year: 2025
+    snippet: 收入 2,468 1,118 381 1,517 (20) 5,464 总收入 5,413 5,925 1,410 1,722 144 14,614 扣除准备金与摊销前的营运盈利 2,278 4,087 945 1,49
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 130
+    year: 2025
+    snippet: 179 58 9 25,456 14,334 世界其余国家 725 346 201 34 48,734 44,132 14,614 9,123 1,563 1,092 675,688 612,118 2024 新加坡 8
+- id: r2h17
+  lang: zh
+  category: single_value
+  heldout_term: PE倍数
+  variant_of: 本益比 / Price-to-earnings (number of times)
+  query: 华侨银行2024年的PE倍数是多少？
+  answer: 8.69倍（按平均股价计算）
+  gold:
+    ocbc-group_ar_2024_en:
+    - 7
+    ocbc-group_ar_2024_zh:
+    - 7
+    ocbc-group_ar_2025_en:
+    - 5
+    ocbc-group_ar_2025_zh:
+    - 5
+  evidence:
+  - doc_id: ocbc-group_ar_2024_en
+    page: 7
+    year: 2024
+    snippet: 7 58.4 75.1 Ratios(1) Price-to-earnings (number of times)(2) 11.72 10.86 9.87 8.15 8.69 Price-to-NAV (number o
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 7
+    year: 2024
+    snippet: 闭市价) 45.0 51.2 54.7 58.4 75.1 比率(1) 本益比(倍数)(2) 11.72 10.86 9.87 8.15 8.69 股价净值比(倍数)(2) 0.87 1.01 1.10 1.07 1.1
+  - doc_id: ocbc-group_ar_2025_en
+    page: 5
+    year: 2024
+    snippet: 58.4 75.1 88.7 Ratios(1) Price-to-earnings (number of times)(2) 10.86 9.87 8.15 8.69 10.45 Price-to-NAV (numbe
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 5
+    year: 2024
+    snippet: (按闭市价) 51.2 54.7 58.4 75.1 88.7 比率(1) 本益比(倍数)(2) 10.86 9.87 8.15 8.69 10.45 股价净值比(倍数)(2) 1.01 1.10 1.07 1.13
+- id: r2h18
+  lang: zh
+  category: cross_year
+  heldout_term: 拿出来分红
+  variant_of: 派息率 / 总派息率 / Dividend payout ratio
+  query: 华侨银行2023、2024和2025年分别把多少比例的净利润拿出来分红？
+  years:
+  - 2023
+  - 2024
+  - 2025
+  answer:
+    2023: 53%
+    2024: 60%（50%普通股息 + 10%特别股息）
+    2025: 60%（50%普通股息 + 10%特别股息）
+  gold:
+    2023:
+      ocbc-group_ar_2023_en:
+      - 8
+      - 13
+      - 97
+      - 98
+      ocbc-group_ar_2023_zh:
+      - 8
+      - 13
+      ocbc-group_ar_2024_en:
+      - 17
+      - 36
+      ocbc-group_ar_2024_zh:
+      - 17
+      ocbc-group_ar_2025_en:
+      - 25
+      ocbc-group_ar_2025_zh:
+      - 25
+    2024:
+      ocbc-group_ar_2024_en:
+      - 7
+      - 11
+      - 12
+      - 15
+      - 17
+      - 36
+      - 77
+      - 99
+      - 100
+      ocbc-group_ar_2024_zh:
+      - 7
+      - 11
+      - 12
+      - 15
+      - 17
+      - 34
+      ocbc-group_ar_2025_en:
+      - 25
+      ocbc-group_ar_2025_zh:
+      - 25
+    2025:
+      ocbc-group_ar_2025_en:
+      - 5
+      - 9
+      - 10
+      - 25
+      - 99
+      ocbc-group_ar_2025_zh:
+      - 5
+      - 9
+      - 10
+      - 25
+  evidence:
+  - doc_id: ocbc-group_ar_2023_en
+    page: 8
+    year: 2023
+    snippet: 21% from 68 cents in 2022. This represents a payout ratio of 53%, comparable to last year. This is in-line wit
+  - doc_id: ocbc-group_ar_2023_en
+    page: 13
+    year: 2023
+    snippet: were not restated. 2019 2020 2021 2022 2023 47% 39% 49% 53% 53% 28.0 15.9 28.0 40.0 25.0 15.9 25.0 28.0 53.0
+  - doc_id: ocbc-group_ar_2023_en
+    page: 97
+    year: 2023
+    snippet: 1% from 68 cents a year ago and represents a payout ratio of 53% of the Group’s 2023 net profit. Record net in
+  - doc_id: ocbc-group_ar_2023_en
+    page: 98
+    year: 2023
+    snippet: will amount to $3.69 billion, representing a payout ratio of 53%. The Scrip Dividend Scheme is not applicable.
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 8
+    year: 2023
+    snippet: 发每股42分的年终股息， 使2023年的全年股息增加至82分，相对 比2022年的68分增长21%。派息率达到 53%，与前一年不相上下。这也符合我们 在2023年2月宣布的派息政策，即除非 出现不可预料的情况，我们的目
+  - doc_id: ocbc-group_ar_2023_zh
+    page: 13
+    year: 2023
+    snippet: 6 4,858 5,526 7,021 2019 2020 2021 2022 2023 47% 39% 49% 53% 53% 28.0 15.9 28.0 40.0 25.0 15.9 25.0 28.0 53.0
+  - doc_id: ocbc-group_ar_2024_en
+    page: 17
+    year: 2023
+    snippet: 5.9 25 28 31.8 53 68 82 42 40 101 41 16 44 50% 39% 49% 53% 53% 50% 60% (1) In July 2020, the MAS called on loc
+  - doc_id: ocbc-group_ar_2024_en
+    page: 36
+    year: 2023
+    snippet: nd 2025 will amount to 60% annually, surpassing the 53% for the previous two years. The capital return plan si
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 17
+    year: 2023
+    snippet: 5.9 25 28 31.8 53 68 82 42 40 101 41 16 44 50% 39% 49% 53% 53% 50% 60% (1) 在2020年7月，新加坡金融管理局要求总部设在新加坡的本地注册银行，将
+  - doc_id: ocbc-group_ar_2025_en
+    page: 25
+    year: 2023
+    snippet: shareholders. We exceeded this target, paying out 53% in 2022 and 2023. Dividend payouts were raised to 60% in
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 25
+    year: 2023
+    snippet: 报 我们继续依照股息政策，将集团核心 净利的50%派发给股东。我们在2022年 和2023年的派息率均超出此目标，达到 53%。我们在2024年和2025年派息率 提高至60%，这是2025年2月所公布为期 两年的25亿
+  - doc_id: ocbc-group_ar_2024_en
+    page: 7
+    year: 2024
+    snippet: $1.01 23% from 2023 Dividend Per Share 60% Total Dividend Payout Ratio 5 OCBC Annual Report 2024
+  - doc_id: ocbc-group_ar_2024_en
+    page: 11
+    year: 2024
+    snippet: 7% Record Net Profit $7.59 billion 8% 60% Total Dividend Payout Ratio $1.01 Dividend Per Share 23% Rewarding
+  - doc_id: ocbc-group_ar_2024_en
+    page: 12
+    year: 2024
+    snippet: .01 per share. This represents a payout ratio of 60% against 2024 net profit, and a yield of 7.0% against OCBC
+  - doc_id: ocbc-group_ar_2024_en
+    page: 15
+    year: 2024
+    snippet: share in the growth of OCBC. This 60% dividend payout is reflected in our 2024 total dividends. The Board has
+  - doc_id: ocbc-group_ar_2024_en
+    page: 17
+    year: 2024
+    snippet: 8 31.8 53 68 82 42 40 101 41 16 44 50% 39% 49% 53% 53% 50% 60% (1) In July 2020, the MAS called on locally-inc
+  - doc_id: ocbc-group_ar_2024_en
+    page: 36
+    year: 2024
+    snippet: payout ratio of 50%, the total dividend payout for 2024 and 2025 will amount to 60% annually, surpassing the
+  - doc_id: ocbc-group_ar_2024_en
+    page: 77
+    year: 2024
+    snippet: tio of 50%, the total dividend payout for the financial years 2024 and 2025 will amount to 60% annually. The c
+  - doc_id: ocbc-group_ar_2024_en
+    page: 99
+    year: 2024
+    snippet: payout ratio of 50%, the total dividend payout for 2024 and 2025 will amount to 60% annually. For 2024, a fin
+  - doc_id: ocbc-group_ar_2024_en
+    page: 100
+    year: 2024
+    snippet: o $1.01 per share, which represents a total payout ratio of 60% for 2024. The Scrip Dividend Scheme will not b
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 7
+    year: 2024
+    snippet: '% 五年股东总回报 回报股东 25亿元 两年内返还资本 1.01元 比2023年增长23% 每股派息 60%总派息率 致力与投资社群互动 华侨银行旨在为我们的投资者创造可持续的长期 价值。我们了解与投资社群保持高透明度的'
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 11
+    year: 2024
+    snippet: 侨银行集团及其子公司大东方控 总收入创新高 145亿元 7% 净利润创新高 75亿9000万元 8% 60%总派息率 每股派息1.01元 23% 回报股东 25亿元 两年内返还资本 9 华侨银行2024年度报告
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 12
+    year: 2024
+    snippet: 股息以此启动我们的资本返还计划。加上中 期股息，2024年总股息将达到每股1.01元。此派息率相等于 2024年净利润的60%，而按华侨银行2024年平均股价计算， 净股息收益率则达到7.0%。 确保通过强大治理以取得最
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 15
+    year: 2024
+    snippet: 在2024年度和2025年度将可获得每年60%的派息总额，分 享华侨银行的增长成果。 这项净利润60%的股息已经纳入我们2024年的总股息中。董事会 建议派发每股16分的特别股息和每股41分的末期普通股股息。 加上中期股
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 17
+    year: 2024
+    snippet: 8 31.8 53 68 82 42 40 101 41 16 44 50% 39% 49% 53% 53% 50% 60% (1) 在2020年7月，新加坡金融管理局要求总部设在新加坡的本地注册银行，将2020财政年度
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 34
+    year: 2024
+    snippet: 于市场情况和获得监管批准。加上华侨银行 的50%普通股派息率目标，2024和2025财政年度的常年总派 息率将达到60%。这项资本归还计划显示集团对推动长期增 长具有信心，并明确展现我们致力于回报股东对华侨银行的 持续支
+  - doc_id: ocbc-group_ar_2025_en
+    page: 25
+    year: 2024
+    snippet: in 2022 and 2023. Dividend payouts were raised to 60% in 2024 and 2025 — part of a $2.5 billion two-year capit
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 25
+    year: 2024
+    snippet: 股东。我们在2022年 和2023年的派息率均超出此目标，达到 53%。我们在2024年和2025年派息率 提高至60%，这是2025年2月所公布为期 两年的25亿元资本返还计划的一部分。 我们将致力于在2026财政年度
+  - doc_id: ocbc-group_ar_2025_en
+    page: 5
+    year: 2025
+    snippet: America Delivering Shareholder Returns 60% Total Dividend Payout Ratio $2.5 billion Capital return plan by fin
+  - doc_id: ocbc-group_ar_2025_en
+    page: 9
+    year: 2025
+    snippet: Resilient Net Profit $7.42 billion 2% 60% Total Dividend Payout Ratio 99 Cents Dividend Per Share 7 Annual Re
+  - doc_id: ocbc-group_ar_2025_en
+    page: 10
+    year: 2025
+    snippet: of 2025 Group net profit. This brings the total payout ratio to 60%. Total 2025 dividends will be 99 cents per
+  - doc_id: ocbc-group_ar_2025_en
+    page: 25
+    year: 2025
+    snippet: in 2022 and 2023. Dividend payouts were raised to 60% in 2024 and 2025 — part of a $2.5 billion two-year capit
+  - doc_id: ocbc-group_ar_2025_en
+    page: 99
+    year: 2025
+    snippet: 5 will amount to 99 cents per share, representing 60% of Group net profit. The capital return plan is targeted
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 5
+    year: 2025
+    snippet: 资者的交流 研讨会与非交易投资者会议 与亚太地区、欧洲和北美洲 的全球投资社群进行互动 实现股东回报 60% 总派息率 25亿元 致力于在2026财政年度完成 资本返还计划 其中17亿已通过2024及2025财政年 的特
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 9
+    year: 2025
+    snippet: 高 146亿元 1% 税前盈利创新高 91亿2000万元 2% 强韧净利润 74亿2000万元 2% 总派息率60% 每股派息 99分 7 2025年度报告
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 10
+    year: 2025
+    snippet: 计划的一部 分，董事会也建议派发每股16分的特别股 息，总额等于2025年集团净利润的10%。 这使总派息率达到60%。2025年的总股息 将达到每股99分，以华侨银行2025年的 平均股价计算，净股息收益率达到5.8%
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 25
+    year: 2025
+    snippet: 股东。我们在2022年 和2023年的派息率均超出此目标，达到 53%。我们在2024年和2025年派息率 提高至60%，这是2025年2月所公布为期 两年的25亿元资本返还计划的一部分。 我们将致力于在2026财政年度
+- id: r2h19
+  lang: zh
+  category: single_value
+  heldout_term: 员工规模
+  variant_of: Group staff strength（集团员工人数）/ 同事、员工（over 30,000 colleagues / employees）
+  query: 根据2024年报，华侨银行集团的员工规模大约有多大？
+  answer: 集团员工总数（期末）33,656人（全年平均33,729人）；年报叙述部分称“超过3万名”同事/员工
+  gold:
+    ocbc-group_ar_2024_en:
+    - 17
+    - 18
+    - 24
+    - 103
+    ocbc-group_ar_2024_zh:
+    - 17
+    - 18
+    ocbc-group_ar_2025_en:
+    - 103
+  evidence:
+  - doc_id: ocbc-group_ar_2024_en
+    page: 17
+    year: 2024
+    snippet: flect the hard work and expertise of over 30,000 colleagues at OCBC Group. I extend my heartfelt thanks and co
+  - doc_id: ocbc-group_ar_2024_en
+    page: 18
+    year: 2024
+    snippet: GenAI chatbot, OCBC GPT, which supports our 30,000 employees worldwide in writing, research and ideation. Prio
+  - doc_id: ocbc-group_ar_2024_en
+    page: 24
+    year: 2024
+    snippet: holistic health and wellbeing of over 30,000 employees across 19 locations • Renewed our commitment to The Fa
+  - doc_id: ocbc-group_ar_2024_en
+    page: 103
+    year: 2024
+    snippet: erating expenses 5,742 5,223 10 Group staff strength Period end 33,656 33,330 1 Average 33,729 32,674 3 Allowa
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 17
+    year: 2024
+    snippet: 妥协的。我 们将始终如一，把客户、社区和股东放在首位。 致谢 2024年的出色业绩，体现了华侨银行集团超过3万名同事的 辛勤投入和专业能力。我谨此向所有同事表示由衷的感谢和 祝贺，当然也包括我们优秀的管理团队。我们的成就
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 18
+    year: 2024
+    snippet: 23年11月，我们率先推出一款GenAI聊天机 器人“OCBC GPT”，在书写、研究和构想方面为我们全球三万名员工 提供协助。 在推出OCBC GPT之前，我们已经部署了多个GenAI生产力工具， 用于开发代码、文件摘
+  - doc_id: ocbc-group_ar_2025_en
+    page: 103
+    year: 2024
+    snippet: perating expenses 5,882 5,742 2 Group staff strength Period end 33,323 33,656 (1) Average 33,374 33,729 (1) Al
+- id: r2h20
+  lang: zh
+  category: single_value
+  heldout_term: 短期流动性比率
+  variant_of: Liquidity coverage ratio (LCR)；中文版作“流动性覆盖比率”
+  query: 华侨银行2024年的短期流动性比率（应对30天资金流出的那个指标）是多少？
+  answer: 全币种流动性覆盖比率141%（新元流动性覆盖比率299%），按年度平均计算
+  gold:
+    ocbc-group_ar_2024_en:
+    - 98
+    ocbc-group_ar_2025_en:
+    - 98
+  evidence:
+  - doc_id: ocbc-group_ar_2024_en
+    page: 98
+    year: 2024
+    snippet: 2 Singapore dollar liquidity coverage ratio (5)(8) 299 394 All-currency liquidity coverage ratio (5)(8) 141 15
+  - doc_id: ocbc-group_ar_2025_en
+    page: 98
+    year: 2024
+    snippet: overage ratio (5)(8) 294 299 All-currency liquidity coverage ratio (5)(8) 138 141 Net stable funding ratio (5)
+- id: r2h21
+  lang: zh
+  category: narrative
+  heldout_term: 会计师事务所
+  variant_of: 审计师 / Auditor (external auditor of the Bank)
+  query: 负责审计华侨银行2025财年财务报告的会计师事务所是哪一家？
+  answer: PricewaterhouseCoopers LLP（罗兵咸永道/普华永道新加坡），项目合伙人为何贤赞（Ho Hean Chan）
+  gold:
+    ocbc-group_ar_2025_en:
+    - 54
+    - 116
+    - 124
+    - 275
+    ocbc-group_ar_2025_zh:
+    - 45
+    - 53
+    - 195
+  evidence:
+  - doc_id: ocbc-group_ar_2025_en
+    page: 54
+    year: 2025
+    snippet: bers are not partners of PricewaterhouseCoopers LLP, the external auditor of the Bank, and hold no financial i
+  - doc_id: ocbc-group_ar_2025_en
+    page: 116
+    year: 2025
+    snippet: ded to the Board of Directors that the auditor, PricewaterhouseCoopers LLP, be nominated for re-appointment as
+  - doc_id: ocbc-group_ar_2025_en
+    page: 124
+    year: 2025
+    snippet: his independent auditor’s report is Ho Hean Chan. PricewaterhouseCoopers LLP Public Accountants and Chartered
+  - doc_id: ocbc-group_ar_2025_en
+    page: 275
+    year: 2025
+    snippet: 'Singapore 098632 Tel: (65) 6536 5355 Auditor PricewaterhouseCoopers LLP 7 Straits View Marina One East Tower'
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 45
+    year: 2025
+    snippet: 人员参与其 会议。 审计委员会已向董事部建议在来临的银行常年股东大会中提名PricewaterhouseCoopers LLP重新受委任为银行的审计师。 审计师 PricewaterhouseCoopers LLP已表示
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 53
+    year: 2025
+    snippet: 存其必须保存的会计与其他 记录。 完成此独立审计师报告的审计工作的项目合伙人是何贤赞。 PricewaterhouseCoopers LLP 公共会计师与特许会计师 新加坡，2026年2月24日 51 2025年度报告
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 195
+    year: 2025
+    snippet: 'wer Singapore 098632 电话: (65) 6536 5355 审计师 PricewaterhouseCoopers LLP 7 Straits View Marina One East Tower Le'
+- id: r2h22
+  lang: zh
+  category: single_value
+  heldout_term: 贷款占存款
+  variant_of: 贷款与存款比率 / Loans-to-deposits ratio
+  query: 华侨银行2023年底贷款占存款的比例是多少？
+  answer: 80.5%（2022年：83.3%）
+  gold:
+    ocbc-group_ar_2023_en:
+    - 96
+    - 98
+    ocbc-group_ar_2024_en:
+    - 98
+    - 100
+  evidence:
+  - doc_id: ocbc-group_ar_2023_en
+    page: 96
+    year: 2023
+    snippet: ncome 28.6 31.9 Cost-to-income 38.7 42.9 Loans-to-deposits 80.5 83.3 Non-performing loan ratio 1.0 1.2 Total c
+  - doc_id: ocbc-group_ar_2023_en
+    page: 98
+    year: 2023
+    snippet: rose 4% year-on-year to $364 billion. Loans-to-deposits ratio was 80.5%. Group Common Equity Tier 1 (CET1) CAR
+  - doc_id: ocbc-group_ar_2024_en
+    page: 98
+    year: 2023
+    snippet: ncome 32.6 28.6 Cost-to-income 39.7 38.7 Loans-to-deposits 80.7 80.5 Non-performing loan ratio 0.9 1.0 Total c
+  - doc_id: ocbc-group_ar_2024_en
+    page: 100
+    year: 2023
+    snippet: ts. Loans-to-deposits ratio was 80.7%, as compared to 80.5% a year ago. The Group’s Common Equity Tier 1 (CET1
+- id: r2h23
+  lang: zh
+  category: single_value
+  heldout_term: 坏账覆盖率
+  variant_of: 不良资产覆盖率 / NPA (allowance) coverage ratio
+  query: 华侨银行2024年底的坏账覆盖率是多少？
+  answer: 159%（不良资产覆盖率）
+  gold:
+    ocbc-group_ar_2024_en:
+    - 14
+    - 100
+    ocbc-group_ar_2024_zh:
+    - 14
+  evidence:
+  - doc_id: ocbc-group_ar_2024_en
+    page: 14
+    year: 2024
+    snippet: e 6% lower while Non-Performing Assets coverage ratio improved to 159%. We ended 2024 with a strong balance sh
+  - doc_id: ocbc-group_ar_2024_en
+    page: 100
+    year: 2024
+    snippet: elow the NPL ratio of 1.0% a year ago. Total NPA coverage stood at 159%. For 2024, total allowances were 6% lo
+  - doc_id: ocbc-group_ar_2024_zh
+    page: 14
+    year: 2024
+    snippet: 韧 性。2024年，我们的不良贷款比率由前一年的1.0%下降至0.9%。 拨备金总额减少了6%，不良资产覆盖率则增至159%。 我们2024年底的资产负债表保持强健。我们的资金来源、资本和 流动性状况都表现良好。普通股权
+- id: r2h24
+  lang: zh
+  category: single_value
+  heldout_term: 保险板块
+  variant_of: 保险业务分部 (Insurance segment) / 大东方控股
+  query: 华侨银行2025年保险板块的税前利润是多少？
+  answer: 1,491百万元（约14.9亿新元），同比增长25%
+  gold:
+    ocbc-group_ar_2025_en:
+    - 108
+    - 109
+    - 207
+    ocbc-group_ar_2025_zh:
+    - 128
+  evidence:
+  - doc_id: ocbc-group_ar_2025_en
+    page: 108
+    year: 2025
+    snippet: ng 3,588 3,456 4 Global Markets 948 566 67 Insurance 1,491 1,190 25 Others 887 1,593 (44) Profit before income
+  - doc_id: ocbc-group_ar_2025_en
+    page: 109
+    year: 2025
+    snippet: pore and Malaysia. GEH’s 2025 profit before income tax rose 25% to $1.49 billion, mainly attributable to stron
+  - doc_id: ocbc-group_ar_2025_en
+    page: 207
+    year: 2025
+    snippet: 'net of tax – – – – 1,077 1,077 Profit before income tax 2,209 3,588 948 1,491 887 9,123 Other information: Ca'
+  - doc_id: ocbc-group_ar_2025_zh
+    page: 128
+    year: 2025
+    snippet: ',046 扣除税务后的联号企业业绩分享 – – – – 1,077 1,077 扣除所得税前盈利 2,209 3,588 948 1,491 887 9,123 其他资料: 资本支出 93 49 1 120 829 1,'

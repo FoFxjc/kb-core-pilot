@@ -1,0 +1,161 @@
+run: round-1 MCP demo, 2026-10-27
+runner: non-interactive MCP client (a coding agent), MCP server kb-core only, 5 tools allowed
+session_id: round1-demo
+questions:
+  d2: 2025 年与 2024 年的不良贷款率相比有何变化？
+  d3: 华侨银行过去三年净利润的增长率是多少？
+  d4: 华侨银行 2025 年的流动性覆盖率（LCR）是多少？
+prompt: 'Answer these three questions about OCBC''s annual reports, one after another, using only the kb-core tools. For each
+  question give the answer with its sources.
+
+
+  1. 2025 年与 2024 年的不良贷款率相比有何变化？
+
+  2. 华侨银行过去三年净利润的增长率是多少？
+
+  3. 华侨银行 2025 年的流动性覆盖率（LCR）是多少？
+
+  '
+num_turns: 10
+cost_usd: 0.4262568
+tool_calls:
+- tool: resolve_concept
+  trace_id: tr_b9d2ea5111d94c459a4a7acc64f0776b
+  params:
+    term: 不良贷款率
+- tool: resolve_concept
+  trace_id: tr_32ad1428a5ce49388dc6d2b06ac503a5
+  params:
+    term: net profit
+- tool: resolve_concept
+  trace_id: tr_f6b8838ab9424761bb3ca20a7dae0e82
+  params:
+    term: liquidity coverage ratio
+- tool: get_metric_series
+  trace_id: tr_94189a6d1b5b455eba7b1bfc5f6b1529
+  params:
+    concept_id: npl_ratio
+    fiscal_years:
+    - 2024
+    - 2025
+- tool: get_metric_series
+  trace_id: tr_752dd969c9874417b2ea36a8dad55360
+  params:
+    concept_id: net_profit
+    fiscal_years:
+    - 2022
+    - 2023
+    - 2024
+    - 2025
+- tool: search
+  trace_id: tr_5f4b570245904cdfae7452d2204c364f
+  params:
+    query: liquidity coverage ratio LCR 2025
+    fiscal_years:
+    - 2025
+- tool: read
+  trace_id: tr_e1e636efb55f4383aca8c6548887fded
+  params:
+    doc_id: ocbc-group_ar_2025_en
+    page_range:
+    - 98
+    - 100
+- tool: read
+  trace_id: tr_c14eed6086fa4f4f921cb3e58f283782
+  params:
+    doc_id: ocbc-group_ar_2025_en
+    page_range:
+    - 4
+    - 4
+answer: '下面三个问题都用英文版年报作答。中文版（ocbc-group_ar_2025_zh）只是节选，管理层讨论与分析（MD&A）和五年摘要表里的数据都以英文版为准。金额单位是新加坡元（年报中的 $ 指新元）。
+
+
+  ---
+
+
+  ### 1. 2025 年与 2024 年的不良贷款率相比有何变化？
+
+
+  **没有变化，两年都是 0.9%。**
+
+
+  - MD&A 关键财务比率表中，Non-performing loan ratio 一行 2025 年为 0.9，2024 年也是 0.9 (ocbc-group_ar_2025_en, physical page 98, printed
+  page 96)
+
+  - 原文："As at 31 December 2025, total NPAs were $3.24 billion, up 13% from a year ago. NPL ratio remained unchanged at 0.9%,
+  and total NPA coverage stood at 151%." (ocbc-group_ar_2025_en, physical page 100, printed page 98)
+
+
+  说明：
+
+  - 2024 年的 0.9% 有多个来源，数据一致。另一个来源是 2024 年报第 98 页（印刷页 96），这一页我没有读，所以上面没有引用。
+
+  - 2025 年的 0.9% 只有 2025 年报这一个来源。
+
+  - 不良贷款率没变，但不良资产总额同比增加了 13%，达到 $3.24 billion。
+
+
+  ---
+
+
+  ### 2. 华侨银行过去三年净利润的增长率是多少？
+
+
+  知识库里最新的年份是 2025 年，所以"过去三年"按 2023、2024、2025 三个年度计算，并以 2022 年作为基期。
+
+
+  净利润指 Net profit attributable to equity holders of the Bank，单位为 $ million (ocbc-group_ar_2025_en, physical page 4, printed
+  page 2)：
+
+
+  | 年份 | 净利润 | 同比增长 |
+
+  |---|---|---|
+
+  | 2022 | 5,526 | — |
+
+  | 2023 | 7,021 | +27.1% |
+
+  | 2024 | 7,587 | +8.1% |
+
+  | 2025 | 7,422 | −2.2% |
+
+
+  - 2025 年的 −2% 与 MD&A 原文一致："Group net profit of $7.42 billion for 2025 was 2% below the record $7.59 billion in the previous
+  year." (ocbc-group_ar_2025_en, physical page 99, printed page 97)
+
+  - **2022 到 2025 年累计增长约 34.3%，年均复合增长率约 10.3%。** 这两个数字是我根据上表算出来的，年报里没有直接给出。
+
+
+  说明：
+
+  - 2022 年的数字是重述后的。原文脚注："2022 figures were restated with the adoption of Singapore Financial Reporting Standards (International)
+  17." 知识库里没有重述前的原始报告，所以拿不到原始数值。
+
+  - 四个年度的数值都有多个来源，彼此一致。
+
+
+  ---
+
+
+  ### 3. 华侨银行 2025 年的流动性覆盖率（LCR）是多少？
+
+
+  年报分两种口径披露 LCR (ocbc-group_ar_2025_en, physical page 98, printed page 96)：
+
+
+  | 口径 | 2025 | 2024 |
+
+  |---|---|---|
+
+  | 新加坡元 LCR（Singapore dollar LCR） | **294%** | 299% |
+
+  | 全币种 LCR（All-currency LCR） | **138%** | 141% |
+
+
+  - 脚注 (8)："The Group''s liquidity coverage ratios (LCR) are computed based on MAS Notice 649 and reported based on the average
+  LCR for the respective years." 也就是说，表中数字是全年平均值，不是年末时点值。
+
+  - 知识库的事实层没有收录 LCR，所以这两个数字是直接从 MAS 原文表格里读出来的。
+
+  - 年报附注里提到，按 MAS Notice 651 要求的完整 LCR 披露放在银行投资者关系网站的 Capital and Regulatory Disclosures 栏目，不在年报中。'

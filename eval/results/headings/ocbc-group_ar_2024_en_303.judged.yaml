@@ -1,0 +1,336 @@
+doc_id: ocbc-group_ar_2024_en
+seed: 303
+page_count: 284
+protocol: 'Round 2 T1.2 heading list on a seeded page sample. For each sampled physical page, list every heading that STARTS
+  a section on that page, as printed (eval/tree_rubric.md criterion 1: no body text, table row labels or column headers, chart
+  labels, captions, stat callouts, field labels, signatory names, running headers or ''(continued)'' repeats). Contents-page
+  entries are not headings of the contents page.'
+pages:
+- page: 3
+  headings: []
+  note: Contents page (no printed "Contents" title); intro tagline "OCBC is unique." is body text; contents entries are not
+    headings of this page.
+- page: 11
+  headings:
+  - title: Reiterating the Value of Operating as "One OCBC Group"
+    level: 2
+  note: Red stat-card labels (Record Total Income, Record Net Profit, Rewarding Shareholders, 60% Total Dividend Payout Ratio,
+    Capital return over 2 years) treated as stat callouts.
+- page: 17
+  headings:
+  - title: Appreciation
+    level: 2
+  note: Chart titles (Group Net Profit ($m), Dividend Payout Ratio, Dividend Per Share (cents)) and signatory excluded.
+- page: 20
+  headings: []
+  note: 'Doubtful: 40pt "Creating Value Through AI, Transforming for the Future" is printed again here, but the section already
+    started on p18 with the same title; treated as a repeat, not a new section start.'
+- page: 37
+  headings:
+  - title: Powering growth, guided by our corporate strategy
+    level: 3
+  - title: Reinforcing our strong and diversified funding position
+    level: 3
+  - title: Leveraging on technology to transform our capabilities
+    level: 3
+  - title: Appreciation and thoughts on the road ahead
+    level: 3
+  note: ''
+- page: 46
+  headings:
+  - title: Kenneth
+    level: 2
+  - title: Shoring up our capabilities for the future
+    level: 3
+  note: Profile heading is the name "Kenneth"; "Global Markets" under it is a job-title field label; quote excluded.
+- page: 48
+  headings:
+  - title: Praveen
+    level: 2
+  - title: A dedication to innovation and learning
+    level: 3
+  note: Profile heading is the name; "Group Operations and Technology" is a field label; quote excluded.
+- page: 56
+  headings:
+  - title: Directors’ Attendance at Board and Board Committee Meetings in 2024
+    level: 4
+  note: Underlined bold sub-heading (same style as "External Audit"); table column headers excluded. Grey "Corporate Governance"
+    is a running header.
+- page: 63
+  headings:
+  - title: 'Principle 8: Disclosure on Remuneration'
+    level: 3
+  - title: Directors’ and CEO’s Remuneration in 2024
+    level: 4
+  - title: Remuneration of Top Five Key Management Personnel in 2024
+    level: 4
+  - title: Remuneration of Directors’ and CEO’s Immediate Family
+    level: 4
+  - title: Remuneration of Substantial Shareholder’s Immediate Family
+    level: 4
+  note: 'Doubtful: "Bank" and "Subsidiaries" (9pt medium, not underlined) above the tables treated as table captions, not
+    headings.'
+- page: 66
+  headings:
+  - title: External Audit
+    level: 4
+  note: ''
+- page: 71
+  headings: []
+  note: 'Summary-of-disclosures table: "Provision 9.2", "Additional Guideline 1.17" etc. are table row labels; "Additional
+    Guidelines" is a column header.'
+- page: 77
+  headings:
+  - title: Capital Management
+    level: 2
+  - title: Capital Policy
+    level: 3
+  - title: Capital Monitoring and Planning
+    level: 3
+  - title: $2.5 billion Capital Return
+    level: 3
+  - title: Dividend
+    level: 3
+  - title: Share Buyback and Treasury Shares
+    level: 3
+  - title: Capital Adequacy Ratios
+    level: 3
+  note: ''
+- page: 81
+  headings: []
+  note: Full-page risk governance diagram; labels (Board Governance, Senior Management, ...) are chart labels.
+- page: 100
+  headings:
+  - title: Allowances and Asset Quality
+    level: 4
+  - title: Funding, Liquidity and Capital Position
+    level: 4
+  - title: Dividend
+    level: 4
+  note: '"Overview (continued)" is a continued repeat.'
+- page: 107
+  headings:
+  - title: Deposits
+    level: 3
+  note: 'Doubtful: "Non-Bank Deposits by Product" / "Non-Bank Deposits by Currency" are bold group rows inside the Deposits
+    table; treated as table row labels.'
+- page: 111
+  headings:
+  - title: Directors’ Statement
+    level: 3
+  - title: Directors
+    level: 4
+  - title: Arrangements to Enable Directors to Acquire Shares and Debentures
+    level: 4
+  note: Level 3 assumes the unprinted "Financial Statements" contents entry as level 2.
+- page: 118
+  headings: []
+  note: 'Doubtful: Key audit matters table; "Key Audit Matter" / "How Our Audit Addressed the Key Audit Matter" are column
+    headers and "Impairment of loans to customers" is the KAM row label inside the table.'
+- page: 123
+  headings:
+  - title: Other Information
+    level: 4
+  - title: Responsibilities of Management and Directors for the Financial Statements
+    level: 4
+  - title: Auditor’s Responsibilities for the Audit of the Financial Statements
+    level: 4
+  note: ''
+- page: 128
+  headings:
+  - title: Statement of Changes in Equity – Group
+    level: 3
+  note: Bold lines in the statement are table row labels.
+- page: 129
+  headings: []
+  note: Second page of the Group statement of changes in equity (2023 comparatives); only table rows.
+- page: 132
+  headings:
+  - title: Notes to the Financial Statements
+    level: 3
+  - title: 1. General
+    level: 4
+  - title: 2. Material Accounting Policy Information
+    level: 4
+  - title: 2.1 Basis of Preparation
+    level: 5
+  - title: 2.2 Basis of Consolidation
+    level: 5
+  - title: 2.2.1 Subsidiaries
+    level: 6
+  note: ''
+- page: 133
+  headings:
+  - title: 2.2.2 Structured Entities
+    level: 6
+  - title: 2.2.3 Associates and Joint Ventures
+    level: 6
+  note: ''
+- page: 140
+  headings:
+  - title: 2.11.4 Movement Between Stages
+    level: 7
+  - title: 2.11.5 Regulatory Requirement
+    level: 7
+  - title: (II) Other Assets
+    level: 6
+  - title: 2.11.6 Goodwill
+    level: 7
+  note: (I)/(II) treated as the level between 2.11 and 2.11.x.
+- page: 141
+  headings:
+  - title: 2.11.7 Investments in Subsidiaries and Associates Property, Plant and Equipment Investment Property Intangible
+      Assets
+    level: 7
+  - title: 2.12 Financial Liabilities
+    level: 5
+  - title: 2.13 Insurance and Reinsurance Contracts
+    level: 5
+  - title: 2.13.1 Definition and Classification
+    level: 6
+  note: 'Doubtful: 2.11.7 heading is printed on four stacked lines (one item per line); joined as one heading.'
+- page: 144
+  headings:
+  - title: 2.13.6 Measurement
+    level: 6
+  - title: 2.13.6.1 Measurement – Contracts Not Measured Under the PAA
+    level: 7
+  - title: 2.13.6.2 Fulfilment Cash Flows (FCF)
+    level: 7
+  - title: 2.13.6.3 Contractual Service Margin
+    level: 7
+  note: ''
+- page: 149
+  headings:
+  - title: Net Income/(Expenses) from Reinsurance Contracts Held
+    level: 7
+  - title: Insurance Finance Income or Expenses
+    level: 7
+  note: Underlined sub-headings under 2.13.9; "Insurance service expenses (continued)" excluded.
+- page: 151
+  headings:
+  - title: Lease Liabilities
+    level: 7
+  - title: Short-Term Leases and Low-Value Assets
+    level: 7
+  - title: 2.15.2 As Lessor
+    level: 6
+  - title: 2.16 Recognition of Income and Expense
+    level: 5
+  - title: 2.16.1 Interest Income and Expense
+    level: 6
+  - title: 2.16.2 Fees and Commissions
+    level: 6
+  - title: 2.16.3 Dividends
+    level: 6
+  - title: 2.16.4 Employee Benefits
+    level: 6
+  note: ''
+- page: 173
+  headings:
+  - title: 19. Other Liabilities
+    level: 4
+  - title: 20. Deferred Tax
+    level: 4
+  note: ''
+- page: 181
+  headings: []
+  note: 22.1 heading is "(continued)"; rest are table row labels.
+- page: 201
+  headings: []
+  note: Note 34 continued; only table row labels.
+- page: 204
+  headings:
+  - title: Impairment Tests for Goodwill
+    level: 5
+  note: '"Cash Generating Units" is a table column header.'
+- page: 210
+  headings:
+  - title: Analysed by Geography
+    level: 6
+  note: 'Doubtful: bold sub-heading heading a table-only block (same style as other 38.2 sub-headings); GROUP/BANK are table
+    labels.'
+- page: 212
+  headings:
+  - title: Loans Past Due But Not Impaired
+    level: 6
+  - title: Collateral and Other Credit Enhancements Obtained
+    level: 6
+  - title: Country Risk
+    level: 6
+  - title: 38.3 Market Risk and Asset Liability Management
+    level: 5
+  - title: Interest Rate Risk
+    level: 6
+  note: '"Past due" / "Past due but not impaired" are table rows.'
+- page: 243
+  headings:
+  - title: 39. Financial Assets and Financial Liabilities Classification
+    level: 4
+  note: ''
+- page: 253
+  headings: []
+  note: Note 40.3 continued; "Financial liabilities measured at fair value" is a table row label.
+- page: 265
+  headings:
+  - title: Substantial Shareholders
+    level: 3
+  note: Under Shareholding Statistics (started p264).
+- page: 269
+  headings:
+  - title: Dr Lee Tih Shih (61)
+    level: 3
+  - title: Mr Lian Wee Cheow (64)
+    level: 3
+  note: 'Doubtful: bold bio labels (Other Directorships..., Academic and Professional Qualifications, etc.) treated as repeated
+    field labels, not headings.'
+- page: 270
+  headings:
+  - title: Mr Seck Wai Kwong (69)
+    level: 3
+  note: Bio field labels excluded (see p269).
+- page: 271
+  headings:
+  - title: Mr Pramukti Surjaudaja (62)
+    level: 3
+  - title: Ms Tan Yen Yen (59)
+    level: 3
+  note: Bio field labels excluded (see p269).
+- page: 279
+  headings:
+  - title: East Asia
+    level: 3
+  - title: Japan
+    level: 4
+  - title: South Korea
+    level: 4
+  - title: Greater China
+    level: 3
+  - title: China
+    level: 4
+  - title: Hong Kong SAR
+    level: 4
+  - title: Macau SAR
+    level: 4
+  - title: Taiwan
+    level: 4
+  - title: North America
+    level: 3
+  - title: United States of America
+    level: 4
+  - title: Oceania
+    level: 3
+  - title: Australia
+    level: 4
+  - title: Europe
+    level: 3
+  - title: United Kingdom
+    level: 4
+  - title: Luxembourg
+    level: 4
+  - title: Middle East
+    level: 3
+  - title: United Arab Emirates
+    level: 4
+  note: 'Doubtful: directory page; red region names and bold country names treated as section headings of the directory; entity/branch
+    names are entries, not headings.'

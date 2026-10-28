@@ -1,0 +1,24 @@
+# Held-out spellings (p2-design §3.2, D34, D35): spellings deliberately kept out of the concept table, to test the system on wording it has never seen.
+# Checked when loading the concept table (pipeline.concepts.load_spec): it is an error if any concept-table spelling (variants / query_only / row_labels) recognises a held-out spelling.
+# Held-out spellings are proposed by the subagent that writes the eval questions; the subagent drafting the concept table cannot see this list.
+# Fields: term, lang, official (the official spelling in the annual report), question_id (the matching eval question), added_by, added_on.
+terms:
+  - {term: cost-income ratio, lang: en, official: {en: cost-to-income ratio, zh: 支出收入比例}, question_id: v01, added_by: P1 goldA, added_on: 2026-10-16}
+  - {term: 每股分红, lang: zh, official: {en: dividend per share, zh: 每股股息}, question_id: v06, added_by: P1 goldA, added_on: 2026-10-16}
+  - {term: bad loans ratio, lang: en, official: {en: NPL ratio, zh: 不良贷款率}, question_id: v10, added_by: P1 goldA, added_on: 2026-10-16}
+  - {"term": "book value per share", "lang": "en", "official": {"en": "net asset value per ordinary share", "zh": "每普通股资产净值"}, "question_id": "h01", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "Tier 1 ratio", "lang": "en", "official": {"en": "Tier 1 capital adequacy ratio (Tier 1 CAR)", "zh": "一级资本充足率"}, "question_id": "h04", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "cost of risk", "lang": "en", "official": {"en": "credit costs", "zh": "信贷成本"}, "question_id": "h05", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "fee revenue", "lang": "en", "official": {"en": "net fee income / fees and commissions (net)", "zh": "收费和佣金(净值)"}, "question_id": "h06", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "employee costs", "lang": "en", "official": {"en": "staff costs", "zh": "员工成本"}, "question_id": "h07", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "非息收入", "lang": "zh", "official": {"en": "non-interest income", "zh": "非利息收入"}, "question_id": "h09", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "营业收入", "lang": "zh", "official": {"en": "total income", "zh": "总收入"}, "question_id": "h10", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "利润总额", "lang": "zh", "official": {"en": "profit before income tax", "zh": "税前盈利"}, "question_id": "h11", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "分红比例", "lang": "zh", "official": {"en": "(total) dividend payout ratio", "zh": "派息率"}, "question_id": "h12", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "员工人数", "lang": "zh", "official": {"en": "Group staff strength (period end)"}, "question_id": "h14", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "loan loss provisions", "lang": "en", "official": {"en": "allowances for loans and other assets (total allowances)", "zh": "贷款与其他资产准备金"}, "question_id": "h15", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "tax bill", "lang": "en", "official": {"en": "income tax expense", "zh": "所得税支出"}, "question_id": "h16", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "earnings from associates", "lang": "en", "official": {"en": "share of results of associates, net of tax", "zh": "扣除税务后的联号企业业绩分享"}, "question_id": "h17", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "拨备前利润", "lang": "zh", "official": {"en": "operating profit before allowances and amortisation", "zh": "扣除准备金与摊销前的营运盈利"}, "question_id": "h18", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "业务及管理费", "lang": "zh", "official": {"en": "operating expenses", "zh": "营运支出"}, "question_id": "h19", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}
+  - {"term": "存款规模", "lang": "zh", "official": {"en": "deposits of non-bank customers (customer deposits)", "zh": "非银行客户存款"}, "question_id": "h20", "added_by": "P2-2 subagent B", "added_on": "2026-10-19"}

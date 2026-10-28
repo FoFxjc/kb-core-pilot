@@ -1,0 +1,872 @@
+doc_id: ocbc-group_ar_2025_en
+seed: 101
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2025_en:regions:0049
+  title: Appreciation
+  origin: heading
+  pages:
+  - 15
+  - 15
+  printed_pages:
+  - '13'
+  - '13'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0041
+    title: Dear Fellow Shareholders,
+    pages:
+    - 12
+    - 15
+  start_page_text: 'Appreciation 2025’s results are the outcome of the dedication and resilience of all our colleagues across
+    OCBC Group. Their commitment to servicing customers, managing risks responsibly and executing '
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Title on p15 (10pt bold). Parent is the 16pt bold opening line of the Group CEO letter (p12-15), which encloses
+    Appreciation; no intermediate heading in between.
+- node_id: ocbc-group_ar_2025_en:regions:0064
+  title: Tech Shift
+  origin: heading
+  pages:
+  - 18
+  - 18
+  printed_pages:
+  - '16'
+  - '16'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0061
+    title: Powering Shifts, Accelerating Growth
+    pages:
+    - 18
+    - 19
+  start_page_text: Powering Shifts, Accelerating Growth Megatrends are shifting the frontier. We will ride them to power our
+    four strategic shifts. Asia Shift Franchise Shift Tech Shift Net-Zero Shift Capture ASEAN-Grea
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: 17pt heading on p18; ends on p18 (p19 opens with a new 16pt heading); parent is the p18 page title.
+- node_id: ocbc-group_ar_2025_en:regions:0072
+  title: Pushing the Envelope with Agentic AI
+  origin: heading
+  pages:
+  - 20
+  - 20
+  printed_pages:
+  - '18'
+  - '18'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0071
+    title: Driving Customer Centricity Through AI, Digital and Data
+    pages:
+    - 20
+    - 21
+  start_page_text: Driving Customer Centricity Through AI, Digital and Data Generic customer recommendations will soon become
+    a thing of the past at OCBC. We will harness artificial intelligence (AI), Digital and Data h
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: 13pt heading on p20; "Humanising AI, Digital and Data" opens p21 column 1, so it ends on p20.
+- node_id: ocbc-group_ar_2025_en:regions:0078
+  title: Opening of OCBC Malaysia Online Bank Account Using Singpass
+  origin: heading
+  pages:
+  - 21
+  - 21
+  printed_pages:
+  - '19'
+  - '19'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0074
+    title: Impactful Use Cases of AI, Digital and Data
+    pages:
+    - 21
+    - 21
+  start_page_text: Humanising AI, Digital and Data While AI, Digital and Data hold immense promise and the potential to reshape
+    entire industries, they also present a double-edged sword. Many of today’s roles may evolve
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: 10pt bold heading in the "Impactful Use Cases" column on p21; the parent is right.
+- node_id: ocbc-group_ar_2025_en:regions:0090
+  title: Islamic Banking
+  origin: heading
+  pages:
+  - 23
+  - 23
+  printed_pages:
+  - '21'
+  - '21'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0080
+    title: The Power of One Group
+    pages:
+    - 22
+    - 23
+  start_page_text: Co-creating Better Value for Customers with Great Eastern OCBC launched two successful programmes for key
+    customer segments in the past two years, leveraging Great Eastern’s strengths to deliver enhan
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Red panel heading on p23 with its own paragraph. The panel has no heading of its own, so its nearest enclosing
+    heading is The Power of One Group.
+- node_id: ocbc-group_ar_2025_en:regions:0113
+  title: Seeding Hope for the Future
+  origin: toc
+  pages:
+  - 30
+  - 31
+  printed_pages:
+  - '28'
+  - '29'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0096
+    title: Connecting People and Purpose
+    pages:
+    - 26
+    - 33
+  start_page_text: Seeding Hope for the Future Continuing our commitment to nature‑based climate solutions, we are advancing
+    the restoration of marine and coastal ecosystems while supporting biodiversity conservation an
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Page title on p30. It runs to p31, and Living Active starts on p32. The parent is a contents group title, which
+    kb accepts.
+- node_id: ocbc-group_ar_2025_en:regions:0164
+  title: More than
+  origin: heading
+  pages:
+  - 45
+  - 45
+  printed_pages:
+  - '43'
+  - '43'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0161
+    title: Consumer Banking
+    pages:
+    - 44
+    - 45
+  start_page_text: to empower seniors to age well. We are committing over $2 million to benefit more than 180,000 seniors
+    over three years. We introduced OCBC CARE Ambassadors at select branches – who are fluent in mult
+  verdict: wrong
+  note: 'Title: ''More than'' is a stat-callout label (''More than 30%'') in the p45 sidebar, not a heading.'
+  rubric_verdict: wrong
+  rubric_note: 'Title: "More than" is the label of a stat callout ("More than 30%") on p45, not a heading.'
+- node_id: ocbc-group_ar_2025_en:regions:0196
+  title: • Audit Committee
+  origin: heading
+  pages:
+  - 54
+  - 54
+  printed_pages:
+  - '52'
+  - '52'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0189
+    title: 'Principle 1: The Board’s Conduct of Affairs'
+    pages:
+    - 52
+    - 57
+  start_page_text: The Committee has written terms of reference that describe the responsibilities of its members. The Nominating
+    Committee plans for board succession and ensures that only the most competent individuals
+  verdict: correct
+  note: 'Doubt on parent: the committee bullets sit under the ''Board Committees'' sub-heading (p53, inside Principle 1);
+    not visible as a node here, and placement under Principle 1 is natural.'
+  rubric_verdict: wrong
+  rubric_note: 'Parent: this bullet is a list item under the "Board Committees" sub-heading (Roboto-Medium, p53 col 2) inside
+    Principle 1. The tree hangs it directly under Principle 1 and skips that heading, which is the rubric''s own example.
+    Earlier verdict was correct.'
+- node_id: ocbc-group_ar_2025_en:regions:0197
+  title: • Risk Management Committee
+  origin: heading
+  pages:
+  - 54
+  - 55
+  printed_pages:
+  - '52'
+  - '53'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0189
+    title: 'Principle 1: The Board’s Conduct of Affairs'
+    pages:
+    - 52
+    - 57
+  start_page_text: The Committee has written terms of reference that describe the responsibilities of its members. The Nominating
+    Committee plans for board succession and ensures that only the most competent individuals
+  verdict: correct
+  note: 'Doubt on parent: as for Audit Committee (''Board Committees'' sub-heading on p53 is the more specific parent if it
+    is a node).'
+  rubric_verdict: wrong
+  rubric_note: 'Parent: skips the "Board Committees" sub-heading (p53) and hangs directly under Principle 1, which is the
+    rubric example. Pages 54-55 are right because the text continues to the Ethics bullet on p55. Earlier verdict was correct.'
+- node_id: ocbc-group_ar_2025_en:regions:0199
+  title: • Ethics and Conduct Committee
+  origin: heading
+  pages:
+  - 55
+  - 55
+  printed_pages:
+  - '53'
+  - '53'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0189
+    title: 'Principle 1: The Board’s Conduct of Affairs'
+    pages:
+    - 52
+    - 57
+  start_page_text: have the relevant technical financial expertise in risk disciplines or businesses to discharge their responsibilities.
+    Mr Chua Kim Chiu, Mr Lian Wee Cheow and Ms Tan Yen Yen also serve on the Audit Co
+  verdict: correct
+  note: 'Doubt on parent: as for Audit Committee (''Board Committees'' sub-heading on p53 is the more specific parent if it
+    is a node).'
+  rubric_verdict: wrong
+  rubric_note: 'Parent: skips the "Board Committees" sub-heading (p53) and hangs directly under Principle 1, which is the
+    rubric example. Earlier verdict was correct.'
+- node_id: ocbc-group_ar_2025_en:regions:0213
+  title: • OCBC Deferred Share Plan
+  origin: heading
+  pages:
+  - 62
+  - 62
+  printed_pages:
+  - '60'
+  - '60'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0208
+    title: 'Principle 7: Level and Mix of Remuneration Compensation for Non-Executive Directors'
+    pages:
+    - 60
+    - 62
+  start_page_text: • OCBC Deferred Share Plan The OCBC Deferred Share Plan (the Plan) aims to increase the performance-orientation
+    and retention factor in compensation packages of executives, and foster an ownership cul
+  verdict: correct
+  note: 'Doubt on parent: there is a ''Share Schemes'' sub-heading (p61) inside Principle 7 that would be the more specific
+    parent if it is a node; placement under Principle 7 is still natural.'
+  rubric_verdict: wrong
+  rubric_note: 'Parent: this bullet is a list item under the "Share Schemes" sub-heading (Roboto-Medium, p61 col 2), with
+    the same pattern as "OCBC Share Option Scheme 2001". The tree hangs it directly under Principle 7 and skips that real
+    intermediate heading. Earlier verdict was correct.'
+- node_id: ocbc-group_ar_2025_en:regions:0216
+  title: Remuneration of Top Five Key Management Personnel in 2025
+  origin: heading
+  pages:
+  - 63
+  - 63
+  printed_pages:
+  - '61'
+  - '61'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0215
+    title: 'Principle 8: Disclosure on Remuneration'
+    pages:
+    - 63
+    - 64
+  start_page_text: 'Principle 8: Disclosure on Remuneration The following disclosures should be read in conjunction with the
+    remuneration policies, practices and share plans as described under Principles 6 and 7. Directo'
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Medium sub-heading in column 3 of p63, under Principle 8. The next sub-heading follows on the same page.
+- node_id: ocbc-group_ar_2025_en:regions:0217
+  title: Directors’ and CEO’s Remuneration in 2025
+  origin: heading
+  pages:
+  - 63
+  - 63
+  printed_pages:
+  - '61'
+  - '61'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0215
+    title: 'Principle 8: Disclosure on Remuneration'
+    pages:
+    - 63
+    - 64
+  start_page_text: 'Principle 8: Disclosure on Remuneration The following disclosures should be read in conjunction with the
+    remuneration policies, practices and share plans as described under Principles 6 and 7. Directo'
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Medium sub-heading on p63, under Principle 8. Top Five starts in column 3 of the same page.
+- node_id: ocbc-group_ar_2025_en:regions:0219
+  title: Remuneration of Substantial Shareholder’s Immediate Family
+  origin: heading
+  pages:
+  - 63
+  - 63
+  printed_pages:
+  - '61'
+  - '61'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0215
+    title: 'Principle 8: Disclosure on Remuneration'
+    pages:
+    - 63
+    - 64
+  start_page_text: 'Principle 8: Disclosure on Remuneration The following disclosures should be read in conjunction with the
+    remuneration policies, practices and share plans as described under Principles 6 and 7. Directo'
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Medium sub-heading in column 3 of p63. p64 opens with the next sub-heading, so it ends on p63.
+- node_id: ocbc-group_ar_2025_en:regions:0227
+  title: External Audit
+  origin: heading
+  pages:
+  - 66
+  - 66
+  printed_pages:
+  - '64'
+  - '64'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0226
+    title: 'Principle 10: Audit Committee'
+    pages:
+    - 65
+    - 67
+  start_page_text: External Audit The Audit Committee has received the requisite disclosures from the current external auditor
+    evidencing its independence. It is satisfied that the financial, professional and business r
+  verdict: wrong
+  note: 'Pages: ''External Audit'' (p66) continues onto p67 (the key audit matters bullets, left column) until ''Internal
+    Audit'' starts in the right column of p67; end should be 67, not 66.'
+  rubric_verdict: wrong
+  rubric_note: 'Pages: External Audit (p66) continues through the key audit matter bullets in column 1 of p67, until "Internal
+    Audit" starts in column 2 of p67. The end page should be 67, not 66.'
+- node_id: ocbc-group_ar_2025_en:regions:0234
+  title: Shareholder Rights and Engagement
+  origin: heading
+  pages:
+  - 68
+  - 68
+  printed_pages:
+  - '66'
+  - '66'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0187
+    title: Corporate Governance
+    pages:
+    - 52
+    - 71
+  start_page_text: 'Shareholder Rights and Engagement Principle 11: Shareholder Rights and Conduct of General Meetings OCBC
+    is committed to fostering regular, effective and fair communication with its shareholders. The B'
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: 13pt heading on p68. "Managing Stakeholders Relationships" opens p69, so it ends on p68. Its parent is Corporate
+    Governance.
+- node_id: ocbc-group_ar_2025_en:regions:0244
+  title: Capital Management
+  origin: toc
+  pages:
+  - 77
+  - 78
+  printed_pages:
+  - '75'
+  - '76'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0186
+    title: Governance
+    pages:
+    - 52
+    - 95
+  start_page_text: Capital Management Capital Policy The key objective of the Group’s capital management policy is to maintain
+    a strong capital position to support business growth and strategic investments, and to susta
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Page title on p77. It runs to p78, and Pillar 3 starts on p79 (printed 77). The parent is a contents group
+    title, which kb accepts.
+- node_id: ocbc-group_ar_2025_en:regions:0261
+  title: 'Table 2: Three Lines of Defence'
+  origin: heading
+  pages:
+  - 86
+  - 86
+  printed_pages:
+  - '84'
+  - '84'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0260
+    title: Three Lines of Defence
+    pages:
+    - 86
+    - 86
+  start_page_text: Business Plan Demand for Risk and Financial Resources to meet our business objectives Risk Appetite Level
+    and nature of risk deemed acceptable while ensuring a sufficient buffer in the Risk and Financ
+  verdict: wrong
+  note: 'Title: ''Table 2: Three Lines of Defence'' is a table caption under the heading ''Three Lines of Defence'', not a
+    section heading.'
+  rubric_verdict: wrong
+  rubric_note: 'Title: "Table 2: Three Lines of Defence" is a table caption on p86, not a heading.'
+- node_id: ocbc-group_ar_2025_en:regions:0273
+  title: IRB Models and Portfolios
+  origin: heading
+  pages:
+  - 89
+  - 89
+  printed_pages:
+  - '87'
+  - '87'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0271
+    title: • Portfolio Modelling
+    pages:
+    - 88
+    - 89
+  start_page_text: 'Table 4: Key Components of Internal Ratings-Based (IRB) Models IRB Models and Portfolios PD LGD and EAD
+    A-IRB approach overs major retail portfolios such as residential mortgages, credit cards, auto l'
+  verdict: wrong
+  note: 'Title: ''IRB Models and Portfolios'' is a column header inside Table 4 on p89, not a heading.'
+  rubric_verdict: wrong
+  rubric_note: 'Title: "IRB Models and Portfolios" is a column header in Table 4 on p89.'
+- node_id: ocbc-group_ar_2025_en:regions:0295
+  title: Operational Risk Management Approach
+  origin: heading
+  pages:
+  - 93
+  - 94
+  printed_pages:
+  - '91'
+  - '92'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0294
+    title: Operational Risk Management
+    pages:
+    - 93
+    - 94
+  start_page_text: 'These equity investments (excluding those held by GEH) form an insignificant portion of our overall securities
+    portfolio. Liquidity Risk Management Liquidity risk is the risk of the Bank being unable '
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Heading at the top of column 2 on p93. It continues to p94, where the 13pt "Information Security And Digital
+    Risk Management" heading appears. The parent is right.
+- node_id: ocbc-group_ar_2025_en:regions:0311
+  title: Collaboration with Regulators and Industry Partners
+  origin: heading
+  pages:
+  - 95
+  - 95
+  printed_pages:
+  - '93'
+  - '93'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0307
+    title: • Other Key Aspects of Information Security & Digital Risk Management
+    pages:
+    - 95
+    - 95
+  start_page_text: Our information security and digital risk framework is supported by a comprehensive set of policies, processes,
+    and controls that guide the governance and management of associated risks. We continue t
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Roboto-Regular sub-heading (body text is Light) on p95, under the "Other Key Aspects ..." bullet heading. It
+    ends on p95, before the Financial Report divider.
+- node_id: ocbc-group_ar_2025_en:regions:0333
+  title: Global Markets
+  origin: heading
+  pages:
+  - 109
+  - 109
+  printed_pages:
+  - '107'
+  - '107'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0329
+    title: Performance by Business Segment
+    pages:
+    - 108
+    - 109
+  start_page_text: Performance by Business Segment (continued) Global Markets Global Markets is responsible for the management
+    of the Group’s asset and liability interest rate positions, engages in foreign exchange acti
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Heading on p109 under "Performance by Business Segment (continued)". Insurance follows on the same page.
+- node_id: ocbc-group_ar_2025_en:regions:0336
+  title: Performance by Geographical Segment
+  origin: heading
+  pages:
+  - 110
+  - 110
+  printed_pages:
+  - '108'
+  - '108'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0314
+    title: Management Discussion and Analysis
+    pages:
+    - 96
+    - 110
+  start_page_text: Performance by Geographical Segment 2025 2024 $ million % $ million % Total income Singapore 8,644 59 8,913
+    62 Malaysia 1,860 13 1,655 11 Indonesia 1,054 7 1,085 8 Greater China 2,008 14 1,863 13 Othe
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: 13pt heading on p110. Its sibling "Capital Adequacy Ratios" follows on p110. The parent is MD&A.
+- node_id: ocbc-group_ar_2025_en:regions:0367
+  title: Statement of Changes in Equity – Bank
+  origin: subtoc
+  pages:
+  - 130
+  - 130
+  printed_pages:
+  - '128'
+  - '128'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0338
+    title: Financial Statements
+    pages:
+    - 111
+    - 255
+  start_page_text: In $ million Share capital and other equity Capital reserves (1) Fair value reserves Revenue reserves Total
+    equity At 1 January 2025 19,794 534 (225) 21,929 42,032 Profit for the year – – – 5,099 5,09
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Page title on p130 (printed 128). The cash flow statement starts on p131. The parent is Financial Statements.
+- node_id: ocbc-group_ar_2025_en:regions:0375
+  title: 2.4 Cash and Cash Equivalents
+  origin: subnote
+  pages:
+  - 134
+  - 134
+  printed_pages:
+  - '132'
+  - '132'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0371
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.3 Currency Translation 2.3.1 Foreign Currency Transactions
+    Transactions in foreign currencies are recorded in the respective functional currenci
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Note 2.4 on p134. Note 2.5 follows on the same page.
+- node_id: ocbc-group_ar_2025_en:regions:0388
+  title: 2.17 Income Tax Expense
+  origin: subnote
+  pages:
+  - 151
+  - 151
+  printed_pages:
+  - '149'
+  - '149'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0371
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.15 Leases (continued) 2.15.2 As Lessor Rental income
+    on tenanted areas of the buildings owned by the Group is recognised in the income statement
+  verdict: wrong
+  note: 'Pages: 2.17 Income Tax Expense starts on p151 (right column) and continues on p152 (''2.17 Income Tax Expense (continued)'')
+    until 2.18 Fiduciary Activities; end should be 152, not 151.'
+  rubric_verdict: wrong
+  rubric_note: 'Pages: 2.17 starts in column 2 of p151 and continues on p152 ("Income Tax Expense (continued)") until 2.18
+    Fiduciary Activities in column 2. The end page should be 152.'
+- node_id: ocbc-group_ar_2025_en:regions:0404
+  title: 13.1 Share Capital
+  origin: subnote
+  pages:
+  - 163
+  - 163
+  printed_pages:
+  - '161'
+  - '161'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0403
+    title: 13. Share Capital
+    pages:
+    - 163
+    - 165
+  start_page_text: '13. Share Capital 13.1 Share Capital Shares (million) 2025 2024 GROUP AND BANK Ordinary shares At 1 January
+    4,515 4,515 Cancellation of shares (14) – Shares issued to non-executive directors # # At 31'
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Note 13.1 on p163. Note 13.2 follows on the same page.
+- node_id: ocbc-group_ar_2025_en:regions:0413
+  title: 16.3 Cash Flow and Other Hedge Reserves
+  origin: subnote
+  pages:
+  - 170
+  - 170
+  printed_pages:
+  - '168'
+  - '168'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0410
+    title: 16. Revenue Reserves
+    pages:
+    - 168
+    - 170
+  start_page_text: 16. Revenue Reserves (continued) 16.2 General Reserves GROUP BANK $ million 2025 2024 2025 2024 At 1 January
+    1,246 1,317 1,415 1,412 DSP reserve from dividends on unvested shares – 16 – 16 Net insuran
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Note 16.3 on p170. Note 16.4 follows on the same page.
+- node_id: ocbc-group_ar_2025_en:regions:0432
+  title: 23. Cash and Placements with Central Banks
+  origin: note
+  pages:
+  - 186
+  - 186
+  printed_pages:
+  - '184'
+  - '184'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0369
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: '22. Assets and Liabilities for Life Insurance Funds (continued) 22.5 Expected Recognition of the Contractual
+    Service Margin for Life Insurance Contracts Issued $ million Less than 1 year 1 to 2 years '
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Note 23 starts at y236 on p186. Note 24 opens p187.
+- node_id: ocbc-group_ar_2025_en:regions:0433
+  title: 24. Government Treasury Bills and Securities
+  origin: note
+  pages:
+  - 187
+  - 187
+  printed_pages:
+  - '185'
+  - '185'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0369
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: 24. Government Treasury Bills and Securities GROUP BANK $ million 2025 2024 2025 2024 Singapore government
+    treasury bills and securities 21,506 14,316 20,451 13,182 Other government treasury bills and
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Note 24 on p187. Note 25 follows on the same page.
+- node_id: ocbc-group_ar_2025_en:regions:0440
+  title: 31. Other Assets
+  origin: note
+  pages:
+  - 197
+  - 197
+  printed_pages:
+  - '195'
+  - '195'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0369
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: 31. Other Assets GROUP BANK $ million 2025 2024 2025 2024 Interest receivable 2,374 2,254 1,796 1,718 Sundry
+    debtors (net) 1,586 1,092 418 142 Deposits and prepayments 1,777 2,031 1,278 1,357 Others 3
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Note 31 on p197. Note 32 follows on the same page.
+- node_id: ocbc-group_ar_2025_en:regions:0448
+  title: 33.3 Consolidated Structured Entities
+  origin: subnote
+  pages:
+  - 201
+  - 201
+  printed_pages:
+  - '199'
+  - '199'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0445
+    title: 33. Subsidiaries
+    pages:
+    - 199
+    - 201
+  start_page_text: 33. Subsidiaries (continued) 33.2 Non-Controlling Interests in Subsidiaries The following table summarises
+    the financial information, before intercompany eliminations, relating to principal subsidiari
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Note 33.3 on p201. Note 34 opens p202.
+- node_id: ocbc-group_ar_2025_en:regions:0455
+  title: 38. Risk Management
+  origin: note
+  pages:
+  - 210
+  - 234
+  printed_pages:
+  - '208'
+  - '232'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0369
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: '38. Risk Management 38.1 Overview Risk ownership is a shared responsibility between the business units
+    and risk functions as well as other support functions. The Group’s leadership actively fosters a '
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Note 38 runs p210-234. Note 39 opens p235.
+- node_id: ocbc-group_ar_2025_en:regions:0478
+  title: Class of Shares
+  origin: heading
+  pages:
+  - 256
+  - 256
+  printed_pages:
+  - '254'
+  - '254'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0477
+    title: Shareholding Statistics
+    pages:
+    - 256
+    - 257
+  start_page_text: Shareholding Statistics As at 25 February 2026 Class of Shares Ordinary Shares Voting Rights One vote per
+    share (other than treasury shares and subsidiary holdings, which are treated as having no voti
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: 13pt heading on p256 under Shareholding Statistics.
+- node_id: ocbc-group_ar_2025_en:regions:0483
+  title: Five-Year Ordinary Share Capital History
+  origin: toc
+  pages:
+  - 258
+  - 258
+  printed_pages:
+  - '256'
+  - '256'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0313
+    title: Financials
+    pages:
+    - 96
+    - 258
+  start_page_text: 'Number of ordinary shares (million) Year Particulars Issued Held in treasury In circulation 2021 Shares
+    issued to non-executive directors # Shares issued in lieu of dividend 32 Issue of shares pursuan'
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Page title on p258, a single page.
+- node_id: ocbc-group_ar_2025_en:regions:0497
+  title: Our Management – Biographies
+  origin: toc
+  pages:
+  - 265
+  - 269
+  printed_pages:
+  - '263'
+  - '267'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0484
+    title: Know More About OCBC
+    pages:
+    - 259
+    - 271
+  start_page_text: Our Management – Biographies Mr Tan Teck Long Group Chief Executive Officer Mr Tan Teck Long was appointed
+    Group Chief Executive Officer of OCBC on 1 January 2026. Mr Tan is also Board Commissioner of
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Page title on p265. It runs to p269, and the Presence directory starts on p270.
+- node_id: ocbc-group_ar_2025_en:regions:0515
+  title: Ms Elaine Heng
+  origin: heading
+  pages:
+  - 267
+  - 267
+  printed_pages:
+  - '265'
+  - '265'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0497
+    title: Our Management – Biographies
+    pages:
+    - 265
+    - 269
+  start_page_text: this appointment, she joined Bank NISP as a Director in 1990 and served as a Deputy President Director
+    from 1997. Ms Surjaudaja, who has more than 35 years of experience in the banking industry, has l
+  verdict: correct
+  note: Biography entry heading (13pt bold name heading), not a field label; Ms Elaine Lam starts later on the same page.
+  rubric_verdict: correct
+  rubric_note: 13pt name heading in column 2 of p267. Ms Elaine Lam follows on the same page.
+- node_id: ocbc-group_ar_2025_en:regions:0550
+  title: Great Eastern Holdings Limited
+  origin: heading
+  pages:
+  - 270
+  - 270
+  printed_pages:
+  - '268'
+  - '268'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0548
+    title: Singapore
+    pages:
+    - 270
+    - 270
+  start_page_text: 'OCBC’s Presence in ASEAN, Greater China and Beyond Southeast Asia Singapore OCBC Bank Limited Head Office
+    63 Chulia Street #10-00 OCBC Centre East Singapore 049514 Tel: (65) 6363 3333 Fax: (65) 6534 3'
+  verdict: wrong
+  note: 'Title: 7pt bold entity name in the address directory (one of three company names sharing one address block), a list
+    entry label, not a section heading. (Some doubt: these are visually distinct labels, but they are the same size as body
+    text.)'
+  rubric_verdict: wrong
+  rubric_note: 'Title: a 7pt bold entity name in the address directory (a list entry under the country heading "Singapore"),
+    not a section heading.'
+- node_id: ocbc-group_ar_2025_en:regions:0552
+  title: Great Eastern Financial Advisers Private Limited
+  origin: heading
+  pages:
+  - 270
+  - 270
+  printed_pages:
+  - '268'
+  - '268'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0548
+    title: Singapore
+    pages:
+    - 270
+    - 270
+  start_page_text: 'OCBC’s Presence in ASEAN, Greater China and Beyond Southeast Asia Singapore OCBC Bank Limited Head Office
+    63 Chulia Street #10-00 OCBC Centre East Singapore 049514 Tel: (65) 6363 3333 Fax: (65) 6534 3'
+  verdict: wrong
+  note: 'Title: 7pt bold entity name in the address directory, a list entry label, not a section heading. (Some doubt: these
+    are visually distinct labels, but they are the same size as body text.)'
+  rubric_verdict: wrong
+  rubric_note: 'Title: a 7pt bold entity name in the address directory (a list entry), not a section heading.'
+- node_id: ocbc-group_ar_2025_en:regions:0595
+  title: Middle East
+  origin: heading
+  pages:
+  - 271
+  - 271
+  printed_pages:
+  - '269'
+  - '269'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0530
+    title: OCBC’s Presence in ASEAN, Greater China and Beyond
+    pages:
+    - 270
+    - 271
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: correct
+  note: ''
+  rubric_verdict: correct
+  rubric_note: Red region heading on p271, directly under the page title "OCBC's Presence ...".
+rubric_score: 29/40

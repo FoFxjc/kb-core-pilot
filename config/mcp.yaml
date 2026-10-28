@@ -1,0 +1,71 @@
+# MCP server text: instructions, usage rules appended to every tool description, and tool descriptions.
+# Copied from kb service/app.py (RULES_COMMON and the @mcp.tool descriptions); issuer-specific wording lives
+# here, not in src/. Edit this file to adapt the agent rules to another library.
+version: 1
+server_name: kb-core
+instructions: 'OCBC 2023-2025 Chinese and English annual report retrieval: for values and trends, use get_metric_series
+  (facts) first; search finds candidate sections -> browse shows the table of contents -> read reads the source text and
+  cites page numbers.'
+rules: 'Usage rules:
+
+  1. Results in the text, structure and link layers are only leads; before citing any number from them, you must verify
+  it against the source text with read. Page numbers in search results are only leads and cannot be cited directly as the
+  source; if you mention a page you have not read, say explicitly "not read" and do not give numbers from it.
+
+  2. When citing a number, also give its source: document (doc_id), physical page and printed page, always written as "(ocbc-group_ar_2025_en,
+  physical page 105, printed page 103)".
+
+  3. When results are empty or few, check scope.hit_counts_unfiltered and gaps before concluding "there is none".
+
+  4. In the answer, relay the gaps in gaps that are relevant to the question, e.g. "the Chinese edition does not include
+  the management discussion".
+
+  5. Convert relative times such as "the past three years" relative to the latest period in scope.available_periods; when
+  computing growth rates, fetch one extra base period.
+
+  6. lang filters the document language, not the language of the question. For questions asked in Chinese, the English annual
+  report often has more complete content (the Chinese edition is an excerpt).
+
+  7. Write units and currencies of amounts and ratios as in the source (in OCBC annual reports $ is SGD; do not write it
+  as USD); do not add comparisons, causes, judgements or external data that are not in the source.
+
+  8. When one language edition lacks the needed section, besides switching to the other language edition, also point out
+  the closest substitute in the same language edition (e.g. when the Chinese edition has no MD&A, point to the CFO review).
+
+  9. For read, give either node_id or page_range, not both; do not pass null for omitted optional parameters.
+
+  10. For questions about values and trends, use get_metric_series first (or look at the fact layer in search results);
+  its values carry provenance, but you must still verify them against the source text with read before citing; also state
+  the fact status (multiple sources agree / single source / conflict) and any restatement.
+
+  11. The next in a gap is a suggested next call (tool and arguments can be used as is); when stuck, follow it first rather
+  than guessing a concept_id or repeating the same call; when a term is not recognised, look at the similar known metrics
+  in candidates. Values with status derived are computed from a formula (derivation and inputs give the formula and input
+  facts); when citing them, say they are derived, and verify against the source text using the provenance of the input facts.
+
+  '
+tools:
+  search: 'Find relevant sections and pages in the annual report library. Returns candidate nodes (with title path, local
+    table of contents, excerpt, physical and printed pages), the search scope and gaps. Results are ordered by layer: fact
+    (when a metric written in the query has facts, these come first and do not count toward limit; see get_metric_series
+    for values, status and provenance) before link (sections tagged with the concept of a metric in the query; scope.query_concepts
+    lists the recognised metrics) before structure (title hit, more precise section location) before text (summary or body
+    hit).'
+  browse: 'View the table-of-contents tree of a document (primary tree by default). Without node_id, expands from the root;
+    with node_id, expands depth levels from that node. Each line of the text result is: [last 4 chars of node_id] title
+    (physical pages s-e / printed pages s-e) {section_type}; see the structured result for the full node_id. tree_source
+    can switch to a comparison tree (e.g. pageindex_flash).'
+  read: 'Read the source text: give node_id, or doc_id + page_range (closed physical page range, at most 5 pages). Returns
+    each page''s body text, tables (Markdown), printed page number and the nodes covering the page. When a node spans more
+    than 5 pages only the first 5 are returned; use next to continue reading.'
+  resolve_concept: 'Resolve a term: map a Chinese or English wording, or a concept_id, to a metric in the concept table;
+    returns Chinese and English names, aliases, broader/narrower and similar metrics (variant_of), components, and the number
+    of sections tagged with the concept. Matching is deterministic: exact match -> prefix match; returns concept_unknown
+    when the term is not recognised. search automatically recognises concepts in the query and finds sections by concept
+    (link layer); use this tool to confirm a term and to distinguish similar metrics with different definitions.'
+  get_metric_series: 'Get values: fetch the fact values of a concept for each year, with fact status (agreed: multiple sources
+    agree / single: only one source / conflict: sources disagree), version (when restated, restated=true and original_value
+    is the original value), year-on-year change and provenance (document, physical page, printed page, table, source snippet).
+    Facts are extracted only from the financial highlights (five-year summary) and the MD&A key ratio tables, covering about
+    15 core metrics; if you do not know the concept_id, use resolve_concept first. When computing growth rates, fetch one
+    extra base period.'

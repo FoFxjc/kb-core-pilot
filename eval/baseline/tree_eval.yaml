@@ -1,0 +1,65 @@
+# Primary-tree manual spot-check results (D22 protocol: 40 nodes per document; correct only if title, page and parent are all right; threshold 85%).
+# Re-check and append an entry after every tree-rule change; the Loader writes each document's latest entry to coverage.tree_sample_accuracy.
+evaluations:
+  - doc_id: ocbc-group_ar_2025_zh
+    tree_source: toc_flash
+    date: 2026-10-16
+    rule_version: subnote-v1
+    seed: 41
+    sampled: 40
+    correct: 39
+  - doc_id: ocbc-group_ar_2025_en
+    tree_source: toc_flash
+    date: 2026-10-16
+    rule_version: subnote-v1
+    seed: 41
+    sampled: 40
+    correct: 38
+  - doc_id: ocbc-group_ar_2025_zh
+    tree_source: pageindex_flash
+    date: 2026-10-16
+    rule_version: flash-merge
+    seed: 17
+    sampled: 20
+    correct: 16
+  - doc_id: ocbc-group_ar_2025_en
+    tree_source: pageindex_flash
+    date: 2026-10-16
+    rule_version: flash-merge
+    seed: 17
+    sampled: 20
+    correct: 16
+  # 2023 / 2024 (P1 round 3, 2026-10-16; same protocol, new seed 53; rule version includes sub-note splitting)
+  - doc_id: ocbc-group_ar_2024_en
+    tree_source: toc_flash
+    date: 2026-10-16
+    rule_version: subnote-v1
+    seed: 53
+    sampled: 40
+    correct: 39
+    errors: ["0079 title merges Principle 5 with its parent subsection Remuneration Matters"]
+  - doc_id: ocbc-group_ar_2024_zh
+    tree_source: toc_flash
+    date: 2026-10-16
+    rule_version: subnote-v1
+    seed: 53
+    sampled: 40
+    correct: 35
+    errors: ["0012/0014 chairman's statement subheadings hung under a sibling subheading (wrong parent)", "0023 title is an introductory sentence, not a heading",
+             "0043 share-based compensation plan ends one page early", "0199 corporate information starts on a blank page"]
+  - doc_id: ocbc-group_ar_2023_en
+    tree_source: toc_flash
+    date: 2026-10-16
+    rule_version: subnote-v1
+    seed: 53
+    sampled: 40
+    correct: 37
+    errors: ["0085 table row label taken as a heading", "0103 title includes the auditor's signature", "0252 wrong parent in the AGM notice"]
+  - doc_id: ocbc-group_ar_2023_zh
+    tree_source: toc_flash
+    date: 2026-10-16
+    rule_version: subnote-v1
+    seed: 53
+    sampled: 40
+    correct: 37
+    errors: ["0007 the salutation 'Dear shareholders' taken as a heading", "0012/0014 chairman's statement subheadings hung under that salutation node (wrong parent)"]

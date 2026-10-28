@@ -1,0 +1,40 @@
+doc_id: ocbc-group_ar_2024_en
+purpose: re-judge nodes changed by the W1 bounded round
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2024_en:regions:0374
+  title: 2.13.6.6 Insurance Acquisition Cash Flows
+  origin: heading
+  pages:
+  - 146
+  - 146
+  printed_pages:
+  - '144'
+  - '144'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0361
+    title: 2.13 Insurance and Reinsurance Contracts 2.13.1 Definition and Classification
+    pages:
+    - 141
+    - 150
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued) 2.13.6 Measurement (continued) 2.13.6.5 Reinsurance Contracts (continued) The risk adjustment
+  verdict: wrong
+  note: 'Parent: skips the real intermediate heading "2.13.6 Measurement"; placed directly under 2.13. Pages 146 are right.'
+- node_id: ocbc-group_ar_2024_en:regions:0370
+  title: 2.13.6.4 Subsequent Measurement – Contracts Not Measured Under the PAA
+  origin: heading
+  pages:
+  - 145
+  - 145
+  printed_pages:
+  - '143'
+  - '143'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0361
+    title: 2.13 Insurance and Reinsurance Contracts 2.13.1 Definition and Classification
+    pages:
+    - 141
+    - 150
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued) 2.13.6 Measurement (continued) 2.13.6.4 Subsequent Measurement – Contracts Not Measured Under
+  verdict: wrong
+  note: 'Parent: skips the real intermediate heading "2.13.6 Measurement"; placed directly under 2.13. Pages 145 are right.'

@@ -1,0 +1,756 @@
+doc_id: ocbc-group_ar_2025_en
+seed: 215
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2025_en:regions:0031
+  title: Appreciation
+  origin: heading
+  pages:
+  - 15
+  - 15
+  printed_pages:
+  - '13'
+  - '13'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0023
+    title: Group CEO’s Perspectives
+    pages:
+    - 12
+    - 15
+  start_page_text: 'Appreciation 2025’s results are the outcome of the dedication and resilience of all our colleagues across
+    OCBC Group. Their commitment to servicing customers, managing risks responsibly and executing '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0040
+  title: Asia Shift
+  origin: heading
+  pages:
+  - 18
+  - 18
+  printed_pages:
+  - '16'
+  - '16'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0039
+    title: Powering Shifts, Accelerating Growth
+    pages:
+    - 18
+    - 19
+  start_page_text: Powering Shifts, Accelerating Growth Megatrends are shifting the frontier. We will ride them to power our
+    four strategic shifts. Asia Shift Franchise Shift Tech Shift Net-Zero Shift Capture ASEAN-Grea
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0045
+  title: ASEAN Domestic Markets
+  origin: heading
+  pages:
+  - 18
+  - 18
+  printed_pages:
+  - '16'
+  - '16'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0043
+    title: Net-Zero Shift
+    pages:
+    - 18
+    - 19
+  start_page_text: Powering Shifts, Accelerating Growth Megatrends are shifting the frontier. We will ride them to power our
+    four strategic shifts. Asia Shift Franchise Shift Tech Shift Net-Zero Shift Capture ASEAN-Grea
+  verdict: wrong
+  note: 'Parent: "ASEAN Domestic Markets" is under the "Franchise Shift" panel (right column, with Singapore-Hong Kong Twin
+    Hubs), not under "Net-Zero Shift".'
+- node_id: ocbc-group_ar_2025_en:regions:0060
+  title: Great Eastern Holdings’ Profit Contribution
+  origin: heading
+  pages:
+  - 22
+  - 22
+  printed_pages:
+  - '20'
+  - '20'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0058
+    title: The Power of One Group
+    pages:
+    - 22
+    - 23
+  start_page_text: 'Insurance Great Eastern Holdings’ Profit Contribution $m FY23 FY24 FY25 636 882 1,125 Wealth Management
+    Group Wealth Management income $b Group Wealth Management AUM $b FY23 FY24 FY25 4.3 4.9 5.6 Dec '
+  verdict: wrong
+  note: 'Title: chart label under the "Insurance" bar chart on p22, not a heading.'
+- node_id: ocbc-group_ar_2025_en:regions:0087
+  title: Mother’s Day Chiffon Cake baking
+  origin: heading
+  pages:
+  - 29
+  - 29
+  printed_pages:
+  - '27'
+  - '27'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0086
+    title: Macau
+    pages:
+    - 29
+    - 29
+  start_page_text: Helping Where it Matters Singapore OCBC-SDSC SwimTogether Programme We launched the OCBC‑SDSC SwimTogether
+    Programme, Singapore’s first structured water safety initiative for Persons with Disabilities
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0101
+  title: Falcon Research
+  origin: heading
+  pages:
+  - 30
+  - 30
+  printed_pages:
+  - '28'
+  - '28'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0088
+    title: Seeding Hope for the Future
+    pages:
+    - 30
+    - 31
+  start_page_text: Seeding Hope for the Future Continuing our commitment to nature‑based climate solutions, we are advancing
+    the restoration of marine and coastal ecosystems while supporting biodiversity conservation an
+  verdict: wrong
+  note: 'Parent: on p30 Falcon Research sits under the red country label "Singapore"; the node skips that intermediate heading.
+    Doubtful.'
+- node_id: ocbc-group_ar_2025_en:regions:0117
+  title: Our Management
+  origin: toc
+  pages:
+  - 36
+  - 37
+  printed_pages:
+  - '34'
+  - '35'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0107
+    title: Getting to Know Us
+    pages:
+    - 34
+    - 37
+  start_page_text: Our Management Mr Tan Teck Long Group Chief Executive Officer Ms Goh Chin Yee Group Chief Financial Officer
+    Ms Carina Lee Group Chief Risk Officer Mr Sunny Quek Global Consumer Financial Services Mr J
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0122
+  title: Strengthening Our Foundations for Sustainable Growth
+  origin: heading
+  pages:
+  - 39
+  - 39
+  printed_pages:
+  - '37'
+  - '37'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0119
+    title: Risk Management
+    pages:
+    - 38
+    - 39
+  start_page_text: Operational and technology resilience remained key priorities. We advanced our ability to anticipate, withstand,
+    and recover from disruptions through ongoing investments in resilience planning, testin
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0135
+  title: Capturing Rising Asian Wealth
+  origin: heading
+  pages:
+  - 44
+  - 44
+  printed_pages:
+  - '42'
+  - '42'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0134
+    title: Consumer Banking
+    pages:
+    - 44
+    - 45
+  start_page_text: deepened engagement, and ultimately driven stronger top‑ and bottom‑line performance. Capturing Rising
+    Asian Wealth We are strengthening our OCBC Premier Banking and OCBC Premier Private Client segmen
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0156
+  title: Governance
+  origin: toc_group
+  pages:
+  - 52
+  - 95
+  printed_pages:
+  - '50'
+  - '93'
+  parent: null
+  start_page_text: 'Disclosures made pursuant to the Bank’s corporate governance practices are summarised on pages 68 and
+    69 of this Annual Report. Board Matters Principle 1: The Board’s Conduct of Affairs The Board is e'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0158
+  title: Board Matters
+  origin: heading
+  pages:
+  - 52
+  - 59
+  printed_pages:
+  - '50'
+  - '57'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0157
+    title: Corporate Governance
+    pages:
+    - 52
+    - 71
+  start_page_text: 'Disclosures made pursuant to the Bank’s corporate governance practices are summarised on pages 68 and
+    69 of this Annual Report. Board Matters Principle 1: The Board’s Conduct of Affairs The Board is e'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0185
+  title: Remuneration of Directors’ and CEO’s Immediate Family
+  origin: heading
+  pages:
+  - 63
+  - 63
+  printed_pages:
+  - '61'
+  - '61'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0184
+    title: 'Principle 8: Disclosure on Remuneration'
+    pages:
+    - 63
+    - 64
+  start_page_text: 'Principle 8: Disclosure on Remuneration The following disclosures should be read in conjunction with the
+    remuneration policies, practices and share plans as described under Principles 6 and 7. Directo'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0221
+  title: Risk Management
+  origin: toc
+  pages:
+  - 83
+  - 95
+  printed_pages:
+  - '81'
+  - '93'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0156
+    title: Governance
+    pages:
+    - 52
+    - 95
+  start_page_text: Risk Management At OCBC, our approach to risk management underpins operational resilience, supports sustainable
+    business growth, and promotes consistent long-term value creation for our customers, sha
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0228
+  title: Responsible Use of Artificial Intelligence (AI)
+  origin: heading
+  pages:
+  - 84
+  - 84
+  printed_pages:
+  - '82'
+  - '82'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0221
+    title: Risk Management
+    pages:
+    - 83
+    - 95
+  start_page_text: 'In addition to the five principal risk types, the Group considers environmental, social and governance
+    (ESG) and climate risks, as well as responsible use of artificial intelligence (AI), given their '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0243
+  title: Remedial Management
+  origin: heading
+  pages:
+  - 90
+  - 90
+  printed_pages:
+  - '88'
+  - '88'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0230
+    title: Credit Risk Management
+    pages:
+    - 87
+    - 90
+  start_page_text: These portfolio insights are also applied to identify and quantify more vulnerable segments and take proactive,
+    appropriate risk management actions, especially during periods of high uncertainties and
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0254
+  title: Interest Rate Risk in the Banking Book (IRRBB)
+  origin: heading
+  pages:
+  - 92
+  - 92
+  printed_pages:
+  - '90'
+  - '90'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0246
+    title: Market Risk Management
+    pages:
+    - 90
+    - 93
+  start_page_text: Designation of Trading Positions We comply with the regulatory guidelines in designating trades as trading
+    positions. The designation is primarily based on our intention for short-term resale, to real
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0264
+  title: Physical Security Risk Management
+  origin: heading
+  pages:
+  - 94
+  - 94
+  printed_pages:
+  - '92'
+  - '92'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0261
+    title: • Key Aspects of Operational Risk Management Business Continuity Management
+    pages:
+    - 93
+    - 94
+  start_page_text: from fraud and scam activities. Our transaction monitoring capabilities enable us to detect and alert customers
+    to suspicious account activities, effectively preventing potential fraudulent transactio
+  verdict: correct
+  note: 'Doubtful: node is right (red sub-heading on p94); its parent node is the right heading but its title merges "Key
+    Aspects of Operational Risk Management" with "Business Continuity Management".'
+- node_id: ocbc-group_ar_2025_en:regions:0276
+  title: Collaboration with Regulators and Industry Partners
+  origin: heading
+  pages:
+  - 95
+  - 95
+  printed_pages:
+  - '93'
+  - '93'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0272
+    title: • Other Key Aspects of Information Security & Digital Risk Management
+    pages:
+    - 95
+    - 95
+  start_page_text: Our information security and digital risk framework is supported by a comprehensive set of policies, processes,
+    and controls that guide the governance and management of associated risks. We continue t
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0293
+  title: Performance by Business Segment
+  origin: heading
+  pages:
+  - 108
+  - 109
+  printed_pages:
+  - '106'
+  - '107'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0279
+    title: Management Discussion and Analysis
+    pages:
+    - 96
+    - 110
+  start_page_text: 'Performance by Business Segment OCBC Group’s businesses are presented in the following customer segments
+    and business activities: Global Consumer/Private Banking, Global Wholesale Banking, Global Mark'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0303
+  title: Directors’ Statement
+  origin: subtoc
+  pages:
+  - 111
+  - 116
+  printed_pages:
+  - '109'
+  - '114'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0302
+    title: Financial Statements
+    pages:
+    - 111
+    - 255
+  start_page_text: The directors present this statement to the members of the Bank together with the audited consolidated
+    financial statements of the Group and the income statement, statement of comprehensive income, ba
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0334
+  title: 1. General
+  origin: note
+  pages:
+  - 132
+  - 132
+  printed_pages:
+  - '130'
+  - '130'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0333
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: These notes form an integral part of the financial statements. The Board of Directors of Oversea-Chinese
+    Banking Corporation Limited authorised these financial statements for issue on 24 February 2026
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0337
+  title: 2.2.1 Subsidiaries
+  origin: heading
+  pages:
+  - 133
+  - 132
+  printed_pages:
+  - '131'
+  - '130'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0336
+    title: Policy Information
+    pages:
+    - 133
+    - 132
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.2 Basis of Consolidation (continued) 2.2.1 Subsidiaries
+    (continued) The excess of the fair value of the sum of consideration transferred, the re
+  verdict: wrong
+  note: 'Pages: given as [133, 132] (end before start); "2.2.1 Subsidiaries" starts on p132 (right column). Parent title "Policy
+    Information" is a fragment of "2. Material Accounting Policy Information" with the same invalid page range.'
+- node_id: ocbc-group_ar_2025_en:regions:0385
+  title: 2.13 Insurance and Reinsurance Contracts 2.13.1 Definition and Classification
+  origin: subnote
+  pages:
+  - 141
+  - 150
+  printed_pages:
+  - '139'
+  - '148'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0335
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts 2.13.1 Definition
+    and Classification Contracts under which GEH Group accepts significant insurance risk a
+  verdict: wrong
+  note: 'Title: merges two headings, "2.13 Insurance and Reinsurance Contracts" and "2.13.1 Definition and Classification".'
+- node_id: ocbc-group_ar_2025_en:regions:0420
+  title: 2.16.1 Interest Income and Expense
+  origin: heading
+  pages:
+  - 151
+  - 151
+  printed_pages:
+  - '149'
+  - '149'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0419
+    title: 2.16 Recognition of Income and Expense
+    pages:
+    - 151
+    - 151
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.15 Leases (continued) 2.15.2 As Lessor Rental income
+    on tenanted areas of the buildings owned by the Group is recognised in the income statement
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0443
+  title: Net Insurance Financial Result from Life Insurance
+  origin: heading
+  pages:
+  - 157
+  - 157
+  printed_pages:
+  - '155'
+  - '155'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0441
+    title: 4. Insurance Service Results and Net Investment and Finance Income/(Expenses) from Life Insurance
+    pages:
+    - 156
+    - 157
+  start_page_text: 4. Insurance Service Results and Net Investment and Finance Income/(Expenses) from Life Insurance (continued)
+    Net Investment Income from Life Insurance GROUP $ million 2025 2024 Investment income/(los
+  verdict: correct
+  note: Title-case table sub-title within note 4 on p157; accepted as a heading.
+- node_id: ocbc-group_ar_2025_en:regions:0452
+  title: 12. Earnings Per Share
+  origin: note
+  pages:
+  - 162
+  - 162
+  printed_pages:
+  - '160'
+  - '160'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0333
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: 11. Income Tax Expense (continued) OECD Pillar Two Model Rules The Group is within the scope of the Organisation
+    for Economic Co-operation and Development (OECD) Pillar Two model rules, and it applies
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0464
+  title: 16.4 Currency Translation Reserves
+  origin: subnote
+  pages:
+  - 170
+  - 170
+  printed_pages:
+  - '168'
+  - '168'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0460
+    title: 16. Revenue Reserves
+    pages:
+    - 168
+    - 170
+  start_page_text: 16. Revenue Reserves (continued) 16.2 General Reserves GROUP BANK $ million 2025 2024 2025 2024 At 1 January
+    1,246 1,317 1,415 1,412 DSP reserve from dividends on unvested shares – 16 – 16 Net insuran
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0489
+  title: 29. Debt and Equity Securities
+  origin: note
+  pages:
+  - 192
+  - 192
+  printed_pages:
+  - '190'
+  - '190'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0333
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: 29. Debt and Equity Securities GROUP BANK $ million 2025 2024 2025 2024 Debt securities 41,824 36,126 25,849
+    22,386 Equity securities and investment funds 11,448 7,288 7,249 3,926 Total securities 53,
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0513
+  title: 38. Risk Management
+  origin: note
+  pages:
+  - 210
+  - 234
+  printed_pages:
+  - '208'
+  - '232'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0333
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: '38. Risk Management 38.1 Overview Risk ownership is a shared responsibility between the business units
+    and risk functions as well as other support functions. The Group’s leadership actively fosters a '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0530
+  title: Operational Risk
+  origin: heading
+  pages:
+  - 218
+  - 219
+  printed_pages:
+  - '216'
+  - '217'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0523
+    title: 38.3 Market Risk and Liquidity Risk Management
+    pages:
+    - 214
+    - 219
+  start_page_text: 38. Risk Management (continued) 38.3 Market Risk and Liquidity Risk Management (continued) Contractual
+    Maturity for Financial Liabilities The table below shows the undiscounted cash outflows of the Gr
+  verdict: wrong
+  note: 'Pages: "Operational Risk" ends on p218; p219 opens with the same-level heading "Hedging". End page 219 is off by
+    one.'
+- node_id: ocbc-group_ar_2025_en:regions:0533
+  title: Governance Framework
+  origin: heading
+  pages:
+  - 220
+  - 220
+  printed_pages:
+  - '218'
+  - '218'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0532
+    title: 38.4 Insurance-Related Risk Management
+    pages:
+    - 220
+    - 234
+  start_page_text: 38. Risk Management (continued) 38.4 Insurance-Related Risk Management This note sets out the risk management
+    information of GEH Group. Governance Framework Managing risk is an integral part of GEH Gr
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0556
+  title: Model Risk Adjustments
+  origin: heading
+  pages:
+  - 239
+  - 239
+  printed_pages:
+  - '237'
+  - '237'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0554
+    title: 40.1 Valuation Governance Framework
+    pages:
+    - 239
+    - 239
+  start_page_text: 40. Fair Values of Financial Instruments 40.1 Valuation Governance Framework The Group has an established
+    governance framework with respect to the measurement of fair values, which includes formalised
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0576
+  title: 47. Capital Management
+  origin: note
+  pages:
+  - 254
+  - 254
+  printed_pages:
+  - '252'
+  - '252'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0333
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: '46. Related Party Transactions (continued) 46.2 Key Management Personnel Compensation BANK $ million 2025
+    2024 Key management personnel compensation is as follows: Short-term employee benefits 44 47 S'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0586
+  title: Know More About OCBC
+  origin: toc_group
+  pages:
+  - 259
+  - 271
+  printed_pages:
+  - '257'
+  - '269'
+  parent: null
+  start_page_text: 'Appointed as Director: 18 February 2022 Last Re-elected as a Director: 17 April 2025 Ms Chong spent over
+    29 years at Accenture where she held senior leadership roles covering various industries and co'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0603
+  title: Mr Jason Moo
+  origin: heading
+  pages:
+  - 265
+  - 266
+  printed_pages:
+  - '263'
+  - '264'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0599
+    title: Our Management – Biographies
+    pages:
+    - 265
+    - 269
+  start_page_text: Our Management – Biographies Mr Tan Teck Long Group Chief Executive Officer Mr Tan Teck Long was appointed
+    Group Chief Executive Officer of OCBC on 1 January 2026. Mr Tan is also Board Commissioner of
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0608
+  title: Ms Parwati Surjaudaja
+  origin: heading
+  pages:
+  - 266
+  - 267
+  printed_pages:
+  - '264'
+  - '265'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0599
+    title: Our Management – Biographies
+    pages:
+    - 265
+    - 269
+  start_page_text: Our Management – Biographies Pacific. Prior to that, he worked in the Equities Merchandising Group in New
+    York. He joined Goldman Sachs as a financial analyst in PWM in Singapore upon graduation. Mr M
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0624
+  title: Singapore
+  origin: heading
+  pages:
+  - 270
+  - 270
+  printed_pages:
+  - '268'
+  - '268'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0620
+    title: Southeast Asia
+    pages:
+    - 270
+    - 270
+  start_page_text: 'OCBC’s Presence in ASEAN, Greater China and Beyond Southeast Asia Singapore OCBC Bank Limited Head Office
+    63 Chulia Street #10-00 OCBC Centre East Singapore 049514 Tel: (65) 6363 3333 Fax: (65) 6534 3'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0646
+  title: What You Should Look Out For
+  origin: toc_group
+  pages:
+  - 272
+  - 276
+  printed_pages:
+  - '270'
+  - '274'
+  parent: null
+  start_page_text: Financial Calendar February 25 February 2026 Announcement of full year results for 2025 April 16 April
+    2026 Annual General Meeting May May 2026 Announcement of first quarter results for 2026 On or abo
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0650
+  title: OCBC’s Corporate Profile and Information
+  origin: toc
+  pages:
+  - 275
+  - 276
+  printed_pages:
+  - '273'
+  - '274'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0646
+    title: What You Should Look Out For
+    pages:
+    - 272
+    - 276
+  start_page_text: 'Corporate Information Board of Directors Mr Andrew Lee Chairman Ms Chong Chuan Neo Mr Chua Kim Chiu Dr
+    Andrew Khoo Prof Lee Tih Shih Mr Lian Wee Cheow Mr Seck Wai Kwong Mr Pramukti Surjaudaja Mrs Tan '
+  verdict: correct
+  note: 'Doubtful: contents-page title (IBC); p275 prints "Corporate Profile" and "Corporate Information" separately rather
+    than this exact wording.'
+- node_id: ocbc-group_ar_2025_en:regions:0654
+  title: Registered Office
+  origin: heading
+  pages:
+  - 275
+  - 275
+  printed_pages:
+  - '273'
+  - '273'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0651
+    title: Corporate Information
+    pages:
+    - 275
+    - 276
+  start_page_text: 'Corporate Information Board of Directors Mr Andrew Lee Chairman Ms Chong Chuan Neo Mr Chua Kim Chiu Dr
+    Andrew Khoo Prof Lee Tih Shih Mr Lian Wee Cheow Mr Seck Wai Kwong Mr Pramukti Surjaudaja Mrs Tan '
+  verdict: correct
+  note: ''

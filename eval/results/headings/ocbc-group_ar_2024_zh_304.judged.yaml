@@ -1,0 +1,287 @@
+doc_id: ocbc-group_ar_2024_zh
+seed: 304
+page_count: 200
+protocol: 'Round 2 T1.2 heading list on a seeded page sample. For each sampled physical page, list every heading that STARTS
+  a section on that page, as printed (eval/tree_rubric.md criterion 1: no body text, table row labels or column headers, chart
+  labels, captions, stat callouts, field labels, signatory names, running headers or ''(continued)'' repeats). Contents-page
+  entries are not headings of the contents page.'
+pages:
+- page: 13
+  headings:
+  - title: 展望未来
+    level: 2
+  note: Award card names treated as callouts, not headings; signatory 李国庆敬上 excluded.
+- page: 14
+  headings:
+  - title: 集团首席执行官的回顾
+    level: 1
+  note: 'Doubtful: section starts here but its title is printed only in the top-left header slot (9pt grey, used as running
+    header on later even pages); counted as the start heading. Photo caption name/title and the salutation excluded.'
+- page: 15
+  headings:
+  - title: 集团一体，合力共赢
+    level: 2
+  - title: 捕捉东盟和大中华地区的机遇
+    level: 2
+  note: ''
+- page: 23
+  headings:
+  - title: 全力追求可持续增长
+    level: 2
+  note: 'Doubtful: infographic card titles 推动增长 / 增强实力 and their bold statements treated as infographic labels; tagline below
+    title is a subtitle.'
+- page: 26
+  headings:
+  - title: 为未来播下希望的种子
+    level: 2
+  - title: 新加坡
+    level: 3
+  note: Lead-in sentence and stat callouts excluded.
+- page: 35
+  headings: []
+  note: Capital management continued; capital table rows only.
+- page: 36
+  headings:
+  - title: 财务报告
+    level: 2
+  note: Divider page for 财务报告 (contents group 财务 is level 1).
+- page: 43
+  headings:
+  - title: 审计委员会
+    level: 4
+  - title: 审计师
+    level: 4
+  note: Signatory names excluded.
+- page: 48
+  headings: []
+  note: 'Doubtful: key audit matters table; 关键审计事项 / 我们的审计如何处理此关键审计事项 are column headers and 商誉减损 is the KAM row label.'
+- page: 54
+  headings:
+  - title: 资产负债表
+    level: 3
+  note: Bold lines are table row labels.
+- page: 59
+  headings:
+  - title: 财务报告附注
+    level: 3
+  - title: 1. 概论
+    level: 4
+  - title: 2. 重大会计政策资讯摘要
+    level: 4
+  - title: 2.1 编制基础
+    level: 5
+  - title: 2.2 合并之基础
+    level: 5
+  - title: 2.2.1 附属公司
+    level: 6
+  - title: 2.2.2 结构化实体
+    level: 6
+  - title: 2.2.3 联营企业与合资企业
+    level: 6
+  note: 标题 is a table column header.
+- page: 60
+  headings:
+  - title: 2.2.4 银行在附属公司、联号企业与合资企业的投资
+    level: 6
+  - title: 2.3 货币折算
+    level: 5
+  - title: 2.3.1 外币交易
+    level: 6
+  - title: 2.3.2 海外业务
+    level: 6
+  - title: 2.4 现金与现金等值物
+    level: 5
+  - title: 2.5 金融工具
+    level: 5
+  - title: 2.5.1 确认
+    level: 6
+  - title: 2.5.2 终止确认
+    level: 6
+  - title: 2.5.3 修订
+    level: 6
+  - title: 利率基准改革 (IBOR改革)
+    level: 7
+  note: ''
+- page: 63
+  headings:
+  - title: 2.8 房地产、设施与设备
+    level: 5
+  - title: 2.9 投资房地产
+    level: 5
+  - title: 2.10 商誉与其他无形资产
+    level: 5
+  - title: 2.10.1 商誉
+    level: 6
+  - title: 2.10.2 无形资产
+    level: 6
+  - title: 2.11 资产减损
+    level: 5
+  - title: (I) 金融资产
+    level: 6
+  - title: 2.11.1 范围
+    level: 7
+  - title: 2.11.2 预期信贷损失减损模型
+    level: 7
+  - title: 2.11.3 计量
+    level: 7
+  note: ''
+- page: 68
+  headings:
+  - title: 2.13.6.5 再保险合约
+    level: 7
+  - title: 2.13.6.6 保险获取现金流量
+    level: 7
+  - title: 2.13.7 计量 – 根据PAA计量的合约
+    level: 6
+  note: ''
+- page: 69
+  headings:
+  - title: 2.13.8 终止确认与合约修改
+    level: 6
+  note: ''
+- page: 75
+  headings:
+  - title: 保险覆盖单位
+    level: 7
+  - title: 2.21.4 商誉与其他无形资产的减损
+    level: 6
+  - title: 2.21.5 所得税
+    level: 6
+  - title: 2.22 比较数字
+    level: 5
+  note: ''
+- page: 77
+  headings:
+  - title: 来自寿险的净投资与金融收入/(支出)
+    level: 5
+  note: Underlined sub-heading of note 4 (p76 has the sibling 来自寿险的保险服务业绩); bold lines below are table rows.
+- page: 79
+  headings:
+  - title: 7. 净交易收入
+    level: 4
+  - title: 8. 其他收入
+    level: 4
+  note: ''
+- page: 80
+  headings:
+  - title: 9. 员工成本与其他营运支出
+    level: 4
+  note: 'Doubtful: 9.1 员工成本 / 9.2 其他营运支出 / 9.3 员工成本与其他营运支出 are numbered rows inside the note table (9.3 is a total row); treated
+    as table row labels.'
+- page: 82
+  headings:
+  - title: 支柱2模型规则
+    level: 5
+  - title: 12. 每股收益
+    level: 4
+  note: Bold lines under note 12 are table rows.
+- page: 83
+  headings:
+  - title: 13. 股本
+    level: 4
+  - title: 13.1 股本
+    level: 5
+  - title: 13.2 股票认股权计划
+    level: 5
+  note: 普通股 / 库存股 are table rows.
+- page: 96
+  headings:
+  - title: 21.2 固定与浮动利率票据
+    level: 5
+  note: '由银行发行: etc. are table group rows.'
+- page: 98
+  headings:
+  - title: 21.5 备兑债券
+    level: 5
+  - title: 21.6 负债变动与来自融资活动的现金流量之对账
+    level: 5
+  note: ''
+- page: 100
+  headings:
+  - title: 22.1 寿险的剩余保险覆盖负债与已产生索赔负债之对账
+    level: 5
+  note: Not marked (续) and absent from p99, so it starts here; bold lines are table rows.
+- page: 110
+  headings:
+  - title: 30. 金融资产准备金
+    level: 4
+  note: 集团 / 银行 and dates are table rows.
+- page: 116
+  headings:
+  - title: 32.2 实质联号企业财务资料
+    level: 5
+  note: Bold group lines are table rows.
+- page: 118
+  headings:
+  - title: 33.1 主要附属公司列表
+    level: 5
+  note: 银行业 / 保险业 etc. are table group rows.
+- page: 129
+  headings:
+  - title: 38.2 信贷风险
+    level: 5
+  - title: 最大信贷风险敞口
+    level: 6
+  - title: 抵押品
+    level: 6
+  note: Table group rows excluded.
+- page: 133
+  headings:
+  - title: 货币风险
+    level: 6
+  - title: 结构性外汇风险
+    level: 6
+  note: 特选资产负债表项目 is a table row; 利率风险 (续) excluded.
+- page: 145
+  headings:
+  - title: 市场、信贷与流动性风险
+    level: 6
+  note: Continued headings and table rows excluded.
+- page: 147
+  headings: []
+  note: Continued headings and table rows only.
+- page: 150
+  headings:
+  - title: 获要求时即需支付数额
+    level: 8
+  note: 'Doubtful level: 10pt bold unnumbered heading after (g) 流动性风险 (续).'
+- page: 154
+  headings: []
+  note: Continued headings and table only.
+- page: 155
+  headings:
+  - title: 由ECL所产生的数额
+    level: 8
+  - title: ECL的测量 – 输入值、假设与估计技术的解释
+    level: 8
+  - title: 信贷风险的显著增加
+    level: 8
+  note: Underlined sub-headings under (h) 信贷风险 (续).
+- page: 172
+  headings: []
+  note: 40.3 continued; 按公允价值计量的金融资产 is a table row.
+- page: 173
+  headings: []
+  note: 40.3 continued; 按公允价值计量的金融负债 is a table row.
+- page: 174
+  headings:
+  - title: 等级3非金融资产的变动
+    level: 6
+  note: 按公允价值计量的非金融资产 is a table row.
+- page: 176
+  headings: []
+  note: Note 41 continued; table rows only.
+- page: 185
+  headings:
+  - title: 蔡锦洲先生 (70)
+    level: 3
+  - title: 邱清和博士 (62)
+    level: 3
+  note: 'Doubtful: bold bio labels (其他董事职位及主要职务/职衔, 学历与专业资格, etc.) treated as field labels.'
+- page: 199
+  headings:
+  - title: 集团简介
+    level: 2
+  - title: 企业资料
+    level: 2
+  note: 'Doubtful: bold labels under 企业资料 (董事会, 秘书, 注册办事处, ...) treated as field labels.'

@@ -1,0 +1,22 @@
+doc_id: ocbc-group_ar_2024_zh
+purpose: re-judge nodes changed by the W1 bounded round
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2024_zh:regions:0207
+  title: 2.13.6.5 再保险合约
+  origin: heading
+  pages:
+  - 68
+  - 68
+  printed_pages:
+  - '66'
+  - '66'
+  parent:
+    node_id: ocbc-group_ar_2024_zh:regions:0200
+    title: 2.13.6 计量
+    pages:
+    - 66
+    - 68
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.6 计量 (续) 2.13.6.4 后续计量 – 并非根据PAA计量的合约 (续) GEH集团按季度报告其财务业绩。GEH集团选择将每个季度 视为一个独立的中期报告期处理，GEH集团在之前的中期财 务业绩作出的估计在之后的中期报告期或年度财务报表中应 用SFRS(I) 17时不会改变。 亏损合约 – 损失部分 当对C
+  verdict: correct
+  note: ''

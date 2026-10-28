@@ -1,0 +1,774 @@
+doc_id: ocbc-group_ar_2025_en
+seed: 105
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2025_en:regions:0002
+  title: Powering Growth
+  origin: heading
+  pages:
+  - 2
+  - 3
+  printed_pages:
+  - b
+  - '1'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0000
+    title: Cover and Contents
+    pages:
+    - 1
+    - 3
+  start_page_text: Powering Growth as we drive four strategic shifts Asia Shift, Tech Shift, Net-Zero Shift and Franchise
+    Shift – for accelerated growth. Read more on page 14. Our next chapter is beginning to unfold.
+  verdict: correct
+  note: 'Doubtful: "Powering Growth" is the 46pt inside-cover display title (start of the tagline "Powering Growth as we drive
+    four strategic shifts"); end page 3 is the contents page, which has no heading of its own, so the range is accepted.'
+- node_id: ocbc-group_ar_2025_en:regions:0062
+  title: Driving Customer Centricity Through AI, Digital and Data
+  origin: toc
+  pages:
+  - 20
+  - 21
+  printed_pages:
+  - '18'
+  - '19'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0041
+    title: Shifts Forward
+    pages:
+    - 16
+    - 25
+  start_page_text: Driving Customer Centricity Through AI, Digital and Data Generic customer recommendations will soon become
+    a thing of the past at OCBC. We will harness artificial intelligence (AI), Digital and Data h
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0102
+  title: Singapore
+  origin: heading
+  pages:
+  - 30
+  - 30
+  printed_pages:
+  - '28'
+  - '28'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0101
+    title: Seeding Hope for the Future
+    pages:
+    - 30
+    - 31
+  start_page_text: Seeding Hope for the Future Continuing our commitment to nature‑based climate solutions, we are advancing
+    the restoration of marine and coastal ecosystems while supporting biodiversity conservation an
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0111
+  title: Hong Kong
+  origin: heading
+  pages:
+  - 31
+  - 31
+  printed_pages:
+  - '29'
+  - '29'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0104
+    title: OCBC Mangrove Park and Tree Planting Programmes
+    pages:
+    - 30
+    - 31
+  start_page_text: 'Malaysia Coral Reefs As part of OCBC Malaysia Sustainability Week 2025, the Kota Kinabalu branch headed
+    to Usukan Island in Sabah to support marine conservation efforts. The team propagated 143 coral '
+  verdict: wrong
+  note: 'Parent: "Hong Kong" is a red country label on p31, a sibling of "Singapore"/"Malaysia"/"Indonesia"/"China"/"Macau"
+    directly under "Seeding Hope for the Future"; it is not part of "OCBC Mangrove Park and Tree Planting Programmes" (a Singapore
+    project on p30).'
+- node_id: ocbc-group_ar_2025_en:regions:0113
+  title: Urban Farm Macau
+  origin: heading
+  pages:
+  - 31
+  - 31
+  printed_pages:
+  - '29'
+  - '29'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0111
+    title: Hong Kong
+    pages:
+    - 31
+    - 31
+  start_page_text: 'Malaysia Coral Reefs As part of OCBC Malaysia Sustainability Week 2025, the Kota Kinabalu branch headed
+    to Usukan Island in Sabah to support marine conservation efforts. The team propagated 143 coral '
+  verdict: wrong
+  note: 'Parent: "Urban Farm Macau" is the project title under the "Macau" country label (p31, y637-652), not under "Hong
+    Kong".'
+- node_id: ocbc-group_ar_2025_en:regions:0119
+  title: Macau
+  origin: heading
+  pages:
+  - 33
+  - 33
+  printed_pages:
+  - '31'
+  - '31'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0115
+    title: Living Active
+    pages:
+    - 32
+    - 33
+  start_page_text: Singapore The 17th edition of OCBC Cycle SG pivoted to a free virtual event for registered participants
+    during the country’s General Election weekend. Cyclists were able to collect their event packs a
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0127
+  title: Board Sustainability Committee
+  origin: heading
+  pages:
+  - 35
+  - 35
+  printed_pages:
+  - '33'
+  - '33'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0122
+    title: Board Committees
+    pages:
+    - 34
+    - 35
+  start_page_text: Nominating Committee Dr Andrew Khoo, Chairman Mr Andrew Lee Mr Lian Wee Cheow Mr Pramukti Surjaudaja Ms
+    Tan Yen Yen Remuneration Committee Mr Andrew Lee, Chairman Dr Andrew Khoo Mr Pramukti Surjaudaja
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0130
+  title: Our Management
+  origin: toc
+  pages:
+  - 36
+  - 37
+  printed_pages:
+  - '34'
+  - '35'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0120
+    title: Getting to Know Us
+    pages:
+    - 34
+    - 37
+  start_page_text: Our Management Mr Tan Teck Long Group Chief Executive Officer Ms Goh Chin Yee Group Chief Financial Officer
+    Ms Carina Lee Group Chief Risk Officer Mr Sunny Quek Global Consumer Financial Services Mr J
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0151
+  title: Moving Ahead with Purpose
+  origin: heading
+  pages:
+  - 45
+  - 45
+  printed_pages:
+  - '43'
+  - '43'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0147
+    title: Consumer Banking
+    pages:
+    - 44
+    - 45
+  start_page_text: to empower seniors to age well. We are committing over $2 million to benefit more than 180,000 seniors
+    over three years. We introduced OCBC CARE Ambassadors at select branches – who are fluent in mult
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0167
+  title: Equipping Our People for an AI‑Enabled Future
+  origin: heading
+  pages:
+  - 51
+  - 51
+  printed_pages:
+  - '49'
+  - '49'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0164
+    title: Human Resources
+    pages:
+    - 50
+    - 51
+  start_page_text: be trained in 2026, reinforcing our commitment to building a healthy, resilient workforce. Beyond our programmes,
+    we stand ready to provide support in exceptionally difficult times to safeguard the we
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0169
+  title: Looking Ahead
+  origin: heading
+  pages:
+  - 51
+  - 51
+  printed_pages:
+  - '49'
+  - '49'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0164
+    title: Human Resources
+    pages:
+    - 50
+    - 51
+  start_page_text: be trained in 2026, reinforcing our commitment to building a healthy, resilient workforce. Beyond our programmes,
+    we stand ready to provide support in exceptionally difficult times to safeguard the we
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0173
+  title: Board Committees
+  origin: heading
+  pages:
+  - 53
+  - 56
+  printed_pages:
+  - '51'
+  - '54'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0172
+    title: Board Matters
+    pages:
+    - 52
+    - 59
+  start_page_text: • overseeing, through the Remuneration Committee, the design and operation of an appropriate remuneration
+    framework, and ensuring that remuneration practices are aligned to and in accord with the remu
+  verdict: wrong
+  note: 'Parent: "Board Committees" (p53, Roboto-Medium 9pt) is a sub-heading of "Principle 1: The Board''s Conduct of Affairs"
+    (10pt bold, p52), alongside "Board Approval" and "Board Access to Information"; placing it directly under "Board Matters"
+    skips Principle 1.'
+- node_id: ocbc-group_ar_2025_en:regions:0187
+  title: 'Principle 5: Board Performance'
+  origin: heading
+  pages:
+  - 59
+  - 59
+  printed_pages:
+  - '57'
+  - '57'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0172
+    title: Board Matters
+    pages:
+    - 52
+    - 59
+  start_page_text: meetings to determine if a Director is able to and has been adequately carrying out his or her duties as
+    a Director of the Bank. In respect of other appointments, it takes into account – among various
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0190
+  title: Compensation for Executive Directors
+  origin: heading
+  pages:
+  - 60
+  - 60
+  printed_pages:
+  - '58'
+  - '58'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0189
+    title: 'Principle 7: Level and Mix of Remuneration Compensation for Non-Executive Directors'
+    pages:
+    - 60
+    - 62
+  start_page_text: 'The Bank does not provide for any termination, retirement or post-employment benefits to executive Directors
+    or the top five key management personnel. Principle 7: Level and Mix of Remuneration Compen'
+  verdict: correct
+  note: 'Doubtful: the node itself is right (heading p60, next sibling "Employee Remuneration" on p60), but its parent node
+    carries a merged title "Principle 7: ... Compensation for Non-Executive Directors"; the parent is the correct section
+    (Principle 7), so accepted.'
+- node_id: ocbc-group_ar_2025_en:regions:0232
+  title: Principal Risk Types
+  origin: heading
+  pages:
+  - 83
+  - 84
+  printed_pages:
+  - '81'
+  - '82'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0230
+    title: Risk Management
+    pages:
+    - 83
+    - 95
+  start_page_text: Risk Management At OCBC, our approach to risk management underpins operational resilience, supports sustainable
+    business growth, and promotes consistent long-term value creation for our customers, sha
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0256
+  title: Market Risk Management Approach
+  origin: heading
+  pages:
+  - 90
+  - 91
+  printed_pages:
+  - '88'
+  - '89'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0255
+    title: Market Risk Management
+    pages:
+    - 90
+    - 93
+  start_page_text: These portfolio insights are also applied to identify and quantify more vulnerable segments and take proactive,
+    appropriate risk management actions, especially during periods of high uncertainties and
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0268
+  title: Operational Risk Management
+  origin: heading
+  pages:
+  - 93
+  - 94
+  printed_pages:
+  - '91'
+  - '92'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0230
+    title: Risk Management
+    pages:
+    - 83
+    - 95
+  start_page_text: 'These equity investments (excluding those held by GEH) form an insignificant portion of our overall securities
+    portfolio. Liquidity Risk Management Liquidity risk is the risk of the Bank being unable '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0295
+  title: Non-Interest Income
+  origin: heading
+  pages:
+  - 102
+  - 102
+  printed_pages:
+  - '100'
+  - '100'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0288
+    title: Management Discussion and Analysis
+    pages:
+    - 96
+    - 110
+  start_page_text: 'Non-Interest Income 2025 $ million 2024 $ million +/(-) % Gross fee and commission income Brokerage 118
+    87 36 Credit card 414 404 3 Fund management 121 108 12 Guarantees 10 12 (18) Investment banking '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0297
+  title: Allowances for Loans and Other Assets
+  origin: heading
+  pages:
+  - 103
+  - 103
+  printed_pages:
+  - '101'
+  - '101'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0288
+    title: Management Discussion and Analysis
+    pages:
+    - 96
+    - 110
+  start_page_text: Operating Expenses 2025 $ million 2024 $ million +/(-) % Staff costs 3,907 3,837 2 Property, plant and
+    equipment Depreciation 544 456 19 Maintenance and rental 180 201 (11) Others 462 405 14 1,186 1,0
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0299
+  title: Non-Performing Assets
+  origin: heading
+  pages:
+  - 105
+  - 106
+  printed_pages:
+  - '103'
+  - '104'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0288
+    title: Management Discussion and Analysis
+    pages:
+    - 96
+    - 110
+  start_page_text: Non-Performing Assets Total NPAs $ million (1) Substandard $ million Doubtful $ million Loss $ million
+    NPLs $ million (2) NPL Ratio % (2) Singapore 2025 236 39 111 86 236 0.2 2024 332 84 132 116 321 0
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0318
+  title: Auditor
+  origin: heading
+  pages:
+  - 116
+  - 116
+  printed_pages:
+  - '114'
+  - '114'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0310
+    title: Directors’ Statement
+    pages:
+    - 111
+    - 116
+  start_page_text: 'Audit Committee The members of the Audit Committee as at the date of this statement are: Chua Kim Chiu,
+    Chairman Chong Chuan Neo Lian Wee Cheow Seck Wai Kwong Tan Yen Yen The Audit Committee performed'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0319
+  title: Independent Auditor’s Report
+  origin: subtoc
+  pages:
+  - 117
+  - 124
+  printed_pages:
+  - '115'
+  - '122'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0309
+    title: Financial Statements
+    pages:
+    - 111
+    - 255
+  start_page_text: Report on the Audit of the Financial Statements Our Opinion In our opinion, the accompanying consolidated
+    financial statements of Oversea-Chinese Banking Corporation Limited (“the Bank”) and its subsi
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0335
+  title: Balance Sheets
+  origin: subtoc
+  pages:
+  - 127
+  - 127
+  printed_pages:
+  - '125'
+  - '125'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0309
+    title: Financial Statements
+    pages:
+    - 111
+    - 255
+  start_page_text: GROUP BANK In $ million Note 31 December 2025 31 December 2024 31 December 2025 31 December 2024 EQUITY
+    Attributable to equity holders of the Bank Share capital 13 17,887 18,096 17,887 18,096 Other eq
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0342
+  title: 2.1 Basis of Preparation
+  origin: subnote
+  pages:
+  - 132
+  - 132
+  printed_pages:
+  - '130'
+  - '130'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0341
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: These notes form an integral part of the financial statements. The Board of Directors of Oversea-Chinese
+    Banking Corporation Limited authorised these financial statements for issue on 24 February 2026
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0356
+  title: 2.15 Leases
+  origin: subnote
+  pages:
+  - 150
+  - 151
+  printed_pages:
+  - '148'
+  - '149'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0341
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued)
+    2.13.9 Insurance Service Result from Insurance Contracts Issued (continued) Insurance Finance
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0357
+  title: 2.16 Recognition of Income and Expense
+  origin: subnote
+  pages:
+  - 151
+  - 151
+  printed_pages:
+  - '149'
+  - '149'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0341
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.15 Leases (continued) 2.15.2 As Lessor Rental income
+    on tenanted areas of the buildings owned by the Group is recognised in the income statement
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0359
+  title: 2.18 Fiduciary Activities
+  origin: subnote
+  pages:
+  - 152
+  - 152
+  printed_pages:
+  - '150'
+  - '150'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0341
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.17 Income Tax Expense (continued) Pillar Two related
+    top-up tax expenses are recognised and disclosed separately from other current income tax e
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0366
+  title: 6. Dividends from Subsidiaries and Associates
+  origin: note
+  pages:
+  - 158
+  - 158
+  printed_pages:
+  - '156'
+  - '156'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0339
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: 5. Fees and Commissions (Net) GROUP BANK $ million 2025 2024 2025 2024 Gross fee and commission income
+    Brokerage 118 87 8 2 Credit card 414 404 339 334 Fund management 121 108 1 2 Guarantees 10 12 2 3
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0387
+  title: 19. Other Liabilities
+  origin: note
+  pages:
+  - 174
+  - 174
+  printed_pages:
+  - '172'
+  - '172'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0339
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: 19. Other Liabilities GROUP BANK $ million 2025 2024 2025 2024 Bills payable 579 348 469 277 Interest payable
+    1,855 1,940 1,357 1,286 Lease liabilities 254 234 75 49 Precious metal liabilities 2,950 1
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0395
+  title: 21.6 Reconciliation of Movements of Liabilities to Cash Flows Arising from Financing Activities
+  origin: subnote
+  pages:
+  - 180
+  - 180
+  printed_pages:
+  - '178'
+  - '178'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0389
+    title: 21. Debt Issued
+    pages:
+    - 176
+    - 180
+  start_page_text: '21. Debt Issued (continued) 21.5 Covered Bonds GROUP $ million Issue date Maturity date 2025 2024 Issued
+    by the Bank: EUR500 million 0.625% fixed rate bonds 18 Apr 2018 18 Apr 2025 – 701 EUR500 millio'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0401
+  title: 22.5 Expected Recognition of the Contractual Service Margin for Life Insurance Contracts Issued
+  origin: subnote
+  pages:
+  - 186
+  - 186
+  printed_pages:
+  - '184'
+  - '184'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0396
+    title: 22. Assets and Liabilities for Life Insurance Funds
+    pages:
+    - 181
+    - 186
+  start_page_text: '22. Assets and Liabilities for Life Insurance Funds (continued) 22.5 Expected Recognition of the Contractual
+    Service Margin for Life Insurance Contracts Issued $ million Less than 1 year 1 to 2 years '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0405
+  title: 26. Loans to Customers
+  origin: note
+  pages:
+  - 188
+  - 188
+  printed_pages:
+  - '186'
+  - '186'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0339
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: 26. Loans to Customers GROUP BANK $ million 2025 2024 2025 2024 Gross loans 341,120 319,166 248,305 229,814
+    Allowances Impaired loans (Note 28) (1,577) (1,278) (677) (484) Non-impaired loans (Note 30)
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0429
+  title: 38.4 Insurance-Related Risk Management
+  origin: subnote
+  pages:
+  - 220
+  - 234
+  printed_pages:
+  - '218'
+  - '232'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0425
+    title: 38. Risk Management
+    pages:
+    - 210
+    - 234
+  start_page_text: 38. Risk Management (continued) 38.4 Insurance-Related Risk Management This note sets out the risk management
+    information of GEH Group. Governance Framework Managing risk is an integral part of GEH Gr
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0440
+  title: 45.1 Assets Pledged
+  origin: subnote
+  pages:
+  - 252
+  - 252
+  printed_pages:
+  - '250'
+  - '250'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0439
+    title: 45. Financial Assets Transferred
+    pages:
+    - 252
+    - 252
+  start_page_text: '45. Financial Assets Transferred 45.1 Assets Pledged GROUP BANK $ million 2025 2024 2025 2024 Government
+    treasury bills and securities – Singapore 1,558 707 1,581 707 – Others 5,636 4,483 4,850 2,643 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0471
+  title: Mr Jason Moo
+  origin: heading
+  pages:
+  - 265
+  - 266
+  printed_pages:
+  - '263'
+  - '264'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0467
+    title: Our Management – Biographies
+    pages:
+    - 265
+    - 269
+  start_page_text: Our Management – Biographies Mr Tan Teck Long Group Chief Executive Officer Mr Tan Teck Long was appointed
+    Group Chief Executive Officer of OCBC on 1 January 2026. Mr Tan is also Board Commissioner of
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0492
+  title: Singapore
+  origin: heading
+  pages:
+  - 270
+  - 270
+  printed_pages:
+  - '268'
+  - '268'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0488
+    title: Southeast Asia
+    pages:
+    - 270
+    - 270
+  start_page_text: 'OCBC’s Presence in ASEAN, Greater China and Beyond Southeast Asia Singapore OCBC Bank Limited Head Office
+    63 Chulia Street #10-00 OCBC Centre East Singapore 049514 Tel: (65) 6363 3333 Fax: (65) 6534 3'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0502
+  title: China
+  origin: heading
+  pages:
+  - 271
+  - 271
+  printed_pages:
+  - '269'
+  - '269'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0500
+    title: Greater China
+    pages:
+    - 271
+    - 271
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0508
+  title: United Kingdom
+  origin: heading
+  pages:
+  - 271
+  - 271
+  printed_pages:
+  - '269'
+  - '269'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0507
+    title: Europe
+    pages:
+    - 271
+    - 271
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0516
+  title: August
+  origin: heading
+  pages:
+  - 272
+  - 272
+  printed_pages:
+  - '270'
+  - '270'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0515
+    title: Financial Calendar
+    pages:
+    - 272
+    - 274
+  start_page_text: Financial Calendar February 25 February 2026 Announcement of full year results for 2025 April 16 April
+    2026 Annual General Meeting May May 2026 Announcement of first quarter results for 2026 On or abo
+  verdict: correct
+  note: 'Doubtful: "August" is a bold month label in the Financial Calendar list rather than a prose heading; accepted as
+    a calendar sub-heading.'
+- node_id: ocbc-group_ar_2025_en:regions:0527
+  title: Corporate Profile
+  origin: heading
+  pages:
+  - 275
+  - 275
+  printed_pages:
+  - '273'
+  - '273'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0518
+    title: OCBC’s Corporate Profile and Information
+    pages:
+    - 275
+    - 276
+  start_page_text: 'Corporate Information Board of Directors Mr Andrew Lee Chairman Ms Chong Chuan Neo Mr Chua Kim Chiu Dr
+    Andrew Khoo Prof Lee Tih Shih Mr Lian Wee Cheow Mr Seck Wai Kwong Mr Pramukti Surjaudaja Mrs Tan '
+  verdict: correct
+  note: ''

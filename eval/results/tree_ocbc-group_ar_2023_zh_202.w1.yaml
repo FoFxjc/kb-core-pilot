@@ -1,0 +1,757 @@
+doc_id: ocbc-group_ar_2023_zh
+seed: 202
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2023_zh:regions:0011
+  title: 最大团队
+  origin: heading
+  pages:
+  - 7
+  - 7
+  printed_pages:
+  - '5'
+  - '5'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0007
+    title: 的一年
+    pages:
+    - 6
+    - 7
+  start_page_text: 保险业 最大团队 以保险代理员总人数来计，大东方在 新加坡和马来西亚两地拥有规模最大 的保险代理员队伍 第一 大东方在新加坡和马来西亚的寿险 销售业务的市场占有率名列第一 11亿2100令吉 大东方控股以11亿2100万令吉拟议
+    收购马来西亚的AmMetLife Insurance Berhad和AmMetLife Takaful Berhad >1600万 大东方保单持有人超过1600万名， 在
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0036
+  title: 我们的宗旨、价值观和使命
+  origin: toc
+  pages:
+  - 20
+  - 20
+  printed_pages:
+  - '18'
+  - '18'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0035
+    title: 秉持宗旨向前迈进
+    pages:
+    - 20
+    - 21
+  start_page_text: 助力人们和社区， 共赴心之所向。 宗旨 永恒价值 我们致力于缔造 持久而永恒的价值， 在审慎管理风险与 勇敢采取行动之间 保持平衡。 我们建立长久的合作 关系，从而获得长期 回报。 只有这样，我们才 能在“集团一体”下，
+    实现可持续增长。 诚信 我们严以律己，秉持 最高道德标准，即使 在无人监督的情况下 也始终坚持做正确的 事情。 我们始终以正直和 诚实的原则行事，充 分领会我们行为守则 的精神和
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0037
+  title: 宗旨
+  origin: heading
+  pages:
+  - 20
+  - 20
+  printed_pages:
+  - '18'
+  - '18'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0036
+    title: 我们的宗旨、价值观和使命
+    pages:
+    - 20
+    - 20
+  start_page_text: 助力人们和社区， 共赴心之所向。 宗旨 永恒价值 我们致力于缔造 持久而永恒的价值， 在审慎管理风险与 勇敢采取行动之间 保持平衡。 我们建立长久的合作 关系，从而获得长期 回报。 只有这样，我们才 能在“集团一体”下，
+    实现可持续增长。 诚信 我们严以律己，秉持 最高道德标准，即使 在无人监督的情况下 也始终坚持做正确的 事情。 我们始终以正直和 诚实的原则行事，充 分领会我们行为守则 的精神和
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0039
+  title: 价值观
+  origin: heading
+  pages:
+  - 20
+  - 20
+  printed_pages:
+  - '18'
+  - '18'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0038
+    title: 助力人们和社区， 共赴心之所向。
+    pages:
+    - 20
+    - 20
+  start_page_text: 助力人们和社区， 共赴心之所向。 宗旨 永恒价值 我们致力于缔造 持久而永恒的价值， 在审慎管理风险与 勇敢采取行动之间 保持平衡。 我们建立长久的合作 关系，从而获得长期 回报。 只有这样，我们才 能在“集团一体”下，
+    实现可持续增长。 诚信 我们严以律己，秉持 最高道德标准，即使 在无人监督的情况下 也始终坚持做正确的 事情。 我们始终以正直和 诚实的原则行事，充 分领会我们行为守则 的精神和
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0046
+  title: 在业绩之外力求发展
+  origin: toc_group
+  pages:
+  - 22
+  - 29
+  printed_pages:
+  - '20'
+  - '27'
+  parent: null
+  start_page_text: 加速过渡至净零排放以实现可持续发展的未来 华侨银行致力于加速过渡至净零排放 未来，同时负责任地开展业务，并为我们 的社区做出贡献。我们透过与客户和主 要利益相关者紧密接触及合作来完成这 项工作。我们致力于维护业务诚信，并将
+    可持续性核心纳入董事会、董事委员会、 管理层及各职能组别，确保我们透过可 持续性框架来实现我们的可持续发展 使命。 在2023年，我们更新了可持续性框架， 强化可持续性的优先事
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0057
+  title: 负责任地开展业务
+  origin: heading
+  pages:
+  - 22
+  - 22
+  printed_pages:
+  - '20'
+  - '20'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0053
+    title: 亚洲领先的金融服务合作伙伴，实现可持续发展的未来。
+    pages:
+    - 22
+    - 22
+  start_page_text: 加速过渡至净零排放以实现可持续发展的未来 华侨银行致力于加速过渡至净零排放 未来，同时负责任地开展业务，并为我们 的社区做出贡献。我们透过与客户和主 要利益相关者紧密接触及合作来完成这 项工作。我们致力于维护业务诚信，并将
+    可持续性核心纳入董事会、董事委员会、 管理层及各职能组别，确保我们透过可 持续性框架来实现我们的可持续发展 使命。 在2023年，我们更新了可持续性框架， 强化可持续性的优先事
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0102
+  title: 公司治理
+  origin: toc_group
+  pages:
+  - 40
+  - 54
+  printed_pages:
+  - '38'
+  - '52'
+  parent: null
+  start_page_text: 资本管理 资本政策 集团资本管理政策的关键目标是，保持 良好的资本状况，为业务发展和策略投 资提供支持，并维持投资者、存款者、 客户及市场信心。据此，集团的目标是 维持其信贷评级至少为”A”级，并确保 其资本比率高于监管最低要求，同时也
+    兼顾到股东要求持续回报的期望及高 标准的谨慎态度。集团积极管理其资本 结构，力求以最佳资本工具组合保持低 资本成本。 资本监控与计划 集团的资本受到严密监控及积极
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0127
+  title: 信贷损失准备金
+  origin: heading
+  pages:
+  - 49
+  - 49
+  printed_pages:
+  - '47'
+  - '47'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0119
+    title: 信贷风险管理
+    pages:
+    - 46
+    - 49
+  start_page_text: '时间为基础的适当催收策略，以提高收 回额，同时尽量减少对我们客户的影 响。我们采用个人贷款的违约期数和不 良状况标签等数据，不断对个人贷款的 催收工作进行分析、调整和优先排序。 信贷风险的阶段与预期信贷损失(ECL)
+    有关减损准备金的详情，请参阅集团财务报告附注2.12。 非信贷减损 第二阶段 履约中的敞口自初始确认以 来，其信贷风险显著增加 整个存续期ECL 信贷减损 第三阶段 停止履约的敞口 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0131
+  title: 非信贷减损
+  origin: heading
+  pages:
+  - 49
+  - 49
+  printed_pages:
+  - '47'
+  - '47'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0130
+    title: 12个月ECL
+    pages:
+    - 49
+    - 49
+  start_page_text: '时间为基础的适当催收策略，以提高收 回额，同时尽量减少对我们客户的影 响。我们采用个人贷款的违约期数和不 良状况标签等数据，不断对个人贷款的 催收工作进行分析、调整和优先排序。 信贷风险的阶段与预期信贷损失(ECL)
+    有关减损准备金的详情，请参阅集团财务报告附注2.12。 非信贷减损 第二阶段 履约中的敞口自初始确认以 来，其信贷风险显著增加 整个存续期ECL 信贷减损 第三阶段 停止履约的敞口 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0181
+  title: 我们的意见
+  origin: heading
+  pages:
+  - 63
+  - 63
+  printed_pages:
+  - '61'
+  - '61'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0180
+    title: 财务报表审计报告
+    pages:
+    - 63
+    - 70
+  start_page_text: 财务报表审计报告 我们的意见 我们认为，所附的华侨银行有限公司 (“银行”) 与其附属公司 (“集团”) 的合并财务报告以及银行的资产负债表、收入报表、综合收益报表 与权益变动表，已根据1967年公司法令
+    (“法令”) 及新加坡财务报告准则 (国际) (“SFRS(I)s”) 而编制，公允反映了于2023年12月31日集 团的合并财务状况与银行的财务状况以及截至该日期财政年度的集团的合并财务业绩、
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0196
+  title: PricewaterhouseCoopers LLP
+  origin: heading
+  pages:
+  - 70
+  - 70
+  printed_pages:
+  - '68'
+  - '68'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0180
+    title: 财务报表审计报告
+    pages:
+    - 63
+    - 70
+  start_page_text: '作为依据SSAs进行的审计工作的一部分，我们在整个审计过程中运用了专业判断和保持专业的怀疑精神。我们也进行以下工作: • 识别和评估财务报告的重大误报的风险，无论是出于舞弊或错误，并针对这些风险设计和执行审计程序，并取得充分和适当的，
+    能为我们的意见提供基础的审计证据。出于舞弊而造成的重大误报要比出于错误而造成的重大误报更为难以检测，这是因为舞 弊可能涉及串谋、伪造、蓄意疏忽、错误陈述或内部控制措'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0200
+  title: 权益变动表 – 集团
+  origin: subtoc
+  pages:
+  - 74
+  - 75
+  printed_pages:
+  - '72'
+  - '73'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0167
+    title: 财务报告
+    pages:
+    - 55
+    - 204
+  start_page_text: 应归属银行权益持有人 百万元 股本与 其他权益 资本 储备金 (1) 公允价值 储备金 收益 储备金 总额 非控股 股东权益 权益总额 2023年1月1日(重列) 19,744 792 (1,140) 31,721
+    51,117 1,308 52,425 本财政年度综合收益总额 本年度盈利 – – – 7,021 7,021 144 7,165 其他综合收益 可能在随后重新分类以纳入收入报表的项目
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0202
+  title: 合并现金流量表
+  origin: subtoc
+  pages:
+  - 77
+  - 77
+  printed_pages:
+  - '75'
+  - '75'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0167
+    title: 财务报告
+    pages:
+    - 55
+    - 204
+  start_page_text: 百万元 2023 2022 (重列) 营运活动的现金流量 扣除所得税前盈利 8,401 6,670 非现金项目的调整： 贷款与其他资产准备金 733 584 无形资产的摊销 103 104 套期交易、公允价值计入损益证券与发行债务的变动
+    21 130 房地产与设备的折旧及租赁负债的利息支出 447 429 出售政府、债务与股本证券净(收益)/亏损 (47) 206 出售房地产与设备净收益 (71)
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0206
+  title: 2.2.3 联号企业与合资企业
+  origin: heading
+  pages:
+  - 80
+  - 78
+  printed_pages:
+  - '78'
+  - '76'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0205
+    title: 2. 重大会计政策资讯摘要
+    pages:
+    - 78
+    - 96
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.2 合并之基准 2.2.1 附属公司 附属公司是本集团控制的实体，本集团可通过参与此实体而拥有 其可变动回报的敞口和享有权，并有能力通过对此实体动用权力 而影响其回报。
+    附属公司是在控制权转移给集团的日期起开始合并，并在控制权 终止的日期停止合并。当有事实与情况显示集团的权力、对可变 动回报的享有权或集团动用权力影响其回报的能力有所变化时， 集团就会重新评估
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0218
+  title: 2.3.1 外币交易
+  origin: heading
+  pages:
+  - 80
+  - 81
+  printed_pages:
+  - '78'
+  - '79'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0217
+    title: 2.3 货币折算
+    pages:
+    - 80
+    - 81
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.2 合并之基准 2.2.1 附属公司 附属公司是本集团控制的实体，本集团可通过参与此实体而拥有 其可变动回报的敞口和享有权，并有能力通过对此实体动用权力 而影响其回报。
+    附属公司是在控制权转移给集团的日期起开始合并，并在控制权 终止的日期停止合并。当有事实与情况显示集团的权力、对可变 动回报的享有权或集团动用权力影响其回报的能力有所变化时， 集团就会重新评估
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0243
+  title: 2.10 商誉与其他无形资产
+  origin: subnote
+  pages:
+  - 83
+  - 84
+  printed_pages:
+  - '81'
+  - '82'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0205
+    title: 2. 重大会计政策资讯摘要
+    pages:
+    - 78
+    - 96
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.7 衍生金融工具 (续) 在现金流量套期关系中，集团主要使用交叉货币掉期和利率掉期 以套期因利率改变而导致的可变动利率资产或负债的现金流量变 化性，其方式可能是一对一套期关系或以一个组合为基础。对于
+    符合条件的现金流量套期，衍生工具的公允价值变化的有效部分 是在权益的现金流量套期储备金中确认。无效部分的收益或损失 立即在收入报表中确认。现金流量套期储备金中累
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0254
+  title: 2.11.5 监管要求
+  origin: heading
+  pages:
+  - 85
+  - 85
+  printed_pages:
+  - '83'
+  - '83'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0253
+    title: 2.13 保险和再保险合约
+    pages:
+    - 85
+    - 91
+  start_page_text: '2. 重大会计政策资讯摘要 (续) 2.11 资产减损 (续) (I) 金融资产 (续) 2.11.4 各阶段之间的变动 (续) 集团在评估信贷风险自初始确认后是否出现显著增加的情况 时考虑了定性和定量两种参数。这包括:
+    (a) 集团同时根据整个存续期间PD相对于初始确认的相对值 和绝对值变化，为信贷风险的显著增加情况订立阈值。 (b) 集团进行定性评估，以确定信贷风险是否显著增加。 (c) 集团'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0260
+  title: 2.13.4 确认
+  origin: heading
+  pages:
+  - 86
+  - 87
+  printed_pages:
+  - '84'
+  - '85'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0255
+    title: (II) 其他资产
+    pages:
+    - 85
+    - 90
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约(续) 2.13.1 定义和分类 (续) GEH集团发行的直接参与型合约是具有直接参与性质的合约， GEH集团持有一组内含资产并按变动收费法(VFA)为这组合约记
+    账。VFA对SFRS(I) 17作出修改以反映GEH集团对此合约收取的 代价是可变动费用。 所有其他保险合约及所有再保险合约均被归类为不具备直接参与 性质的合约。这些合约中一
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0266
+  title: 2.13.6.2 履行合约现金流量(FCF)
+  origin: heading
+  pages:
+  - 87
+  - 87
+  printed_pages:
+  - '85'
+  - '85'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0265
+    title: 2.13.6 计量
+    pages:
+    - 87
+    - 89
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.4 确认 (续) 只有在报告期末已个别符合确认标准的合约方会列入该组别。 如果合约是在报告日期后符合组别内的确认标准，则将在符合
+    确认标准的报告期内列入组别中，或者若合约并不符合资格以 列入现有组别中，此合约将建立一个新组别，让未来合约亦可列 入。这类组别的组成在后续期间不予重新评估。 2.13.5 合约界限 GEH
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0277
+  title: 保险服务费用
+  origin: heading
+  pages:
+  - 90
+  - 90
+  printed_pages:
+  - '88'
+  - '88'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0253
+    title: 2.13 保险和再保险合约
+    pages:
+    - 85
+    - 91
+  start_page_text: '2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.8 终止确认与合约修改 (续) c) 对预期剩余保险合约服务的保险覆盖单位数目作出调整，以 反映已移除的保险覆盖单位数目。
+    若按PAA入账的保险合约终止确认，为终止确认而移除有关权 利和义务的效应所作出的相关调整，会导致以下金额立即纳入 损益中: a) 若该合约是结束，原合约的LRC的终止确认部分与因结束所 产生的任'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0333
+  title: 16.3 现金流量与其他套期储备金
+  origin: subnote
+  pages:
+  - 110
+  - 110
+  printed_pages:
+  - '108'
+  - '108'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0330
+    title: 16. 收益储备金
+    pages:
+    - 109
+    - 110
+  start_page_text: 16. 收益储备金 (续) 16.2 一般储备金 集团 银行 2023 2022 2023 2022 百万元 百万元 (重列) 百万元 百万元 于1月1日 – 先前报道 1,277 1,349 1,406
+    1,400 采用SFRS(I) 17的效应 – (351) – – 于1月1日 – 重列 1,277 998 1,406 1,400 来自未授予股票股息的DSP储备金 16 13 16 13 净
+  verdict: correct
+  note: '[carried from the pre-fix sheet: same title, pages and parent]'
+  carried: true
+- node_id: ocbc-group_ar_2023_zh:regions:0334
+  title: 16.4 货币折算储备金
+  origin: subnote
+  pages:
+  - 110
+  - 110
+  printed_pages:
+  - '108'
+  - '108'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0330
+    title: 16. 收益储备金
+    pages:
+    - 109
+    - 110
+  start_page_text: 16. 收益储备金 (续) 16.2 一般储备金 集团 银行 2023 2022 2023 2022 百万元 百万元 (重列) 百万元 百万元 于1月1日 – 先前报道 1,277 1,349 1,406
+    1,400 采用SFRS(I) 17的效应 – (351) – – 于1月1日 – 重列 1,277 998 1,406 1,400 来自未授予股票股息的DSP储备金 16 13 16 13 净
+  verdict: correct
+  note: '[carried from the pre-fix sheet: same title, pages and parent]'
+  carried: true
+- node_id: ocbc-group_ar_2023_zh:regions:0366
+  title: 33.1 主要附属公司列表
+  origin: subnote
+  pages:
+  - 139
+  - 139
+  printed_pages:
+  - '137'
+  - '137'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0365
+    title: 33. 附属公司
+    pages:
+    - 138
+    - 140
+  start_page_text: '33. 附属公司 (续) 33.1 主要附属公司列表 集团主要附属公司详情如下: 附属公司名称 注册国家/ 主要营业地点 集团所持的拥有权与 投票权的比例(%) 非控股股东所持的拥有权与 投票权的比例(%)
+    2023 (1) 2022 (1) 2023 (1) 2022 (1) 银行业 华侨银行（澳门）有限公司 澳门行政特区 100 100 – – 新加坡银行有限公司 新加坡 100 100 – '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0389
+  title: 获得的抵押品与其他信贷强化项目
+  origin: heading
+  pages:
+  - 153
+  - 153
+  printed_pages:
+  - '151'
+  - '151'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0383
+    title: 38.2 信贷风险
+    pages:
+    - 150
+    - 153
+  start_page_text: '38. 风险管理 (续) 38.2 信贷风险 (续) 过期但未减损的贷款 某些贷款与垫款已过期但并未减损，因为这些贷款的抵押品价值超过拖欠的本金及利息。这些贷款的准备金可能已拨出。集团过期但 未减损的非银行贷款如下:
+    百万元 2023 2022 过期 少于30天 875 884 30至90天 333 310 超过90天 259 333 过期但未减损 1,467 1,527 获得的抵押品与其他信贷强'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0394
+  title: 结构性外汇风险
+  origin: heading
+  pages:
+  - 154
+  - 154
+  printed_pages:
+  - '152'
+  - '152'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0391
+    title: 38.3 市场风险与资产负债管理
+    pages:
+    - 153
+    - 158
+  start_page_text: 38. 风险管理 (续) 38.3 市场风险与资产负债管理 (续) 利率风险 IRRBB是指影响银行账户状态的不良利率变动导致可能损失资本或盈利减少的风险。IRRBB管理的基本目标是确保利率风险敞口与集 团的风险承担能力保持一致，并维持在既定的风险承受范围内。
+    集团同时从资本和收益的角度评估IRRBB的影响。权益经济价值(EVE)敏感度用于估计对银行账户状态的净现值的潜在影响；净利息 收入(NII
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0407
+  title: 寿险合约的保险风险
+  origin: heading
+  pages:
+  - 161
+  - 163
+  printed_pages:
+  - '159'
+  - '161'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0402
+    title: 治理框架
+    pages:
+    - 159
+    - 171
+  start_page_text: 38. 风险管理 (续) 38.4 保险相关风险管理 (续) 以下章节说明GEH集团的保险风险与主要金融风险，以及管理这些风险的目标、政策与程序。 GEH集团所面对的保险风险与主要金融风险或其管理和计量这些风险的方式并无任何变动。
+    保险风险 集团的主要业务是提供保险产品与相关的财务咨询服务。这些产品所保障的风险包括死亡、发病 (健康、残疾、重病、个人意外事故)、 房地产及受伤、投资储蓄保障及财富累
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0411
+  title: (ii) 截至2023年12月31日的已发生索赔的非寿险负债净额
+  origin: heading
+  pages:
+  - 166
+  - 166
+  printed_pages:
+  - '164'
+  - '164'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0410
+    title: 累积索赔估计与至今累积给付
+    pages:
+    - 165
+    - 166
+  start_page_text: 38. 风险管理 (续) 38.4 保险相关风险管理 (续) 保险风险 (续) 非寿险合约的保险风险 (续) 累积索赔估计与至今累积给付 (续) (ii) 截至2023年12月31日的已发生索赔的非寿险负债净额
+    百万元 2016 2017 2018 2019 2020 2021 2022 2023 总额 (a) 累积索赔估计 事故发生年 100 117 113 114 102 96 124 138
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0419
+  title: (g) 流动性风险
+  origin: heading
+  pages:
+  - 169
+  - 171
+  printed_pages:
+  - '167'
+  - '169'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0412
+    title: 市场、信贷与流动性风险
+    pages:
+    - 166
+    - 171
+  start_page_text: 38. 风险管理 (续) 38.4 保险相关风险管理 (续) 市场、信贷与流动性风险 (续) (c) 股本价格风险 投资资产存有股本价格风险。这来自直接股本投资、权益衍生工具与基金投资。GEH集团通过投资承担所有或大部分股本波动性及投
+    资风险。股本价格风险也存在于投资联结产品，其保险营运的收入与相关股本基金的表现挂钩因为这对所赚取的费用会造成影响。限 制的设定针对单一证券持股占总持股权的百分比进行
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0435
+  title: 39. 金融资产与金融负债的分类
+  origin: note
+  pages:
+  - 184
+  - 187
+  printed_pages:
+  - '182'
+  - '185'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0203
+    title: 财务报告附注
+    pages:
+    - 78
+    - 204
+  start_page_text: '39. 金融资产与金融负债的分类 集团 百万元 强制按 FVTPL计量 指定为 FVTPL 摊余成本 FVOCI 保险合约 总额 2023 现金及存放中央银行款项 – – 34,286 – – 34,286
+    新加坡政府国库券与证券 1,904 80 3,358 13,823 – 19,165 其他政府国库券与证券 3,040 78 4,437 18,910 – 26,465 银行同业的存放和贷款 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0438
+  title: 41.1 估价治理框架
+  origin: subnote
+  pages:
+  - 189
+  - 189
+  printed_pages:
+  - '187'
+  - '187'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0437
+    title: 41. 金融工具的公允价值
+    pages:
+    - 189
+    - 195
+  start_page_text: '41. 金融工具的公允价值 41.1 估价治理框架 集团设有一个针对公允价值计量的治理框架，包括正式化的检讨程序及由不涉及从事有关交易的业务单位所进行的独立公允价值 查证。 GRM的市场风险管理(MRM)职能负责模型验证程序。金融模型用于对金融工具的定价与风险价值(VaR)的计算。MRM通过内部独立
+    验证与定期审查，确保所用的模型符合其目的。MRM采用取自独立来源的市场利率以进行风险测量和估价。 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0453
+  title: 44. 承诺
+  origin: note
+  pages:
+  - 199
+  - 199
+  printed_pages:
+  - '197'
+  - '197'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0203
+    title: 财务报告附注
+    pages:
+    - 78
+    - 204
+  start_page_text: '44. 承诺 承诺主要包括为客户提供的信贷合约。这类信贷设施(可取消及不可取消)可以是有固定期限或没有固定期限。 集团 银行 2023 2022 2023 2022 百万元 百万元 百万元 百万元 44.1
+    信贷承诺 未使用的信贷: 期限在1年或以下 152,568 150,236 75,198 67,418 期限在1年以上 34,602 33,468 44,357 41,039 187,170 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0457
+  title: 46.2 作为发出备兑债券的抵押品而转让的资产(附注21.5)
+  origin: subnote
+  pages:
+  - 201
+  - 201
+  printed_pages:
+  - '199'
+  - '199'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0455
+    title: 46. 转移金融资产
+    pages:
+    - 201
+    - 201
+  start_page_text: '46. 转移金融资产 46.1 抵押资产 集团 银行 2023 2022 2023 2022 百万元 百万元 百万元 百万元 政府国库券与证券 – 新加坡 425 584 525 909 – 其他 3,117
+    650 1,780 634 银行同业的存放和贷款 10 16 – – 客户贷款 538 1,537 451 1,422 债务证券 2,761 1,811 1,853 1,358 6,851 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0462
+  title: 49. 新会计准则与解释
+  origin: note
+  pages:
+  - 204
+  - 204
+  printed_pages:
+  - '202'
+  - '202'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0203
+    title: 财务报告附注
+    pages:
+    - 78
+    - 204
+  start_page_text: 49. 新会计准则与解释 截至报告日期，针对现有会计准则而作出的某些新准则、修订及解释已经公布。集团尚未采用以下已经发布但尚未开始生效的新/经修 订准则与解释。 SFRS(I) 标题 在以下财政年度期初或
+    之后开始生效 SFRS(I) 1-1 (经修订) 负债分类为流动或非流动 2024年1月1日 SFRS(I) 16 (经修订) 售后租回的租赁负债 2024年1月1日 多项 SFRS(I) 1-
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0476
+  title: 黄碧娟女士
+  origin: heading
+  pages:
+  - 211
+  - 211
+  printed_pages:
+  - '209'
+  - '209'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0475
+    title: 管理委员会附加资料
+    pages:
+    - 211
+    - 215
+  start_page_text: 管理委员会附加资料 黄碧娟女士 集团首席执行官 黄碧娟女士于2021年4月15日受委为 华侨银行集团首席执行官，并于2023年 2月7日受委为执行董事。黄女士还担任 华侨银行中国董事长、华侨银行印尼董 事总监，以及新加坡银行、大东方控股、
+    华侨银行马来西亚、华侨银行香港以及 吴庆瑞博士奖学金的董事。黄女士目前是 新加坡银行公会和新加坡银行与金融学院 的理事会成员。她还是新加坡企业发展局 和国际金融
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0480
+  title: 赖进贵先生
+  origin: heading
+  pages:
+  - 212
+  - 212
+  printed_pages:
+  - '210'
+  - '210'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0475
+    title: 管理委员会附加资料
+    pages:
+    - 211
+    - 215
+  start_page_text: 赖进贵先生 环球金融市场部总裁 赖进贵先生在2020年10月受委为环球 金融市场部总裁。他负责华侨银行在 新加坡、马来西亚、印度尼西亚、香港、 中国和另外七个海外市场的金融市场 业务和资产负债管理。 赖先生在2012年2月加入华侨银行。自
+    2015年起，他也负责银行的全球资产和负 债管理。他在2019年5月受委为集团董事 总经理。赖先生在交易、销售与资产负债 管理方面，拥有超过34年的经验，并曾在
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0482
+  title: 郭斯强先生
+  origin: heading
+  pages:
+  - 212
+  - 212
+  printed_pages:
+  - '210'
+  - '210'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0475
+    title: 管理委员会附加资料
+    pages:
+    - 211
+    - 215
+  start_page_text: 赖进贵先生 环球金融市场部总裁 赖进贵先生在2020年10月受委为环球 金融市场部总裁。他负责华侨银行在 新加坡、马来西亚、印度尼西亚、香港、 中国和另外七个海外市场的金融市场 业务和资产负债管理。 赖先生在2012年2月加入华侨银行。自
+    2015年起，他也负责银行的全球资产和负 债管理。他在2019年5月受委为集团董事 总经理。赖先生在交易、销售与资产负债 管理方面，拥有超过34年的经验，并曾在
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0487
+  title: Parwati Surjaudaja女士
+  origin: heading
+  pages:
+  - 213
+  - 213
+  printed_pages:
+  - '211'
+  - '211'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0475
+    title: 管理委员会附加资料
+    pages:
+    - 211
+    - 215
+  start_page_text: 陈先生在2005年加入新加坡华侨银行，担 任新兴企业总监，并带领该部门的组建。 在这段期间，他重新定义了银行对小型企 业的覆盖范围，将华侨银行定位为新加坡 领先的中小型企业银行。他在马来西亚、 印尼和香港等地推动了中小型企业业务的
+    区域扩张，并为中小型企业引入了新的商 业模式、数码解决方案和服务创新。 2012年，陈先生受委为环球商业银行的国 际业务部总裁。除了监督华侨银行核心市 场新兴行业的业务
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0504
+  title: 印尼
+  origin: heading
+  pages:
+  - 216
+  - 216
+  printed_pages:
+  - '214'
+  - '214'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0499
+    title: 东南亚
+    pages:
+    - 216
+    - 216
+  start_page_text: '国际网络 东南亚 新加坡 华侨银行有限公司 总部 63 Chulia Street #10-00 OCBC Centre East Singapore 049514 电话: (65) 6363 3333
+    传真: (65) 6534 3986 www.ocbc.com 在新加坡设有32家分行。 新加坡银行有限公司 总部 63 Market Street #22-00 Bank of Singapor'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0506
+  title: 泰国
+  origin: heading
+  pages:
+  - 216
+  - 216
+  printed_pages:
+  - '214'
+  - '214'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0499
+    title: 东南亚
+    pages:
+    - 216
+    - 216
+  start_page_text: '国际网络 东南亚 新加坡 华侨银行有限公司 总部 63 Chulia Street #10-00 OCBC Centre East Singapore 049514 电话: (65) 6363 3333
+    传真: (65) 6534 3986 www.ocbc.com 在新加坡设有32家分行。 新加坡银行有限公司 总部 63 Market Street #22-00 Bank of Singapor'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2023_zh:regions:0534
+  title: 集团简介
+  origin: heading
+  pages:
+  - 219
+  - 219
+  printed_pages:
+  - '217'
+  - '217'
+  parent:
+    node_id: ocbc-group_ar_2023_zh:regions:0526
+    title: 华侨银行简介与企业资料
+    pages:
+    - 219
+    - 220
+  start_page_text: '217 企业资料 董事会 李国庆先生 主席 莊泉娘女士 蔡锦洲先生 邱清和博士 李迪士博士 韩贵凤女士 石懐光先生 Pramukti Surjaudaja先生 陈燕燕女士 黄碧娟女士 秘书 杨万益先生 廖凤珠女士
+    注册办事处 63 Chulia Street #10-00 OCBC Centre East Singapore 049514 电话: (65) 6363 3333 (个人银行) (65'
+  verdict: null
+  note: ''

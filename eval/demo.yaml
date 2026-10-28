@@ -1,0 +1,195 @@
+# Fixed demo questions (final round, user 2026-10-19; D41). Each question maps to one layer of demo-goal.
+# Run: once in an MCP client (a coding agent) and once in the chat page (scripts.eval agent / chat --questions eval/demo.yaml).
+# 2026-10-19 run: MCP client session eval-agent-20261019T214037 (answer and session_key are from that session; V0 replay reads them here);
+# chat page eval-chat-20261019T214037 (chat.session_key, viewable in V1 session replay). The sessions' traces are replay material; do not delete.
+questions:
+- id: d1
+  lang: zh
+  layer: single value
+  question: 华侨银行 2025 年末的不良贷款率是多少？
+  runner: mcp_client
+  session_key: cc_37b6245980841144231571bbf728d791
+  answer: |-
+    华侨银行集团 2025 年末的不良贷款率是 **0.9%**，和 2024 年末的 0.9% 一样，没有变化（ocbc-group_ar_2025_en，物理页 98，印刷页 96）。
+
+    - **出处**：数字来自 2025 年英文年报"管理层讨论与分析"（MD&A）开头的概览表。我读了原文，表中"Key Financial Ratios (%)"一栏写的是"Non-performing loan ratio 0.9（2025）/ 0.9（2024）"。
+    - **来源情况**：2025 年的数值目前只有这一个来源，也没有重述。2024 年的 0.9% 在 2024 年报中也有披露（ocbc-group_ar_2024_en，物理页 98，印刷页 96），两个来源数值一致。
+    - **原文精度**：年报只披露到小数点后一位（0.9%）。
+
+    我只查了集团层面的不良贷款率。不良贷款余额、按地区或行业的细分数据没有查，也没有读到。如果需要，可以再看年报中资产质量相关的章节。
+  tool_path: resolve_concept → get_metric_series → read
+  cost_usd: 0.145
+  chat:
+    session_key: chat_69c4c3edb3f94716bc363a42871a011e
+    model_calls: 3
+    tool_path: resolve_concept → get_metric_series → read
+- id: d2
+  lang: zh
+  layer: cross-year comparison
+  question: 2025 年与 2024 年的不良贷款率相比有何变化？
+  runner: mcp_client
+  session_key: cc_af0aa59a071ce0adcfbf1a120af07f84
+  answer: |-
+    **结论：没有变化。2025 年和 2024 年华侨银行集团的不良贷款率都是 0.9%。**
+
+    - **关键财务比率表**：2025 年报的管理层讨论与分析（MD&A）有一张关键财务比率表，“Non-performing loan ratio”一行 2025 年为 0.9%，2024 年也是 0.9%（ocbc-group_ar_2025_en，物理页 98，印刷页 96）。
+    - **MD&A 正文**：原文写的是 “NPL ratio remained unchanged at 0.9%”，即截至 2025 年 12 月 31 日，不良贷款率维持在 0.9% 不变（ocbc-group_ar_2025_en，物理页 100，印刷页 98）。
+
+    **同一段里的其他资产质量数据**（ocbc-group_ar_2025_en，物理页 100，印刷页 98）：
+    - 不良资产总额为 32.4 亿新元（$3.24 billion），比一年前增加 13%。
+    - 不良资产拨备覆盖率为 151%。
+    - 2025 年总拨备为 6.65 亿新元，下降 4%。
+    - 信贷成本从 19 个基点降到 17 个基点。
+
+    **数据核对情况**：
+    - 2024 年的 0.9% 有两个来源，结果一致：2024 年报和 2025 年报的比率表。没有重述。
+    - 2025 年的 0.9% 目前只有 2025 年报一个来源。
+    - 我只读了 2025 年报的原文。2024 年报中对应的页面（物理页 98，印刷页 96）我没有读。
+
+    **补充说明**：
+    - 以上来自英文版年报。2025 年报还有中文版，这次没有查。
+    - 2025 年报 MD&A 的“Non-Performing Assets”一节（物理页 105，印刷页 103）按地区列出了不良贷款率，我没有读这一页。
+  tool_path: resolve_concept → get_metric_series → read → search → read
+  cost_usd: 0.184
+  chat:
+    session_key: chat_9135f757ff2147f5aec36550a8925b57
+    model_calls: 4
+    tool_path: resolve_concept → get_metric_series → read → read
+- id: d3
+  lang: zh
+  layer: time series
+  question: 华侨银行过去三年净利润的增长率是多少？
+  runner: mcp_client
+  session_key: cc_27b10aeb9e778b0247665a3ed3527608
+  answer: |-
+    这里的“过去三年”指库内最新期间往前数三年，即 2023–2025 财年；以 2022 年为基期。指标用的是“归属于本行股东的净利润”（Net profit attributable to equity holders of the Bank）。
+
+    **结论：** 华侨银行这三年的净利润增速一路放缓，2025 年小幅下降。2025 年比 2022 年累计增长约 34.3%，年均复合增长率约 10.3%。
+
+    | 财年 | 净利润（百万新元） | 同比增长 |
+    |---|---|---|
+    | 2022（基期，已重述） | 5,526 | — |
+    | 2023 | 7,021 | +27.1% |
+    | 2024 | 7,587 | +8.1% |
+    | 2025 | 7,422 | −2.2% |
+
+    出处：集团五年摘要（Group Five-Year Summary）（ocbc-group_ar_2025_en，物理页 4，印刷页 2）。金额单位为百万新元，原文写作 "$ million"。增长率是我根据表中数字算的，原文没有直接给出。
+
+    **几点说明：**
+    - **事实状态：** 各年数值在多个来源中一致。2022–2024 年有 4–6 个来源，2025 年有 2 个来源。2023 年和 2024 年的数字分别与当年年报一致：2023 年（ocbc-group_ar_2023_en，物理页 4，印刷页 2），2024 年（ocbc-group_ar_2024_en，物理页 6，印刷页 4）。这两页我没有逐页读原文，是数据工具给出的对应关系。
+    - **重述：** 原文脚注说，2022 年的数字因采用 SFRS(I) 17 而重述。最初公布 2022 年数字的那份年报不在库内，所以无法与原始口径比较。上面的 2022 年基期用的是重述后的 5,526 百万新元。
+    - **口径：** 如果改用现金基础净利润（不含无形资产摊销），同一张表里 2022–2025 年分别为 5,630、7,124、7,646、7,443 百万新元。
+  tool_path: get_metric_series → read
+  cost_usd: 0.108
+  chat:
+    session_key: chat_b4325a3ef4164353b7905c2c7175ab43
+    model_calls: 3
+    tool_path: get_metric_series → search → read
+- id: d4
+  lang: zh
+  layer: cross-language
+  question: 华侨银行 2025 年的流动性覆盖率（LCR）是多少？
+  runner: mcp_client
+  session_key: cc_8f84cb71d777a55154b289daea1aa73e
+  answer: |-
+    华侨银行集团 2025 年的流动性覆盖率（LCR）分两个口径披露，数字都是全年平均值：
+
+    | 指标 | 2025 | 2024 |
+    |---|---|---|
+    | 全币种流动性覆盖率 | **138%** | 141% |
+    | 新元流动性覆盖率 | **294%** | 299% |
+
+    出处：英文年报管理层讨论与分析（MD&A）的关键财务比率表（ocbc-group_ar_2025_en，物理页 98，印刷页 96）。
+
+    **口径说明**（见同页脚注 8）：LCR 按新加坡金管局 MAS Notice 649 计算，报告的是"各年度平均 LCR"，不是 12 月 31 日当天的数。脚注 5 还说明，MAS Notice 651 等规定要求的详细公开披露放在华侨银行投资者关系网站的 Capital and Regulatory Disclosures 栏目，不在年报里。
+
+    **数据状态**：
+    - 知识库的结构化数据里没有 LCR 这两项，所以无法交叉核对。以上数字只有一个来源，就是我直接读到的这一页英文年报原文，未发现重述。
+    - 我没有查 2025 年中文版年报。系统标注中文版为"部分"内容，所以不确定里面有没有同一张比率表。
+  tool_path: resolve_concept → search → get_metric_series → get_metric_series → read
+  cost_usd: 0.17
+  chat:
+    session_key: chat_36e0e4ed234d402ea33a6bcb3cbfb662
+    model_calls: 4
+    tool_path: resolve_concept → get_metric_series → search → read → read
+- id: d5
+  lang: zh
+  layer: trap question
+  question: 2025 年中文版年报的管理层讨论与分析是怎么解释净利息收入变化的？
+  runner: mcp_client
+  session_key: cc_a8544868201ad1b54011e9a740e2e222
+  answer: |-
+    **先说结论：2025 年中文版年报里没有"管理层讨论与分析"（MD&A）这一章。** 据检索系统说明，中文版只是节选，不含 MD&A、风险管理、公司治理、业务回顾等章节，但财务报表和全部附注都在。下面分两部分：中文版里最接近的内容是"集团首席财务官综述"；MD&A 原文只在英文版里有。
+
+    ## 一、中文版：集团首席财务官综述（物理页 24–25，印刷页 22–23）
+
+    综述里关于净利息收入的说法是：
+    - **下降原因**：集团收入创新高，主要靠非利息收入大范围的强劲增长，这部分增长足以抵消"关键基准利率大幅度显著下降而减少的净利息收入"（ocbc-group_ar_2025_zh，物理页 24，印刷页 22）。
+    - **缓解因素**：净利息收入的下降，靠三点得到缓解：持续的贷款增长、积极管理资金成本、积极管理资产负债表（包括把多余流动性配置到收益增厚的优质资产）（同上）。
+    - **相关背景**：按恒定汇率计算，贷款增长 9%，达到 3410 亿元；客户存款增长 10%，主要来自往来与储蓄存款（CASA），CASA 比率升到将近 51%（ocbc-group_ar_2025_zh，物理页 25，印刷页 23）。
+
+    这一节只有定性解释，没有给出净利息收入的金额。中文版的财务报表附注 3"净利息收入"（物理页 77，印刷页 75）有逐项数字，但这一页我没有读。
+
+    ## 二、英文版 MD&A（ocbc-group_ar_2025_en）
+
+    **总览表**（物理页 98，印刷页 96）：
+    - 净利息收入从 2024 年的 9,755 百万新元降到 2025 年的 9,150 百万新元，降幅 6%。
+    - 净息差从 2.20% 降到 1.91%。
+
+    **净利息收入一节**（物理页 101，印刷页 99）用表格分析变化。我读到的这一页只有表格，没有文字叙述。
+
+    1. **平均资产负债表**
+       - 生息资产平均余额从 443,419 百万增至 478,684 百万新元，平均收益率却从 5.06% 降到 4.19%。其中，客户贷款收益率从 5.25% 降到 4.32%。
+       - 付息负债平均成本从 3.06% 降到 2.43%。其中，非银行客户存款成本从 2.84% 降到 2.27%。
+
+    2. **量价分析**（单位：百万新元）
+
+       | 项目 | 规模因素 | 利率因素 | 净变化 |
+       |---|---|---|---|
+       | 利息收入 | +1,632 | −3,938 | −2,306 |
+       | 利息支出 | +974 | −2,702 | −1,728 |
+       | 对净利息收入的影响 | +658 | −1,236 | −578 |
+
+       再加上天数变化带来的 −27，净利息收入合计减少 605 百万新元。
+
+    可以看出，英文 MD&A 的表格把下降拆成两部分：利率下降是主要拖累，规模扩张起了部分抵消作用。这和中文版首席财务官综述的说法一致。
+
+    ## 数据说明
+    - 系统的事实层里，2025 年净利息收入 S$9,150m 只有一个来源，就是英文 MD&A 总览表。我已经读原文核对过。
+    - 没有发现重述。
+  tool_path: search → search → read → browse → read → read
+  cost_usd: 0.329
+  chat:
+    session_key: chat_74d0aa9bb6a64341bb45dc1beb2517a1
+    model_calls: 3
+    tool_path: search → search → read
+- id: d6
+  lang: zh
+  layer: not in the fact layer, fall back to the source text
+  question: 华侨银行过去三年（2023–2025）的信贷成本是多少？
+  runner: mcp_client
+  session_key: cc_0a415be11e8744e7e1b4d41fd687a7d9
+  answer: |-
+    华侨银行集团 2023 到 2025 年的总信贷成本分别是 20、19、17 个基点（以贷款为基数），逐年下降。
+
+    | 年份 | 信贷成本 | 总拨备 | 出处 |
+    |---|---|---|---|
+    | 2023 | 20 个基点 | 7.33 亿新元（比 2022 年的 5.84 亿新元增加 25%） | （ocbc-group_ar_2023_en，物理页 97，印刷页 95）；拨备金额见同一文档物理页 96 与 101，印刷页 94 与 99 |
+    | 2024 | 19 个基点 | 6.90 亿新元（同比下降 6%） | （ocbc-group_ar_2024_en，物理页 99–100，印刷页 97–98） |
+    | 2025 | 17 个基点 | 6.65 亿新元（同比下降 4%） | （ocbc-group_ar_2025_en，物理页 99–100，印刷页 97–98） |
+
+    - **2023 年**：年报原文是“NPL ratio of 1.0% and credit costs at 20 basis points”。
+    - **2024 年**：原文是“total credit costs of 19 basis points of loans were below the previous year's 20 basis points”。
+    - **2025 年**：原文是“Credit costs were lower at 17 basis points of loans, compared to 19 basis points a year ago”。年报把总拨备下降主要归因于非减值资产拨备减少。
+
+    **数据说明**
+    - **数据来源**：知识库的结构化指标里没有收录“信贷成本”，以上数字都是我从英文年报“管理层讨论与分析”的概述部分逐页读出来的。这些年报的关键财务比率表里没有这一项。
+    - **前后一致**：2024 年报写明上年是 20 个基点，2025 年报写明上年是 19 个基点，和各年当年的披露一致，没有看到重述。
+    - **单位**：金额单位是新元。
+    - **中文版**：知识库里有中文版年报，但这次没有查，以上都来自英文版。
+  tool_path: resolve_concept → get_metric_series → search → read → read → read → read → read
+  cost_usd: 0.278
+  chat:
+    session_key: chat_3aa9ec0a89c6435183922ed77210175c
+    model_calls: 6
+    tool_path: resolve_concept → resolve_concept → get_metric_series → search → read → read → read

@@ -1,0 +1,23 @@
+doc_id: ocbc-group_ar_2025_en
+purpose: re-judge nodes that changed after the W1 round-4 fixes
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2025_en:regions:0338
+  title: 2.2.1 Subsidiaries
+  origin: heading
+  pages:
+  - 132
+  - 133
+  printed_pages:
+  - '130'
+  - '131'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0337
+    title: 2.2 Basis of Consolidation
+    pages:
+    - 132
+    - 133
+  start_page_text: These notes form an integral part of the financial statements. The Board of Directors of Oversea-Chinese
+    Banking Corporation Limited authorised these financial statements for issue on 24 February 2026
+  verdict: correct
+  note: ''

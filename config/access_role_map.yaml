@@ -1,0 +1,15 @@
+# Groups from the SSO gateway -> kb-core roles (KB_CORE_AUTH_MODE=trusted_header; docs/deploy.md).
+# The gateway sends the user's groups, comma-separated, in KB_CORE_AUTH_GROUPS_HEADER. A user holds every role one of
+# their groups maps to; tool calls run as the held data role with the highest clearance (roles are never combined).
+# A user whose groups map to no role is refused (403): map a company-wide group to `public` to give everyone the
+# public documents. `admin_groups` grant the admin role (/v1/admin/*: import, live chat, traces, sessions, evaluations);
+# admin gives no data role (no data tools, no MCP), but /v1/admin/traces and /v1/admin/sessions are an operator view of
+# every user's tool calls and their results: grant it only to people trusted with all of that.
+# Group names below are placeholders: replace them with the company's groups.
+version: 1
+groups:
+  example-all-staff: public
+  example-finance-analysts: finance_analyst
+  example-finance-confidential: finance_confidential
+admin_groups:
+  - example-kb-admins

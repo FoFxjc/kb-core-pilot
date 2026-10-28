@@ -1,0 +1,15 @@
+# Access label overlay (round 2 W3, decision D1). SIMULATED labels: kb-intake does not carry access labels yet
+# (contract request CR-2). This file is deleted when CR-2 lands. Shape: docs/round-2-w3-access.md section 2.
+# Demo choice: the 2025 English report is internal to finance and under embargo (D4), its MD&A is confidential;
+# every other document is public.
+version: 1
+simulated: true
+default: {classification: public, domains: [], owner: investor-relations}
+documents:
+  - match: "ocbc-group_ar_2025_en"
+    label: {classification: internal, domains: [finance], owner: group-finance,
+            embargo_until: "2026-11-15T00:00:00+08:00"}
+blocks:
+  - doc: "ocbc-group_ar_2025_en"
+    title: "^Management Discussion and Analysis$"
+    label: {classification: confidential, domains: [finance]}

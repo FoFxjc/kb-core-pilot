@@ -1,0 +1,766 @@
+doc_id: ocbc-group_ar_2024_en
+seed: 203
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2024_en:regions:0017
+  title: Top 3
+  origin: heading
+  pages:
+  - 8
+  - 8
+  printed_pages:
+  - '6'
+  - '6'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0016
+    title: A Year of Achievements
+    pages:
+    - 8
+    - 9
+  start_page_text: A Year of Achievements Banking $7.59 billion Record net profit 1st Singapore bank to launch an individual
+    savings account with debit card for children aged 7 to 15 to operate via the OCBC app with par
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0022
+  title: Record Financial Results
+  origin: heading
+  pages:
+  - 10
+  - 11
+  printed_pages:
+  - '8'
+  - '9'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0021
+    title: Our Chairman’s Reflections on Maximising Total Value
+    pages:
+    - 10
+    - 13
+  start_page_text: The year 2024 continued to see elevated uncertainty amidst heightened geopolitical tensions. This was accentuated
+    by the prolonged armed conflicts in the Middle East and Eastern Europe. On the macroec
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0029
+  title: Best Retail Bank – South East Asia and Singapore
+  origin: heading
+  pages:
+  - 13
+  - 13
+  printed_pages:
+  - '11'
+  - '11'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0021
+    title: Our Chairman’s Reflections on Maximising Total Value
+    pages:
+    - 10
+    - 13
+  start_page_text: 'The Strongest Bank in Singapore, 5th Strongest Bank in Asia Pacific and 10th Strongest Bank in the World
+    The Asian Banker’s 1000 World’s Strongest Banks Bank of the Year – Asia Pacific, Indonesia and '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0043
+  title: AI-enabled Surveillance
+  origin: heading
+  pages:
+  - 19
+  - 19
+  printed_pages:
+  - '17'
+  - '17'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0038
+    title: Creating Value Through AI, Transforming for the Future
+    pages:
+    - 18
+    - 21
+  start_page_text: 'With over 300 use cases, we are at the forefront of leveraging AI to create value. Here are some of the
+    ways we have implemented AI and the benefits we have gained. Increase in productivity: Up to 50%'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0074
+  title: Malaysia
+  origin: heading
+  pages:
+  - 29
+  - 29
+  printed_pages:
+  - '27'
+  - '27'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0070
+    title: Seeding Hope for the Future
+    pages:
+    - 28
+    - 29
+  start_page_text: Hong Kong Our colleagues took part in the annual “Tree-planting challenge”, organised by the non-profit
+    organisation Friends of the Earth Hong Kong. This event gives participants the opportunity to fo
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0092
+  title: Creating long-term value for shareholders
+  origin: heading
+  pages:
+  - 36
+  - 37
+  printed_pages:
+  - '34'
+  - '35'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0091
+    title: Chin Yee, Group Chief Financial Officer
+    pages:
+    - 36
+    - 37
+  start_page_text: OCBC delivered record profit in 2024 for the third consecutive year. Our net profit of $7.59 billion was
+    driven by robust growth across our well-diversified franchise of Banking, Wealth Management and
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0098
+  title: Key achievements
+  origin: heading
+  pages:
+  - 39
+  - 39
+  printed_pages:
+  - '37'
+  - '37'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0097
+    title: Noel, Group Chief Risk Officer
+    pages:
+    - 38
+    - 39
+  start_page_text: Key achievements Over the past year, the Bank maintained strong asset quality despite challenging macroeconomic
+    conditions. We also diversified our credit portfolio to improve its resilience and ensur
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0104
+  title: Sunny, Global Consumer Financial Services
+  origin: toc
+  pages:
+  - 42
+  - 43
+  printed_pages:
+  - '40'
+  - '41'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0090
+    title: Gleaning Our Leaders’ Insights
+    pages:
+    - 36
+    - 51
+  start_page_text: Sunny Global Consumer Financial Services “Close collaboration – internally and externally – has been instrumental
+    in driving our business forward. Looking ahead, an immediate priority will be to explo
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0107
+  title: Enhancing our services for the well-heeled
+  origin: heading
+  pages:
+  - 43
+  - 43
+  printed_pages:
+  - '41'
+  - '41'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0104
+    title: Sunny, Global Consumer Financial Services
+    pages:
+    - 42
+    - 43
+  start_page_text: An innovative collaboration was the launch of OCBC PartnerCare, which leveraged our One Group strengths
+    to provide a comprehensive financial and personal wellness programme. By leveraging our expertis
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0120
+  title: Uplifting our capabilities
+  origin: heading
+  pages:
+  - 49
+  - 49
+  printed_pages:
+  - '47'
+  - '47'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0117
+    title: Praveen, Group Operations and Technology
+    pages:
+    - 48
+    - 49
+  start_page_text: 'Quantum: Banking’s next revolution Quantum technology is an area that we have identified as potentially
+    transformational. It may not be long till quantum computing becomes mainstream, marking a paradi'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0121
+  title: An exciting outlook
+  origin: heading
+  pages:
+  - 49
+  - 49
+  printed_pages:
+  - '47'
+  - '47'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0117
+    title: Praveen, Group Operations and Technology
+    pages:
+    - 48
+    - 49
+  start_page_text: 'Quantum: Banking’s next revolution Quantum technology is an area that we have identified as potentially
+    transformational. It may not be long till quantum computing becomes mainstream, marking a paradi'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0134
+  title: • Audit Committee
+  origin: heading
+  pages:
+  - 54
+  - 54
+  printed_pages:
+  - '52'
+  - '52'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0131
+    title: Board Committees
+    pages:
+    - 53
+    - 56
+  start_page_text: the appointments of directors to boards of key subsidiaries to ensure governance standards are aligned
+    with the Bank’s. On an annual basis, the Nominating Committee is charged with determining whether
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0142
+  title: 'Principle 2: Board Composition and Guidance'
+  origin: heading
+  pages:
+  - 57
+  - 58
+  printed_pages:
+  - '55'
+  - '56'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0129
+    title: Board Matters
+    pages:
+    - 52
+    - 59
+  start_page_text: Board Orientation and Development A formal appointment letter and a director handbook are provided to every
+    new Director. The handbook sets out, along with other corporate information, the time commit
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0183
+  title: Dividend
+  origin: heading
+  pages:
+  - 77
+  - 77
+  printed_pages:
+  - '75'
+  - '75'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0181
+    title: Capital Management
+    pages:
+    - 77
+    - 78
+  start_page_text: Capital Management Capital Policy The key objective of the Group’s capital management policy is to maintain
+    a strong capital position to support business growth and strategic investments, and to susta
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0207
+  title: Overview of internal rating models
+  origin: heading
+  pages:
+  - 84
+  - 84
+  printed_pages:
+  - '82'
+  - '82'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0206
+    title: • Portfolio modelling
+    pages:
+    - 84
+    - 85
+  start_page_text: Credit risk mitigation Credit risk mitigation is managed via various measures such as holding collateral,
+    buying credit protection and setting netting arrangements to reduce credit risk exposures. Ris
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0217
+  title: Market risk management approach
+  origin: heading
+  pages:
+  - 86
+  - 86
+  printed_pages:
+  - '84'
+  - '84'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0213
+    title: Market Risk Management
+    pages:
+    - 86
+    - 87
+  start_page_text: We classify our credit exposures as restructured assets when we grant non-commercial concessions to borrowers
+    who are unable to meet their original repayment obligations. We further classify a restruc
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0242
+  title: Unauthorised trading risk
+  origin: heading
+  pages:
+  - 90
+  - 90
+  printed_pages:
+  - '88'
+  - '88'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0237
+    title: • Key components of Operational Resilience
+    pages:
+    - 89
+    - 90
+  start_page_text: 'prudent allocation of resources and capital, compliance with regulatory requirements, and effective risk
+    management to support sustainable business growth initiatives. Conduct risk To promote prudent '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0254
+  title: • Key components of technology and cyber resilience
+  origin: heading
+  pages:
+  - 91
+  - 91
+  printed_pages:
+  - '89'
+  - '89'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0248
+    title: Information security and digital risk management approach
+    pages:
+    - 91
+    - 91
+  start_page_text: Information Security and Digital Risk Management Information security and digital risk is a business risk
+    that comprises the risk domains of information, cyber and technology risks. Effective manageme
+  verdict: correct
+  note: '[carried from the pre-fix sheet: same title, pages and parent]'
+  carried: true
+- node_id: ocbc-group_ar_2024_en:regions:0265
+  title: Net Interest Income
+  origin: heading
+  pages:
+  - 101
+  - 101
+  printed_pages:
+  - '99'
+  - '99'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0260
+    title: Management Discussion and Analysis
+    pages:
+    - 96
+    - 110
+  start_page_text: Net Interest Income Average Balance Sheet 2024 2023 Average Balance $ million Interest $ million Average
+    Rate % Average Balance $ million Interest $ million Average Rate % Interest earning assets Loan
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0267
+  title: Volume and Rate Analysis
+  origin: heading
+  pages:
+  - 101
+  - 101
+  printed_pages:
+  - '99'
+  - '99'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0265
+    title: Net Interest Income
+    pages:
+    - 101
+    - 101
+  start_page_text: Net Interest Income Average Balance Sheet 2024 2023 Average Balance $ million Interest $ million Average
+    Rate % Average Balance $ million Interest $ million Average Rate % Interest earning assets Loan
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0305
+  title: Insurance CGU
+  origin: heading
+  pages:
+  - 121
+  - 122
+  printed_pages:
+  - '119'
+  - '120'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0303
+    title: Impairment of goodwill
+    pages:
+    - 121
+    - 122
+  start_page_text: Key Audit Matter How Our Audit Addressed the Key Audit Matter Impairment of goodwill (Refer to Notes 2.21
+    and 36 to the financial statements) The Group has a significant amount of goodwill arising fro
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0352
+  title: 2.6.4 Designation at FVTPL
+  origin: heading
+  pages:
+  - 136
+  - 137
+  printed_pages:
+  - '134'
+  - '135'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0350
+    title: 2.7 Derivative Financial Instruments
+    pages:
+    - 136
+    - 138
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.6 Non-Derivative Financial Assets (continued) Classification
+    and Measurement of Financial Assets (continued) (b) Assessment of Whether Contractu
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0358
+  title: 2.9 Investment Property
+  origin: subnote
+  pages:
+  - 138
+  - 138
+  printed_pages:
+  - '136'
+  - '136'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0318
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.7 Derivative Financial Instruments (continued)
+    Specific Policies for Hedges Affected by IBOR Reform (As Defined in Note 2.5.3) (continued) The G
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0386
+  title: 2.13.6.6 Insurance Acquisition Cash Flows
+  origin: heading
+  pages:
+  - 146
+  - 146
+  printed_pages:
+  - '144'
+  - '144'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0379
+    title: 2.13.5 Contract Boundary
+    pages:
+    - 143
+    - 146
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued)
+    2.13.6 Measurement (continued) 2.13.6.5 Reinsurance Contracts (continued) The risk adjustment
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0391
+  title: Insurance Revenue
+  origin: heading
+  pages:
+  - 148
+  - 148
+  printed_pages:
+  - '146'
+  - '146'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0377
+    title: Policy Information
+    pages:
+    - 143
+    - 150
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued)
+    2.13.8 Derecognition and Contract Modification (continued) When an insurance contract account
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0454
+  title: 21. Debt Issued
+  origin: note
+  pages:
+  - 174
+  - 178
+  printed_pages:
+  - '172'
+  - '176'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0316
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 263
+  start_page_text: 20. Deferred Tax (continued) The deferred tax assets and liabilities are to be recovered and settled after
+    one year and the following amounts, determined after appropriate offsetting, are shown in the
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0464
+  title: 22.3 Impact of Life Insurance Contracts Recognised During the Year
+  origin: subnote
+  pages:
+  - 183
+  - 183
+  printed_pages:
+  - '181'
+  - '181'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0461
+    title: 22. Assets and Liabilities for Life Insurance Funds
+    pages:
+    - 179
+    - 184
+  start_page_text: 22. Assets and Liabilities for Life Insurance Funds (continued) 22.3 Impact of Life Insurance Contracts
+    Recognised During the Year Contracts issued 2024 2023 $ million Non-onerous Onerous Total Non-on
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0465
+  title: 22.4 Amounts Determined on Transition to SFRS(I) 17
+  origin: subnote
+  pages:
+  - 183
+  - 183
+  printed_pages:
+  - '181'
+  - '181'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0461
+    title: 22. Assets and Liabilities for Life Insurance Funds
+    pages:
+    - 179
+    - 184
+  start_page_text: 22. Assets and Liabilities for Life Insurance Funds (continued) 22.3 Impact of Life Insurance Contracts
+    Recognised During the Year Contracts issued 2024 2023 $ million Non-onerous Onerous Total Non-on
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0492
+  title: 37. Segment Information
+  origin: note
+  pages:
+  - 205
+  - 207
+  printed_pages:
+  - '203'
+  - '205'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0316
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 263
+  start_page_text: 37. Segment Information The Group provides operating segment information primarily to business and additional
+    segment information by geography. 37.1 Business Segments $ million Global Consumer/ Privat
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0503
+  title: Maximum Exposure to Credit Risk
+  origin: heading
+  pages:
+  - 209
+  - 209
+  printed_pages:
+  - '207'
+  - '207'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0502
+    title: 38.2 Credit Risk
+    pages:
+    - 209
+    - 212
+  start_page_text: 38. Risk Management (continued) 38.2 Credit Risk Credit risk is the risk of financial loss due to a borrower
+    failing to meet their financial or contractual obligations. Credit risk arises from the Gro
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0504
+  title: Collateral
+  origin: heading
+  pages:
+  - 209
+  - 210
+  printed_pages:
+  - '207'
+  - '208'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0502
+    title: 38.2 Credit Risk
+    pages:
+    - 209
+    - 212
+  start_page_text: 38. Risk Management (continued) 38.2 Credit Risk Credit risk is the risk of financial loss due to a borrower
+    failing to meet their financial or contractual obligations. Credit risk arises from the Gro
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0570
+  title: 45. Financial Assets Transferred
+  origin: note
+  pages:
+  - 260
+  - 260
+  printed_pages:
+  - '258'
+  - '258'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0316
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 263
+  start_page_text: 45. Financial Assets Transferred 45.1 Assets Pledged GROUP BANK 2024 2023 2024 2023 $ million $ million
+    $ million $ million Government treasury bills and securities – Singapore 707 425 707 525 – Other
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0585
+  title: Five-Year Ordinary Share Capital History
+  origin: toc
+  pages:
+  - 266
+  - 266
+  printed_pages:
+  - '264'
+  - '264'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0259
+    title: Financials
+    pages:
+    - 96
+    - 266
+  start_page_text: 'Number of ordinary shares (million) Year Particulars Issued Held in treasury In circulation 2020 Shares
+    issued to non-executive directors # Shares issued in lieu of dividend 67 Share buyback (7) Issue'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0600
+  title: Our Management – Biographies
+  origin: toc
+  pages:
+  - 273
+  - 277
+  printed_pages:
+  - '271'
+  - '275'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0586
+    title: Know More About OCBC
+    pages:
+    - 267
+    - 279
+  start_page_text: Our Management – Biographies Ms Helen Wong Group Chief Executive Officer Ms Helen Wong was appointed Group
+    Chief Executive Officer of OCBC on 15 April 2021 and Executive Director on 7 February 2023. S
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0608
+  title: Mr Jason Moo
+  origin: heading
+  pages:
+  - 274
+  - 274
+  printed_pages:
+  - '272'
+  - '272'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0600
+    title: Our Management – Biographies
+    pages:
+    - 273
+    - 277
+  start_page_text: 'Our Management – Biographies Mr Tan is a Chartered Financial Analyst charter holder and a Fellow Chartered
+    Accountant of Singapore. He holds a Master of Business Administration from the University of '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0609
+  title: Ms Parwati Surjaudaja
+  origin: heading
+  pages:
+  - 275
+  - 275
+  printed_pages:
+  - '273'
+  - '273'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0600
+    title: Our Management – Biographies
+    pages:
+    - 273
+    - 277
+  start_page_text: and comprehensive experience in the international financial business management and people engagement.
+    Mr Wang holds a Master of Business Administration degree from Kellogg School of Management at Nor
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0614
+  title: Mr Praveen Raina
+  origin: heading
+  pages:
+  - 276
+  - 276
+  printed_pages:
+  - '274'
+  - '274'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0600
+    title: Our Management – Biographies
+    pages:
+    - 273
+    - 277
+  start_page_text: Our Management – Biographies businesses, serving start-ups, SMEs, mid-cap corporates and financial institutions
+    globally. He joined OCBC in April 2004 as Group Managing Director and Head of Internatio
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0624
+  title: Brunei
+  origin: heading
+  pages:
+  - 278
+  - 278
+  printed_pages:
+  - '276'
+  - '276'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0623
+    title: Southeast Asia
+    pages:
+    - 278
+    - 278
+  start_page_text: 'OCBC’s Presence in ASEAN, Greater China and Beyond Southeast Asia Singapore OCBC Bank Limited Head Office
+    63 Chulia Street #10-00 OCBC Centre East Singapore 049514 Tel: (65) 6363 3333 Fax: (65) 6534 3'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0626
+  title: Myanmar
+  origin: heading
+  pages:
+  - 278
+  - 278
+  printed_pages:
+  - '276'
+  - '276'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0623
+    title: Southeast Asia
+    pages:
+    - 278
+    - 278
+  start_page_text: 'OCBC’s Presence in ASEAN, Greater China and Beyond Southeast Asia Singapore OCBC Bank Limited Head Office
+    63 Chulia Street #10-00 OCBC Centre East Singapore 049514 Tel: (65) 6363 3333 Fax: (65) 6534 3'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0658
+  title: Corporate Profile
+  origin: heading
+  pages:
+  - 283
+  - 283
+  printed_pages:
+  - '281'
+  - '281'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0651
+    title: OCBC’s Corporate Profile and Information
+    pages:
+    - 283
+    - 284
+  start_page_text: Corporate Information Board of Directors Mr Andrew Lee Chairman Ms Chong Chuan Neo Mr Chua Kim Chiu Dr
+    Andrew Khoo Dr Lee Tih Shih Mr Lian Wee Cheow Mr Seck Wai Kwong Mr Pramukti Surjaudaja Ms Tan Yen
+  verdict: null
+  note: ''

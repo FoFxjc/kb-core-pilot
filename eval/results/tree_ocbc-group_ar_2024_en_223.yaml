@@ -1,0 +1,760 @@
+doc_id: ocbc-group_ar_2024_en
+seed: 223
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2024_en:regions:0003
+  title: Winning as One Group
+  origin: toc
+  pages:
+  - 4
+  - 5
+  printed_pages:
+  - '2'
+  - '3'
+  parent: null
+  start_page_text: The OCBC Group comprises six commercial banks, each located in a key growth market in Asia – Singapore,
+    Malaysia, Indonesia, Mainland China, Hong Kong SAR and Macau SAR. We have one Islamic bank, OCBC
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0029
+  title: Best Retail Bank – South East Asia and Singapore
+  origin: heading
+  pages:
+  - 13
+  - 13
+  printed_pages:
+  - '11'
+  - '11'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0021
+    title: Our Chairman’s Reflections on Maximising Total Value
+    pages:
+    - 10
+    - 13
+  start_page_text: 'The Strongest Bank in Singapore, 5th Strongest Bank in Asia Pacific and 10th Strongest Bank in the World
+    The Asian Banker’s 1000 World’s Strongest Banks Bank of the Year – Asia Pacific, Indonesia and '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0030
+  title: China International Trade Finance Bank of the Year
+  origin: heading
+  pages:
+  - 13
+  - 13
+  printed_pages:
+  - '11'
+  - '11'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0021
+    title: Our Chairman’s Reflections on Maximising Total Value
+    pages:
+    - 10
+    - 13
+  start_page_text: 'The Strongest Bank in Singapore, 5th Strongest Bank in Asia Pacific and 10th Strongest Bank in the World
+    The Asian Banker’s 1000 World’s Strongest Banks Bank of the Year – Asia Pacific, Indonesia and '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0056
+  title: Banking on four growth priorities to capture regional trade, investment and wealth flows
+  origin: heading
+  pages:
+  - 23
+  - 23
+  printed_pages:
+  - '21'
+  - '21'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0055
+    title: Drive Growth
+    pages:
+    - 23
+    - 23
+  start_page_text: 3-year strategy refresh to drive growth and reinforce core strengths Excel for Sustainable Growth Capture
+    rising Asian wealth with our Singapore – Hong Kong hubs and digital propositions Support incre
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0068
+  title: Hong Kong
+  origin: heading
+  pages:
+  - 27
+  - 27
+  printed_pages:
+  - '25'
+  - '25'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0065
+    title: Helping Where It Matters
+    pages:
+    - 27
+    - 27
+  start_page_text: Singapore In 2024, volunteering became more convenient for OCBC volunteers; they have been able to use
+    their lunch breaks to do good and contribute to the community. Each month, we invited beneficiari
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0070
+  title: Seeding Hope for the Future
+  origin: toc
+  pages:
+  - 28
+  - 29
+  printed_pages:
+  - '26'
+  - '27'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0060
+    title: Making Collective Actions for a Sustainable Future
+    pages:
+    - 24
+    - 31
+  start_page_text: Seeding Hope for the Future Singapore We continued our sustainability journey by sponsoring solar-powered
+    electric cruisers at Gardens by the Bay, promoting eco-friendly tourism while minimising carbo
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0088
+  title: Remuneration Committee
+  origin: heading
+  pages:
+  - 33
+  - 33
+  printed_pages:
+  - '31'
+  - '31'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0082
+    title: Board Committees
+    pages:
+    - 32
+    - 33
+  start_page_text: Nominating Committee Dr Andrew Khoo, Chairman Mr Andrew Lee Mr Lian Wee Cheow Mr Pramukti Surjaudaja Ms
+    Tan Yen Yen Remuneration Committee Mr Andrew Lee, Chairman Dr Andrew Khoo Mr Pramukti Surjaudaja
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0096
+  title: Reinforcing our strong and diversified funding position
+  origin: heading
+  pages:
+  - 37
+  - 37
+  printed_pages:
+  - '35'
+  - '35'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0091
+    title: Chin Yee, Group Chief Financial Officer
+    pages:
+    - 36
+    - 37
+  start_page_text: Proactive balance sheet management is vital amid softening interest rates to support our net interest income
+    growth. Maintaining strict cost discipline will be imperative as well. Our total shareholde
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0119
+  title: 'Quantum: Banking’s next revolution'
+  origin: heading
+  pages:
+  - 49
+  - 49
+  printed_pages:
+  - '47'
+  - '47'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0117
+    title: Praveen, Group Operations and Technology
+    pages:
+    - 48
+    - 49
+  start_page_text: 'Quantum: Banking’s next revolution Quantum technology is an area that we have identified as potentially
+    transformational. It may not be long till quantum computing becomes mainstream, marking a paradi'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0121
+  title: An exciting outlook
+  origin: heading
+  pages:
+  - 49
+  - 49
+  printed_pages:
+  - '47'
+  - '47'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0117
+    title: Praveen, Group Operations and Technology
+    pages:
+    - 48
+    - 49
+  start_page_text: 'Quantum: Banking’s next revolution Quantum technology is an area that we have identified as potentially
+    transformational. It may not be long till quantum computing becomes mainstream, marking a paradi'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0122
+  title: Hwee Boon, Group Human Resources
+  origin: toc
+  pages:
+  - 50
+  - 51
+  printed_pages:
+  - '48'
+  - '49'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0090
+    title: Gleaning Our Leaders’ Insights
+    pages:
+    - 36
+    - 51
+  start_page_text: At OCBC, our purpose has not changed since our doors opened more than nine decades ago, and we remain as
+    committed as ever to enabling the aspirations of individuals and communities. This same commitm
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0184
+  title: Share Buyback and Treasury Shares
+  origin: heading
+  pages:
+  - 77
+  - 77
+  printed_pages:
+  - '75'
+  - '75'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0180
+    title: Capital Management
+    pages:
+    - 77
+    - 78
+  start_page_text: Capital Management Capital Policy The key objective of the Group’s capital management policy is to maintain
+    a strong capital position to support business growth and strategic investments, and to susta
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0192
+  title: Board Governance
+  origin: heading
+  pages:
+  - 81
+  - 81
+  printed_pages:
+  - '79'
+  - '79'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0191
+    title: Risk Governance and Organisation
+    pages:
+    - 80
+    - 82
+  start_page_text: Board Governance Board of Directors Board Risk Management Committee (BRMC) Other Board Committees Senior
+    Management Group Chief Executive Officer (CEO) Group Chief Risk Officer (CRO) reports to the BR
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0193
+  title: Senior Management
+  origin: heading
+  pages:
+  - 81
+  - 81
+  printed_pages:
+  - '79'
+  - '79'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0191
+    title: Risk Governance and Organisation
+    pages:
+    - 80
+    - 82
+  start_page_text: Board Governance Board of Directors Board Risk Management Committee (BRMC) Other Board Committees Senior
+    Management Group Chief Executive Officer (CEO) Group Chief Risk Officer (CRO) reports to the BR
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0268
+  title: Operating Expenses
+  origin: heading
+  pages:
+  - 103
+  - 103
+  printed_pages:
+  - '101'
+  - '101'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0259
+    title: Management Discussion and Analysis
+    pages:
+    - 96
+    - 110
+  start_page_text: Operating Expenses 2024 $ million 2023 $ million +/(-) % Staff costs 3,837 3,501 10 Property and equipment
+    Depreciation 456 440 4 Maintenance and rental 201 162 24 Others 405 364 11 1,062 966 10 Other
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0283
+  title: Directors’ Statement
+  origin: subtoc
+  pages:
+  - 111
+  - 116
+  printed_pages:
+  - '109'
+  - '114'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0282
+    title: Financial Statements
+    pages:
+    - 111
+    - 263
+  start_page_text: The directors present this statement to the members of the Bank together with the audited consolidated
+    financial statements of the Group and the income statement, statement of comprehensive income, ba
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0285
+  title: Directors’ Interests in Shares or Debentures
+  origin: heading
+  pages:
+  - 112
+  - 112
+  printed_pages:
+  - '110'
+  - '110'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0283
+    title: Directors’ Statement
+    pages:
+    - 111
+    - 116
+  start_page_text: Directors’ Interests in Shares or Debentures According to the register of directors’ shareholdings, the
+    directors holding office at the end of the financial year had interests in shares in the Bank an
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0340
+  title: 2.6.2 Debt Instruments Measured at FVOCI
+  origin: heading
+  pages:
+  - 136
+  - 136
+  printed_pages:
+  - '134'
+  - '134'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0335
+    title: 2.6 Non-Derivative Financial Assets Classification and Measurement of Financial Assets
+    pages:
+    - 135
+    - 136
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.6 Non-Derivative Financial Assets (continued) Classification
+    and Measurement of Financial Assets (continued) (b) Assessment of Whether Contractu
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0348
+  title: 2.10 Goodwill and Other Intangible Assets 2.10.1 Goodwill
+  origin: subnote
+  pages:
+  - 138
+  - 138
+  printed_pages:
+  - '136'
+  - '136'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0317
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.7 Derivative Financial Instruments (continued)
+    Specific Policies for Hedges Affected by IBOR Reform (As Defined in Note 2.5.3) (continued) The G
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0360
+  title: 2.12 Financial Liabilities
+  origin: subnote
+  pages:
+  - 141
+  - 141
+  printed_pages:
+  - '139'
+  - '139'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0317
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.11 Impairment of Assets (continued) (II) Other
+    Assets (continued) 2.11.7 Investments in Subsidiaries and Associates Property, Plant and Equipmen
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0362
+  title: 2.13.3 Level of Aggregation
+  origin: heading
+  pages:
+  - 142
+  - 143
+  printed_pages:
+  - '140'
+  - '141'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0361
+    title: 2.13 Insurance and Reinsurance Contracts 2.13.1 Definition and Classification
+    pages:
+    - 141
+    - 150
+  start_page_text: '2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued)
+    2.13.2 Separating Components from Insurance and Reinsurance Contracts GEH Group assesses its '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0366
+  title: 2.13.5 Contract Boundary
+  origin: heading
+  pages:
+  - 143
+  - 143
+  printed_pages:
+  - '141'
+  - '141'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0361
+    title: 2.13 Insurance and Reinsurance Contracts 2.13.1 Definition and Classification
+    pages:
+    - 141
+    - 150
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued)
+    2.13.3 Level of Aggregation (continued) 2.13.3.2 Reinsurance Contracts (continued) Reinsuranc
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0367
+  title: 2.13.6.1 Measurement – Contracts Not Measured Under the PAA
+  origin: heading
+  pages:
+  - 144
+  - 144
+  printed_pages:
+  - '142'
+  - '142'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0361
+    title: 2.13 Insurance and Reinsurance Contracts 2.13.1 Definition and Classification
+    pages:
+    - 141
+    - 150
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued)
+    2.13.6 Measurement 2.13.6.1 Measurement – Contracts Not Measured Under the PAA On initial rec
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0369
+  title: 2.13.6.2 Fulfilment Cash Flows (FCF)
+  origin: heading
+  pages:
+  - 144
+  - 144
+  printed_pages:
+  - '142'
+  - '142'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0361
+    title: 2.13 Insurance and Reinsurance Contracts 2.13.1 Definition and Classification
+    pages:
+    - 141
+    - 150
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued)
+    2.13.6 Measurement 2.13.6.1 Measurement – Contracts Not Measured Under the PAA On initial rec
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0372
+  title: 2.13.6.5 Reinsurance Contracts
+  origin: heading
+  pages:
+  - 145
+  - 146
+  printed_pages:
+  - '143'
+  - '144'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0361
+    title: 2.13 Insurance and Reinsurance Contracts 2.13.1 Definition and Classification
+    pages:
+    - 141
+    - 150
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued)
+    2.13.6 Measurement (continued) 2.13.6.4 Subsequent Measurement – Contracts Not Measured Under
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0387
+  title: 2.15.2 As Lessor
+  origin: heading
+  pages:
+  - 151
+  - 151
+  printed_pages:
+  - '149'
+  - '149'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0386
+    title: Short-Term Leases and Low-Value Assets
+    pages:
+    - 151
+    - 151
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.15 Leases (continued) 2.15.1 As Lessee (continued)
+    Lease Liabilities The initial measurement of lease liability is measured at the present value
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0401
+  title: 2.21.3 Insurance Business
+  origin: heading
+  pages:
+  - 153
+  - 155
+  printed_pages:
+  - '151'
+  - '153'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0397
+    title: 2.21 Critical Accounting Estimates and Judgements
+    pages:
+    - 152
+    - 155
+  start_page_text: '2. Material Accounting Policy Information (continued) 2.21 Critical Accounting Estimates and Judgements
+    (continued) 2.21.1 Impairment of Financial Assets In determining whether the credit risk of the '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0407
+  title: 2.21.4 Impairment of Goodwill and Other Intangible Assets
+  origin: heading
+  pages:
+  - 155
+  - 155
+  printed_pages:
+  - '153'
+  - '153'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0397
+    title: 2.21 Critical Accounting Estimates and Judgements
+    pages:
+    - 152
+    - 155
+  start_page_text: '2. Material Accounting Policy Information (continued) 2.21 Critical Accounting Estimates and Judgements
+    (continued) 2.21.3 Insurance Business (continued) Lapses and surrender are derived based on GEH '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0434
+  title: 18. Derivative Financial Instruments
+  origin: note
+  pages:
+  - 171
+  - 172
+  printed_pages:
+  - '169'
+  - '170'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0315
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 263
+  start_page_text: '18. Derivative Financial Instruments The derivative financial instruments shown in the following tables
+    are held for both trading and hedging purposes. The contractual or underlying principal amounts '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0450
+  title: 23. Cash and Placements with Central Banks
+  origin: note
+  pages:
+  - 184
+  - 184
+  printed_pages:
+  - '182'
+  - '182'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0315
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 263
+  start_page_text: '22. Assets and Liabilities for Life Insurance Funds (continued) 22.5 Expected Recognition of the Contractual
+    Service Margin for Life Insurance Contracts Issued $ million Less than 1 year 1 to 2 years '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0498
+  title: Contractual Maturity for Financial Liabilities
+  origin: heading
+  pages:
+  - 216
+  - 216
+  printed_pages:
+  - '214'
+  - '214'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0493
+    title: 38.3 Market Risk and Asset Liability Management
+    pages:
+    - 212
+    - 217
+  start_page_text: 38. Risk Management (continued) 38.3 Market Risk and Asset Liability Management (continued) Contractual
+    Maturity for Financial Liabilities The table below shows the undiscounted cash outflows of the G
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0514
+  title: Market, Credit and Liquidity Risk
+  origin: heading
+  pages:
+  - 225
+  - 230
+  printed_pages:
+  - '223'
+  - '228'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0503
+    title: 38.4 Insurance-Related Risk Management
+    pages:
+    - 218
+    - 242
+  start_page_text: 38. Risk Management (continued) 38.4 Insurance-Related Risk Management (continued) Insurance Risk (continued)
+    Insurance Risk of Non-Life Insurance Contracts (continued) Cumulative Claims Estimates and
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0532
+  title: (j) Sensitivity Analysis on Financial Risks
+  origin: heading
+  pages:
+  - 240
+  - 240
+  printed_pages:
+  - '238'
+  - '238'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0530
+    title: Loss Allowance
+    pages:
+    - 238
+    - 240
+  start_page_text: 38. Risk Management (continued) 38.4 Insurance-Related Risk Management (continued) Market, Credit and Liquidity
+    Risk (continued) (j) Sensitivity Analysis on Financial Risks The sensitivity analysis be
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0545
+  title: 40.2 Fair Values
+  origin: subnote
+  pages:
+  - 248
+  - 248
+  printed_pages:
+  - '246'
+  - '246'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0537
+    title: 40. Fair Values of Financial Instruments
+    pages:
+    - 247
+    - 254
+  start_page_text: 40. Fair Values of Financial Instruments (continued) 40.2 Fair Values Financial instruments comprise financial
+    assets, financial liabilities and off-balance sheet financial instruments. The fair value
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0547
+  title: Financial Liabilities
+  origin: heading
+  pages:
+  - 248
+  - 248
+  printed_pages:
+  - '246'
+  - '246'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0545
+    title: 40.2 Fair Values
+    pages:
+    - 248
+    - 248
+  start_page_text: 40. Fair Values of Financial Instruments (continued) 40.2 Fair Values Financial instruments comprise financial
+    assets, financial liabilities and off-balance sheet financial instruments. The fair value
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0559
+  title: 47. Capital Management
+  origin: note
+  pages:
+  - 262
+  - 262
+  printed_pages:
+  - '260'
+  - '260'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0315
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 263
+  start_page_text: '46. Related Party Transactions (continued) 46.2 Key Management Personnel Compensation BANK 2024 2023 $
+    million $ million Key management personnel compensation is as follows: Short-term employee benefi'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0579
+  title: Mr Pramukti Surjaudaja (62)
+  origin: heading
+  pages:
+  - 271
+  - 271
+  printed_pages:
+  - '269'
+  - '269'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0570
+    title: Our Board – Biographies
+    pages:
+    - 267
+    - 272
+  start_page_text: 'Appointed as Director: 1 June 2005 Last Re-elected as a Director: 30 April 2024 Ms Tan is a highly regarded
+    IT practitioner for many years with vast experiences from SAS Institute, Oracle Corporation,'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0582
+  title: Academic and Professional Qualification
+  origin: heading
+  pages:
+  - 272
+  - 272
+  printed_pages:
+  - '270'
+  - '270'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0581
+    title: Ms Helen Wong (63)
+    pages:
+    - 272
+    - 272
+  start_page_text: Ms Wong has over 40 years of banking experience with deep knowledge of Greater China. She spent 27 years
+    at HSBC where her last held role was the Chief Executive for Greater China. Other Directorships
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0621
+  title: Macau SAR
+  origin: heading
+  pages:
+  - 279
+  - 279
+  printed_pages:
+  - '277'
+  - '277'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0618
+    title: Greater China
+    pages:
+    - 279
+    - 279
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0637
+  title: Registered Office
+  origin: heading
+  pages:
+  - 283
+  - 283
+  printed_pages:
+  - '281'
+  - '281'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0635
+    title: Corporate Information
+    pages:
+    - 283
+    - 284
+  start_page_text: Corporate Information Board of Directors Mr Andrew Lee Chairman Ms Chong Chuan Neo Mr Chua Kim Chiu Dr
+    Andrew Khoo Dr Lee Tih Shih Mr Lian Wee Cheow Mr Seck Wai Kwong Mr Pramukti Surjaudaja Ms Tan Yen
+  verdict: null
+  note: ''

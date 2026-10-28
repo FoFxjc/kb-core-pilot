@@ -1,0 +1,5215 @@
+{
+ "run_id": "eval-recall-20261028T103457-0018e8",
+ "kind": "recall",
+ "single": [
+  {
+   "id": "q01",
+   "lang": "en",
+   "category": "single_value",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "What was OCBC's non-performing loan (NPL) ratio at the end of 2025?",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 2,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0284",
+     "ocbc-group_ar_2025_en:regions:0285",
+     "ocbc-group_ar_2025_en:regions:0295",
+     "ocbc-group_ar_2025_en:regions:0024"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ],
+     [
+      2,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2025_en:regions:0285"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       105,
+       106
+      ],
+      "Non-Performing Assets",
+      "ocbc-group_ar_2025_en:regions:0295"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       9,
+       9
+      ],
+      "A Momentous Year",
+      "ocbc-group_ar_2025_en:regions:0013"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       13,
+       13
+      ],
+      "Our New Corporate Strategy",
+      "ocbc-group_ar_2025_en:regions:0024"
+     ]
+    ],
+    "trace_id": "tr_5d15d57bea8949efb3d60c18531ee69c",
+    "query_terms": [
+     "what",
+     "was",
+     "ocbc",
+     "s",
+     "non",
+     "performing",
+     "loan",
+     "npl",
+     "ratio",
+     "at",
+     "the",
+     "end",
+     "of",
+     "2025",
+     "不良贷款率",
+     "不良贷款",
+     "比率"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 5,
+    "page_hit_rank": 2,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0284",
+     "ocbc-group_ar_2025_en:regions:0285"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2024_en:regions:0260"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2024_en:regions:0261"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2023_en",
+      [
+       98,
+       98
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2023_en:regions:0236"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2025_en:regions:0285"
+     ]
+    ],
+    "trace_id": "tr_77b83947b25c4c95a07457ad6b92c9d2",
+    "query_terms": [
+     "what",
+     "was",
+     "ocbc",
+     "s",
+     "non",
+     "performing",
+     "loan",
+     "npl",
+     "ratio",
+     "at",
+     "the",
+     "end",
+     "of",
+     "2025",
+     "不良贷款率",
+     "不良贷款",
+     "比率"
+    ]
+   }
+  },
+  {
+   "id": "q02",
+   "lang": "en",
+   "category": "explanation",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "Why did net interest income decline in 2025?",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0289",
+     "ocbc-group_ar_2025_en:regions:0013"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       101,
+       101
+      ],
+      "Average Balance Sheet",
+      "ocbc-group_ar_2025_en:regions:0289"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       156,
+       156
+      ],
+      "3. Net Interest Income",
+      "ocbc-group_ar_2025_en:regions:0435"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       215,
+       215
+      ],
+      "Interest Rate Risk",
+      "ocbc-group_ar_2025_en:regions:0519"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       108,
+       108
+      ],
+      "Profit before Income Tax by Business Segment",
+      "ocbc-group_ar_2025_en:regions:0298"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       9,
+       9
+      ],
+      "A Momentous Year",
+      "ocbc-group_ar_2025_en:regions:0013"
+     ]
+    ],
+    "trace_id": "tr_97cde86f0bf14cdf84ff61ae3e0bffd7",
+    "query_terms": [
+     "why",
+     "did",
+     "net",
+     "interest",
+     "income",
+     "decline",
+     "in",
+     "2025",
+     "nii",
+     "净利息收入"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0289"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       101,
+       101
+      ],
+      "Average Balance Sheet",
+      "ocbc-group_ar_2025_en:regions:0289"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       156,
+       156
+      ],
+      "3. Net Interest Income",
+      "ocbc-group_ar_2025_en:regions:0435"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       215,
+       215
+      ],
+      "Interest Rate Risk",
+      "ocbc-group_ar_2025_en:regions:0519"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2023_en",
+      [
+       214,
+       214
+      ],
+      "Interest Rate Risk",
+      "ocbc-group_ar_2023_en:regions:0477"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       108,
+       108
+      ],
+      "Profit before Income Tax by Business Segment",
+      "ocbc-group_ar_2025_en:regions:0298"
+     ]
+    ],
+    "trace_id": "tr_fe9b99bd00654f73b96913f138d1b423",
+    "query_terms": [
+     "why",
+     "did",
+     "net",
+     "interest",
+     "income",
+     "decline",
+     "in",
+     "2025",
+     "nii",
+     "净利息收入"
+    ]
+   }
+  },
+  {
+   "id": "q03",
+   "lang": "en",
+   "category": "single_value",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "What was the Group CET1 capital adequacy ratio as at 31 December 2025?",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0219",
+     "ocbc-group_ar_2025_en:regions:0305"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       77,
+       78
+      ],
+      "Capital Adequacy Ratios",
+      "ocbc-group_ar_2025_en:regions:0219"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_zh",
+      [
+       36,
+       37
+      ],
+      "资本充足率",
+      "ocbc-group_ar_2025_zh:regions:0131"
+     ],
+     [
+      3,
+      "structure",
+      "ocbc-group_ar_2025_en",
+      [
+       110,
+       110
+      ],
+      "Capital Adequacy Ratios",
+      "ocbc-group_ar_2025_en:regions:0305"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       79,
+       79
+      ],
+      "Introduction",
+      "ocbc-group_ar_2025_en:regions:0222"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       221,
+       221
+      ],
+      "Regulatory Capital",
+      "ocbc-group_ar_2025_en:regions:0530"
+     ]
+    ],
+    "trace_id": "tr_3dca14d33eb44eb6871a2394cffb613f",
+    "query_terms": [
+     "what",
+     "was",
+     "the",
+     "group",
+     "cet1",
+     "capital",
+     "adequacy",
+     "ratio",
+     "as",
+     "at",
+     "31",
+     "december",
+     "2025",
+     "common",
+     "equity",
+     "tier",
+     "1",
+     "普通股权一级资本",
+     "普通",
+     "股权",
+     "tier1",
+     "资本"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 2,
+    "page_hit_rank": 2,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0219",
+     "ocbc-group_ar_2025_en:regions:0305"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       77,
+       78
+      ],
+      "Capital Adequacy Ratios",
+      "ocbc-group_ar_2024_en:regions:0185"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       77,
+       78
+      ],
+      "Capital Adequacy Ratios",
+      "ocbc-group_ar_2025_en:regions:0219"
+     ],
+     [
+      3,
+      "structure",
+      "ocbc-group_ar_2023_en",
+      [
+       75,
+       76
+      ],
+      "Capital Adequacy Ratios",
+      "ocbc-group_ar_2023_en:regions:0169"
+     ],
+     [
+      4,
+      "structure",
+      "ocbc-group_ar_2023_en",
+      [
+       108,
+       108
+      ],
+      "Capital Adequacy Ratios",
+      "ocbc-group_ar_2023_en:regions:0256"
+     ],
+     [
+      5,
+      "structure",
+      "ocbc-group_ar_2025_en",
+      [
+       110,
+       110
+      ],
+      "Capital Adequacy Ratios",
+      "ocbc-group_ar_2025_en:regions:0305"
+     ]
+    ],
+    "trace_id": "tr_20663494a567451fbac94efec1f28858",
+    "query_terms": [
+     "what",
+     "was",
+     "the",
+     "group",
+     "cet1",
+     "capital",
+     "adequacy",
+     "ratio",
+     "as",
+     "at",
+     "31",
+     "december",
+     "2025",
+     "common",
+     "equity",
+     "tier",
+     "1",
+     "普通股权一级资本",
+     "普通",
+     "股权",
+     "tier1",
+     "资本"
+    ]
+   }
+  },
+  {
+   "id": "q04",
+   "lang": "en",
+   "category": "single_value",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "How much wealth management fee income did OCBC earn in 2025?",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0291",
+     "ocbc-group_ar_2025_en:regions:0439"
+    ],
+    "top5": [
+     [
+      1,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       102,
+       102
+      ],
+      "Non-Interest Income",
+      "ocbc-group_ar_2025_en:regions:0291"
+     ],
+     [
+      2,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       44,
+       44
+      ],
+      "Capturing Rising Asian Wealth",
+      "ocbc-group_ar_2025_en:regions:0139"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       158,
+       158
+      ],
+      "5. Fees and Commissions (Net)",
+      "ocbc-group_ar_2025_en:regions:0439"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       13,
+       13
+      ],
+      "Our New Corporate Strategy",
+      "ocbc-group_ar_2025_en:regions:0024"
+     ]
+    ],
+    "trace_id": "tr_ec3d4d95a4de4753b890b738a4e8e2c4",
+    "query_terms": [
+     "how",
+     "much",
+     "wealth",
+     "management",
+     "fee",
+     "income",
+     "did",
+     "ocbc",
+     "earn",
+     "in",
+     "2025",
+     "fees",
+     "财富",
+     "管理费用"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0291"
+    ],
+    "top5": [
+     [
+      1,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       102,
+       102
+      ],
+      "Non-Interest Income",
+      "ocbc-group_ar_2025_en:regions:0291"
+     ],
+     [
+      2,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       102,
+       102
+      ],
+      "Non-Interest Income",
+      "ocbc-group_ar_2024_en:regions:0267"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2023_en",
+      [
+       100,
+       100
+      ],
+      "Non-Interest Income",
+      "ocbc-group_ar_2023_en:regions:0242"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       44,
+       44
+      ],
+      "Capturing Rising Asian Wealth",
+      "ocbc-group_ar_2025_en:regions:0139"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2024_en:regions:0260"
+     ]
+    ],
+    "trace_id": "tr_a832e9ffb82a40b7969dc5e790782418",
+    "query_terms": [
+     "how",
+     "much",
+     "wealth",
+     "management",
+     "fee",
+     "income",
+     "did",
+     "ocbc",
+     "earn",
+     "in",
+     "2025",
+     "fees",
+     "财富",
+     "管理费用"
+    ]
+   }
+  },
+  {
+   "id": "q05",
+   "lang": "en",
+   "category": "single_value",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "Movement in allowances for impaired loans to customers during 2025",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 5,
+    "page_hit_rank": 3,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0482",
+     "ocbc-group_ar_2025_en:regions:0483"
+    ],
+    "top5": [
+     [
+      1,
+      "structure",
+      "ocbc-group_ar_2025_en",
+      [
+       153,
+       153
+      ],
+      "Allowances for Non-Credit-Impaired Loans to Custom",
+      "ocbc-group_ar_2025_en:regions:0425"
+     ],
+     [
+      2,
+      "structure",
+      "ocbc-group_ar_2025_en",
+      [
+       153,
+       153
+      ],
+      "Allowances for Credit-Impaired Loans to Customers",
+      "ocbc-group_ar_2025_en:regions:0426"
+     ],
+     [
+      3,
+      "structure",
+      "ocbc-group_ar_2025_en",
+      [
+       191,
+       191
+      ],
+      "28. Allowances for Impaired Loans to Customers",
+      "ocbc-group_ar_2025_en:regions:0482"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       119,
+       120
+      ],
+      "Impairment of loans to customers",
+      "ocbc-group_ar_2025_en:regions:0324"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       191,
+       191
+      ],
+      "Analysed by Industry",
+      "ocbc-group_ar_2025_en:regions:0483"
+     ]
+    ],
+    "trace_id": "tr_38efe574bbcd4d6994116d184461459a",
+    "query_terms": [
+     "movement",
+     "in",
+     "allowances",
+     "for",
+     "impaired",
+     "loans",
+     "to",
+     "customers",
+     "during",
+     "2025"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": null,
+    "page_hit_rank": null,
+    "hit_node_ids": [],
+    "top5": [
+     [
+      1,
+      "structure",
+      "ocbc-group_ar_2025_en",
+      [
+       153,
+       153
+      ],
+      "Allowances for Non-Credit-Impaired Loans to Custom",
+      "ocbc-group_ar_2025_en:regions:0425"
+     ],
+     [
+      2,
+      "structure",
+      "ocbc-group_ar_2023_en",
+      [
+       188,
+       189
+      ],
+      "28. Allowances for Impaired Loans to Customers",
+      "ocbc-group_ar_2023_en:regions:0440"
+     ],
+     [
+      3,
+      "structure",
+      "ocbc-group_ar_2024_en",
+      [
+       153,
+       153
+      ],
+      "Allowances for Non-Credit-Impaired Loans to Custom",
+      "ocbc-group_ar_2024_en:regions:0399"
+     ],
+     [
+      4,
+      "structure",
+      "ocbc-group_ar_2023_en",
+      [
+       153,
+       153
+      ],
+      "Allowances for Credit-Impaired Loans to Customers",
+      "ocbc-group_ar_2023_en:regions:0388"
+     ],
+     [
+      5,
+      "structure",
+      "ocbc-group_ar_2025_en",
+      [
+       153,
+       153
+      ],
+      "Allowances for Credit-Impaired Loans to Customers",
+      "ocbc-group_ar_2025_en:regions:0426"
+     ]
+    ],
+    "trace_id": "tr_1506488f73114c7fb3bbc1da5fdba825",
+    "query_terms": [
+     "movement",
+     "in",
+     "allowances",
+     "for",
+     "impaired",
+     "loans",
+     "to",
+     "customers",
+     "during",
+     "2025"
+    ]
+   }
+  },
+  {
+   "id": "q06",
+   "lang": "en",
+   "category": "single_value",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "Great Eastern Holdings profit contribution to the Group in FY2025",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0064",
+     "ocbc-group_ar_2025_en:regions:0063"
+    ],
+    "top5": [
+     [
+      1,
+      "structure",
+      "ocbc-group_ar_2025_en",
+      [
+       22,
+       22
+      ],
+      "Great Eastern Holdings’ Profit Contribution",
+      "ocbc-group_ar_2025_en:regions:0064"
+     ],
+     [
+      2,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       201,
+       201
+      ],
+      "33.2 Non-Controlling Interests in Subsidiaries",
+      "ocbc-group_ar_2025_en:regions:0494"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       265,
+       265
+      ],
+      "Mr Tan Teck Long",
+      "ocbc-group_ar_2025_en:regions:0595"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       22,
+       22
+      ],
+      "Wealth Management",
+      "ocbc-group_ar_2025_en:regions:0063"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       7,
+       7
+      ],
+      "Asset Management",
+      "ocbc-group_ar_2025_en:regions:0011"
+     ]
+    ],
+    "trace_id": "tr_46b55b13388045968db553e1d730821a",
+    "query_terms": [
+     "great",
+     "eastern",
+     "holdings",
+     "profit",
+     "contribution",
+     "to",
+     "the",
+     "group",
+     "in",
+     "fy2025"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0064"
+    ],
+    "top5": [
+     [
+      1,
+      "structure",
+      "ocbc-group_ar_2025_en",
+      [
+       22,
+       22
+      ],
+      "Great Eastern Holdings’ Profit Contribution",
+      "ocbc-group_ar_2025_en:regions:0064"
+     ],
+     [
+      2,
+      "structure",
+      "ocbc-group_ar_2024_en",
+      [
+       199,
+       199
+      ],
+      "(a) Great Eastern Holdings Limited – Voluntary Unc",
+      "ocbc-group_ar_2024_en:regions:0469"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       199,
+       199
+      ],
+      "33.2 Non-Controlling Interests in Subsidiaries",
+      "ocbc-group_ar_2024_en:regions:0466"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2023_en",
+      [
+       7,
+       7
+      ],
+      "Insurance",
+      "ocbc-group_ar_2023_en:regions:0008"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2023_en",
+      [
+       200,
+       200
+      ],
+      "33.2 Non-Controlling Interests in Subsidiaries",
+      "ocbc-group_ar_2023_en:regions:0451"
+     ]
+    ],
+    "trace_id": "tr_aa4a6c20a4bc4a1e965568aec96ac111",
+    "query_terms": [
+     "great",
+     "eastern",
+     "holdings",
+     "profit",
+     "contribution",
+     "to",
+     "the",
+     "group",
+     "in",
+     "fy2025"
+    ]
+   }
+  },
+  {
+   "id": "q07",
+   "lang": "en",
+   "category": "single_value",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "Total dividend per share for 2025 and dividend payout ratio",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0004",
+     "ocbc-group_ar_2025_en:regions:0216",
+     "ocbc-group_ar_2025_en:regions:0285"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       4,
+       4
+      ],
+      "Financial Highlights",
+      "ocbc-group_ar_2025_en:regions:0004"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_zh",
+      [
+       4,
+       4
+      ],
+      "财务重点",
+      "ocbc-group_ar_2025_zh:regions:0003"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       10,
+       10
+      ],
+      "致力于可持续性的股东回报",
+      "ocbc-group_ar_2025_zh:regions:0017"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       77,
+       77
+      ],
+      "Dividend",
+      "ocbc-group_ar_2025_en:regions:0216"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2025_en:regions:0285"
+     ]
+    ],
+    "trace_id": "tr_1e3f896d52a942aeb7f4f74aa1c56b0a",
+    "query_terms": [
+     "total",
+     "dividend",
+     "per",
+     "share",
+     "for",
+     "2025",
+     "and",
+     "payout",
+     "ratio",
+     "dividends",
+     "每股",
+     "股息",
+     "派息",
+     "派息率",
+     "配",
+     "息率"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0004"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       4,
+       4
+      ],
+      "Financial Highlights",
+      "ocbc-group_ar_2025_en:regions:0004"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2023_en",
+      [
+       4,
+       4
+      ],
+      "Financial Highlights",
+      "ocbc-group_ar_2023_en:regions:0002"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2023_en",
+      [
+       8,
+       8
+      ],
+      "Higher Sustainable Dividends",
+      "ocbc-group_ar_2023_en:regions:0011"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2023_zh",
+      [
+       8,
+       8
+      ],
+      "更高的可持续股息",
+      "ocbc-group_ar_2023_zh:regions:0015"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2023_zh",
+      [
+       13,
+       13
+      ],
+      "致谢",
+      "ocbc-group_ar_2023_zh:regions:0026"
+     ]
+    ],
+    "trace_id": "tr_1d9ff62f62694d8187cc47f20bbef2df",
+    "query_terms": [
+     "total",
+     "dividend",
+     "per",
+     "share",
+     "for",
+     "2025",
+     "and",
+     "payout",
+     "ratio",
+     "dividends",
+     "每股",
+     "股息",
+     "派息",
+     "派息率",
+     "配",
+     "息率"
+    ]
+   }
+  },
+  {
+   "id": "q08",
+   "lang": "zh",
+   "category": "single_value",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "2025年华侨银行的不良贷款率是多少？",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 2,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0284",
+     "ocbc-group_ar_2025_en:regions:0295",
+     "ocbc-group_ar_2025_en:regions:0285",
+     "ocbc-group_ar_2025_zh:regions:0075"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ],
+     [
+      2,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       105,
+       106
+      ],
+      "Non-Performing Assets",
+      "ocbc-group_ar_2025_en:regions:0295"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2025_en:regions:0285"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       9,
+       9
+      ],
+      "A Momentous Year",
+      "ocbc-group_ar_2025_en:regions:0013"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       25,
+       25
+      ],
+      "展望2026年",
+      "ocbc-group_ar_2025_zh:regions:0075"
+     ]
+    ],
+    "trace_id": "tr_94006d3bd2f14db583dd182abd3550a0",
+    "query_terms": [
+     "2025",
+     "年",
+     "华侨银行",
+     "的",
+     "不良贷款率",
+     "是",
+     "多少",
+     "non",
+     "performing",
+     "loan",
+     "ratio",
+     "npl",
+     "不良贷款",
+     "比率"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 5,
+    "page_hit_rank": 2,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0284",
+     "ocbc-group_ar_2025_en:regions:0295"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2024_en:regions:0260"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2024_en:regions:0261"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2023_en",
+      [
+       98,
+       98
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2023_en:regions:0236"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       105,
+       106
+      ],
+      "Non-Performing Assets",
+      "ocbc-group_ar_2025_en:regions:0295"
+     ]
+    ],
+    "trace_id": "tr_082d49cfabbc497f81694a2092235022",
+    "query_terms": [
+     "2025",
+     "年",
+     "华侨银行",
+     "的",
+     "不良贷款率",
+     "是",
+     "多少",
+     "non",
+     "performing",
+     "loan",
+     "ratio",
+     "npl",
+     "不良贷款",
+     "比率"
+    ]
+   }
+  },
+  {
+   "id": "q09",
+   "lang": "zh",
+   "category": "explanation",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "2025年净利息收入为什么下降？",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0289",
+     "ocbc-group_ar_2025_zh:regions:0074",
+     "ocbc-group_ar_2025_zh:regions:0016"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       101,
+       101
+      ],
+      "Average Balance Sheet",
+      "ocbc-group_ar_2025_en:regions:0289"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       156,
+       156
+      ],
+      "3. Net Interest Income",
+      "ocbc-group_ar_2025_en:regions:0435"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       24,
+       25
+      ],
+      "集团首席财务官综述",
+      "ocbc-group_ar_2025_zh:regions:0074"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       9,
+       9
+      ],
+      "在不确定性中保持稳健财务表现",
+      "ocbc-group_ar_2025_zh:regions:0016"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       136,
+       136
+      ],
+      "利率风险",
+      "ocbc-group_ar_2025_zh:regions:0351"
+     ]
+    ],
+    "trace_id": "tr_c865b7720d3748068cd8fc59e465e965",
+    "query_terms": [
+     "2025",
+     "年",
+     "净利息收入",
+     "为什么",
+     "下降",
+     "net",
+     "interest",
+     "income",
+     "nii"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0289",
+     "ocbc-group_ar_2025_zh:regions:0074",
+     "ocbc-group_ar_2025_zh:regions:0016"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       101,
+       101
+      ],
+      "Average Balance Sheet",
+      "ocbc-group_ar_2025_en:regions:0289"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       156,
+       156
+      ],
+      "3. Net Interest Income",
+      "ocbc-group_ar_2025_en:regions:0435"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2023_zh",
+      [
+       154,
+       154
+      ],
+      "利率风险",
+      "ocbc-group_ar_2023_zh:regions:0394"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       24,
+       25
+      ],
+      "集团首席财务官综述",
+      "ocbc-group_ar_2025_zh:regions:0074"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       9,
+       9
+      ],
+      "在不确定性中保持稳健财务表现",
+      "ocbc-group_ar_2025_zh:regions:0016"
+     ]
+    ],
+    "trace_id": "tr_e68e7797777642f19aa1024843188cd6",
+    "query_terms": [
+     "2025",
+     "年",
+     "净利息收入",
+     "为什么",
+     "下降",
+     "net",
+     "interest",
+     "income",
+     "nii"
+    ]
+   }
+  },
+  {
+   "id": "q10",
+   "lang": "zh",
+   "category": "single_value",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "2025年大东方控股对集团的盈利贡献是多少？",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 5,
+    "page_hit_rank": 5,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_zh:regions:0064"
+    ],
+    "top5": [
+     [
+      1,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       7,
+       7
+      ],
+      "资产管理",
+      "ocbc-group_ar_2025_zh:regions:0011"
+     ],
+     [
+      2,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       24,
+       25
+      ],
+      "集团首席财务官综述",
+      "ocbc-group_ar_2025_zh:regions:0074"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       51,
+       51
+      ],
+      "寿险基金的保险合约负债的估值",
+      "ocbc-group_ar_2025_zh:regions:0156"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       9,
+       9
+      ],
+      "影响重大的一年",
+      "ocbc-group_ar_2025_zh:regions:0015"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       22,
+       22
+      ],
+      "保险业",
+      "ocbc-group_ar_2025_zh:regions:0064"
+     ]
+    ],
+    "trace_id": "tr_f9bec7eb50064388a160480286c35ae8",
+    "query_terms": [
+     "2025",
+     "年",
+     "大东方控股",
+     "对",
+     "集团",
+     "的",
+     "盈利",
+     "贡献",
+     "是",
+     "多少"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": null,
+    "page_hit_rank": null,
+    "hit_node_ids": [],
+    "top5": [
+     [
+      1,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       7,
+       7
+      ],
+      "资产管理",
+      "ocbc-group_ar_2025_zh:regions:0011"
+     ],
+     [
+      2,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       24,
+       25
+      ],
+      "集团首席财务官综述",
+      "ocbc-group_ar_2025_zh:regions:0074"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       51,
+       51
+      ],
+      "寿险基金的保险合约负债的估值",
+      "ocbc-group_ar_2025_zh:regions:0156"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       49,
+       49
+      ],
+      "寿险基金的保险合约负债的估值",
+      "ocbc-group_ar_2024_zh:regions:0129"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       15,
+       16
+      ],
+      "捕捉东盟和大中华地区的机遇",
+      "ocbc-group_ar_2024_zh:regions:0040"
+     ]
+    ],
+    "trace_id": "tr_65e94be8ac7f424396b229a18be05b59",
+    "query_terms": [
+     "2025",
+     "年",
+     "大东方控股",
+     "对",
+     "集团",
+     "的",
+     "盈利",
+     "贡献",
+     "是",
+     "多少"
+    ]
+   }
+  },
+  {
+   "id": "v08",
+   "lang": "zh",
+   "category": "single_value",
+   "variant_of": "普通股权一级资本充足率",
+   "heldout_term": null,
+   "query": "华侨银行2024年底的核心一级资本充足率是多少？",
+   "fiscal_years": [
+    2024
+   ],
+   "with_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2024_en:regions:0185",
+     "ocbc-group_ar_2024_en:regions:0281"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       77,
+       78
+      ],
+      "Capital Adequacy Ratios",
+      "ocbc-group_ar_2024_en:regions:0185"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2024_zh",
+      [
+       34,
+       35
+      ],
+      "资本充足率",
+      "ocbc-group_ar_2024_zh:regions:0103"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       34,
+       34
+      ],
+      "股票回购与库存股",
+      "ocbc-group_ar_2024_zh:regions:0101"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       34,
+       34
+      ],
+      "资本政策",
+      "ocbc-group_ar_2024_zh:regions:0099"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       110,
+       110
+      ],
+      "Capital Adequacy Ratios",
+      "ocbc-group_ar_2024_en:regions:0281"
+     ]
+    ],
+    "trace_id": "tr_1aec2afcf16f4f0fb13ecc18e32a2f41",
+    "query_terms": [
+     "华侨银行",
+     "2024",
+     "年底",
+     "的",
+     "核心",
+     "一级",
+     "资本充足率",
+     "是",
+     "多少",
+     "common",
+     "equity",
+     "tier",
+     "1",
+     "cet1",
+     "普通股权一级资本",
+     "普通",
+     "股权",
+     "tier1",
+     "资本"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2024_en:regions:0185",
+     "ocbc-group_ar_2025_en:regions:0219"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       77,
+       78
+      ],
+      "Capital Adequacy Ratios",
+      "ocbc-group_ar_2024_en:regions:0185"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       77,
+       78
+      ],
+      "Capital Adequacy Ratios",
+      "ocbc-group_ar_2025_en:regions:0219"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2023_en",
+      [
+       75,
+       76
+      ],
+      "Capital Adequacy Ratios",
+      "ocbc-group_ar_2023_en:regions:0169"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       34,
+       34
+      ],
+      "股票回购与库存股",
+      "ocbc-group_ar_2024_zh:regions:0101"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       34,
+       35
+      ],
+      "资本充足率",
+      "ocbc-group_ar_2024_zh:regions:0103"
+     ]
+    ],
+    "trace_id": "tr_e8bb087166c146679bf5f66b6a2ee524",
+    "query_terms": [
+     "华侨银行",
+     "2024",
+     "年底",
+     "的",
+     "核心",
+     "一级",
+     "资本充足率",
+     "是",
+     "多少",
+     "common",
+     "equity",
+     "tier",
+     "1",
+     "cet1",
+     "普通股权一级资本",
+     "普通",
+     "股权",
+     "tier1",
+     "资本"
+    ]
+   }
+  },
+  {
+   "id": "v09",
+   "lang": "zh",
+   "category": "single_value",
+   "variant_of": "净息差",
+   "heldout_term": null,
+   "query": "华侨银行2023年的净利息收益率是多少？",
+   "fiscal_years": [
+    2023
+   ],
+   "with_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2023_en:regions:0235",
+     "ocbc-group_ar_2023_zh:regions:0022"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2023_en",
+      [
+       96,
+       98
+      ],
+      "Overview",
+      "ocbc-group_ar_2023_en:regions:0235"
+     ],
+     [
+      2,
+      "text",
+      "ocbc-group_ar_2023_zh",
+      [
+       35,
+       35
+      ],
+      "巩固我们的实力并作出变革迈向未来",
+      "ocbc-group_ar_2023_zh:regions:0095"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2023_zh",
+      [
+       105,
+       106
+      ],
+      "13.3 雇员股票购买计划",
+      "ocbc-group_ar_2023_zh:regions:0328"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2023_zh",
+      [
+       35,
+       35
+      ],
+      "发掘创新和多样化的资金来源",
+      "ocbc-group_ar_2023_zh:regions:0094"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2023_zh",
+      [
+       10,
+       13
+      ],
+      "集团首席执行官的观点",
+      "ocbc-group_ar_2023_zh:regions:0022"
+     ]
+    ],
+    "trace_id": "tr_abad61d616aa46fca10d613817d79892",
+    "query_terms": [
+     "华侨银行",
+     "2023",
+     "年",
+     "的",
+     "净",
+     "利息",
+     "收益率",
+     "是",
+     "多少",
+     "net",
+     "interest",
+     "margin",
+     "nim",
+     "息差"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2023_en:regions:0235",
+     "ocbc-group_ar_2024_en:regions:0260"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2023_en",
+      [
+       96,
+       98
+      ],
+      "Overview",
+      "ocbc-group_ar_2023_en:regions:0235"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2024_en:regions:0260"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2023_zh",
+      [
+       35,
+       35
+      ],
+      "巩固我们的实力并作出变革迈向未来",
+      "ocbc-group_ar_2023_zh:regions:0095"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2023_zh",
+      [
+       105,
+       106
+      ],
+      "13.3 雇员股票购买计划",
+      "ocbc-group_ar_2023_zh:regions:0328"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       84,
+       85
+      ],
+      "13.3 雇员股票购买计划",
+      "ocbc-group_ar_2024_zh:regions:0258"
+     ]
+    ],
+    "trace_id": "tr_84163ae5799e4fec8c408dc0155215df",
+    "query_terms": [
+     "华侨银行",
+     "2023",
+     "年",
+     "的",
+     "净",
+     "利息",
+     "收益率",
+     "是",
+     "多少",
+     "net",
+     "interest",
+     "margin",
+     "nim",
+     "息差"
+    ]
+   }
+  },
+  {
+   "id": "v10",
+   "lang": "en",
+   "category": "single_value",
+   "variant_of": "non-performing loan (NPL) ratio",
+   "heldout_term": null,
+   "query": "What was OCBC's bad loans ratio at the end of 2024?",
+   "fiscal_years": [
+    2024
+   ],
+   "with_year": {
+    "node_hit_rank": 2,
+    "page_hit_rank": 2,
+    "hit_node_ids": [
+     "ocbc-group_ar_2024_en:regions:0260",
+     "ocbc-group_ar_2024_en:regions:0261",
+     "ocbc-group_ar_2024_en:regions:0022"
+    ],
+    "top5": [
+     [
+      1,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       17,
+       17
+      ],
+      "Appreciation",
+      "ocbc-group_ar_2024_en:regions:0037"
+     ],
+     [
+      2,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2024_en:regions:0260"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2024_en:regions:0261"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       10,
+       11
+      ],
+      "Record Financial Results",
+      "ocbc-group_ar_2024_en:regions:0022"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       188,
+       188
+      ],
+      "Analysed by Industry",
+      "ocbc-group_ar_2024_en:regions:0456"
+     ]
+    ],
+    "trace_id": "tr_0ae053da13c749088268ced98724f9ac",
+    "query_terms": [
+     "what",
+     "was",
+     "ocbc",
+     "s",
+     "bad",
+     "loans",
+     "ratio",
+     "at",
+     "the",
+     "end",
+     "of",
+     "2024"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 3,
+    "page_hit_rank": 3,
+    "hit_node_ids": [
+     "ocbc-group_ar_2024_en:regions:0260",
+     "ocbc-group_ar_2024_en:regions:0261"
+    ],
+    "top5": [
+     [
+      1,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       17,
+       17
+      ],
+      "Appreciation",
+      "ocbc-group_ar_2024_en:regions:0037"
+     ],
+     [
+      2,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       191,
+       191
+      ],
+      "28. Allowances for Impaired Loans to Customers",
+      "ocbc-group_ar_2025_en:regions:0482"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2024_en:regions:0260"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2024_en:regions:0261"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       9,
+       9
+      ],
+      "A Momentous Year",
+      "ocbc-group_ar_2025_en:regions:0013"
+     ]
+    ],
+    "trace_id": "tr_f92a5945878940be967775044ba25ed7",
+    "query_terms": [
+     "what",
+     "was",
+     "ocbc",
+     "s",
+     "bad",
+     "loans",
+     "ratio",
+     "at",
+     "the",
+     "end",
+     "of",
+     "2024"
+    ]
+   }
+  },
+  {
+   "id": "v11",
+   "lang": "en",
+   "category": "single_value",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "What was OCBC's allowance coverage of non-performing assets at end-2025?",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 3,
+    "page_hit_rank": 3,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0285",
+     "ocbc-group_ar_2025_en:regions:0013",
+     "ocbc-group_ar_2025_en:regions:0284"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       105,
+       106
+      ],
+      "Non-Performing Assets",
+      "ocbc-group_ar_2025_en:regions:0295"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       189,
+       190
+      ],
+      "27. Non-Performing Assets",
+      "ocbc-group_ar_2025_en:regions:0481"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2025_en:regions:0285"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       9,
+       9
+      ],
+      "A Momentous Year",
+      "ocbc-group_ar_2025_en:regions:0013"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ]
+    ],
+    "trace_id": "tr_9f74dd5be94c4ad1a3312c175b25be31",
+    "query_terms": [
+     "what",
+     "was",
+     "ocbc",
+     "s",
+     "allowance",
+     "coverage",
+     "of",
+     "non",
+     "performing",
+     "assets",
+     "at",
+     "end",
+     "2025",
+     "npas",
+     "不良资产",
+     "npa",
+     "ratio",
+     "覆盖率"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 5,
+    "page_hit_rank": 5,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0285"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       105,
+       106
+      ],
+      "Non-Performing Assets",
+      "ocbc-group_ar_2025_en:regions:0295"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       105,
+       106
+      ],
+      "Non-Performing Assets",
+      "ocbc-group_ar_2024_en:regions:0271"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2023_en",
+      [
+       98,
+       98
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2023_en:regions:0236"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2024_en:regions:0261"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2025_en:regions:0285"
+     ]
+    ],
+    "trace_id": "tr_2fc9767291d54c8aa4105258825b78cf",
+    "query_terms": [
+     "what",
+     "was",
+     "ocbc",
+     "s",
+     "allowance",
+     "coverage",
+     "of",
+     "non",
+     "performing",
+     "assets",
+     "at",
+     "end",
+     "2025",
+     "npas",
+     "不良资产",
+     "npa",
+     "ratio",
+     "覆盖率"
+    ]
+   }
+  },
+  {
+   "id": "v12",
+   "lang": "en",
+   "category": "table_lookup",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "What was OCBC Group's leverage ratio as at 31 December 2025?",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 2,
+    "page_hit_rank": 2,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0284"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       79,
+       82
+      ],
+      "Scope of Consolidation",
+      "ocbc-group_ar_2025_en:regions:0223"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2025_en:regions:0285"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       25,
+       25
+      ],
+      "Robust Funding Base",
+      "ocbc-group_ar_2025_en:regions:0073"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       9,
+       9
+      ],
+      "A Momentous Year",
+      "ocbc-group_ar_2025_en:regions:0013"
+     ]
+    ],
+    "trace_id": "tr_31c0a2371e0440088d1ae5dedce07cf4",
+    "query_terms": [
+     "what",
+     "was",
+     "ocbc",
+     "group",
+     "s",
+     "leverage",
+     "ratio",
+     "as",
+     "at",
+     "31",
+     "december",
+     "2025"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": null,
+    "page_hit_rank": null,
+    "hit_node_ids": [],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       79,
+       82
+      ],
+      "Scope of Consolidation",
+      "ocbc-group_ar_2025_en:regions:0223"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2024_en:regions:0260"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2023_en",
+      [
+       98,
+       98
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2023_en:regions:0236"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2025_en:regions:0285"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2024_en:regions:0261"
+     ]
+    ],
+    "trace_id": "tr_c284684dbe6043bc8d19a4068e6a5cfe",
+    "query_terms": [
+     "what",
+     "was",
+     "ocbc",
+     "group",
+     "s",
+     "leverage",
+     "ratio",
+     "as",
+     "at",
+     "31",
+     "december",
+     "2025"
+    ]
+   }
+  },
+  {
+   "id": "v13",
+   "lang": "en",
+   "category": "table_lookup",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "What was OCBC's all-currency liquidity coverage ratio for 2025?",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0284"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ],
+     [
+      2,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2025_en:regions:0285"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       25,
+       25
+      ],
+      "Robust Funding Base",
+      "ocbc-group_ar_2025_en:regions:0073"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       79,
+       82
+      ],
+      "Scope of Consolidation",
+      "ocbc-group_ar_2025_en:regions:0223"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       9,
+       9
+      ],
+      "A Momentous Year",
+      "ocbc-group_ar_2025_en:regions:0013"
+     ]
+    ],
+    "trace_id": "tr_a6e175cc54fd42008fb95a3b319658e0",
+    "query_terms": [
+     "what",
+     "was",
+     "ocbc",
+     "s",
+     "all",
+     "currency",
+     "liquidity",
+     "coverage",
+     "ratio",
+     "for",
+     "2025"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 2,
+    "page_hit_rank": 2,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0284"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2024_en:regions:0260"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2023_en",
+      [
+       96,
+       98
+      ],
+      "Overview",
+      "ocbc-group_ar_2023_en:regions:0235"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2025_en:regions:0285"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       100,
+       100
+      ],
+      "Allowances and Asset Quality",
+      "ocbc-group_ar_2024_en:regions:0261"
+     ]
+    ],
+    "trace_id": "tr_f198089204e34ebea06b00fe2ba46363",
+    "query_terms": [
+     "what",
+     "was",
+     "ocbc",
+     "s",
+     "all",
+     "currency",
+     "liquidity",
+     "coverage",
+     "ratio",
+     "for",
+     "2025"
+    ]
+   }
+  },
+  {
+   "id": "v14",
+   "lang": "zh",
+   "category": "table_lookup",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "华侨银行2024年每股资产净值是多少？",
+   "fiscal_years": [
+    2024
+   ],
+   "with_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2024_zh:regions:0011",
+     "ocbc-group_ar_2024_en:regions:0260"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2024_zh",
+      [
+       6,
+       6
+      ],
+      "财务重点",
+      "ocbc-group_ar_2024_zh:regions:0011"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2024_en:regions:0260"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       60,
+       60
+      ],
+      "2.2.3 联号企业与合资企业",
+      "ocbc-group_ar_2024_zh:regions:0151"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       12,
+       12
+      ],
+      "提高股息和拟议股票回购",
+      "ocbc-group_ar_2024_zh:regions:0028"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       17,
+       17
+      ],
+      "致谢",
+      "ocbc-group_ar_2024_zh:regions:0042"
+     ]
+    ],
+    "trace_id": "tr_b963e31a63ec4708904995405bef4977",
+    "query_terms": [
+     "华侨银行",
+     "2024",
+     "年",
+     "每股",
+     "资产净值",
+     "是",
+     "多少"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_zh:regions:0003",
+     "ocbc-group_ar_2024_zh:regions:0011"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_zh",
+      [
+       4,
+       4
+      ],
+      "财务重点",
+      "ocbc-group_ar_2025_zh:regions:0003"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2024_zh",
+      [
+       6,
+       6
+      ],
+      "财务重点",
+      "ocbc-group_ar_2024_zh:regions:0011"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       12,
+       12
+      ],
+      "提高股息和拟议股票回购",
+      "ocbc-group_ar_2024_zh:regions:0028"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       17,
+       17
+      ],
+      "致谢",
+      "ocbc-group_ar_2024_zh:regions:0042"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       15,
+       16
+      ],
+      "捕捉东盟和大中华地区的机遇",
+      "ocbc-group_ar_2024_zh:regions:0040"
+     ]
+    ],
+    "trace_id": "tr_1d5c3b74ce8442bebe31f670c75d26a0",
+    "query_terms": [
+     "华侨银行",
+     "2024",
+     "年",
+     "每股",
+     "资产净值",
+     "是",
+     "多少"
+    ]
+   }
+  },
+  {
+   "id": "v15",
+   "lang": "en",
+   "category": "explanation",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "Why did OCBC’s non-interest income increase in 2025?",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0291",
+     "ocbc-group_ar_2025_en:regions:0284"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       102,
+       102
+      ],
+      "Non-Interest Income",
+      "ocbc-group_ar_2025_en:regions:0291"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       156,
+       156
+      ],
+      "3. Net Interest Income",
+      "ocbc-group_ar_2025_en:regions:0435"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       208,
+       208
+      ],
+      "Global Consumer/Private Banking",
+      "ocbc-group_ar_2025_en:regions:0502"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       207,
+       209
+      ],
+      "37.1 Business Segments",
+      "ocbc-group_ar_2025_en:regions:0501"
+     ]
+    ],
+    "trace_id": "tr_a069f49840614398a981a9ceedaeec5a",
+    "query_terms": [
+     "why",
+     "did",
+     "ocbc",
+     "s",
+     "non",
+     "interest",
+     "income",
+     "increase",
+     "in",
+     "2025",
+     "非利息收入"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0284",
+     "ocbc-group_ar_2025_en:regions:0291"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2024_en:regions:0260"
+     ],
+     [
+      3,
+      "structure",
+      "ocbc-group_ar_2025_en",
+      [
+       102,
+       102
+      ],
+      "Non-Interest Income",
+      "ocbc-group_ar_2025_en:regions:0291"
+     ],
+     [
+      4,
+      "structure",
+      "ocbc-group_ar_2023_en",
+      [
+       100,
+       100
+      ],
+      "Non-Interest Income",
+      "ocbc-group_ar_2023_en:regions:0242"
+     ],
+     [
+      5,
+      "structure",
+      "ocbc-group_ar_2024_en",
+      [
+       102,
+       102
+      ],
+      "Non-Interest Income",
+      "ocbc-group_ar_2024_en:regions:0267"
+     ]
+    ],
+    "trace_id": "tr_592b62a38ab84926aa1f5a57eef5ee75",
+    "query_terms": [
+     "why",
+     "did",
+     "ocbc",
+     "s",
+     "non",
+     "interest",
+     "income",
+     "increase",
+     "in",
+     "2025",
+     "非利息收入"
+    ]
+   }
+  },
+  {
+   "id": "v16",
+   "lang": "zh",
+   "category": "explanation",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "为什么华侨银行2025年税前利润创新高，净利润却下降了2%？",
+   "fiscal_years": [
+    2025
+   ],
+   "with_year": {
+    "node_hit_rank": 2,
+    "page_hit_rank": 2,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0284",
+     "ocbc-group_ar_2025_zh:regions:0074"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       108,
+       108
+      ],
+      "Profit before Income Tax by Business Segment",
+      "ocbc-group_ar_2025_en:regions:0298"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       24,
+       25
+      ],
+      "集团首席财务官综述",
+      "ocbc-group_ar_2025_zh:regions:0074"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       13,
+       13
+      ],
+      "Overall Financial Performance",
+      "ocbc-group_ar_2025_en:regions:0026"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       9,
+       9
+      ],
+      "影响重大的一年",
+      "ocbc-group_ar_2025_zh:regions:0015"
+     ]
+    ],
+    "trace_id": "tr_822444adb82b4667828e037b497e5cf1",
+    "query_terms": [
+     "为什么",
+     "华侨银行",
+     "2025",
+     "年",
+     "税前",
+     "利润",
+     "创新",
+     "高",
+     "净利润",
+     "却",
+     "下降",
+     "了",
+     "2%",
+     "net",
+     "profit",
+     "净盈利",
+     "before",
+     "income",
+     "tax",
+     "税前盈利"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 2,
+    "page_hit_rank": 2,
+    "hit_node_ids": [
+     "ocbc-group_ar_2025_en:regions:0284",
+     "ocbc-group_ar_2025_zh:regions:0074"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       108,
+       108
+      ],
+      "Profit before Income Tax by Business Segment",
+      "ocbc-group_ar_2025_en:regions:0298"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       24,
+       25
+      ],
+      "集团首席财务官综述",
+      "ocbc-group_ar_2025_zh:regions:0074"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       13,
+       13
+      ],
+      "Overall Financial Performance",
+      "ocbc-group_ar_2025_en:regions:0026"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       9,
+       9
+      ],
+      "影响重大的一年",
+      "ocbc-group_ar_2025_zh:regions:0015"
+     ]
+    ],
+    "trace_id": "tr_d6e4ce82b6ce413493c63dd942062b71",
+    "query_terms": [
+     "为什么",
+     "华侨银行",
+     "2025",
+     "年",
+     "税前",
+     "利润",
+     "创新",
+     "高",
+     "净利润",
+     "却",
+     "下降",
+     "了",
+     "2%",
+     "net",
+     "profit",
+     "净盈利",
+     "before",
+     "income",
+     "tax",
+     "税前盈利"
+    ]
+   }
+  },
+  {
+   "id": "v17",
+   "lang": "zh",
+   "category": "explanation",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "华侨银行2024年净利息收入为什么还能增长？",
+   "fiscal_years": [
+    2024
+   ],
+   "with_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2024_en:regions:0265",
+     "ocbc-group_ar_2024_zh:regions:0039"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       101,
+       101
+      ],
+      "Average Balance Sheet",
+      "ocbc-group_ar_2024_en:regions:0265"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       156,
+       156
+      ],
+      "3. Net Interest Income",
+      "ocbc-group_ar_2024_en:regions:0410"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       14,
+       17
+      ],
+      "集团首席执行官的回顾",
+      "ocbc-group_ar_2024_zh:regions:0039"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       11,
+       12
+      ],
+      "强调“华侨银行集团一体”的经营价值",
+      "ocbc-group_ar_2024_zh:regions:0027"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       133,
+       133
+      ],
+      "货币风险",
+      "ocbc-group_ar_2024_zh:regions:0328"
+     ]
+    ],
+    "trace_id": "tr_5c111dd188164450a44d2b566a708d74",
+    "query_terms": [
+     "华侨银行",
+     "2024",
+     "年",
+     "净利息收入",
+     "为什么",
+     "还",
+     "能",
+     "增长",
+     "net",
+     "interest",
+     "income",
+     "nii"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2024_en:regions:0265",
+     "ocbc-group_ar_2024_zh:regions:0039"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       101,
+       101
+      ],
+      "Average Balance Sheet",
+      "ocbc-group_ar_2024_en:regions:0265"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2025_en",
+      [
+       101,
+       101
+      ],
+      "Average Balance Sheet",
+      "ocbc-group_ar_2025_en:regions:0289"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       14,
+       17
+      ],
+      "集团首席执行官的回顾",
+      "ocbc-group_ar_2024_zh:regions:0039"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2025_zh",
+      [
+       9,
+       9
+      ],
+      "在不确定性中保持稳健财务表现",
+      "ocbc-group_ar_2025_zh:regions:0016"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2024_zh",
+      [
+       11,
+       12
+      ],
+      "强调“华侨银行集团一体”的经营价值",
+      "ocbc-group_ar_2024_zh:regions:0027"
+     ]
+    ],
+    "trace_id": "tr_02648d67c9f842d6a007bbf0f54f95ca",
+    "query_terms": [
+     "华侨银行",
+     "2024",
+     "年",
+     "净利息收入",
+     "为什么",
+     "还",
+     "能",
+     "增长",
+     "net",
+     "interest",
+     "income",
+     "nii"
+    ]
+   }
+  },
+  {
+   "id": "v18",
+   "lang": "en",
+   "category": "explanation",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "What drove the increase in OCBC’s operating expenses in 2024?",
+   "fiscal_years": [
+    2024
+   ],
+   "with_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2024_en:regions:0260",
+     "ocbc-group_ar_2024_en:regions:0268"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2024_en:regions:0260"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       103,
+       103
+      ],
+      "Operating Expenses",
+      "ocbc-group_ar_2024_en:regions:0268"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       160,
+       160
+      ],
+      "9. Staff Costs and Other Operating Expenses",
+      "ocbc-group_ar_2024_en:regions:0416"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       10,
+       11
+      ],
+      "Record Financial Results",
+      "ocbc-group_ar_2024_en:regions:0022"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2024_en",
+      [
+       108,
+       108
+      ],
+      "Profit before Income Tax by Business Segment",
+      "ocbc-group_ar_2024_en:regions:0274"
+     ]
+    ],
+    "trace_id": "tr_d6ac53d48bb1410f9894fc6664315230",
+    "query_terms": [
+     "what",
+     "drove",
+     "the",
+     "increase",
+     "in",
+     "ocbc",
+     "s",
+     "operating",
+     "expenses",
+     "2024",
+     "营运支出"
+    ]
+   },
+   "no_year": {
+    "node_hit_rank": 1,
+    "page_hit_rank": 1,
+    "hit_node_ids": [
+     "ocbc-group_ar_2024_en:regions:0260"
+    ],
+    "top5": [
+     [
+      1,
+      "link",
+      "ocbc-group_ar_2024_en",
+      [
+       98,
+       100
+      ],
+      "Overview",
+      "ocbc-group_ar_2024_en:regions:0260"
+     ],
+     [
+      2,
+      "link",
+      "ocbc-group_ar_2023_en",
+      [
+       96,
+       98
+      ],
+      "Overview",
+      "ocbc-group_ar_2023_en:regions:0235"
+     ],
+     [
+      3,
+      "text",
+      "ocbc-group_ar_2023_en",
+      [
+       44,
+       45
+      ],
+      "Engaging our customers digitally",
+      "ocbc-group_ar_2023_en:regions:0102"
+     ],
+     [
+      4,
+      "text",
+      "ocbc-group_ar_2023_en",
+      [
+       25,
+       27
+      ],
+      "Helping with Heart",
+      "ocbc-group_ar_2023_en:regions:0063"
+     ],
+     [
+      5,
+      "text",
+      "ocbc-group_ar_2025_en",
+      [
+       160,
+       160
+      ],
+      "9. Staff Costs and Other Operating Expenses",
+      "ocbc-group_ar_2025_en:regions:0443"
+     ]
+    ],
+    "trace_id": "tr_36213caf16844bc38cf8ec2fe78eece6",
+    "query_terms": [
+     "what",
+     "drove",
+     "the",
+     "increase",
+     "in",
+     "ocbc",
+     "s",
+     "operating",
+     "expenses",
+     "2024",
+     "营运支出"
+    ]
+   }
+  }
+ ],
+ "cross_year": [
+  {
+   "id": "x01",
+   "lang": "zh",
+   "category": "cross_year",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "2025 年与 2024 年的不良贷款率相比有何变化？",
+   "years": [
+    2024,
+    2025
+   ],
+   "per_year": {
+    "2024": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2024_en:regions:0260",
+      "ocbc-group_ar_2024_en:regions:0261",
+      "ocbc-group_ar_2024_en:regions:0271"
+     ],
+     "group_top3": [
+      [
+       1,
+       "link",
+       "ocbc-group_ar_2024_en",
+       [
+        98,
+        100
+       ],
+       "Overview",
+       "ocbc-group_ar_2024_en:regions:0260"
+      ],
+      [
+       4,
+       "link",
+       "ocbc-group_ar_2024_en",
+       [
+        100,
+        100
+       ],
+       "Allowances and Asset Quality",
+       "ocbc-group_ar_2024_en:regions:0261"
+      ],
+      [
+       8,
+       "text",
+       "ocbc-group_ar_2024_en",
+       [
+        105,
+        106
+       ],
+       "Non-Performing Assets",
+       "ocbc-group_ar_2024_en:regions:0271"
+      ]
+     ]
+    },
+    "2025": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2025_en:regions:0284",
+      "ocbc-group_ar_2025_en:regions:0295",
+      "ocbc-group_ar_2025_en:regions:0013"
+     ],
+     "group_top3": [
+      [
+       3,
+       "link",
+       "ocbc-group_ar_2025_en",
+       [
+        98,
+        100
+       ],
+       "Overview",
+       "ocbc-group_ar_2025_en:regions:0284"
+      ],
+      [
+       6,
+       "text",
+       "ocbc-group_ar_2025_en",
+       [
+        105,
+        106
+       ],
+       "Non-Performing Assets",
+       "ocbc-group_ar_2025_en:regions:0295"
+      ],
+      [
+       9,
+       "text",
+       "ocbc-group_ar_2025_en",
+       [
+        9,
+        9
+       ],
+       "A Momentous Year",
+       "ocbc-group_ar_2025_en:regions:0013"
+      ]
+     ]
+    }
+   },
+   "node_hit": true,
+   "page_hit": true,
+   "trace_id": "tr_80aba1e1f045481d89596872180b7359",
+   "query_terms": [
+    "2025",
+    "年",
+    "与",
+    "2024",
+    "的",
+    "不良贷款率",
+    "相比",
+    "有何",
+    "变化",
+    "non",
+    "performing",
+    "loan",
+    "ratio",
+    "npl",
+    "不良贷款",
+    "比率"
+   ]
+  },
+  {
+   "id": "x02",
+   "lang": "zh",
+   "category": "cross_year",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "过去三年（2023–2025）华侨银行的信贷成本是多少？",
+   "years": [
+    2023,
+    2024,
+    2025
+   ],
+   "per_year": {
+    "2023": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2023_zh:regions:0100"
+     ],
+     "group_top3": [
+      [
+       3,
+       "text",
+       "ocbc-group_ar_2023_zh",
+       [
+        38,
+        39
+       ],
+       "风险警示",
+       "ocbc-group_ar_2023_zh:regions:0100"
+      ],
+      [
+       5,
+       "text",
+       "ocbc-group_ar_2023_zh",
+       [
+        29,
+        29
+       ],
+       "吉隆坡",
+       "ocbc-group_ar_2023_zh:regions:0075"
+      ],
+      [
+       8,
+       "text",
+       "ocbc-group_ar_2023_zh",
+       [
+        60,
+        60
+       ],
+       "(b) 华侨银行雇员股票购买计划",
+       "ocbc-group_ar_2023_zh:regions:0174"
+      ]
+     ]
+    },
+    "2024": {
+     "node": false,
+     "page": false,
+     "page_hit_pos": null,
+     "hit_node_ids": [],
+     "group_top3": [
+      [
+       2,
+       "text",
+       "ocbc-group_ar_2024_zh",
+       [
+        12,
+        12
+       ],
+       "提高股息和拟议股票回购",
+       "ocbc-group_ar_2024_zh:regions:0028"
+      ],
+      [
+       6,
+       "text",
+       "ocbc-group_ar_2024_zh",
+       [
+        145,
+        145
+       ],
+       "(ii) 截至2024年12月31日的已发生索赔的非寿险负债净额",
+       "ocbc-group_ar_2024_zh:regions:0347"
+      ],
+      [
+       9,
+       "text",
+       "ocbc-group_ar_2024_zh",
+       [
+        186,
+        186
+       ],
+       "李迪士博士 (61)",
+       "ocbc-group_ar_2024_zh:regions:0402"
+      ]
+     ]
+    },
+    "2025": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2025_en:regions:0284",
+      "ocbc-group_ar_2025_zh:regions:0015"
+     ],
+     "group_top3": [
+      [
+       1,
+       "link",
+       "ocbc-group_ar_2025_en",
+       [
+        98,
+        100
+       ],
+       "Overview",
+       "ocbc-group_ar_2025_en:regions:0284"
+      ],
+      [
+       4,
+       "text",
+       "ocbc-group_ar_2025_zh",
+       [
+        20,
+        20
+       ],
+       "以代理式AI取得突破",
+       "ocbc-group_ar_2025_zh:regions:0053"
+      ],
+      [
+       7,
+       "text",
+       "ocbc-group_ar_2025_zh",
+       [
+        9,
+        9
+       ],
+       "影响重大的一年",
+       "ocbc-group_ar_2025_zh:regions:0015"
+      ]
+     ]
+    }
+   },
+   "node_hit": false,
+   "page_hit": false,
+   "trace_id": "tr_50c60104485d491bbd706225e5e63168",
+   "query_terms": [
+    "过去",
+    "三年",
+    "2023",
+    "2025",
+    "华侨银行",
+    "的",
+    "信贷成本",
+    "是",
+    "多少",
+    "credit",
+    "costs"
+   ]
+  },
+  {
+   "id": "x03",
+   "lang": "en",
+   "category": "cross_year",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "How did the Group CET1 capital adequacy ratio change from 2023 to 2025?",
+   "years": [
+    2023,
+    2024,
+    2025
+   ],
+   "per_year": {
+    "2023": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2023_en:regions:0169",
+      "ocbc-group_ar_2023_zh:regions:0105",
+      "ocbc-group_ar_2023_en:regions:0256"
+     ],
+     "group_top3": [
+      [
+       3,
+       "link",
+       "ocbc-group_ar_2023_en",
+       [
+        75,
+        76
+       ],
+       "Capital Adequacy Ratios",
+       "ocbc-group_ar_2023_en:regions:0169"
+      ],
+      [
+       4,
+       "link",
+       "ocbc-group_ar_2023_zh",
+       [
+        40,
+        41
+       ],
+       "资本充足率",
+       "ocbc-group_ar_2023_zh:regions:0105"
+      ],
+      [
+       7,
+       "structure",
+       "ocbc-group_ar_2023_en",
+       [
+        108,
+        108
+       ],
+       "Capital Adequacy Ratios",
+       "ocbc-group_ar_2023_en:regions:0256"
+      ]
+     ]
+    },
+    "2024": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2024_en:regions:0185",
+      "ocbc-group_ar_2024_zh:regions:0103",
+      "ocbc-group_ar_2024_en:regions:0281"
+     ],
+     "group_top3": [
+      [
+       1,
+       "link",
+       "ocbc-group_ar_2024_en",
+       [
+        77,
+        78
+       ],
+       "Capital Adequacy Ratios",
+       "ocbc-group_ar_2024_en:regions:0185"
+      ],
+      [
+       6,
+       "link",
+       "ocbc-group_ar_2024_zh",
+       [
+        34,
+        35
+       ],
+       "资本充足率",
+       "ocbc-group_ar_2024_zh:regions:0103"
+      ],
+      [
+       8,
+       "structure",
+       "ocbc-group_ar_2024_en",
+       [
+        110,
+        110
+       ],
+       "Capital Adequacy Ratios",
+       "ocbc-group_ar_2024_en:regions:0281"
+      ]
+     ]
+    },
+    "2025": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2025_en:regions:0219",
+      "ocbc-group_ar_2025_zh:regions:0131",
+      "ocbc-group_ar_2025_en:regions:0305"
+     ],
+     "group_top3": [
+      [
+       2,
+       "link",
+       "ocbc-group_ar_2025_en",
+       [
+        77,
+        78
+       ],
+       "Capital Adequacy Ratios",
+       "ocbc-group_ar_2025_en:regions:0219"
+      ],
+      [
+       5,
+       "link",
+       "ocbc-group_ar_2025_zh",
+       [
+        36,
+        37
+       ],
+       "资本充足率",
+       "ocbc-group_ar_2025_zh:regions:0131"
+      ],
+      [
+       9,
+       "structure",
+       "ocbc-group_ar_2025_en",
+       [
+        110,
+        110
+       ],
+       "Capital Adequacy Ratios",
+       "ocbc-group_ar_2025_en:regions:0305"
+      ]
+     ]
+    }
+   },
+   "node_hit": true,
+   "page_hit": true,
+   "trace_id": "tr_335251cd02b3417f885da467477fd4df",
+   "query_terms": [
+    "how",
+    "did",
+    "the",
+    "group",
+    "cet1",
+    "capital",
+    "adequacy",
+    "ratio",
+    "change",
+    "from",
+    "2023",
+    "to",
+    "2025",
+    "common",
+    "equity",
+    "tier",
+    "1",
+    "普通股权一级资本",
+    "普通",
+    "股权",
+    "tier1",
+    "资本"
+   ]
+  },
+  {
+   "id": "v01",
+   "lang": "en",
+   "category": "cross_year",
+   "variant_of": "cost-to-income ratio",
+   "heldout_term": null,
+   "query": "How has OCBC's cost-income ratio moved from 2023 to 2025?",
+   "years": [
+    2023,
+    2024,
+    2025
+   ],
+   "per_year": {
+    "2023": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2023_en:regions:0018",
+      "ocbc-group_ar_2023_en:regions:0235"
+     ],
+     "group_top3": [
+      [
+       1,
+       "text",
+       "ocbc-group_ar_2023_en",
+       [
+        10,
+        13
+       ],
+       "Our Group CEO’s Perspectives",
+       "ocbc-group_ar_2023_en:regions:0018"
+      ],
+      [
+       4,
+       "text",
+       "ocbc-group_ar_2023_en",
+       [
+        8,
+        8
+       ],
+       "Higher Sustainable Dividends",
+       "ocbc-group_ar_2023_en:regions:0011"
+      ],
+      [
+       7,
+       "text",
+       "ocbc-group_ar_2023_en",
+       [
+        96,
+        98
+       ],
+       "Overview",
+       "ocbc-group_ar_2023_en:regions:0235"
+      ]
+     ]
+    },
+    "2024": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2024_en:regions:0260",
+      "ocbc-group_ar_2024_en:regions:0022"
+     ],
+     "group_top3": [
+      [
+       2,
+       "text",
+       "ocbc-group_ar_2024_en",
+       [
+        98,
+        100
+       ],
+       "Overview",
+       "ocbc-group_ar_2024_en:regions:0260"
+      ],
+      [
+       5,
+       "text",
+       "ocbc-group_ar_2024_en",
+       [
+        10,
+        11
+       ],
+       "Record Financial Results",
+       "ocbc-group_ar_2024_en:regions:0022"
+      ],
+      [
+       10,
+       "text",
+       "ocbc-group_ar_2024_en",
+       [
+        36,
+        37
+       ],
+       "Creating long-term value for shareholders",
+       "ocbc-group_ar_2024_en:regions:0092"
+      ]
+     ]
+    },
+    "2025": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 2,
+     "hit_node_ids": [
+      "ocbc-group_ar_2025_en:regions:0013",
+      "ocbc-group_ar_2025_en:regions:0073"
+     ],
+     "group_top3": [
+      [
+       3,
+       "text",
+       "ocbc-group_ar_2025_en",
+       [
+        13,
+        13
+       ],
+       "Our New Corporate Strategy",
+       "ocbc-group_ar_2025_en:regions:0024"
+      ],
+      [
+       6,
+       "text",
+       "ocbc-group_ar_2025_en",
+       [
+        9,
+        9
+       ],
+       "A Momentous Year",
+       "ocbc-group_ar_2025_en:regions:0013"
+      ],
+      [
+       8,
+       "text",
+       "ocbc-group_ar_2025_en",
+       [
+        25,
+        25
+       ],
+       "Robust Funding Base",
+       "ocbc-group_ar_2025_en:regions:0073"
+      ]
+     ]
+    }
+   },
+   "node_hit": true,
+   "page_hit": true,
+   "trace_id": "tr_1a7d989cd7d04ff28db0fce00014be67",
+   "query_terms": [
+    "how",
+    "has",
+    "ocbc",
+    "s",
+    "cost",
+    "income",
+    "ratio",
+    "moved",
+    "from",
+    "2023",
+    "to",
+    "2025"
+   ]
+  },
+  {
+   "id": "v02",
+   "lang": "zh",
+   "category": "cross_year",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "华侨银行2023年到2025年归属股东的净利润分别是多少？",
+   "years": [
+    2023,
+    2024,
+    2025
+   ],
+   "per_year": {
+    "2023": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2023_zh:regions:0002",
+      "ocbc-group_ar_2023_en:regions:0235"
+     ],
+     "group_top3": [
+      [
+       2,
+       "link",
+       "ocbc-group_ar_2023_zh",
+       [
+        4,
+        4
+       ],
+       "财务重点",
+       "ocbc-group_ar_2023_zh:regions:0002"
+      ],
+      [
+       4,
+       "link",
+       "ocbc-group_ar_2023_en",
+       [
+        96,
+        98
+       ],
+       "Overview",
+       "ocbc-group_ar_2023_en:regions:0235"
+      ],
+      [
+       7,
+       "text",
+       "ocbc-group_ar_2023_zh",
+       [
+        137,
+        138
+       ],
+       "32.2 实质联号企业财务资料",
+       "ocbc-group_ar_2023_zh:regions:0366"
+      ]
+     ]
+    },
+    "2024": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2024_zh:regions:0011",
+      "ocbc-group_ar_2024_en:regions:0260"
+     ],
+     "group_top3": [
+      [
+       3,
+       "link",
+       "ocbc-group_ar_2024_zh",
+       [
+        6,
+        6
+       ],
+       "财务重点",
+       "ocbc-group_ar_2024_zh:regions:0011"
+      ],
+      [
+       5,
+       "link",
+       "ocbc-group_ar_2024_en",
+       [
+        98,
+        100
+       ],
+       "Overview",
+       "ocbc-group_ar_2024_en:regions:0260"
+      ],
+      [
+       9,
+       "text",
+       "ocbc-group_ar_2024_zh",
+       [
+        116,
+        117
+       ],
+       "32.2 实质联号企业财务资料",
+       "ocbc-group_ar_2024_zh:regions:0296"
+      ]
+     ]
+    },
+    "2025": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2025_zh:regions:0003",
+      "ocbc-group_ar_2025_en:regions:0284"
+     ],
+     "group_top3": [
+      [
+       1,
+       "link",
+       "ocbc-group_ar_2025_zh",
+       [
+        4,
+        4
+       ],
+       "财务重点",
+       "ocbc-group_ar_2025_zh:regions:0003"
+      ],
+      [
+       6,
+       "link",
+       "ocbc-group_ar_2025_en",
+       [
+        98,
+        100
+       ],
+       "Overview",
+       "ocbc-group_ar_2025_en:regions:0284"
+      ],
+      [
+       8,
+       "text",
+       "ocbc-group_ar_2025_zh",
+       [
+        10,
+        10
+       ],
+       "致力于可持续性的股东回报",
+       "ocbc-group_ar_2025_zh:regions:0017"
+      ]
+     ]
+    }
+   },
+   "node_hit": true,
+   "page_hit": true,
+   "trace_id": "tr_34acee8f64fd4a2ba44a39a62ff464ce",
+   "query_terms": [
+    "华侨银行",
+    "2023",
+    "年",
+    "到",
+    "2025",
+    "归属",
+    "股东",
+    "的",
+    "净利润",
+    "分别",
+    "是",
+    "多少",
+    "net",
+    "profit",
+    "净盈利"
+   ]
+  },
+  {
+   "id": "v03",
+   "lang": "en",
+   "category": "cross_year",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "What was OCBC's net interest margin in 2023, 2024 and 2025?",
+   "years": [
+    2023,
+    2024,
+    2025
+   ],
+   "per_year": {
+    "2023": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2023_en:regions:0235",
+      "ocbc-group_ar_2023_en:regions:0018"
+     ],
+     "group_top3": [
+      [
+       1,
+       "link",
+       "ocbc-group_ar_2023_en",
+       [
+        96,
+        98
+       ],
+       "Overview",
+       "ocbc-group_ar_2023_en:regions:0235"
+      ],
+      [
+       4,
+       "text",
+       "ocbc-group_ar_2023_en",
+       [
+        35,
+        35
+       ],
+       "Tapping innovative, diversified sources of funding",
+       "ocbc-group_ar_2023_en:regions:0088"
+      ],
+      [
+       7,
+       "text",
+       "ocbc-group_ar_2023_en",
+       [
+        10,
+        13
+       ],
+       "Our Group CEO’s Perspectives",
+       "ocbc-group_ar_2023_en:regions:0018"
+      ]
+     ]
+    },
+    "2024": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2024_en:regions:0260",
+      "ocbc-group_ar_2024_en:regions:0265",
+      "ocbc-group_ar_2024_en:regions:0035"
+     ],
+     "group_top3": [
+      [
+       2,
+       "link",
+       "ocbc-group_ar_2024_en",
+       [
+        98,
+        100
+       ],
+       "Overview",
+       "ocbc-group_ar_2024_en:regions:0260"
+      ],
+      [
+       5,
+       "text",
+       "ocbc-group_ar_2024_en",
+       [
+        101,
+        101
+       ],
+       "Average Balance Sheet",
+       "ocbc-group_ar_2024_en:regions:0265"
+      ],
+      [
+       10,
+       "text",
+       "ocbc-group_ar_2024_en",
+       [
+        14,
+        17
+       ],
+       "Review by Our Group CEO",
+       "ocbc-group_ar_2024_en:regions:0035"
+      ]
+     ]
+    },
+    "2025": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2025_en:regions:0284",
+      "ocbc-group_ar_2025_en:regions:0289"
+     ],
+     "group_top3": [
+      [
+       3,
+       "link",
+       "ocbc-group_ar_2025_en",
+       [
+        98,
+        100
+       ],
+       "Overview",
+       "ocbc-group_ar_2025_en:regions:0284"
+      ],
+      [
+       6,
+       "text",
+       "ocbc-group_ar_2025_en",
+       [
+        24,
+        25
+       ],
+       "Group CFO’s Overview",
+       "ocbc-group_ar_2025_en:regions:0072"
+      ],
+      [
+       8,
+       "text",
+       "ocbc-group_ar_2025_en",
+       [
+        101,
+        101
+       ],
+       "Average Balance Sheet",
+       "ocbc-group_ar_2025_en:regions:0289"
+      ]
+     ]
+    }
+   },
+   "node_hit": true,
+   "page_hit": true,
+   "trace_id": "tr_8efcd9d6c9034617968d1897a0017310",
+   "query_terms": [
+    "what",
+    "was",
+    "ocbc",
+    "s",
+    "net",
+    "interest",
+    "margin",
+    "in",
+    "2023",
+    "2024",
+    "and",
+    "2025",
+    "nim",
+    "净",
+    "息差"
+   ]
+  },
+  {
+   "id": "v04",
+   "lang": "zh",
+   "category": "cross_year",
+   "variant_of": "权益回报率",
+   "heldout_term": null,
+   "query": "华侨银行2023年和2024年的股东权益回报率是多少？",
+   "years": [
+    2023,
+    2024
+   ],
+   "per_year": {
+    "2023": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2023_en:regions:0235",
+      "ocbc-group_ar_2023_zh:regions:0002",
+      "ocbc-group_ar_2023_zh:regions:0022"
+     ],
+     "group_top3": [
+      [
+       5,
+       "link",
+       "ocbc-group_ar_2023_en",
+       [
+        96,
+        98
+       ],
+       "Overview",
+       "ocbc-group_ar_2023_en:regions:0235"
+      ],
+      [
+       6,
+       "link",
+       "ocbc-group_ar_2023_zh",
+       [
+        4,
+        4
+       ],
+       "财务重点",
+       "ocbc-group_ar_2023_zh:regions:0002"
+      ],
+      [
+       7,
+       "text",
+       "ocbc-group_ar_2023_zh",
+       [
+        10,
+        13
+       ],
+       "集团首席执行官的观点",
+       "ocbc-group_ar_2023_zh:regions:0022"
+      ]
+     ]
+    },
+    "2024": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2024_zh:regions:0011",
+      "ocbc-group_ar_2024_en:regions:0260",
+      "ocbc-group_ar_2024_zh:regions:0026"
+     ],
+     "group_top3": [
+      [
+       2,
+       "link",
+       "ocbc-group_ar_2024_zh",
+       [
+        6,
+        6
+       ],
+       "财务重点",
+       "ocbc-group_ar_2024_zh:regions:0011"
+      ],
+      [
+       4,
+       "link",
+       "ocbc-group_ar_2024_en",
+       [
+        98,
+        100
+       ],
+       "Overview",
+       "ocbc-group_ar_2024_en:regions:0260"
+      ],
+      [
+       8,
+       "text",
+       "ocbc-group_ar_2024_zh",
+       [
+        10,
+        11
+       ],
+       "财务业绩创新高",
+       "ocbc-group_ar_2024_zh:regions:0026"
+      ]
+     ]
+    }
+   },
+   "node_hit": true,
+   "page_hit": true,
+   "trace_id": "tr_ec2d1f6812b648efaf833a0febe7eb2f",
+   "query_terms": [
+    "华侨银行",
+    "2023",
+    "年",
+    "和",
+    "2024",
+    "的",
+    "股东",
+    "权益回报率",
+    "是",
+    "多少",
+    "return",
+    "on",
+    "equity",
+    "净资产",
+    "收益率"
+   ]
+  },
+  {
+   "id": "v05",
+   "lang": "en",
+   "category": "cross_year",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "How did OCBC's wealth management AUM grow between 2023 and 2025?",
+   "years": [
+    2023,
+    2024,
+    2025
+   ],
+   "per_year": {
+    "2023": {
+     "node": false,
+     "page": false,
+     "page_hit_pos": null,
+     "hit_node_ids": [],
+     "group_top3": [
+      [
+       2,
+       "text",
+       "ocbc-group_ar_2023_en",
+       [
+        34,
+        34
+       ],
+       "Allocating capital to drive our ASEAN-Greater Chin",
+       "ocbc-group_ar_2023_en:regions:0086"
+      ],
+      [
+       6,
+       "text",
+       "ocbc-group_ar_2023_en",
+       [
+        44,
+        45
+       ],
+       "Engaging our customers digitally",
+       "ocbc-group_ar_2023_en:regions:0102"
+      ],
+      [
+       9,
+       "text",
+       "ocbc-group_ar_2023_en",
+       [
+        45,
+        45
+       ],
+       "Never losing sight of our Purpose and Values",
+       "ocbc-group_ar_2023_en:regions:0104"
+      ]
+     ]
+    },
+    "2024": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 3,
+     "hit_node_ids": [
+      "ocbc-group_ar_2024_en:regions:0006"
+     ],
+     "group_top3": [
+      [
+       3,
+       "text",
+       "ocbc-group_ar_2024_en",
+       [
+        42,
+        42
+       ],
+       "Sharpening our customer acquisition strategy",
+       "ocbc-group_ar_2024_en:regions:0105"
+      ],
+      [
+       7,
+       "text",
+       "ocbc-group_ar_2024_en",
+       [
+        14,
+        17
+       ],
+       "Review by Our Group CEO",
+       "ocbc-group_ar_2024_en:regions:0035"
+      ],
+      [
+       10,
+       "text",
+       "ocbc-group_ar_2024_en",
+       [
+        5,
+        5
+       ],
+       "Asset Management",
+       "ocbc-group_ar_2024_en:regions:0006"
+      ]
+     ]
+    },
+    "2025": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2025_en:regions:0063"
+     ],
+     "group_top3": [
+      [
+       1,
+       "text",
+       "ocbc-group_ar_2025_en",
+       [
+        22,
+        22
+       ],
+       "Wealth Management",
+       "ocbc-group_ar_2025_en:regions:0063"
+      ],
+      [
+       4,
+       "text",
+       "ocbc-group_ar_2025_en",
+       [
+        19,
+        19
+       ],
+       "Delivering a Whole-of-Wealth Proposition",
+       "ocbc-group_ar_2025_en:regions:0050"
+      ],
+      [
+       5,
+       "text",
+       "ocbc-group_ar_2025_en",
+       [
+        44,
+        44
+       ],
+       "Capturing Rising Asian Wealth",
+       "ocbc-group_ar_2025_en:regions:0139"
+      ]
+     ]
+    }
+   },
+   "node_hit": false,
+   "page_hit": false,
+   "trace_id": "tr_60a3b4535c314706a81e9542cd759bc8",
+   "query_terms": [
+    "how",
+    "did",
+    "ocbc",
+    "s",
+    "wealth",
+    "management",
+    "aum",
+    "grow",
+    "between",
+    "2023",
+    "and",
+    "2025"
+   ]
+  },
+  {
+   "id": "v06",
+   "lang": "zh",
+   "category": "cross_year",
+   "variant_of": "每股股息",
+   "heldout_term": null,
+   "query": "华侨银行2023年和2024年的每股分红各是多少？",
+   "years": [
+    2023,
+    2024
+   ],
+   "per_year": {
+    "2023": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2023_zh:regions:0015",
+      "ocbc-group_ar_2023_zh:regions:0107"
+     ],
+     "group_top3": [
+      [
+       1,
+       "structure",
+       "ocbc-group_ar_2023_zh",
+       [
+        8,
+        8
+       ],
+       "更高的可持续股息",
+       "ocbc-group_ar_2023_zh:regions:0015"
+      ],
+      [
+       5,
+       "structure",
+       "ocbc-group_ar_2023_zh",
+       [
+        40,
+        40
+       ],
+       "股息",
+       "ocbc-group_ar_2023_zh:regions:0107"
+      ],
+      [
+       7,
+       "structure",
+       "ocbc-group_ar_2023_zh",
+       [
+        34,
+        34
+       ],
+       "聚焦资本管理落实明确的派息政策",
+       "ocbc-group_ar_2023_zh:regions:0093"
+      ]
+     ]
+    },
+    "2024": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2024_zh:regions:0028",
+      "ocbc-group_ar_2024_zh:regions:0100"
+     ],
+     "group_top3": [
+      [
+       2,
+       "structure",
+       "ocbc-group_ar_2024_zh",
+       [
+        12,
+        12
+       ],
+       "提高股息和拟议股票回购",
+       "ocbc-group_ar_2024_zh:regions:0028"
+      ],
+      [
+       4,
+       "structure",
+       "ocbc-group_ar_2024_zh",
+       [
+        78,
+        78
+       ],
+       "6. 附属公司和联号企业股息",
+       "ocbc-group_ar_2024_zh:regions:0247"
+      ],
+      [
+       6,
+       "structure",
+       "ocbc-group_ar_2024_zh",
+       [
+        34,
+        34
+       ],
+       "股息",
+       "ocbc-group_ar_2024_zh:regions:0100"
+      ]
+     ]
+    }
+   },
+   "node_hit": true,
+   "page_hit": true,
+   "trace_id": "tr_b91109574f1a40e4bd1a4b46ffb99c32",
+   "query_terms": [
+    "华侨银行",
+    "2023",
+    "年",
+    "和",
+    "2024",
+    "的",
+    "每股",
+    "分红",
+    "各是",
+    "多少",
+    "股息",
+    "派息"
+   ]
+  },
+  {
+   "id": "v07",
+   "lang": "en",
+   "category": "cross_year",
+   "variant_of": null,
+   "heldout_term": null,
+   "query": "What was OCBC Group's total income for 2023, 2024 and 2025?",
+   "years": [
+    2023,
+    2024,
+    2025
+   ],
+   "per_year": {
+    "2023": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2023_en:regions:0235",
+      "ocbc-group_ar_2023_en:regions:0002"
+     ],
+     "group_top3": [
+      [
+       3,
+       "link",
+       "ocbc-group_ar_2023_en",
+       [
+        96,
+        98
+       ],
+       "Overview",
+       "ocbc-group_ar_2023_en:regions:0235"
+      ],
+      [
+       6,
+       "link",
+       "ocbc-group_ar_2023_en",
+       [
+        4,
+        4
+       ],
+       "Financial Highlights",
+       "ocbc-group_ar_2023_en:regions:0002"
+      ],
+      [
+       10,
+       "text",
+       "ocbc-group_ar_2023_en",
+       [
+        13,
+        13
+       ],
+       "Appreciation",
+       "ocbc-group_ar_2023_en:regions:0022"
+      ]
+     ]
+    },
+    "2024": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2024_en:regions:0260",
+      "ocbc-group_ar_2024_en:regions:0012"
+     ],
+     "group_top3": [
+      [
+       1,
+       "link",
+       "ocbc-group_ar_2024_en",
+       [
+        98,
+        100
+       ],
+       "Overview",
+       "ocbc-group_ar_2024_en:regions:0260"
+      ],
+      [
+       5,
+       "link",
+       "ocbc-group_ar_2024_en",
+       [
+        110,
+        110
+       ],
+       "Performance by Geographical Segment",
+       "ocbc-group_ar_2024_en:regions:0280"
+      ],
+      [
+       9,
+       "text",
+       "ocbc-group_ar_2024_en",
+       [
+        6,
+        6
+       ],
+       "Financial Highlights",
+       "ocbc-group_ar_2024_en:regions:0012"
+      ]
+     ]
+    },
+    "2025": {
+     "node": true,
+     "page": true,
+     "page_hit_pos": 1,
+     "hit_node_ids": [
+      "ocbc-group_ar_2025_en:regions:0284",
+      "ocbc-group_ar_2025_en:regions:0004"
+     ],
+     "group_top3": [
+      [
+       2,
+       "link",
+       "ocbc-group_ar_2025_en",
+       [
+        98,
+        100
+       ],
+       "Overview",
+       "ocbc-group_ar_2025_en:regions:0284"
+      ],
+      [
+       4,
+       "link",
+       "ocbc-group_ar_2025_en",
+       [
+        4,
+        4
+       ],
+       "Financial Highlights",
+       "ocbc-group_ar_2025_en:regions:0004"
+      ],
+      [
+       7,
+       "text",
+       "ocbc-group_ar_2025_en",
+       [
+        198,
+        198
+       ],
+       "32.2 Financial Information of Material Associate",
+       "ocbc-group_ar_2025_en:regions:0490"
+      ]
+     ]
+    }
+   },
+   "node_hit": true,
+   "page_hit": true,
+   "trace_id": "tr_8e6a301c0bd04280afed0bff37b65f67",
+   "query_terms": [
+    "what",
+    "was",
+    "ocbc",
+    "group",
+    "s",
+    "total",
+    "income",
+    "for",
+    "2023",
+    "2024",
+    "and",
+    "2025",
+    "总收入"
+   ]
+  }
+ ],
+ "summary": {
+  "single": {
+   "questions": 21,
+   "with_year": {
+    "node_hit_at5": 21,
+    "page_hit_at5": 21
+   },
+   "no_year": {
+    "node_hit_at5": 18,
+    "page_hit_at5": 18
+   }
+  },
+  "cross_year": {
+   "questions": 10,
+   "node_hit": 8,
+   "page_hit": 8
+  },
+  "x01_page_hit": true,
+  "heldout": {
+   "legacy": {
+    "questions": 3,
+    "hits": 3
+   },
+   "new": {
+    "questions": 0,
+    "hits": 0
+   }
+  }
+ },
+ "config": {
+  "mode": "inprocess",
+  "subject": "full_access",
+  "top_k": 5,
+  "crossyear": {
+   "group_by": "fiscal_year",
+   "per_group": 3,
+   "limit": 10
+  },
+  "ranking": {
+   "version": 3,
+   "threshold": 0.5,
+   "link_per_group": 2
+  },
+  "aliases": true
+ }
+}

@@ -1,0 +1,5 @@
+# Derived-number allowlist (p2-design §2.2, D35): derived numbers C2 marks as review (computed from numbers that were read, not verbatim in the source) are added here after manual confirmation,
+# and later runs mark them pass. scripts/eval.py recheck <run_id> recomputes a run's answer checks against the new list.
+# Each entry: value is the spelling in the answer (e.g. "0.1个百分点", "6.2%"; spaces and thousands separators removed when comparing); question_id optional (applies to that question only);
+# reason states which two numbers it is computed from and how, and who confirmed it on which day.
+entries: []

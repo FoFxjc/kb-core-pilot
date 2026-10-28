@@ -1,0 +1,770 @@
+doc_id: ocbc-group_ar_2025_en
+seed: 103
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2025_en:regions:0025
+  title: Commitment to Sustained Shareholder Returns
+  origin: heading
+  pages:
+  - 10
+  - 10
+  printed_pages:
+  - '8'
+  - '8'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0024
+    title: Resilient Net Profit $7.42 billion 2%
+    pages:
+    - 9
+    - 11
+  start_page_text: ‘ ’ Commitment to Sustained Shareholder Returns We have always taken the long-term view on growth in our
+    93 years of operations, ensuring shareholder returns are delivered sustainably. Over the past f
+  verdict: wrong
+  note: 'parent: "Resilient Net Profit $7.42 billion 2%" is a stat-callout fragment on p9 sidebar, not a heading; the real
+    enclosing section is Chairman''s Reflections (p8-11). Title and pages [10,10] are fine.'
+- node_id: ocbc-group_ar_2025_en:regions:0042
+  title: Innovating to Create Long-Term Value
+  origin: heading
+  pages:
+  - 14
+  - 14
+  printed_pages:
+  - '12'
+  - '12'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0036
+    title: Dear Fellow Shareholders,
+    pages:
+    - 12
+    - 15
+  start_page_text: Staying the Course While Expanding Our Reach Even as we prepare for the next phase, we remain disciplined
+    in executing our strategy and strengthening our connectivity. During the year, OCBC signed a M
+  verdict: wrong
+  note: 'parent (doubtful): "Dear Fellow Shareholders," is the letter salutation (first bold words of the 16pt intro paragraph),
+    not a section heading; nearest real enclosing heading is "Group CEO''s Perspectives" (p12). Title and pages [14,14] are
+    fine.'
+- node_id: ocbc-group_ar_2025_en:regions:0045
+  title: Shifts Forward
+  origin: toc_group
+  pages:
+  - 16
+  - 25
+  printed_pages:
+  - '14'
+  - '23'
+  parent: null
+  start_page_text: We are forging ahead with a focus on driving strong growth, leveraging our solid foundation as an integrated
+    financial services group. Accelerating growth with four strategic shifts Asia Shift Tap ris
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0079
+  title: 33% CAGR
+  origin: heading
+  pages:
+  - 22
+  - 22
+  printed_pages:
+  - '20'
+  - '20'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0075
+    title: The Power of One Group
+    pages:
+    - 22
+    - 23
+  start_page_text: 'Insurance Great Eastern Holdings’ Profit Contribution $m FY23 FY24 FY25 636 882 1,125 Wealth Management
+    Group Wealth Management income $b Group Wealth Management AUM $b FY23 FY24 FY25 4.3 4.9 5.6 Dec '
+  verdict: wrong
+  note: 'title: "33% CAGR" is a chart label under the Wealth Management/Insurance mini-charts on p22, not a heading.'
+- node_id: ocbc-group_ar_2025_en:regions:0084
+  title: Securities Broking
+  origin: heading
+  pages:
+  - 23
+  - 23
+  printed_pages:
+  - '21'
+  - '21'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0075
+    title: The Power of One Group
+    pages:
+    - 22
+    - 23
+  start_page_text: Co-creating Better Value for Customers with Great Eastern OCBC launched two successful programmes for key
+    customer segments in the past two years, leveraging Great Eastern’s strengths to deliver enhan
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0088
+  title: Robust Funding Base
+  origin: heading
+  pages:
+  - 25
+  - 25
+  printed_pages:
+  - '23'
+  - '23'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0087
+    title: Group CFO’s Overview
+    pages:
+    - 24
+    - 25
+  start_page_text: Loans grew by a healthy 9% to $341 billion on a constant currency basis, contributed by both corporate
+    and consumer segments, and driven by the Group’s key regional and international markets. In parti
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0109
+  title: OCBC Seagrass Restoration Project
+  origin: heading
+  pages:
+  - 30
+  - 30
+  printed_pages:
+  - '28'
+  - '28'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0107
+    title: Seeding Hope for the Future
+    pages:
+    - 30
+    - 31
+  start_page_text: Seeding Hope for the Future Continuing our commitment to nature‑based climate solutions, we are advancing
+    the restoration of marine and coastal ecosystems while supporting biodiversity conservation an
+  verdict: wrong
+  note: 'parent (doubtful): skips the red country heading "Singapore" (p30 y160) that groups Seagrass, Mangrove Park and Falcon
+    Research, same pattern as Malaysia/Indonesia/China... on p31. Title and pages are fine.'
+- node_id: ocbc-group_ar_2025_en:regions:0121
+  title: Living Active
+  origin: toc
+  pages:
+  - 32
+  - 33
+  printed_pages:
+  - '30'
+  - '31'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0090
+    title: Connecting People and Purpose
+    pages:
+    - 26
+    - 33
+  start_page_text: Living Active We unite thousands of cyclists in celebrating wellness, inclusivity and community spirit
+    – all to strengthen active mobility culture. Johor Bahru The inaugural OCBC Cycle Johor Bahru (JB
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0124
+  title: Kuala Lumpur
+  origin: heading
+  pages:
+  - 33
+  - 33
+  printed_pages:
+  - '31'
+  - '31'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0121
+    title: Living Active
+    pages:
+    - 32
+    - 33
+  start_page_text: Singapore The 17th edition of OCBC Cycle SG pivoted to a free virtual event for registered participants
+    during the country’s General Election weekend. Cyclists were able to collect their event packs a
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0130
+  title: Nominating Committee
+  origin: heading
+  pages:
+  - 35
+  - 35
+  printed_pages:
+  - '33'
+  - '33'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0128
+    title: Board Committees
+    pages:
+    - 34
+    - 35
+  start_page_text: Nominating Committee Dr Andrew Khoo, Chairman Mr Andrew Lee Mr Lian Wee Cheow Mr Pramukti Surjaudaja Ms
+    Tan Yen Yen Remuneration Committee Mr Andrew Lee, Chairman Dr Andrew Khoo Mr Pramukti Surjaudaja
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0135
+  title: Risk Management Committee
+  origin: heading
+  pages:
+  - 35
+  - 35
+  printed_pages:
+  - '33'
+  - '33'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0128
+    title: Board Committees
+    pages:
+    - 34
+    - 35
+  start_page_text: Nominating Committee Dr Andrew Khoo, Chairman Mr Andrew Lee Mr Lian Wee Cheow Mr Pramukti Surjaudaja Ms
+    Tan Yen Yen Remuneration Committee Mr Andrew Lee, Chairman Dr Andrew Khoo Mr Pramukti Surjaudaja
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0187
+  title: • Ethics and Conduct Committee
+  origin: heading
+  pages:
+  - 55
+  - 55
+  printed_pages:
+  - '53'
+  - '53'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0180
+    title: Board Committees
+    pages:
+    - 53
+    - 56
+  start_page_text: have the relevant technical financial expertise in risk disciplines or businesses to discharge their responsibilities.
+    Mr Chua Kim Chiu, Mr Lian Wee Cheow and Ms Tan Yen Yen also serve on the Audit Co
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0197
+  title: 'Principle 7: Level and Mix of Remuneration Compensation for Non-Executive Directors'
+  origin: heading
+  pages:
+  - 60
+  - 62
+  printed_pages:
+  - '58'
+  - '60'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0195
+    title: Remuneration Matters
+    pages:
+    - 59
+    - 64
+  start_page_text: 'The Bank does not provide for any termination, retirement or post-employment benefits to executive Directors
+    or the top five key management personnel. Principle 7: Level and Mix of Remuneration Compen'
+  verdict: wrong
+  note: 'title: merges "Principle 7: Level and Mix of Remuneration" (10pt red bold) with its sub-heading "Compensation for
+    Non-Executive Directors" (9pt medium). Pages [60,62] would be right for Principle 7.'
+- node_id: ocbc-group_ar_2025_en:regions:0207
+  title: Subsidiaries
+  origin: heading
+  pages:
+  - 63
+  - 63
+  printed_pages:
+  - '61'
+  - '61'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0204
+    title: 'Principle 8: Disclosure on Remuneration'
+    pages:
+    - 63
+    - 64
+  start_page_text: 'Principle 8: Disclosure on Remuneration The following disclosures should be read in conjunction with the
+    remuneration policies, practices and share plans as described under Principles 6 and 7. Directo'
+  verdict: wrong
+  note: 'parent: skips intermediate heading "Directors'' and CEO''s Remuneration in 2025" (p63 y143, red) which encloses "Bank"
+    and "Subsidiaries". Title and pages fine.'
+- node_id: ocbc-group_ar_2025_en:regions:0220
+  title: Shareholder Rights and Engagement
+  origin: heading
+  pages:
+  - 68
+  - 68
+  printed_pages:
+  - '66'
+  - '66'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0177
+    title: Corporate Governance
+    pages:
+    - 52
+    - 71
+  start_page_text: 'Shareholder Rights and Engagement Principle 11: Shareholder Rights and Conduct of General Meetings OCBC
+    is committed to fostering regular, effective and fair communication with its shareholders. The B'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0223
+  title: Managing Stakeholders Relationships
+  origin: heading
+  pages:
+  - 69
+  - 69
+  printed_pages:
+  - '67'
+  - '67'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0177
+    title: Corporate Governance
+    pages:
+    - 52
+    - 71
+  start_page_text: 'Managing Stakeholders Relationships Principle 13: Engagement with Stakeholders The Bank recognises the
+    importance in maintaining positive stakeholder relationships, and adopts an inclusive approach in'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0227
+  title: Summary of Disclosures
+  origin: heading
+  pages:
+  - 70
+  - 71
+  printed_pages:
+  - '68'
+  - '69'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0177
+    title: Corporate Governance
+    pages:
+    - 52
+    - 71
+  start_page_text: Provisions of the Code of Corporate Governance 2018 Page reference in OCBC Annual Report 2025 Provision
+    1.2 The induction, training and development provided to new and existing directors. Page 55 Prov
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0230
+  title: Capital Management
+  origin: toc
+  pages:
+  - 77
+  - 78
+  printed_pages:
+  - '75'
+  - '76'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0176
+    title: Governance
+    pages:
+    - 52
+    - 95
+  start_page_text: Capital Management Capital Policy The key objective of the Group’s capital management policy is to maintain
+    a strong capital position to support business growth and strategic investments, and to susta
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0232
+  title: Dividend
+  origin: heading
+  pages:
+  - 77
+  - 77
+  printed_pages:
+  - '75'
+  - '75'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0230
+    title: Capital Management
+    pages:
+    - 77
+    - 78
+  start_page_text: Capital Management Capital Policy The key objective of the Group’s capital management policy is to maintain
+    a strong capital position to support business growth and strategic investments, and to susta
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0254
+  title: Credit Portfolio Management
+  origin: heading
+  pages:
+  - 88
+  - 90
+  printed_pages:
+  - '86'
+  - '88'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0250
+    title: Credit Risk Management
+    pages:
+    - 87
+    - 90
+  start_page_text: Credit Risk Mitigation Credit risk is mitigated through various measures such as holding collateral, buying
+    credit protection and setting netting arrangements to reduce credit risk exposures. These me
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0256
+  title: • Portfolio Modelling
+  origin: heading
+  pages:
+  - 88
+  - 89
+  printed_pages:
+  - '86'
+  - '87'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0254
+    title: Credit Portfolio Management
+    pages:
+    - 88
+    - 90
+  start_page_text: Credit Risk Mitigation Credit risk is mitigated through various measures such as holding collateral, buying
+    credit protection and setting netting arrangements to reduce credit risk exposures. These me
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0288
+  title: Conduct Risk
+  origin: heading
+  pages:
+  - 94
+  - 94
+  printed_pages:
+  - '92'
+  - '92'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0281
+    title: • Key Aspects of Operational Risk Management Business Continuity Management
+    pages:
+    - 93
+    - 94
+  start_page_text: from fraud and scam activities. Our transaction monitoring capabilities enable us to detect and alert customers
+    to suspicious account activities, effectively preventing potential fraudulent transactio
+  verdict: correct
+  note: 'doubtful correct: parent node title merges "• Key Aspects of Operational Risk Management" with its first sub-heading
+    "Business Continuity Management"; the parent heading itself is the right enclosing one.'
+- node_id: ocbc-group_ar_2025_en:regions:0300
+  title: Overview
+  origin: heading
+  pages:
+  - 98
+  - 100
+  printed_pages:
+  - '96'
+  - '98'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0299
+    title: Management Discussion and Analysis
+    pages:
+    - 96
+    - 110
+  start_page_text: Overview 2025 $ million 2024 $ million +/(-) % Selected Income Statement Items Net interest income 9,150
+    9,755 (6) Non-interest income 5,464 4,718 16 Total income 14,614 14,473 1 Operating expenses (5
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0303
+  title: Funding, Liquidity and Capital Position
+  origin: heading
+  pages:
+  - 100
+  - 100
+  printed_pages:
+  - '98'
+  - '98'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0301
+    title: Overview
+    pages:
+    - 99
+    - 100
+  start_page_text: Overview (continued) Allowances and Asset Quality As at 31 December 2025, total NPAs were $3.24 billion,
+    up 13% from a year ago. NPL ratio remained unchanged at 0.9%, and total NPA coverage stood at 1
+  verdict: wrong
+  note: 'parent (doubtful): parent is a duplicate "Overview" node built from the "Overview (continued)" running heading of
+    p99 with range [99,100]; the real enclosing section is Overview starting p98 (node 0300, [98,100]). Title and pages [100,100]
+    fine.'
+- node_id: ocbc-group_ar_2025_en:regions:0346
+  title: Auditor’s Responsibilities for the Audit of the Financial Statements
+  origin: heading
+  pages:
+  - 123
+  - 124
+  printed_pages:
+  - '121'
+  - '122'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0334
+    title: Report on the Audit of the Financial Statements
+    pages:
+    - 117
+    - 124
+  start_page_text: 'Other Information Management is responsible for the other information. The other information comprises
+    the Directors’ Statement (but does not include the financial statements and our auditor’s report '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0377
+  title: 2.21 Critical Accounting Estimates and Judgements
+  origin: subnote
+  pages:
+  - 152
+  - 155
+  printed_pages:
+  - '150'
+  - '153'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0356
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.17 Income Tax Expense (continued) Pillar Two related
+    top-up tax expenses are recognised and disclosed separately from other current income tax e
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0391
+  title: 13.3 Employee Share Purchase Plan
+  origin: subnote
+  pages:
+  - 164
+  - 165
+  printed_pages:
+  - '162'
+  - '163'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0388
+    title: 13. Share Capital
+    pages:
+    - 163
+    - 165
+  start_page_text: '13. Share Capital (continued) 13.2 Share Option Scheme (continued) Movements in the number of shares under
+    options and the average acquisition prices are as follows: 2025 2024 Number of shares under o'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0419
+  title: 25. Placements with and Loans to Banks
+  origin: note
+  pages:
+  - 187
+  - 187
+  printed_pages:
+  - '185'
+  - '185'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0354
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: 24. Government Treasury Bills and Securities GROUP BANK $ million 2025 2024 2025 2024 Singapore government
+    treasury bills and securities 21,506 14,316 20,451 13,182 Other government treasury bills and
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0424
+  title: 30. Allowances for Financial Assets
+  origin: note
+  pages:
+  - 193
+  - 196
+  printed_pages:
+  - '191'
+  - '194'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0354
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: '30. Allowances for Financial Assets The following tables show reconciliations from the opening to the
+    closing balance of expected credit loss (ECL). $ million Stage 1 Stage 2 Stage 3 Total GROUP At 1 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0467
+  title: Substantial Shareholders
+  origin: heading
+  pages:
+  - 257
+  - 257
+  printed_pages:
+  - '255'
+  - '255'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0462
+    title: Shareholding Statistics
+    pages:
+    - 256
+    - 257
+  start_page_text: Substantial Shareholders (As shown in the Register of Substantial Shareholders) Substantial shareholders
+    Direct interest No. of Shares Deemed interest No. of Shares Total No. of Shares %* Lee Foundati
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0470
+  title: Our Board – Biographies
+  origin: toc
+  pages:
+  - 259
+  - 264
+  printed_pages:
+  - '257'
+  - '262'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0469
+    title: Know More About OCBC
+    pages:
+    - 259
+    - 271
+  start_page_text: 'Appointed as Director: 18 February 2022 Last Re-elected as a Director: 17 April 2025 Ms Chong spent over
+    29 years at Accenture where she held senior leadership roles covering various industries and co'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0472
+  title: Ms Chong Chuan Neo (63)
+  origin: heading
+  pages:
+  - 259
+  - 259
+  printed_pages:
+  - '257'
+  - '257'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0470
+    title: Our Board – Biographies
+    pages:
+    - 259
+    - 264
+  start_page_text: 'Appointed as Director: 18 February 2022 Last Re-elected as a Director: 17 April 2025 Ms Chong spent over
+    29 years at Accenture where she held senior leadership roles covering various industries and co'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0486
+  title: Global Consumer Financial Services
+  origin: heading
+  pages:
+  - 265
+  - 265
+  printed_pages:
+  - '263'
+  - '263'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0485
+    title: Mr Sunny Quek
+    pages:
+    - 265
+    - 265
+  start_page_text: Our Management – Biographies Mr Tan Teck Long Group Chief Executive Officer Mr Tan Teck Long was appointed
+    Group Chief Executive Officer of OCBC on 1 January 2026. Mr Tan is also Board Commissioner of
+  verdict: wrong
+  note: 'title: "Global Consumer Financial Services" is the job-title field line under "Mr Sunny Quek" (9pt medium), not a
+    heading.'
+- node_id: ocbc-group_ar_2025_en:regions:0493
+  title: Mr Tan Chor Sen
+  origin: heading
+  pages:
+  - 266
+  - 266
+  printed_pages:
+  - '264'
+  - '264'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0482
+    title: Our Management – Biographies
+    pages:
+    - 265
+    - 269
+  start_page_text: Our Management – Biographies Pacific. Prior to that, he worked in the Equities Merchandising Group in New
+    York. He joined Goldman Sachs as a financial analyst in PWM in Singapore upon graduation. Mr M
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0500
+  title: Ms Elaine Heng
+  origin: heading
+  pages:
+  - 267
+  - 267
+  printed_pages:
+  - '265'
+  - '265'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0482
+    title: Our Management – Biographies
+    pages:
+    - 265
+    - 269
+  start_page_text: this appointment, she joined Bank NISP as a Director in 1990 and served as a Deputy President Director
+    from 1997. Ms Surjaudaja, who has more than 35 years of experience in the banking industry, has l
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0522
+  title: Indonesia
+  origin: heading
+  pages:
+  - 270
+  - 270
+  printed_pages:
+  - '268'
+  - '268'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0516
+    title: Southeast Asia
+    pages:
+    - 270
+    - 270
+  start_page_text: 'OCBC’s Presence in ASEAN, Greater China and Beyond Southeast Asia Singapore OCBC Bank Limited Head Office
+    63 Chulia Street #10-00 OCBC Centre East Singapore 049514 Tel: (65) 6363 3333 Fax: (65) 6534 3'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0535
+  title: Europe
+  origin: heading
+  pages:
+  - 271
+  - 271
+  printed_pages:
+  - '269'
+  - '269'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0515
+    title: OCBC’s Presence in ASEAN, Greater China and Beyond
+    pages:
+    - 270
+    - 271
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0536
+  title: United Kingdom
+  origin: heading
+  pages:
+  - 271
+  - 271
+  printed_pages:
+  - '269'
+  - '269'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0535
+    title: Europe
+    pages:
+    - 271
+    - 271
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0540
+  title: Middle East
+  origin: heading
+  pages:
+  - 271
+  - 271
+  printed_pages:
+  - '269'
+  - '269'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0515
+    title: OCBC’s Presence in ASEAN, Greater China and Beyond
+    pages:
+    - 270
+    - 271
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0541
+  title: United Arab Emirates
+  origin: heading
+  pages:
+  - 271
+  - 271
+  printed_pages:
+  - '269'
+  - '269'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0540
+    title: Middle East
+    pages:
+    - 271
+    - 271
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: correct
+  note: ''

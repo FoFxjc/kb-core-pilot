@@ -1,0 +1,765 @@
+doc_id: ocbc-group_ar_2024_en
+seed: 213
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2024_en:regions:0020
+  title: Only
+  origin: heading
+  pages:
+  - 9
+  - 9
+  printed_pages:
+  - '7'
+  - '7'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0016
+    title: A Year of Achievements
+    pages:
+    - 8
+    - 9
+  start_page_text: 'Wealth Management 15% growth (y-o-y) in affluent segment across our core markets under OCBC Premier Banking
+    and OCBC Premier Private Client >70% increase (y-o-y) in revenue from online sale of wealth '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0028
+  title: Best Private Bank for Digital Wealth Planning – Bank of Singapore
+  origin: heading
+  pages:
+  - 13
+  - 13
+  printed_pages:
+  - '11'
+  - '11'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0021
+    title: Our Chairman’s Reflections on Maximising Total Value
+    pages:
+    - 10
+    - 13
+  start_page_text: 'The Strongest Bank in Singapore, 5th Strongest Bank in Asia Pacific and 10th Strongest Bank in the World
+    The Asian Banker’s 1000 World’s Strongest Banks Bank of the Year – Asia Pacific, Indonesia and '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0110
+  title: Adding alternatives to portfolios
+  origin: heading
+  pages:
+  - 45
+  - 45
+  printed_pages:
+  - '43'
+  - '43'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0109
+    title: Jason, CEO, Bank of Singapore
+    pages:
+    - 44
+    - 45
+  start_page_text: augment the strength of their client portfolios with alternative investment opportunities and achieve their
+    wealth objectives. Funds from leading global asset managers such as KKR and The Carlye Group
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0123
+  title: Embracing a skills-first approach
+  origin: heading
+  pages:
+  - 50
+  - 51
+  printed_pages:
+  - '48'
+  - '49'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0122
+    title: Hwee Boon, Group Human Resources
+    pages:
+    - 50
+    - 51
+  start_page_text: At OCBC, our purpose has not changed since our doors opened more than nine decades ago, and we remain as
+    committed as ever to enabling the aspirations of individuals and communities. This same commitm
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0155
+  title: 'Principle 8: Disclosure on Remuneration'
+  origin: heading
+  pages:
+  - 63
+  - 64
+  printed_pages:
+  - '61'
+  - '62'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0146
+    title: Remuneration Matters
+    pages:
+    - 59
+    - 64
+  start_page_text: 'Principle 8: Disclosure on Remuneration The following disclosures should be read in conjunction with the
+    remuneration policies, practices and share plans as described under Principles 6 and 7. Directo'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0163
+  title: Accountability and Audit
+  origin: heading
+  pages:
+  - 65
+  - 67
+  printed_pages:
+  - '63'
+  - '65'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0128
+    title: Corporate Governance
+    pages:
+    - 52
+    - 71
+  start_page_text: 'Accountability and Audit Principle 9: Risk Management and Internal Controls The Board is responsible for
+    the governance of risk and sets the tone from the top to cultivate a strong risk culture. It ap'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0193
+  title: Board Governance
+  origin: heading
+  pages:
+  - 81
+  - 81
+  printed_pages:
+  - '79'
+  - '79'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0192
+    title: Risk Governance and Organisation
+    pages:
+    - 80
+    - 82
+  start_page_text: Board Governance Board of Directors Board Risk Management Committee (BRMC) Other Board Committees Senior
+    Management Group Chief Executive Officer (CEO) Group Chief Risk Officer (CRO) reports to the BR
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0205
+  title: • Portfolio segmentation
+  origin: heading
+  pages:
+  - 84
+  - 84
+  printed_pages:
+  - '82'
+  - '82'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0204
+    title: Credit portfolio management
+    pages:
+    - 84
+    - 85
+  start_page_text: Credit risk mitigation Credit risk mitigation is managed via various measures such as holding collateral,
+    buying credit protection and setting netting arrangements to reduce credit risk exposures. Ris
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0212
+  title: Stages of Credit Risk and Expected Credit Losses
+  origin: heading
+  pages:
+  - 86
+  - 86
+  printed_pages:
+  - '84'
+  - '84'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0211
+    title: Credit loss allowances
+    pages:
+    - 86
+    - 86
+  start_page_text: We classify our credit exposures as restructured assets when we grant non-commercial concessions to borrowers
+    who are unable to meet their original repayment obligations. We further classify a restruc
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0223
+  title: • Model validation
+  origin: heading
+  pages:
+  - 87
+  - 87
+  printed_pages:
+  - '85'
+  - '85'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0222
+    title: Frequency Distribution of Group Trading Book’s Daily Total VaR (One Day Holding Period) for FY 2024
+    pages:
+    - 87
+    - 87
+  start_page_text: 'Table 5: VaR by Risk Type – Trading Portfolio 2024 2023 SGD Million End of the period Average Minimum
+    Maximum End of the period Average Minimum Maximum Interest Rate VaR 6.3 6.9 4.4 10.8 4.2 7.6 4.2 1'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0225
+  title: Frequency Distribution of Group Trading Book's Daily Hypothetical P&L for FY 2024
+  origin: heading
+  pages:
+  - 87
+  - 87
+  printed_pages:
+  - '85'
+  - '85'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0220
+    title: Risk monitoring, reporting and control
+    pages:
+    - 87
+    - 87
+  start_page_text: 'Table 5: VaR by Risk Type – Trading Portfolio 2024 2023 SGD Million End of the period Average Minimum
+    Maximum End of the period Average Minimum Maximum Interest Rate VaR 6.3 6.9 4.4 10.8 4.2 7.6 4.2 1'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0269
+  title: Operating Expenses
+  origin: heading
+  pages:
+  - 103
+  - 103
+  printed_pages:
+  - '101'
+  - '101'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0260
+    title: Management Discussion and Analysis
+    pages:
+    - 96
+    - 110
+  start_page_text: Operating Expenses 2024 $ million 2023 $ million +/(-) % Staff costs 3,837 3,501 10 Property and equipment
+    Depreciation 456 440 4 Maintenance and rental 201 162 24 Others 405 364 11 1,062 966 10 Other
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0273
+  title: Deposits
+  origin: heading
+  pages:
+  - 107
+  - 107
+  printed_pages:
+  - '105'
+  - '105'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0260
+    title: Management Discussion and Analysis
+    pages:
+    - 96
+    - 110
+  start_page_text: Deposits 2024 $ million 2023 $ million +/(-) % Deposits of non-bank customers 390,687 363,770 7 Deposits
+    and balances of banks 11,565 10,884 6 402,252 374,654 7 Non-Bank Deposits by Product Fixed depo
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0291
+  title: (d) OCBC Deferred Share Plan 2021
+  origin: heading
+  pages:
+  - 114
+  - 115
+  printed_pages:
+  - '112'
+  - '113'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0287
+    title: Share-Based Compensation Plans
+    pages:
+    - 112
+    - 115
+  start_page_text: 'Share-Based Compensation Plans (continued) (b) OCBC Employee Share Purchase Plan The OCBC Employee Share
+    Purchase Plan (ESP Plan), which was implemented in 2004, was extended for a period of 10 years '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0303
+  title: Impairment of goodwill
+  origin: heading
+  pages:
+  - 121
+  - 122
+  printed_pages:
+  - '119'
+  - '120'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0295
+    title: Report on the Audit of the Financial Statements
+    pages:
+    - 117
+    - 124
+  start_page_text: Key Audit Matter How Our Audit Addressed the Key Audit Matter Impairment of goodwill (Refer to Notes 2.21
+    and 36 to the financial statements) The Group has a significant amount of goodwill arising fro
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0317
+  title: 1. General
+  origin: note
+  pages:
+  - 132
+  - 132
+  printed_pages:
+  - '130'
+  - '130'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0316
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 263
+  start_page_text: These notes form an integral part of the financial statements. The Board of Directors of Oversea-Chinese
+    Banking Corporation Limited authorised these financial statements for issue on 25 February 2025
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0321
+  title: 2.2.2 Structured Entities
+  origin: heading
+  pages:
+  - 133
+  - 132
+  printed_pages:
+  - '131'
+  - '130'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0318
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.2 Basis of Consolidation (continued) 2.2.1 Subsidiaries
+    (continued) The Group applies the acquisition method to account for business combination
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0344
+  title: 2.6.1 Debt Instruments Measured at Amortised Cost
+  origin: heading
+  pages:
+  - 135
+  - 135
+  printed_pages:
+  - '133'
+  - '133'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0343
+    title: 2.6 Non-Derivative Financial Assets Classification and Measurement of Financial Assets
+    pages:
+    - 135
+    - 136
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.5 Financial Instruments (continued) 2.5.3 Modifications
+    (continued) Interest Rate Benchmark Reform (IBOR Reform) (continued) If there are change
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0347
+  title: 2.6.5 Equity Instruments
+  origin: heading
+  pages:
+  - 136
+  - 136
+  printed_pages:
+  - '134'
+  - '134'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0346
+    title: Policy Information
+    pages:
+    - 136
+    - 136
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.6 Non-Derivative Financial Assets (continued) Classification
+    and Measurement of Financial Assets (continued) (b) Assessment of Whether Contractu
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0355
+  title: Specific Policies for Hedges Affected by IBOR Reform
+  origin: heading
+  pages:
+  - 138
+  - 138
+  printed_pages:
+  - '136'
+  - '136'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0354
+    title: Policy Information
+    pages:
+    - 138
+    - 138
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.7 Derivative Financial Instruments (continued)
+    Specific Policies for Hedges Affected by IBOR Reform (As Defined in Note 2.5.3) (continued) The G
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0357
+  title: 2.8 Property, Plant and Equipment
+  origin: subnote
+  pages:
+  - 138
+  - 138
+  printed_pages:
+  - '136'
+  - '136'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0318
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.7 Derivative Financial Instruments (continued)
+    Specific Policies for Hedges Affected by IBOR Reform (As Defined in Note 2.5.3) (continued) The G
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0368
+  title: 2.11.4 Movement Between Stages
+  origin: heading
+  pages:
+  - 140
+  - 140
+  printed_pages:
+  - '138'
+  - '138'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0366
+    title: Policy Information
+    pages:
+    - 140
+    - 141
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.11 Impairment of Assets (continued) (I) Financial
+    Assets (continued) 2.11.3 Measurement (continued) The definition of default used in the measur
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0384
+  title: 2.13.6.4 Subsequent Measurement – Contracts Not Measured Under the PAA
+  origin: heading
+  pages:
+  - 145
+  - 145
+  printed_pages:
+  - '143'
+  - '143'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0379
+    title: 2.13.5 Contract Boundary
+    pages:
+    - 143
+    - 146
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued)
+    2.13.6 Measurement (continued) 2.13.6.4 Subsequent Measurement – Contracts Not Measured Under
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0416
+  title: Allowances for Non-Credit-Impaired Loans to Customers
+  origin: heading
+  pages:
+  - 153
+  - 153
+  printed_pages:
+  - '151'
+  - '151'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0414
+    title: Policy Information
+    pages:
+    - 153
+    - 155
+  start_page_text: '2. Material Accounting Policy Information (continued) 2.21 Critical Accounting Estimates and Judgements
+    (continued) 2.21.1 Impairment of Financial Assets In determining whether the credit risk of the '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0426
+  title: 2.22 Comparative Figures
+  origin: subnote
+  pages:
+  - 155
+  - 155
+  printed_pages:
+  - '153'
+  - '153'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0318
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: '2. Material Accounting Policy Information (continued) 2.21 Critical Accounting Estimates and Judgements
+    (continued) 2.21.3 Insurance Business (continued) Lapses and surrender are derived based on GEH '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0444
+  title: 15. Capital Reserves
+  origin: note
+  pages:
+  - 167
+  - 167
+  printed_pages:
+  - '165'
+  - '165'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0316
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 263
+  start_page_text: 14. Other Equity Instruments (continued) (c) The 4.5% Capital Securities issued by the Bank on 15 August
+    2023 are non-cumulative non-convertible perpetual capital securities. They qualify as Additiona
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0459
+  title: 21.5 Covered Bonds
+  origin: subnote
+  pages:
+  - 178
+  - 178
+  printed_pages:
+  - '176'
+  - '176'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0454
+    title: 21. Debt Issued
+    pages:
+    - 174
+    - 178
+  start_page_text: '21. Debt Issued (continued) 21.5 Covered Bonds GROUP 2024 2023 Issue date Maturity date $ million $ million
+    Issued by the Bank: EUR500 million 0.625% fixed rate bonds 18 Apr 2018 18 Apr 2025 701 698 E'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0474
+  title: 29. Debt and Equity Securities
+  origin: note
+  pages:
+  - 189
+  - 189
+  printed_pages:
+  - '187'
+  - '187'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0316
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 263
+  start_page_text: 29. Debt and Equity Securities GROUP BANK 2024 2023 2024 2023 $ million $ million $ million $ million Debt
+    securities 36,126 30,800 22,386 19,269 Equity securities and investment funds 7,288 5,791 3,9
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0476
+  title: Analysed by Main Class of Financial Instruments
+  origin: heading
+  pages:
+  - 191
+  - 193
+  printed_pages:
+  - '189'
+  - '191'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0475
+    title: 30. Allowances for Financial Assets
+    pages:
+    - 190
+    - 193
+  start_page_text: 30. Allowances for Financial Assets (continued) Analysed by Main Class of Financial Instruments Loans to
+    Customers at Amortised Cost (1) $ million Stage 1 Stage 2 Stage 3 Total GROUP At 1 January 2023
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0523
+  title: Regulatory Capital
+  origin: heading
+  pages:
+  - 219
+  - 219
+  printed_pages:
+  - '217'
+  - '217'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0520
+    title: 38.4 Insurance-Related Risk Management
+    pages:
+    - 218
+    - 242
+  start_page_text: 38. Risk Management (continued) 38.4 Insurance-Related Risk Management (continued) Capital Management The
+    objectives of GEH Group’s capital management policy are to create shareholder value, deliver s
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0533
+  title: (b) Foreign Exchange Risk
+  origin: heading
+  pages:
+  - 226
+  - 227
+  printed_pages:
+  - '224'
+  - '225'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0531
+    title: Market, Credit and Liquidity Risk
+    pages:
+    - 225
+    - 230
+  start_page_text: 38. Risk Management (continued) 38.4 Insurance-Related Risk Management (continued) Insurance Risk (continued)
+    Market, Credit and Liquidity Risk (continued) (a) Interest Rate Risk (Including Asset Liab
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0555
+  title: 40.1 Valuation Governance Framework
+  origin: subnote
+  pages:
+  - 247
+  - 247
+  printed_pages:
+  - '245'
+  - '245'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0554
+    title: 40. Fair Values of Financial Instruments
+    pages:
+    - 247
+    - 254
+  start_page_text: 40. Fair Values of Financial Instruments 40.1 Valuation Governance Framework The Group has an established
+    governance framework with respect to the measurement of fair values, which includes formalised
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0561
+  title: Parameter Uncertainty Adjustments
+  origin: heading
+  pages:
+  - 247
+  - 247
+  printed_pages:
+  - '245'
+  - '245'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0555
+    title: 40.1 Valuation Governance Framework
+    pages:
+    - 247
+    - 247
+  start_page_text: 40. Fair Values of Financial Instruments 40.1 Valuation Governance Framework The Group has an established
+    governance framework with respect to the measurement of fair values, which includes formalised
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0564
+  title: Financial Liabilities
+  origin: heading
+  pages:
+  - 248
+  - 248
+  printed_pages:
+  - '246'
+  - '246'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0562
+    title: 40.2 Fair Values
+    pages:
+    - 248
+    - 248
+  start_page_text: 40. Fair Values of Financial Instruments (continued) 40.2 Fair Values Financial instruments comprise financial
+    assets, financial liabilities and off-balance sheet financial instruments. The fair value
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0589
+  title: Ms Chong Chuan Neo (62)
+  origin: heading
+  pages:
+  - 267
+  - 267
+  printed_pages:
+  - '265'
+  - '265'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0587
+    title: Our Board – Biographies
+    pages:
+    - 267
+    - 272
+  start_page_text: 'Appointed as Director: 18 February 2022 Last Re-elected as a Director: 22 April 2022 Ms Chong spent over
+    29 years at Accenture where she held senior leadership roles covering various industries and co'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0591
+  title: Dr Andrew Khoo (62)
+  origin: heading
+  pages:
+  - 268
+  - 268
+  printed_pages:
+  - '266'
+  - '266'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0587
+    title: Our Board – Biographies
+    pages:
+    - 267
+    - 272
+  start_page_text: Mr Chua Kim Chiu (70) Non-Executive and Independent Director Mr Chua is Professor (Practice) in Accounting,
+    NUS Business School, National University of Singapore since 2016, after retiring as a partne
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0592
+  title: Dr Lee Tih Shih (61)
+  origin: heading
+  pages:
+  - 269
+  - 269
+  printed_pages:
+  - '267'
+  - '267'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0587
+    title: Our Board – Biographies
+    pages:
+    - 267
+    - 272
+  start_page_text: Dr Lee is a Professor at Duke-NUS Medical School, a renowned neuroscientist, and a specialist practitioner.
+    He is a Director of Lee Foundation and Selat (Pte) Ltd. Other Directorships and Principal Co
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0604
+  title: Ms Goh Chin Yee
+  origin: heading
+  pages:
+  - 273
+  - 273
+  printed_pages:
+  - '271'
+  - '271'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0600
+    title: Our Management – Biographies
+    pages:
+    - 273
+    - 277
+  start_page_text: Our Management – Biographies Ms Helen Wong Group Chief Executive Officer Ms Helen Wong was appointed Group
+    Chief Executive Officer of OCBC on 15 April 2021 and Executive Director on 7 February 2023. S
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0611
+  title: Mr Tan Chor Sen
+  origin: heading
+  pages:
+  - 275
+  - 275
+  printed_pages:
+  - '273'
+  - '273'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0600
+    title: Our Management – Biographies
+    pages:
+    - 273
+    - 277
+  start_page_text: and comprehensive experience in the international financial business management and people engagement.
+    Mr Wang holds a Master of Business Administration degree from Kellogg School of Management at Nor
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0640
+  title: North America
+  origin: heading
+  pages:
+  - 279
+  - 279
+  printed_pages:
+  - '277'
+  - '277'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0622
+    title: OCBC’s Presence in ASEAN, Greater China and Beyond
+    pages:
+    - 278
+    - 279
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: null
+  note: ''

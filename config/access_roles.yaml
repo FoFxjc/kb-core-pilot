@@ -1,0 +1,10 @@
+# Demo subjects for access control (round 2 W3, decision D3; docs/round-2-w3-access.md section 3).
+# A request without a subject is served as `public`. `full_access` is for the regression gate and admin use only and is
+# never a default. clearance is the highest classification the role may read (public < internal < confidential <
+# restricted); domains lists the business domains it may read ("*" = any); embargo_exempt lets it read embargoed items.
+version: 1
+roles:
+  public: {clearance: public, domains: [], embargo_exempt: false}
+  finance_analyst: {clearance: internal, domains: [finance], embargo_exempt: false}
+  finance_confidential: {clearance: confidential, domains: [finance], embargo_exempt: true}
+  full_access: {clearance: restricted, domains: ["*"], embargo_exempt: true}

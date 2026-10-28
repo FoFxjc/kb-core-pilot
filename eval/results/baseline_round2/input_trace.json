@@ -1,0 +1,344 @@
+{
+  "commands": [
+    {
+      "command": [
+        "import"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "build",
+        "--all"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "facts"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "reindex"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "eval",
+        "recall",
+        "p1_questions",
+        "p1_crossyear",
+        "p1_v3",
+        "--label",
+        "trace_rerun"
+      ],
+      "exit": 0
+    },
+    {
+      "command": [
+        "eval",
+        "recall",
+        "p2_heldout",
+        "--label",
+        "trace_rerun_heldout"
+      ],
+      "exit": 0
+    }
+  ],
+  "roots": {
+    "repo": "<repo>",
+    "delivery": "<delivery>",
+    "store": "<store>",
+    "python": "4 interpreter and package roots (<python>)",
+    "forbidden": [
+      "<forbidden:kb>",
+      "<forbidden:kb-intake>"
+    ]
+  },
+  "counts": {
+    "delivery": 66,
+    "python": 373,
+    "repo:.": 1,
+    "repo:config": 4,
+    "repo:contract": 8,
+    "repo:domains": 8,
+    "repo:es": 2,
+    "repo:eval": 8,
+    "repo:profiles": 3,
+    "repo:queries": 48,
+    "repo:src": 47,
+    "store": 24,
+    "system": 3
+  },
+  "sockets": {
+    "127.0.0.1:9200": 3
+  },
+  "subprocesses": [
+    [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ],
+    [
+      "git",
+      "rev-parse",
+      "HEAD"
+    ]
+  ],
+  "written": [
+    "<repo>/eval/results/recall_20261028T144630-0e1669.json",
+    "<repo>/eval/results/recall_20261028T144634-aa0c78.json",
+    "<tmp>/jdq89qrl"
+  ],
+  "paths": {
+    "delivery": [
+      "<delivery>/ocbc-group_ar_2023_en@c096369d1fac/gaps.jsonl",
+      "<delivery>/ocbc-group_ar_2023_en@c096369d1fac/layout.jsonl",
+      "<delivery>/ocbc-group_ar_2023_en@c096369d1fac/manifest.json",
+      "<delivery>/ocbc-group_ar_2023_en@c096369d1fac/pages.jsonl",
+      "<delivery>/ocbc-group_ar_2023_en@c096369d1fac/raw/docling.extract.json",
+      "<delivery>/ocbc-group_ar_2023_en@c096369d1fac/raw/docling.json",
+      "<delivery>/ocbc-group_ar_2023_en@c096369d1fac/regions.jsonl",
+      "<delivery>/ocbc-group_ar_2023_en@c096369d1fac/review.jsonl",
+      "<delivery>/ocbc-group_ar_2023_en@c096369d1fac/source.pdf",
+      "<delivery>/ocbc-group_ar_2023_en@c096369d1fac/tables.jsonl",
+      "<delivery>/ocbc-group_ar_2023_en@c096369d1fac/workflow.json",
+      "<delivery>/ocbc-group_ar_2023_zh@eea4bedbd5f6/gaps.jsonl",
+      "<delivery>/ocbc-group_ar_2023_zh@eea4bedbd5f6/layout.jsonl",
+      "<delivery>/ocbc-group_ar_2023_zh@eea4bedbd5f6/manifest.json",
+      "<delivery>/ocbc-group_ar_2023_zh@eea4bedbd5f6/pages.jsonl",
+      "<delivery>/ocbc-group_ar_2023_zh@eea4bedbd5f6/raw/docling.extract.json",
+      "<delivery>/ocbc-group_ar_2023_zh@eea4bedbd5f6/raw/docling.json",
+      "<delivery>/ocbc-group_ar_2023_zh@eea4bedbd5f6/regions.jsonl",
+      "<delivery>/ocbc-group_ar_2023_zh@eea4bedbd5f6/review.jsonl",
+      "<delivery>/ocbc-group_ar_2023_zh@eea4bedbd5f6/source.pdf",
+      "<delivery>/ocbc-group_ar_2023_zh@eea4bedbd5f6/tables.jsonl",
+      "<delivery>/ocbc-group_ar_2023_zh@eea4bedbd5f6/workflow.json",
+      "<delivery>/ocbc-group_ar_2024_en@c931fd287b5f/gaps.jsonl",
+      "<delivery>/ocbc-group_ar_2024_en@c931fd287b5f/layout.jsonl",
+      "<delivery>/ocbc-group_ar_2024_en@c931fd287b5f/manifest.json",
+      "<delivery>/ocbc-group_ar_2024_en@c931fd287b5f/pages.jsonl",
+      "<delivery>/ocbc-group_ar_2024_en@c931fd287b5f/raw/docling.extract.json",
+      "<delivery>/ocbc-group_ar_2024_en@c931fd287b5f/raw/docling.json",
+      "<delivery>/ocbc-group_ar_2024_en@c931fd287b5f/regions.jsonl",
+      "<delivery>/ocbc-group_ar_2024_en@c931fd287b5f/review.jsonl",
+      "<delivery>/ocbc-group_ar_2024_en@c931fd287b5f/source.pdf",
+      "<delivery>/ocbc-group_ar_2024_en@c931fd287b5f/tables.jsonl",
+      "<delivery>/ocbc-group_ar_2024_en@c931fd287b5f/workflow.json",
+      "<delivery>/ocbc-group_ar_2024_zh@b333687e3671/gaps.jsonl",
+      "<delivery>/ocbc-group_ar_2024_zh@b333687e3671/layout.jsonl",
+      "<delivery>/ocbc-group_ar_2024_zh@b333687e3671/manifest.json",
+      "<delivery>/ocbc-group_ar_2024_zh@b333687e3671/pages.jsonl",
+      "<delivery>/ocbc-group_ar_2024_zh@b333687e3671/raw/docling.extract.json",
+      "<delivery>/ocbc-group_ar_2024_zh@b333687e3671/raw/docling.json",
+      "<delivery>/ocbc-group_ar_2024_zh@b333687e3671/regions.jsonl",
+      "<delivery>/ocbc-group_ar_2024_zh@b333687e3671/review.jsonl",
+      "<delivery>/ocbc-group_ar_2024_zh@b333687e3671/source.pdf",
+      "<delivery>/ocbc-group_ar_2024_zh@b333687e3671/tables.jsonl",
+      "<delivery>/ocbc-group_ar_2024_zh@b333687e3671/workflow.json",
+      "<delivery>/ocbc-group_ar_2025_en@d10f4fc11fd5/gaps.jsonl",
+      "<delivery>/ocbc-group_ar_2025_en@d10f4fc11fd5/layout.jsonl",
+      "<delivery>/ocbc-group_ar_2025_en@d10f4fc11fd5/manifest.json",
+      "<delivery>/ocbc-group_ar_2025_en@d10f4fc11fd5/pages.jsonl",
+      "<delivery>/ocbc-group_ar_2025_en@d10f4fc11fd5/raw/docling.extract.json",
+      "<delivery>/ocbc-group_ar_2025_en@d10f4fc11fd5/raw/docling.json",
+      "<delivery>/ocbc-group_ar_2025_en@d10f4fc11fd5/regions.jsonl",
+      "<delivery>/ocbc-group_ar_2025_en@d10f4fc11fd5/review.jsonl",
+      "<delivery>/ocbc-group_ar_2025_en@d10f4fc11fd5/source.pdf",
+      "<delivery>/ocbc-group_ar_2025_en@d10f4fc11fd5/tables.jsonl",
+      "<delivery>/ocbc-group_ar_2025_en@d10f4fc11fd5/workflow.json",
+      "<delivery>/ocbc-group_ar_2025_zh@0797f849cd02/gaps.jsonl",
+      "<delivery>/ocbc-group_ar_2025_zh@0797f849cd02/layout.jsonl",
+      "<delivery>/ocbc-group_ar_2025_zh@0797f849cd02/manifest.json",
+      "<delivery>/ocbc-group_ar_2025_zh@0797f849cd02/pages.jsonl",
+      "<delivery>/ocbc-group_ar_2025_zh@0797f849cd02/raw/docling.extract.json",
+      "<delivery>/ocbc-group_ar_2025_zh@0797f849cd02/raw/docling.json",
+      "<delivery>/ocbc-group_ar_2025_zh@0797f849cd02/regions.jsonl",
+      "<delivery>/ocbc-group_ar_2025_zh@0797f849cd02/review.jsonl",
+      "<delivery>/ocbc-group_ar_2025_zh@0797f849cd02/source.pdf",
+      "<delivery>/ocbc-group_ar_2025_zh@0797f849cd02/tables.jsonl",
+      "<delivery>/ocbc-group_ar_2025_zh@0797f849cd02/workflow.json"
+    ],
+    "repo:.": [
+      "<repo>/.env"
+    ],
+    "repo:config": [
+      "<repo>/config/access_labels.yaml",
+      "<repo>/config/access_roles.yaml",
+      "<repo>/config/node_concept_overrides.yaml",
+      "<repo>/config/ranking.yaml"
+    ],
+    "repo:contract": [
+      "<repo>/contract/intake-v2/gap.schema.json",
+      "<repo>/contract/intake-v2/layout.schema.json",
+      "<repo>/contract/intake-v2/manifest.schema.json",
+      "<repo>/contract/intake-v2/page.schema.json",
+      "<repo>/contract/intake-v2/region.schema.json",
+      "<repo>/contract/intake-v2/review.schema.json",
+      "<repo>/contract/intake-v2/table.schema.json",
+      "<repo>/contract/intake-v2/workflow.schema.json"
+    ],
+    "repo:domains": [
+      "<repo>/domains/banking/concepts.evidence.yaml",
+      "<repo>/domains/banking/concepts.yaml",
+      "<repo>/domains/banking/domain.yaml",
+      "<repo>/domains/banking/facts.yaml",
+      "<repo>/domains/banking/finance_zh.txt",
+      "<repo>/domains/banking/low_info_terms.yaml",
+      "<repo>/domains/banking/tagging.yaml",
+      "<repo>/domains/banking/units.yaml"
+    ],
+    "repo:es": [
+      "<repo>/es/node.v2.json",
+      "<repo>/es/page.v2.json"
+    ],
+    "repo:eval": [
+      "<repo>/eval/heldout_terms.yaml",
+      "<repo>/eval/p1_crossyear.yaml",
+      "<repo>/eval/p1_questions.yaml",
+      "<repo>/eval/p1_v3.yaml",
+      "<repo>/eval/p2_heldout.yaml",
+      "<repo>/eval/results/recall_20261028T144630-0e1669.json",
+      "<repo>/eval/results/recall_20261028T144634-aa0c78.json",
+      "<repo>/eval/round2_heldout.yaml"
+    ],
+    "repo:profiles": [
+      "<repo>/profiles/annual_report/observations.yaml",
+      "<repo>/profiles/annual_report/sections.yaml",
+      "<repo>/profiles/annual_report/tree.yaml"
+    ],
+    "repo:queries": [
+      "<repo>/queries/es/S1_node_title_bm25.v1.json",
+      "<repo>/queries/es/S2_node_summary_bm25.v1.json",
+      "<repo>/queries/es/S3_page_text_bm25.v1.json",
+      "<repo>/queries/es/S4_hit_counts.v1.json",
+      "<repo>/queries/es/S4b_hit_pages.v1.json",
+      "<repo>/queries/es/S5_hit_counts_unfiltered.v1.json",
+      "<repo>/queries/es/S6_node_concept_match.v1.json",
+      "<repo>/queries/pg/B01_doc_for_build.v2.sql",
+      "<repo>/queries/pg/B02_delete_doc_content.v2.sql",
+      "<repo>/queries/pg/B03_insert_node.v3.sql",
+      "<repo>/queries/pg/B04_insert_page.v2.sql",
+      "<repo>/queries/pg/B05_insert_region.v1.sql",
+      "<repo>/queries/pg/B06_insert_table_block.v2.sql",
+      "<repo>/queries/pg/B07_insert_ingest_run.v1.sql",
+      "<repo>/queries/pg/B08_mark_document.v1.sql",
+      "<repo>/queries/pg/B10_insert_build_gap.v1.sql",
+      "<repo>/queries/pg/B11_insert_table_merge.v1.sql",
+      "<repo>/queries/pg/B12_insert_node_concept.v1.sql",
+      "<repo>/queries/pg/B13_insert_observation.v1.sql",
+      "<repo>/queries/pg/B14_update_document_access.v1.sql",
+      "<repo>/queries/pg/C01_upsert_concept.v1.sql",
+      "<repo>/queries/pg/C02_clear_aliases_edges.v1.sql",
+      "<repo>/queries/pg/C03_insert_alias.v1.sql",
+      "<repo>/queries/pg/C04_insert_edge.v1.sql",
+      "<repo>/queries/pg/C05_delete_missing_concepts.v1.sql",
+      "<repo>/queries/pg/D01_nodes_for_index.v2.sql",
+      "<repo>/queries/pg/D02_pages_for_index.v2.sql",
+      "<repo>/queries/pg/F01_all_observations.v1.sql",
+      "<repo>/queries/pg/F02_clear_facts.v1.sql",
+      "<repo>/queries/pg/F03_insert_fact.v1.sql",
+      "<repo>/queries/pg/F04_insert_fact_version.v1.sql",
+      "<repo>/queries/pg/F05_insert_fact_obs_link.v1.sql",
+      "<repo>/queries/pg/G0_documents.v2.sql",
+      "<repo>/queries/pg/G1_tree_nodes.v2.sql",
+      "<repo>/queries/pg/G2_page_tokens.v1.sql",
+      "<repo>/queries/pg/G3_node_concepts.v1.sql",
+      "<repo>/queries/pg/G4_coverage.v1.sql",
+      "<repo>/queries/pg/G5_trace_insert.v1.sql",
+      "<repo>/queries/pg/G6_gap_insert.v1.sql",
+      "<repo>/queries/pg/G8_access_audit_insert.v2.sql",
+      "<repo>/queries/pg/I01_document_by_id.v1.sql",
+      "<repo>/queries/pg/I05_document_ids.v1.sql",
+      "<repo>/queries/pg/M1_series.v1.sql",
+      "<repo>/queries/pg/M2_obs.v1.sql",
+      "<repo>/queries/pg/M3_concept.v1.sql",
+      "<repo>/queries/pg/M7_concept_observations.v1.sql",
+      "<repo>/queries/pg/V3_insert_eval_run.v1.sql",
+      "<repo>/queries/pg/V4_insert_eval_result.v1.sql"
+    ],
+    "repo:src": [
+      "<repo>/src/kb_core/__pycache__/__init__.cpython-312.pyc",
+      "<repo>/src/kb_core/__pycache__/cli.cpython-312.pyc",
+      "<repo>/src/kb_core/__pycache__/config.cpython-312.pyc",
+      "<repo>/src/kb_core/__pycache__/domains.cpython-312.pyc",
+      "<repo>/src/kb_core/__pycache__/paths.cpython-312.pyc",
+      "<repo>/src/kb_core/__pycache__/queries.cpython-312.pyc",
+      "<repo>/src/kb_core/access/__pycache__/__init__.cpython-312.pyc",
+      "<repo>/src/kb_core/access/__pycache__/labels.cpython-312.pyc",
+      "<repo>/src/kb_core/access/__pycache__/policy.cpython-312.pyc",
+      "<repo>/src/kb_core/access/__pycache__/routes.cpython-312.pyc",
+      "<repo>/src/kb_core/access/__pycache__/scope.cpython-312.pyc",
+      "<repo>/src/kb_core/build/__pycache__/__init__.cpython-312.pyc",
+      "<repo>/src/kb_core/build/__pycache__/cells.cpython-312.pyc",
+      "<repo>/src/kb_core/build/__pycache__/chunks.cpython-312.pyc",
+      "<repo>/src/kb_core/build/__pycache__/concepts.cpython-312.pyc",
+      "<repo>/src/kb_core/build/__pycache__/facts.cpython-312.pyc",
+      "<repo>/src/kb_core/build/__pycache__/observations.cpython-312.pyc",
+      "<repo>/src/kb_core/build/__pycache__/run.cpython-312.pyc",
+      "<repo>/src/kb_core/build/__pycache__/sections.cpython-312.pyc",
+      "<repo>/src/kb_core/build/__pycache__/tables.cpython-312.pyc",
+      "<repo>/src/kb_core/build/__pycache__/toc.cpython-312.pyc",
+      "<repo>/src/kb_core/build/__pycache__/tokenize.cpython-312.pyc",
+      "<repo>/src/kb_core/build/__pycache__/tree.cpython-312.pyc",
+      "<repo>/src/kb_core/build/__pycache__/view.cpython-312.pyc",
+      "<repo>/src/kb_core/es/__pycache__/__init__.cpython-312.pyc",
+      "<repo>/src/kb_core/es/__pycache__/client.cpython-312.pyc",
+      "<repo>/src/kb_core/es/__pycache__/indexer.cpython-312.pyc",
+      "<repo>/src/kb_core/es/__pycache__/indexes.cpython-312.pyc",
+      "<repo>/src/kb_core/eval/__pycache__/__init__.cpython-312.pyc",
+      "<repo>/src/kb_core/eval/__pycache__/recall.cpython-312.pyc",
+      "<repo>/src/kb_core/intake/__pycache__/__init__.cpython-312.pyc",
+      "<repo>/src/kb_core/intake/__pycache__/importer.cpython-312.pyc",
+      "<repo>/src/kb_core/intake/__pycache__/package.cpython-312.pyc",
+      "<repo>/src/kb_core/pg/__pycache__/__init__.cpython-312.pyc",
+      "<repo>/src/kb_core/pg/__pycache__/db.cpython-312.pyc",
+      "<repo>/src/kb_core/profiles/__pycache__/__init__.cpython-312.pyc",
+      "<repo>/src/kb_core/retrieval/__pycache__/__init__.cpython-312.pyc",
+      "<repo>/src/kb_core/retrieval/__pycache__/aliases.cpython-312.pyc",
+      "<repo>/src/kb_core/retrieval/__pycache__/catalog.cpython-312.pyc",
+      "<repo>/src/kb_core/retrieval/__pycache__/context.cpython-312.pyc",
+      "<repo>/src/kb_core/retrieval/__pycache__/core.cpython-312.pyc",
+      "<repo>/src/kb_core/retrieval/__pycache__/coverage.cpython-312.pyc",
+      "<repo>/src/kb_core/retrieval/__pycache__/facts.cpython-312.pyc",
+      "<repo>/src/kb_core/retrieval/__pycache__/fusion.cpython-312.pyc",
+      "<repo>/src/kb_core/retrieval/__pycache__/routes.cpython-312.pyc",
+      "<repo>/src/kb_core/retrieval/__pycache__/search.cpython-312.pyc",
+      "<repo>/src/kb_core/retrieval/__pycache__/tracing.cpython-312.pyc"
+    ],
+    "store": [
+      "<store>/packages/ocbc-group_ar_2023_en@c096369d1fac/layout.jsonl",
+      "<store>/packages/ocbc-group_ar_2023_en@c096369d1fac/pages.jsonl",
+      "<store>/packages/ocbc-group_ar_2023_en@c096369d1fac/regions.jsonl",
+      "<store>/packages/ocbc-group_ar_2023_en@c096369d1fac/tables.jsonl",
+      "<store>/packages/ocbc-group_ar_2023_zh@eea4bedbd5f6/layout.jsonl",
+      "<store>/packages/ocbc-group_ar_2023_zh@eea4bedbd5f6/pages.jsonl",
+      "<store>/packages/ocbc-group_ar_2023_zh@eea4bedbd5f6/regions.jsonl",
+      "<store>/packages/ocbc-group_ar_2023_zh@eea4bedbd5f6/tables.jsonl",
+      "<store>/packages/ocbc-group_ar_2024_en@c931fd287b5f/layout.jsonl",
+      "<store>/packages/ocbc-group_ar_2024_en@c931fd287b5f/pages.jsonl",
+      "<store>/packages/ocbc-group_ar_2024_en@c931fd287b5f/regions.jsonl",
+      "<store>/packages/ocbc-group_ar_2024_en@c931fd287b5f/tables.jsonl",
+      "<store>/packages/ocbc-group_ar_2024_zh@b333687e3671/layout.jsonl",
+      "<store>/packages/ocbc-group_ar_2024_zh@b333687e3671/pages.jsonl",
+      "<store>/packages/ocbc-group_ar_2024_zh@b333687e3671/regions.jsonl",
+      "<store>/packages/ocbc-group_ar_2024_zh@b333687e3671/tables.jsonl",
+      "<store>/packages/ocbc-group_ar_2025_en@d10f4fc11fd5/layout.jsonl",
+      "<store>/packages/ocbc-group_ar_2025_en@d10f4fc11fd5/pages.jsonl",
+      "<store>/packages/ocbc-group_ar_2025_en@d10f4fc11fd5/regions.jsonl",
+      "<store>/packages/ocbc-group_ar_2025_en@d10f4fc11fd5/tables.jsonl",
+      "<store>/packages/ocbc-group_ar_2025_zh@0797f849cd02/layout.jsonl",
+      "<store>/packages/ocbc-group_ar_2025_zh@0797f849cd02/pages.jsonl",
+      "<store>/packages/ocbc-group_ar_2025_zh@0797f849cd02/regions.jsonl",
+      "<store>/packages/ocbc-group_ar_2025_zh@0797f849cd02/tables.jsonl"
+    ],
+    "system": [
+      "/System/Library/CoreServices/SystemVersion.plist",
+      "<tmp>/jdq89qrl",
+      "<tmp>/jieba.cache"
+    ]
+  }
+}

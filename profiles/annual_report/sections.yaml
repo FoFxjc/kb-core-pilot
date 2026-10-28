@@ -1,0 +1,68 @@
+# doc_type_vocab: section classification vocabulary and assignment rules (knowledge-model §3.2; design in docs/p1-report.md §8, confirmed by the user on 2026-10-16).
+# Assignment: for contents entries of the primary tree (origin = toc / subtoc / toc_preface / subtoc_intro), take the first matching rule in rules order;
+#   - title: regex on the entry title (Chinese or English), case-insensitive; group: regex on the containing contents group title (optional); origin: restricts the entry origin (optional)
+#   - child nodes inherit the section_type and rule id of their entry; a contents group takes a type only when all its child entries share it, otherwise empty
+# 2023/2024 "leaders' views" (Hear the Views of Our Leaders / Gleaning Our Leaders’ Insights / 领导者的观点):
+#   CFO -> cfo_review; group function heads (COO, CRO, operations and technology, human resources) -> leadership_letters; business heads -> business_review
+# query_patterns: when these wordings appear in a query, it is treated as asking about that section type; used for the section_missing_in_lang gap (configured only for types whose name will not appear as content in other sections).
+version: 1
+doc_type: annual_report
+
+section_types:
+  front_matter:        {label_en: Cover & contents, label_zh: 封面与目录, source_rank: null}
+  highlights:          {label_en: Highlights, label_zh: 年度焦点, source_rank: 4}
+  leadership_letters:  {label_en: Leadership letters, label_zh: 领导者致辞, source_rank: 5}
+  cfo_review:          {label_en: CFO review, label_zh: 首席财务官综述, source_rank: 4}
+  strategy:            {label_en: Strategy, label_zh: 战略, source_rank: 5}
+  sustainability:      {label_en: Sustainability & community, label_zh: 可持续发展与社会责任, source_rank: 5}
+  leadership_overview: {label_en: Board & management, label_zh: 董事会与管理层, source_rank: 6}
+  business_review:     {label_en: Business review, label_zh: 业务回顾, source_rank: 5,
+                        query_patterns: [业务回顾, year in review, business review]}
+  corporate_governance: {label_en: Corporate governance, label_zh: 公司治理, source_rank: 6,
+                        query_patterns: [公司治理, corporate governance]}
+  capital_management:  {label_en: Capital management, label_zh: 资本管理, source_rank: 4}
+  risk_management:     {label_en: Risk management, label_zh: 风险管理, source_rank: 4,
+                        query_patterns: [风险管理章节, risk management chapter]}
+  pillar3:             {label_en: Pillar 3 disclosures, label_zh: 第三支柱披露, source_rank: 4,
+                        query_patterns: [pillar 3, pillar3, 第三支柱]}
+  md_a:                {label_en: Management discussion & analysis, label_zh: 管理层讨论与分析, source_rank: 3,
+                        query_patterns: [管理层讨论与分析, 管理层讨论, md&a, "md & a", management discussion]}
+  directors_statement: {label_en: Directors’ statement, label_zh: 董事声明, source_rank: 5}
+  auditor_report:      {label_en: Independent auditor’s report, label_zh: 独立审计师报告, source_rank: null}
+  primary_statements:  {label_en: Primary financial statements, label_zh: 主要财务报表, source_rank: 1}
+  notes:               {label_en: Notes to the financial statements, label_zh: 财务报表附注, source_rank: 2}
+  shareholder_info:    {label_en: Shareholder information, label_zh: 股东资料, source_rank: 4,
+                        query_patterns: [股权统计, shareholding statistics]}
+  biographies:         {label_en: Biographies, label_zh: 履历, source_rank: null}
+  corporate_info:      {label_en: Corporate information, label_zh: 企业资料, source_rank: null}
+
+rules:
+  - {id: R01, section_type: front_matter, origin: [toc_preface, subtoc_intro]}
+  - {id: R02, section_type: business_review, group: "^year in review$"}
+  - {id: R03, section_type: cfo_review, title: "group cfo|chief financial officer|首席财务官"}
+  - {id: R04, section_type: business_review, group: "views of our leaders|leaders’ insights|领导者的观点",
+     title: "wholesale banking|consumer financial|bank of singapore|global markets"}
+  - {id: R05, section_type: leadership_letters, group: "views of our leaders|leaders’ insights|领导者的观点"}
+  - {id: R06, section_type: highlights,
+     title: "financial highlights|财务重点|creating sustainable value for our investors|creating investor value|investor value creation|投资者价值|为投资者创造|a year of achievements|硕果累累"}
+  - {id: R07, section_type: leadership_letters, title: "chairman|主席|group ceo|集团首席执行官"}
+  - {id: R08, section_type: strategy,
+     title: "next frontier|未来前沿|powering shifts|推动转型|customer centricity|人工智能|人工智慧|one group|one brand|集团一体|品牌一体|purpose, values|宗旨、价值观|corporate strategy|可持续增长|value through ai"}
+  - {id: R09, section_type: sustainability,
+     title: "sustainability highlights|可持续性摘要|net-zero|净零|paying it forward|把爱传下去|企业社会责任|helping (where it matters|with heart)|帮助的对象|伸出援手|seeding (hope|change)|播下希望|埋下种子|living active|积极生活|cycle for wellness|骑车乐|playing it forward|脚车|championing for the community|社区和环境"}
+  - {id: R10, section_type: leadership_overview, title: "^(our board|our management|董事会|管理委员会)$"}
+  - {id: R11, section_type: corporate_governance,
+     title: "corporate governance|additional information on directors|additional information required under the sgx"}
+  - {id: R12, section_type: capital_management, title: "capital management|资本管理"}
+  - {id: R13, section_type: risk_management, title: "^(risk management|风险管理)$"}
+  - {id: R14, section_type: pillar3, title: "pillar 3"}
+  - {id: R15, section_type: md_a, title: "management discussion and analysis"}
+  - {id: R16, section_type: directors_statement, title: "directors’ statement|董事声明"}
+  - {id: R17, section_type: auditor_report, title: "independent auditor|独立审计师报告"}
+  - {id: R18, section_type: primary_statements,
+     title: "income statements?$|comprehensive income|balance sheets?$|changes in equity|cash flow statement|收入报表|综合收益报表|资产负债表|权益变动表|现金流量表"}
+  - {id: R19, section_type: notes, title: "notes to the financial statements|财务报告附注"}
+  - {id: R20, section_type: shareholder_info, title: "shareholding statistics|share capital history"}
+  - {id: R21, section_type: biographies, title: "biographies|履历|董事会附加资料|管理委员会附加资料"}
+  - {id: R22, section_type: corporate_info,
+     title: "presence in asean|东盟、大中华区|国际网络|financial calendar|财务日期|corporate profile|简介与企业资料|notice of annual general meeting|proxy form"}

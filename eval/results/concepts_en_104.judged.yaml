@@ -1,0 +1,1125 @@
+lang: en
+seed: 104
+sampled: 40
+protocol: 'D39: a tag is correct when the node actually reports or discusses the concept (it is the title, a table has its
+  row, or the text gives its value or change); a node is correct only if all its tags are'
+items:
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0004
+  title: OCBC Share Price Performance ($)
+  pages:
+  - 5
+  - 5
+  printed_pages:
+  - '3'
+  - '3'
+  tags:
+  - concept_id: dividend_yield
+    name_en: Dividend yield
+    method: rule_row_label
+    variant: Dividend yield (%)
+  - concept_id: pe_ratio
+    name_en: Price-to-earnings ratio
+    method: rule_row_label
+    variant: Price-to-earnings ratio (based on core earnings)
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0188
+  title: Capital Adequacy Ratios
+  pages:
+  - 75
+  - 76
+  printed_pages:
+  - '73'
+  - '74'
+  tags:
+  - concept_id: cet1_ratio
+    name_en: CET1 capital adequacy ratio
+    method: rule_row_label
+    variant: Common Equity Tier 1
+  - concept_id: rwa
+    name_en: Risk-weighted assets
+    method: rule_row_label
+    variant: risk-weighted assets
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0250
+  title: Scope of Consolidation
+  pages:
+  - 90
+  - 93
+  printed_pages:
+  - '88'
+  - '91'
+  tags:
+  - concept_id: lcr
+    name_en: Liquidity coverage ratio
+    method: rule_row_label
+    variant: liquidity coverage ratio
+  - concept_id: leverage_ratio
+    name_en: Leverage ratio
+    method: rule_row_label
+    variant: leverage ratio
+  - concept_id: nsfr
+    name_en: Net stable funding ratio
+    method: rule_row_label
+    variant: net stable funding ratio
+  - concept_id: rwa
+    name_en: Risk-weighted assets
+    method: rule_dict
+    variant: RWA
+  verdict: wrong
+  wrong_tags:
+  - lcr
+  - leverage_ratio
+  - nsfr
+  - rwa
+  note: 'Pillar 3 ''Overview of Disclosures'' cross-reference index (pp. listed): concepts appear only as disclosure-requirement
+    names pointing to the stand-alone Pillar 3 report; no values'
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0254
+  title: Overview
+  pages:
+  - 96
+  - 98
+  printed_pages:
+  - '94'
+  - '96'
+  tags:
+  - concept_id: all_ccy_lcr
+    name_en: All-currency liquidity coverage ratio
+    method: rule_row_label
+    variant: All-currency liquidity coverage ratio
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: allowances for loans and other assets
+  - concept_id: cash_net_profit
+    name_en: Cash basis net profit
+    method: rule_row_label
+    variant: Cash basis net profit attributable to equity holders
+  - concept_id: cet1_ratio
+    name_en: CET1 capital adequacy ratio
+    method: rule_row_label
+    variant: Common Equity Tier 1 CAR
+  - concept_id: cost_to_income
+    name_en: Cost-to-income ratio
+    method: rule_row_label
+    variant: cost-to-income
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: Deposits of non-bank customers
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: Net loans to customers
+  - concept_id: diluted_eps
+    name_en: Diluted earnings per share
+    method: rule_row_label
+    variant: diluted earnings
+  - concept_id: eps
+    name_en: Earnings per share
+    method: rule_row_label
+    variant: Basic earnings
+  - concept_id: ldr
+    name_en: Loans-to-deposits ratio
+    method: rule_row_label
+    variant: loans-to-deposits
+  - concept_id: leverage_ratio
+    name_en: Leverage ratio
+    method: rule_row_label
+    variant: leverage ratio
+  - concept_id: nav_per_share
+    name_en: Net asset value per ordinary share
+    method: rule_row_label
+    variant: Net asset value
+  - concept_id: net_profit
+    name_en: Net profit
+    method: rule_row_label
+    variant: Net profit attributable to equity holders
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_row_label
+    variant: net interest income
+  - concept_id: nim
+    name_en: Net interest margin
+    method: rule_row_label
+    variant: net interest margin
+  - concept_id: non_ii_ratio
+    name_en: Non-interest income to total income
+    method: rule_row_label
+    variant: non-interest income to total income
+  - concept_id: non_interest_income
+    name_en: Non-interest income
+    method: rule_row_label
+    variant: non-interest income
+  - concept_id: npl_ratio
+    name_en: Non-performing loan ratio
+    method: rule_row_label
+    variant: non-performing loan ratio
+  - concept_id: nsfr
+    name_en: Net stable funding ratio
+    method: rule_row_label
+    variant: net stable funding ratio
+  - concept_id: operating_expenses
+    name_en: Operating expenses
+    method: rule_row_label
+    variant: operating expenses
+  - concept_id: operating_profit
+    name_en: Operating profit before allowances and amortisation
+    method: rule_row_label
+    variant: operating profit before allowances and amortisation
+  - concept_id: ordinary_equity
+    name_en: Ordinary equity
+    method: rule_row_label
+    variant: ordinary equity
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: profit before income tax
+  - concept_id: roa
+    name_en: Return on assets
+    method: rule_row_label
+    variant: return on assets
+  - concept_id: roe
+    name_en: Return on equity
+    method: rule_row_label
+    variant: return on equity
+  - concept_id: sgd_lcr
+    name_en: Singapore dollar liquidity coverage ratio
+    method: rule_row_label
+    variant: Singapore dollar liquidity coverage ratio
+  - concept_id: shareholders_equity
+    name_en: Equity attributable to equity holders of the Bank
+    method: rule_row_label
+    variant: equity attributable to equity holders of the Bank
+  - concept_id: share_of_associates
+    name_en: Share of results of associates
+    method: rule_row_label
+    variant: Share of results of associates, net of tax
+  - concept_id: tier1_car
+    name_en: Tier 1 capital adequacy ratio
+    method: rule_row_label
+    variant: Tier 1 CAR
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: total assets
+  - concept_id: total_car
+    name_en: Total capital adequacy ratio
+    method: rule_row_label
+    variant: Total capital adequacy ratio (CAR)
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_row_label
+    variant: total income
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0256
+  title: Allowances and Asset Quality
+  pages:
+  - 98
+  - 98
+  printed_pages:
+  - '96'
+  - '96'
+  tags:
+  - concept_id: npa
+    name_en: Non-performing assets
+    method: rule_dict
+    variant: non-performing assets
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0260
+  title: Average Balance Sheet
+  pages:
+  - 99
+  - 99
+  printed_pages:
+  - '97'
+  - '97'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: Deposits of non-bank customers
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: loans to customers
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_row_label
+    variant: net interest income
+  verdict: wrong
+  wrong_tags:
+  - customer_deposits
+  - customer_loans
+  note: 'Average balance sheet: loans to customers / deposits of non-bank customers are average balances used to derive NIM,
+    not the reported period-end balances (D39 ''average balance used for a different purpose''); nii correct (9,645 row).
+    Doubtful-leaning call.'
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0263
+  title: Operating Expenses
+  pages:
+  - 101
+  - 101
+  printed_pages:
+  - '99'
+  - '99'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: allowances for loans and other assets
+  - concept_id: operating_expenses
+    name_en: Operating expenses
+    method: rule_title
+    variant: operating expenses
+  - concept_id: staff_costs
+    name_en: Staff costs
+    method: rule_row_label
+    variant: staff costs
+  verdict: correct
+  wrong_tags: []
+  note: 'Doubtful: allowances table (733) sits on the same physical page 101 but under its own heading ''Allowances for Loans
+    and Other Assets''; judged correct by page range'
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0275
+  title: Performance by Geographical Segment
+  pages:
+  - 108
+  - 108
+  printed_pages:
+  - '106'
+  - '106'
+  tags:
+  - concept_id: operating_profit
+    name_en: Operating profit before allowances and amortisation
+    method: rule_row_label
+    variant: operating profit before allowances and amortisation
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: profit before income tax
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: total assets
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_row_label
+    variant: total income
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0303
+  title: Balance Sheets
+  pages:
+  - 125
+  - 125
+  printed_pages:
+  - '123'
+  - '123'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: Deposits of non-bank customers
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: loans to customers
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: total assets
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: total liabilities
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0326
+  title: 2.17 Income Tax Expense
+  pages:
+  - 151
+  - 152
+  printed_pages:
+  - '149'
+  - '150'
+  tags:
+  - concept_id: income_tax
+    name_en: Income tax expense
+    method: rule_title
+    variant: income tax expense
+  verdict: wrong
+  wrong_tags:
+  - income_tax
+  note: Note 2.17 accounting-policy description only; no figure (tax figures are in Note 11)
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0327
+  title: 2.18 Earnings Per Share
+  pages:
+  - 152
+  - 152
+  printed_pages:
+  - '150'
+  - '150'
+  tags:
+  - concept_id: eps
+    name_en: Earnings per share
+    method: rule_title
+    variant: earnings per share
+  verdict: wrong
+  wrong_tags:
+  - eps
+  note: Note 2.18 accounting-policy description only; no figure (EPS figures are in Note 12)
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0337
+  title: 9. Staff Costs and Other Operating Expenses
+  pages:
+  - 161
+  - 161
+  printed_pages:
+  - '159'
+  - '159'
+  tags:
+  - concept_id: operating_expenses
+    name_en: Operating expenses
+    method: rule_dict
+    variant: operating expenses
+  - concept_id: staff_costs
+    name_en: Staff costs
+    method: rule_title
+    variant: staff costs
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0338
+  title: 10. Allowances for Loans and Other Assets
+  pages:
+  - 162
+  - 162
+  printed_pages:
+  - '160'
+  - '160'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_title
+    variant: allowances for loans and other assets
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0339
+  title: 11. Income Tax Expense
+  pages:
+  - 162
+  - 163
+  printed_pages:
+  - '160'
+  - '161'
+  tags:
+  - concept_id: income_tax
+    name_en: Income tax expense
+    method: rule_title
+    variant: income tax expense
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0374
+  title: 27. Non-Performing Assets
+  pages:
+  - 186
+  - 188
+  printed_pages:
+  - '184'
+  - '186'
+  tags:
+  - concept_id: npa
+    name_en: Non-performing assets
+    method: rule_title
+    variant: non-performing assets
+  - concept_id: npl
+    name_en: Non-performing loans
+    method: rule_dict
+    variant: non-performing loans
+  verdict: correct
+  wrong_tags: []
+  note: 'npl: classified loans 2,805 (= NPLs per note definition) and NPL % reference on p188; judged correct'
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0390
+  title: 37.1 Business Segments
+  pages:
+  - 206
+  - 208
+  printed_pages:
+  - '204'
+  - '206'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: allowances for loans and other assets
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_row_label
+    variant: net interest income
+  - concept_id: non_interest_income
+    name_en: Non-interest income
+    method: rule_row_label
+    variant: non-interest income
+  - concept_id: npa
+    name_en: Non-performing assets
+    method: rule_row_label
+    variant: NPAs
+  - concept_id: operating_profit
+    name_en: Operating profit before allowances and amortisation
+    method: rule_row_label
+    variant: operating profit before allowances and amortisation
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: profit before income tax
+  - concept_id: share_of_associates
+    name_en: Share of results of associates
+    method: rule_row_label
+    variant: Share of results of associates, net of tax
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: total assets
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_row_label
+    variant: total income
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: total liabilities
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_en
+  node_id: ocbc-group_ar_2023_en:regions:0397
+  title: 39. Financial Assets and Financial Liabilities Classification
+  pages:
+  - 244
+  - 247
+  printed_pages:
+  - '242'
+  - '245'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: Deposits of non-bank customers
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: loans to customers
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: total assets
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: total liabilities
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0013
+  title: Financial Highlights
+  pages:
+  - 6
+  - 6
+  printed_pages:
+  - '4'
+  - '4'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: allowances for loans and other assets
+  - concept_id: cash_net_profit
+    name_en: Cash basis net profit
+    method: rule_row_label
+    variant: Cash basis net profit attributable to equity holders of the Bank
+  - concept_id: cet1_ratio
+    name_en: CET1 capital adequacy ratio
+    method: rule_row_label
+    variant: Common Equity Tier 1
+  - concept_id: cost_to_income
+    name_en: Cost-to-income ratio
+    method: rule_row_label
+    variant: cost-to-income
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: Deposits of non-bank customers
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: Net loans to customers
+  - concept_id: dividend_cover
+    name_en: Dividend cover
+    method: rule_row_label
+    variant: Dividend cover (times)
+  - concept_id: dps
+    name_en: Dividend per share
+    method: rule_row_label
+    variant: Dividend (cents)
+  - concept_id: eps
+    name_en: Earnings per share
+    method: rule_row_label
+    variant: Basic earnings
+  - concept_id: nav_per_share
+    name_en: Net asset value per ordinary share
+    method: rule_row_label
+    variant: Net asset value
+  - concept_id: net_profit
+    name_en: Net profit
+    method: rule_row_label
+    variant: Net profit attributable to equity holders of the Bank
+  - concept_id: operating_expenses
+    name_en: Operating expenses
+    method: rule_row_label
+    variant: operating expenses
+  - concept_id: operating_profit
+    name_en: Operating profit before allowances and amortisation
+    method: rule_row_label
+    variant: operating profit before allowances and amortisation
+  - concept_id: ordinary_equity
+    name_en: Ordinary equity
+    method: rule_row_label
+    variant: ordinary equity
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: profit before income tax
+  - concept_id: roa
+    name_en: Return on assets
+    method: rule_row_label
+    variant: return on assets
+  - concept_id: roe
+    name_en: Return on equity
+    method: rule_row_label
+    variant: return on equity
+  - concept_id: shareholders_equity
+    name_en: Equity attributable to equity holders of the Bank
+    method: rule_row_label
+    variant: equity attributable to equity holders of the Bank
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: total assets
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_row_label
+    variant: total income
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: total liabilities
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0050
+  title: Dear Fellow Shareholders,
+  pages:
+  - 14
+  - 16
+  printed_pages:
+  - '12'
+  - '14'
+  tags:
+  - concept_id: cet1_ratio
+    name_en: CET1 capital adequacy ratio
+    method: rule_dict
+    variant: CET1 CAR
+  - concept_id: net_profit
+    name_en: Net profit
+    method: rule_dict
+    variant: net profit
+  - concept_id: non_interest_income
+    name_en: Non-interest income
+    method: rule_dict
+    variant: non-interest income
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0204
+  title: Dividend
+  pages:
+  - 77
+  - 77
+  printed_pages:
+  - '75'
+  - '75'
+  tags:
+  - concept_id: core_net_profit
+    name_en: Core net profit
+    method: rule_dict
+    variant: core net profit
+  - concept_id: special_dividend
+    name_en: Special dividend
+    method: rule_dict
+    variant: special dividends
+  verdict: wrong
+  wrong_tags:
+  - core_net_profit
+  note: core net profit only named as the basis of the 50% payout policy / 10% special dividend; no value or change given.
+    special_dividend correct (16 cents)
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0278
+  title: Scope of Consolidation
+  pages:
+  - 92
+  - 95
+  printed_pages:
+  - '90'
+  - '93'
+  tags:
+  - concept_id: lcr
+    name_en: Liquidity coverage ratio
+    method: rule_row_label
+    variant: liquidity coverage ratio
+  - concept_id: leverage_ratio
+    name_en: Leverage ratio
+    method: rule_row_label
+    variant: leverage ratio
+  - concept_id: nsfr
+    name_en: Net stable funding ratio
+    method: rule_row_label
+    variant: net stable funding ratio
+  - concept_id: rwa
+    name_en: Risk-weighted assets
+    method: rule_dict
+    variant: RWA
+  verdict: wrong
+  wrong_tags:
+  - lcr
+  - leverage_ratio
+  - nsfr
+  - rwa
+  note: 'Pillar 3 ''Overview of Disclosures'' cross-reference index (pp. listed): concepts appear only as disclosure-requirement
+    names pointing to the stand-alone Pillar 3 report; no values'
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0285
+  title: Funding, Liquidity and Capital Position
+  pages:
+  - 100
+  - 100
+  printed_pages:
+  - '98'
+  - '98'
+  tags:
+  - concept_id: cet1_ratio
+    name_en: CET1 capital adequacy ratio
+    method: rule_dict
+    variant: Common Equity Tier 1
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0286
+  title: Dividend
+  pages:
+  - 100
+  - 100
+  printed_pages:
+  - '98'
+  - '98'
+  tags:
+  - concept_id: special_dividend
+    name_en: Special dividend
+    method: rule_dict
+    variant: special dividend
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0287
+  title: Net Interest Income
+  pages:
+  - 101
+  - 101
+  printed_pages:
+  - '99'
+  - '99'
+  tags:
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_title
+    variant: net interest income
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0297
+  title: Profit before Income Tax by Business Segment
+  pages:
+  - 108
+  - 108
+  printed_pages:
+  - '106'
+  - '106'
+  tags:
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_dict
+    variant: net interest income
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_title
+    variant: profit before income tax
+  verdict: wrong
+  wrong_tags:
+  - nii
+  note: net interest income only mentioned qualitatively as a driver of segment PBT ('lower net interest income'); no value.
+    profit_before_tax correct (8,976)
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0334
+  title: Balance Sheets
+  pages:
+  - 127
+  - 127
+  printed_pages:
+  - '125'
+  - '125'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: Deposits of non-bank customers
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: loans to customers
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: total assets
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: total liabilities
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0357
+  title: 2.17 Income Tax Expense
+  pages:
+  - 152
+  - 152
+  printed_pages:
+  - '150'
+  - '150'
+  tags:
+  - concept_id: income_tax
+    name_en: Income tax expense
+    method: rule_title
+    variant: income tax expense
+  verdict: wrong
+  wrong_tags:
+  - income_tax
+  note: Note 2.17 accounting-policy description only; no figure (tax figures are in Note 11)
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0369
+  title: 9. Staff Costs and Other Operating Expenses
+  pages:
+  - 160
+  - 160
+  printed_pages:
+  - '158'
+  - '158'
+  tags:
+  - concept_id: operating_expenses
+    name_en: Operating expenses
+    method: rule_dict
+    variant: operating expenses
+  - concept_id: staff_costs
+    name_en: Staff costs
+    method: rule_title
+    variant: staff costs
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0370
+  title: 10. Allowances for Loans and Other Assets
+  pages:
+  - 161
+  - 161
+  printed_pages:
+  - '159'
+  - '159'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_title
+    variant: allowances for loans and other assets
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0372
+  title: 12. Earnings Per Share
+  pages:
+  - 162
+  - 162
+  printed_pages:
+  - '160'
+  - '160'
+  tags:
+  - concept_id: eps
+    name_en: Earnings per share
+    method: rule_title
+    variant: earnings per share
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0385
+  title: 17. Deposits and Balances of Non-Bank Customers and Banks
+  pages:
+  - 170
+  - 170
+  printed_pages:
+  - '168'
+  - '168'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: Deposits of non-bank customers
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_en
+  node_id: ocbc-group_ar_2024_en:regions:0405
+  title: 26. Loans to Customers
+  pages:
+  - 185
+  - 185
+  printed_pages:
+  - '183'
+  - '183'
+  tags:
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_title
+    variant: loans to customers
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_en
+  node_id: ocbc-group_ar_2025_en:regions:0025
+  title: Commitment to Sustained Shareholder Returns
+  pages:
+  - 10
+  - 10
+  printed_pages:
+  - '8'
+  - '8'
+  tags:
+  - concept_id: special_dividend
+    name_en: Special dividend
+    method: rule_dict
+    variant: special dividends
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_en
+  node_id: ocbc-group_ar_2025_en:regions:0239
+  title: Scope of Consolidation
+  pages:
+  - 79
+  - 82
+  printed_pages:
+  - '77'
+  - '80'
+  tags:
+  - concept_id: lcr
+    name_en: Liquidity coverage ratio
+    method: rule_row_label
+    variant: liquidity coverage ratio
+  - concept_id: leverage_ratio
+    name_en: Leverage ratio
+    method: rule_row_label
+    variant: leverage ratio
+  - concept_id: nsfr
+    name_en: Net stable funding ratio
+    method: rule_row_label
+    variant: net stable funding ratio
+  - concept_id: rwa
+    name_en: Risk-weighted assets
+    method: rule_dict
+    variant: RWA
+  verdict: wrong
+  wrong_tags:
+  - lcr
+  - leverage_ratio
+  - nsfr
+  - rwa
+  note: 'Pillar 3 ''Overview of Disclosures'' cross-reference index (pp. listed): concepts appear only as disclosure-requirement
+    names pointing to the stand-alone Pillar 3 report; no values'
+- doc_id: ocbc-group_ar_2025_en
+  node_id: ocbc-group_ar_2025_en:regions:0305
+  title: Net Interest Income
+  pages:
+  - 101
+  - 101
+  printed_pages:
+  - '99'
+  - '99'
+  tags:
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_title
+    variant: net interest income
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_en
+  node_id: ocbc-group_ar_2025_en:regions:0308
+  title: Non-Interest Income
+  pages:
+  - 102
+  - 102
+  printed_pages:
+  - '100'
+  - '100'
+  tags:
+  - concept_id: fee_income
+    name_en: Net fee income
+    method: rule_row_label
+    variant: Fees and commissions (net)
+  - concept_id: insurance_income
+    name_en: Income from life and general insurance
+    method: rule_row_label
+    variant: income from life and general insurance
+  - concept_id: net_trading_income
+    name_en: Net trading income
+    method: rule_row_label
+    variant: net trading income
+  - concept_id: non_interest_income
+    name_en: Non-interest income
+    method: rule_title
+    variant: non-interest income
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_en
+  node_id: ocbc-group_ar_2025_en:regions:0386
+  title: 11. Income Tax Expense
+  pages:
+  - 161
+  - 162
+  printed_pages:
+  - '159'
+  - '160'
+  tags:
+  - concept_id: income_tax
+    name_en: Income tax expense
+    method: rule_title
+    variant: income tax expense
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_en
+  node_id: ocbc-group_ar_2025_en:regions:0400
+  title: 17. Deposits and Balances of Non-Bank Customers and Banks
+  pages:
+  - 171
+  - 171
+  printed_pages:
+  - '169'
+  - '169'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: Deposits of non-bank customers
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_en
+  node_id: ocbc-group_ar_2025_en:regions:0443
+  title: 38.3 Market Risk and Liquidity Risk Management
+  pages:
+  - 214
+  - 219
+  printed_pages:
+  - '212'
+  - '217'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: Deposits of non-bank customers
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: loans to customers
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: total assets
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: total liabilities
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_en
+  node_id: ocbc-group_ar_2025_en:regions:0445
+  title: 39. Financial Assets and Financial Liabilities Classification
+  pages:
+  - 235
+  - 238
+  printed_pages:
+  - '233'
+  - '236'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: Deposits of non-bank customers
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: loans to customers
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: total assets
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: total liabilities
+  verdict: correct
+  wrong_tags: []
+  note: ''

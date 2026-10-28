@@ -1,0 +1,140 @@
+doc_id: ocbc-group_ar_2024_en
+purpose: re-judge nodes that changed after the W1 round-4 fixes
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2024_en:regions:0343
+  title: 2.6.4 Designation at FVTPL
+  origin: heading
+  pages:
+  - 136
+  - 136
+  printed_pages:
+  - '134'
+  - '134'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0335
+    title: 2.6 Non-Derivative Financial Assets Classification and Measurement of Financial Assets
+    pages:
+    - 135
+    - 136
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.6 Non-Derivative Financial Assets (continued) Classification
+    and Measurement of Financial Assets (continued) (b) Assessment of Whether Contractu
+  verdict: correct
+  note: 'Doubtful-correct: parent node title merges ''2.6 Non-Derivative Financial Assets'' with ''Classification and Measurement
+    of Financial Assets''; the parent covers the right section (p135-136), so placement accepted.'
+- node_id: ocbc-group_ar_2024_en:regions:0378
+  title: Insurance Revenue
+  origin: heading
+  pages:
+  - 148
+  - 148
+  printed_pages:
+  - '146'
+  - '146'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0376
+    title: 2.13.9 Insurance Service Result from Insurance Contracts Issued
+    pages:
+    - 148
+    - 150
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued)
+    2.13.8 Derecognition and Contract Modification (continued) When an insurance contract account
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0322
+  title: 2.2.2 Structured Entities
+  origin: heading
+  pages:
+  - 133
+  - 133
+  printed_pages:
+  - '131'
+  - '131'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0319
+    title: 2.2 Basis of Consolidation
+    pages:
+    - 132
+    - 134
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.2 Basis of Consolidation (continued) 2.2.1 Subsidiaries
+    (continued) The Group applies the acquisition method to account for business combination
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0337
+  title: 2.6.1 Debt Instruments Measured at Amortised Cost
+  origin: heading
+  pages:
+  - 135
+  - 136
+  printed_pages:
+  - '133'
+  - '134'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0335
+    title: 2.6 Non-Derivative Financial Assets Classification and Measurement of Financial Assets
+    pages:
+    - 135
+    - 136
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.5 Financial Instruments (continued) 2.5.3 Modifications
+    (continued) Interest Rate Benchmark Reform (IBOR Reform) (continued) If there are change
+  verdict: correct
+  note: 'Doubtful-correct: parent node title merges ''2.6 Non-Derivative Financial Assets'' with ''Classification and Measurement
+    of Financial Assets''; placement accepted.'
+- node_id: ocbc-group_ar_2024_en:regions:0339
+  title: 2.6.5 Equity Instruments
+  origin: heading
+  pages:
+  - 136
+  - 136
+  printed_pages:
+  - '134'
+  - '134'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0335
+    title: 2.6 Non-Derivative Financial Assets Classification and Measurement of Financial Assets
+    pages:
+    - 135
+    - 136
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.6 Non-Derivative Financial Assets (continued) Classification
+    and Measurement of Financial Assets (continued) (b) Assessment of Whether Contractu
+  verdict: correct
+  note: 'Doubtful-correct: parent node title merges ''2.6 Non-Derivative Financial Assets'' with ''Classification and Measurement
+    of Financial Assets''; placement accepted.'
+- node_id: ocbc-group_ar_2024_en:regions:0356
+  title: 2.11.4 Movement Between Stages
+  origin: heading
+  pages:
+  - 140
+  - 140
+  printed_pages:
+  - '138'
+  - '138'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0351
+    title: (I) Financial Assets
+    pages:
+    - 139
+    - 140
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.11 Impairment of Assets (continued) (I) Financial
+    Assets (continued) 2.11.3 Measurement (continued) The definition of default used in the measur
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0399
+  title: Allowances for Non-Credit-Impaired Loans to Customers
+  origin: heading
+  pages:
+  - 153
+  - 153
+  printed_pages:
+  - '151'
+  - '151'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0398
+    title: 2.21.1 Impairment of Financial Assets
+    pages:
+    - 153
+    - 153
+  start_page_text: '2. Material Accounting Policy Information (continued) 2.21 Critical Accounting Estimates and Judgements
+    (continued) 2.21.1 Impairment of Financial Assets In determining whether the credit risk of the '
+  verdict: correct
+  note: ''

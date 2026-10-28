@@ -1,0 +1,9 @@
+# Observation extraction rules of the annual report type (constants from kb profiles/annual_report/observations.py
+# @ 2f6042e). Target tables: the financial highlights (five-year summary) and the MD&A overview.
+version: 1
+target: 'Selected Income Statement Items|选定的收入报表项目'
+year: '(?<!\d)(20\d\d)(?:\(\d\))?(?!\d)'
+restated: 'restated|重列|重述'
+footnoted_year: '(?<!\d)(20\d\d)\(\d\)'
+year_window: 6          # year columns within the report year and the 6 years before
+default_scale: 6        # millions when neither the table nor the page header gives a unit

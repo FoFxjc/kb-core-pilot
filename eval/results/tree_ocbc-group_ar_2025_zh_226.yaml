@@ -1,0 +1,765 @@
+doc_id: ocbc-group_ar_2025_zh
+seed: 226
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2025_zh:regions:0009
+  title: 第一家
+  origin: heading
+  pages:
+  - 6
+  - 6
+  printed_pages:
+  - '4'
+  - '4'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0008
+    title: 硕果累累的一年
+    pages:
+    - 6
+    - 7
+  start_page_text: '硕果累累的一年 74亿2000万元 集团净利 34% 以可持续融资支持的所有市场的中小型企 业客户增长34%(同比) 150亿令吉 在2024年至2025年，对柔佛企业承诺 提供150亿令吉融资以支持柔佛-新加坡
+    经济特区 10 新加坡华侨银行手机应用程序整合10个 数码钱包，成为东南亚连接最多数码钱包 的银行业手机应用程序 第一家 新加坡第一家向企业投资者推出定制代币 化债券销售的银行 50% '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0016
+  title: 在不确定性中保持稳健财务表现
+  origin: heading
+  pages:
+  - 9
+  - 9
+  printed_pages:
+  - '7'
+  - '7'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0014
+    title: 主席的思考
+    pages:
+    - 8
+    - 11
+  start_page_text: 影响重大的一年 俄乌战争持续不断，并无明显结束的迹 象；加沙冲突逐步达成脆弱的停火协议。 在更靠近我们家园的地方，泰国与柬埔 寨之间长期的边境争端爆发了武装冲 突。宏观经济方面，各主要央行实施了 2009年以来规模最大的降息措施。可以
+    说，带来最为长期深远影响的举措是将 关税作为国际关系的政策工具。这打破 了长期以来支撑全球互动的现有范式。 随着世界对这些重大事件做出反应，上 述各种发展所导致的全
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0025
+  title: 集团首席执行官的观点
+  origin: toc
+  pages:
+  - 12
+  - 15
+  printed_pages:
+  - '10'
+  - '13'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0002
+    title: 本年度焦点
+    pages:
+    - 4
+    - 15
+  start_page_text: 尊敬的股东： 2025年向我们展示了世界局势的瞬息万变。美国推动“解放日”以 及随之而来的新一轮贸易关税，扰乱了全球的贸易流动，并使金融 市场陷入波动之中。在供应链被迫重组的背景下，企业必须应对 日益上升的不确定性以及持续变化的贸易规则。
+    集团首席执行官 的观点 10
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0044
+  title: 科技转型
+  origin: heading
+  pages:
+  - 18
+  - 18
+  printed_pages:
+  - '16'
+  - '16'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0041
+    title: 推动转型，加速增长
+    pages:
+    - 18
+    - 19
+  start_page_text: 推动转型，加速增长 亚洲转型 业务转型 科技转型 净零转型 通过华侨银行区域网络的优势，以强有力的“一个 东盟”综合方案，把握东盟与大中华区之间的贸易、 投资和财富流动。 透过新加坡与香港特别行政区的双枢纽运作方
+    式，捕捉日益增长的亚洲财富流动。 新加坡-香港双枢纽 提供涵盖银行、财富管理与保险的全方位财富 综合方案。 在超高龄社会领先推动银发族方案。 扩大香港特别行政区的富裕客户群。 提升香港特
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0045
+  title: 净零转型
+  origin: heading
+  pages:
+  - 18
+  - 19
+  printed_pages:
+  - '16'
+  - '17'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0041
+    title: 推动转型，加速增长
+    pages:
+    - 18
+    - 19
+  start_page_text: 推动转型，加速增长 亚洲转型 业务转型 科技转型 净零转型 通过华侨银行区域网络的优势，以强有力的“一个 东盟”综合方案，把握东盟与大中华区之间的贸易、 投资和财富流动。 透过新加坡与香港特别行政区的双枢纽运作方
+    式，捕捉日益增长的亚洲财富流动。 新加坡-香港双枢纽 提供涵盖银行、财富管理与保险的全方位财富 综合方案。 在超高龄社会领先推动银发族方案。 扩大香港特别行政区的富裕客户群。 提升香港特
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0072
+  title: 伊斯兰银行
+  origin: heading
+  pages:
+  - 23
+  - 23
+  printed_pages:
+  - '21'
+  - '21'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0062
+    title: 集团一体的优势
+    pages:
+    - 22
+    - 23
+  start_page_text: 与大东方联合，共同为客户创造更高 价值 华侨银行在过去两年为关键客户群推出 了两项成功的计划，利用大东方的优势 向他们提供更高价值。第一项是 OCBC PartnerCare，这是一项专为房地产经 纪定制的综合财务与个人健康计划，由
+    大东方为华侨银行网络广大的经纪提 供独家保险折扣。第二项是银行全面性 的华侨银行乐龄关怀计划，特别设计以 帮助年长者及广大社区民众实现健康乐 龄的目标。作为这项计划的
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0088
+  title: 中国
+  origin: heading
+  pages:
+  - 27
+  - 27
+  printed_pages:
+  - '25'
+  - '25'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0081
+    title: 企业社会责任计划综述
+    pages:
+    - 27
+    - 27
+  start_page_text: '企业社会责任计划综述 新加坡 华侨银行-新加坡残疾体育理事会 SwimTogether计划 我们推出了“华侨银行-新加坡残疾体育 理事会SwimTogether计划”，这是新加坡 首个为残疾人士设计的结构性水上安全
+    计划。这项计划由华侨银行全额资助， 协助100名参与者参加由受训教练及华 侨银行义工带领的800堂课程。课堂使 用适应性游泳辅助器材，并在设有恒温 泳池、触觉地板及无障碍设施的场地举 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0167
+  title: 合并现金流量表
+  origin: subtoc
+  pages:
+  - 60
+  - 60
+  printed_pages:
+  - '58'
+  - '58'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0134
+    title: 财务报告
+    pages:
+    - 38
+    - 176
+  start_page_text: '百万元 2025 2024 营运活动的现金流量 扣除所得税前盈利 9,123 8,976 非现金项目的调整： 贷款与其他资产准备金 665 690 无形资产的摊销 21 59 套期交易、公允价值计入损益证券与发行债务的变动
+    377 356 房地产、设施与设备的折旧及租赁负债的利息支出 551 463 出售联号企业/附属公司股权的净(收益)/亏损 (63) # 出售政府、债务与股本证券净收益 (58'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0175
+  title: 2.2.3 联号企业与合资企业
+  origin: heading
+  pages:
+  - 61
+  - 62
+  printed_pages:
+  - '59'
+  - '60'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0173
+    title: 2.2 合并之基础
+    pages:
+    - 61
+    - 62
+  start_page_text: '附注是本财务报告的整体组成部份。 华侨银行有限公司董事部在2026年2月24日授权发出此财务报告。 1. 概论 华侨银行有限公司 (银行) 是在新加坡注册和设立，并在新加坡证 券交易所有限公司上市。银行注册办事处是珠烈街63号#10-00，
+    华厦东楼，新加坡邮区049514。 本合并财务报告是关于银行与其附属公司 (总称集团) 以及集团 在联号企业的权益。集团主要业务是银行、寿险、普通保险、资产 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0177
+  title: 2.2.4 银行在附属公司、联号企业与合资企业的投资
+  origin: heading
+  pages:
+  - 62
+  - 62
+  printed_pages:
+  - '60'
+  - '60'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0173
+    title: 2.2 合并之基础
+    pages:
+    - 61
+    - 62
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.2 合并之基础 (续) 2.2.3 联号企业与合资企业 (续) 在权益会计法中，投资在最初以成本确认，其后则会以收购后集 团所占联号企业资产净值的变动予以调整，直到其显著影响或联
+    合控制结束为止。集团对联号企业与合资企业的投资包括在收购 时识别的商誉。若集团的损失分担部分相等于或超过其在联号企 业与合资企业的权益，包括任何其他未担保的应收帐款，集团将 不确认
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0180
+  title: 2.3.2 海外业务
+  origin: heading
+  pages:
+  - 62
+  - 62
+  printed_pages:
+  - '60'
+  - '60'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0178
+    title: 2.3 货币折算
+    pages:
+    - 62
+    - 62
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.2 合并之基础 (续) 2.2.3 联号企业与合资企业 (续) 在权益会计法中，投资在最初以成本确认，其后则会以收购后集 团所占联号企业资产净值的变动予以调整，直到其显著影响或联
+    合控制结束为止。集团对联号企业与合资企业的投资包括在收购 时识别的商誉。若集团的损失分担部分相等于或超过其在联号企 业与合资企业的权益，包括任何其他未担保的应收帐款，集团将 不确认
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0183
+  title: 2.5.1 确认
+  origin: heading
+  pages:
+  - 62
+  - 62
+  printed_pages:
+  - '60'
+  - '60'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0182
+    title: 2.5 金融工具
+    pages:
+    - 62
+    - 62
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.2 合并之基础 (续) 2.2.3 联号企业与合资企业 (续) 在权益会计法中，投资在最初以成本确认，其后则会以收购后集 团所占联号企业资产净值的变动予以调整，直到其显著影响或联
+    合控制结束为止。集团对联号企业与合资企业的投资包括在收购 时识别的商誉。若集团的损失分担部分相等于或超过其在联号企 业与合资企业的权益，包括任何其他未担保的应收帐款，集团将 不确认
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0188
+  title: 2.6 非衍生金融资产
+  origin: subnote
+  pages:
+  - 62
+  - 63
+  printed_pages:
+  - '60'
+  - '61'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0170
+    title: 2. 重大会计政策资讯摘要
+    pages:
+    - 61
+    - 76
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.2 合并之基础 (续) 2.2.3 联号企业与合资企业 (续) 在权益会计法中，投资在最初以成本确认，其后则会以收购后集 团所占联号企业资产净值的变动予以调整，直到其显著影响或联
+    合控制结束为止。集团对联号企业与合资企业的投资包括在收购 时识别的商誉。若集团的损失分担部分相等于或超过其在联号企 业与合资企业的权益，包括任何其他未担保的应收帐款，集团将 不确认
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0197
+  title: 2.6.2 按FVOCI计量的债务工具
+  origin: heading
+  pages:
+  - 63
+  - 63
+  printed_pages:
+  - '61'
+  - '61'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0189
+    title: 金融资产的分类与计量
+    pages:
+    - 62
+    - 63
+  start_page_text: '2. 重大会计政策资讯摘要 (续) 2.6 非衍生金融资产 (续) 金融资产的分类与计量 (续) (a) 业务模式评估 集团针对以组合方式持有资产的业务模式目标进行评估，因为这 最能反映业务的管理方式与向管理层提供的资讯。这些资讯包括:
+    • 该组合的既定政策与目标及这些政策在实际中的执行情况。 尤其是管理层的策略是否着重于赚取合同利息收入，维持某 个特定的利率结构，将金融资产的期限与为这些资产提供'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0206
+  title: 2.11.1 范围
+  origin: heading
+  pages:
+  - 65
+  - 65
+  printed_pages:
+  - '63'
+  - '63'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0205
+    title: (I) 金融资产
+    pages:
+    - 65
+    - 66
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.10 商誉与其他无形资产 (续) 2.10.1 商誉 (续) 商誉是按成本减去累计减损加以记录。商誉至少每年测试其减损 一次，或者在有迹象显示商誉可能减损时进行。 出售附属公司或联号企业的收益或亏损包括所出售的实体相关的
+    商誉帐面价值。 2.10.2 无形资产 除商誉以外，其他来自收购中可单独识别的无形项目，是按成本 减去累计摊销与减损记录。使用期有限的无形
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0218
+  title: 2.13.4 确认
+  origin: heading
+  pages:
+  - 67
+  - 67
+  printed_pages:
+  - '65'
+  - '65'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0215
+    title: 2.13 保险和再保险合约
+    pages:
+    - 66
+    - 72
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.1 定义和分类 (续) 所有其他保险合约及所有再保险合约均被归类为不具备直接参 与性质的合约。这些合约中一部分是根据保费分摊法
+    (PAA)模 型计量 (参阅附注2.13.7)。PAA是SFRS(I) 17的一项选择性简化 计量模型，适用于符合条件的保险及再保险合约。这个方法用 于保险覆盖期为一年或更短的保险合约，或者
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0219
+  title: 2.13.3 综合水平
+  origin: heading
+  pages:
+  - 67
+  - 67
+  printed_pages:
+  - '65'
+  - '65'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0215
+    title: 2.13 保险和再保险合约
+    pages:
+    - 66
+    - 72
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.1 定义和分类 (续) 所有其他保险合约及所有再保险合约均被归类为不具备直接参 与性质的合约。这些合约中一部分是根据保费分摊法
+    (PAA)模 型计量 (参阅附注2.13.7)。PAA是SFRS(I) 17的一项选择性简化 计量模型，适用于符合条件的保险及再保险合约。这个方法用 于保险覆盖期为一年或更短的保险合约，或者
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0233
+  title: 2.13.9 来自已发出保险合约的保险服务业绩
+  origin: heading
+  pages:
+  - 71
+  - 72
+  printed_pages:
+  - '69'
+  - '70'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0215
+    title: 2.13 保险和再保险合约
+    pages:
+    - 66
+    - 72
+  start_page_text: '2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.8 终止确认与合约修改 (续) 若按PAA入账的保险合约终止确认，为终止确认而移除有关权利 和义务的效应所作出的相关调整，会导致以下金额立即纳入收入
+    报表中: a) 若该合约结束，原合约的LRC的终止确认部分与因结束而产 生的任何其他现金流量之间的任何净差额； b) 若合约转让给第三方，原合约的LRC的终止确认部分与'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0237
+  title: 保险金融收入或费用
+  origin: heading
+  pages:
+  - 72
+  - 72
+  printed_pages:
+  - '70'
+  - '70'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0233
+    title: 2.13.9 来自已发出保险合约的保险服务业绩
+    pages:
+    - 71
+    - 72
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.13 保险和再保险合约 (续) 2.13.9 来自已发出保险合约的保险服务业绩 (续) c) 对期内所收到的服务所确认之CSM金额；及 d) 经验调整 – 来自期内收取的保费，但与未来服务有关的保费
+    除外。 对于根据PAA计量的再保合约组别，GEH集团按时间推移对一组 合约的保险覆盖期确认再保险费用。 并非或有的已发出内含合约索赔的分出佣金会降低分出保费，并
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0247
+  title: 2.16.1 利息收入与支出
+  origin: heading
+  pages:
+  - 73
+  - 73
+  printed_pages:
+  - '71'
+  - '71'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0246
+    title: 2.16 收入与支出的确认
+    pages:
+    - 73
+    - 73
+  start_page_text: 2. 重大会计政策资讯摘要 (续) 2.15 租赁 (续) 2.15.2 身为出租人 集团所拥有建筑物的出租区的租金收入是按租赁期以直线法在 收入报表中确认。所授予的租赁优惠是作为整体租金收入的一部 分按整个租赁期确认。
+    2.16 收入与支出的确认 2.16.1 利息收入与支出 利息收入或支出是采用有效利率法确认。 有效利率是对金融工具预期期限的未来现金付款或收款作出折 现至总账面价值或金融负债的
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0269
+  title: 来自寿险的保险服务业绩
+  origin: heading
+  pages:
+  - 77
+  - 77
+  printed_pages:
+  - '75'
+  - '75'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0268
+    title: 4. 来自寿险的保险服务业绩和净投资与金融收入/(支出)
+    pages:
+    - 77
+    - 78
+  start_page_text: 3. 净利息收入 集团 银行 百万元 2025 2024 2025 2024 利息收入 非银行客户贷款 13,745 15,628 9,804 11,183 银行同业的存放和贷款 2,606 3,552 2,604
+    3,472 其他生息资产 3,725 3,264 2,150 1,877 20,076 22,444 14,558 16,532 利息支出 非银行客户存款 (9,226) (10,55
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0278
+  title: 11. 所得税支出
+  origin: note
+  pages:
+  - 82
+  - 83
+  printed_pages:
+  - '80'
+  - '81'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0168
+    title: 财务报告附注
+    pages:
+    - 61
+    - 176
+  start_page_text: '10. 贷款与其他资产准备金 集团 银行 百万元 2025 2024 2025 2024 准备金/(收回): 减损贷款(附注28) 486 403 305 133 减损的其他资产 49 123 6 3 非减损贷款
+    124 158 116 49 非减损的其他资产 6 6 1 6 贷款与其他资产准备金 665 690 428 191 11. 所得税支出 集团 银行 百万元 2025 2024 2025'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0280
+  title: 12. 每股收益
+  origin: note
+  pages:
+  - 83
+  - 83
+  printed_pages:
+  - '81'
+  - '81'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0168
+    title: 财务报告附注
+    pages:
+    - 61
+    - 176
+  start_page_text: 11. 所得税支出 (续) OECD支柱2模型规则 集团属于经济合作与发展组织(OECD)支柱2模型规则的范围，并对与支柱2所得税相关的递延所得税资产与负债资讯的确认与披露方 面，采用SFRS(I) 1-12的豁免规定。在2024年12月，新加坡颁布了支柱2法规，并实施收入纳入规则（IIR）及国内补足税（DTT），从
+    2025年1月1日起生效。根据该法规，集团必须为其在每个司法管辖区的 GloBE
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0281
+  title: 13. 股本
+  origin: note
+  pages:
+  - 84
+  - 86
+  printed_pages:
+  - '82'
+  - '84'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0168
+    title: 财务报告附注
+    pages:
+    - 61
+    - 176
+  start_page_text: '13. 股本 13.1 股本 股票(百万) 2025 2024 集团和银行 普通股 于1月1日 4,515 4,515 注销股票 (14) – 发行给非执行董事的股票 # # 于12月31日 4,501
+    4,515 库存股 于1月1日 (15) (21) 股票回购 (27) (13) 注销股票 14 – 股票认股权计划 4 6 股票购买计划 7 7 转往DSP信托的库存股 6 6 于12月31日 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0284
+  title: 13.3 雇员股票购买计划
+  origin: subnote
+  pages:
+  - 85
+  - 86
+  printed_pages:
+  - '83'
+  - '84'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0281
+    title: 13. 股本
+    pages:
+    - 84
+    - 86
+  start_page_text: '13. 股本 (续) 13.2 股票认股权计划 (续) 认股权的股票数目和平均购得价的变动如下: 2025 2024 认股权的 股票数目 (‘000) 平均价 认股权的 股票数目 (‘000) 平均价 于1月1日
+    8,250 $10.850 14,299 $10.943 已行使 (3,644) $10.797 (5,996) $11.051 没收/失效 – – (53) $13.340 于12月3'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0301
+  title: 21.4 结构性票据
+  origin: subnote
+  pages:
+  - 100
+  - 100
+  printed_pages:
+  - '98'
+  - '98'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0297
+    title: 21. 发行债务
+    pages:
+    - 97
+    - 101
+  start_page_text: '21. 发行债务 (续) 21.3 商业本票 集团 百万元 2025 2024 由银行发行 15,251 17,852 由附属公司发行 48 15 15,299 17,867 银行依据其100亿美元的欧洲商业本票
+    (ECP) 计划及250亿美元的美国商业本票 (USCP) 计划发出此商业本票。于2025年12月31日 (2024: 2024年12月31日) 的剩余票据是在2025年2月13日 (2'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0304
+  title: 22. 寿险基金负债和资产
+  origin: note
+  pages:
+  - 102
+  - 107
+  printed_pages:
+  - '100'
+  - '105'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0168
+    title: 财务报告附注
+    pages:
+    - 61
+    - 176
+  start_page_text: '22. 寿险基金负债和资产 集团 百万元 2025 2024 寿险基金保险合约负债与其他负债 保险合约负债 107,185 100,680 再保合约负债 106 142 其他 2,108 2,110 109,399
+    102,932 寿险基金其他资产 银行同业与金融机构的存款 2,763 2,281 贷款 1,225 1,014 投资房地产 2,094 1,939 再保合约资产 1,405 829 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0312
+  title: 25. 银行同业的存放和贷款
+  origin: note
+  pages:
+  - 108
+  - 108
+  printed_pages:
+  - '106'
+  - '106'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0168
+    title: 财务报告附注
+    pages:
+    - 61
+    - 176
+  start_page_text: 24. 政府国库券与证券 集团 银行 百万元 2025 2024 2025 2024 新加坡政府国库券与证券 21,506 14,316 20,451 13,182 其他政府国库券与证券 44,898 30,369
+    22,681 11,196 政府国库券与证券总额 66,404 44,685 43,132 24,378 25. 银行同业的存放和贷款 集团 银行 百万元 2025 2024 2025
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0328
+  title: 34. 房地产、设施与设备
+  origin: note
+  pages:
+  - 123
+  - 124
+  printed_pages:
+  - '121'
+  - '122'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0168
+    title: 财务报告附注
+    pages:
+    - 61
+    - 176
+  start_page_text: 34. 房地产、设施与设备 2025 2024 集团 (百万元) 房地产相关 电脑相关 (1) 其他 总额 房地产相关 电脑相关 (1) 其他 总额 成本 于1月1日 3,816 4,132 759 8,707
+    3,700 3,615 694 8,009 货币折算 (87) (17) (3) (107) 63 45 13 121 增加/修改 431 582 77 1,090 96 528 63 6
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0356
+  title: 资讯安全与数码风险
+  origin: heading
+  pages:
+  - 139
+  - 139
+  printed_pages:
+  - '137'
+  - '137'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0350
+    title: 38.3 市场风险与流动性风险管理
+    pages:
+    - 135
+    - 140
+  start_page_text: 38. 风险管理 (续) 38.3 市场风险与流动性风险管理 (续) 金融负债合约期限 下表按剩余合约期限分析集团的金融负债的未折现现金外流，除了交易投资组合负债是根据集团的交易策略分析。贷款承诺总额的现
+    金外流的资料列于附注43。这些负债的行为现金流量可能与表中所显示的情况有显著差异。举个例子，非银行客户的活期存款如往来 与储蓄存款 (附注17)，可能呈现比合约型态更长的行为到期特性。同样的，贷
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0366
+  title: 马来西亚分部的税后盈利/(亏损)及权益敏感度
+  origin: heading
+  pages:
+  - 145
+  - 145
+  printed_pages:
+  - '143'
+  - '143'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0360
+    title: 38.4 保险相关风险管理
+    pages:
+    - 141
+    - 155
+  start_page_text: 38. 风险管理 (续) 38.4 保险相关风险管理 (续) 保险风险 (续) 寿险合约的保险风险 (续) 新加坡分部的税后盈利/(亏损)及权益敏感度 对1年税后盈利/(亏损)及权益的影响 对税后盈利/(亏损)的影响
+    对权益的影响 百万元 影响总额 再保部分 影响净额 影响总额 再保部分 影响净额 2025 情况1 (271) 169 (102) (299) 190 (109) 情况2 153 (
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0381
+  title: 40. 金融工具的公允价值
+  origin: note
+  pages:
+  - 160
+  - 167
+  printed_pages:
+  - '158'
+  - '165'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0168
+    title: 财务报告附注
+    pages:
+    - 61
+    - 176
+  start_page_text: '40. 金融工具的公允价值 40.1 估价治理框架 集团设有一个针对公允价值计量的治理框架，包括正式化的检讨程序及由不涉及从事有关交易的业务单位所进行的独立公允价值 查证。 GRM的市场风险管理(MRM)职能负责模型验证程序。金融模型用于对金融工具的定价与风险价值(VaR)的计算。MRM通过内部独立
+    验证与定期审查，确保所用的模型符合其目的。MRM采用取自独立来源的市场利率以进行风险测量和估价。 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0382
+  title: 40.1 估价治理框架
+  origin: subnote
+  pages:
+  - 160
+  - 160
+  printed_pages:
+  - '158'
+  - '158'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0381
+    title: 40. 金融工具的公允价值
+    pages:
+    - 160
+    - 167
+  start_page_text: '40. 金融工具的公允价值 40.1 估价治理框架 集团设有一个针对公允价值计量的治理框架，包括正式化的检讨程序及由不涉及从事有关交易的业务单位所进行的独立公允价值 查证。 GRM的市场风险管理(MRM)职能负责模型验证程序。金融模型用于对金融工具的定价与风险价值(VaR)的计算。MRM通过内部独立
+    验证与定期审查，确保所用的模型符合其目的。MRM采用取自独立来源的市场利率以进行风险测量和估价。 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0383
+  title: 买卖价调整
+  origin: heading
+  pages:
+  - 160
+  - 160
+  printed_pages:
+  - '158'
+  - '158'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0382
+    title: 40.1 估价治理框架
+    pages:
+    - 160
+    - 160
+  start_page_text: '40. 金融工具的公允价值 40.1 估价治理框架 集团设有一个针对公允价值计量的治理框架，包括正式化的检讨程序及由不涉及从事有关交易的业务单位所进行的独立公允价值 查证。 GRM的市场风险管理(MRM)职能负责模型验证程序。金融模型用于对金融工具的定价与风险价值(VaR)的计算。MRM通过内部独立
+    验证与定期审查，确保所用的模型符合其目的。MRM采用取自独立来源的市场利率以进行风险测量和估价。 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0420
+  title: 管理委员会 – 履历
+  origin: toc
+  pages:
+  - 183
+  - 187
+  printed_pages:
+  - '181'
+  - '185'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0407
+    title: 了解更多华侨银行资讯
+    pages:
+    - 177
+    - 189
+  start_page_text: 陈德隆先生 集团首席执行官 陈德隆先生于2026年1月1日被任命为华侨 银行集团首席执行官。陈先生同时担任华 侨银行印尼董事总监，以及华侨银行马来 西亚、华侨银行香港、新加坡银行以及大 东方控股的董事。陈先生也现任新加坡银
+    行公会主席、东盟银行家协会主席以及新 加坡银行与金融学院副主席。 陈先生于2022年加入华侨银行，担任环球 企业及投资银行业务总裁，负责全球大中 小型企业、金融机构、环球交易银
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0423
+  title: 郭斯强先生
+  origin: heading
+  pages:
+  - 183
+  - 183
+  printed_pages:
+  - '181'
+  - '181'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0420
+    title: 管理委员会 – 履历
+    pages:
+    - 183
+    - 187
+  start_page_text: 陈德隆先生 集团首席执行官 陈德隆先生于2026年1月1日被任命为华侨 银行集团首席执行官。陈先生同时担任华 侨银行印尼董事总监，以及华侨银行马来 西亚、华侨银行香港、新加坡银行以及大 东方控股的董事。陈先生也现任新加坡银
+    行公会主席、东盟银行家协会主席以及新 加坡银行与金融学院副主席。 陈先生于2022年加入华侨银行，担任环球 企业及投资银行业务总裁，负责全球大中 小型企业、金融机构、环球交易银
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0438
+  title: 高菁菁女士
+  origin: heading
+  pages:
+  - 187
+  - 187
+  printed_pages:
+  - '185'
+  - '185'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0420
+    title: 管理委员会 – 履历
+    pages:
+    - 183
+    - 187
+  start_page_text: 务，包括反洗钱活动，并为涉及管理决策 的条规风险与法律事务提供专业意见， 让管理层能在可接受的法律与条规风险 型态中，根据完备的资讯作出决策。 阮女士在银行与金融领域拥有超过25年 的法律与条规遵循经验。她拥有新加坡
+    国立大学的法律二等荣誉学位，也是 新加坡银行与金融学院 (IBF) 卓越资深 会员。在2017年，阮女士获新加坡企业 法律顾问协会颁发的杰出新加坡首席 法务官奖。 林添福先生 集团审
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0443
+  title: 马来西亚
+  origin: heading
+  pages:
+  - 188
+  - 188
+  printed_pages:
+  - '186'
+  - '186'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0441
+    title: 东南亚
+    pages:
+    - 188
+    - 188
+  start_page_text: '华侨银行在东盟、大中华区及其他各地的业务 东南亚 新加坡 华侨银行有限公司 总部 63 Chulia Street #10-00 OCBC Centre East Singapore 049514 电话:
+    (65) 6363 3333 传真: (65) 6534 3986 www.ocbc.com 在新加坡设有32家分行。 新加坡银行有限公司 总部 63 Market Street #22-00 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0444
+  title: 缅甸
+  origin: heading
+  pages:
+  - 188
+  - 188
+  printed_pages:
+  - '186'
+  - '186'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0441
+    title: 东南亚
+    pages:
+    - 188
+    - 188
+  start_page_text: '华侨银行在东盟、大中华区及其他各地的业务 东南亚 新加坡 华侨银行有限公司 总部 63 Chulia Street #10-00 OCBC Centre East Singapore 049514 电话:
+    (65) 6363 3333 传真: (65) 6534 3986 www.ocbc.com 在新加坡设有32家分行。 新加坡银行有限公司 总部 63 Market Street #22-00 '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_zh:regions:0459
+  title: 美国
+  origin: heading
+  pages:
+  - 189
+  - 189
+  printed_pages:
+  - '187'
+  - '187'
+  parent:
+    node_id: ocbc-group_ar_2025_zh:regions:0458
+    title: 北美洲
+    pages:
+    - 189
+    - 189
+  start_page_text: '东亚 日本 华侨银行有限公司 东京分行 Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku Tokyo 100-6105 Japan
+    电话: (81) 3 5510 7660 韩国 华侨银行有限公司 首尔分行 25th Floor Seoul Finance Center (Taepyung-ro 1-ka) 136 Sejo'
+  verdict: null
+  note: ''

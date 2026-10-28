@@ -1,0 +1,766 @@
+doc_id: ocbc-group_ar_2024_en
+seed: 103
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2024_en:regions:0025
+  title: '>45%'
+  origin: heading
+  pages:
+  - 8
+  - 8
+  printed_pages:
+  - '6'
+  - '6'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0019
+    title: A Year of Achievements
+    pages:
+    - 8
+    - 9
+  start_page_text: A Year of Achievements Banking $7.59 billion Record net profit 1st Singapore bank to launch an individual
+    savings account with debit card for children aged 7 to 15 to operate via the OCBC app with par
+  verdict: wrong
+  note: 'title: ">45%" is a stat-callout figure on the A Year of Achievements page, not a heading'
+- node_id: ocbc-group_ar_2024_en:regions:0042
+  title: Best Private Bank for Digital Wealth Planning – Bank of Singapore
+  origin: heading
+  pages:
+  - 13
+  - 13
+  printed_pages:
+  - '11'
+  - '11'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0036
+    title: Record Total Income
+    pages:
+    - 11
+    - 13
+  start_page_text: 'The Strongest Bank in Singapore, 5th Strongest Bank in Asia Pacific and 10th Strongest Bank in the World
+    The Asian Banker’s 1000 World’s Strongest Banks Bank of the Year – Asia Pacific, Indonesia and '
+  verdict: wrong
+  note: 'title/parent: award name inside the awards callout box on the Chairman letter page (p13); not a section heading,
+    and parent "Record Total Income" is a stat-callout label on p11, not an enclosing heading'
+- node_id: ocbc-group_ar_2024_en:regions:0045
+  title: Best Risk Management (Big Cap – Gold)
+  origin: heading
+  pages:
+  - 13
+  - 13
+  printed_pages:
+  - '11'
+  - '11'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0036
+    title: Record Total Income
+    pages:
+    - 11
+    - 13
+  start_page_text: 'The Strongest Bank in Singapore, 5th Strongest Bank in Asia Pacific and 10th Strongest Bank in the World
+    The Asian Banker’s 1000 World’s Strongest Banks Bank of the Year – Asia Pacific, Indonesia and '
+  verdict: wrong
+  note: 'title/parent: award name inside the awards callout box (p13), not a heading; parent "Record Total Income" is a stat
+    callout'
+- node_id: ocbc-group_ar_2024_en:regions:0079
+  title: Reinforce Strengths
+  origin: heading
+  pages:
+  - 23
+  - 23
+  printed_pages:
+  - '21'
+  - '21'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0076
+    title: Excel for Sustainable Growth
+    pages:
+    - 23
+    - 23
+  start_page_text: 3-year strategy refresh to drive growth and reinforce core strengths Excel for Sustainable Growth Capture
+    rising Asian wealth with our Singapore – Hong Kong hubs and digital propositions Support incre
+  verdict: correct
+  note: card heading "Reinforce Strengths" under the page title "Excel for Sustainable Growth" (contents calls the page "Our
+    Corporate Strategy"); accepted
+- node_id: ocbc-group_ar_2024_en:regions:0084
+  title: Our Net-Zero Progress Update
+  origin: heading
+  pages:
+  - 25
+  - 25
+  printed_pages:
+  - '23'
+  - '23'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0082
+    title: 2024 Sustainability Highlights
+    pages:
+    - 24
+    - 25
+  start_page_text: Please refer to our Sustainability Report for more information by scanning the QR code. Our Net-Zero Progress
+    Update In 2024, we saw good progress in our net-zero journey as we continued to work close
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0088
+  title: China
+  origin: heading
+  pages:
+  - 27
+  - 27
+  printed_pages:
+  - '25'
+  - '25'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0086
+    title: Helping Where It Matters
+    pages:
+    - 27
+    - 27
+  start_page_text: Singapore In 2024, volunteering became more convenient for OCBC volunteers; they have been able to use
+    their lunch breaks to do good and contribute to the community. Each month, we invited beneficiari
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0109
+  title: Remuneration Committee
+  origin: heading
+  pages:
+  - 33
+  - 33
+  printed_pages:
+  - '31'
+  - '31'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0103
+    title: Board Committees
+    pages:
+    - 32
+    - 33
+  start_page_text: Nominating Committee Dr Andrew Khoo, Chairman Mr Andrew Lee Mr Lian Wee Cheow Mr Pramukti Surjaudaja Ms
+    Tan Yen Yen Remuneration Committee Mr Andrew Lee, Chairman Dr Andrew Khoo Mr Pramukti Surjaudaja
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0121
+  title: Teck Long, Global Wholesale Banking
+  origin: toc
+  pages:
+  - 40
+  - 41
+  printed_pages:
+  - '38'
+  - '39'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0111
+    title: Gleaning Our Leaders’ Insights
+    pages:
+    - 36
+    - 51
+  start_page_text: Teck Long Global Wholesale Banking “We remain committed to building on the solid foundations we have established.
+    We are on track to achieve our goal of securing 500 new regional cash management manda
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0124
+  title: Doubling down on innovation
+  origin: heading
+  pages:
+  - 41
+  - 41
+  printed_pages:
+  - '39'
+  - '39'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0121
+    title: Teck Long, Global Wholesale Banking
+    pages:
+    - 40
+    - 41
+  start_page_text: customers in our core markets. In Hong Kong, we launched digital account opening for SMEs, achieving a
+    turnaround time of just one working day. Other best-in-market features included no minimum balanc
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0130
+  title: Jason, CEO, Bank of Singapore
+  origin: toc
+  pages:
+  - 44
+  - 45
+  printed_pages:
+  - '42'
+  - '43'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0111
+    title: Gleaning Our Leaders’ Insights
+    pages:
+    - 36
+    - 51
+  start_page_text: At Bank of Singapore, our mission is to be Asia’s top private bank. To do so, our commitment is to be a
+    trusted advisor to our clients as their primary private bank for all their investments and wealt
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0134
+  title: Kenneth, Global Markets
+  origin: toc
+  pages:
+  - 46
+  - 47
+  printed_pages:
+  - '44'
+  - '45'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0111
+    title: Gleaning Our Leaders’ Insights
+    pages:
+    - 36
+    - 51
+  start_page_text: Kenneth Global Markets “Global Markets achieved more than 50% year-on-year increase in revenue. This growth
+    was driven by the simultaneous outperformance of both customer-facing and market-facing acti
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0135
+  title: Shoring up our capabilities for the future
+  origin: heading
+  pages:
+  - 46
+  - 47
+  printed_pages:
+  - '44'
+  - '45'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0134
+    title: Kenneth, Global Markets
+    pages:
+    - 46
+    - 47
+  start_page_text: Kenneth Global Markets “Global Markets achieved more than 50% year-on-year increase in revenue. This growth
+    was driven by the simultaneous outperformance of both customer-facing and market-facing acti
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0149
+  title: Corporate Governance
+  origin: toc
+  pages:
+  - 52
+  - 71
+  printed_pages:
+  - '50'
+  - '69'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0148
+    title: Governance
+    pages:
+    - 52
+    - 95
+  start_page_text: 'Disclosures made pursuant to the Bank’s corporate governance practices are summarised on pages 68 and
+    69 of this Annual Report. Board Matters Principle 1: The Board’s Conduct of Affairs The Board is e'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0187
+  title: • Impairment of loans to customers
+  origin: heading
+  pages:
+  - 67
+  - 67
+  printed_pages:
+  - '65'
+  - '65'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0186
+    title: External Audit
+    pages:
+    - 66
+    - 67
+  start_page_text: • Impairment of loans to customers The Audit Committee reviewed management’s assessment and justification
+    of allowances for impaired loans and non-impaired loans, including the forward-looking assumpt
+  verdict: correct
+  note: bold bullet key-audit-matter lead-in under External Audit; accepted as a heading
+- node_id: ocbc-group_ar_2024_en:regions:0197
+  title: Related Party Transactions and Interested Person Transactions
+  origin: heading
+  pages:
+  - 69
+  - 69
+  printed_pages:
+  - '67'
+  - '67'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0149
+    title: Corporate Governance
+    pages:
+    - 52
+    - 71
+  start_page_text: The Bank maintains a corporate website – OCBC.com – to communicate and engage with its stakeholders. Related
+    Party Transactions and Interested Person Transactions The Group has established policies an
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0207
+  title: Capital Adequacy Ratios
+  origin: heading
+  pages:
+  - 77
+  - 78
+  printed_pages:
+  - '75'
+  - '76'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0202
+    title: Capital Management
+    pages:
+    - 77
+    - 78
+  start_page_text: Capital Management Capital Policy The key objective of the Group’s capital management policy is to maintain
+    a strong capital position to support business growth and strategic investments, and to susta
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0220
+  title: Risk Appetite
+  origin: heading
+  pages:
+  - 82
+  - 83
+  printed_pages:
+  - '80'
+  - '81'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0209
+    title: Risk Management
+    pages:
+    - 79
+    - 91
+  start_page_text: Business Plan Demand for Risk and Financial Resources to meet our business objectives Risk Appetite Level
+    and nature of risk deemed acceptable while ensuring a sufficient buffer in the Risk and Financ
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0223
+  title: Counterparty credit risk management
+  origin: heading
+  pages:
+  - 83
+  - 83
+  printed_pages:
+  - '81'
+  - '81'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0221
+    title: Credit Risk Management
+    pages:
+    - 83
+    - 86
+  start_page_text: We conduct an annual Internal Capital Adequacy Assessment Process (ICAAP) that incorporates the results
+    of stress tests for various risk types. The aim is to assess whether we are capable of maintaini
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0227
+  title: • Portfolio modelling
+  origin: heading
+  pages:
+  - 84
+  - 85
+  printed_pages:
+  - '82'
+  - '83'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0225
+    title: Credit portfolio management
+    pages:
+    - 84
+    - 85
+  start_page_text: Credit risk mitigation Credit risk mitigation is managed via various measures such as holding collateral,
+    buying credit protection and setting netting arrangements to reduce credit risk exposures. Ris
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0230
+  title: • Portfolio reporting
+  origin: heading
+  pages:
+  - 85
+  - 85
+  printed_pages:
+  - '83'
+  - '83'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0225
+    title: Credit portfolio management
+    pages:
+    - 84
+    - 85
+  start_page_text: 'Table 4: Key Components of Internal Ratings-Based (IRB) Models IRB Models and Portfolios PD LGD and EAD
+    A-IRB approach covers major retail portfolios such as residential mortgages, credit cards, auto '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0232
+  title: Credit loss allowances
+  origin: heading
+  pages:
+  - 86
+  - 86
+  printed_pages:
+  - '84'
+  - '84'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0221
+    title: Credit Risk Management
+    pages:
+    - 83
+    - 86
+  start_page_text: We classify our credit exposures as restructured assets when we grant non-commercial concessions to borrowers
+    who are unable to meet their original repayment obligations. We further classify a restruc
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0254
+  title: Other risk
+  origin: heading
+  pages:
+  - 89
+  - 89
+  printed_pages:
+  - '87'
+  - '87'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0247
+    title: Asset Liability Management
+    pages:
+    - 88
+    - 89
+  start_page_text: • Risk monitoring, reporting and control Interest rate risk positions and metrices are computed at least
+    monthly and closely monitored against approved risk limits and triggers. Interest rate derivati
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0256
+  title: Operational risk management approach
+  origin: heading
+  pages:
+  - 89
+  - 89
+  printed_pages:
+  - '87'
+  - '87'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0255
+    title: Operational Risk Management
+    pages:
+    - 89
+    - 90
+  start_page_text: • Risk monitoring, reporting and control Interest rate risk positions and metrices are computed at least
+    monthly and closely monitored against approved risk limits and triggers. Interest rate derivati
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0288
+  title: Average Balance Sheet
+  origin: heading
+  pages:
+  - 101
+  - 101
+  printed_pages:
+  - '99'
+  - '99'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0287
+    title: Net Interest Income
+    pages:
+    - 101
+    - 101
+  start_page_text: Net Interest Income Average Balance Sheet 2024 2023 Average Balance $ million Interest $ million Average
+    Rate % Average Balance $ million Interest $ million Average Rate % Interest earning assets Loan
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0300
+  title: Global Markets
+  origin: heading
+  pages:
+  - 109
+  - 109
+  printed_pages:
+  - '107'
+  - '107'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0296
+    title: Performance by Business Segment
+    pages:
+    - 108
+    - 109
+  start_page_text: Performance by Business Segment (continued) Global Markets Global Markets is responsible for the management
+    of the Group’s asset and liability interest rate positions, engages in foreign exchange acti
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0303
+  title: Performance by Geographical Segment
+  origin: heading
+  pages:
+  - 110
+  - 110
+  printed_pages:
+  - '108'
+  - '108'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0281
+    title: Management Discussion and Analysis
+    pages:
+    - 96
+    - 110
+  start_page_text: Performance by Geographical Segment 2024 2023 $ million % $ million % Total income Singapore 8,913 62 8,360
+    62 Malaysia 1,655 11 1,524 11 Indonesia 1,085 8 1,035 8 Greater China 1,863 13 1,774 13 Othe
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0346
+  title: 2.6 Non-Derivative Financial Assets Classification and Measurement of Financial Assets
+  origin: subnote
+  pages:
+  - 135
+  - 136
+  printed_pages:
+  - '133'
+  - '134'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0340
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.5 Financial Instruments (continued) 2.5.3 Modifications
+    (continued) Interest Rate Benchmark Reform (IBOR Reform) (continued) If there are change
+  verdict: wrong
+  note: 'title: merges "2.6 Non-Derivative Financial Assets" (10pt) with the lower-level subheading "Classification and Measurement
+    of Financial Assets" (9pt) -- text merged from two headings'
+- node_id: ocbc-group_ar_2024_en:regions:0377
+  title: 13.4 Deferred Share Plan
+  origin: subnote
+  pages:
+  - 165
+  - 165
+  printed_pages:
+  - '163'
+  - '163'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0373
+    title: 13. Share Capital
+    pages:
+    - 163
+    - 165
+  start_page_text: '13. Share Capital (continued) 13.3 Employee Share Purchase Plan (continued) Movements in the number of
+    acquisition rights of the ESP Plan are as follows: 2024 2023 Number of acquisition rights (‘000) '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0391
+  title: 21.2 Fixed and Floating Rate Notes
+  origin: subnote
+  pages:
+  - 176
+  - 176
+  printed_pages:
+  - '174'
+  - '174'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0389
+    title: 21. Debt Issued
+    pages:
+    - 174
+    - 178
+  start_page_text: '21. Debt Issued (continued) 21.2 Fixed and Floating Rate Notes GROUP 2024 2023 Note Issue date Maturity
+    date $ million $ million Issued by the Bank: AUD460 million floating rate notes (a) 18 Mar 2021 '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0419
+  title: 34. Property, Plant and Equipment
+  origin: note
+  pages:
+  - 200
+  - 201
+  printed_pages:
+  - '198'
+  - '199'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0338
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 263
+  start_page_text: 34. Property, Plant and Equipment 2024 2023 GROUP ($ million) Property- related Computer- related (1) Others
+    Total Property- related Computer- related (1) Others Total Cost At 1 January 3,700 3,615 69
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0424
+  title: 37.2 Geographical Segments
+  origin: subnote
+  pages:
+  - 207
+  - 207
+  printed_pages:
+  - '205'
+  - '205'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0422
+    title: 37. Segment Information
+    pages:
+    - 205
+    - 207
+  start_page_text: 37. Segment Information (continued) 37.1 Business Segments (continued) Global Markets Global Markets is
+    responsible for the management of the Group’s asset and liability interest rate positions, engag
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0430
+  title: 39. Financial Assets and Financial Liabilities Classification
+  origin: note
+  pages:
+  - 243
+  - 246
+  printed_pages:
+  - '241'
+  - '244'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0338
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 263
+  start_page_text: '39. Financial Assets and Financial Liabilities Classification GROUP $ million Mandatorily measured at
+    FVTPL Designated as FVTPL Amortised cost FVOCI Insurance contracts Total 2024 Cash and placements '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0467
+  title: Academic and Professional Qualification
+  origin: heading
+  pages:
+  - 272
+  - 272
+  printed_pages:
+  - '270'
+  - '270'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0466
+    title: Ms Helen Wong (63)
+    pages:
+    - 272
+    - 272
+  start_page_text: Ms Wong has over 40 years of banking experience with deep knowledge of Greater China. She spent 27 years
+    at HSBC where her last held role was the Chief Executive for Greater China. Other Directorships
+  verdict: wrong
+  note: 'title: "Academic and Professional Qualification" is a field label in the director profile template (alongside "Length
+    of Service as a Director", "Country of Principal Residence"); doubtful -- could be read as a bio subheading'
+- node_id: ocbc-group_ar_2024_en:regions:0470
+  title: Group Chief Executive Officer
+  origin: heading
+  pages:
+  - 273
+  - 273
+  printed_pages:
+  - '271'
+  - '271'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0469
+    title: Ms Helen Wong
+    pages:
+    - 273
+    - 273
+  start_page_text: Our Management – Biographies Ms Helen Wong Group Chief Executive Officer Ms Helen Wong was appointed Group
+    Chief Executive Officer of OCBC on 15 April 2021 and Executive Director on 7 February 2023. S
+  verdict: wrong
+  note: 'title: "Group Chief Executive Officer" is the job-title line under the name Ms Helen Wong (rubric example of a field
+    label)'
+- node_id: ocbc-group_ar_2024_en:regions:0472
+  title: Mr Noel Gerald DCruz
+  origin: heading
+  pages:
+  - 273
+  - 273
+  printed_pages:
+  - '271'
+  - '271'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0468
+    title: Our Management – Biographies
+    pages:
+    - 273
+    - 277
+  start_page_text: Our Management – Biographies Ms Helen Wong Group Chief Executive Officer Ms Helen Wong was appointed Group
+    Chief Executive Officer of OCBC on 15 April 2021 and Executive Director on 7 February 2023. S
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0486
+  title: Group Operations and Technology
+  origin: heading
+  pages:
+  - 276
+  - 276
+  printed_pages:
+  - '274'
+  - '274'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0485
+    title: Mr Praveen Raina
+    pages:
+    - 276
+    - 276
+  start_page_text: Our Management – Biographies businesses, serving start-ups, SMEs, mid-cap corporates and financial institutions
+    globally. He joined OCBC in April 2004 as Group Managing Director and Head of Internatio
+  verdict: wrong
+  note: 'title: "Group Operations and Technology" is the job-title line under Mr Praveen Raina, not a heading'
+- node_id: ocbc-group_ar_2024_en:regions:0493
+  title: Ms Koh Ching Ching
+  origin: heading
+  pages:
+  - 277
+  - 277
+  printed_pages:
+  - '275'
+  - '275'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0468
+    title: Our Management – Biographies
+    pages:
+    - 273
+    - 277
+  start_page_text: June 2022. As the Head of Group Human Resources, she is committed to driving people strategy in alignment
+    with OCBC Group’s overall objectives and fostering a culture of learning and development, coll
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0500
+  title: Brunei
+  origin: heading
+  pages:
+  - 278
+  - 278
+  printed_pages:
+  - '276'
+  - '276'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0499
+    title: Southeast Asia
+    pages:
+    - 278
+    - 278
+  start_page_text: 'OCBC’s Presence in ASEAN, Greater China and Beyond Southeast Asia Singapore OCBC Bank Limited Head Office
+    63 Chulia Street #10-00 OCBC Centre East Singapore 049514 Tel: (65) 6363 3333 Fax: (65) 6534 3'
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0522
+  title: Australia
+  origin: heading
+  pages:
+  - 279
+  - 279
+  printed_pages:
+  - '277'
+  - '277'
+  parent:
+    node_id: ocbc-group_ar_2024_en:regions:0521
+    title: Oceania
+    pages:
+    - 279
+    - 279
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: correct
+  note: ''
+- node_id: ocbc-group_ar_2024_en:regions:0525
+  title: What You Should Look Out For
+  origin: toc_group
+  pages:
+  - 280
+  - 284
+  printed_pages:
+  - '278'
+  - '282'
+  parent: null
+  start_page_text: Financial Calendar February 26 February 2025 Announcement of full year results for 2024 April 17 April
+    2025 Annual General Meeting May May 2025 Announcement of first quarter results for 2025 On or abo
+  verdict: correct
+  note: toc_group title printed only on contents page; accepted per kb rule

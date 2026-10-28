@@ -1,0 +1,11 @@
+# Recall losses of W1 approved by the project owner as explained exceptions (2026-10-27, decision "W1 residual").
+# Used by: kb-core eval compare <baseline> <new> --exceptions eval/results/w1/exceptions.yaml --pr 13
+exceptions:
+  - {id: q05, variant: no_year, field: node_hit_rank, pr: 13, approved_by: project-owner,
+     reason: "real accounting-policy sub-headings (now nodes) out-rank note 28 when no year filter is set"}
+  - {id: q05, variant: no_year, field: page_hit_rank, page_hit: true, pr: 13, approved_by: project-owner,
+     reason: "same as the node hit: the gold page's node falls out of the top 5"}
+  - {id: v05, variant: cross_year, field: node_hit, pr: 13, approved_by: project-owner,
+     reason: "the 2023 gold page moved from rank 10 to rank 11 of a 10-result list after the continued-heading fix"}
+  - {id: v05, variant: cross_year, field: page_hit, page_hit: true, pr: 13, approved_by: project-owner,
+     reason: "same rank-boundary move as the node hit"}

@@ -1,0 +1,16 @@
+# search fusion rule (a) (p1b-report §9 item 1, confirmed by the user 2026-10-16): title-route and summary-route hits count toward RRF, and can count as structure, only when
+# "the IDF-weighted share of the query's information tokens that were hit" reaches the threshold.
+# - information tokens: tokens after removing low-information tokens in the domain pack's low_info_terms.yaml (domains/banking/) and years; alias units keep all their tokens (a spelling is a phrase);
+# - units: a metric matched in the concept table (domain pack concepts.yaml) is one unit, hit only if all tokens of one spelling appear (metric names are phrases; no partial credit);
+#   every other information token is its own unit;
+# - IDF: computed over page text of all loaded documents (document = page), idf = ln(1 + (N - df + 0.5) / (df + 0.5));
+#   not computed from the title vocabulary itself: it is too small, so a rare keyword (e.g. "大东方控股") has df = 0 in titles and would wrongly be ignored as unmatchable;
+# - units that appear on no page in the library (df = 0) are left out of the denominator (no node could hit them);
+# - the page route is unaffected. A query with no information tokens has coverage 1.
+# Restart the service after editing this file or the domain pack's concepts.yaml / low_info_terms.yaml (cached per process; trace events record each version).
+# link_per_group (D39, P2-2): max link results (concept-route hits) per group; the rest return to their original layer; within the link layer, ordered by confidence,
+#   then the other three routes' RRF score, then source_rank. Cap sweep (1/2/3/5) in p2b-report: 1-3 tie on the main metric (21/21), declines from 5; the user chose 2 (D39); secondary metric 18/21 at 1, 17/21 at 2.
+# Threshold chosen by threshold sweep (data/p1/sweep/, p1c-report); env var KB_COVERAGE_THRESHOLD is only for eval sweeps to override it.
+version: 3
+coverage_threshold: 0.5
+link_per_group: 2

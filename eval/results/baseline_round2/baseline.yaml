@@ -1,0 +1,61 @@
+# Round 2 regression baseline (plan T0.3). Taken 2026-10-27 on main dea140d after a rebuild from the six delivery
+# packages (import, build --all, facts, reindex). Every round 2 PR compares against these numbers; a PR that lowers
+# any of them does not merge. Recall files compare with `kb-core eval compare <baseline> <new>`.
+commit: dea140d
+recall:
+  dev: recall_20261027T181900-1001fd.json            # p1_questions p1_crossyear p1_v3
+  heldout_old16: recall_20261027T181912-9630bd.json  # p2_heldout
+  with_year: 21/21
+  without_year: 19/21
+  cross_year: 9/10
+  x01_page_hit: true
+  heldout_legacy: 3/3
+  heldout_old16: 3/16
+reindex_invariance:
+  after_reindex_dev: recall_20261027T193201-305271.json
+  after_reindex_heldout: recall_20261027T193206-8542bd.json
+  topk_lists_changed: 0 of 69 (dev), 0 of 35 (held-out)
+facts:
+  observations: 408
+  facts: 89
+  agreed: 83
+  single: 6
+  conflict: 0
+  metrics_covered: 14 of 15
+concept_tags:  # judged sheets eval/results/concepts_{en,zh}_107.judged.yaml
+  en: 35/40 judged; 36/40 re-scored on current tags (see note)
+  zh: 37/40 judged; 37/40 re-scored on current tags
+  note: >-
+    One en item changed after judging: "Volume and Rate Analysis" (2025 en p101) lost customer_deposits and
+    customer_loans, exactly the two tags the judge marked wrong; its remaining tag nii was judged correct. Re-scored by
+    matching items on doc, title and pages (node ids were renumbered by the step-2 heading fix).
+tree:
+  spot_check: 204/240 = 85% (seed 105, judged before the step-2 heading fix; W1 re-measures)
+build:
+  nodes: 2552
+  pages: 1472
+  node_concept_rows: 714
+  rebuild_identical: true  # content digest, node tags and fact values equal before and after the rebuild
+tests:
+  pytest: 350 passed (live PG 17.6, ES 8.19, ES 7.10)
+  import_linter: 1 contract kept
+  checks: assets (28), contract copy (reads kb-intake's contract schemas in the kb-intake repository), constraints
+input_trace: input_trace.json  # T0.1: files Python opened, sockets and subprocesses during the rebuild and both evals
+snapshot: snapshot.json  # kb-core eval snapshot: fact counts and recorded per-document tree accuracy (seed 105 sheets)
+concept_tags_fresh:  # W2 baseline (project owner, 2026-10-27): fresh seeds judged on the T0 build, not used to tune round 1
+  en: 38/40 nodes, 145/150 tags (eval/results/concepts_en_208.judged.yaml)
+  zh: 36/40 nodes, 94/98 tags (eval/results/concepts_zh_208.judged.yaml)
+gate:  # how every round 2 PR is checked (kb-core eval compare BASE NEW [--exceptions FILE])
+  recall: >-
+    recall files against recall_20261027T181900-1001fd.json (dev) and recall_20261027T181912-9630bd.json (old 16):
+    any lower count, fewer questions, a missing question or a per-question lost hit fails.
+  facts_and_tree: >-
+    kb-core eval snapshot NEW.json, compared against snapshot.json. The tree block compares recorded judgements
+    (kb-core eval tree --record), not the current tree: a PR that changes the tree must judge and record sheets again.
+    A different sample (seed, sheet, size), more single-source facts or a restated change is listed for review.
+  exceptions: >-
+    only a lost NODE hit caused by a W1 tree change (a gold node split or merged) can be excepted; each entry names
+    the question, variant, field, reason, approved_by (project owner) and the pr it was approved for, and applies only with
+    `--pr` of that PR. Approved entries that match nothing are listed. Nothing is waived automatically; approved_by is
+    not verifiable by the tool, so every exception is listed in the PR description for the project owner.
+  w3: the regression runs with the full-access subject; the public role is reported separately, outside the gate.

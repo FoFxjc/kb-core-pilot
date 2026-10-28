@@ -1,0 +1,747 @@
+{
+ "public (real time, before embargo)": [
+  {
+   "q": "What was OCBC's NPL ratio at the end of ",
+   "evidence": [
+    [
+     "2025_zh",
+     110
+    ],
+    [
+     "2025_zh",
+     25
+    ],
+    [
+     "2025_zh",
+     9
+    ],
+    [
+     "2025_zh",
+     5
+    ],
+    [
+     "2025_zh",
+     189
+    ],
+    [
+     "2025_zh",
+     13
+    ],
+    [
+     "2025_zh",
+     142
+    ],
+    [
+     "2025_zh",
+     151
+    ],
+    [
+     "2025_zh",
+     136
+    ],
+    [
+     "2025_zh",
+     36
+    ]
+   ],
+   "counts": {
+    "2025": 183
+   },
+   "gaps": [
+    "unlinked_text_only"
+   ]
+  },
+  {
+   "q": "liquidity coverage ratio 2025",
+   "evidence": [
+    [
+     "2025_zh",
+     75
+    ],
+    [
+     "2025_zh",
+     74
+    ],
+    [
+     "2025_zh",
+     151
+    ],
+    [
+     "2025_zh",
+     136
+    ],
+    [
+     "2025_zh",
+     76
+    ],
+    [
+     "2025_zh",
+     5
+    ],
+    [
+     "2025_zh",
+     51
+    ],
+    [
+     "2025_zh",
+     25
+    ],
+    [
+     "2025_zh",
+     47
+    ],
+    [
+     "2025_zh",
+     137
+    ]
+   ],
+   "counts": {
+    "2025": 179
+   },
+   "gaps": [
+    "unlinked_text_only"
+   ]
+  },
+  {
+   "q": "net interest margin 2025",
+   "evidence": [],
+   "counts": {},
+   "gaps": [
+    "empty_scope"
+   ]
+  },
+  {
+   "q": "net_profit",
+   "facts": [
+    [
+     2024,
+     7587000000,
+     "agreed",
+     "2024_en"
+    ],
+    [
+     2025,
+     7422000000,
+     "single",
+     "2025_zh"
+    ]
+   ],
+   "gaps": [
+    "single_source"
+   ]
+  },
+  {
+   "q": "nim",
+   "facts": [
+    [
+     2024,
+     2.2,
+     "single",
+     "2024_en"
+    ]
+   ],
+   "gaps": [
+    "period_unavailable",
+    "single_source"
+   ]
+  }
+ ],
+ "finance_analyst (real time, before embargo)": [
+  {
+   "q": "What was OCBC's NPL ratio at the end of ",
+   "evidence": [
+    [
+     "2025_zh",
+     110
+    ],
+    [
+     "2025_zh",
+     25
+    ],
+    [
+     "2025_zh",
+     9
+    ],
+    [
+     "2025_zh",
+     5
+    ],
+    [
+     "2025_zh",
+     189
+    ],
+    [
+     "2025_zh",
+     13
+    ],
+    [
+     "2025_zh",
+     142
+    ],
+    [
+     "2025_zh",
+     151
+    ],
+    [
+     "2025_zh",
+     136
+    ],
+    [
+     "2025_zh",
+     36
+    ]
+   ],
+   "counts": {
+    "2025": 183
+   },
+   "gaps": [
+    "unlinked_text_only"
+   ]
+  },
+  {
+   "q": "liquidity coverage ratio 2025",
+   "evidence": [
+    [
+     "2025_zh",
+     75
+    ],
+    [
+     "2025_zh",
+     74
+    ],
+    [
+     "2025_zh",
+     151
+    ],
+    [
+     "2025_zh",
+     136
+    ],
+    [
+     "2025_zh",
+     76
+    ],
+    [
+     "2025_zh",
+     5
+    ],
+    [
+     "2025_zh",
+     51
+    ],
+    [
+     "2025_zh",
+     25
+    ],
+    [
+     "2025_zh",
+     47
+    ],
+    [
+     "2025_zh",
+     137
+    ]
+   ],
+   "counts": {
+    "2025": 179
+   },
+   "gaps": [
+    "unlinked_text_only"
+   ]
+  },
+  {
+   "q": "net interest margin 2025",
+   "evidence": [],
+   "counts": {},
+   "gaps": [
+    "empty_scope"
+   ]
+  },
+  {
+   "q": "net_profit",
+   "facts": [
+    [
+     2024,
+     7587000000,
+     "agreed",
+     "2024_en"
+    ],
+    [
+     2025,
+     7422000000,
+     "single",
+     "2025_zh"
+    ]
+   ],
+   "gaps": [
+    "single_source"
+   ]
+  },
+  {
+   "q": "nim",
+   "facts": [
+    [
+     2024,
+     2.2,
+     "single",
+     "2024_en"
+    ]
+   ],
+   "gaps": [
+    "period_unavailable",
+    "single_source"
+   ]
+  }
+ ],
+ "finance_confidential (real time, before embargo)": [
+  {
+   "q": "What was OCBC's NPL ratio at the end of ",
+   "evidence": [
+    [
+     "2025_en",
+     98
+    ],
+    [
+     "2025_en",
+     98
+    ],
+    [
+     "2025_en",
+     100
+    ],
+    [
+     "2025_en",
+     105
+    ],
+    [
+     "2025_en",
+     9
+    ],
+    [
+     "2025_en",
+     13
+    ],
+    [
+     "2025_en",
+     25
+    ],
+    [
+     "2025_en",
+     38
+    ],
+    [
+     "2025_en",
+     112
+    ],
+    [
+     "2025_en",
+     24
+    ],
+    [
+     "2025_en",
+     5
+    ]
+   ],
+   "counts": {
+    "2025": 454
+   },
+   "gaps": [
+    "tree_quality_low"
+   ]
+  },
+  {
+   "q": "liquidity coverage ratio 2025",
+   "evidence": [
+    [
+     "2025_en",
+     98
+    ],
+    [
+     "2025_en",
+     79
+    ],
+    [
+     "2025_en",
+     79
+    ],
+    [
+     "2025_en",
+     79
+    ],
+    [
+     "2025_en",
+     100
+    ],
+    [
+     "2025_en",
+     25
+    ],
+    [
+     "2025_en",
+     9
+    ],
+    [
+     "2025_en",
+     5
+    ],
+    [
+     "2025_en",
+     13
+    ],
+    [
+     "2025_zh",
+     75
+    ]
+   ],
+   "counts": {
+    "2025": 433
+   },
+   "gaps": [
+    "tree_quality_low"
+   ]
+  },
+  {
+   "q": "net interest margin 2025",
+   "evidence": [
+    [
+     "2025_en",
+     98
+    ],
+    [
+     "2025_en",
+     98
+    ],
+    [
+     "2025_en",
+     101
+    ],
+    [
+     "2025_en",
+     186
+    ],
+    [
+     "2025_en",
+     156
+    ],
+    [
+     "2025_en",
+     159
+    ],
+    [
+     "2025_en",
+     24
+    ],
+    [
+     "2025_en",
+     125
+    ],
+    [
+     "2025_en",
+     157
+    ],
+    [
+     "2025_en",
+     253
+    ],
+    [
+     "2025_en",
+     215
+    ]
+   ],
+   "counts": {
+    "2025": 262
+   },
+   "gaps": [
+    "parallel_doc_available",
+    "tree_quality_low"
+   ]
+  },
+  {
+   "q": "net_profit",
+   "facts": [
+    [
+     2024,
+     7587000000,
+     "agreed",
+     "2024_en"
+    ],
+    [
+     2025,
+     7422000000,
+     "agreed",
+     "2025_en"
+    ]
+   ],
+   "gaps": []
+  },
+  {
+   "q": "nim",
+   "facts": [
+    [
+     2024,
+     2.2,
+     "agreed",
+     "2024_en"
+    ],
+    [
+     2025,
+     1.91,
+     "single",
+     "2025_en"
+    ]
+   ],
+   "gaps": [
+    "single_source"
+   ]
+  }
+ ],
+ "finance_analyst (after embargo, test clock)": [
+  {
+   "q": "What was OCBC's NPL ratio at the end of ",
+   "evidence": [
+    [
+     "2025_en",
+     9
+    ],
+    [
+     "2025_en",
+     13
+    ],
+    [
+     "2025_en",
+     25
+    ],
+    [
+     "2025_en",
+     38
+    ],
+    [
+     "2025_en",
+     112
+    ],
+    [
+     "2025_en",
+     24
+    ],
+    [
+     "2025_en",
+     5
+    ],
+    [
+     "2025_en",
+     90
+    ],
+    [
+     "2025_en",
+     119
+    ],
+    [
+     "2025_en",
+     189
+    ]
+   ],
+   "counts": {
+    "2025": 440
+   },
+   "gaps": [
+    "tree_quality_low",
+    "unlinked_text_only"
+   ]
+  },
+  {
+   "q": "liquidity coverage ratio 2025",
+   "evidence": [
+    [
+     "2025_en",
+     79
+    ],
+    [
+     "2025_en",
+     79
+    ],
+    [
+     "2025_en",
+     79
+    ],
+    [
+     "2025_en",
+     25
+    ],
+    [
+     "2025_en",
+     9
+    ],
+    [
+     "2025_en",
+     5
+    ],
+    [
+     "2025_en",
+     13
+    ],
+    [
+     "2025_zh",
+     75
+    ],
+    [
+     "2025_zh",
+     74
+    ],
+    [
+     "2025_zh",
+     151
+    ]
+   ],
+   "counts": {
+    "2025": 419
+   },
+   "gaps": [
+    "tree_quality_low"
+   ]
+  },
+  {
+   "q": "net interest margin 2025",
+   "evidence": [
+    [
+     "2025_en",
+     186
+    ],
+    [
+     "2025_en",
+     156
+    ],
+    [
+     "2025_en",
+     159
+    ],
+    [
+     "2025_en",
+     24
+    ],
+    [
+     "2025_en",
+     125
+    ],
+    [
+     "2025_en",
+     157
+    ],
+    [
+     "2025_en",
+     253
+    ],
+    [
+     "2025_en",
+     215
+    ],
+    [
+     "2025_en",
+     188
+    ],
+    [
+     "2025_en",
+     9
+    ]
+   ],
+   "counts": {
+    "2025": 248
+   },
+   "gaps": [
+    "parallel_doc_available",
+    "tree_quality_low",
+    "unlinked_text_only"
+   ]
+  },
+  {
+   "q": "net_profit",
+   "facts": [
+    [
+     2024,
+     7587000000,
+     "agreed",
+     "2024_en"
+    ],
+    [
+     2025,
+     7422000000,
+     "agreed",
+     "2025_en"
+    ]
+   ],
+   "gaps": []
+  },
+  {
+   "q": "nim",
+   "facts": [
+    [
+     2024,
+     2.2,
+     "single",
+     "2024_en"
+    ]
+   ],
+   "gaps": [
+    "period_unavailable",
+    "single_source"
+   ]
+  }
+ ],
+ "embargo flip (finance_analyst, en 2025 only)": {
+  "before": [],
+  "before_gaps": [
+   "empty_scope"
+  ],
+  "after": [
+   [
+    "2025_en",
+    [
+     4,
+     4
+    ]
+   ],
+   [
+    "2025_en",
+    [
+     4,
+     4
+    ]
+   ],
+   [
+    "2025_en",
+    [
+     9,
+     9
+    ]
+   ],
+   [
+    "2025_en",
+    [
+     4,
+     15
+    ]
+   ],
+   [
+    "2025_en",
+    [
+     25,
+     25
+    ]
+   ]
+  ],
+  "query": "net profit 2025 five-year summary",
+  "clock_before": "2026-11-14T23:00:00+08:00",
+  "clock_after": "2026-11-15T01:00:00+08:00",
+  "embargo_until": "2026-11-15T00:00:00+08:00"
+ },
+ "same error (public)": {
+  "hidden_doc": [
+   "UNKNOWN_DOC",
+   "unknown doc_id: 'ocbc-group_ar_2025_en'"
+  ],
+  "missing_doc": [
+   "UNKNOWN_DOC",
+   "unknown doc_id: 'ocbc-group_ar_2099_en'"
+  ],
+  "finance_confidential": "OK"
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "facts": {
+  "observations": 408,
+  "facts": 89,
+  "agreed": 83,
+  "single": 6,
+  "conflict": 0,
+  "restated": 0,
+  "metrics_covered": [
+   "cet1_ratio",
+   "cost_to_income",
+   "customer_deposits",
+   "customer_loans",
+   "dps",
+   "eps",
+   "nav_per_share",
+   "net_profit",
+   "nii",
+   "nim",
+   "npl_ratio",
+   "roe",
+   "total_assets",
+   "total_income"
+  ]
+ },
+ "tree": {
+  "ocbc-group_ar_2023_en": {
+   "value": 0.825,
+   "correct": 33,
+   "sampled": 40,
+   "seed": 105,
+   "sheet": "tree_ocbc-group_ar_2023_en_105.judged.yaml"
+  },
+  "ocbc-group_ar_2023_zh": {
+   "value": 0.875,
+   "correct": 35,
+   "sampled": 40,
+   "seed": 105,
+   "sheet": "tree_ocbc-group_ar_2023_zh_105.judged.yaml"
+  },
+  "ocbc-group_ar_2024_en": {
+   "value": 0.85,
+   "correct": 34,
+   "sampled": 40,
+   "seed": 105,
+   "sheet": "tree_ocbc-group_ar_2024_en_105.judged.yaml"
+  },
+  "ocbc-group_ar_2024_zh": {
+   "value": 0.825,
+   "correct": 33,
+   "sampled": 40,
+   "seed": 105,
+   "sheet": "tree_ocbc-group_ar_2024_zh_105.judged.yaml"
+  },
+  "ocbc-group_ar_2025_en": {
+   "value": 0.925,
+   "correct": 37,
+   "sampled": 40,
+   "seed": 105,
+   "sheet": "tree_ocbc-group_ar_2025_en_105.judged.yaml"
+  },
+  "ocbc-group_ar_2025_zh": {
+   "value": 0.8,
+   "correct": 32,
+   "sampled": 40,
+   "seed": 105,
+   "sheet": "tree_ocbc-group_ar_2025_zh_105.judged.yaml"
+  }
+ }
+}

@@ -1,0 +1,333 @@
+doc_id: ocbc-group_ar_2023_zh
+seed: 302
+page_count: 220
+protocol: 'Round 2 T1.2 heading list on a seeded page sample. For each sampled physical page, list every heading that STARTS
+  a section on that page, as printed (eval/tree_rubric.md criterion 1: no body text, table row labels or column headers, chart
+  labels, captions, stat callouts, field labels, signatory names, running headers or ''(continued)'' repeats). Contents-page
+  entries are not headings of the contents page.'
+pages:
+- page: 8
+  headings:
+  - title: 财务业绩创新高
+    level: 3
+  - title: 更高的可持续股息
+    level: 3
+  - title: 更新我们的宗旨、价值观和使命
+    level: 3
+  note: Chairman's statement starts here with no printed title; excluded the name caption '李国庆 主席' and the salutation '尊敬的股东：'
+    (doubtful).
+- page: 10
+  headings: []
+  note: Group CEO letter starts here with no printed title; only name caption '黄碧娟' and salutation '尊敬的股东:' (excluded, doubtful).
+- page: 14
+  headings:
+  - title: 集团一体，展现优势
+    level: 2
+  - title: 银行业
+    level: 3
+  - title: 财富管理
+    level: 3
+  note: Map labels (欧洲, 中东) and the 13pt intro paragraph excluded.
+- page: 20
+  headings:
+  - title: 宗旨
+    level: 3
+  - title: 价值观
+    level: 3
+  - title: 使命
+    level: 3
+  - title: 我们的品牌承诺
+    level: 3
+  note: Value-card labels (永恒价值, 诚信, 前瞻, 尊重, 责任) and brand-promise boxes excluded (doubtful, card labels).
+- page: 29
+  headings:
+  - title: 吉隆坡
+    level: 4
+  - title: 澳门
+    level: 4
+  - title: 香港
+    level: 4
+  - title: 华侨银行水上运动
+    level: 3
+  note: City sub-headings under 华侨银行骑车乐 (p28).
+- page: 33
+  headings: []
+  note: 'Management photo grid: names under photos are captions/field labels.'
+- page: 49
+  headings:
+  - title: 信贷损失准备金
+    level: 4
+  - title: 市场风险管理
+    level: 3
+  - title: 市场风险管理方法
+    level: 4
+  - title: 市场风险识别
+    level: 4
+  - title: 市场风险的度量
+    level: 4
+  - title: 风险价值
+    level: 5
+  note: 'Excluded figure title ''信贷风险的阶段与预期信贷损失(ECL)'', its stage boxes and table title ''表5: 按风险类型划分的VaR – 交易组合''.'
+- page: 51
+  headings:
+  - title: 银行同业拆息利率(IBOR)的过渡
+    level: 4
+  - title: 资产负债管理
+    level: 3
+  - title: 资产负债管理方法
+    level: 4
+  - title: 流动性风险
+    level: 4
+  - title: 流动性风险识别
+    level: 5
+  - title: 流动性风险度量
+    level: 5
+  - title: 流动性压力测试
+    level: 5
+  - title: 流动性风险监测、报告及控制
+    level: 5
+  note: ''
+- page: 57
+  headings:
+  - title: 董事声明
+    level: 2
+  - title: 董事
+    level: 3
+  - title: 授权董事购得股票或债券的安排
+    level: 3
+  note: ''
+- page: 75
+  headings: []
+  note: Statement of changes in equity – Group continued; bold items are table rows.
+- page: 87
+  headings:
+  - title: 2.13.5 合约界限
+    level: 5
+  - title: 2.13.6 计量
+    level: 5
+  - title: 2.13.6.1 计量 - 并非根据PAA计量的合约
+    level: 6
+  - title: 2.13.6.2 履行合约现金流量(FCF)
+    level: 6
+  - title: 2.13.6.3 合同服务边际
+    level: 6
+  note: Note 2 / 2.13 / 2.13.4 are continued repeats.
+- page: 94
+  headings:
+  - title: 非金融风险的风险调整
+    level: 6
+  - title: 未来现金流量的估计
+    level: 6
+  note: Underlined sub-headings under 2.20.3 保险业务(续).
+- page: 97
+  headings:
+  - title: 3. 净利息收入
+    level: 3
+  - title: 4. 来自寿险的保险服务业绩和净投资与金融收入/(支出)
+    level: 3
+  - title: 来自寿险的保险服务业绩
+    level: 4
+  note: 'Doubtful: underlined ''来自寿险的保险服务业绩'' heads the following table. Other bold items are table rows.'
+- page: 102
+  headings:
+  - title: 10. 贷款与其他资产准备金
+    level: 3
+  - title: 11. 所得税支出
+    level: 3
+  note: ''
+- page: 105
+  headings:
+  - title: 13.3 雇员股票购买计划
+    level: 4
+  note: 13 / 13.2 are continued repeats.
+- page: 113
+  headings: []
+  note: Only '18. 衍生金融工具(续)'; bold items are table rows.
+- page: 122
+  headings:
+  - title: 22.2 寿险的保险合约结存的计量部分之对账
+    level: 4
+  note: Bold items are table rows.
+- page: 129
+  headings:
+  - title: 按行业分析
+    level: 4
+  note: Unnumbered 10pt sub-heading of note 28; 集团/银行 are table labels.
+- page: 137
+  headings:
+  - title: 32.2 实质联号企业财务资料
+    level: 4
+  note: Bold items are table labels.
+- page: 138
+  headings:
+  - title: 33. 附属公司
+    level: 3
+  note: 32.2 is a continued repeat; bold items are table labels.
+- page: 140
+  headings:
+  - title: 33.2 在附属公司的非控股股东权益
+    level: 4
+  - title: 33.3 合并结构实体
+    level: 4
+  note: '''财务资料总结'' etc. are table labels.'
+- page: 142
+  headings: []
+  note: Only continued repeat of note 34; table rows.
+- page: 143
+  headings:
+  - title: 35. 投资房地产
+    level: 3
+  note: Bold items are table rows.
+- page: 150
+  headings:
+  - title: 38.2 信贷风险
+    level: 4
+  - title: 最大信贷风险敞口
+    level: 5
+  - title: 抵押品
+    level: 5
+  note: Bold table rows excluded.
+- page: 164
+  headings:
+  - title: 非寿险合约的保险风险
+    level: 6
+  - title: 关键假设
+    level: 7
+  note: Doubtful levels; (a) 按业务类型 / (b) 按国家 are table group labels.
+- page: 165
+  headings:
+  - title: 累积索赔估计与至今累积给付
+    level: 7
+  note: (i) caption and (a)/(b)/(c) items are table labels.
+- page: 168
+  headings: []
+  note: Only continued repeats and table labels.
+- page: 169
+  headings:
+  - title: (c) 股本价格风险
+    level: 6
+  - title: (d) 信贷息差风险
+    level: 6
+  - title: (e) 替代投资风险
+    level: 6
+  - title: (f) 商品期货风险
+    level: 6
+  - title: (g) 流动性风险
+    level: 6
+  note: ''
+- page: 170
+  headings: []
+  note: Only continued repeats and table labels.
+- page: 174
+  headings: []
+  note: Only continued repeats and table labels.
+- page: 181
+  headings:
+  - title: (j) 金融风险敏感度分析
+    level: 6
+  - title: 市场风险敏感度分析
+    level: 7
+  note: 'Doubtful: ''市场风险敏感度分析'' is a bold sub-heading directly over its table.'
+- page: 188
+  headings:
+  - title: 40. 利率基准改革(IBOR改革)
+    level: 3
+  note: ''
+- page: 198
+  headings:
+  - title: 43. 或有负债
+    level: 3
+  - title: 43.1 按行业分析
+    level: 4
+  - title: 43.2 按地区分析
+    level: 4
+  note: ''
+- page: 199
+  headings:
+  - title: 44. 承诺
+    level: 3
+  - title: 44.1 信贷承诺
+    level: 4
+  - title: 44.2 其他承诺
+    level: 4
+  - title: 44.3 总承诺
+    level: 4
+  - title: 44.4 信贷承诺按行业分析
+    level: 4
+  - title: 44.5 信贷承诺按地区分析
+    level: 4
+  note: ''
+- page: 209
+  headings:
+  - title: Pramukti Surjaudaja先生 (61)
+    level: 3
+  - title: 陈燕燕女士 (58)
+    level: 3
+  note: Director profile headings; field labels (受委为董事, 学历与专业资格 ...) excluded.
+- page: 211
+  headings:
+  - title: 管理委员会附加资料
+    level: 2
+  - title: 黄碧娟女士
+    level: 3
+  - title: 吳靜儀女士
+    level: 3
+  - title: Noel Gerald DCruz先生
+    level: 3
+  - title: 林强忠先生
+    level: 3
+  note: Job-title lines excluded.
+- page: 212
+  headings:
+  - title: 赖进贵先生
+    level: 3
+  - title: 陈德隆先生
+    level: 3
+  - title: 郭斯强先生
+    level: 3
+  - title: 王克先生
+    level: 3
+  - title: 陈初生先生
+    level: 3
+  note: Job-title lines excluded.
+- page: 214
+  headings:
+  - title: 高体良先生
+    level: 3
+  - title: 蓝淑燕女士
+    level: 3
+  - title: 颜国锦先生
+    level: 3
+  - title: 刘之华先生
+    level: 3
+  - title: 李斐雯女士
+    level: 3
+  note: Job-title lines excluded.
+- page: 216
+  headings:
+  - title: 国际网络
+    level: 2
+  - title: 东南亚
+    level: 3
+  - title: 新加坡
+    level: 4
+  - title: 汶莱
+    level: 4
+  - title: 印尼
+    level: 4
+  - title: 马来西亚
+    level: 4
+  - title: 缅甸
+    level: 4
+  - title: 菲律宾
+    level: 4
+  - title: 泰国
+    level: 4
+  - title: 越南
+    level: 4
+  note: 'Doubtful: region and country labels heading the address directory.'
+- page: 218
+  headings:
+  - title: 财务日期
+    level: 2
+  note: Month labels are table group labels.

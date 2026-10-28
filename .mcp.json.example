@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "kb-core": {
+      "type": "http",
+      "url": "https://kb-core.example.internal/mcp",
+      "headers": {"X-KB-Session": "my-session"}
+    }
+  }
+}

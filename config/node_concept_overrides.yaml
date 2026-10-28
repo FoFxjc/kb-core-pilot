@@ -1,0 +1,5 @@
+# Manual corrections to node concept tags (kb ref/node_concept_overrides.yaml schema): `add` adds a tag (method
+# manual), `remove` removes one. Each entry: node_id, concept_id, reason (who, when, which source page).
+version: 1
+add: []
+remove: []

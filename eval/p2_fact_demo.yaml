@@ -1,0 +1,7 @@
+# Fact-layer acceptance questions (user 2026-10-19): asked once in an MCP client (a coding agent) and once in the chat page; call sequence and answers recorded.
+# Question 3, "a metric with a restatement", was not set: fact extraction found no restatements (the three reports give consistent prior-year figures; the original 2022 report is not in the library).
+# Expected: f01 net profit 2023 7,021, 2024 7,587, 2025 7,422 (SGD millions), growth about +27.1%, +8.1%, -2.2% (2022 base 5,526);
+#       f02 end-2024 CET1 17.1% (transitional basis).
+questions:
+  - {id: f01, lang: zh, question: 华侨银行过去三年净利润的增长率是多少？}
+  - {id: f02, lang: zh, question: 华侨银行 2024 年末的普通股权一级资本充足率（CET1）是多少？}

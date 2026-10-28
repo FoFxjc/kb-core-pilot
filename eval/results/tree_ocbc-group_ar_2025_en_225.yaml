@@ -1,0 +1,765 @@
+doc_id: ocbc-group_ar_2025_en
+seed: 225
+sampled: 40
+protocol: 'D22: correct only if title, page range and parent are all right; judged against the source PDF'
+items:
+- node_id: ocbc-group_ar_2025_en:regions:0008
+  title: Committed to Engaging Our Investment Community
+  origin: heading
+  pages:
+  - 5
+  - 5
+  printed_pages:
+  - '3'
+  - '3'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0006
+    title: Strong Credit Ratings
+    pages:
+    - 5
+    - 5
+  start_page_text: Creating Sustainable Value for Our Investors OCBC Share Price Performance ($) 2021 2022 2023 2024 2025
+    20 18 16 14 12 10 8 0 Committed to Engaging Our Investment Community OCBC seeks to create sustain
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0024
+  title: Our New Corporate Strategy
+  origin: heading
+  pages:
+  - 13
+  - 13
+  printed_pages:
+  - '11'
+  - '11'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0023
+    title: Group CEO’s Perspectives
+    pages:
+    - 12
+    - 15
+  start_page_text: 'At the same time, interest rates began to come down in several markets after a prolonged period of tight
+    monetary conditions. In Hong Kong, sharp movements linked to the HIBOR episode highlighted how '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0055
+  title: Next-Generation Agentic Code Assistance Tool for Engineers
+  origin: heading
+  pages:
+  - 21
+  - 21
+  printed_pages:
+  - '19'
+  - '19'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0052
+    title: Impactful Use Cases of AI, Digital and Data
+    pages:
+    - 21
+    - 21
+  start_page_text: Humanising AI, Digital and Data While AI, Digital and Data hold immense promise and the potential to reshape
+    entire industries, they also present a double-edged sword. Many of today’s roles may evolve
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0084
+  title: Hong Kong
+  origin: heading
+  pages:
+  - 29
+  - 29
+  printed_pages:
+  - '27'
+  - '27'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0078
+    title: Helping Where it Matters
+    pages:
+    - 29
+    - 29
+  start_page_text: Helping Where it Matters Singapore OCBC-SDSC SwimTogether Programme We launched the OCBC‑SDSC SwimTogether
+    Programme, Singapore’s first structured water safety initiative for Persons with Disabilities
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0100
+  title: Urban Farm Macau
+  origin: heading
+  pages:
+  - 31
+  - 31
+  printed_pages:
+  - '29'
+  - '29'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0098
+    title: Hong Kong
+    pages:
+    - 31
+    - 31
+  start_page_text: 'Malaysia Coral Reefs As part of OCBC Malaysia Sustainability Week 2025, the Kota Kinabalu branch headed
+    to Usukan Island in Sabah to support marine conservation efforts. The team propagated 143 coral '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0133
+  title: Leveraging Technology to Empower Relationship Managers
+  origin: heading
+  pages:
+  - 43
+  - 43
+  printed_pages:
+  - '41'
+  - '41'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0129
+    title: Private Banking
+    pages:
+    - 42
+    - 43
+  start_page_text: we were named Best Private Bank for Intermediaries by both Asian Private Banker and Citywire in 2025. As
+    a key pillar of our strategy, we will continue to deliver value to them by developing unique an
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0138
+  title: Moving Ahead with Purpose
+  origin: heading
+  pages:
+  - 45
+  - 45
+  printed_pages:
+  - '43'
+  - '43'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0134
+    title: Consumer Banking
+    pages:
+    - 44
+    - 45
+  start_page_text: to empower seniors to age well. We are committing over $2 million to benefit more than 180,000 seniors
+    over three years. We introduced OCBC CARE Ambassadors at select branches – who are fluent in mult
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0140
+  title: Advancing Capabilities with AI, Digital and Data Solutions
+  origin: heading
+  pages:
+  - 46
+  - 46
+  printed_pages:
+  - '44'
+  - '44'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0139
+    title: Treasury and Markets
+    pages:
+    - 46
+    - 47
+  start_page_text: 'online for our consumer banking customers, enhancing accessibility and convenience. We were also the first
+    in the market to introduce private equity-linked notes to our Premier Private Client segment '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0145
+  title: Operations and Technology
+  origin: toc
+  pages:
+  - 48
+  - 49
+  printed_pages:
+  - '46'
+  - '47'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0118
+    title: Year in Review
+    pages:
+    - 38
+    - 51
+  start_page_text: 'Operations and Technology Year in Review We took a deliberate, forward-looking approach to refresh and
+    upgrade our technology stack while ensuring our core systems continued to perform steadily. This '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0177
+  title: 'Principle 7: Level and Mix of Remuneration Compensation for Non-Executive Directors'
+  origin: heading
+  pages:
+  - 60
+  - 62
+  printed_pages:
+  - '58'
+  - '60'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0175
+    title: Remuneration Matters
+    pages:
+    - 59
+    - 64
+  start_page_text: 'The Bank does not provide for any termination, retirement or post-employment benefits to executive Directors
+    or the top five key management personnel. Principle 7: Level and Mix of Remuneration Compen'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0182
+  title: • OCBC Deferred Share Plan
+  origin: heading
+  pages:
+  - 62
+  - 62
+  printed_pages:
+  - '60'
+  - '60'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0180
+    title: Share Schemes
+    pages:
+    - 61
+    - 62
+  start_page_text: • OCBC Deferred Share Plan The OCBC Deferred Share Plan (the Plan) aims to increase the performance-orientation
+    and retention factor in compensation packages of executives, and foster an ownership cul
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0186
+  title: Remuneration of Directors’ and CEO’s Immediate Family
+  origin: heading
+  pages:
+  - 63
+  - 63
+  printed_pages:
+  - '61'
+  - '61'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0184
+    title: 'Principle 8: Disclosure on Remuneration'
+    pages:
+    - 63
+    - 64
+  start_page_text: 'Principle 8: Disclosure on Remuneration The following disclosures should be read in conjunction with the
+    remuneration policies, practices and share plans as described under Principles 6 and 7. Directo'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0194
+  title: External Audit
+  origin: heading
+  pages:
+  - 66
+  - 67
+  printed_pages:
+  - '64'
+  - '65'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0193
+    title: 'Principle 10: Audit Committee'
+    pages:
+    - 65
+    - 67
+  start_page_text: External Audit The Audit Committee has received the requisite disclosures from the current external auditor
+    evidencing its independence. It is satisfied that the financial, professional and business r
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0219
+  title: Scope of Consolidation
+  origin: heading
+  pages:
+  - 79
+  - 82
+  printed_pages:
+  - '77'
+  - '80'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0217
+    title: Pillar 3 Disclosures
+    pages:
+    - 79
+    - 82
+  start_page_text: Pillar 3 Disclosures (OCBC Group – As at 31 December 2025) Introduction In accordance with Pillar 3 disclosure
+    requirements under Monetary Authority of Singapore (MAS) Notice 637 on Risk Based Capital
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0245
+  title: Stages of Credit Risk and Expected Credit Losses
+  origin: heading
+  pages:
+  - 90
+  - 90
+  printed_pages:
+  - '88'
+  - '88'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0244
+    title: Credit Loss Allowances
+    pages:
+    - 90
+    - 90
+  start_page_text: These portfolio insights are also applied to identify and quantify more vulnerable segments and take proactive,
+    appropriate risk management actions, especially during periods of high uncertainties and
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0246
+  title: Market Risk Management
+  origin: heading
+  pages:
+  - 90
+  - 93
+  printed_pages:
+  - '88'
+  - '91'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0221
+    title: Risk Management
+    pages:
+    - 83
+    - 95
+  start_page_text: These portfolio insights are also applied to identify and quantify more vulnerable segments and take proactive,
+    appropriate risk management actions, especially during periods of high uncertainties and
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0253
+  title: • Market Risk Weighted Assets
+  origin: heading
+  pages:
+  - 92
+  - 92
+  printed_pages:
+  - '90'
+  - '90'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0248
+    title: Traded Market Risk
+    pages:
+    - 91
+    - 92
+  start_page_text: Designation of Trading Positions We comply with the regulatory guidelines in designating trades as trading
+    positions. The designation is primarily based on our intention for short-term resale, to real
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0282
+  title: Funding, Liquidity and Capital Position
+  origin: heading
+  pages:
+  - 100
+  - 100
+  printed_pages:
+  - '98'
+  - '98'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0280
+    title: Overview
+    pages:
+    - 98
+    - 100
+  start_page_text: Overview (continued) Allowances and Asset Quality As at 31 December 2025, total NPAs were $3.24 billion,
+    up 13% from a year ago. NPL ratio remained unchanged at 0.9%, and total NPA coverage stood at 1
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0290
+  title: Loans to Customers
+  origin: heading
+  pages:
+  - 104
+  - 104
+  printed_pages:
+  - '102'
+  - '102'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0279
+    title: Management Discussion and Analysis
+    pages:
+    - 96
+    - 110
+  start_page_text: Loans to Customers 2025 $ million 2024 $ million +/(-) % By Industry Agriculture, mining and quarrying
+    6,402 7,523 (15) Manufacturing 18,241 15,033 21 Building and construction 95,289 93,924 1 Housing
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0298
+  title: Insurance
+  origin: heading
+  pages:
+  - 109
+  - 109
+  printed_pages:
+  - '107'
+  - '107'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0293
+    title: Performance by Business Segment
+    pages:
+    - 108
+    - 109
+  start_page_text: Performance by Business Segment (continued) Global Markets Global Markets is responsible for the management
+    of the Group’s asset and liability interest rate positions, engages in foreign exchange acti
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0303
+  title: Directors’ Statement
+  origin: subtoc
+  pages:
+  - 111
+  - 116
+  printed_pages:
+  - '109'
+  - '114'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0302
+    title: Financial Statements
+    pages:
+    - 111
+    - 255
+  start_page_text: The directors present this statement to the members of the Bank together with the audited consolidated
+    financial statements of the Group and the income statement, statement of comprehensive income, ba
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0317
+  title: Independence
+  origin: heading
+  pages:
+  - 117
+  - 117
+  printed_pages:
+  - '115'
+  - '115'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0313
+    title: Report on the Audit of the Financial Statements
+    pages:
+    - 117
+    - 124
+  start_page_text: Report on the Audit of the Financial Statements Our Opinion In our opinion, the accompanying consolidated
+    financial statements of Oversea-Chinese Banking Corporation Limited (“the Bank”) and its subsi
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0326
+  title: Report on Other Legal and Regulatory Requirements
+  origin: heading
+  pages:
+  - 124
+  - 124
+  printed_pages:
+  - '122'
+  - '122'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0313
+    title: Report on the Audit of the Financial Statements
+    pages:
+    - 117
+    - 124
+  start_page_text: 'As part of an audit in accordance with SSAs, we exercise professional judgement and maintain professional
+    scepticism throughout the audit. We also: • Identify and assess the risks of material misstate'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0376
+  title: 2.11.7 Investments in Subsidiaries and Associates
+  origin: heading
+  pages:
+  - 140
+  - 140
+  printed_pages:
+  - '138'
+  - '138'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0375
+    title: (II) Other Assets
+    pages:
+    - 140
+    - 140
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.11 Impairment of Assets (continued) (I) Financial
+    Assets (continued) 2.11.4 Movement between Stages (continued) The assessments for a significan
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0378
+  title: 2.12 Financial Liabilities
+  origin: subnote
+  pages:
+  - 140
+  - 140
+  printed_pages:
+  - '138'
+  - '138'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0335
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.11 Impairment of Assets (continued) (I) Financial
+    Assets (continued) 2.11.4 Movement between Stages (continued) The assessments for a significan
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0379
+  title: 2.13 Insurance and Reinsurance Contracts 2.13.1 Definition and Classification
+  origin: subnote
+  pages:
+  - 141
+  - 150
+  printed_pages:
+  - '139'
+  - '148'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0335
+    title: 2. Material Accounting Policy Information
+    pages:
+    - 132
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts 2.13.1 Definition
+    and Classification Contracts under which GEH Group accepts significant insurance risk a
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0382
+  title: 2.13.3.2 Reinsurance Contracts
+  origin: heading
+  pages:
+  - 142
+  - 142
+  printed_pages:
+  - '140'
+  - '140'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0381
+    title: 2.13.3 Level of Aggregation
+    pages:
+    - 142
+    - 142
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.13 Insurance and Reinsurance Contracts (continued)
+    2.13.2 Separating Components from Insurance and Reinsurance Contracts (continued) For premium
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0425
+  title: Risk Adjustment for Non-Financial Risk
+  origin: heading
+  pages:
+  - 154
+  - 154
+  printed_pages:
+  - '152'
+  - '152'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0423
+    title: 2.21.3 Insurance Business
+    pages:
+    - 153
+    - 155
+  start_page_text: 2. Material Accounting Policy Information (continued) 2.21 Critical Accounting Estimates and Judgements
+    (continued) 2.21.3 Insurance Business (continued) The adjustment of illiquidity premium in (b) i
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0436
+  title: 6. Dividends from Subsidiaries and Associates
+  origin: note
+  pages:
+  - 158
+  - 158
+  printed_pages:
+  - '156'
+  - '156'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0333
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: 5. Fees and Commissions (Net) GROUP BANK $ million 2025 2024 2025 2024 Gross fee and commission income
+    Brokerage 118 87 8 2 Credit card 414 404 339 334 Fund management 121 108 1 2 Guarantees 10 12 2 3
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0456
+  title: 17. Deposits and Balances of Non-Bank Customers and Banks
+  origin: note
+  pages:
+  - 171
+  - 171
+  printed_pages:
+  - '169'
+  - '169'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0333
+    title: Notes to the Financial Statements
+    pages:
+    - 132
+    - 255
+  start_page_text: 17. Deposits and Balances of Non-Bank Customers and Banks GROUP BANK $ million 2025 2024 2025 2024 Deposits
+    of non-bank customers Current accounts 111,441 109,603 75,697 67,626 Savings deposits 105,86
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0520
+  title: Information Security and Digital Risk
+  origin: heading
+  pages:
+  - 218
+  - 218
+  printed_pages:
+  - '216'
+  - '216'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0514
+    title: 38.3 Market Risk and Liquidity Risk Management
+    pages:
+    - 214
+    - 219
+  start_page_text: 38. Risk Management (continued) 38.3 Market Risk and Liquidity Risk Management (continued) Contractual
+    Maturity for Financial Liabilities The table below shows the undiscounted cash outflows of the Gr
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0522
+  title: Net Investment Hedges
+  origin: heading
+  pages:
+  - 219
+  - 219
+  printed_pages:
+  - '217'
+  - '217'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0514
+    title: 38.3 Market Risk and Liquidity Risk Management
+    pages:
+    - 214
+    - 219
+  start_page_text: 38. Risk Management (continued) 38.3 Market Risk and Liquidity Risk Management (continued) Hedging The
+    Group enters into hedging transactions to manage exposures to market risks. The tables below summ
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0532
+  title: (b) Foreign Exchange Risk
+  origin: heading
+  pages:
+  - 225
+  - 226
+  printed_pages:
+  - '223'
+  - '224'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0530
+    title: Market, Credit and Liquidity Risk
+    pages:
+    - 225
+    - 229
+  start_page_text: 38. Risk Management (continued) 38.4 Insurance-Related Risk Management (continued) Market, Credit and Liquidity
+    Risk Market risk arises when market values of assets and liabilities are adversely affec
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0551
+  title: Parameter Uncertainty Adjustments
+  origin: heading
+  pages:
+  - 239
+  - 239
+  printed_pages:
+  - '237'
+  - '237'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0545
+    title: 40.1 Valuation Governance Framework
+    pages:
+    - 239
+    - 239
+  start_page_text: 40. Fair Values of Financial Instruments 40.1 Valuation Governance Framework The Group has an established
+    governance framework with respect to the measurement of fair values, which includes formalised
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0574
+  title: Twenty Largest Shareholders
+  origin: heading
+  pages:
+  - 256
+  - 256
+  printed_pages:
+  - '254'
+  - '254'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0570
+    title: Shareholding Statistics
+    pages:
+    - 256
+    - 257
+  start_page_text: Shareholding Statistics As at 25 February 2026 Class of Shares Ordinary Shares Voting Rights One vote per
+    share (other than treasury shares and subsidiary holdings, which are treated as having no voti
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0605
+  title: Mr Gan Kok Kim
+  origin: heading
+  pages:
+  - 268
+  - 268
+  printed_pages:
+  - '266'
+  - '266'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0590
+    title: Our Management – Biographies
+    pages:
+    - 265
+    - 269
+  start_page_text: Our Management – Biographies With more than 29 years of experience in corporate banking, Ms Lam has served
+    in the Institute of Banking & Finance (IBF) Corporate Banking Workgroup, the Financial Indust
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0616
+  title: Philippines
+  origin: heading
+  pages:
+  - 270
+  - 270
+  printed_pages:
+  - '268'
+  - '268'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0611
+    title: Southeast Asia
+    pages:
+    - 270
+    - 270
+  start_page_text: 'OCBC’s Presence in ASEAN, Greater China and Beyond Southeast Asia Singapore OCBC Bank Limited Head Office
+    63 Chulia Street #10-00 OCBC Centre East Singapore 049514 Tel: (65) 6363 3333 Fax: (65) 6534 3'
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0623
+  title: Greater China
+  origin: heading
+  pages:
+  - 271
+  - 271
+  printed_pages:
+  - '269'
+  - '269'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0610
+    title: OCBC’s Presence in ASEAN, Greater China and Beyond
+    pages:
+    - 270
+    - 271
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0632
+  title: Luxembourg
+  origin: heading
+  pages:
+  - 271
+  - 271
+  printed_pages:
+  - '269'
+  - '269'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0630
+    title: Europe
+    pages:
+    - 271
+    - 271
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: null
+  note: ''
+- node_id: ocbc-group_ar_2025_en:regions:0636
+  title: United Arab Emirates
+  origin: heading
+  pages:
+  - 271
+  - 271
+  printed_pages:
+  - '269'
+  - '269'
+  parent:
+    node_id: ocbc-group_ar_2025_en:regions:0635
+    title: Middle East
+    pages:
+    - 271
+    - 271
+  start_page_text: 'East Asia Japan OCBC Bank Limited Tokyo Branch Sanno Park Tower 5th Floor 11-1 Nagata-cho 2 chome Chiyoda-ku
+    Tokyo 100-6105 Japan Tel: (81) 3 5510 7660 South Korea OCBC Bank Limited Seoul Branch 25th '
+  verdict: null
+  note: ''

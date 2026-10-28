@@ -1,0 +1,4 @@
+{"size": 0, "track_total_hits": true,
+ "query": {"bool": {"filter": "{{filters}}", "must": [{"match": {"text_tok": "{{match}}"}}]}},
+ "aggs": {"fiscal_year": {"terms": {"field": "fiscal_year", "size": 200}},
+          "lang": {"terms": {"field": "lang", "size": 20}}}}

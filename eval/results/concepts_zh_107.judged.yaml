@@ -1,0 +1,909 @@
+lang: zh
+seed: 107
+sampled: 40
+protocol: 'D39: a tag is correct when the node actually reports or discusses the concept (it is the title, a table has its
+  row, or the text gives its value or change); a node is correct only if all its tags are'
+items:
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0116
+  title: 内部评级模型概述
+  pages:
+  - 47
+  - 48
+  printed_pages:
+  - '45'
+  - '46'
+  tags:
+  - concept_id: npa
+    name_en: Non-performing assets
+    method: rule_dict
+    variant: 不良资产
+  verdict: wrong
+  wrong_tags:
+  - npa
+  note: 'Passing mention: risk-management text on restructuring/remedial management of NPAs; no NPA figure or change for the
+    Group on pp.47-48.'
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0188
+  title: 收入报表
+  pages:
+  - 71
+  - 71
+  printed_pages:
+  - '69'
+  - '69'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: 贷款与其他资产准备金
+  - concept_id: fee_income
+    name_en: Net fee income
+    method: rule_row_label
+    variant: 收费和佣金(净值)
+  - concept_id: income_tax
+    name_en: Income tax expense
+    method: rule_row_label
+    variant: 所得税支出
+  - concept_id: net_trading_income
+    name_en: Net trading income
+    method: rule_row_label
+    variant: 净交易收入
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_row_label
+    variant: 净利息收入
+  - concept_id: non_interest_income
+    name_en: Non-interest income
+    method: rule_row_label
+    variant: 非利息收入
+  - concept_id: operating_expenses
+    name_en: Operating expenses
+    method: rule_row_label
+    variant: 总营运支出
+  - concept_id: operating_profit
+    name_en: Operating profit before allowances and amortisation
+    method: rule_row_label
+    variant: 扣除准备金与摊销前的营运盈利
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: 扣除所得税前盈利
+  - concept_id: share_of_associates
+    name_en: Share of results of associates
+    method: rule_row_label
+    variant: 扣除税务后的联号企业业绩分享
+  - concept_id: staff_costs
+    name_en: Staff costs
+    method: rule_row_label
+    variant: 员工成本
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_row_label
+    variant: 总收入
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0193
+  title: 合并现金流量表
+  pages:
+  - 77
+  - 77
+  printed_pages:
+  - '75'
+  - '75'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: 贷款与其他资产准备金
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: 扣除所得税前盈利
+  - concept_id: share_of_associates
+    name_en: Share of results of associates
+    method: rule_row_label
+    variant: 扣除税务后的联号企业业绩分享
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0217
+  title: 2.21 比较数字
+  pages:
+  - 95
+  - 96
+  printed_pages:
+  - '93'
+  - '94'
+  tags:
+  - concept_id: net_trading_income
+    name_en: Net trading income
+    method: rule_row_label
+    variant: 净交易收入
+  verdict: correct
+  wrong_tags: []
+  note: 'Correct: the reclassification table has a net trading income row (2022 as reclassified 929 vs 834 as reported).'
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0218
+  title: 3. 净利息收入
+  pages:
+  - 97
+  - 97
+  printed_pages:
+  - '95'
+  - '95'
+  tags:
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_title
+    variant: 净利息收入
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0220
+  title: 5. 收费和佣金(净额)
+  pages:
+  - 99
+  - 99
+  printed_pages:
+  - '97'
+  - '97'
+  tags:
+  - concept_id: fee_income
+    name_en: Net fee income
+    method: rule_title
+    variant: 收费和佣金
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0224
+  title: 9. 员工成本与其他营运支出
+  pages:
+  - 101
+  - 101
+  printed_pages:
+  - '99'
+  - '99'
+  tags:
+  - concept_id: staff_costs
+    name_en: Staff costs
+    method: rule_title
+    variant: 员工成本
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0227
+  title: 12. 每股收益
+  pages:
+  - 103
+  - 103
+  printed_pages:
+  - '101'
+  - '101'
+  tags:
+  - concept_id: eps
+    name_en: Earnings per share
+    method: rule_title
+    variant: 每股收益
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0252
+  title: 22.1 寿险的剩余保险覆盖负债与已产生索赔负债之对账
+  pages:
+  - 121
+  - 121
+  printed_pages:
+  - '119'
+  - '119'
+  tags:
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_dict
+    variant: 负债总额
+  verdict: wrong
+  wrong_tags:
+  - total_liabilities
+  note: Variant not on page; table is the life-insurance-fund contract liability reconciliation (97,386), not the Group total
+    liabilities.
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0283
+  title: 38.4 保险相关风险管理
+  pages:
+  - 159
+  - 183
+  printed_pages:
+  - '157'
+  - '181'
+  tags:
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_dict
+    variant: 负债总额
+  verdict: wrong
+  wrong_tags:
+  - total_liabilities
+  note: Only hits are insurance-subsidiary claims/contract liability totals (e.g. non-life insurance contract liabilities
+    467); not the Group total liabilities.
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0284
+  title: 39. 金融资产与金融负债的分类
+  pages:
+  - 184
+  - 187
+  printed_pages:
+  - '182'
+  - '185'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: 客户贷款
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 资产总额
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0014
+  title: 60%总派息率
+  pages:
+  - 7
+  - 7
+  printed_pages:
+  - '5'
+  - '5'
+  tags:
+  - concept_id: total_payout_ratio
+    name_en: Total dividend payout ratio
+    method: rule_title
+    variant: 总派息率
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0028
+  title: 净利润创新高
+  pages:
+  - 11
+  - 13
+  printed_pages:
+  - '9'
+  - '11'
+  tags:
+  - concept_id: net_profit
+    name_en: Net profit
+    method: rule_title
+    variant: 净利润
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0096
+  title: 资本充足率
+  pages:
+  - 34
+  - 35
+  printed_pages:
+  - '32'
+  - '33'
+  tags:
+  - concept_id: cet1_ratio
+    name_en: CET1 capital adequacy ratio
+    method: rule_row_label
+    variant: 普通股权Tier1资本
+  - concept_id: rwa
+    name_en: Risk-weighted assets
+    method: rule_row_label
+    variant: 风险加权资产
+  - concept_id: tier1_car
+    name_en: Tier 1 capital adequacy ratio
+    method: rule_row_label
+    variant: Tier1资本
+  verdict: correct
+  wrong_tags: []
+  note: Variants lack the space; the table has CET1 (Common Equity Tier 1) 17.1%, Tier 1 17.8% and RWA 236,288 rows.
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0097
+  title: 25亿元的资本归还
+  pages:
+  - 34
+  - 34
+  printed_pages:
+  - '32'
+  - '32'
+  tags:
+  - concept_id: special_dividend
+    name_en: Special dividend
+    method: rule_dict
+    variant: 特别股息
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0130
+  title: 资产负债表
+  pages:
+  - 54
+  - 54
+  printed_pages:
+  - '52'
+  - '52'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: 客户贷款
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 资产总额
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0133
+  title: 合并现金流量表
+  pages:
+  - 58
+  - 58
+  printed_pages:
+  - '56'
+  - '56'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: 贷款与其他资产准备金
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: 扣除所得税前盈利
+  - concept_id: share_of_associates
+    name_en: Share of results of associates
+    method: rule_row_label
+    variant: 扣除税务后的联号企业业绩分享
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0161
+  title: 5. 收费和佣金(净额)
+  pages:
+  - 78
+  - 78
+  printed_pages:
+  - '76'
+  - '76'
+  tags:
+  - concept_id: fee_income
+    name_en: Net fee income
+    method: rule_title
+    variant: 收费和佣金
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0165
+  title: 9. 员工成本与其他营运支出
+  pages:
+  - 80
+  - 80
+  printed_pages:
+  - '78'
+  - '78'
+  tags:
+  - concept_id: staff_costs
+    name_en: Staff costs
+    method: rule_title
+    variant: 员工成本
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0166
+  title: 10. 贷款与其他资产准备金
+  pages:
+  - 81
+  - 81
+  printed_pages:
+  - '79'
+  - '79'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_title
+    variant: 贷款与其他资产准备金
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0181
+  title: 17. 非银行客户及银行同业之存款和结存
+  pages:
+  - 90
+  - 90
+  printed_pages:
+  - '88'
+  - '88'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0202
+  title: 27. 不良资产
+  pages:
+  - 106
+  - 107
+  printed_pages:
+  - '104'
+  - '105'
+  tags:
+  - concept_id: npa
+    name_en: Non-performing assets
+    method: rule_title
+    variant: 不良资产
+  - concept_id: npl
+    name_en: Non-performing loans
+    method: rule_dict
+    variant: 不良贷款
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0223
+  title: 38.2 信贷风险
+  pages:
+  - 129
+  - 132
+  printed_pages:
+  - '127'
+  - '130'
+  tags:
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: 客户贷款
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0020
+  title: 总收入创新高146亿元
+  pages:
+  - 9
+  - 9
+  printed_pages:
+  - '7'
+  - '7'
+  tags:
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_title
+    variant: 总收入
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0023
+  title: 总派息率60%
+  pages:
+  - 9
+  - 11
+  printed_pages:
+  - '7'
+  - '9'
+  tags:
+  - concept_id: total_payout_ratio
+    name_en: Total dividend payout ratio
+    method: rule_title
+    variant: 总派息率
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0082
+  title: 展望2026年
+  pages:
+  - 25
+  - 25
+  printed_pages:
+  - '23'
+  - '23'
+  tags:
+  - concept_id: special_dividend
+    name_en: Special dividend
+    method: rule_dict
+    variant: 特别股息
+  verdict: correct
+  wrong_tags: []
+  note: 'Doubtful correct: the Outlook 2026 text does not mention special dividends, but page 25 carries the dividend-per-share
+    chart with a special dividend series (16 cents for 2024 and 2025).'
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0084
+  title: 五年股东总回报
+  pages:
+  - 25
+  - 25
+  printed_pages:
+  - '23'
+  - '23'
+  tags:
+  - concept_id: tsr
+    name_en: Total shareholder returns
+    method: rule_title
+    variant: 股东总回报
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0085
+  title: 推动股东回报
+  pages:
+  - 25
+  - 25
+  printed_pages:
+  - '23'
+  - '23'
+  tags:
+  - concept_id: payout_ratio
+    name_en: Dividend payout ratio
+    method: rule_dict
+    variant: 派息率
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0157
+  title: 收入报表
+  pages:
+  - 54
+  - 54
+  printed_pages:
+  - '52'
+  - '52'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: 贷款与其他资产准备金
+  - concept_id: fee_income
+    name_en: Net fee income
+    method: rule_row_label
+    variant: 收费和佣金(净值)
+  - concept_id: income_tax
+    name_en: Income tax expense
+    method: rule_row_label
+    variant: 所得税支出
+  - concept_id: net_trading_income
+    name_en: Net trading income
+    method: rule_row_label
+    variant: 净交易收入
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_row_label
+    variant: 净利息收入
+  - concept_id: non_interest_income
+    name_en: Non-interest income
+    method: rule_row_label
+    variant: 非利息收入
+  - concept_id: operating_expenses
+    name_en: Operating expenses
+    method: rule_row_label
+    variant: 总营运支出
+  - concept_id: operating_profit
+    name_en: Operating profit before allowances and amortisation
+    method: rule_row_label
+    variant: 扣除准备金与摊销前的营运盈利
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: 扣除所得税前盈利
+  - concept_id: share_of_associates
+    name_en: Share of results of associates
+    method: rule_row_label
+    variant: 扣除税务后的联号企业业绩分享
+  - concept_id: staff_costs
+    name_en: Staff costs
+    method: rule_row_label
+    variant: 员工成本
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_row_label
+    variant: 总收入
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0159
+  title: 资产负债表
+  pages:
+  - 56
+  - 56
+  printed_pages:
+  - '54'
+  - '54'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: 客户贷款
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 资产总额
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0189
+  title: 5. 收费和佣金(净额)
+  pages:
+  - 79
+  - 79
+  printed_pages:
+  - '77'
+  - '77'
+  tags:
+  - concept_id: fee_income
+    name_en: Net fee income
+    method: rule_title
+    variant: 收费和佣金
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0191
+  title: 7. 净交易收入
+  pages:
+  - 80
+  - 80
+  printed_pages:
+  - '78'
+  - '78'
+  tags:
+  - concept_id: net_trading_income
+    name_en: Net trading income
+    method: rule_title
+    variant: 净交易收入
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0194
+  title: 10. 贷款与其他资产准备金
+  pages:
+  - 82
+  - 82
+  printed_pages:
+  - '80'
+  - '80'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_title
+    variant: 贷款与其他资产准备金
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0196
+  title: 12. 每股收益
+  pages:
+  - 83
+  - 83
+  printed_pages:
+  - '81'
+  - '81'
+  tags:
+  - concept_id: eps
+    name_en: Earnings per share
+    method: rule_title
+    variant: 每股收益
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0209
+  title: 17. 非银行客户及银行同业之存款和结存
+  pages:
+  - 92
+  - 92
+  printed_pages:
+  - '90'
+  - '90'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0230
+  title: 27. 不良资产
+  pages:
+  - 110
+  - 111
+  printed_pages:
+  - '108'
+  - '109'
+  tags:
+  - concept_id: npa
+    name_en: Non-performing assets
+    method: rule_title
+    variant: 不良资产
+  - concept_id: npl
+    name_en: Non-performing loans
+    method: rule_dict
+    variant: 不良贷款
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0247
+  title: 37.1 商业分部
+  pages:
+  - 128
+  - 130
+  printed_pages:
+  - '126'
+  - '128'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: 贷款与其他资产准备金
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_row_label
+    variant: 净利息收入
+  - concept_id: non_interest_income
+    name_en: Non-interest income
+    method: rule_row_label
+    variant: 非利息收入
+  - concept_id: npa
+    name_en: Non-performing assets
+    method: rule_row_label
+    variant: 不良资产
+  - concept_id: operating_profit
+    name_en: Operating profit before allowances and amortisation
+    method: rule_row_label
+    variant: 扣除准备金与摊销前的营运盈利
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: 扣除所得税前盈利
+  - concept_id: share_of_associates
+    name_en: Share of results of associates
+    method: rule_row_label
+    variant: 扣除税务后的联号企业业绩分享
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 资产总额
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_row_label
+    variant: 总收入
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0251
+  title: 38.2 信贷风险
+  pages:
+  - 132
+  - 135
+  printed_pages:
+  - '130'
+  - '133'
+  tags:
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: 客户贷款
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0252
+  title: 38.3 市场风险与流动性风险管理
+  pages:
+  - 135
+  - 140
+  printed_pages:
+  - '133'
+  - '138'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: 客户贷款
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 资产总额
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0254
+  title: 39. 金融资产与金融负债的分类
+  pages:
+  - 156
+  - 159
+  printed_pages:
+  - '154'
+  - '157'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: 客户贷款
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 资产总额
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: correct
+  wrong_tags: []
+  note: ''

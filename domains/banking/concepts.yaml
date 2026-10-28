@@ -1,0 +1,653 @@
+# Concept table (p2-design §3.1, D35): the single source of concepts. Used for query-side recognition and expansion (service/aliases.py), Postgres import and node tagging (pipeline/concepts.py); no expansion at ingestion.
+# v4 (P2-2): renamed from ref/aliases.yaml v3; the spellings of the 26 concepts kept as-is, added value_type / aggregation / period_kind / definition.
+# v5 (P2-2): subagent A, reading only the 6 PDFs, drafted 64 concepts (38 new), row labels and relations; each spelling carries document, physical page and source snippet
+#   (p2 section of ref/concepts.evidence.yaml; on 2026-10-19 the main session re-extracted each one from the PDFs: 287 checked, 0 mismatches). Changes approved by the main session are in the review section at the end of the file.
+#   variants / query_only / exclude of the original 26 concepts unchanged;
+# v8 (explicit search path, D46): added derived metric net_profit_margin (net profit margin = net profit / total income, derive field); query_only spellings only, not used for tagging, node tags unchanged.
+#   The annual reports do not disclose this ratio; get_metric_series computes it from two input facts by formula (status derived, with inputs and sources).
+# v7 (step 0 of the fact-layer round): removed the two Chinese spellings of wealth_aum, "集团财富管理的管理资产规模" and "财富管理的资产管理规模" - query-side expansion brought in generic tokens such as "的 / 资产 / 管理 / 规模",
+#   which was the root cause of the v05 2023 regression (removing only the first still expanded the second; v05 not restored); Chinese queries are still recognised via query_only.
+# v6 (after review C of P2-2): removed "非息收入占比" from non_ii_ratio (the held-out spelling "非息收入" is its prefix); otherwise same as v5.
+#   row_labels: table row labels (concept_alias.source = row_label), used to recognise concepts and for rule_row_label tagging; not expanded;
+#   edges: broader (dst is the broader term of src; expanded on the query side), component_of (component), variant_of (approximate metric with a different definition; not expanded).
+#   Loading fails if a spelling overlaps a held-out spelling in eval/heldout_terms.yaml (pipeline.concepts.load_spec).
+# The notes below are from aliases.yaml v3 and still apply:
+# Source: candidates drafted by subagent alias-drafter reading only the 6 original PDFs (ref/aliases.evidence.yaml, with the document, physical page and source snippet for each spelling),
+#       approved after main-session review (131 snippets re-extracted one by one, 0 mismatches), 2026-10-16.
+# Approval rules:
+#   - variants: spellings that actually appear in the reports (alias / abbreviation). When a query hits any spelling, the tokens of all variants are added to retrieval;
+#   - query_only: common user spellings (user_spelling, absent from the reports, e.g. "股本回报率", "信用成本", "ROE"). Used only to recognise the metric in a query,
+#     not added as retrieval tokens (that would only add generic tokens like "成本", "信用"); when a query uses one, retrieval uses the metric's variants;
+#   - a spelling that contains another spelling of the same metric (e.g. "总信贷成本" contains "信贷成本") is still used for matching but not expanded (the extra part is only generic tokens like "总" / "total");
+#   - excluded: related_not_alias (related but not the same metric: 拨备 vs 信贷成本, transitional vs fully-loaded CET1, ordinary vs total payout ratio,
+#     wealth management fees 财富管理费用 vs wealth management income 财富管理收入, core net profit 核心净利,
+#     cash net profit 现金净盈利, CASA, etc.);
+#   - excluded spellings that would mismatch: bare NPL (also means the NPL amount), bare CAR / 资本充足率 (covers all three capital adequacy ratios), 净利 (prefix of "净利息收入"),
+#     一级资本 (part of "普通股权一级资本"), 息差 (usually credit spread), 净利润率 (a different metric), 股息(分) / Dividend (cents) (table label with generic tokens);
+#   - when spellings of different metrics overlap in a query, the longer one wins (net interest income over interest income);
+#   - exclude: a hit falling inside one of these spellings does not count for the metric ("净利润率", "现金净盈利" are not "净利润");
+#   - v3 (after PR 1 review): payout ratio split into payout_ratio / total_payout_ratio / ordinary_payout_ratio (50% and 60% are two numbers); net_profit gets exclude.
+# Each spelling is tokenised with pipeline.tokenize before retrieval; English spellings match on word boundaries, space and hyphen equivalent; Chinese spellings ignore whitespace.
+
+version: 8
+concepts:
+  - id: npl_ratio
+    name: {en: "Non-performing loan ratio", zh: "不良贷款率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: instant
+    definition: "Non-performing loans as a share of gross customer loans"
+    variants: ["non-performing loan ratio", "non-performing loan (NPL) ratio", "NPL ratio", "不良贷款率", "不良贷款比率"]
+    query_only: ["non-performing loans ratio", "不良贷款比例"]
+    row_labels: ["Non-performing loan ratio"]
+  - id: credit_costs
+    name: {en: "Credit costs", zh: "信贷成本"}
+    value_type: bps
+    aggregation: ratio
+    period_kind: duration
+    definition: "Total allowances (credit costs) as a share of average customer loans, in basis points"
+    variants: ["credit costs", "total credit costs", "信贷成本", "总信贷成本"]
+    query_only: ["credit cost", "信用成本"]
+  - id: cet1_ratio
+    name: {en: "CET1 capital adequacy ratio", zh: "普通股权一级资本充足率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: instant
+    definition: "Common Equity Tier 1 capital as a share of risk-weighted assets"
+    variants: ["Common Equity Tier 1 Capital Adequacy Ratio", "Common Equity Tier 1 CAR", "Common Equity Tier 1", "CET1 CAR", "CET1", "普通股权一级资本充足率", "普通股权一级资本", "普通股权Tier1资本"]
+    query_only: ["CET1 ratio", "普通股权一级资本比率", "核心一级资本充足率"]
+    row_labels: ["Common Equity Tier 1 CAR", "Common Equity Tier 1", "普通股权一级资本", "普通股权Tier1资本"]
+  - id: tier1_car
+    name: {en: "Tier 1 capital adequacy ratio", zh: "一级资本充足率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: instant
+    definition: "Tier 1 capital as a share of risk-weighted assets"
+    variants: ["Tier 1 CAR"]
+    query_only: ["Tier 1 capital adequacy ratio", "一级资本充足率"]
+    exclude: ["Additional Tier 1", "额外Tier1资本"]
+    row_labels: ["Tier 1 CAR", "Tier1资本"]
+  - id: total_car
+    name: {en: "Total capital adequacy ratio", zh: "总资本充足率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: instant
+    definition: "Total capital as a share of risk-weighted assets"
+    variants: ["Total capital adequacy ratio", "Total CAR", "总资本充足率"]
+    query_only: ["total capital ratio"]
+    row_labels: ["Total capital adequacy ratio (CAR)"]
+  - id: leverage_ratio
+    name: {en: "Leverage ratio", zh: "杠杆率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: instant
+    definition: "Tier 1 capital as a share of total exposure"
+    variants: ["leverage ratio"]
+    query_only: ["杠杆率", "杠杆比率"]
+    row_labels: ["Leverage ratio"]
+  - id: nii
+    name: {en: "Net interest income", zh: "净利息收入"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Interest income less interest expense"
+    variants: ["net interest income", "NII", "净利息收入"]
+    row_labels: ["Net interest income", "净利息收入"]
+  - id: nim
+    name: {en: "Net interest margin", zh: "净息差"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: duration
+    definition: "Net interest income as a share of average interest-earning assets"
+    variants: ["net interest margin", "NIM", "净息差"]
+    query_only: ["净利息收益率"]
+    row_labels: ["Net interest margin"]
+  - id: roe
+    name: {en: "Return on equity", zh: "权益回报率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: duration
+    definition: "Net profit as a share of average ordinary shareholders' equity"
+    variants: ["return on equity", "权益回报率", "净资产收益率"]
+    query_only: ["return on average equity", "ROE", "股本回报率", "股东权益回报率", "平均普通股东权益回报率"]
+    row_labels: ["Return on equity", "权益回报率"]
+  - id: roa
+    name: {en: "Return on assets", zh: "资产回报率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: duration
+    definition: "Net profit as a share of average total assets"
+    variants: ["return on assets", "资产回报率"]
+    query_only: ["ROA", "平均资产回报率"]
+    row_labels: ["Return on assets", "资产回报率"]
+  - id: dps
+    name: {en: "Dividend per share", zh: "每股股息"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Dividends paid per share (interim and final)"
+    variants: ["dividend per share", "dividends per share", "每股股息", "每股派息"]
+    query_only: ["DPS"]
+    row_labels: ["Dividend (cents)", "股息(分)"]
+  - id: payout_ratio
+    name: {en: "Dividend payout ratio", zh: "派息率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: duration
+    definition: "Dividends as a share of net profit (ordinary and total payout not distinguished)"
+    variants: ["payout ratio", "dividend payout ratio", "派息率", "配息率"]
+    query_only: ["派息比率", "股息支付率"]
+  - id: total_payout_ratio
+    name: {en: "Total dividend payout ratio", zh: "总派息率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: duration
+    definition: "Total dividends including special dividends as a share of net profit"
+    variants: ["Total Dividend Payout Ratio", "total payout ratio", "总派息率"]
+  - id: ordinary_payout_ratio
+    name: {en: "Ordinary dividend payout ratio", zh: "普通股派息率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: duration
+    definition: "Ordinary dividends (excluding special dividends) as a share of net profit"
+    variants: ["ordinary dividend payout ratio", "ordinary payout ratio", "普通股派息率"]
+  - id: cost_to_income
+    name: {en: "Cost-to-income ratio", zh: "成本收入比"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: duration
+    definition: "Operating expenses as a share of total income"
+    variants: ["cost-to-income ratio", "cost-to-income", "CIR", "成本收入比", "成本收入比例", "支出收入比例", "开支收入比例", "成本和收入的比率"]
+    query_only: ["成本收入比率"]
+    row_labels: ["Cost-to-income", "支出收入比例"]
+  - id: non_interest_income
+    name: {en: "Non-interest income", zh: "非利息收入"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Income other than net interest income, including fees, trading and insurance"
+    variants: ["non-interest income", "非利息收入"]
+    row_labels: ["Non-interest income", "Total non-interest income", "非利息收入"]
+  - id: net_profit
+    name: {en: "Net profit", zh: "净利润"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Net profit attributable to equity holders of the bank"
+    variants: ["net profit", "Net profit attributable to equity holders", "净利润", "净盈利", "应归属银行权益持有人净盈利"]
+    query_only: ["PATMI"]
+    exclude: ["净利润率", "net profit margin", "现金净盈利", "cash basis net profit", "core net profit", "核心净利润", "核心净利"]
+    row_labels: ["Net profit attributable to equity holders of the Bank", "Net profit attributable to equity holders", "应归属银行权益持有人净盈利"]
+  - id: lcr
+    name: {en: "Liquidity coverage ratio", zh: "流动性覆盖率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: instant
+    definition: "High-quality liquid assets as a share of net cash outflows over the next 30 days"
+    variants: ["liquidity coverage ratio", "LCR", "流动性覆盖比率"]
+    query_only: ["流动性覆盖率"]
+  - id: nsfr
+    name: {en: "Net stable funding ratio", zh: "净稳定资金比率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: instant
+    definition: "Available stable funding as a share of required stable funding"
+    variants: ["net stable funding ratio"]
+    query_only: ["NSFR", "净稳定资金比率", "净稳定融资比率"]
+    row_labels: ["Net stable funding ratio"]
+  - id: ldr
+    name: {en: "Loans-to-deposits ratio", zh: "贷存比"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: instant
+    definition: "Customer loans as a share of customer deposits"
+    variants: ["loans-to-deposits ratio", "loans-to-deposits"]
+    query_only: ["loan-to-deposit ratio", "LDR", "贷存比", "存贷比", "贷款对存款比率"]
+    row_labels: ["Loans-to-deposits"]
+  - id: npa_coverage
+    name: {en: "NPA coverage", zh: "不良资产覆盖率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: instant
+    definition: "Total allowances as a share of non-performing assets"
+    variants: ["NPA coverage", "allowance coverage", "Non-performing assets coverage ratio", "不良资产覆盖率"]
+    query_only: ["allowances to NPAs", "拨备覆盖率"]
+  - id: eps
+    name: {en: "Earnings per share", zh: "每股盈利"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Net profit attributable to ordinary shareholders divided by the weighted average number of shares"
+    variants: ["earnings per share", "Basic earnings", "每股盈利", "每股收益", "基本盈利"]
+    query_only: ["EPS"]
+    row_labels: ["Basic earnings", "基本盈利"]
+  - id: wealth_mgmt_income
+    name: {en: "Wealth management income", zh: "财富管理收入"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Total income of the wealth management business (including fees, insurance, trading, etc.)"
+    variants: ["wealth management income", "财富管理收入", "WM income"]
+  - id: fee_income
+    name: {en: "Net fee income", zh: "收费和佣金收入"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Net fee and commission income"
+    variants: ["net fee income", "fee income", "fees and commissions", "收费和佣金", "收费收入", "佣金收入"]
+    query_only: ["手续费收入"]
+    row_labels: ["Fees and commissions (net)", "收费和佣金(净值)"]
+  - id: customer_loans
+    name: {en: "Customer loans", zh: "客户贷款"}
+    value_type: amount
+    aggregation: stock
+    period_kind: instant
+    definition: "Customer loan balance at the end of the period"
+    variants: ["customer loans", "loans to customers", "Net loans to customers", "客户贷款", "客户净贷款"]
+    exclude: ["allowances for impaired loans to customers", "allowances for non-credit-impaired loans to customers", "impairment of loans to customers", "减损客户贷款准备金", "非信贷减损客户贷款的准备金", "客户贷款的减损", "客户贷款的准备金"]
+    row_labels: ["Net loans to customers", "Loans to customers", "客户净贷款", "客户贷款"]
+  - id: customer_deposits
+    name: {en: "Customer deposits", zh: "客户存款"}
+    value_type: amount
+    aggregation: stock
+    period_kind: instant
+    definition: "Non-bank customer deposit balance at the end of the period"
+    variants: ["customer deposits", "Deposits of non-bank customers", "客户存款", "非银行客户存款", "non-bank deposits"]
+    row_labels: ["Deposits of non-bank customers", "非银行客户存款"]
+  - id: wealth_aum
+    name: {en: "Group wealth management AUM", zh: "集团财富管理的管理资产规模"}
+    value_type: amount
+    aggregation: stock
+    period_kind: instant
+    definition: "Assets under management of the group's wealth management business (within the banking group) at the end of the period; not the AUM of the asset management subsidiary (Lion Global Investors), and not income."
+    variants: ["Group wealth management AUM", "wealth management AUM"]
+    query_only: ["wealth AUM", "WM AUM", "财富管理AUM", "财富管理资产规模", "财富管理规模"]
+  - id: wm_fees
+    name: {en: "Wealth management fees", zh: "财富管理费用"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Wealth management fee income for the year (the Wealth management row of the fee income table); part of net fee income, narrower than wealth management income."
+    variants: ["wealth management fees", "财富管理费用"]
+    query_only: ["wealth management fee income", "WM fees", "财富管理手续费", "财富管理费用收入"]
+  - id: total_income
+    name: {en: "Total income", zh: "总收入"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Net interest income plus non-interest income for the year (operating income)."
+    variants: ["total income", "总收入"]
+    query_only: ["营收", "总营收", "operating income"]
+    row_labels: ["Total income", "总收入"]
+  - id: operating_expenses
+    name: {en: "Operating expenses", zh: "营运支出"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Staff costs, property and equipment and other operating expenses for the year (excluding allowances)."
+    variants: ["operating expenses", "total operating expenses", "营运支出", "总营运支出"]
+    query_only: ["营业支出", "营运开支", "营业费用", "经营费用", "运营成本", "opex", "operating costs"]
+    exclude: ["other operating expenses", "其他营运支出"]
+    row_labels: ["Operating expenses", "Total operating expenses", "营运支出", "总营运支出"]
+  - id: operating_profit
+    name: {en: "Operating profit before allowances and amortisation", zh: "扣除准备金与摊销前的营运盈利"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Total income less operating expenses: operating profit before allowances and amortisation of intangible assets (pre-provision operating profit)."
+    variants: ["operating profit before allowances and amortisation", "扣除准备金与摊销前的营运盈利"]
+    query_only: ["经营利润", "营运利润", "拨备前营运利润", "pre-provision operating profit", "PPOP"]
+    exclude: ["operating profit after allowances and amortisation", "扣除准备金与摊销后的营运盈利"]
+    row_labels: ["Operating profit before allowances and amortisation", "扣除准备金与摊销前的营运盈利"]
+  - id: allowances
+    name: {en: "Allowances for loans and other assets", zh: "贷款与其他资产准备金"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Allowances charged for the year on loans and other assets (provision expense, credit-impaired and non-credit-impaired); an amount, unlike credit costs (basis points) and the NPA coverage ratio."
+    variants: ["allowances for loans and other assets", "total allowances", "贷款与其他资产减损准备金", "贷款与其他资产准备金", "准备金总额", "拨备金总额"]
+    query_only: ["拨备支出", "减值准备", "减值拨备", "贷款减值", "impairment charges"]
+    row_labels: ["Allowances for loans and other assets", "贷款与其他资产减损准备金", "贷款与其他资产准备金"]
+  - id: profit_before_tax
+    name: {en: "Profit before income tax", zh: "税前盈利"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Profit before income tax (including share of results of associates)."
+    variants: ["profit before income tax", "profit before tax", "税前盈利", "扣除所得税前盈利", "税前利润"]
+    query_only: ["PBT", "除税前利润", "税前净利"]
+    row_labels: ["Profit before income tax", "税前盈利", "扣除所得税前盈利"]
+  - id: cash_net_profit
+    name: {en: "Cash basis net profit", zh: "现金净盈利"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Net profit attributable to equity holders of the bank with amortisation of intangible assets added back."
+    variants: ["cash basis net profit", "现金净盈利"]
+    query_only: ["cash net profit", "现金基础净利润"]
+    row_labels: ["Cash basis net profit attributable to equity holders of the Bank", "Cash basis net profit attributable to equity holders", "应归属银行权益持有人现金净盈利"]
+  - id: core_net_profit
+    name: {en: "Core net profit", zh: "核心净利"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Net profit excluding one-off items; the base of OCBC's dividend policy (50% payout ratio, 10% special dividend)."
+    variants: ["core net profit", "核心净利"]
+    query_only: ["core earnings", "核心净利润", "核心盈利"]
+  - id: income_tax
+    name: {en: "Income tax expense", zh: "所得税支出"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Income tax expense recognised in the income statement for the year."
+    variants: ["income tax expense", "所得税支出"]
+    query_only: ["tax expense", "税费", "所得税费用", "税项"]
+    row_labels: ["Income tax expense", "所得税支出"]
+  - id: share_of_associates
+    name: {en: "Share of results of associates", zh: "联号企业业绩分享"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Share of after-tax results of associates (such as Bank of Ningbo) under the equity method."
+    variants: ["share of results of associates", "扣除税务后的联号企业业绩分享"]
+    query_only: ["联营公司利润", "联营公司业绩", "应占联营公司业绩", "associates contribution"]
+    row_labels: ["Share of results of associates, net of tax", "扣除税务后的联号企业业绩分享"]
+  - id: staff_costs
+    name: {en: "Staff costs", zh: "员工成本"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Staff-related expenses for the year (salaries, bonuses, provident fund and share-based payments); part of operating expenses."
+    variants: ["staff costs", "员工成本"]
+    query_only: ["人工成本", "人力成本", "薪酬支出", "personnel expenses"]
+    exclude: ["share-based staff costs", "股票形式支付员工成本", "share-based payments for staff costs"]
+    row_labels: ["Staff costs", "员工成本"]
+  - id: net_trading_income
+    name: {en: "Net trading income", zh: "净交易收入"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Net income from trading for the year (foreign exchange, interest rate, securities and derivatives trading, including customer flow income)."
+    variants: ["net trading income", "trading income", "净交易收入", "交易收入"]
+    query_only: ["交易收益", "交易净收入", "trading revenue"]
+    row_labels: ["Net trading income", "净交易收入"]
+  - id: insurance_income
+    name: {en: "Income from life and general insurance", zh: "寿险与一般保险收入"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Subtotal of non-interest income from life and general insurance (Great Eastern Holdings); not \"insurance revenue\" under SFRS(I) 17."
+    variants: ["income from life and general insurance", "insurance income"]
+    query_only: ["保险业务收入", "寿险与一般保险收入", "大东方保险收入"]
+  - id: nav_per_share
+    name: {en: "Net asset value per ordinary share", zh: "每股资产净值"}
+    value_type: amount
+    aggregation: stock
+    period_kind: instant
+    definition: "Ordinary shareholders' equity at the end of the period divided by the number of ordinary shares issued (dollars per share)."
+    query_only: ["NAV per share", "net asset value per share", "BVPS", "每股资产净值", "每股净资产", "每股账面价值"]
+    row_labels: ["Net asset value", "资产净值"]
+  - id: total_assets
+    name: {en: "Total assets", zh: "总资产"}
+    value_type: amount
+    aggregation: stock
+    period_kind: instant
+    definition: "Total assets in the balance sheet at the end of the period (including life insurance fund assets)."
+    variants: ["total assets", "总资产", "资产总额"]
+    query_only: ["资产规模", "总资产规模"]
+    exclude: ["assets excluding investment securities and other assets for life insurance funds", "总资产(不包括寿险基金投资证券与其他资产)"]
+    row_labels: ["Total assets", "总资产", "资产总额"]
+  - id: total_liabilities
+    name: {en: "Total liabilities", zh: "总负债"}
+    value_type: amount
+    aggregation: stock
+    period_kind: instant
+    definition: "Total liabilities in the balance sheet at the end of the period."
+    variants: ["total liabilities", "总负债", "负债总额"]
+    query_only: ["负债规模"]
+    exclude: ["total equity and liabilities", "权益与负债总额"]
+    row_labels: ["Total liabilities", "总负债", "负债总额"]
+  - id: ordinary_equity
+    name: {en: "Ordinary equity", zh: "普通股东权益"}
+    value_type: amount
+    aggregation: stock
+    period_kind: instant
+    definition: "Equity attributable to ordinary shareholders at the end of the period (share capital + reserves), excluding other equity instruments; used for ROE and net asset value per share."
+    variants: ["ordinary equity", "普通股东权益"]
+    query_only: ["普通股权益", "普通股股东权益"]
+    row_labels: ["Ordinary equity", "普通股东权益"]
+  - id: shareholders_equity
+    name: {en: "Equity attributable to equity holders of the Bank", zh: "应归属银行权益持有人总权益"}
+    value_type: amount
+    aggregation: stock
+    period_kind: instant
+    definition: "Total equity attributable to equity holders of the bank at the end of the period = ordinary shareholders' equity + other equity instruments; excluding non-controlling interests."
+    variants: ["equity attributable to equity holders of the Bank", "应归属银行权益持有人总权益"]
+    query_only: ["shareholders' equity", "shareholders equity", "股东权益", "股东权益总额", "股东资金"]
+    row_labels: ["Equity attributable to equity holders of the Bank", "应归属银行权益持有人总权益"]
+  - id: diluted_eps
+    name: {en: "Diluted earnings per share", zh: "稀释每股盈利"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Earnings per share after potential dilutive ordinary shares (dollars per share)."
+    variants: ["diluted earnings"]
+    query_only: ["diluted EPS", "稀释每股盈利", "稀释每股收益", "摊薄每股收益"]
+    row_labels: ["Diluted earnings"]
+  - id: dividend_cover
+    name: {en: "Dividend cover", zh: "盈利股息比例"}
+    value_type: ratio
+    aggregation: ratio
+    period_kind: duration
+    definition: "Earnings per share divided by dividend per share (times); the inverse of the payout ratio."
+    variants: ["dividend cover", "盈利股息比例"]
+    query_only: ["股息保障倍数", "股息覆盖倍数", "dividend coverage"]
+    row_labels: ["Dividend cover (times)", "盈利股息比例(倍数)"]
+  - id: pe_ratio
+    name: {en: "Price-to-earnings ratio", zh: "本益比"}
+    value_type: ratio
+    aggregation: ratio
+    period_kind: duration
+    definition: "Average share price divided by earnings per share (times)."
+    variants: ["price-to-earnings", "本益比"]
+    query_only: ["P/E", "PE ratio", "市盈率"]
+    row_labels: ["Price-to-earnings (number of times)", "Price-to-earnings ratio (based on core earnings)", "本益比(倍数)", "本益比(按核心盈利)"]
+  - id: price_to_nav
+    name: {en: "Price-to-NAV ratio", zh: "股价净值比"}
+    value_type: ratio
+    aggregation: ratio
+    period_kind: instant
+    definition: "Average share price divided by net asset value per share (times)."
+    variants: ["price-to-NAV", "股价净值比"]
+    query_only: ["P/B", "price-to-book", "市净率", "市账率"]
+    row_labels: ["Price-to-NAV (number of times)", "股价净值比(倍数)"]
+  - id: dividend_yield
+    name: {en: "Dividend yield", zh: "净股息收益率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: duration
+    definition: "Dividend per share (including special dividends) divided by the average share price, as a percentage."
+    variants: ["dividend yield", "净股息收益率"]
+    query_only: ["股息率", "股息收益率", "股息回报率"]
+    row_labels: ["Dividend yield (%)", "净股息收益率(%)"]
+  - id: market_cap
+    name: {en: "Market capitalisation", zh: "市值"}
+    value_type: amount
+    aggregation: stock
+    period_kind: instant
+    definition: "Closing share price at the end of the period times the number of ordinary shares issued (billions of dollars)."
+    variants: ["market capitalisation"]
+    query_only: ["market capitalization", "market cap", "总市值", "市值"]
+    row_labels: ["Market Capitalisation ($ billion)", "市值(十亿元)"]
+  - id: tsr
+    name: {en: "Total shareholder returns", zh: "股东总回报"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: duration
+    definition: "Cumulative return from share price changes plus reinvested dividends over a period (five years in the report)."
+    variants: ["total shareholder returns", "total shareholder return", "股东总回报"]
+    query_only: ["TSR", "股东总回报率"]
+  - id: casa_ratio
+    name: {en: "CASA ratio", zh: "CASA比率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: instant
+    definition: "Current and savings account deposits (CASA) as a percentage of customer deposits."
+    variants: ["CASA ratio", "CASA比率"]
+    query_only: ["活期存款比率", "活期存款占比", "往来与储蓄存款比率", "current and savings accounts ratio"]
+  - id: npa
+    name: {en: "Non-performing assets", zh: "不良资产"}
+    value_type: amount
+    aggregation: stock
+    period_kind: instant
+    definition: "Non-performing assets at the end of the period: non-performing loans + classified debt securities + classified contingent liabilities (substandard, doubtful and loss under MAS Notice 612)."
+    variants: ["non-performing assets", "NPAs", "不良资产"]
+    query_only: ["NPA", "不良资产总额"]
+    exclude: ["non-performing assets coverage ratio", "NPA coverage", "不良资产覆盖率"]
+    row_labels: ["Total NPAs"]
+  - id: npl
+    name: {en: "Non-performing loans", zh: "不良贷款"}
+    value_type: amount
+    aggregation: stock
+    period_kind: instant
+    definition: "Non-performing loans at the end of the period, excluding debt securities and contingent liabilities; an amount, unlike the NPL ratio."
+    variants: ["non-performing loans", "NPLs", "不良贷款"]
+    query_only: ["NPL amount", "不良贷款余额", "不良贷款总额"]
+    exclude: ["non-performing loan ratio", "non-performing loans ratio", "NPL ratio", "不良贷款率", "不良贷款比率"]
+    row_labels: ["Total NPLs"]
+  - id: capital_adequacy
+    name: {en: "Capital adequacy ratios", zh: "资本充足率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: instant
+    definition: "Broader concept covering the three capital adequacy ratios (CET1, Tier 1, total capital); used when a query does not say which one."
+    query_only: ["capital adequacy ratios", "资本充足率", "capital adequacy ratio", "CAR", "capital ratios", "资本比率", "资本充足水平"]
+  - id: rwa
+    name: {en: "Risk-weighted assets", zh: "风险加权资产"}
+    value_type: amount
+    aggregation: stock
+    period_kind: instant
+    definition: "Total assets weighted for credit, market and operational risk at the end of the period; the denominator of the capital adequacy ratios."
+    variants: ["risk-weighted assets", "RWA", "风险加权资产"]
+    query_only: ["RWAs", "风险加权资产总额"]
+    row_labels: ["Risk Weighted Assets", "风险加权资产"]
+  - id: sgd_lcr
+    name: {en: "Singapore dollar liquidity coverage ratio", zh: "新元流动性覆盖率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: duration
+    definition: "Liquidity coverage ratio for Singapore dollars only (average for the year)."
+    variants: ["Singapore dollar liquidity coverage ratio"]
+    query_only: ["SGD LCR", "新元流动性覆盖率", "新元LCR"]
+    row_labels: ["Singapore dollar liquidity coverage ratio"]
+  - id: all_ccy_lcr
+    name: {en: "All-currency liquidity coverage ratio", zh: "全币种流动性覆盖率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: duration
+    definition: "Liquidity coverage ratio across all currencies (average for the year)."
+    variants: ["All-currency liquidity coverage ratio"]
+    query_only: ["all-currency LCR", "全币种流动性覆盖率", "所有货币流动性覆盖率"]
+    row_labels: ["All-currency liquidity coverage ratio"]
+  - id: cet1_fully_phased
+    name: {en: "CET1 CAR (fully phased-in)", zh: "全面实施基础的普通股权一级资本充足率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: instant
+    definition: "CET1 ratio calculated as if the final Basel III reforms (fully effective from 1 January 2029) were fully implemented (15.1% in 2025); differs from the reported transitional value."
+    variants: ["fully phased-in Common Equity Tier 1 Capital Adequacy Ratio", "全面实施后的普通股权一级资本充足率", "按全面实施基础的CET1CAR"]
+    query_only: ["fully phased-in CET1", "fully loaded CET1", "全面实施CET1", "完全实施后的核心一级资本充足率"]
+  - id: special_dividend
+    name: {en: "Special dividend", zh: "特别股息"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Special dividend per share declared, beyond the ordinary dividend, as part of the capital return plan (10% of core net profit in each of 2024 and 2025)."
+    variants: ["special dividend", "special dividends", "特别股息"]
+    query_only: ["特别派息", "特殊股息"]
+  - id: staff_strength
+    name: {en: "Group staff strength", zh: "员工人数"}
+    value_type: count
+    aggregation: stock
+    period_kind: instant
+    definition: "Group staff strength (both year-end and annual average)."
+    variants: ["staff strength"]
+    query_only: ["employees", "number of employees", "员工总数", "雇员人数"]
+    row_labels: ["Group staff strength"]
+  - id: nbev
+    name: {en: "New business embedded value", zh: "新业务内含价值"}
+    value_type: amount
+    aggregation: flow
+    period_kind: duration
+    definition: "Embedded value of new policies written by Great Eastern Holdings during the year (an insurance business metric)."
+    variants: ["new business embedded value", "NBEV"]
+    query_only: ["新业务内含价值", "新业务价值", "NBV", "new business value"]
+  - id: non_ii_ratio
+    name: {en: "Non-interest income to total income", zh: "非利息收入占比"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: duration
+    definition: "Non-interest income as a percentage of total income."
+    variants: ["non-interest income to total income"]
+    query_only: ["非利息收入占比", "非利息收入占总收入比例"]
+    row_labels: ["Non-interest income to total income"]
+  - id: net_profit_margin
+    name: {en: "Net profit margin", zh: "净利率"}
+    value_type: percent
+    aggregation: ratio
+    period_kind: duration
+    definition: "Derived metric (D46): net profit attributable to equity holders of the bank / total income. Not disclosed directly in the annual report; computed from two input facts."
+    derive: "net_profit / total_income"
+    query_only: ["净利率", "净利润率", "net profit margin"]   # net margin not included: in banking it usually means net interest margin, and the reports don't use it (D46 review I1)
+edges:
+  - {src: cet1_ratio, relation: broader, dst: capital_adequacy}
+  - {src: tier1_car, relation: broader, dst: capital_adequacy}
+  - {src: total_car, relation: broader, dst: capital_adequacy}
+  - {src: cet1_fully_phased, relation: variant_of, dst: cet1_ratio}
+  - {src: sgd_lcr, relation: broader, dst: lcr}
+  - {src: all_ccy_lcr, relation: broader, dst: lcr}
+  - {src: total_payout_ratio, relation: broader, dst: payout_ratio}
+  - {src: ordinary_payout_ratio, relation: broader, dst: payout_ratio}
+  - {src: total_payout_ratio, relation: variant_of, dst: ordinary_payout_ratio}
+  - {src: nii, relation: component_of, dst: total_income}
+  - {src: non_interest_income, relation: component_of, dst: total_income}
+  - {src: fee_income, relation: component_of, dst: non_interest_income}
+  - {src: net_trading_income, relation: component_of, dst: non_interest_income}
+  - {src: insurance_income, relation: component_of, dst: non_interest_income}
+  - {src: wm_fees, relation: component_of, dst: fee_income}
+  - {src: staff_costs, relation: component_of, dst: operating_expenses}
+  - {src: special_dividend, relation: component_of, dst: dps}
+  - {src: npl, relation: component_of, dst: npa}
+  - {src: ordinary_equity, relation: component_of, dst: shareholders_equity}
+  - {src: cash_net_profit, relation: variant_of, dst: net_profit}
+  - {src: core_net_profit, relation: variant_of, dst: net_profit}
+  - {src: diluted_eps, relation: variant_of, dst: eps}
+  - {src: wm_fees, relation: component_of, dst: wealth_mgmt_income}
+# review: main-session changes to A's draft (2026-10-19)
+review:
+  - {concept: nav_per_share, field: query_only, dropped: "book value per share", why: "held-out test spelling h01"}
+  - {concept: total_income, field: query_only, dropped: "营业收入", why: "held-out test spelling h10"}
+  - {concept: total_income, field: query_only, dropped: "revenue", why: "would match held-out test spelling h06 fee revenue; bare revenue is too broad"}
+  - {concept: total_income, field: query_only, dropped: "total revenue", why: "same as above: revenue is generic"}
+  - {concept: allowances, field: query_only, dropped: "loan loss provisions", why: "held-out test spelling h15"}
+  - {concept: allowances, field: query_only, dropped: "provisions", why: "would match held-out test spelling h15"}
+  - {concept: allowances, field: query_only, dropped: "拨备", why: "would match held-out test spelling h18 拨备前利润 (A also flagged it as doubtful)"}
+  - {concept: operating_profit, field: query_only, dropped: "拨备前利润", why: "held-out test spelling h18"}
+  - {concept: staff_strength, field: query_only, dropped: "员工人数", why: "held-out test spelling h14"}
+  - {concept: staff_strength, field: variants, dropped: "headcount", why: "refers to headcount changes, too broad (A's doubt 7)"}
+  - {concept: wealth_aum, field: variants, dropped: "Banking WM AUM", why: "unclear whether the Banking and Group scopes match (A's doubt 2)"}
+  - {concept: tier1_car, field: row_labels, dropped: "Tier 1", why: "generic row label; would match held-out test spelling h04 Tier 1 ratio (A's doubt 4)"}
+  - {concept: tier1_car, field: row_labels, dropped: "一级资本", why: "generic row label; part of \"普通股权一级资本\" (CET1 capital) (A's doubt 4)"}
+  - {concept: total_car, field: row_labels, dropped: "总资本", why: "generic row label (A's doubt 4)"}
+  - {concept: wm_fees, field: row_labels, dropped: "Wealth management", why: "generic row label (A's doubt 4)"}
+  - {concept: capital_adequacy, change: variants → query_only, why: "broader concept: its spellings only recognise queries and expand them to narrower concepts; never used for tagging (A's doubt 8)"}
+  - {concept: customer_deposits, accepted_proposed_variant: "non-bank deposits"}
+  - {concept: wealth_mgmt_income, accepted_proposed_variant: "WM income"}
+  - {edge: ["wm_fees", "variant_of", "wealth_mgmt_income"], change: dropped, why: "changed to component_of"}
+  - {concept: wealth_aum, added_variant: "wealth management AUM", why: "found by the main session while checking v05: it appears on its own in the report (ocbc-group_ar_2025_en, physical page 13); evidence in concepts.evidence.yaml"}
+  - {concept: customer_loans, added_exclude: ["allowances for impaired loans to customers", "allowances for non-credit-impaired loans to customers", "impairment of loans to customers", "减损客户贷款准备金", "非信贷减损客户贷款的准备金", "客户贷款的减损", "客户贷款的准备金"], why: "first tagging spot check (2026-10-19): allowances for and impairment of loans to customers are not the customer loan balance (note 28 titles, key audit matters)"}
+  - {concept: tier1_car, added_exclude: ["Additional Tier 1", "额外Tier1资本"], why: "first tagging spot check (2026-10-19): Additional Tier 1 capital (AT1 capital securities) is not the Tier 1 capital adequacy ratio"}
+  - {concept: staff_costs, added_exclude: ["share-based payments for staff costs"], why: "first tagging spot check (2026-10-19): share-based payments in the statement of changes in equity are not staff costs"}
+  - {concept: non_ii_ratio, field: query_only, dropped: "非息收入占比", why: "held-out test spelling h09 \"非息收入\" is its prefix, so resolve_concept's prefix match would recognise it (review C, U3)"}
+  - {concept: wealth_aum, field: variants, dropped: "集团财富管理的管理资产规模", why: "expansion brings in generic tokens such as \"的\"; v05 2023 went from hit to miss (p2b-report §4.3; removed at the user's request on 2026-10-19)"}
+  - {concept: wealth_aum, field: variants, dropped: "财富管理的资产管理规模", why: "same as above: expands to \"的 / 资产 / 管理 / 规模\"; with both removed, v05 2023 recovered (2024 back to its pre-P2-2 miss)"}

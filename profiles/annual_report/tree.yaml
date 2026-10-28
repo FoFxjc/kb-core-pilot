@@ -1,0 +1,66 @@
+# Tree rules of the annual report type (kb-core design §3.1). Ported from kb profiles/annual_report/tree.py
+# (constants and regexes); kb read PDF spans, kb-core reads intake regions, their fonts and layout words.
+version: 1
+tree_source: regions
+toc:
+  scan_pages: 6              # the contents page is searched among the first pages
+  min_entries: 5             # a contents page has at least this many entries with page numbers
+  line_size: [8, 10.5]       # font sizes of contents lines
+  number_dx: 150             # page numbers sit at least this far right of the column's titles
+  same_line_dy: 2.5          # a page number belongs to the title on the same line
+  continuation_dy: 14        # a wrapped title continues within this distance
+  number: '^\d{1,3}$'
+  inside_back_cover: '^(封底内页|IBC|Inside Back Cover)$'
+  sub_toc_max_chars: 1500    # sub-contents pages are short pages ...
+  sub_toc_min_entries: 5     # ... with this many entries in increasing page order
+nav_page_max_chars: 30       # pages with fewer non-blank characters are divider pages
+preface_title: {en: Cover and Contents, zh: 封面与目录}
+notes:
+  section: '附注|Notes to the Financial Statements'
+  note: '^(\d{1,2})\.\s*(.+)$'
+  subnote: '^(\d{1,2})\.(\d{1,2})\s+(.+)$'
+  continued: '[(（]\s*(续|continued)\s*[)）]'
+  dotted: '^(\d{1,2}(?:\.\d{1,2}){2,})\s'          # 2.13.6, 2.13.6.1: numbering below a subnote
+  roman_group: '^\((?:I|II|III|IV|V|VI|VII|VIII|IX|X)\)\s'   # "(I) Financial Assets": a group of its own
+  note_min_size: 12
+  subnote_min_size: 9
+  min_notes: 5
+  min_subnotes: 2
+  title_start: '^[A-Za-z一-鿿(（]'
+bold_font_names: [Bold, Medium, Semibold, SemiBold, Heavy, Black]   # a region font with one of these in its name is bold
+headings:
+  types: [title, heading]
+  split_y: 130               # a heading below this y starts on its page; above it, the previous node ends a page earlier
+  generic: [total, group, bank, 集团, 银行, 总额, over, gold]
+  placeholder: '^p\.\d+$'
+  refer_to: '^[(（]\s*(Refer to|参阅|请参阅)'
+  numbered: '^\d{1,2}\.(\d{1,2})?\s'   # note / subnote headings are handled by the notes rule only
+  # not headings: callout fragments ending in a function word, table/chart captions, text inside a table's box,
+  # and labels smaller than the document's body text (e.g. entries of an address directory)
+  trailing_words: [than, of, and, or, the, to, for, in, on, at, by, with, an, from, as]   # not "a": "Part A"
+  caption: '^(Table|Chart|Figure|Exhibit|Graph)\s+\d+[A-Za-z]?\s*[:.]|^(表|图)\s*\d+'
+  min_size_vs_body: 1.0
+  # same-size hierarchy from layout: a bullet heading sits one level below the preceding same-size heading; a
+  # heading immediately followed by a same-size heading heads a group, and the same-size headings after it (until
+  # the next group head or a larger heading) sit one level below it (e.g. regions over countries)
+  bullet: '^[•·▪‣◦]\s*'
+  lettered: '^\(?[a-z]\)\s'   # "(c) Equity Price Risk": one level below the numbered heading before it
+  # rule round 2: not headings either — figure-dominant callouts (numbers, %, currency and these unit words leave
+  # fewer than min_letters letters), anything inside these container boxes, salutations and field lines, and a smaller
+  # line set directly under a heading and apart from the text below it (a job title under a name)
+  stat_units: [万, 亿, 元, 百万, 千, 新元, million, billion, bn, mn, m, k, cents, cagr, yoy, x, times, pp, bps, pct]
+  min_letters: 2
+  # rule round 3 (round 2 W1): a title ending in a figure with a unit is a stat callout ("... $7.42 billion 2%",
+  # "总派息率60%"); a title that only starts with one ("$2.5 billion Capital Return") stays
+  figure_unit: '\d[\d,.]*\s*(%|billion|million|bn|亿|万|元)\s*$'
+  container_types: [table, chart, diagram, picture]
+  field_line: '[,，:：]\s*$|[:：]\s*\d'
+  subtitle_gap_pt: 6
+  subtitle_apart_factor: 2   # ... and the text below starts at least 2 x that gap further down
+  group_dy_factor: 3      # a group head's first member sits directly below it: same column, within 3 x its font size
+  # rule round 3 (round 2 W1)
+  row_dy: 2                  # headings whose tops lie within this distance sit side by side in one row
+  card_row: 4                # this many same-size headings in one row, ...
+  card_max_pitch: 115        # ... closer than this apart, are cards (value cards, award tiles), not sections
+  wrap_gap: 0.5              # a second title line starts within this many font sizes below the first line
+  display_text_factor: 1.5   # text this many times the body size is a pull quote or a big figure, not running text

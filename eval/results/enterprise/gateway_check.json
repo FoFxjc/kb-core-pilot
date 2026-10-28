@@ -1,0 +1,49 @@
+{
+ "no identity: search": [
+  401,
+  "UNAUTHENTICATED"
+ ],
+ "X-KB-Subject sent": [
+  400,
+  "INVALID_PARAM"
+ ],
+ "subject query on page image": 400,
+ "unmapped group": [
+  403,
+  "FORBIDDEN"
+ ],
+ "admin config as staff": 403,
+ "import as staff": 403,
+ "admin config as admin": [
+  200,
+  {
+   "contract": "v1",
+   "llm_enabled": true,
+   "live_chat": true,
+   "mode": "live",
+   "role_picker": false
+  }
+ ],
+ "admin-only user: search": 403,
+ "search as example-all-staff": {
+  "results": 0,
+  "2025_en_results": 0,
+  "hit_counts": {},
+  "trace_id": "tr_86b075ddde834f6ab14f4f9f812d6395"
+ },
+ "search as example-finance-confidential": {
+  "results": 11,
+  "2025_en_results": 11,
+  "hit_counts": {
+   "2025": 262
+  },
+  "trace_id": "tr_c3df5c2d0f59468a9c71de082de4c800"
+ },
+ "2025 en page image as example-all-staff": 404,
+ "2025 en page image as example-finance-confidential": 200,
+ "MCP: no identity": 401,
+ "MCP: public Host header": 421,
+ "MCP read 2025 en p98 as example-all-staff": "UNKNOWN_DOC",
+ "MCP read 2025 en p98 as example-finance-confidential": "page returned",
+ "UI as admin": 200
+}

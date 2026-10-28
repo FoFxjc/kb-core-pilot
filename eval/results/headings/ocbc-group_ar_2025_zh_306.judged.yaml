@@ -1,0 +1,324 @@
+doc_id: ocbc-group_ar_2025_zh
+seed: 306
+page_count: 196
+protocol: 'Round 2 T1.2 heading list on a seeded page sample. For each sampled physical page, list every heading that STARTS
+  a section on that page, as printed (eval/tree_rubric.md criterion 1: no body text, table row labels or column headers, chart
+  labels, captions, stat callouts, field labels, signatory names, running headers or ''(continued)'' repeats). Contents-page
+  entries are not headings of the contents page.'
+pages:
+- page: 10
+  headings:
+  - title: 致力于可持续性的股东回报
+    level: 2
+  - title: 领导层无缝过渡
+    level: 2
+  - title: 应对变化，重新调整，迈向“新增长”
+    level: 2
+  note: Continuation of 主席的思考; top large text is a pull quote.
+- page: 13
+  headings:
+  - title: 总体财务表现
+    level: 2
+  - title: 履行当前战略，并为下一阶段做好充分准备
+    level: 2
+  - title: 新企业战略简述
+    level: 2
+  note: Continuation of 集团首席执行官的观点.
+- page: 15
+  headings:
+  - title: 致谢
+    level: 2
+  note: Signatory 陈德隆先生 / 集团首席执行官 excluded.
+- page: 16
+  headings:
+  - title: 华侨银行未来前沿战略
+    level: 1
+  - title: 推动四大战略转型，实现加速增长
+    level: 2
+  note: 亚洲转型/科技转型/净零转型/业务转型 and 人工智能/数据/数字化 are diagram labels (doubtful for the four shift labels).
+- page: 19
+  headings:
+  - title: 提供全方位财富综合方案
+    level: 2
+  - title: 在整个财富光谱的各阶段满足各种银发族的多元需求
+    level: 3
+  - title: 在集团整体推行黄金投资计划
+    level: 3
+  note: Continuation of 推动转型，加速增长 (p18).
+- page: 49
+  headings: []
+  note: KAM table continues; 以公允价值计量的金融工具的估值 – 等级2和3 is the matter name inside the KAM table cell, excluded (doubtful); 关键审计事项
+    / 我们的审计如何处理此关键审计事项 are column headers.
+- page: 51
+  headings: []
+  note: KAM table; 寿险基金的保险合约负债的估值 is inside the table cell, excluded (doubtful).
+- page: 54
+  headings:
+  - title: 收入报表
+    level: 2
+  note: Bold lines are statement row labels.
+- page: 65
+  headings:
+  - title: 2.10.2 无形资产
+    level: 5
+  - title: 2.11 资产减损
+    level: 4
+  - title: (I) 金融资产
+    level: 5
+  - title: 2.11.1 范围
+    level: 6
+  - title: 2.11.2 预期信贷损失减损模型
+    level: 6
+  - title: 2.11.3 计量
+    level: 6
+  - title: 2.11.4 各阶段之间的变动
+    level: 6
+  note: 2.10 and 2.10.1 are (续). 2.11.x placed under (I) (doubtful level).
+- page: 68
+  headings:
+  - title: 2.13.5 合约界限
+    level: 5
+  - title: 2.13.6 计量
+    level: 5
+  note: 2.13 is (续).
+- page: 72
+  headings:
+  - title: 保险金融收入或费用
+    level: 6
+  - title: 2.13.10 寿险基金资产及负债
+    level: 5
+  - title: 2.14 股本与股息
+    level: 4
+  - title: 2.15 租赁
+    level: 4
+  - title: 2.15.1 身为承租人
+    level: 5
+  - title: 使用权资产
+    level: 6
+  - title: 租赁负债
+    level: 6
+  - title: 短期租赁和低价值资产
+    level: 6
+  note: Underlined sub-headings counted.
+- page: 73
+  headings:
+  - title: 2.15.2 身为出租人
+    level: 5
+  - title: 2.16 收入与支出的确认
+    level: 4
+  - title: 2.16.1 利息收入与支出
+    level: 5
+  - title: 2.16.2 收费和佣金
+    level: 5
+  - title: 2.16.3 股息
+    level: 5
+  - title: 2.16.4 员工利益
+    level: 5
+  - title: 2.17 所得税支出
+    level: 4
+  - title: 2.18 受托业务
+    level: 4
+  note: ''
+- page: 85
+  headings:
+  - title: 13.3 雇员股票购买计划
+    level: 4
+  note: 13 and 13.2 are (续); 于1月1日 etc. are table rows.
+- page: 92
+  headings:
+  - title: 17. 非银行客户及银行同业之存款和结存
+    level: 3
+  note: Bold lines are table rows.
+- page: 98
+  headings: []
+  note: Only (续) headings.
+- page: 103
+  headings:
+  - title: 22.1 寿险的剩余保险覆盖负债与已产生索赔负债之对账
+    level: 4
+  note: Bold lines are table rows.
+- page: 106
+  headings:
+  - title: 22.3 本年度确认寿险合约的影响
+    level: 4
+  - title: 22.4 过渡至SFRS(I) 17所确认的数额
+    level: 4
+  note: ''
+- page: 107
+  headings:
+  - title: 22.5 已发出寿险合约的合同服务边际的预期确认
+    level: 4
+  - title: 23. 现金及存放中央银行款项
+    level: 3
+  note: ''
+- page: 111
+  headings:
+  - title: 27.1 按逾期期限分析
+    level: 4
+  - title: 27.2 按抵押类型分析
+    level: 4
+  - title: 27.3 按行业分析
+    level: 4
+  - title: 27.4 重组/重议贷款
+    level: 4
+  note: 27 is (续); 集团/银行 are table labels.
+- page: 135
+  headings:
+  - title: 过期但未减损的贷款
+    level: 5
+  - title: 获得的抵押品与其他信用增级项目
+    level: 5
+  - title: 国家风险
+    level: 5
+  - title: 38.3 市场风险与流动性风险管理
+    level: 4
+  note: 38 and 38.2 are (续); 过期 / 过期但未减损 are table rows.
+- page: 138
+  headings: []
+  note: Only (续) headings; bold lines are table rows.
+- page: 143
+  headings:
+  - title: 保险风险
+    level: 5
+  - title: 寿险合约的保险风险
+    level: 6
+  note: 38 and 38.4 are (续).
+- page: 144
+  headings: []
+  note: Only (续) headings; (a)按业务类型 / (b)按国家 are table group labels; 假设变动 is a column header.
+- page: 148
+  headings:
+  - title: (c)股本价格风险
+    level: 6
+  - title: (d)信贷息差风险
+    level: 6
+  - title: (e)替代投资风险
+    level: 6
+  - title: (f)商品期货风险
+    level: 6
+  - title: (g)流动性风险
+    level: 6
+  note: Parent 市场、信贷与流动性风险 is (续).
+- page: 153
+  headings:
+  - title: (i)集中风险
+    level: 6
+  note: (h)信贷风险 is (续).
+- page: 154
+  headings:
+  - title: (j)金融风险敏感度分析
+    level: 6
+  - title: 市场风险敏感度分析
+    level: 7
+  note: '市场风险敏感度分析 is a bold title over a table (doubtful: table title).'
+- page: 155
+  headings: []
+  note: Only (续) headings.
+- page: 157
+  headings: []
+  note: Only 39 (续); bold lines are table rows.
+- page: 160
+  headings:
+  - title: 40. 金融工具的公允价值
+    level: 3
+  - title: 40.1 估价治理框架
+    level: 4
+  - title: 买卖价调整
+    level: 5
+  - title: 模型风险调整
+    level: 5
+  - title: 第一天损益调整
+    level: 5
+  - title: 信贷估价调整
+    level: 5
+  - title: 抵押估价调整
+    level: 5
+  - title: 参数不确定性调整
+    level: 5
+  note: Underlined sub-headings counted.
+- page: 168
+  headings:
+  - title: 41. 对销金融资产与金融负债
+    level: 3
+  note: Bold lines are table rows.
+- page: 169
+  headings: []
+  note: Only 41 (续).
+- page: 170
+  headings:
+  - title: 42. 或有负债
+    level: 3
+  - title: 42.1 按行业分析
+    level: 4
+  - title: 42.2 按地区分析
+    level: 4
+  note: ''
+- page: 171
+  headings:
+  - title: 43. 承诺
+    level: 3
+  - title: 43.1 信贷承诺
+    level: 4
+  - title: 43.2 其他承诺
+    level: 4
+  - title: 43.3 总承诺
+    level: 4
+  - title: 43.4 信贷承诺按行业分析
+    level: 4
+  - title: 43.5 信贷承诺按地区分析
+    level: 4
+  note: ''
+- page: 173
+  headings:
+  - title: 45. 转移金融资产
+    level: 3
+  - title: 45.1 抵押资产
+    level: 4
+  - title: 45.2 作为发行备兑债券的抵押品而转让的资产(附注21.5)
+    level: 4
+  note: ''
+- page: 176
+  headings:
+  - title: 48. 新会计准则与解释
+    level: 3
+  - title: SFRS(I) 18财务报表的呈现与披露
+    level: 4
+  note: SFRS(I)/标题 are table column headers.
+- page: 182
+  headings:
+  - title: 陈燕燕女士 (60)
+    level: 2
+  note: Top 董事会 – 履历 is the running header (section starts p177). 受委为董事, 其他董事职位及主要职务/职衔 etc. are profile field labels.
+- page: 186
+  headings:
+  - title: 蓝淑燕女士
+    level: 2
+  - title: 颜国锦先生
+    level: 2
+  - title: 刘之华先生
+    level: 2
+  - title: 雷法明(Praveen Raina)先生
+    level: 2
+  - title: 李斐雯女士
+    level: 2
+  - title: 阮玲女士
+    level: 2
+  note: Top 管理委员会 – 履历 is running header; job titles under names are field labels. Column reading order.
+- page: 187
+  headings:
+  - title: 林添福先生
+    level: 2
+  - title: 高菁菁女士
+    level: 2
+  note: ''
+- page: 193
+  headings: []
+  note: Blank page (本页特意留白).
+- page: 195
+  headings:
+  - title: 集团简介
+    level: 1
+  - title: 企业资料
+    level: 1
+  note: 'Red labels 董事会, 秘书, 注册办事处, 股票注册办事处, 审计师, 负责审核工作的合伙人, 投资者关系 treated as directory field labels (doubtful). Reading
+    order: left column (集团简介) then right column (企业资料).'

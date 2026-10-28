@@ -1,0 +1,3 @@
+{"size": "{{size}}", "_source": ["doc_id", "page_no", "text", "text_tok"], "track_scores": true,
+ "query": {"bool": {"filter": "{{filters}}", "must": [{"match": {"text_tok": "{{match}}"}}]}},
+ "sort": [{"_score": "desc"}, {"doc_id": "asc"}, {"page_no": "asc"}]}

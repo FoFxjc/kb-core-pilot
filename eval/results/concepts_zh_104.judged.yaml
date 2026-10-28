@@ -1,0 +1,1045 @@
+lang: zh
+seed: 104
+sampled: 40
+protocol: 'D39: a tag is correct when the node actually reports or discusses the concept (it is the title, a table has its
+  row, or the text gives its value or change); a node is correct only if all its tags are'
+items:
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0002
+  title: 财务重点
+  pages:
+  - 4
+  - 4
+  printed_pages:
+  - '2'
+  - '2'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: 贷款与其他资产减损准备金
+  - concept_id: cash_net_profit
+    name_en: Cash basis net profit
+    method: rule_row_label
+    variant: 应归属银行权益持有人现金净盈利
+  - concept_id: cet1_ratio
+    name_en: CET1 capital adequacy ratio
+    method: rule_row_label
+    variant: 普通股权一级资本
+  - concept_id: cost_to_income
+    name_en: Cost-to-income ratio
+    method: rule_row_label
+    variant: 支出收入比例
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: 客户净贷款
+  - concept_id: dividend_cover
+    name_en: Dividend cover
+    method: rule_row_label
+    variant: 盈利股息比例(倍数)
+  - concept_id: dps
+    name_en: Dividend per share
+    method: rule_row_label
+    variant: 股息(分)
+  - concept_id: eps
+    name_en: Earnings per share
+    method: rule_row_label
+    variant: 基本盈利
+  - concept_id: nav_per_share
+    name_en: Net asset value per ordinary share
+    method: rule_row_label
+    variant: 资产净值
+  - concept_id: net_profit
+    name_en: Net profit
+    method: rule_row_label
+    variant: 应归属银行权益持有人净盈利
+  - concept_id: operating_expenses
+    name_en: Operating expenses
+    method: rule_row_label
+    variant: 营运支出
+  - concept_id: operating_profit
+    name_en: Operating profit before allowances and amortisation
+    method: rule_row_label
+    variant: 扣除准备金与摊销前的营运盈利
+  - concept_id: ordinary_equity
+    name_en: Ordinary equity
+    method: rule_row_label
+    variant: 普通股东权益
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: 税前盈利
+  - concept_id: roa
+    name_en: Return on assets
+    method: rule_row_label
+    variant: 资产回报率
+  - concept_id: roe
+    name_en: Return on equity
+    method: rule_row_label
+    variant: 权益回报率
+  - concept_id: shareholders_equity
+    name_en: Equity attributable to equity holders of the Bank
+    method: rule_row_label
+    variant: 应归属银行权益持有人总权益
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 总资产
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_row_label
+    variant: 总收入
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 总负债
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0024
+  title: 更高的可持续股息
+  pages:
+  - 8
+  - 8
+  printed_pages:
+  - '6'
+  - '6'
+  tags:
+  - concept_id: payout_ratio
+    name_en: Dividend payout ratio
+    method: rule_dict
+    variant: 派息率
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0126
+  title: 内部评级模型概述
+  pages:
+  - 47
+  - 48
+  printed_pages:
+  - '45'
+  - '46'
+  tags:
+  - concept_id: npa
+    name_en: Non-performing assets
+    method: rule_dict
+    variant: 不良资产
+  verdict: wrong
+  wrong_tags:
+  - npa
+  note: NPAs only mentioned in the remediation-management process text (page 46/48); no NPA figure or change; section is about
+    IRB model overview.
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0190
+  title: 信贷减损客户贷款ECL
+  pages:
+  - 65
+  - 65
+  printed_pages:
+  - '63'
+  - '63'
+  tags:
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_title
+    variant: 客户贷款
+  verdict: wrong
+  wrong_tags:
+  - customer_loans
+  note: Audit KAM on ECL for credit-impaired loans; 'customer loans' only inside another metric's name; only figure is impaired-loan
+    allowance S$1,328m, not customer loans.
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0201
+  title: 资产负债表
+  pages:
+  - 73
+  - 73
+  printed_pages:
+  - '71'
+  - '71'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: 客户贷款
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0225
+  title: 2.18 每股盈利
+  pages:
+  - 92
+  - 92
+  printed_pages:
+  - '90'
+  - '90'
+  tags:
+  - concept_id: eps
+    name_en: Earnings per share
+    method: rule_title
+    variant: 每股盈利
+  verdict: wrong
+  wrong_tags:
+  - eps
+  note: Accounting-policy description of how EPS is computed; no EPS figure.
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0228
+  title: 2.21 比较数字
+  pages:
+  - 95
+  - 96
+  printed_pages:
+  - '93'
+  - '94'
+  tags:
+  - concept_id: net_trading_income
+    name_en: Net trading income
+    method: rule_row_label
+    variant: 净交易收入
+  verdict: correct
+  wrong_tags: []
+  note: 'Doubtful but correct: comparative-figures note has a reclassification table with a net trading income row (2022 restated
+    929 vs 834 reported).'
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0231
+  title: 5. 收费和佣金(净额)
+  pages:
+  - 99
+  - 99
+  printed_pages:
+  - '97'
+  - '97'
+  tags:
+  - concept_id: fee_income
+    name_en: Net fee income
+    method: rule_title
+    variant: 收费和佣金
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0233
+  title: 7. 净交易收入
+  pages:
+  - 100
+  - 100
+  printed_pages:
+  - '98'
+  - '98'
+  tags:
+  - concept_id: net_trading_income
+    name_en: Net trading income
+    method: rule_title
+    variant: 净交易收入
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0236
+  title: 10. 贷款与其他资产准备金
+  pages:
+  - 102
+  - 102
+  printed_pages:
+  - '100'
+  - '100'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_title
+    variant: 贷款与其他资产准备金
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0251
+  title: 17. 非银行客户及银行同业之存款和结存
+  pages:
+  - 111
+  - 111
+  printed_pages:
+  - '109'
+  - '109'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0271
+  title: 26. 客户贷款
+  pages:
+  - 125
+  - 125
+  printed_pages:
+  - '123'
+  - '123'
+  tags:
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_title
+    variant: 客户贷款
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0288
+  title: 37.1 商业分部
+  pages:
+  - 146
+  - 148
+  printed_pages:
+  - '144'
+  - '146'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: 贷款与其他资产准备金
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_row_label
+    variant: 净利息收入
+  - concept_id: non_interest_income
+    name_en: Non-interest income
+    method: rule_row_label
+    variant: 非利息收入
+  - concept_id: npa
+    name_en: Non-performing assets
+    method: rule_row_label
+    variant: 不良资产
+  - concept_id: operating_profit
+    name_en: Operating profit before allowances and amortisation
+    method: rule_row_label
+    variant: 扣除准备金与摊销前的营运盈利
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: 扣除所得税前盈利
+  - concept_id: share_of_associates
+    name_en: Share of results of associates
+    method: rule_row_label
+    variant: 扣除税务后的联号企业业绩分享
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 资产总额
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_row_label
+    variant: 总收入
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2023_zh
+  node_id: ocbc-group_ar_2023_zh:regions:0295
+  title: 39. 金融资产与金融负债的分类
+  pages:
+  - 184
+  - 187
+  printed_pages:
+  - '182'
+  - '185'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: 客户贷款
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 资产总额
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0012
+  title: 回报股东
+  pages:
+  - 7
+  - 7
+  printed_pages:
+  - '5'
+  - '5'
+  tags:
+  - concept_id: dividend_yield
+    name_en: Dividend yield
+    method: rule_row_label
+    variant: 净股息收益率(%)
+  - concept_id: pe_ratio
+    name_en: Price-to-earnings ratio
+    method: rule_row_label
+    variant: 本益比(倍数)
+  - concept_id: price_to_nav
+    name_en: Price-to-NAV ratio
+    method: rule_row_label
+    variant: 股价净值比(倍数)
+  verdict: correct
+  wrong_tags: []
+  note: 'Doubtful but correct: tags come from the share-price ratio table on the same page (P/E, P/NAV, net dividend yield
+    2020-2024); node title is the ''Returning to shareholders'' callout.'
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0015
+  title: 60%总派息率
+  pages:
+  - 7
+  - 7
+  printed_pages:
+  - '5'
+  - '5'
+  tags:
+  - concept_id: total_payout_ratio
+    name_en: Total dividend payout ratio
+    method: rule_title
+    variant: 总派息率
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0035
+  title: 财务业绩创新高
+  pages:
+  - 10
+  - 11
+  printed_pages:
+  - '8'
+  - '9'
+  tags:
+  - concept_id: net_profit
+    name_en: Net profit
+    method: rule_dict
+    variant: 净利润
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0106
+  title: 股票回购与库存股
+  pages:
+  - 34
+  - 34
+  printed_pages:
+  - '32'
+  - '32'
+  tags:
+  - concept_id: cet1_ratio
+    name_en: CET1 capital adequacy ratio
+    method: rule_dict
+    variant: 普通股权Tier1资本
+  - concept_id: tier1_car
+    name_en: Tier 1 capital adequacy ratio
+    method: rule_dict
+    variant: Tier1资本
+  - concept_id: total_car
+    name_en: Total capital adequacy ratio
+    method: rule_dict
+    variant: 总资本充足率
+  verdict: wrong
+  wrong_tags:
+  - cet1_ratio
+  - tier1_car
+  - total_car
+  note: Only MAS regulatory minimums (6.5%/8.0%/10.0%, 9.0%/10.5%/12.5% with CCB) are given; no OCBC capital ratio values;
+    node is about share buybacks.
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0132
+  title: 信贷减损客户贷款ECL
+  pages:
+  - 46
+  - 46
+  printed_pages:
+  - '44'
+  - '44'
+  tags:
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_title
+    variant: 客户贷款
+  verdict: wrong
+  wrong_tags:
+  - customer_loans
+  note: Audit KAM on ECL for credit-impaired loans; 'customer loans' only inside another metric's name; figure given is impaired-loan
+    allowance S$1,278m.
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0141
+  title: 收入报表
+  pages:
+  - 52
+  - 52
+  printed_pages:
+  - '50'
+  - '50'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: 贷款与其他资产准备金
+  - concept_id: fee_income
+    name_en: Net fee income
+    method: rule_row_label
+    variant: 收费和佣金(净值)
+  - concept_id: income_tax
+    name_en: Income tax expense
+    method: rule_row_label
+    variant: 所得税支出
+  - concept_id: net_trading_income
+    name_en: Net trading income
+    method: rule_row_label
+    variant: 净交易收入
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_row_label
+    variant: 净利息收入
+  - concept_id: non_interest_income
+    name_en: Non-interest income
+    method: rule_row_label
+    variant: 非利息收入
+  - concept_id: operating_expenses
+    name_en: Operating expenses
+    method: rule_row_label
+    variant: 总营运支出
+  - concept_id: operating_profit
+    name_en: Operating profit before allowances and amortisation
+    method: rule_row_label
+    variant: 扣除准备金与摊销前的营运盈利
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: 扣除所得税前盈利
+  - concept_id: share_of_associates
+    name_en: Share of results of associates
+    method: rule_row_label
+    variant: 扣除税务后的联号企业业绩分享
+  - concept_id: staff_costs
+    name_en: Staff costs
+    method: rule_row_label
+    variant: 员工成本
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_row_label
+    variant: 总收入
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0172
+  title: 3. 净利息收入
+  pages:
+  - 76
+  - 76
+  printed_pages:
+  - '74'
+  - '74'
+  tags:
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_title
+    variant: 净利息收入
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0178
+  title: 9. 员工成本与其他营运支出
+  pages:
+  - 80
+  - 80
+  printed_pages:
+  - '78'
+  - '78'
+  tags:
+  - concept_id: staff_costs
+    name_en: Staff costs
+    method: rule_title
+    variant: 员工成本
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0179
+  title: 10. 贷款与其他资产准备金
+  pages:
+  - 81
+  - 81
+  printed_pages:
+  - '79'
+  - '79'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_title
+    variant: 贷款与其他资产准备金
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0180
+  title: 11. 所得税支出
+  pages:
+  - 81
+  - 82
+  printed_pages:
+  - '79'
+  - '80'
+  tags:
+  - concept_id: income_tax
+    name_en: Income tax expense
+    method: rule_title
+    variant: 所得税支出
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0232
+  title: 37.1 商业分部
+  pages:
+  - 125
+  - 127
+  printed_pages:
+  - '123'
+  - '125'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: 贷款与其他资产准备金
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_row_label
+    variant: 净利息收入
+  - concept_id: non_interest_income
+    name_en: Non-interest income
+    method: rule_row_label
+    variant: 非利息收入
+  - concept_id: npa
+    name_en: Non-performing assets
+    method: rule_row_label
+    variant: 不良资产
+  - concept_id: operating_profit
+    name_en: Operating profit before allowances and amortisation
+    method: rule_row_label
+    variant: 扣除准备金与摊销前的营运盈利
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: 扣除所得税前盈利
+  - concept_id: share_of_associates
+    name_en: Share of results of associates
+    method: rule_row_label
+    variant: 扣除税务后的联号企业业绩分享
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 资产总额
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_row_label
+    variant: 总收入
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2024_zh
+  node_id: ocbc-group_ar_2024_zh:regions:0237
+  title: 38.3 市场风险与资产负债管理
+  pages:
+  - 132
+  - 137
+  printed_pages:
+  - '130'
+  - '135'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: 客户贷款
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_dict
+    variant: NII
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 资产总额
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: wrong
+  wrong_tags:
+  - nii
+  note: Only NII sensitivity (simulated decline of S$1,896m under parallel-down scenario) is given, a different metric; no
+    reported NII value. Doubtful call.
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0030
+  title: 总派息率60%
+  pages:
+  - 9
+  - 11
+  printed_pages:
+  - '7'
+  - '9'
+  tags:
+  - concept_id: total_payout_ratio
+    name_en: Total dividend payout ratio
+    method: rule_title
+    variant: 总派息率
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0091
+  title: 展望2026年
+  pages:
+  - 25
+  - 25
+  printed_pages:
+  - '23'
+  - '23'
+  tags:
+  - concept_id: special_dividend
+    name_en: Special dividend
+    method: rule_dict
+    variant: 特别股息
+  verdict: correct
+  wrong_tags: []
+  note: 'Doubtful but correct: page carries the dividend-per-share chart with special dividend 16 cents (2024, 2025); the
+    outlook text itself does not discuss it.'
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0093
+  title: 五年股东总回报
+  pages:
+  - 25
+  - 25
+  printed_pages:
+  - '23'
+  - '23'
+  tags:
+  - concept_id: tsr
+    name_en: Total shareholder returns
+    method: rule_title
+    variant: 股东总回报
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0094
+  title: 推动股东回报
+  pages:
+  - 25
+  - 25
+  printed_pages:
+  - '23'
+  - '23'
+  tags:
+  - concept_id: payout_ratio
+    name_en: Dividend payout ratio
+    method: rule_dict
+    variant: 派息率
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0135
+  title: 股票回购与库存股
+  pages:
+  - 36
+  - 36
+  printed_pages:
+  - '34'
+  - '34'
+  tags:
+  - concept_id: cet1_ratio
+    name_en: CET1 capital adequacy ratio
+    method: rule_dict
+    variant: 普通股权Tier1资本
+  - concept_id: tier1_car
+    name_en: Tier 1 capital adequacy ratio
+    method: rule_dict
+    variant: Tier1资本
+  - concept_id: total_car
+    name_en: Total capital adequacy ratio
+    method: rule_dict
+    variant: 总资本充足率
+  verdict: wrong
+  wrong_tags:
+  - cet1_ratio
+  - tier1_car
+  - total_car
+  note: Only MAS regulatory minimums are given; no OCBC capital ratio values; node is about share buybacks.
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0137
+  title: 25亿元的资本归还
+  pages:
+  - 36
+  - 36
+  printed_pages:
+  - '34'
+  - '34'
+  tags:
+  - concept_id: core_net_profit
+    name_en: Core net profit
+    method: rule_dict
+    variant: 核心净利
+  - concept_id: special_dividend
+    name_en: Special dividend
+    method: rule_dict
+    variant: 特别股息
+  verdict: wrong
+  wrong_tags:
+  - core_net_profit
+  note: Core net profit only cited as the base of the special dividend (10% of core net profit); no core net profit value.
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0172
+  title: 合并现金流量表
+  pages:
+  - 60
+  - 60
+  printed_pages:
+  - '58'
+  - '58'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: 贷款与其他资产准备金
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: 扣除所得税前盈利
+  - concept_id: share_of_associates
+    name_en: Share of results of associates
+    method: rule_row_label
+    variant: 扣除税务后的联号企业业绩分享
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0204
+  title: 10. 贷款与其他资产准备金
+  pages:
+  - 82
+  - 82
+  printed_pages:
+  - '80'
+  - '80'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_title
+    variant: 贷款与其他资产准备金
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0205
+  title: 11. 所得税支出
+  pages:
+  - 82
+  - 83
+  printed_pages:
+  - '80'
+  - '81'
+  tags:
+  - concept_id: income_tax
+    name_en: Income tax expense
+    method: rule_title
+    variant: 所得税支出
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0239
+  title: 26. 客户贷款
+  pages:
+  - 109
+  - 109
+  printed_pages:
+  - '107'
+  - '107'
+  tags:
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_title
+    variant: 客户贷款
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0240
+  title: 27. 不良资产
+  pages:
+  - 110
+  - 111
+  printed_pages:
+  - '108'
+  - '109'
+  tags:
+  - concept_id: npa
+    name_en: Non-performing assets
+    method: rule_title
+    variant: 不良资产
+  - concept_id: npl
+    name_en: Non-performing loans
+    method: rule_dict
+    variant: 不良贷款
+  verdict: correct
+  wrong_tags: []
+  note: 'npl judged correct: table row ''classified loans'' (S$3,229m) is the NPL figure and text gives restructured share
+    of total NPLs.'
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0257
+  title: 37.1 商业分部
+  pages:
+  - 128
+  - 130
+  printed_pages:
+  - '126'
+  - '128'
+  tags:
+  - concept_id: allowances
+    name_en: Allowances for loans and other assets
+    method: rule_row_label
+    variant: 贷款与其他资产准备金
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_row_label
+    variant: 净利息收入
+  - concept_id: non_interest_income
+    name_en: Non-interest income
+    method: rule_row_label
+    variant: 非利息收入
+  - concept_id: npa
+    name_en: Non-performing assets
+    method: rule_row_label
+    variant: 不良资产
+  - concept_id: operating_profit
+    name_en: Operating profit before allowances and amortisation
+    method: rule_row_label
+    variant: 扣除准备金与摊销前的营运盈利
+  - concept_id: profit_before_tax
+    name_en: Profit before income tax
+    method: rule_row_label
+    variant: 扣除所得税前盈利
+  - concept_id: share_of_associates
+    name_en: Share of results of associates
+    method: rule_row_label
+    variant: 扣除税务后的联号企业业绩分享
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 资产总额
+  - concept_id: total_income
+    name_en: Total income
+    method: rule_row_label
+    variant: 总收入
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: correct
+  wrong_tags: []
+  note: ''
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0262
+  title: 38.3 市场风险与流动性风险管理
+  pages:
+  - 135
+  - 140
+  printed_pages:
+  - '133'
+  - '138'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: 客户贷款
+  - concept_id: nii
+    name_en: Net interest income
+    method: rule_dict
+    variant: 净利息收入
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 资产总额
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: wrong
+  wrong_tags:
+  - nii
+  note: Only NII sensitivity (simulated decline of S$1,951m) is given, a different metric; no reported NII value. Doubtful
+    call.
+- doc_id: ocbc-group_ar_2025_zh
+  node_id: ocbc-group_ar_2025_zh:regions:0264
+  title: 39. 金融资产与金融负债的分类
+  pages:
+  - 156
+  - 159
+  printed_pages:
+  - '154'
+  - '157'
+  tags:
+  - concept_id: customer_deposits
+    name_en: Customer deposits
+    method: rule_row_label
+    variant: 非银行客户存款
+  - concept_id: customer_loans
+    name_en: Customer loans
+    method: rule_row_label
+    variant: 客户贷款
+  - concept_id: total_assets
+    name_en: Total assets
+    method: rule_row_label
+    variant: 资产总额
+  - concept_id: total_liabilities
+    name_en: Total liabilities
+    method: rule_row_label
+    variant: 负债总额
+  verdict: correct
+  wrong_tags: []
+  note: ''
